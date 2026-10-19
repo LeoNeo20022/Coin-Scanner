@@ -183,3 +183,7 @@
 [2026-10-19T13:11:03+00:00] grok call 18.0s model=grok-4.3 tokens=995+57 reasoning=628
 [2026-10-19T13:11:03+00:00] grok [rugcheck] RWA Ee1b5t49… -> SKIP (0.85) 319% h6 and 72% h1 gains signal blow-off top; buying after vertical move is exit liquidity. | risk: Rapid pump already fading into thin liquidity
 [2026-10-19T13:11:04+00:00] run end {"discovered": 59, "skipped_recent": 6, "no_pair": 0, "market": {"pumpfun_bonding_curve": 17, "mcap_too_low": 22, "too_new": 1, "too_old": 9, "mcap_too_high": 3}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=33s
+[2026-10-19T13:15:31+00:00] run start (LOG ONLY)
+[2026-10-19T13:15:42+00:00] discovered=58 fresh=51 market_pass=0
+[2026-10-19T13:15:42+00:00] grok daily budget 7/40 used, 0 no-response, $0.0176 (2026-10-19 UTC)
+[2026-10-19T13:15:42+00:00] run end {"discovered": 58, "skipped_recent": 7, "no_pair": 0, "market": {"too_new": 3, "mcap_too_low": 21, "pumpfun_bonding_curve": 15, "too_old": 9, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
