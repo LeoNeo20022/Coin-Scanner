@@ -558,7 +558,9 @@
  },
  "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd": {
   "judged": 1792353030.9927964,
-  "symbol": "Gold"
+  "symbol": "Gold",
+  "market_logged": 1792450223.3514743,
+  "market_reason": "mcap_too_low"
  },
  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
   "market_logged": 1792439602.370586,
@@ -2115,8 +2117,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "2tgNZbwupez8gnXbfFqC7ZxJLwE3tQ1nMbYwLMPqpump": {
-  "market_logged": 1792449900.410806,
-  "market_reason": "mcap_too_high"
+  "market_logged": 1792450223.3514743,
+  "market_reason": "too_new"
  },
  "7gPmhsksQ5vwtgE7vCn121qHyZjep4R5J7NNDygaHTho": {
   "judged": 1792447772.9368114,
@@ -2193,5 +2195,13 @@
  "gv6djnjnaZgwdyc7LfNUAs1pRu5qvLLeHCdBt24pump": {
   "market_logged": 1792449900.410806,
   "market_reason": "too_new"
+ },
+ "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
+  "market_logged": 1792450223.3514743,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2KcCriQhQzzWyBgegPohMQ37TKehSFkD5EcPEj7vpump": {
+  "market_logged": 1792450223.3514743,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
