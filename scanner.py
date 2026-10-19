@@ -7,6 +7,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from config import SCANNER as S, MIN_CONFIDENCE
 from prompts import SCANNER_PROMPT
 from rugcheck import report, fact_kill
+import fallback
 from grok import ask
 import dexscreener as dx, paper
 
@@ -15,6 +16,7 @@ LOG_FIELDS = ["time", "mint", "symbol", "mcap_usd", "liquidity_usd", "age_hours"
 NEEDED_MARKET = ["mcap_usd", "liquidity_usd", "age_hours", "volume_h1_usd", "buys_h1", "sells_h1",
                  "price_change_m5_pct", "price_change_h1_pct", "price_change_h6_pct", "price_usd"]
 NEEDED_TOKEN = ["risk_score", "top10_pct", "lp_locked_pct"]
+NEEDED_TOKEN_FALLBACK = ["top10_pct", "lp_locked_pct"]   # fallback has no risk score / insider data; see fallback.py
 
 def now(): return datetime.now(timezone.utc)
 def iso(t=None): return (t or now()).isoformat(timespec="seconds")
@@ -85,7 +87,7 @@ def market_kill(m):
 def run():
     t0 = time.time(); sl = S["sleep_between_calls_s"]
     stats = {"discovered": 0, "skipped_recent": 0, "no_pair": 0, "market": {}, "rug": {}, "grok": 0,
-             "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0}
+             "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0}
     say("run start (LOG ONLY)")
     for e in paper.update_open(sl): say("paper: " + e)
 
@@ -125,28 +127,44 @@ def run():
         if grok_calls >= S["max_grok_calls_per_run"] or time.time() - t0 > S["grok_stop_after_s"]:
             stats["deferred"] += 1; continue          # not marked judged -> picked up next run
         budget_spent = budget["calls"] >= limit
+        src_used = "rugcheck"
         try:
-            t = report(mint)
-        except Exception as e:                        # RugCheck down/erroring -> skip, never buy
-            stats["rug"]["rugcheck_error"] = stats["rug"].get("rugcheck_error", 0) + 1
-            if nowts - ent.get("rc_err_logged", 0) > S["rugcheck_error_relog_minutes"] * 60:
-                log(m, "rugcheck", reason=f"rugcheck_error: {str(e)[:150]}", sources=src); ent["rc_err_logged"] = nowts
-            time.sleep(sl); continue                  # transient: retry next run, don't mark judged
+            t = report(mint); kill = fact_kill(t)
+        except Exception as e:                        # RugCheck down/erroring -> fallback check, else skip (never buy)
+            rc_err = f"{type(e).__name__}: {str(e)[:100]}"
+            try:
+                t = fallback.report(mint, m.get("pair"), m.get("dex")); kill = fallback.fact_kill(t)
+                src_used = t["source"]; stats["fallback"] += 1
+            except Exception as e2:
+                stats["rug"]["check_error"] = stats["rug"].get("check_error", 0) + 1
+                if nowts - ent.get("rc_err_logged", 0) > S["rugcheck_error_relog_minutes"] * 60:
+                    log(m, "rugcheck", reason=f"rugcheck_error: {rc_err} | fallback_error: {str(e2)[:150]}", sources=src)
+                    ent["rc_err_logged"] = nowts
+                time.sleep(sl); continue              # transient: retry next run, don't mark judged
         time.sleep(sl)
-        kill = fact_kill(t)
+        if kill and src_used != "rugcheck":
+            kill = "fb:" + kill
+            if kill.endswith("_unknown"):            # data gap (often indexing lag): retry later, log at most hourly
+                stats["rug"][kill] = stats["rug"].get(kill, 0) + 1
+                if nowts - ent.get("rc_err_logged", 0) > S["rugcheck_error_relog_minutes"] * 60:
+                    log(m, "rugcheck", reason=f"{kill} ({src_used}; {'; '.join(t.get('source_errors') or [])[:120]})", sources=src)
+                    ent["rc_err_logged"] = nowts
+                continue
         if kill:
             ent["judged"] = nowts; ent["symbol"] = m["symbol"]
             stats["rug"][kill] = stats["rug"].get(kill, 0) + 1
-            log(m, "rugcheck", reason=kill, sources=src); continue
+            log(m, "rugcheck", reason=kill, sources=src + ("" if src_used == "rugcheck" else f"|{src_used}")); continue
         if budget_spent:                              # free checks passed, but no Grok today -> never buy unjudged
             stats["deferred_budget"] += 1
             if nowts - ent.get("deferred_logged", 0) > S["deferred_relog_minutes"] * 60:
-                log(m, "deferred", reason=f"grok_daily_budget_spent ({budget['calls']}/{limit})", sources=src)
+                log(m, "deferred", reason=f"grok_daily_budget_spent ({budget['calls']}/{limit})",
+                    sources=src + ("" if src_used == "rugcheck" else f"|{src_used}"))
                 ent["deferred_logged"] = nowts
             continue                                  # not marked judged -> Grok sees it once budget resets
         ent["judged"] = nowts; ent["symbol"] = m["symbol"]
         mk = {k: v for k, v in m.items() if k not in ("mint", "pair", "price_usd")}
-        missing = [k for k in NEEDED_MARKET if m.get(k) is None] + [k for k in NEEDED_TOKEN if t.get(k) is None]
+        missing = [k for k in NEEDED_MARKET if m.get(k) is None] + \
+                  [k for k in (NEEDED_TOKEN if src_used == "rugcheck" else NEEDED_TOKEN_FALLBACK) if t.get(k) is None]
         budget["calls"] += 1; save_budget(budget)     # count the attempt before calling (errors may still bill)
         grok_calls += 1; stats["grok"] += 1
         verdict, conf, why, risk = "SKIP", "", "", ""
@@ -161,8 +179,9 @@ def run():
         except Exception as e:
             verdict, why = "SKIP", f"grok_error: {type(e).__name__}: {str(e)[:150]}"
         stats[verdict] += 1
-        log(m, "grok", verdict=verdict, confidence=conf, reason=why, main_risk=risk, sources=src)
-        say(f"grok {m['symbol']} {mint[:8]}… -> {verdict} ({conf}) {why} | risk: {risk}")
+        log(m, "grok", verdict=verdict, confidence=conf, reason=why, main_risk=risk,
+            sources=src + ("" if src_used == "rugcheck" else f"|{src_used}"))
+        say(f"grok [{src_used}] {m['symbol']} {mint[:8]}… -> {verdict} ({conf}) {why} | risk: {risk}")
         if verdict == "BUY":
             pos = paper.open_position(mint, m["symbol"], m["pair"], m["price_usd"], conf, why)
             if pos: say(f"paper BUY ${S['paper_ticket_usd']} {m['symbol']} @ {m['price_usd']}")

@@ -2,7 +2,7 @@
 # One-time publish of the log-only scanner to GitHub. NOT run automatically.
 # Usage (from a login shell so XAI_API_KEY is set):
 #   GH_TOKEN=... GH_OWNER=<github username> bash -lc /workspace/coin-scanner-gh/push.sh
-# The repo https://github.com/$GH_OWNER/coin-scanner must already exist (public, empty).
+# The repo https://github.com/$GH_OWNER/Coin-Scanner must already exist (public, empty).
 # Fine-grained token, only that repo: Contents RW, Workflows RW, Secrets RW, Actions RW, Metadata R.
 # The token is passed to git through a credential helper that reads it from the environment at run time,
 # so it is never written to .git/config, never on a command line, and never printed.
@@ -10,7 +10,7 @@
 # first (stop the box loop first so the two don't diverge).
 set -euo pipefail
 cd "$(dirname "$0")"
-REPO=coin-scanner
+REPO=Coin-Scanner
 : "${GH_TOKEN:?set GH_TOKEN}"; : "${GH_OWNER:?set GH_OWNER}"
 [ -n "${XAI_API_KEY:-}" ] || { echo "XAI_API_KEY not set in this shell (use bash -lc)"; exit 1; }
 export GH_TOKEN GH_OWNER REPO

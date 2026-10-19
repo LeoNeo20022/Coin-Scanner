@@ -25,6 +25,7 @@ SCANNER_PROMPT = """You are SCANNER DESK. You look at a brand-new, low-market-ca
 INPUT: {"market": {...DexScreener pair data...}, "token": {...rugcheck facts...}}
 market has: symbol, mcap_usd, liquidity_usd, age_hours, volume_h1_usd, volume_h6_usd, buys_h1, sells_h1, buys_m5, sells_m5, price_change_m5_pct, price_change_h1_pct, price_change_h6_pct, liquidity_to_mcap, dex.
 The token already passed the hard fact checks in code (mint/freeze authority, danger risks, risk score, top-10 holders, LP lock, insider networks) and the market filter (mcap, liquidity, age, 1h volume, buys > sells). Do not re-check them.
+If token.source starts with "fallback", RugCheck was down and the facts came from GoPlus/Jupiter/Solana RPC instead: there is no risk score and no insider-network data (listed in token.not_available; that is expected, not a reason by itself to SKIP). The code already killed active mint/freeze authority, Token-2022 transfer restrictions, top-10 > 30%, any single non-pool wallet > 5% (or top-10 > 20% when no per-wallet list exists), and unlocked LP. Weigh organic_score, holder_count, dev_balance_pct and warn when present.
 Judge what code can't:
  - is buying steady and broad (many buys spread over time), or one spike that is already fading (m5 vs h1 vs h6)
  - is the price chart a blow-off top: huge h1/h6 gains often mean we are buying the exit

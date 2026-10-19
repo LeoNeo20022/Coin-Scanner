@@ -1,7 +1,14 @@
 MODEL = "grok-4"            # check console.x.ai -> Models if the API rejects it
 TICKET_USD = 50
 TRADER = {"min_closed_trades": 20, "min_win_rate": 0.55, "max_top_coin_share": 0.50, "min_pnl_7d_usd": 0}
-TOKEN = {"max_risk_score": 50, "max_top10_pct": 30, "min_lp_locked_pct": 90, "max_insider_nets": 0}
+TOKEN = {"max_risk_score": 50, "max_top10_pct": 30, "min_lp_locked_pct": 90, "max_insider_nets": 0,
+         "max_single_holder_pct": 5}   # single non-pool wallet cap (used by the fallback check)
+# Fallback safety check when RugCheck errors (free, no keys). See fallback.py.
+FALLBACK = {"goplus_url": "https://api.gopluslabs.io/api/v1/solana/token_security",
+            "jupiter_url": "https://lite-api.jup.ag/tokens/v2/search",
+            "rpc_url": "https://api.mainnet-beta.solana.com",
+            "max_transfer_fee_pct": 0,              # any Token-2022 transfer fee = kill
+            "top10_cap_when_holders_unknown": 20}   # stricter top-10 cap when no per-wallet holder list
 MIN_CONFIDENCE = 0.65
 LEADERS_FILE = "leaders.json"
 LOG_FILE = "checks.csv"
