@@ -969,7 +969,9 @@
  },
  "YE2mBZx8sL1bhfWpoR9dPAozmKhGE8eKa4sEEQ5pump": {
   "market_logged": 1792411324.0424304,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "judged": 1792412824.3116252,
+  "symbol": "NEETOPIA"
  },
  "E123uJ951ndN5xJVnykaSCMcMFQJseSMpGzMuiXWpump": {
   "market_logged": 1792407982.80863,
@@ -1034,5 +1036,13 @@
  "1EwcGE6WrssiY2sKSadB5E5DE9WhPDQvBC6kev1EDGE": {
   "market_logged": 1792412524.1486707,
   "market_reason": "too_old"
+ },
+ "2yxwfv6t6dwdugap2pvcbCGVfAYxxFqMKCtF6vEnpump": {
+  "market_logged": 1792412824.3116252,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": {
+  "market_logged": 1792412824.3116252,
+  "market_reason": "too_new"
  }
 }
