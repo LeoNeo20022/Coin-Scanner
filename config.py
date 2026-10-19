@@ -27,12 +27,14 @@ SCANNER = {
     "max_grok_calls_per_run": 3,
     "max_grok_calls_per_day": 40,       # total Grok calls per UTC day (env GROK_DAILY_BUDGET overrides); then free checks only
     "grok_budget_file": "grok_budget.json",
-    "grok_stop_after_s": 75,            # don't START a new Grok call after this many seconds into a run (GitHub job timeout)
+    "grok_stop_after_s": 150,           # don't START a new Grok call after this many seconds into a run (GitHub job timeout)
     "rugcheck_error_relog_minutes": 60, # log a RugCheck error for the same mint at most once per this window
     "deferred_relog_minutes": 60,       # log a budget-deferred candidate at most once per this window
     "run_interval_s": 300,              # schedule interval, used by summary.py coverage (GitHub cron */5)
     "sleep_between_calls_s": 1.5,       # between rugcheck / Grok / DexScreener calls
-    "grok_timeout_s": 90,
+    "grok_timeout_s": 60,            # READ timeout per call (connect timeout 10s); normal latency 6-9s
+    "grok_retry_after_minutes": 60,     # a coin whose Grok call got no response is retried once after this
+    "max_grok_failures_per_day": 10,    # no-response failures (not counted as calls) before Grok pauses for the day
     # paper trading
     "paper_ticket_usd": 5,
     "stop_loss_pct": -50,               # close everything at -50% from entry (or the remaining half after TP)

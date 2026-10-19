@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,7 +37,7 @@ jobs:
         run: |
           if [ -z "$XAI_API_KEY" ]; then echo "[$(date -u +%FT%TZ)] WARNING XAI_API_KEY secret missing; Grok calls will fail -> SKIP" >> scanner_runs.log; fi
           set -o pipefail
-          timeout 180 python scanner.py 2>&1 | tee -a scanner_runs.log || echo "[$(date -u +%FT%TZ)] scanner exited with code $?" >> scanner_runs.log
+          timeout 360 python scanner.py 2>&1 | tee -a scanner_runs.log || echo "[$(date -u +%FT%TZ)] scanner exited with code $?" >> scanner_runs.log
           # keep the run log from growing forever
           tail -n 5000 scanner_runs.log > scanner_runs.log.tmp && mv scanner_runs.log.tmp scanner_runs.log
 

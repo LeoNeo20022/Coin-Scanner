@@ -8,7 +8,7 @@ from config import SCANNER as S, MIN_CONFIDENCE
 from prompts import SCANNER_PROMPT
 from rugcheck import report, fact_kill
 import fallback
-from grok import ask
+from grok import ask, NoResponse
 import dexscreener as dx, paper
 
 LOG_FIELDS = ["time", "mint", "symbol", "mcap_usd", "liquidity_usd", "age_hours", "volume_h1_usd", "buys_h1",
@@ -38,6 +38,7 @@ def load_budget():
     try: b = json.load(open(S["grok_budget_file"]))
     except Exception: b = {}
     if b.get("date") != today: b = {"date": today, "calls": 0}   # new UTC day -> reset
+    b.setdefault("failed", 0); b.setdefault("cost_usd", 0.0)
     return b
 def save_budget(b):
     tmp = S["grok_budget_file"] + ".tmp"; json.dump(b, open(tmp, "w")); os.replace(tmp, S["grok_budget_file"])
@@ -95,7 +96,8 @@ def run():
     for e in errs: say("discovery_error " + e)
     stats["discovered"] = len(found)
     seen = load_seen(); nowts = time.time()
-    fresh = [m for m in found if nowts - seen.get(m, {}).get("judged", 0) > S["rejudge_after_hours"] * 3600]
+    fresh = [m for m in found if nowts - seen.get(m, {}).get("judged", 0) > S["rejudge_after_hours"] * 3600
+             and nowts >= seen.get(m, {}).get("grok_retry_at", 0)]
     stats["skipped_recent"] = len(found) - len(fresh)
     try:
         pairs = dx.pairs_for(fresh, sl) if fresh else {}
@@ -121,12 +123,12 @@ def run():
 
     grok_calls = 0
     budget = load_budget(); limit = grok_budget_limit()
-    say(f"grok daily budget {budget['calls']}/{limit} used ({budget['date']} UTC)")
+    say(f"grok daily budget {budget['calls']}/{limit} used, {budget['failed']} no-response, ${budget['cost_usd']:.4f} ({budget['date']} UTC)")
     for m, src in survivors:
         mint = m["mint"]; ent = seen.setdefault(mint, {})
         if grok_calls >= S["max_grok_calls_per_run"] or time.time() - t0 > S["grok_stop_after_s"]:
             stats["deferred"] += 1; continue          # not marked judged -> picked up next run
-        budget_spent = budget["calls"] >= limit
+        budget_spent = budget["calls"] >= limit or budget["failed"] >= S["max_grok_failures_per_day"]
         src_used = "rugcheck"
         try:
             t = report(mint); kill = fact_kill(t)
@@ -161,15 +163,38 @@ def run():
                     sources=src + ("" if src_used == "rugcheck" else f"|{src_used}"))
                 ent["deferred_logged"] = nowts
             continue                                  # not marked judged -> Grok sees it once budget resets
-        ent["judged"] = nowts; ent["symbol"] = m["symbol"]
+        ent["symbol"] = m["symbol"]
         mk = {k: v for k, v in m.items() if k not in ("mint", "pair", "price_usd")}
         missing = [k for k in NEEDED_MARKET if m.get(k) is None] + \
                   [k for k in (NEEDED_TOKEN if src_used == "rugcheck" else NEEDED_TOKEN_FALLBACK) if t.get(k) is None]
-        budget["calls"] += 1; save_budget(budget)     # count the attempt before calling (errors may still bill)
         grok_calls += 1; stats["grok"] += 1
         verdict, conf, why, risk = "SKIP", "", "", ""
+        tg = time.time()
         try:
-            v = ask(SCANNER_PROMPT, {"market": mk, "token": t}, timeout=S["grok_timeout_s"])
+            try:
+                v, usage = ask(SCANNER_PROMPT, {"market": mk, "token": t}, timeout=(10, S["grok_timeout_s"]), with_usage=True)
+            except NoResponse as e:                   # no completion came back: not counted, retry once later
+                budget["failed"] += 1; save_budget(budget)
+                ent["grok_fail"] = ent.get("grok_fail", 0) + 1
+                if ent["grok_fail"] <= 1:
+                    ent["grok_retry_at"] = nowts + S["grok_retry_after_minutes"] * 60
+                    why = f"grok_no_response (retry in {S['grok_retry_after_minutes']}m): {e}"
+                else:
+                    ent["judged"] = nowts; why = f"grok_no_response (retry used): {e}"
+                stats["grok_no_response"] = stats.get("grok_no_response", 0) + 1
+                log(m, "grok", verdict="SKIP", reason=why, sources=src + ("" if src_used == "rugcheck" else f"|{src_used}"))
+                say(f"grok [{src_used}] {m['symbol']} {mint[:8]}… -> no response after {time.time() - tg:.0f}s: {why}")
+                time.sleep(sl); continue
+            except Exception:
+                budget["calls"] += 1; save_budget(budget)   # a response came back (e.g. bad JSON / 4xx): counts
+                raise
+            budget["calls"] += 1
+            budget["cost_usd"] = round(budget["cost_usd"] + (usage.get("cost_in_usd_ticks") or 0) / 1e10, 6)
+            save_budget(budget)
+            ent["judged"] = nowts
+            say(f"grok call {time.time() - tg:.1f}s model={usage.get('served_model')} "
+                f"tokens={usage.get('prompt_tokens')}+{usage.get('completion_tokens')} "
+                f"reasoning={(usage.get('completion_tokens_details') or {}).get('reasoning_tokens')}")
             verdict = str(v.get("verdict", "SKIP")).upper(); conf = v.get("confidence")
             why = v.get("why", ""); risk = v.get("main_risk", "")
             if verdict not in ("BUY", "SKIP"): verdict, why = "SKIP", f"bad verdict {verdict!r}: {why}"
@@ -177,6 +202,7 @@ def run():
             if verdict == "BUY" and (not isinstance(conf, (int, float)) or conf < MIN_CONFIDENCE):
                 verdict, why = "SKIP", f"low confidence {conf}: {why}"
         except Exception as e:
+            ent["judged"] = nowts
             verdict, why = "SKIP", f"grok_error: {type(e).__name__}: {str(e)[:150]}"
         stats[verdict] += 1
         log(m, "grok", verdict=verdict, confidence=conf, reason=why, main_risk=risk,
