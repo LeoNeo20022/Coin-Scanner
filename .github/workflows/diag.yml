@@ -1,0 +1,28 @@
+name: diag-xai
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.13', cache: pip, cache-dependency-path: requirements.txt }
+      - run: pip install -r requirements.txt
+      - name: network to api.x.ai
+        env: { XAI_API_KEY: "${{ secrets.XAI_API_KEY }}" }
+        run: |
+          getent ahosts api.x.ai | head -6 || true
+          for fam in -4 -6; do
+            curl $fam -sS -o /dev/null --max-time 20 -H "Authorization: Bearer $XAI_API_KEY" \
+              -w "curl $fam http=%{http_code} ip=%{remote_ip} dns=%{time_namelookup} connect=%{time_connect} tls=%{time_appconnect} total=%{time_total}\n" \
+              https://api.x.ai/v1/models || echo "curl $fam failed"
+          done
+      - name: timed Grok calls (scanner-sized payload)
+        env: { XAI_API_KEY: "${{ secrets.XAI_API_KEY }}" }
+        run: |
+          python diag_lat.py grok-4 || true
+          python diag_lat.py grok-4 v4 || true
+          python diag_lat.py grok-4 || true
