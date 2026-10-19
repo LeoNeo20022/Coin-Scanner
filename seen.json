@@ -2118,7 +2118,9 @@
  },
  "2tgNZbwupez8gnXbfFqC7ZxJLwE3tQ1nMbYwLMPqpump": {
   "market_logged": 1792450223.3514743,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "MILO",
+  "judged": 1792450822.5077713
  },
  "7gPmhsksQ5vwtgE7vCn121qHyZjep4R5J7NNDygaHTho": {
   "judged": 1792447772.9368114,
@@ -2209,7 +2211,11 @@
   "symbol": "COLLECTOOOR"
  },
  "E6DtJ7EMnxHJFZpXs8E2hsMupZh1KM1MQXFPar2Epump": {
-  "market_logged": 1792450522.5068028,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792450822.5077713,
+  "market_reason": "mcap_too_low"
+ },
+ "8PeWSC8WFAyvFUHFAhRpVT2bajFsvVqb4EVL1ihJpump": {
+  "market_logged": 1792450822.5077713,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
