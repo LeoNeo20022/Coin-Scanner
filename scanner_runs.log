@@ -709,3 +709,7 @@
 [2026-10-19T23:00:41+00:00] grok call 14.4s model=grok-4.3 tokens=998+72 reasoning=529
 [2026-10-19T23:00:41+00:00] grok [rugcheck] MILO 2tgNZbwu… -> SKIP (0.85) 3286% gain in 6h on 1h-old token screams blow-off top. Liquidity only 6.4% of mcap leaves it fragile to any sell pressure. | risk: massive early pump already pricing in exit liquidity
 [2026-10-19T23:00:43+00:00] run end {"discovered": 54, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 14, "too_new": 3, "missing:mcap_usd": 1, "missing:liquidity_usd": 2, "mcap_too_high": 1, "too_old": 6}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=29s
+[2026-10-19T23:05:14+00:00] run start (LOG ONLY)
+[2026-10-19T23:05:25+00:00] discovered=56 fresh=47 market_pass=0
+[2026-10-19T23:05:25+00:00] grok daily budget 10/40 used, 0 no-response, $0.0255 (2026-10-19 UTC)
+[2026-10-19T23:05:25+00:00] run end {"discovered": 56, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "missing:mcap_usd": 2, "too_new": 3, "mcap_too_low": 14, "missing:liquidity_usd": 2, "mcap_too_high": 1, "too_old": 6}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
