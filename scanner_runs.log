@@ -161,3 +161,7 @@
 [2026-10-19T12:47:29+00:00] discovered=56 fresh=51 market_pass=1
 [2026-10-19T12:47:29+00:00] grok daily budget 6/40 used, 0 no-response, $0.0148 (2026-10-19 UTC)
 [2026-10-19T12:47:31+00:00] run end {"discovered": 56, "skipped_recent": 5, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 20, "too_new": 2, "too_old": 8, "liquidity_low": 1, "mcap_too_high": 3}, "rug": {"top10": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=13s
+[2026-10-19T12:52:18+00:00] run start (LOG ONLY)
+[2026-10-19T12:52:29+00:00] discovered=56 fresh=50 market_pass=0
+[2026-10-19T12:52:29+00:00] grok daily budget 6/40 used, 0 no-response, $0.0148 (2026-10-19 UTC)
+[2026-10-19T12:52:29+00:00] run end {"discovered": 56, "skipped_recent": 6, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 20, "liquidity_low": 1, "too_new": 2, "too_old": 8, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
