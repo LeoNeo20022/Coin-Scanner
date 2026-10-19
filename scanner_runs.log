@@ -17,3 +17,7 @@
 [2026-10-19T07:55:45+00:00] grok [fallback:goplus+jupiter] sir 6AZCEfnh… -> BUY (0.72) Buys dominate sells across h1 and m5 with flat-to-up price action after h6 dip; 493 holders, top10 at 18%, dev at 0.58% and 100% LP locked show broad distribution. | risk: Fallback data means no risk_score or insider nets; h1 volume lower than h6 could signal fading momentum
 [2026-10-19T07:55:45+00:00] paper BUY $5 sir @ 8.168e-05
 [2026-10-19T07:55:47+00:00] run end {"discovered": 63, "skipped_recent": 5, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 16, "mcap_too_high": 4, "too_old": 9, "sells_ge_buys_h1": 2, "missing:liquidity_usd": 1, "liquidity_low": 1}, "rug": {"fb:top10(holders_unknown)": 1}, "grok": 2, "BUY": 1, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 3} elapsed=42s
+[2026-10-19T08:04:25+00:00] run start (LOG ONLY)
+[2026-10-19T08:04:36+00:00] discovered=62 fresh=54 market_pass=0
+[2026-10-19T08:04:36+00:00] grok daily budget 3/40 used, 0 no-response, $0.0063 (2026-10-19 UTC)
+[2026-10-19T08:04:36+00:00] run end {"discovered": 62, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "mcap_too_low": 16, "mcap_too_high": 4, "too_old": 9, "sells_ge_buys_h1": 2, "missing:liquidity_usd": 1, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
