@@ -36,7 +36,8 @@ SCANNER = {
     "grok_retry_after_minutes": 60,     # a coin whose Grok call got no response is retried once after this
     "max_grok_failures_per_day": 10,    # no-response failures (not counted as calls) before Grok pauses for the day
     # paper trading
-    "paper_ticket_usd": 5,
+    "paper_ticket_usd": 10,           # new paper trades from 2026-10-19 (earlier ones were $5; each row keeps its own entry_usd)
+    "paper_budget_usd": 100,            # pretend paper bankroll shown in summary.py (display only)
     "stop_loss_pct": -50,               # close everything at -50% from entry (or the remaining half after TP)
     "take_profit_pct": 100,             # sell half at +100%
     "take_profit_fraction": 0.5,

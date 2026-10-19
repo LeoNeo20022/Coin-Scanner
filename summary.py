@@ -42,7 +42,7 @@ def section(title, log, trades):
     for t in sorted(trades, key=lambda t: float(t["pnl_usd"] or 0), reverse=True):
         st = t["status"] if t["status"] == "open" else f"closed: {t['exit_reason']}"
         half = ", took half profit" if t["half_taken"] == "1" else ""
-        print(f"    #{t['id']} {t['symbol']:<12} {money(float(t['pnl_usd'] or 0)):>8} ({float(t['pnl_pct'] or 0):+.0f}%)  [{st}{half}]  opened {t['opened_at'][:16]}")
+        print(f"    #{t['id']} {t['symbol']:<12} ${float(t['entry_usd']):.0f} in, {money(float(t['pnl_usd'] or 0)):>8} ({float(t['pnl_pct'] or 0):+.0f}%)  [{st}{half}]  opened {t['opened_at'][:16]}")
     b = max(trades, key=lambda t: float(t["pnl_usd"] or 0)); wst = min(trades, key=lambda t: float(t["pnl_usd"] or 0))
     print(f"  Best: {b['symbol']} {money(float(b['pnl_usd']))}   Worst: {wst['symbol']} {money(float(wst['pnl_usd']))}")
 
@@ -69,6 +69,15 @@ def coverage(cut):
     print(msg)
     print(f"Last scanner run: {starts[-1].strftime('%m-%d %H:%M')} UTC")
 
+def budget(trades):
+    """Pretend paper bankroll (display only): each trade counts with its own size (old $5, new $10)."""
+    start = float(S.get("paper_budget_usd", 100))
+    pnl = sum(float(t["pnl_usd"] or 0) for t in trades)
+    in_use = sum(float(t["entry_usd"]) for t in trades if t["status"] == "open")
+    bal = start + pnl
+    print(f"\nPretend ${start:.0f} paper budget: now worth ${bal:.2f} ({money(pnl)}, {100 * pnl / start:+.1f}%), "
+          f"${in_use:.2f} in {sum(1 for t in trades if t['status'] == 'open')} open trades, ${bal - in_use:.2f} free (approx)")
+
 def main():
     log, trades = rows(S["log_file"]), rows(S["paper_file"])
     cut = datetime.now(timezone.utc) - timedelta(hours=24)
@@ -77,6 +86,7 @@ def main():
     coverage(cut)
     section("Last 24 hours", [r for r in log if ts(r["time"]) >= cut], [t for t in trades if ts(t["opened_at"]) >= cut])
     section("All time", log, trades)
+    budget(trades)
     print("\nNote: market-filter rejects are logged once per token per day; P&L uses prices sampled every scheduled run, no fees unless set in config.")
 
 if __name__ == "__main__":
