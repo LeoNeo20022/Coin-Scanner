@@ -2,7 +2,7 @@ name: scan
 
 on:
   schedule:
-    - cron: '*/5 * * * *'   # best effort: GitHub often runs scheduled jobs late or skips them under load
+    - cron: '*/5 * * * *'   # best effort: GitHub starts these late (~every 30-36 min); loop.sh covers the gap
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,29 +31,11 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
 
-      - name: Run one scanner pass (log only)
+      - name: Scan every 5 min for ~38 min, committing state after each scan (log only)
         env:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-        run: |
-          if [ -z "$XAI_API_KEY" ]; then echo "[$(date -u +%FT%TZ)] WARNING XAI_API_KEY secret missing; Grok calls will fail -> SKIP" >> scanner_runs.log; fi
-          set -o pipefail
-          timeout 360 python scanner.py 2>&1 | tee -a scanner_runs.log || echo "[$(date -u +%FT%TZ)] scanner exited with code $?" >> scanner_runs.log
-          # keep the run log from growing forever
-          tail -n 5000 scanner_runs.log > scanner_runs.log.tmp && mv scanner_runs.log.tmp scanner_runs.log
+        run: bash loop.sh
 
-      - name: Commit state back to main
-        if: success() || failure()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          FILES="seen.json paper_trades.csv scanner_log.csv scanner_runs.log grok_budget.json"
-          git add $FILES
-          if git diff --cached --quiet; then echo "no state changes"; exit 0; fi
-          git commit -m "scan state $(date -u +%FT%TZ) [skip ci]"
-          for i in 1 2 3 4 5; do
-            if git push origin HEAD:main; then exit 0; fi
-            echo "push rejected (attempt $i); rebasing on latest main"
-            git pull --rebase origin main || { git rebase --abort || true; echo "rebase conflict; dropping this run's state"; exit 1; }
-            sleep $((i * 3))
-          done
-          exit 1
+      - name: Commit any leftover state (if the loop was cut off)
+        if: failure() || cancelled()
+        run: bash loop.sh --commit-only

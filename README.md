@@ -3,7 +3,8 @@
 A paper-trade scanner for new low-cap Solana tokens. **It places no real trades, has no wallet,
 holds no private keys, and never connects to any exchange, trading bot, or fomo account.**
 
-Every 5 minutes (GitHub Actions cron, best effort) it:
+Every 5 minutes it does the steps below. GitHub only starts the scheduled run every ~30-36 min, so each run
+(`loop.sh`) scans every 5 min for ~38 min and commits state after each scan. Each scan:
 1. Marks open *paper* positions to market with free DexScreener prices and applies the paper exits
    (-50% stop, sell half at +100%, close the rest after 72h).
 2. Pulls new Solana tokens from DexScreener's free feeds and filters by market cap, liquidity, age,
