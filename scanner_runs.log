@@ -667,3 +667,7 @@
 [2026-10-19T22:15:11+00:00] grok call 6.1s model=grok-4.3 tokens=993+62 reasoning=514
 [2026-10-19T22:15:11+00:00] grok [rugcheck] Mii FyS5ruga… -> SKIP (0.85) 792% h1 pump on 1h-old token screams blow-off top; volume concentrated in first hour with fading momentum likely. | risk: Classic early hype exit liquidity trap after parabolic open.
 [2026-10-19T22:15:13+00:00] run end {"discovered": 50, "skipped_recent": 11, "no_pair": 1, "market": {"too_new": 3, "mcap_too_low": 16, "pumpfun_bonding_curve": 11, "mcap_too_high": 1, "too_old": 6}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=20s
+[2026-10-19T22:19:52+00:00] run start (LOG ONLY)
+[2026-10-19T22:20:03+00:00] discovered=51 fresh=39 market_pass=1
+[2026-10-19T22:20:03+00:00] grok daily budget 9/40 used, 0 no-response, $0.0229 (2026-10-19 UTC)
+[2026-10-19T22:20:08+00:00] run end {"discovered": 51, "skipped_recent": 12, "no_pair": 1, "market": {"missing:liquidity_usd": 1, "mcap_too_low": 15, "pumpfun_bonding_curve": 11, "too_new": 2, "liquidity_low": 1, "mcap_too_high": 1, "too_old": 6}, "rug": {"insiders": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=16s
