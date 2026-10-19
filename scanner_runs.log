@@ -37,3 +37,8 @@
 [2026-10-19T09:53:16+00:00] grok call 13.2s model=grok-4.3 tokens=1136+71 reasoning=663
 [2026-10-19T09:53:16+00:00] grok [fallback:goplus+jupiter] GLITCH 8Xg89xT8… -> SKIP (0.55) Strong m5 buy/sell ratio but price already fading (-12% h1). Organic score and holder spread are only average for this age. | risk: Thin liquidity (6.9%) + recent volume drop could amplify any sell pressure
 [2026-10-19T09:53:17+00:00] run end {"discovered": 59, "skipped_recent": 4, "no_pair": 0, "market": {"pumpfun_bonding_curve": 17, "mcap_too_low": 17, "liquidity_low": 1, "missing:liquidity_usd": 2, "mcap_too_high": 4, "sells_ge_buys_h1": 3, "too_old": 8}, "rug": {"fb:top10(holders_unknown)": 1}, "grok": 2, "BUY": 0, "SKIP": 2, "deferred": 0, "deferred_budget": 0, "fallback": 3} elapsed=45s
+[2026-10-19T10:20:52+00:00] run start (LOG ONLY)
+[2026-10-19T10:20:54+00:00] paper: FTR: closed (stop_loss) at -53.5%
+[2026-10-19T10:21:03+00:00] discovered=57 fresh=51 market_pass=1
+[2026-10-19T10:21:03+00:00] grok daily budget 5/40 used, 0 no-response, $0.0121 (2026-10-19 UTC)
+[2026-10-19T10:21:05+00:00] run end {"discovered": 57, "skipped_recent": 6, "no_pair": 0, "market": {"mcap_too_low": 19, "pumpfun_bonding_curve": 15, "missing:liquidity_usd": 2, "too_old": 9, "sells_ge_buys_h1": 2, "mcap_too_high": 3}, "rug": {"insiders": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=13s
