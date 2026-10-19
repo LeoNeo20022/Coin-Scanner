@@ -91,6 +91,7 @@ def run():
              "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0}
     say("run start (LOG ONLY)")
     for e in paper.update_open(sl): say("paper: " + e)
+    for e in paper.update_quick(sl): say("paper: " + e)
 
     found, errs = dx.discover(sl)
     for e in errs: say("discovery_error " + e)
@@ -211,6 +212,8 @@ def run():
         if verdict == "BUY":
             pos = paper.open_position(mint, m["symbol"], m["pair"], m["price_usd"], conf, why)
             if pos: say(f"paper BUY ${S['paper_ticket_usd']} {m['symbol']} @ {m['price_usd']}")
+            if pos and paper.open_quick(mint, m["symbol"], m["pair"], m["price_usd"], conf, why):
+                say(f"paper QUICK BUY ${S['paper_ticket_usd']} {m['symbol']} @ {m['price_usd']} (sell all at +{S['quick_take_profit_pct']}%)")
         time.sleep(sl)
     save_seen(seen); save_budget(budget)
     say("run end " + json.dumps(stats) + f" elapsed={time.time() - t0:.0f}s")

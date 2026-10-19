@@ -69,14 +69,49 @@ def coverage(cut):
     print(msg)
     print(f"Last scanner run: {starts[-1].strftime('%m-%d %H:%M')} UTC")
 
-def budget(trades):
-    """Pretend paper bankroll (display only): each trade counts with its own size (old $5, new $10)."""
+def budget(trades, label="Pretend", quiet=False):
+    """Pretend paper bankroll (display only): each trade counts with its own size (old $5, new $10).
+    Each strategy has its OWN independent pretend budget."""
     start = float(S.get("paper_budget_usd", 100))
     pnl = sum(float(t["pnl_usd"] or 0) for t in trades)
     in_use = sum(float(t["entry_usd"]) for t in trades if t["status"] == "open")
     bal = start + pnl
-    print(f"\nPretend ${start:.0f} paper budget: now worth ${bal:.2f} ({money(pnl)}, {100 * pnl / start:+.1f}%), "
-          f"${in_use:.2f} in {sum(1 for t in trades if t['status'] == 'open')} open trades, ${bal - in_use:.2f} free (approx)")
+    line = (f"{label} ${start:.0f} paper budget: now worth ${bal:.2f} ({money(pnl)}, {100 * pnl / start:+.1f}%), "
+            f"${in_use:.2f} in {sum(1 for t in trades if t['status'] == 'open')} open trades, ${bal - in_use:.2f} free (approx)")
+    if not quiet: print("\n" + line)
+    return line
+
+def breakeven(tp_pct, sl_pct):
+    """Win rate needed to break even when every win is +tp% and every loss is sl% (negative)."""
+    return 100 * abs(sl_pct) / (tp_pct + abs(sl_pct))
+
+def quick_section(quick, main_trades):
+    tp, sl, hold = S.get("quick_take_profit_pct", 50), S["stop_loss_pct"], S["max_hold_hours"]
+    print(f"\n=== QUICK strategy (shadow of each new main buy: sell ALL at +{tp}%, stop {sl}%, max hold {hold}h) ===")
+    be_q = breakeven(tp, sl)
+    # main: a winner that takes half at +TP then gets the rest stopped out nets fr*TP + (1-fr)*SL (worst-case winner)
+    fr, mtp = S["take_profit_fraction"], S["take_profit_pct"]
+    worst_win = fr * mtp + (1 - fr) * sl
+    print(f"Break-even win rate: quick {be_q:.0f}% (win +{tp}% vs loss {sl}%); "
+          f"main about {breakeven(worst_win, sl):.0f}% if winners only get the half at +{mtp}% then stop out (+{worst_win:.0f}%), lower if they run")
+    if not quick:
+        print("Quick trades: none yet (starts with the next $10 scanner paper buy)."); return
+    closed = [t for t in quick if t["status"] == "closed"]
+    wins = [t for t in closed if t["exit_reason"] == "take_profit"]
+    losses = [t for t in closed if float(t["pnl_usd"] or 0) <= 0]
+    pnl = sum(float(t["pnl_usd"] or 0) for t in quick)
+    wr = f"{100 * len(wins) / len(closed):.0f}%" if closed else "n/a"
+    print(f"Quick trades: {len(quick)} opened, {len(closed)} closed, {len(quick) - len(closed)} open")
+    print(f"  Hit +$5 target: {len(wins)}   Losses: {len(losses)}   Win rate (closed): {wr}   Total P&L: {money(pnl)}")
+    for t in sorted(quick, key=lambda t: t["opened_at"]):
+        st = t["status"] if t["status"] == "open" else f"closed: {t['exit_reason']}"
+        print(f"    #{t['id']} {t['symbol']:<12} ${float(t['entry_usd']):.0f} in, {money(float(t['pnl_usd'] or 0)):>8} ({float(t['pnl_pct'] or 0):+.0f}%)  [{st}]  opened {t['opened_at'][:16]}")
+    # same coins, both ways
+    mains = {t["mint"]: t for t in main_trades}
+    same = [t for t in quick if t["mint"] in mains]
+    if same:
+        mp = sum(float(mains[t["mint"]]["pnl_usd"] or 0) for t in same)
+        print(f"  Same {len(same)} coins under main/hold strategy: {money(mp)} vs quick {money(sum(float(t['pnl_usd'] or 0) for t in same))}")
 
 def main():
     log, trades = rows(S["log_file"]), rows(S["paper_file"])
@@ -86,7 +121,11 @@ def main():
     coverage(cut)
     section("Last 24 hours", [r for r in log if ts(r["time"]) >= cut], [t for t in trades if ts(t["opened_at"]) >= cut])
     section("All time", log, trades)
-    budget(trades)
+    quick = rows(S.get("quick_paper_file", "paper_trades_quick.csv"))
+    quick_section(quick, trades)
+    print("\n=== Pretend budgets side by side (independent $%.0f each) ===" % float(S.get("paper_budget_usd", 100)))
+    print("  MAIN/hold: " + budget(trades, "Main", quiet=True))
+    print("  QUICK:     " + budget(quick, "Quick", quiet=True))
     print("\nNote: market-filter rejects are logged once per token per day; P&L uses prices sampled every scheduled run, no fees unless set in config.")
 
 if __name__ == "__main__":

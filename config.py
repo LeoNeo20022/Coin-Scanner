@@ -42,8 +42,10 @@ SCANNER = {
     "take_profit_pct": 100,             # sell half at +100%
     "take_profit_fraction": 0.5,
     "max_hold_hours": 72,               # close whatever is left after this
+    "quick_take_profit_pct": 50,        # QUICK shadow strategy: sell ALL at +50% (+$5 on $10); same stop_loss / max_hold
     "fee_pct_per_side": 0,              # optional simulated swap fee per buy/sell, e.g. 1 = 1%
     # files
     "seen_file": "seen.json", "log_file": "scanner_log.csv", "paper_file": "paper_trades.csv",
+    "quick_paper_file": "paper_trades_quick.csv",
     "lock_file": "scanner.lock",
 }
