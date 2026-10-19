@@ -42,10 +42,16 @@ SCANNER = {
     "take_profit_pct": 100,             # sell half at +100%
     "take_profit_fraction": 0.5,
     "max_hold_hours": 72,               # close whatever is left after this
-    "quick_take_profit_pct": 50,        # QUICK shadow strategy: sell ALL at +50% (+$5 on $10); same stop_loss / max_hold
     "fee_pct_per_side": 0,              # optional simulated swap fee per buy/sell, e.g. 1 = 1%
     # files
     "seen_file": "seen.json", "log_file": "scanner_log.csv", "paper_file": "paper_trades.csv",
-    "quick_paper_file": "paper_trades_quick.csv",
     "lock_file": "scanner.lock",
+}
+
+# ---- SHADOW paper strategies (see shadow.py): each new main paper buy is mirrored into each, own CSV,
+#      own pretend $100 budget in summary.py. Exits judged on 1-min candles (SL first if both in one candle). ----
+SHADOW = {
+    "target5": {"file": "paper_trades_target5.csv", "tp_pct": 50, "sl_pct": SCANNER["stop_loss_pct"],
+                "max_hold_min": SCANNER["max_hold_hours"] * 60},   # +$5 on $10; main stop loss and max hold
+    "scalp":   {"file": "paper_trades_scalp.csv", "tp_pct": 20, "sl_pct": -10, "max_hold_min": 60},  # +$2 / -$1, 60 min
 }

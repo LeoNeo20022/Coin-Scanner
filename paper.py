@@ -97,11 +97,3 @@ def update_open(sleep_s=1.0, path=None, tp_pct=None, tp_fraction=None, tag=""):
         _recalc(r)
     save(rows, path)
     return events
-
-# ---- QUICK strategy (shadow): same entry/size as each new main paper buy, whole position out at +50%
-#      (= +$5 on a $10 buy), same stop loss and max-hold as the main strategy. Separate file. ----
-def open_quick(mint, symbol, pair, price, confidence, why):
-    return open_position(mint, symbol, pair, price, confidence, why, path=S["quick_paper_file"])
-
-def update_quick(sleep_s=1.0):
-    return update_open(sleep_s, path=S["quick_paper_file"], tp_pct=S["quick_take_profit_pct"], tp_fraction=1.0, tag="[quick] ")

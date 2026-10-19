@@ -9,7 +9,7 @@ from prompts import SCANNER_PROMPT
 from rugcheck import report, fact_kill
 import fallback
 from grok import ask, NoResponse
-import dexscreener as dx, paper
+import dexscreener as dx, paper, shadow
 
 LOG_FIELDS = ["time", "mint", "symbol", "mcap_usd", "liquidity_usd", "age_hours", "volume_h1_usd", "buys_h1",
               "sells_h1", "stage", "verdict", "confidence", "reason", "main_risk", "sources"]
@@ -91,7 +91,9 @@ def run():
              "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0}
     say("run start (LOG ONLY)")
     for e in paper.update_open(sl): say("paper: " + e)
-    for e in paper.update_quick(sl): say("paper: " + e)
+    try:
+        for e in shadow.update_all(sl): say("paper: " + e)
+    except Exception as e: say(f"paper: shadow update error {type(e).__name__}: {e}")
 
     found, errs = dx.discover(sl)
     for e in errs: say("discovery_error " + e)
@@ -212,8 +214,11 @@ def run():
         if verdict == "BUY":
             pos = paper.open_position(mint, m["symbol"], m["pair"], m["price_usd"], conf, why)
             if pos: say(f"paper BUY ${S['paper_ticket_usd']} {m['symbol']} @ {m['price_usd']}")
-            if pos and paper.open_quick(mint, m["symbol"], m["pair"], m["price_usd"], conf, why):
-                say(f"paper QUICK BUY ${S['paper_ticket_usd']} {m['symbol']} @ {m['price_usd']} (sell all at +{S['quick_take_profit_pct']}%)")
+            if pos:
+                try:
+                    for name in shadow.open_all(mint, m["symbol"], m["pair"], m["price_usd"], conf, why):
+                        say(f"paper SHADOW BUY [{name}] ${S['paper_ticket_usd']} {m['symbol']} @ {m['price_usd']}")
+                except Exception as e: say(f"paper: shadow open error {type(e).__name__}: {e}")
         time.sleep(sl)
     save_seen(seen); save_budget(budget)
     say("run end " + json.dumps(stats) + f" elapsed={time.time() - t0:.0f}s")

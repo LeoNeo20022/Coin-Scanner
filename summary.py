@@ -85,33 +85,48 @@ def breakeven(tp_pct, sl_pct):
     """Win rate needed to break even when every win is +tp% and every loss is sl% (negative)."""
     return 100 * abs(sl_pct) / (tp_pct + abs(sl_pct))
 
-def quick_section(quick, main_trades):
-    tp, sl, hold = S.get("quick_take_profit_pct", 50), S["stop_loss_pct"], S["max_hold_hours"]
-    print(f"\n=== QUICK strategy (shadow of each new main buy: sell ALL at +{tp}%, stop {sl}%, max hold {hold}h) ===")
-    be_q = breakeven(tp, sl)
-    # main: a winner that takes half at +TP then gets the rest stopped out nets fr*TP + (1-fr)*SL (worst-case winner)
-    fr, mtp = S["take_profit_fraction"], S["take_profit_pct"]
-    worst_win = fr * mtp + (1 - fr) * sl
-    print(f"Break-even win rate: quick {be_q:.0f}% (win +{tp}% vs loss {sl}%); "
-          f"main about {breakeven(worst_win, sl):.0f}% if winners only get the half at +{mtp}% then stop out (+{worst_win:.0f}%), lower if they run")
-    if not quick:
-        print("Quick trades: none yet (starts with the next $10 scanner paper buy)."); return
-    closed = [t for t in quick if t["status"] == "closed"]
-    wins = [t for t in closed if t["exit_reason"] == "take_profit"]
-    losses = [t for t in closed if float(t["pnl_usd"] or 0) <= 0]
-    pnl = sum(float(t["pnl_usd"] or 0) for t in quick)
+def strat_stats(trades, win_test):
+    closed = [t for t in trades if t["status"] == "closed"]
+    wins = [t for t in closed if win_test(t)]
+    pnl = sum(float(t["pnl_usd"] or 0) for t in trades)
     wr = f"{100 * len(wins) / len(closed):.0f}%" if closed else "n/a"
-    print(f"Quick trades: {len(quick)} opened, {len(closed)} closed, {len(quick) - len(closed)} open")
-    print(f"  Hit +$5 target: {len(wins)}   Losses: {len(losses)}   Win rate (closed): {wr}   Total P&L: {money(pnl)}")
-    for t in sorted(quick, key=lambda t: t["opened_at"]):
-        st = t["status"] if t["status"] == "open" else f"closed: {t['exit_reason']}"
-        print(f"    #{t['id']} {t['symbol']:<12} ${float(t['entry_usd']):.0f} in, {money(float(t['pnl_usd'] or 0)):>8} ({float(t['pnl_pct'] or 0):+.0f}%)  [{st}]  opened {t['opened_at'][:16]}")
-    # same coins, both ways
-    mains = {t["mint"]: t for t in main_trades}
-    same = [t for t in quick if t["mint"] in mains]
-    if same:
-        mp = sum(float(mains[t["mint"]]["pnl_usd"] or 0) for t in same)
-        print(f"  Same {len(same)} coins under main/hold strategy: {money(mp)} vs quick {money(sum(float(t['pnl_usd'] or 0) for t in same))}")
+    return closed, wins, pnl, wr
+
+def shadow_sections(main_trades):
+    from config import SHADOW
+    start = float(S.get("paper_budget_usd", 100))
+    fr, mtp, msl = S["take_profit_fraction"], S["take_profit_pct"], S["stop_loss_pct"]
+    worst_win = fr * mtp + (1 - fr) * msl
+    table = []
+    closed, wins, pnl, wr = strat_stats(main_trades, lambda t: float(t["pnl_usd"] or 0) > 0)
+    table.append(("main/hold", len(main_trades), len(closed), len(wins), wr, pnl,
+                  f"~{breakeven(worst_win, msl):.0f}% (if winners only get half at +{mtp}% then stop)"))
+    for name, st in SHADOW.items():
+        trades = rows(st["file"])
+        print(f"\n=== {name.upper()} shadow strategy: sell all at +{st['tp_pct']}%, stop {st['sl_pct']}%, max hold "
+              f"{st['max_hold_min'] / 60:g}h (1-min candles, SL first if both in one candle) ===")
+        closed, wins, pnl, wr = strat_stats(trades, lambda t: t["exit_reason"] == "take_profit")
+        be = breakeven(st["tp_pct"], st["sl_pct"])
+        table.append((name, len(trades), len(closed), len(wins), wr, pnl, f"{be:.0f}%"))
+        if not trades:
+            print("No trades yet (starts with the next $10 scanner paper buy)."); continue
+        tex = sum(1 for t in closed if t["exit_reason"] == "time_exit")
+        print(f"  {len(trades)} opened, {len(closed)} closed, {len(trades) - len(closed)} open | hit target {len(wins)}, "
+              f"stopped {sum(1 for t in closed if t['exit_reason'] == 'stop_loss')}, time exits {tex} | win rate {wr} | P&L {money(pnl)}")
+        for t in sorted(trades, key=lambda t: t["opened_at"]):
+            stt = t["status"] if t["status"] == "open" else f"closed: {t['exit_reason']}"
+            src = " [snapshot price]" if t.get("price_source") == "snapshot" else ""
+            print(f"    #{t['id']} {t['symbol']:<12} ${float(t['entry_usd']):.0f} in, {money(float(t['pnl_usd'] or 0)):>8} "
+                  f"({float(t['pnl_pct'] or 0):+.0f}%)  [{stt}]{src}  opened {t['opened_at'][:16]}")
+        mains = {t["mint"]: t for t in main_trades}
+        same = [t for t in trades if t["mint"] in mains]
+        if same:
+            print(f"  Same {len(same)} coins under main/hold: {money(sum(float(mains[t['mint']]['pnl_usd'] or 0) for t in same))} "
+                  f"vs {name} {money(sum(float(t['pnl_usd'] or 0) for t in same))}")
+    print(f"\n=== Strategies side by side (each has its own pretend ${start:.0f}) ===")
+    print(f"  {'strategy':<10} {'trades':>6} {'closed':>6} {'wins':>5} {'win%':>5} {'P&L':>9} {'budget':>9}  break-even win rate")
+    for name, n, c, w, wr, pnl, be in table:
+        print(f"  {name:<10} {n:>6} {c:>6} {w:>5} {wr:>5} {money(pnl):>9} {'$%.2f' % (start + pnl):>9}  {be}")
 
 def main():
     log, trades = rows(S["log_file"]), rows(S["paper_file"])
@@ -121,11 +136,8 @@ def main():
     coverage(cut)
     section("Last 24 hours", [r for r in log if ts(r["time"]) >= cut], [t for t in trades if ts(t["opened_at"]) >= cut])
     section("All time", log, trades)
-    quick = rows(S.get("quick_paper_file", "paper_trades_quick.csv"))
-    quick_section(quick, trades)
-    print("\n=== Pretend budgets side by side (independent $%.0f each) ===" % float(S.get("paper_budget_usd", 100)))
-    print("  MAIN/hold: " + budget(trades, "Main", quiet=True))
-    print("  QUICK:     " + budget(quick, "Quick", quiet=True))
+    budget(trades, "Main/hold")
+    shadow_sections(trades)
     print("\nNote: market-filter rejects are logged once per token per day; P&L uses prices sampled every scheduled run, no fees unless set in config.")
 
 if __name__ == "__main__":
