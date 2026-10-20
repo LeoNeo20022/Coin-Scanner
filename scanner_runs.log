@@ -1893,3 +1893,11 @@
 [2026-10-20T20:04:08+00:00] discovered=63 fresh=51 market_pass=0
 [2026-10-20T20:04:08+00:00] grok daily budget 16/40 used, 0 no-response, $0.0443 (2026-10-20 UTC)
 [2026-10-20T20:04:08+00:00] run end {"discovered": 63, "skipped_recent": 12, "no_pair": 1, "market": {"pumpfun_bonding_curve": 21, "too_new": 3, "mcap_too_low": 16, "missing:liquidity_usd": 2, "too_old": 5, "volume_h1_low": 1, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
+[2026-10-20T20:08:58+00:00] run start (LOG ONLY)
+[2026-10-20T20:09:09+00:00] discovered=62 fresh=50 market_pass=2
+[2026-10-20T20:09:09+00:00] grok daily budget 16/40 used, 0 no-response, $0.0443 (2026-10-20 UTC)
+[2026-10-20T20:09:33+00:00] grok call 22.1s model=grok-4.3 tokens=998+67 reasoning=644
+[2026-10-20T20:09:33+00:00] grok [rugcheck] Punani 9SzQ2oUy… -> SKIP (0.85) Massive -48% h1 and -45% m5 drop after early pump shows fading momentum and likely exit. High buy counts cannot offset clear reversal. | risk: Blow-off top reversal with heavy selling pressure
+[2026-10-20T20:09:42+00:00] grok call 5.8s model=grok-4.3 tokens=994+71 reasoning=551
+[2026-10-20T20:09:42+00:00] grok [rugcheck] DTC FP9HKxKK… -> SKIP (0.85) 266% h1 and 1485% h6 gains on 1h-old token indicate blow-off top already in progress; m5 momentum near flat after massive run. | risk: Entering after parabolic move with volume concentrated in first hour
+[2026-10-20T20:09:43+00:00] run end {"discovered": 62, "skipped_recent": 12, "no_pair": 1, "market": {"pumpfun_bonding_curve": 20, "too_new": 2, "mcap_too_low": 15, "missing:liquidity_usd": 2, "too_old": 5, "volume_h1_low": 1, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 2, "BUY": 0, "SKIP": 2, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=46s
