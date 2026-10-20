@@ -559,8 +559,8 @@
  "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd": {
   "judged": 1792353030.9927964,
   "symbol": "Gold",
-  "market_logged": 1792524801.364209,
-  "market_reason": "volume_h1_low"
+  "market_logged": 1792525100.959332,
+  "market_reason": "liquidity_low"
  },
  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
   "market_logged": 1792439602.370586,
@@ -3865,7 +3865,9 @@
  },
  "F6Kw7crAAXQp4hjXVSe8ZuyvnaLyjvJDVBpcxGUFpump": {
   "market_logged": 1792522675.554334,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "DACITY",
+  "judged": 1792525100.959332
  },
  "Cp2xTNLC6ECCUCWhh3bueGPB1hyJEEW7aZ58Sym2pump": {
   "market_logged": 1792522675.554334,
@@ -3930,5 +3932,20 @@
  "GWfA58i1zzcwgB4C5UCrRoSod35on5mrCPipqM8poot": {
   "market_logged": 1792524475.8511024,
   "market_reason": "missing:liquidity_usd"
+ },
+ "8LmZ6dWvKtoSU4Pqp6hqvPYTcZYGiKYb8iGugh8hpump": {
+  "market_logged": 1792525100.959332,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "CicoFLHq5c3n6w61e68WfnooFWUzTLisp3a2HdiWpump": {
+  "market_logged": 1792525100.959332,
+  "market_reason": "too_new"
+ },
+ "EZoGjPeZ1AVDSA3tzRGfMUZHMETfNTAcFVxygjy7pump": {
+  "market_logged": 1792525100.959332,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "9sSWHwmxYTUd5mgBr8rcWSKR2L35UdLWM3nSj3eZY7ZC": {
+  "market_logged": 1792525100.959332
  }
 }

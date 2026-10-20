@@ -1861,3 +1861,9 @@
 [2026-10-20T19:33:24+00:00] discovered=58 fresh=48 market_pass=0
 [2026-10-20T19:33:24+00:00] grok daily budget 14/40 used, 0 no-response, $0.0387 (2026-10-20 UTC)
 [2026-10-20T19:33:24+00:00] run end {"discovered": 58, "skipped_recent": 10, "no_pair": 0, "market": {"missing:liquidity_usd": 2, "mcap_too_low": 14, "too_new": 5, "pumpfun_bonding_curve": 17, "missing:mcap_usd": 2, "too_old": 5, "volume_h1_low": 2, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=12s
+[2026-10-20T19:38:13+00:00] run start (LOG ONLY)
+[2026-10-20T19:38:24+00:00] discovered=59 fresh=49 market_pass=1
+[2026-10-20T19:38:24+00:00] grok daily budget 14/40 used, 0 no-response, $0.0387 (2026-10-20 UTC)
+[2026-10-20T19:38:32+00:00] grok call 6.5s model=grok-4.3 tokens=994+63 reasoning=579
+[2026-10-20T19:38:32+00:00] grok [rugcheck] DACITY F6Kw7crA… -> SKIP (0.85) Huge +198% h6 followed by -48% h1 / -31% m5 crash with volume still elevated; classic blow-off top. | risk: Early holders dumping into late buyers
+[2026-10-20T19:38:34+00:00] run end {"discovered": 59, "skipped_recent": 10, "no_pair": 1, "market": {"pumpfun_bonding_curve": 17, "too_new": 5, "missing:liquidity_usd": 2, "mcap_too_low": 13, "missing:mcap_usd": 2, "too_old": 5, "volume_h1_low": 1, "sells_ge_buys_h1": 1, "liquidity_low": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=21s
