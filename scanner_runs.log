@@ -973,3 +973,9 @@
 [2026-10-20T03:38:34+00:00] discovered=57 fresh=47 market_pass=0
 [2026-10-20T03:38:34+00:00] grok daily budget 3/40 used, 0 no-response, $0.0086 (2026-10-20 UTC)
 [2026-10-20T03:38:34+00:00] run end {"discovered": 57, "skipped_recent": 10, "no_pair": 0, "market": {"mcap_too_low": 16, "pumpfun_bonding_curve": 19, "too_new": 4, "mcap_too_high": 2, "missing:mcap_usd": 2, "volume_h1_low": 1, "too_old": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=12s
+[2026-10-20T03:43:22+00:00] run start (LOG ONLY)
+[2026-10-20T03:43:34+00:00] discovered=56 fresh=46 market_pass=2
+[2026-10-20T03:43:34+00:00] grok daily budget 3/40 used, 0 no-response, $0.0086 (2026-10-20 UTC)
+[2026-10-20T03:43:43+00:00] grok call 7.8s model=grok-4.3 tokens=994+66 reasoning=564
+[2026-10-20T03:43:43+00:00] grok [rugcheck] Twyne DZ4DzfLB… -> SKIP (0.85) 411% h1 gain with volume concentrated early; m5 flips to heavy sells (109 buys vs 238 sells). | risk: Classic pump-and-dump exit on 1-hour-old token with thin liquidity.
+[2026-10-20T03:43:47+00:00] run end {"discovered": 56, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 15, "too_new": 2, "mcap_too_high": 2, "missing:mcap_usd": 2, "volume_h1_low": 1, "too_old": 3}, "rug": {"top10": 1}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=25s
