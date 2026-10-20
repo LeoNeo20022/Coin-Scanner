@@ -944,3 +944,8 @@
 [2026-10-20T03:08:25+00:00] grok call 12.0s model=grok-4.3 tokens=991+62 reasoning=530
 [2026-10-20T03:08:25+00:00] grok [rugcheck] OSI 54XyfgB9… -> SKIP (0.85) 311% h6 pump already reversing in m5 (-8%) after extreme volume; classic blow-off pattern on 1h-old token. | risk: Late entry into rapid pump with fading momentum
 [2026-10-20T03:08:27+00:00] run end {"discovered": 53, "skipped_recent": 8, "no_pair": 0, "market": {"mcap_too_low": 16, "pumpfun_bonding_curve": 19, "too_new": 1, "liquidity_low": 1, "volume_h1_low": 1, "missing:mcap_usd": 2, "mcap_too_high": 1, "too_old": 3}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=26s
+[2026-10-20T03:13:00+00:00] run start (LOG ONLY)
+[2026-10-20T03:13:02+00:00] paper: GDC: closed (stop_loss) at -99.5%
+[2026-10-20T03:13:11+00:00] discovered=54 fresh=44 market_pass=0
+[2026-10-20T03:13:11+00:00] grok daily budget 3/40 used, 0 no-response, $0.0086 (2026-10-20 UTC)
+[2026-10-20T03:13:11+00:00] run end {"discovered": 54, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 17, "too_new": 1, "volume_h1_low": 1, "missing:mcap_usd": 2, "mcap_too_high": 1, "too_old": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
