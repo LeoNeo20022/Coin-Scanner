@@ -1852,8 +1852,8 @@
   "market_reason": "mcap_too_low"
  },
  "Ak4cZZkr4AdcHBorJvggMziofQe4wzskys3BmSxMpump": {
-  "market_logged": 1792484218.1705196,
-  "market_reason": "too_old"
+  "market_logged": 1792486945.1319323,
+  "market_reason": "mcap_too_low"
  },
  "KiMJonga8JGPjuga3MAbNUog4CbUFFmYQH2y8U9BoYn": {
   "market_logged": 1792439276.6398196,
@@ -2952,7 +2952,9 @@
  },
  "HZWVVVNCEnexYYi8HV2if4QB6zocNsGERB6qyU8TRipd": {
   "market_logged": 1792486644.9283245,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792486945.1319323,
+  "symbol": "RIPPED"
  },
  "HKWZBprcVJ6tJmESJKq4Wt9hVkg1swWFRKFoumYVpump": {
   "market_logged": 1792483896.6634521,
@@ -2987,8 +2989,8 @@
   "market_reason": "too_new"
  },
  "BNc4CKrHeVMxKJSmdR22w5ZKngq7PVzwq4JJcazidTxg": {
-  "market_logged": 1792485718.32274,
-  "market_reason": "too_new"
+  "market_logged": 1792486945.1319323,
+  "market_reason": "liquidity_low"
  },
  "CFDo8qa4FQb56AMWH65R9y29JYxDBs9gCEN2fHY8pump": {
   "market_logged": 1792485718.32274,
@@ -2997,5 +2999,9 @@
  "F5Xk3gxLhxycoMpXFVjK2j1XtLHn5spyg8sGi1eZ8sYt": {
   "market_logged": 1792486018.5976095,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "AMoNBD7NgVbzmFnwu7PdcKAr3yypChVwS91Xuht4pump": {
+  "market_logged": 1792486945.1319323,
+  "market_reason": "too_new"
  }
 }
