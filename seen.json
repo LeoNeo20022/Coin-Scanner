@@ -2705,8 +2705,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "cTHXie8bzQerPPgzPQYfknksFhT8dXX9rXyU7dspump": {
-  "market_logged": 1792474209.4006715,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792474509.2192492,
+  "market_reason": "mcap_too_low"
  },
  "GaLLBcubBKLYHUpAQm5qgZ6kG37E1fcGKoJoxUiVpump": {
   "market_logged": 1792469355.3072932,
@@ -2756,7 +2756,9 @@
  },
  "547mPBDKVshVHz1JN54ENUZ9w2wwiZf3x2ctjvnipump": {
   "market_logged": 1792471787.473959,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "TROAD",
+  "judged": 1792474509.2192492
  },
  "9p97cXfChAT4ELAB3fopw5J9ku5t5Xu3CL5SHdp4pump": {
   "market_logged": 1792471787.473959,
@@ -2804,6 +2806,10 @@
  },
  "CnSGd9u8FHprCtF5HF4d7BgQSNk8M3VSRzyFq1Vcpump": {
   "market_logged": 1792474209.4006715,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "AExdMwnstjpjH6p8wYjPUQRtTyyonGU357e1YCY3pump": {
+  "market_logged": 1792474509.2192492,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
