@@ -123,10 +123,52 @@ def shadow_sections(main_trades):
         if same:
             print(f"  Same {len(same)} coins under main/hold: {money(sum(float(mains[t['mint']]['pnl_usd'] or 0) for t in same))} "
                   f"vs {name} {money(sum(float(t['pnl_usd'] or 0) for t in same))}")
+    table += second_look_section()
     print(f"\n=== Strategies side by side (each has its own pretend ${start:.0f}) ===")
     print(f"  {'strategy':<10} {'trades':>6} {'closed':>6} {'wins':>5} {'win%':>5} {'P&L':>9} {'budget':>9}  break-even win rate")
     for name, n, c, w, wr, pnl, be in table:
         print(f"  {name:<10} {n:>6} {c:>6} {w:>5} {wr:>5} {money(pnl):>9} {'$%.2f' % (start + pnl):>9}  {be}")
+
+def second_look_section():
+    """SECOND LOOK: sampled rejected coins re-checked ~24h / ~48h later (free checks only, no Grok). Returns side-by-side rows."""
+    import json
+    from config import SECOND_LOOK as C, SHADOW
+    print("\n=== SECOND LOOK: rejected coins re-checked ~24h and ~48h later (same free checks, no Grok) ===")
+    try: q = json.load(open(C["queue_file"]))
+    except Exception: q = {"entries": {}}
+    ents = list(q.get("entries", {}).values()); checks = rows(C["check_file"])
+    cut = datetime.now(timezone.utc) - timedelta(hours=24)
+    new24 = sum(1 for e in ents if ts(e["rejected_at"]) >= cut)
+    print(f"Queued: {len(ents)} coins in the queue ({new24} added in the last 24h)"
+          + (f"; by reject reason: {', '.join(f'{k} {v}' for k, v in Counter(e['reason_key'] for e in ents).most_common(8))}" if ents else ""))
+    waiting = [e for e in ents if not e.get("done")]
+    if waiting:
+        nxt = min(e["rejected_ts"] + (48 if "24h" in e.get("checks", {}) else 24) * 3600 for e in waiting)
+        print(f"  Waiting: {len(waiting)}; next recheck due ~{datetime.fromtimestamp(nxt, timezone.utc).strftime('%m-%d %H:%M')} UTC")
+    for cp in C["checkpoints"]:
+        cs = [r for r in checks if r["checkpoint"] == cp]
+        if not cs: print(f"  {cp} rechecks: none yet"); continue
+        ok = [r for r in cs if r["would_pass"] == "1"]; dead = sum(1 for r in cs if r["dead"] == "1")
+        fails = Counter((r["safety_result"] if r["market_result"] == "pass" else r["market_result"]) for r in cs if r["would_pass"] != "1")
+        up = [float(r["price_change_vs_reject_pct"]) for r in cs if r["price_change_vs_reject_pct"] not in ("", None)]
+        med = sorted(up)[len(up) // 2] if up else None
+        print(f"  {cp} rechecks: {len(cs)} -> would pass now {len(ok)} ({100 * len(ok) / len(cs):.0f}%), dead {dead}"
+              + (f", median price vs reject {med:+.0f}%" if med is not None else ""))
+        if fails: print(f"     top fail reasons: {', '.join(f'{k} {v}' for k, v in fails.most_common(6))}")
+        for r in ok: print(f"     PASS {r['symbol']} (was rejected {r['reject_stage']}: {r['reject_reason'][:50]}), price vs reject {r['price_change_vs_reject_pct'] or '?'}%")
+    out = []; start = float(S.get("paper_budget_usd", 100))
+    fr, mtp, msl = S["take_profit_fraction"], S["take_profit_pct"], S["stop_loss_pct"]
+    bes = {"hold": f"~{breakeven(fr * mtp + (1 - fr) * msl, msl):.0f}%",
+           "target5": f"{breakeven(SHADOW['target5']['tp_pct'], SHADOW['target5']['sl_pct']):.0f}%",
+           "scalp": f"{breakeven(SHADOW['scalp']['tp_pct'], SHADOW['scalp']['sl_pct']):.0f}%"}
+    print(f"  Hypothetical $10 paper buys at the recheck price (one per coin), own pretend ${start:.0f} each, 1-min candles, no fees/slippage:")
+    for name, path in C["paper_files"].items():
+        tr = rows(path)
+        test = (lambda t: float(t["pnl_usd"] or 0) > 0) if name == "hold" else (lambda t: t["exit_reason"] == "take_profit")
+        closed, wins, pnl, wr = strat_stats(tr, test)
+        print(f"     {name:<8} {len(tr)} buys, {len(closed)} closed, {len(wins)} wins, P&L {money(pnl)}, budget ${start + pnl:.2f}")
+        out.append((f"2nd:{name}", len(tr), len(closed), len(wins), wr, pnl, bes[name]))
+    return out
 
 def main():
     log, trades = rows(S["log_file"]), rows(S["paper_file"])

@@ -17,6 +17,13 @@ Every 5 minutes it does the steps below. GitHub only starts the scheduled run ev
    Once the daily budget is spent, candidates are logged as `deferred` and no Grok calls are made.
 5. Logs everything and opens a $5 *paper* position on a BUY, then commits the state files back here.
 
+**Second look** (`second_look.py`, run after each scan): a sample of rejected coins (max 50 new per UTC day,
+max 6 per reject reason, market rejects spread over the day; deduped by mint) is queued in `second_look_queue.json`
+and re-checked ~24h and ~48h later with the same free checks (market filter except the 72h age cap, RugCheck +
+fallback). No Grok calls. Results go to `second_look.csv`. A coin that would pass gets one hypothetical $10 paper
+buy at the recheck price, scored on 1-min candles under hold / target5 / scalp (`second_look_{hold,target5,scalp}.csv`,
+own pretend $100 each, no fees/slippage). `summary.py` has a SECOND LOOK section.
+
 Files written by the scanner: `scanner_log.csv`, `paper_trades.csv`, `seen.json`, `grok_budget.json`,
 `scanner_runs.log`. Run `python summary.py` for a plain-English summary.
 

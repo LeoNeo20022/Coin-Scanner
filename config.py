@@ -55,3 +55,21 @@ SHADOW = {
                 "max_hold_min": SCANNER["max_hold_hours"] * 60},   # +$5 on $10; main stop loss and max hold
     "scalp":   {"file": "paper_trades_scalp.csv", "tp_pct": 20, "sl_pct": -10, "max_hold_min": 60},  # +$2 / -$1, 60 min
 }
+
+# ---- SECOND LOOK (see second_look.py): re-check a sample of REJECTED coins ~24h and ~48h later with the same free
+#      checks (market filter + RugCheck/fallback, NO Grok). Coins that would pass get one hypothetical $10 paper buy,
+#      scored under hold / target5 / scalp on 1-min candles, each with its own pretend $100. No fees/slippage. ----
+SECOND_LOOK = {
+    "queue_file": "second_look_queue.json", "check_file": "second_look.csv",
+    "paper_files": {"hold": "second_look_hold.csv", "target5": "second_look_target5.csv", "scalp": "second_look_scalp.csv"},
+    "checkpoints": {"24h": 24, "48h": 48},
+    "max_new_per_day": 50,             # new queue entries per UTC day
+    "max_per_reason_per_day": 6,       # variety: e.g. at most 6 'market:liquidity_low' per day
+    "max_market_per_hour": 3,          # market-filter rejects spread across the day, also max 1 per reason per hour (rugcheck/grok exempt)
+    "skip_reasons": ["no_solana_pair", "missing:", "too_old", "mcap_too_high", "rugcheck_error", "grok_no_response",
+                     "grok_error", "fb:authority_unknown", "fb:transfer_unknown", "fb:top10_unknown", "fb:lp_unknown"],
+    "waive_max_age": True,             # a coin is always older at recheck; judge it on everything except the 72h age cap
+    "dead_liquidity_usd": 1_000, "dead_volume_h24_usd": 100,   # 'dead' = no pair/price, liquidity < $1K, 24h volume < $100, or -90%
+    "max_rechecks_per_scan": 8, "max_paper_coins_per_scan": 12, "max_seconds_per_scan": 90,
+    "queue_keep_days": 5,
+}

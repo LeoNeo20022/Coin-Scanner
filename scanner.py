@@ -10,6 +10,7 @@ from rugcheck import report, fact_kill
 import fallback
 from grok import ask, NoResponse
 import dexscreener as dx, paper, shadow
+import second_look
 
 LOG_FIELDS = ["time", "mint", "symbol", "mcap_usd", "liquidity_usd", "age_hours", "volume_h1_usd", "buys_h1",
               "sells_h1", "stage", "verdict", "confidence", "reason", "main_risk", "sources"]
@@ -99,6 +100,10 @@ def run():
     for e in errs: say("discovery_error " + e)
     stats["discovered"] = len(found)
     seen = load_seen(); nowts = time.time()
+    try: look = second_look.Sampler()                       # second look: sample of rejected coins, rechecked at 24h/48h
+    except Exception as e: say(f"second_look: sampler error {e}"); look = None
+    def sample(m, stage, reason, src):
+        if look: look.consider(m, stage, reason, src)
     fresh = [m for m in found if nowts - seen.get(m, {}).get("judged", 0) > S["rejudge_after_hours"] * 3600
              and nowts >= seen.get(m, {}).get("grok_retry_at", 0)]
     stats["skipped_recent"] = len(found) - len(fresh)
@@ -117,7 +122,7 @@ def run():
             continue
         m = market(mint, pairs[mint]); k = market_kill(m)
         if k:
-            stats["market"][k] = stats["market"].get(k, 0) + 1
+            stats["market"][k] = stats["market"].get(k, 0) + 1; sample(m, "market", k, src)
             if relog or ent.get("market_reason") != k:
                 log(m, "market", reason=k, sources=src); ent["market_logged"] = nowts; ent["market_reason"] = k
             continue
@@ -157,7 +162,7 @@ def run():
                 continue
         if kill:
             ent["judged"] = nowts; ent["symbol"] = m["symbol"]
-            stats["rug"][kill] = stats["rug"].get(kill, 0) + 1
+            stats["rug"][kill] = stats["rug"].get(kill, 0) + 1; sample(m, "rugcheck", kill, src)
             log(m, "rugcheck", reason=kill, sources=src + ("" if src_used == "rugcheck" else f"|{src_used}")); continue
         if budget_spent:                              # free checks passed, but no Grok today -> never buy unjudged
             stats["deferred_budget"] += 1
@@ -208,6 +213,7 @@ def run():
             ent["judged"] = nowts
             verdict, why = "SKIP", f"grok_error: {type(e).__name__}: {str(e)[:150]}"
         stats[verdict] += 1
+        if verdict == "SKIP" and not why.startswith("grok_error"): sample(m, "grok", why, src)
         log(m, "grok", verdict=verdict, confidence=conf, reason=why, main_risk=risk,
             sources=src + ("" if src_used == "rugcheck" else f"|{src_used}"))
         say(f"grok [{src_used}] {m['symbol']} {mint[:8]}… -> {verdict} ({conf}) {why} | risk: {risk}")
@@ -221,6 +227,9 @@ def run():
                 except Exception as e: say(f"paper: shadow open error {type(e).__name__}: {e}")
         time.sleep(sl)
     save_seen(seen); save_budget(budget)
+    if look:
+        try: stats["second_look_queued"] = look.commit()
+        except Exception as e: say(f"second_look: queue save error {e}")
     say("run end " + json.dumps(stats) + f" elapsed={time.time() - t0:.0f}s")
     return stats
 
