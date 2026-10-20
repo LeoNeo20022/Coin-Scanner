@@ -1883,3 +1883,9 @@
 [2026-10-20T19:58:24+00:00] discovered=62 fresh=51 market_pass=0
 [2026-10-20T19:58:24+00:00] grok daily budget 15/40 used, 0 no-response, $0.0414 (2026-10-20 UTC)
 [2026-10-20T19:58:24+00:00] run end {"discovered": 62, "skipped_recent": 11, "no_pair": 1, "market": {"too_new": 5, "pumpfun_bonding_curve": 19, "mcap_too_low": 16, "missing:liquidity_usd": 2, "too_old": 5, "volume_h1_low": 1, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
+[2026-10-20T20:03:12+00:00] run start (LOG ONLY)
+[2026-10-20T20:03:24+00:00] discovered=62 fresh=52 market_pass=2
+[2026-10-20T20:03:24+00:00] grok daily budget 15/40 used, 0 no-response, $0.0414 (2026-10-20 UTC)
+[2026-10-20T20:03:37+00:00] grok call 11.8s model=grok-4.3 tokens=996+72 reasoning=627
+[2026-10-20T20:03:37+00:00] grok [rugcheck] VAGINA 93iqi7JS… -> SKIP (0.75) Huge early 291% spike already reversing (-8% h1) with volume concentrated in first hour; m5 activity still positive but fading pattern typical of exit liquidity. | risk: Post-pump distribution risk on 1-hour-old token
+[2026-10-20T20:03:41+00:00] run end {"discovered": 62, "skipped_recent": 10, "no_pair": 1, "market": {"pumpfun_bonding_curve": 20, "too_new": 3, "mcap_too_low": 16, "missing:liquidity_usd": 2, "too_old": 5, "volume_h1_low": 1, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {"top10": 1}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=29s
