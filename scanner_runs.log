@@ -1901,3 +1901,7 @@
 [2026-10-20T20:09:42+00:00] grok call 5.8s model=grok-4.3 tokens=994+71 reasoning=551
 [2026-10-20T20:09:42+00:00] grok [rugcheck] DTC FP9HKxKK… -> SKIP (0.85) 266% h1 and 1485% h6 gains on 1h-old token indicate blow-off top already in progress; m5 momentum near flat after massive run. | risk: Entering after parabolic move with volume concentrated in first hour
 [2026-10-20T20:09:43+00:00] run end {"discovered": 62, "skipped_recent": 12, "no_pair": 1, "market": {"pumpfun_bonding_curve": 20, "too_new": 2, "mcap_too_low": 15, "missing:liquidity_usd": 2, "too_old": 5, "volume_h1_low": 1, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 2, "BUY": 0, "SKIP": 2, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=46s
+[2026-10-20T20:13:57+00:00] run start (LOG ONLY)
+[2026-10-20T20:14:08+00:00] discovered=63 fresh=49 market_pass=0
+[2026-10-20T20:14:08+00:00] grok daily budget 18/40 used, 0 no-response, $0.0499 (2026-10-20 UTC)
+[2026-10-20T20:14:08+00:00] run end {"discovered": 63, "skipped_recent": 14, "no_pair": 1, "market": {"pumpfun_bonding_curve": 21, "too_new": 2, "mcap_too_low": 15, "missing:liquidity_usd": 2, "too_old": 5, "volume_h1_low": 1, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
