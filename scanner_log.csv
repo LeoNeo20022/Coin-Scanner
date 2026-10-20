@@ -1194,3 +1194,6 @@ time,mint,symbol,mcap_usd,liquidity_usd,age_hours,volume_h1_usd,buys_h1,sells_h1
 2026-10-20T12:45:05+00:00,8Bm6eGHRWNjBybaKjPVuRggnfn5mf815y8FZEP2qpump,ARENA,27464.12,,0.1,38612.39,486,281,market,SKIP,,pumpfun_bonding_curve,,token-profiles
 2026-10-20T12:45:05+00:00,CWLamwkLtezbAzPAQMoiyCWMWM9NAgTtVRdyRxzpsX8A,Laura,,,0.09,0,620,588,market,SKIP,,missing:mcap_usd,,token-profiles
 2026-10-20T12:45:05+00:00,hexxM7BSacs3UWsD9ZTg2WjAZLyaL481euSZb2gSvts,hexx,58258,19742.51,1.12,223463.82,2380,3145,market,SKIP,,liquidity_low,,token-profiles
+2026-10-20T12:50:05+00:00,8Bm6eGHRWNjBybaKjPVuRggnfn5mf815y8FZEP2qpump,ARENA,36312,14680.43,0.07,30834.75,437,361,market,SKIP,,mcap_too_low,,token-profiles
+2026-10-20T12:50:05+00:00,hexxM7BSacs3UWsD9ZTg2WjAZLyaL481euSZb2gSvts,hexx,68743,21640.72,1.21,205098.62,2087,2694,market,SKIP,,sells_ge_buys_h1,,token-profiles
+2026-10-20T12:50:05+00:00,HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump,MISTAKE,1992543,164990.94,946.51,28226.02,77,272,market,SKIP,,too_old,,"token-boosts,token-boosts/top"
