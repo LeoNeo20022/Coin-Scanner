@@ -559,8 +559,8 @@
  "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd": {
   "judged": 1792353030.9927964,
   "symbol": "Gold",
-  "market_logged": 1792450223.3514743,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1792515795.2565215,
+  "market_reason": "liquidity_low"
  },
  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
   "market_logged": 1792439602.370586,
@@ -3618,12 +3618,12 @@
   "market_reason": "missing:liquidity_usd"
  },
  "4VPbDqHHoXtNVQcxeYJ5EjUduh6ZkFD3cU1deoVMpump": {
-  "market_logged": 1792514895.2880943,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1792515795.2565215,
+  "market_reason": "mcap_too_low"
  },
  "6ceuPfcE67PLs3Z6CbJpFpqNyAevVocP2zsDkbM1pump": {
-  "market_logged": 1792514895.2880943,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1792515795.2565215,
+  "market_reason": "liquidity_low"
  },
  "7pdf2FPZmtWSrjheZkra6gLjkCK92mWCoLcvFC9jpump": {
   "market_logged": 1792514895.2880943,
@@ -3648,5 +3648,9 @@
  "4KZiRfDe3BwLiZwzp2TosveLRpfxHhjPeYhV1RV2pump": {
   "market_logged": 1792515495.621232,
   "market_reason": "mcap_too_low"
+ },
+ "AMsxDwM3LA5p2sYmhSH3eCaReedF7ZNunEjpKsVanity": {
+  "market_logged": 1792515795.2565215,
+  "market_reason": "missing:liquidity_usd"
  }
 }
