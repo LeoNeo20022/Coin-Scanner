@@ -1090,3 +1090,9 @@
 [2026-10-20T05:35:24+00:00] grok call 10.2s model=grok-4.3 tokens=997+75 reasoning=637
 [2026-10-20T05:35:24+00:00] grok [rugcheck] TROAD 547mPBDK… -> SKIP (0.75) Massive -57% m5 reversal after h1/h6 gains shows fading spike, not steady buying. High volume on a 1h-old token with this chart is classic exit liquidity. | risk: Blow-off top reversal on thin low-cap liquidity
 [2026-10-20T05:35:26+00:00] run end {"discovered": 56, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "too_new": 3, "mcap_too_low": 13, "too_old": 4, "missing:mcap_usd": 2, "volume_h1_low": 1, "mcap_too_high": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=25s
+[2026-10-20T05:40:01+00:00] run start (LOG ONLY)
+[2026-10-20T05:40:13+00:00] discovered=56 fresh=45 market_pass=1
+[2026-10-20T05:40:13+00:00] grok daily budget 7/40 used, 0 no-response, $0.0196 (2026-10-20 UTC)
+[2026-10-20T05:40:23+00:00] grok call 8.4s model=grok-4.3 tokens=998+65 reasoning=622
+[2026-10-20T05:40:23+00:00] grok [rugcheck] LEONIDA 5YY5qcnh… -> SKIP (0.75) 235% h6 pump already reversing (-17% m5) on 1h-old token; volume concentrated early with fading buys. | risk: Classic early-pump exit risk on thin post-pump liquidity
+[2026-10-20T05:40:25+00:00] run end {"discovered": 56, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "volume_h1_low": 2, "too_new": 2, "mcap_too_low": 12, "too_old": 4, "missing:mcap_usd": 2, "mcap_too_high": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=24s
