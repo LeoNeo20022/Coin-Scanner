@@ -1,0 +1,74 @@
+{
+ "entries": {
+  "7cmhnQgXrYFGpttmbez6VvAUndWPjPFg7ocB96AJvJBZ": {
+   "mint": "7cmhnQgXrYFGpttmbez6VvAUndWPjPFg7ocB96AJvJBZ",
+   "symbol": "PEP",
+   "pair": "5uqBgNiQbhA9g3FpEYD15YmcY3meS7bLp6Cew6FTPbH8",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-20T23:01:10+00:00",
+   "rejected_ts": 1792537270,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 2.255e-05,
+   "mcap_usd": 22551,
+   "liquidity_usd": 11249.06,
+   "age_hours": 0.16,
+   "checks": {},
+   "done": false
+  },
+  "3KeZeSnf5iQusHFVvrcUVYgppHLHVuYj5neENC5cpump": {
+   "mint": "3KeZeSnf5iQusHFVvrcUVYgppHLHVuYj5neENC5cpump",
+   "symbol": "PP",
+   "pair": "48ps9QVV9iENS81TRHmc2CEX7hDW5T75w7gvhvYoWuqP",
+   "dex": "pumpfun",
+   "rejected_at": "2026-10-20T23:01:10+00:00",
+   "rejected_ts": 1792537270,
+   "stage": "market",
+   "reason": "pumpfun_bonding_curve",
+   "reason_key": "market:pumpfun_bonding_curve",
+   "sources": "token-profiles",
+   "price_usd": 1.277e-05,
+   "mcap_usd": 12774.93,
+   "liquidity_usd": null,
+   "age_hours": 0.13,
+   "checks": {},
+   "done": false
+  },
+  "9vuGTtRoL6GeD4Gwt6mQBm7Bn1AzJWATBvjkiMQXpump": {
+   "mint": "9vuGTtRoL6GeD4Gwt6mQBm7Bn1AzJWATBvjkiMQXpump",
+   "symbol": "GEMMA",
+   "pair": "6imLxoFtJfzdZuMALc3MVVLBg299bLgG5siMXYQzds9t",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-20T23:01:10+00:00",
+   "rejected_ts": 1792537270,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 6.058e-05,
+   "mcap_usd": 60585,
+   "liquidity_usd": 19765.76,
+   "age_hours": 0.13,
+   "checks": {},
+   "done": false
+  }
+ },
+ "days": {
+  "2026-10-20": {
+   "total": 3,
+   "hours": {
+    "23": 3,
+    "23|market:mcap_too_low": 1,
+    "23|market:pumpfun_bonding_curve": 1,
+    "23|market:liquidity_low": 1
+   },
+   "reasons": {
+    "market:mcap_too_low": 1,
+    "market:pumpfun_bonding_curve": 1,
+    "market:liquidity_low": 1
+   }
+  }
+ }
+}
