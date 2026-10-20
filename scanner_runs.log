@@ -1060,3 +1060,7 @@
 [2026-10-20T05:05:07+00:00] grok call 14.9s model=grok-4.3 tokens=995+70 reasoning=474
 [2026-10-20T05:05:07+00:00] grok [rugcheck] DACITY AKuvHXF6… -> SKIP (0.85) Huge 648% h6 / 126% h1 gains already reversing hard (-49% m5); volume spike concentrated early, classic blow-off. | risk: Fading momentum after parabolic move, thin liquidity amplifies downside
 [2026-10-20T05:05:08+00:00] run end {"discovered": 56, "skipped_recent": 12, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "too_new": 3, "mcap_too_low": 12, "too_old": 4, "missing:mcap_usd": 2, "volume_h1_low": 1, "mcap_too_high": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=31s
+[2026-10-20T05:09:38+00:00] run start (LOG ONLY)
+[2026-10-20T05:09:50+00:00] discovered=56 fresh=43 market_pass=0
+[2026-10-20T05:09:50+00:00] grok daily budget 6/40 used, 0 no-response, $0.0167 (2026-10-20 UTC)
+[2026-10-20T05:09:50+00:00] run end {"discovered": 56, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "too_new": 3, "mcap_too_low": 12, "too_old": 4, "missing:mcap_usd": 2, "volume_h1_low": 1, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=12s
