@@ -134,8 +134,8 @@
   "market_reason": "mcap_too_low"
  },
  "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump": {
-  "market_logged": 1792503647.3014796,
-  "market_reason": "too_old"
+  "market_logged": 1792503947.5482533,
+  "market_reason": "mcap_too_high"
  },
  "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
   "market_logged": 1792482996.5889437,
@@ -3240,7 +3240,9 @@
  },
  "8Bm6eGHRWNjBybaKjPVuRggnfn5mf815y8FZEP2qpump": {
   "market_logged": 1792501225.9003801,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792503947.5482533,
+  "symbol": "ARENA"
  },
  "CWLamwkLtezbAzPAQMoiyCWMWM9NAgTtVRdyRxzpsX8A": {
   "market_logged": 1792500302.6211708,
@@ -3312,5 +3314,9 @@
  "7sPRbK63HVeJj9VNNJ73j7fg9kBPKtYQuMUigzkupump": {
   "market_logged": 1792503647.3014796,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": {
+  "market_logged": 1792503947.5482533,
+  "market_reason": "too_new"
  }
 }
