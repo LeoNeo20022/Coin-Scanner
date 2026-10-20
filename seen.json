@@ -559,8 +559,8 @@
  "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd": {
   "judged": 1792353030.9927964,
   "symbol": "Gold",
-  "market_logged": 1792516140.261679,
-  "market_reason": "volume_h1_low"
+  "market_logged": 1792523875.131286,
+  "market_reason": "liquidity_low"
  },
  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
   "market_logged": 1792439602.370586,
@@ -3910,5 +3910,13 @@
  "93iqi7JSBc5jbNWjNZqs7nqFWaEaLzPxmPYLvnVspump": {
   "market_logged": 1792523575.5768092,
   "market_reason": "too_new"
+ },
+ "FP9HKxKKzBfQrRJHY5DNoMvNgEqCaMJoKejvtvtopump": {
+  "market_logged": 1792523875.131286,
+  "market_reason": "too_new"
+ },
+ "8Z8MgtVjB3uGyB6AGDUcCgZGDuiVVuHj5P3xd9FUpump": {
+  "market_logged": 1792523875.131286,
+  "market_reason": "mcap_too_low"
  }
 }
