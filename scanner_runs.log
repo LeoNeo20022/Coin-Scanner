@@ -807,3 +807,9 @@
 [2026-10-20T00:41:37+00:00] discovered=55 fresh=46 market_pass=1
 [2026-10-20T00:41:37+00:00] grok daily budget 1/40 used, 0 no-response, $0.0032 (2026-10-20 UTC)
 [2026-10-20T00:41:39+00:00] run end {"discovered": 55, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "too_new": 3, "mcap_too_low": 17, "liquidity_low": 1, "missing:liquidity_usd": 1, "mcap_too_high": 1, "too_old": 5, "missing:mcap_usd": 1}, "rug": {"top10": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=15s
+[2026-10-20T00:46:24+00:00] run start (LOG ONLY)
+[2026-10-20T00:46:38+00:00] discovered=53 fresh=43 market_pass=1
+[2026-10-20T00:46:38+00:00] grok daily budget 1/40 used, 0 no-response, $0.0032 (2026-10-20 UTC)
+[2026-10-20T00:46:45+00:00] grok call 5.9s model=grok-4.3 tokens=994+69 reasoning=616
+[2026-10-20T00:46:45+00:00] grok [rugcheck] aDOGymous Cv37ZBhX… -> SKIP (0.85) 873% h6 / 180% h1 gains with 37% m5 pump signal blow-off top; buying the exit after parabolic move. | risk: Extreme momentum reversal risk on thin liquidity despite strong buy/sell ratio
+[2026-10-20T00:46:47+00:00] run end {"discovered": 53, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 15, "missing:mcap_usd": 2, "mcap_too_low": 17, "too_new": 2, "mcap_too_high": 1, "too_old": 5}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=22s
