@@ -1803,3 +1803,9 @@
 [2026-10-20T18:32:46+00:00] grok call 8.1s model=grok-4.3 tokens=996+63 reasoning=547
 [2026-10-20T18:32:46+00:00] grok [rugcheck] CUMROCKET CcfmQBZ6… -> SKIP (0.85) 673% h1 gain on 1h-old token screams blow-off top; volume and buys strong but already fading into distribution. | risk: Extreme pump likely to crash on first wave of profit-taking
 [2026-10-20T18:32:48+00:00] run end {"discovered": 61, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 14, "missing:liquidity_usd": 4, "too_new": 1, "too_old": 7, "volume_h1_low": 2, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=25s
+[2026-10-20T18:37:22+00:00] run start (LOG ONLY)
+[2026-10-20T18:37:33+00:00] discovered=62 fresh=51 market_pass=1
+[2026-10-20T18:37:33+00:00] grok daily budget 13/40 used, 0 no-response, $0.0356 (2026-10-20 UTC)
+[2026-10-20T18:37:42+00:00] grok call 6.3s model=grok-4.3 tokens=999+84 reasoning=718
+[2026-10-20T18:37:42+00:00] grok [rugcheck] Pikachu 6gXN9N4y… -> SKIP (0.75) Massive 87% h1 / 246% h6 run in 1h-old token with m5 already -4.8% shows classic blow-off spike. Volume and buys strong but concentrated in short hype window. | risk: Extreme short-term momentum likely to reverse fast on thin holder base
+[2026-10-20T18:37:43+00:00] run end {"discovered": 62, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 15, "missing:liquidity_usd": 4, "too_old": 8, "volume_h1_low": 2, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=21s
