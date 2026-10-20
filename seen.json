@@ -3116,7 +3116,9 @@
  },
  "4o9tQjy3bWKM3qjDTTnQCYhHb64ie9VcDFCjGqDTpump": {
   "market_logged": 1792493618.2329478,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792496970.4267197,
+  "symbol": "LIFAS"
  },
  "Fxg6uAWLm7HTyDvhSwz8FX7yvdaSPGKzzijuBW1hpump": {
   "market_logged": 1792495745.165423,
@@ -3163,8 +3165,8 @@
   "market_reason": "mcap_too_low"
  },
  "hexxM7BSacs3UWsD9ZTg2WjAZLyaL481euSZb2gSvts": {
-  "market_logged": 1792496645.2484646,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1792496970.4267197,
+  "market_reason": "liquidity_low"
  },
  "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump": {
   "market_logged": 1792496045.9152215,
@@ -3173,5 +3175,13 @@
  "E8XoJg3A4YpYtbE6WfN6qWEcXmypLKSWzDkjga6Zpump": {
   "market_logged": 1792496670.5730236,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "8izQ7qAhA6dnzUtmhb7VzCK5p6QrsA8DAtSfQeYbKjoe": {
+  "market_logged": 1792496970.4267197,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "5qjzEB3bUBaxqfyG1NQWXgGUwYbZyAgvFeZQo31Dpump": {
+  "market_logged": 1792496970.4267197,
+  "market_reason": "mcap_too_low"
  }
 }
