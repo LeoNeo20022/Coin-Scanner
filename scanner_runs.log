@@ -2375,3 +2375,10 @@
 [2026-10-21T03:24:06+00:00] second_look: pass end {"queued": 29, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T03:24:13+00:00] launch: paper: [scalp] Auralized: closed (stop_loss) -12.3%
 [2026-10-21T03:24:13+00:00] launch: pass end {"inbox": 20, "eligible": 16, "market_fail": 16, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 2/24 elapsed=7s
+[2026-10-21T03:28:54+00:00] run start (LOG ONLY)
+[2026-10-21T03:29:06+00:00] discovered=61 fresh=44 market_pass=0
+[2026-10-21T03:29:06+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T03:29:06+00:00] run end {"discovered": 61, "skipped_recent": 17, "no_pair": 0, "market": {"pumpfun_bonding_curve": 18, "liquidity_low": 1, "mcap_too_low": 16, "mcap_too_high": 1, "too_old": 7, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
+[2026-10-21T03:29:07+00:00] second_look: pass end {"queued": 29, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T03:29:10+00:00] launch: PAPER BUY $10 x3 strategies Auralized CQa9wYG4… @ 9.274e-06 (launch: curve 58.1%, holders 260, top 3.26%, top10 25.44%, vol1h $60870, age 33m)
+[2026-10-21T03:29:18+00:00] launch: pass end {"inbox": 18, "eligible": 2, "market_fail": 1, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 3/24 elapsed=11s
