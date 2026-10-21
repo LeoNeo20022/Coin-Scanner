@@ -2854,3 +2854,15 @@
 [2026-10-21T08:20:17+00:00] launch: paper: [target5] RSPCA: closed (stop_loss) -50.0%
 [2026-10-21T08:20:17+00:00] launch: paper: [hold] RSPCA: closed (stop_loss) -50.0%
 [2026-10-21T08:20:17+00:00] launch: pass end {"inbox": 20, "eligible": 2, "market_fail": 1, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 16/24 elapsed=49s
+[2026-10-21T08:24:18+00:00] run start (LOG ONLY)
+[2026-10-21T08:24:28+00:00] discovered=52 fresh=44 market_pass=0
+[2026-10-21T08:24:28+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T08:24:28+00:00] run end {"discovered": 52, "skipped_recent": 8, "no_pair": 0, "market": {"too_new": 1, "pumpfun_bonding_curve": 20, "mcap_too_low": 12, "too_old": 8, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-21T08:24:28+00:00] second_look: pass end {"queued": 42, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T08:24:32+00:00] launch: PAPER BUY $10 x3 strategies TRENCHPAD CymGUyYF… @ 3.036e-05 (launch: curve 93.2%, holders 901, top 3.76%, top10 22.42%, vol1h $114433, age 68m)
+[2026-10-21T08:25:17+00:00] launch: paper: candles unavailable for BLhG3Yk7 (HTTPError), using snapshot price
+[2026-10-21T08:25:17+00:00] launch: paper: candles unavailable for 2b36fJ7G (RuntimeError), using snapshot price
+[2026-10-21T08:25:17+00:00] launch: paper: [scalp] Benson: closed (stop_loss) -10.0%
+[2026-10-21T08:25:17+00:00] launch: paper: [target5] Benson: closed (stop_loss) -50.0%
+[2026-10-21T08:25:17+00:00] launch: paper: [hold] Benson: closed (stop_loss) -50.0%
+[2026-10-21T08:25:17+00:00] launch: pass end {"inbox": 20, "eligible": 4, "market_fail": 2, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 1} today buys 17/24 elapsed=49s
