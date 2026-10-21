@@ -3881,3 +3881,13 @@
 [2026-10-21T19:42:12+00:00] run end {"discovered": 58, "skipped_recent": 6, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "too_new": 5, "mcap_too_low": 13, "missing:liquidity_usd": 2, "too_old": 6, "mcap_too_high": 2, "volume_h1_low": 3, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-21T19:42:12+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T19:42:21+00:00] launch: pass end {"inbox": 20, "eligible": 7, "market_fail": 5, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=9s
+[2026-10-21T19:47:02+00:00] run start (LOG ONLY)
+[2026-10-21T19:47:12+00:00] discovered=58 fresh=52 market_pass=1
+[2026-10-21T19:47:12+00:00] grok daily budget 14/40 used, 0 no-response, $0.0374 (2026-10-21 UTC)
+[2026-10-21T19:47:25+00:00] grok call 10.4s model=grok-4.3 tokens=999+75 reasoning=559
+[2026-10-21T19:47:25+00:00] grok [rugcheck] KIMCHI 5Jj9FDm7… -> SKIP (0.85) Huge 168% h6 pump already reversing hard (-49% h1, -4% m5) despite buy volume; classic early exit pattern on 1h-old token. | risk: Fading momentum after blow-off top likely to collapse further
+[2026-10-21T19:47:26+00:00] run end {"discovered": 58, "skipped_recent": 6, "no_pair": 0, "market": {"mcap_too_low": 16, "pumpfun_bonding_curve": 18, "too_new": 3, "missing:liquidity_usd": 2, "too_old": 6, "mcap_too_high": 2, "volume_h1_low": 3, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=24s
+[2026-10-21T19:47:26+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T19:48:05+00:00] launch: paper: candles unavailable for 3B9UFDVz (ReadTimeout), using snapshot price
+[2026-10-21T19:48:05+00:00] launch: paper: candles unavailable for BLhG3Yk7 (ReadTimeout), using snapshot price
+[2026-10-21T19:48:05+00:00] launch: pass end {"inbox": 18, "eligible": 4, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=39s
