@@ -143,6 +143,24 @@
    "age_hours": 1.31,
    "checks": {},
    "done": false
+  },
+  "Gv8hoq7fAmWEVjZmzi6KB15juyUkEK9ebt5nRkqxpump": {
+   "mint": "Gv8hoq7fAmWEVjZmzi6KB15juyUkEK9ebt5nRkqxpump",
+   "symbol": "KAITE",
+   "pair": "Cj7nCQCWttnHR92sdXhpqFRHbAzFrQqr6QWwUV8Tr2or",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T00:11:35+00:00",
+   "rejected_ts": 1792541495,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0006055,
+   "mcap_usd": 603079,
+   "liquidity_usd": 68896.55,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -161,7 +179,7 @@
    }
   },
   "2026-10-21": {
-   "total": 5,
+   "total": 6,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -173,7 +191,8 @@
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
     "grok:skip": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
