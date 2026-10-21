@@ -4232,3 +4232,11 @@
 [2026-10-21T23:51:21+00:00] run end {"discovered": 58, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 17, "too_new": 4, "missing:liquidity_usd": 1, "mcap_too_high": 2, "too_old": 6, "volume_h1_low": 2, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-21T23:51:21+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T23:51:42+00:00] launch: pass end {"inbox": 16, "eligible": 7, "market_fail": 5, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=20s
+[2026-10-21T23:56:11+00:00] run start (LOG ONLY)
+[2026-10-21T23:56:21+00:00] discovered=58 fresh=49 market_pass=1
+[2026-10-21T23:56:21+00:00] grok daily budget 18/40 used, 0 no-response, $0.0481 (2026-10-21 UTC)
+[2026-10-21T23:56:33+00:00] grok call 10.1s model=grok-4.3 tokens=997+66 reasoning=777
+[2026-10-21T23:56:33+00:00] grok [rugcheck] DYCPAD 4fzEnAxU… -> SKIP (0.75) 180% h1 pump with m5 already turning negative signals fading momentum after initial spike. Volume and buy ratio strong but typical for short-lived launches. | risk: Buying into post-pump exit with rapid early gains
+[2026-10-21T23:56:34+00:00] run end {"discovered": 58, "skipped_recent": 9, "no_pair": 0, "market": {"mcap_too_low": 18, "pumpfun_bonding_curve": 16, "too_new": 2, "missing:liquidity_usd": 1, "mcap_too_high": 2, "too_old": 6, "volume_h1_low": 2, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=23s
+[2026-10-21T23:56:34+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T23:56:44+00:00] launch: pass end {"inbox": 16, "eligible": 4, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=9s
