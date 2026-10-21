@@ -3205,3 +3205,9 @@
 [2026-10-21T11:48:08+00:00] run end {"discovered": 57, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 25, "mcap_too_low": 13, "too_new": 1, "liquidity_low": 1, "too_old": 4, "mcap_too_high": 1, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-21T11:48:08+00:00] second_look: pass end {"queued": 47, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T11:48:26+00:00] launch: pass end {"inbox": 25, "eligible": 6, "market_fail": 5, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 24/24 elapsed=19s
+[2026-10-21T11:52:58+00:00] run start (LOG ONLY)
+[2026-10-21T11:53:07+00:00] discovered=56 fresh=45 market_pass=0
+[2026-10-21T11:53:07+00:00] grok daily budget 5/40 used, 0 no-response, $0.0140 (2026-10-21 UTC)
+[2026-10-21T11:53:07+00:00] run end {"discovered": 56, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 25, "too_new": 3, "mcap_too_low": 11, "too_old": 4, "mcap_too_high": 1, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-21T11:53:07+00:00] second_look: pass end {"queued": 47, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T11:53:25+00:00] launch: pass end {"inbox": 25, "eligible": 1, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 24/24 elapsed=18s
