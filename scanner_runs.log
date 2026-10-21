@@ -2915,3 +2915,9 @@
 [2026-10-21T08:50:33+00:00] second_look: pass end {"queued": 43, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T08:51:17+00:00] launch: paper: candles unavailable for 2b36fJ7G (RuntimeError), using snapshot price
 [2026-10-21T08:51:17+00:00] launch: pass end {"inbox": 19, "eligible": 3, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 17/24 elapsed=44s
+[2026-10-21T08:55:23+00:00] run start (LOG ONLY)
+[2026-10-21T08:55:33+00:00] discovered=49 fresh=42 market_pass=0
+[2026-10-21T08:55:33+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T08:55:33+00:00] run end {"discovered": 49, "skipped_recent": 7, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "mcap_too_low": 9, "too_new": 2, "too_old": 8, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-21T08:55:33+00:00] second_look: pass end {"queued": 43, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T08:56:03+00:00] launch: pass end {"inbox": 20, "eligible": 4, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 17/24 elapsed=30s
