@@ -4901,7 +4901,9 @@
  },
  "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": {
   "market_logged": 1792560056.2138894,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792563426.9697084,
+  "symbol": "PHP"
  },
  "Ca3BDkJveorqmyXiFx1P41imefBskvaSbSm74vcfAs6X": {
   "market_logged": 1792559456.8270159,
@@ -4920,8 +4922,8 @@
   "symbol": "ALON"
  },
  "AwLPX11vX2LtBtsGGqTBcw77EsDacCLwiF353YxQpump": {
-  "market_logged": 1792562489.2614734,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1792563426.9697084,
+  "market_reason": "liquidity_low"
  },
  "5XcybvUmoBEg4NKBHQ25jYASdD8MpGfF81zgsDXKpump": {
   "market_logged": 1792560989.5163755,
@@ -4953,6 +4955,14 @@
  },
  "2obQEJURUTQGNVTdwqZQX3HaAAd78dzhPP1PHksvpump": {
   "market_logged": 1792562789.0472198,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2b36fJ7GHm9TVsym3to3Wk2s8pXs5g1UmZeVmeyGpump": {
+  "market_logged": 1792563426.9697084,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "7k1S1H4VgTXafzgMJcVRUs3qBXPMKV6prytKe32apump": {
+  "market_logged": 1792563426.9697084,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
