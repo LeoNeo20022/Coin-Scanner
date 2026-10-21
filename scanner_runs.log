@@ -2882,3 +2882,14 @@
 [2026-10-21T08:30:33+00:00] second_look: pass end {"queued": 43, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T08:31:04+00:00] launch: paper: candles unavailable for EXaNWcxK (HTTPError), using snapshot price
 [2026-10-21T08:31:04+00:00] launch: pass end {"inbox": 19, "eligible": 1, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 17/24 elapsed=31s
+[2026-10-21T08:35:23+00:00] run start (LOG ONLY)
+[2026-10-21T08:35:32+00:00] discovered=51 fresh=43 market_pass=0
+[2026-10-21T08:35:32+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T08:35:32+00:00] run end {"discovered": 51, "skipped_recent": 8, "no_pair": 0, "market": {"too_new": 2, "pumpfun_bonding_curve": 19, "mcap_too_low": 11, "too_old": 8, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-21T08:35:32+00:00] second_look: pass end {"queued": 43, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T08:36:16+00:00] launch: paper: candles unavailable for EXaNWcxK (HTTPError), using snapshot price
+[2026-10-21T08:36:16+00:00] launch: paper: candles unavailable for BLhG3Yk7 (HTTPError), using snapshot price
+[2026-10-21T08:36:16+00:00] launch: paper: candles unavailable for 6KjWBTqd (HTTPError), using snapshot price
+[2026-10-21T08:36:16+00:00] launch: paper: candles unavailable for 2b36fJ7G (RuntimeError), using snapshot price
+[2026-10-21T08:36:16+00:00] launch: paper: [scalp] GOTCHA: closed (time_exit) +5.4%
+[2026-10-21T08:36:16+00:00] launch: pass end {"inbox": 19, "eligible": 1, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 17/24 elapsed=44s
