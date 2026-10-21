@@ -2356,3 +2356,15 @@
 [2026-10-21T03:14:10+00:00] launch: LARPOOOR BpcfF47h… fail: far_below_ath
 [2026-10-21T03:14:12+00:00] launch: glazecoin CMxRBRzZ… fail: insiders
 [2026-10-21T03:14:15+00:00] launch: pass end {"inbox": 21, "eligible": 2, "market_fail": 0, "rugchecked": 2, "token_fail": 2, "opened": 0, "skipped_cap": 0} today buys 1/24 elapsed=9s
+[2026-10-21T03:18:54+00:00] run start (LOG ONLY)
+[2026-10-21T03:19:05+00:00] discovered=60 fresh=45 market_pass=2
+[2026-10-21T03:19:05+00:00] grok daily budget 3/40 used, 0 no-response, $0.0083 (2026-10-21 UTC)
+[2026-10-21T03:19:21+00:00] grok call 12.5s model=grok-4.3 tokens=993+63 reasoning=665
+[2026-10-21T03:19:21+00:00] grok [rugcheck] DARKCAT fpam8wyN… -> BUY (0.75) buys edging sells with m5 acceleration; top10 only 9.73% and zero warns/dangers | risk: h6 price -35% may signal fading interest after initial drop
+[2026-10-21T03:19:21+00:00] paper BUY $10 DARKCAT @ 0.0005489
+[2026-10-21T03:19:21+00:00] paper SHADOW BUY [target5] $10 DARKCAT @ 0.0005489
+[2026-10-21T03:19:21+00:00] paper SHADOW BUY [scalp] $10 DARKCAT @ 0.0005489
+[2026-10-21T03:19:22+00:00] run end {"discovered": 60, "skipped_recent": 15, "no_pair": 0, "market": {"mcap_too_low": 13, "pumpfun_bonding_curve": 21, "mcap_too_high": 1, "too_old": 7, "missing:liquidity_usd": 1}, "rug": {"top10": 1}, "grok": 1, "BUY": 1, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=29s
+[2026-10-21T03:19:22+00:00] second_look: pass end {"queued": 29, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T03:19:26+00:00] launch: PAPER BUY $10 x3 strategies Auralized 9dAxxKvY… @ 1.732e-05 (launch: curve 75.2%, holders 244, top 3.83%, top10 25.43%, vol1h $44376, age 16m)
+[2026-10-21T03:19:31+00:00] launch: pass end {"inbox": 21, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 2/24 elapsed=9s
