@@ -3473,3 +3473,9 @@
 [2026-10-21T14:52:59+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T14:53:13+00:00] launch: paper: [hold] LARRY: closed (stop_loss) +80.1%
 [2026-10-21T14:53:13+00:00] launch: pass end {"inbox": 23, "eligible": 8, "market_fail": 6, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=13s
+[2026-10-21T14:57:31+00:00] run start (LOG ONLY)
+[2026-10-21T14:57:41+00:00] discovered=60 fresh=51 market_pass=0
+[2026-10-21T14:57:41+00:00] grok daily budget 7/40 used, 0 no-response, $0.0187 (2026-10-21 UTC)
+[2026-10-21T14:57:41+00:00] run end {"discovered": 60, "skipped_recent": 9, "no_pair": 0, "market": {"too_new": 3, "pumpfun_bonding_curve": 23, "missing:liquidity_usd": 2, "mcap_too_low": 16, "volume_h1_low": 2, "too_old": 4, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-21T14:57:41+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T14:57:52+00:00] launch: pass end {"inbox": 23, "eligible": 5, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=11s
