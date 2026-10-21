@@ -125,6 +125,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "GyN3wQ4ZsjTuViG8oVdPD8Zmie1XZZfkudFrGbBqe8oc": {
+   "mint": "GyN3wQ4ZsjTuViG8oVdPD8Zmie1XZZfkudFrGbBqe8oc",
+   "symbol": "Melonie",
+   "pair": "2C5QVNJJ51c4hF78BnqosPnttbd6PMGB9vV7Lbo8EAbk",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T00:06:35+00:00",
+   "rejected_ts": 1792541195,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 6.743e-05,
+   "mcap_usd": 65843,
+   "liquidity_usd": 21649.87,
+   "age_hours": 1.31,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -143,7 +161,7 @@
    }
   },
   "2026-10-21": {
-   "total": 4,
+   "total": 5,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -154,7 +172,8 @@
     "market:liquidity_low": 1,
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "rugcheck:top10": 1
    }
   }
  }
