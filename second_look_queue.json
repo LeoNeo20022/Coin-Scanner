@@ -161,6 +161,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "RAPRVe54A9bN4JPA5hFrpa7m4UL7LWLQzhDjFyRXxmX": {
+   "mint": "RAPRVe54A9bN4JPA5hFrpa7m4UL7LWLQzhDjFyRXxmX",
+   "symbol": "RAPR2",
+   "pair": "65XqfQ5cyjeXXuPQEyzkrLn2kVRmGdQgFCpKrwdXXZsH",
+   "dex": "raydium",
+   "rejected_at": "2026-10-21T00:22:00+00:00",
+   "rejected_ts": 1792542120,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 5.62,
+   "mcap_usd": 646501,
+   "liquidity_usd": 43235.39,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -179,7 +197,7 @@
    }
   },
   "2026-10-21": {
-   "total": 6,
+   "total": 7,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -192,7 +210,8 @@
     "market:too_new": 1,
     "grok:skip": 1,
     "rugcheck:top10": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "rugcheck:danger": 1
    }
   }
  }
