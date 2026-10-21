@@ -2991,3 +2991,12 @@
 [2026-10-21T09:33:14+00:00] launch: paper: candles unavailable for 7u2vv7Uf (RuntimeError), using snapshot price
 [2026-10-21T09:33:14+00:00] launch: paper: candles unavailable for 89X1RR4V (RuntimeError), using snapshot price
 [2026-10-21T09:33:14+00:00] launch: pass end {"inbox": 20, "eligible": 6, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 20/24 elapsed=78s
+[2026-10-21T09:36:45+00:00] run start (LOG ONLY)
+[2026-10-21T09:36:55+00:00] discovered=50 fresh=43 market_pass=0
+[2026-10-21T09:36:55+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T09:36:55+00:00] run end {"discovered": 50, "skipped_recent": 7, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "too_new": 2, "mcap_too_low": 10, "too_old": 8, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-21T09:36:55+00:00] second_look: pass end {"queued": 44, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T09:38:13+00:00] launch: paper: candles unavailable for 7u2vv7Uf (RuntimeError), using snapshot price
+[2026-10-21T09:38:13+00:00] launch: paper: candles unavailable for 89X1RR4V (RuntimeError), using snapshot price
+[2026-10-21T09:38:13+00:00] launch: paper: [hold] joe: closed (stop_loss) -50.0%
+[2026-10-21T09:38:13+00:00] launch: pass end {"inbox": 20, "eligible": 3, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 20/24 elapsed=78s
