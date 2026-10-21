@@ -845,6 +845,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "3JEe9dCTw17NCGzeKS5ZApv4qGQTjp6TJahGkndcpump": {
+   "mint": "3JEe9dCTw17NCGzeKS5ZApv4qGQTjp6TJahGkndcpump",
+   "symbol": "TRUMP",
+   "pair": "9XnpQAxHFGWBFYsHxNBG1TFC19Ey6N79bwgKLHKhnhsg",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T12:28:51+00:00",
+   "rejected_ts": 1792585731,
+   "stage": "rugcheck",
+   "reason": "danger:Single holder ownership",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001673,
+   "mcap_usd": 164025,
+   "liquidity_usd": 34071.12,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -863,7 +881,7 @@
    }
   },
   "2026-10-21": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -906,7 +924,7 @@
     "grok:skip": 4,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 2,
-    "rugcheck:danger": 5,
+    "rugcheck:danger": 6,
     "market:mcap_too_low": 6,
     "rugcheck:lp_unlocked": 3
    }
