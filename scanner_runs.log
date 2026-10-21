@@ -2936,3 +2936,12 @@
 [2026-10-21T09:05:38+00:00] launch: PAPER BUY $10 x3 strategies NICE 7u2vv7Uf… @ 1.287e-05 (launch: curve 73.8%, holders 486, top 3.36%, top10 22.32%, vol1h $82247, age 27m)
 [2026-10-21T09:06:30+00:00] launch: paper: [scalp] TILLY: closed (stop_loss) -10.0%
 [2026-10-21T09:06:30+00:00] launch: pass end {"inbox": 20, "eligible": 3, "market_fail": 2, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 19/24 elapsed=56s
+[2026-10-21T09:06:46+00:00] run start (LOG ONLY)
+[2026-10-21T09:06:55+00:00] discovered=49 fresh=41 market_pass=0
+[2026-10-21T09:06:55+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T09:06:55+00:00] run end {"discovered": 49, "skipped_recent": 8, "no_pair": 0, "market": {"too_new": 1, "pumpfun_bonding_curve": 20, "mcap_too_low": 9, "too_old": 8, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-21T09:06:55+00:00] second_look: pass end {"queued": 44, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T09:07:43+00:00] launch: paper: candles unavailable for 8FmvTvUp (RuntimeError), using snapshot price
+[2026-10-21T09:07:43+00:00] launch: paper: [target5] TILLY: closed (stop_loss) -59.5%
+[2026-10-21T09:07:43+00:00] launch: paper: [hold] TILLY: closed (stop_loss) -59.5%
+[2026-10-21T09:07:43+00:00] launch: pass end {"inbox": 20, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 19/24 elapsed=47s
