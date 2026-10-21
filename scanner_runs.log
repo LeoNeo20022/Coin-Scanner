@@ -4106,3 +4106,11 @@
 [2026-10-21T22:20:17+00:00] run end {"discovered": 60, "skipped_recent": 7, "no_pair": 0, "market": {"mcap_too_low": 14, "pumpfun_bonding_curve": 20, "too_new": 3, "missing:liquidity_usd": 2, "too_old": 8, "mcap_too_high": 2, "volume_h1_low": 3, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-21T22:20:17+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T22:20:26+00:00] launch: pass end {"inbox": 20, "eligible": 6, "market_fail": 5, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 24/24 elapsed=9s
+[2026-10-21T22:25:07+00:00] run start (LOG ONLY)
+[2026-10-21T22:25:17+00:00] discovered=60 fresh=53 market_pass=1
+[2026-10-21T22:25:17+00:00] grok daily budget 17/40 used, 0 no-response, $0.0453 (2026-10-21 UTC)
+[2026-10-21T22:25:24+00:00] grok call 5.0s model=grok-4.3 tokens=998+67 reasoning=624
+[2026-10-21T22:25:24+00:00] grok [rugcheck] kimchi BCwXmVMj… -> SKIP (0.75) 372% h6 gain with 76% h1 already signals blow-off top; volume and buys strong but concentrated in early spike. | risk: thin liquidity relative to rapid mcap growth leaves it vulnerable to quick reversal
+[2026-10-21T22:25:25+00:00] run end {"discovered": 60, "skipped_recent": 7, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 15, "too_new": 2, "missing:liquidity_usd": 2, "too_old": 8, "mcap_too_high": 2, "volume_h1_low": 3, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=18s
+[2026-10-21T22:25:25+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T22:25:35+00:00] launch: pass end {"inbox": 19, "eligible": 3, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 24/24 elapsed=9s

@@ -6121,8 +6121,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "E5YAbWFc8eQ7NwUeZoVZRenbaaqEqry4opuknjnDpump": {
-  "market_logged": 1792618745.548599,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1792621514.073753,
+  "market_reason": "too_new"
  },
  "5FHgVxLFLLaE49wocCW6qgG9pHGPTJ1xXPn5uHKfPdW1": {
   "market_logged": 1792619079.8452375,
@@ -6141,8 +6141,8 @@
   "market_reason": "mcap_too_low"
  },
  "6VVQE38thkLzR65EPjqU2FuMtvqfN5sMCXTUCMnapump": {
-  "market_logged": 1792619680.100314,
-  "market_reason": "too_new"
+  "market_logged": 1792621514.073753,
+  "market_reason": "mcap_too_low"
  },
  "ByzGKywQEZWtN8U1eWoParBYGFg31ymuVjwfB7rbdbJs": {
   "market_logged": 1792619979.771352,
@@ -6150,7 +6150,9 @@
  },
  "BCwXmVMj4x2sG5z37oMnps2B1GrGVA9J7AFiBEShpump": {
   "market_logged": 1792619979.771352,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "kimchi",
+  "judged": 1792621514.073753
  },
  "2JLW7FVuzNqX6Rva7HEWeSnVNpCf8eaKxgWQPuZapump": {
   "market_logged": 1792620280.1425745,
@@ -6191,5 +6193,9 @@
  "7555Qpbx1bNDTiRJ8jqhPSRGJmFqDyLLYSEkoy1ppump": {
   "market_logged": 1792621213.895125,
   "market_reason": "too_new"
+ },
+ "7Pp9QLtMFTdj6gXNVZWRwjmvrqtHEXfPXgyfz7atpump": {
+  "market_logged": 1792621514.073753,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
