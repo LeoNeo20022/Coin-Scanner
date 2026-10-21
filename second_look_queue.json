@@ -827,6 +827,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump": {
+   "mint": "Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump",
+   "symbol": "LASTAGENCY",
+   "pair": "Hu9iAZUwpJ94k41y34g64rkqJwyo7Ds5hYNFDcBg4BAn",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T11:43:09+00:00",
+   "rejected_ts": 1792582989,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0006033,
+   "mcap_usd": 587571,
+   "liquidity_usd": 84536.14,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -845,7 +863,7 @@
    }
   },
   "2026-10-21": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -890,7 +908,7 @@
     "rugcheck:insiders": 2,
     "rugcheck:danger": 5,
     "market:mcap_too_low": 6,
-    "rugcheck:lp_unlocked": 2
+    "rugcheck:lp_unlocked": 3
    }
   }
  }
