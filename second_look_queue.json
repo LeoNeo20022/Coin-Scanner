@@ -179,6 +179,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "D6JPhhDzCecig895drexKKn5H236EF3vJKgvWK6gpump": {
+   "mint": "D6JPhhDzCecig895drexKKn5H236EF3vJKgvWK6gpump",
+   "symbol": "PILL",
+   "pair": "3RPdNLshoafwYEGDohT3hjChHJuBAS7hVirYvetGR28o",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T00:37:00+00:00",
+   "rejected_ts": 1792543020,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 6.886e-05,
+   "mcap_usd": 66240,
+   "liquidity_usd": 22726.97,
+   "age_hours": 1.58,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -197,7 +215,7 @@
    }
   },
   "2026-10-21": {
-   "total": 7,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -209,7 +227,7 @@
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
     "grok:skip": 1,
-    "rugcheck:top10": 1,
+    "rugcheck:top10": 2,
     "rugcheck:insiders": 1,
     "rugcheck:danger": 1
    }
