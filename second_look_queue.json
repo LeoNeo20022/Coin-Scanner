@@ -935,6 +935,24 @@
    "age_hours": 25.23,
    "checks": {},
    "done": false
+  },
+  "LUpgK4hZJbyDY1UyZPKZLbRKEqYTWVxxgHFNvoDpump": {
+   "mint": "LUpgK4hZJbyDY1UyZPKZLbRKEqYTWVxxgHFNvoDpump",
+   "symbol": "DOT",
+   "pair": "AZJDbhjEUQLmKUKYfmsNrPguHEEXKPWEdBvV8hCNTa1E",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T14:47:41+00:00",
+   "rejected_ts": 1792594061,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0003041,
+   "mcap_usd": 294292,
+   "liquidity_usd": 47511.96,
+   "age_hours": 59.58,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -953,7 +971,7 @@
    }
   },
   "2026-10-21": {
-   "total": 49,
+   "total": 50,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -990,8 +1008,9 @@
     "08|market:liquidity_low": 1,
     "13": 1,
     "13|market:volume_h1_low": 1,
-    "14": 1,
-    "14|market:volume_h1_low": 1
+    "14": 2,
+    "14|market:volume_h1_low": 1,
+    "14|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:liquidity_low": 6,
@@ -1003,7 +1022,8 @@
     "rugcheck:danger": 6,
     "market:mcap_too_low": 6,
     "rugcheck:lp_unlocked": 4,
-    "market:volume_h1_low": 2
+    "market:volume_h1_low": 2,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
