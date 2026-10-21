@@ -2654,3 +2654,9 @@
 [2026-10-21T06:22:13+00:00] launch: Datacenter 2obQEJUR… fail: far_below_ath
 [2026-10-21T06:22:24+00:00] launch: paper: [scalp] joe: closed (take_profit) +20.0%
 [2026-10-21T06:22:24+00:00] launch: pass end {"inbox": 19, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 10/24 elapsed=15s
+[2026-10-21T06:26:58+00:00] run start (LOG ONLY)
+[2026-10-21T06:27:09+00:00] discovered=60 fresh=48 market_pass=0
+[2026-10-21T06:27:09+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T06:27:09+00:00] run end {"discovered": 60, "skipped_recent": 12, "no_pair": 0, "market": {"mcap_too_low": 17, "pumpfun_bonding_curve": 19, "too_old": 8, "liquidity_low": 1, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-10-21T06:27:10+00:00] second_look: pass end {"queued": 40, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T06:27:20+00:00] launch: pass end {"inbox": 19, "eligible": 3, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 10/24 elapsed=11s
