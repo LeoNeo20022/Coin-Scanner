@@ -3491,3 +3491,11 @@
 [2026-10-21T15:07:41+00:00] run end {"discovered": 60, "skipped_recent": 9, "no_pair": 0, "market": {"missing:liquidity_usd": 4, "mcap_too_low": 16, "pumpfun_bonding_curve": 23, "too_new": 2, "too_old": 4, "volume_h1_low": 1, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-21T15:07:41+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T15:07:53+00:00] launch: pass end {"inbox": 23, "eligible": 3, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 24/24 elapsed=12s
+[2026-10-21T15:08:04+00:00] run start (LOG ONLY)
+[2026-10-21T15:08:13+00:00] discovered=60 fresh=51 market_pass=1
+[2026-10-21T15:08:13+00:00] grok daily budget 7/40 used, 0 no-response, $0.0187 (2026-10-21 UTC)
+[2026-10-21T15:08:22+00:00] grok call 7.5s model=grok-4.3 tokens=994+60 reasoning=560
+[2026-10-21T15:08:22+00:00] grok [rugcheck] HUMANOID DR3uVReJ… -> SKIP (0.85) 652% h1 gain on 1h-old token screams blow-off top. Buys still outpace sells but momentum already extreme. | risk: Classic pump-and-dump exit liquidity setup
+[2026-10-21T15:08:24+00:00] run end {"discovered": 60, "skipped_recent": 9, "no_pair": 0, "market": {"missing:liquidity_usd": 4, "mcap_too_low": 16, "pumpfun_bonding_curve": 23, "too_new": 1, "too_old": 4, "volume_h1_low": 1, "mcap_too_high": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=20s
+[2026-10-21T15:08:24+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T15:08:35+00:00] launch: pass end {"inbox": 23, "eligible": 5, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 24/24 elapsed=11s
