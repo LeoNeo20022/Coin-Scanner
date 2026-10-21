@@ -3086,3 +3086,10 @@
 [2026-10-21T10:31:30+00:00] launch: paper: candles unavailable for CymGUyYF (RuntimeError), using snapshot price
 [2026-10-21T10:31:30+00:00] launch: paper: [hold] NICE: closed (stop_loss) -50.0%
 [2026-10-21T10:31:30+00:00] launch: pass end {"inbox": 20, "eligible": 4, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 23/24 elapsed=77s
+[2026-10-21T10:35:05+00:00] run start (LOG ONLY)
+[2026-10-21T10:35:14+00:00] discovered=53 fresh=45 market_pass=0
+[2026-10-21T10:35:14+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T10:35:14+00:00] run end {"discovered": 53, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "too_new": 1, "mcap_too_low": 12, "liquidity_low": 1, "too_old": 7, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-21T10:35:14+00:00] second_look: pass end {"queued": 44, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T10:36:23+00:00] launch: paper: candles unavailable for CymGUyYF (RuntimeError), using snapshot price
+[2026-10-21T10:36:23+00:00] launch: pass end {"inbox": 21, "eligible": 5, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 23/24 elapsed=69s
