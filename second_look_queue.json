@@ -53,6 +53,78 @@
    "age_hours": 0.13,
    "checks": {},
    "done": false
+  },
+  "8zemVcC8974xhtHva7wuY64B6viXsfj24b6LH41mpump": {
+   "mint": "8zemVcC8974xhtHva7wuY64B6viXsfj24b6LH41mpump",
+   "symbol": "UMI",
+   "pair": "5cQc7fynWC3wucmumYihEaEGmdQ1GweERcubaZNnmoLG",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T00:01:33+00:00",
+   "rejected_ts": 1792540893,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.029e-05,
+   "mcap_usd": 50236,
+   "liquidity_usd": 17655.36,
+   "age_hours": 0.05,
+   "checks": {},
+   "done": false
+  },
+  "7DzCqeVESZG7atpZHCfCb7VxPfnkhPE3uMW8cNLpump": {
+   "mint": "7DzCqeVESZG7atpZHCfCb7VxPfnkhPE3uMW8cNLpump",
+   "symbol": "BOTTEGA",
+   "pair": "2piQna2tCHPz8BXCnR4fxg6TAtWAc6UiqXENQwoCZMX1",
+   "dex": "pumpfun",
+   "rejected_at": "2026-10-21T00:01:33+00:00",
+   "rejected_ts": 1792540893,
+   "stage": "market",
+   "reason": "pumpfun_bonding_curve",
+   "reason_key": "market:pumpfun_bonding_curve",
+   "sources": "token-profiles",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "age_hours": 0.42,
+   "checks": {},
+   "done": false
+  },
+  "CzkL8THZY8m1fu77cdLuKqNjXtyiBDiv4YXVP3fNpump": {
+   "mint": "CzkL8THZY8m1fu77cdLuKqNjXtyiBDiv4YXVP3fNpump",
+   "symbol": "BabyKimchi",
+   "pair": "HUk3gnV1icunzoWioGGigYcNDHsWAhfzBWdfGCHotMCk",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T00:01:33+00:00",
+   "rejected_ts": 1792540893,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 6.565e-05,
+   "mcap_usd": 65564,
+   "liquidity_usd": 22934.95,
+   "age_hours": 0.16,
+   "checks": {},
+   "done": false
+  },
+  "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": {
+   "mint": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
+   "symbol": "Pokecity",
+   "pair": "13ah1XkrFTsXeaPdvVQn8giGpS3HJVXfVwq9qtAPSqxf",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T00:02:12+00:00",
+   "rejected_ts": 1792540932,
+   "stage": "grok",
+   "reason": "732% h6 / 157% h1 gains with only 1h age signal blow-off top; m5 price already -4.2% while volume concentrated early.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.000411,
+   "mcap_usd": 406701,
+   "liquidity_usd": 54692.9,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -68,6 +140,21 @@
     "market:mcap_too_low": 1,
     "market:pumpfun_bonding_curve": 1,
     "market:liquidity_low": 1
+   }
+  },
+  "2026-10-21": {
+   "total": 4,
+   "hours": {
+    "00": 3,
+    "00|market:liquidity_low": 1,
+    "00|market:pumpfun_bonding_curve": 1,
+    "00|market:too_new": 1
+   },
+   "reasons": {
+    "market:liquidity_low": 1,
+    "market:pumpfun_bonding_curve": 1,
+    "market:too_new": 1,
+    "grok:skip": 1
    }
   }
  }
