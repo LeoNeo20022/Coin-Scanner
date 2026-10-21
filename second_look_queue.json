@@ -629,6 +629,24 @@
    "age_hours": 2.15,
    "checks": {},
    "done": false
+  },
+  "7wY4rfVsUcNcwKcrLw6CHazzXw4bihcwP73ynj6jpump": {
+   "mint": "7wY4rfVsUcNcwKcrLw6CHazzXw4bihcwP73ynj6jpump",
+   "symbol": "ALON",
+   "pair": "4JCBNsFaJjio4fSTpBD6GfMZPwydJHUpjy2sWMcEtoXK",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T05:26:01+00:00",
+   "rejected_ts": 1792560361,
+   "stage": "rugcheck",
+   "reason": "danger:Top 10 holders high ownership",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001149,
+   "mcap_usd": 113625,
+   "liquidity_usd": 28858.65,
+   "age_hours": 1.1,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -647,7 +665,7 @@
    }
   },
   "2026-10-21": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -681,7 +699,7 @@
     "grok:skip": 3,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 1,
-    "rugcheck:danger": 4,
+    "rugcheck:danger": 5,
     "market:mcap_too_low": 5
    }
   }
