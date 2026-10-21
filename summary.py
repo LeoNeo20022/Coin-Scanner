@@ -10,6 +10,24 @@ def rows(path):
 def ts(s): return datetime.fromisoformat(s)
 def money(x): return f"{'-' if x < 0 else '+'}${abs(x):.2f}"
 
+_BOOK = None
+def fee_pnl(trades, launch=False):
+    """Estimated after-fee P&L (Jupiter direct; see fees.py / config.FEES). Paper numbers are unchanged."""
+    global _BOOK
+    if not trades: return 0.0
+    try:
+        if _BOOK is None:
+            import fees
+            from config import SHADOW, SECOND_LOOK, LAUNCH
+            files = [S["paper_file"], *(v["file"] for v in SHADOW.values()), *SECOND_LOOK["paper_files"].values(),
+                     *LAUNCH["paper_files"].values()]
+            _BOOK = fees.Book([rows(f) for f in files])
+        return _BOOK.pnl(trades, launch)
+    except Exception as e:
+        print(f"  (fee estimate error: {e})"); return float("nan")
+FEE_NOTE = ("after est. fees = Jupiter direct: pool fee/side (1.25% curve/small pools, ~1.1% PumpSwap), "
+            "Jupiter 0.10%/side (0.50% if token <24h old), ~$0.003 network/side")
+
 def section(title, log, trades):
     print(f"\n=== {title} ===")
     mints = {r["mint"] for r in log}
@@ -37,6 +55,8 @@ def section(title, log, trades):
     open_pnl = sum(float(t["pnl_usd"] or 0) for t in trades if t["status"] == "open")
     print(f"Paper trades: {len(trades)} opened (${cost:.2f} hypothetically put in), {len(closed)} closed, {len(trades) - len(closed)} open")
     print(f"  Total paper P&L: {money(pnl)} ({100 * pnl / cost:+.1f}%)  = closed {money(realized_pnl)} + open {money(open_pnl)} (unrealized)")
+    fp = fee_pnl(trades)
+    print(f"  After est. fees: {money(fp)} ({100 * fp / cost:+.1f}%)")
     w = sum(1 for t in trades if float(t["pnl_usd"] or 0) > 0); l = sum(1 for t in trades if float(t["pnl_usd"] or 0) <= 0)
     print(f"  Winners / losers (incl. open, marked to market): {w} / {l}")
     for t in sorted(trades, key=lambda t: float(t["pnl_usd"] or 0), reverse=True):
@@ -78,6 +98,8 @@ def budget(trades, label="Pretend", quiet=False):
     bal = start + pnl
     line = (f"{label} ${start:.0f} paper budget: now worth ${bal:.2f} ({money(pnl)}, {100 * pnl / start:+.1f}%), "
             f"${in_use:.2f} in {sum(1 for t in trades if t['status'] == 'open')} open trades, ${bal - in_use:.2f} free (approx)")
+    fp = fee_pnl(trades)
+    line += f" | after est. fees: ${start + fp:.2f} ({money(fp)})"
     if not quiet: print("\n" + line)
     return line
 
@@ -99,7 +121,7 @@ def shadow_sections(main_trades):
     worst_win = fr * mtp + (1 - fr) * msl
     table = []
     closed, wins, pnl, wr = strat_stats(main_trades, lambda t: float(t["pnl_usd"] or 0) > 0)
-    table.append(("main/hold", len(main_trades), len(closed), len(wins), wr, pnl,
+    table.append(("main/hold", len(main_trades), len(closed), len(wins), wr, pnl, fee_pnl(main_trades),
                   f"~{breakeven(worst_win, msl):.0f}% (if winners only get half at +{mtp}% then stop)"))
     for name, st in SHADOW.items():
         trades = rows(st["file"])
@@ -107,12 +129,14 @@ def shadow_sections(main_trades):
               f"{st['max_hold_min'] / 60:g}h (1-min candles, SL first if both in one candle) ===")
         closed, wins, pnl, wr = strat_stats(trades, lambda t: t["exit_reason"] == "take_profit")
         be = breakeven(st["tp_pct"], st["sl_pct"])
-        table.append((name, len(trades), len(closed), len(wins), wr, pnl, f"{be:.0f}%"))
+        fp = fee_pnl(trades)
+        table.append((name, len(trades), len(closed), len(wins), wr, pnl, fp, f"{be:.0f}%"))
         if not trades:
             print("No trades yet (starts with the next $10 scanner paper buy)."); continue
         tex = sum(1 for t in closed if t["exit_reason"] == "time_exit")
         print(f"  {len(trades)} opened, {len(closed)} closed, {len(trades) - len(closed)} open | hit target {len(wins)}, "
-              f"stopped {sum(1 for t in closed if t['exit_reason'] == 'stop_loss')}, time exits {tex} | win rate {wr} | P&L {money(pnl)}")
+              f"stopped {sum(1 for t in closed if t['exit_reason'] == 'stop_loss')}, time exits {tex} | win rate {wr} | P&L {money(pnl)}"
+              f" | after est. fees {money(fp)}")
         for t in sorted(trades, key=lambda t: t["opened_at"]):
             stt = t["status"] if t["status"] == "open" else f"closed: {t['exit_reason']}"
             src = " [snapshot price]" if t.get("price_source") == "snapshot" else ""
@@ -127,9 +151,12 @@ def shadow_sections(main_trades):
     try: table += launch_section()
     except Exception as e: print(f"\n(LAUNCH section error: {e})")
     print(f"\n=== Strategies side by side (each has its own pretend ${start:.0f}) ===")
-    print(f"  {'strategy':<10} {'trades':>6} {'closed':>6} {'wins':>5} {'win%':>5} {'P&L':>9} {'budget':>9}  break-even win rate")
-    for name, n, c, w, wr, pnl, be in table:
-        print(f"  {name:<10} {n:>6} {c:>6} {w:>5} {wr:>5} {money(pnl):>9} {'$%.2f' % (start + pnl):>9}  {be}")
+    print(f"  {'strategy':<11} {'trades':>6} {'closed':>6} {'wins':>5} {'win%':>5} {'paper P&L':>10} {'budget':>9} "
+          f"{'fee P&L':>9} {'fee budget':>10}  break-even win rate (paper)")
+    for name, n, c, w, wr, pnl, fp, be in table:
+        print(f"  {name:<11} {n:>6} {c:>6} {w:>5} {wr:>5} {money(pnl):>10} {'$%.2f' % (start + pnl):>9} "
+              f"{money(fp):>9} {'$%.2f' % (start + fp):>10}  {be}")
+    print(f"  paper = no fees/slippage (unchanged); fee P&L/budget = {FEE_NOTE}. Slippage/latency still not included.")
 
 def second_look_section():
     """SECOND LOOK: sampled rejected coins re-checked ~24h / ~48h later (free checks only, no Grok). Returns side-by-side rows."""
@@ -168,8 +195,10 @@ def second_look_section():
         tr = rows(path)
         test = (lambda t: float(t["pnl_usd"] or 0) > 0) if name == "hold" else (lambda t: t["exit_reason"] == "take_profit")
         closed, wins, pnl, wr = strat_stats(tr, test)
-        print(f"     {name:<8} {len(tr)} buys, {len(closed)} closed, {len(wins)} wins, P&L {money(pnl)}, budget ${start + pnl:.2f}")
-        out.append((f"2nd:{name}", len(tr), len(closed), len(wins), wr, pnl, bes[name]))
+        fp = fee_pnl(tr)
+        print(f"     {name:<8} {len(tr)} buys, {len(closed)} closed, {len(wins)} wins, P&L {money(pnl)}, budget ${start + pnl:.2f}"
+              f" | after est. fees {money(fp)}, ${start + fp:.2f}")
+        out.append((f"2nd:{name}", len(tr), len(closed), len(wins), wr, pnl, fp, bes[name]))
     return out
 
 def launch_section():
@@ -196,10 +225,11 @@ def launch_section():
         closed, wins, pnl, wr = strat_stats(tr, test)
         be = f"~{breakeven(fr * tp + (1 - fr) * sl, sl):.0f}%" if fr < 1 else f"{breakeven(tp, sl):.0f}%"
         grad = sum(1 for t in tr if t.get("graduated_at")); snap = sum(1 for t in tr if t.get("price_source") == "snapshot")
+        fp = fee_pnl(tr, launch=True)
         print(f"     {name:<8} (+{tp}%{' half' if fr < 1 else ''} / {sl}% / {mh / 60:g}h) {len(tr)} buys, {len(closed)} closed, "
-              f"{len(wins)} wins ({wr}), P&L {money(pnl)}, budget ${start + pnl:.2f}"
+              f"{len(wins)} wins ({wr}), P&L {money(pnl)}, budget ${start + pnl:.2f} | after est. fees {money(fp)}, ${start + fp:.2f}"
               + (f", {grad} graduated" if grad else "") + (f", {snap} on snapshot prices" if snap else ""))
-        out.append((f"lch:{name}", len(tr), len(closed), len(wins), wr, pnl, be))
+        out.append((f"lch:{name}", len(tr), len(closed), len(wins), wr, pnl, fp, be))
     for t in sorted(rows(L["paper_files"]["scalp"]), key=lambda t: t["opened_at"])[-10:]:
         stt = t["status"] if t["status"] == "open" else f"closed: {t['exit_reason']}"
         print(f"    #{t['id']} {t['symbol']:<12} scalp {money(float(t['pnl_usd'] or 0)):>8} ({float(t['pnl_pct'] or 0):+.0f}%) [{stt}] "
@@ -216,6 +246,7 @@ def main():
     section("All time", log, trades)
     budget(trades, "Main/hold")
     shadow_sections(trades)
+    print(f"\nFees: {FEE_NOTE}; open trades marked as if sold now. Display only, exits unchanged.")
     print("\nNote: market-filter rejects are logged once per token per day; P&L uses prices sampled every scheduled run, no fees unless set in config.")
 
 if __name__ == "__main__":

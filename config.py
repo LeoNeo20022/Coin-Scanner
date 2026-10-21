@@ -102,3 +102,13 @@ LAUNCH = {
     "curve_initial_real_tokens": 793_100_000, "curve_virtual_sol_offset": 30,   # pump.fun curve constants (impact estimate)
     "state_keep_days": 3,
 }
+
+# ---- ESTIMATED LIVE FEES (display only, see fees.py): applied in summary.py ALONGSIDE the unchanged paper numbers,
+#      assuming live trades go through Jupiter direct. Exit logic is NOT affected. ----
+FEES = {
+    "pool_pct_default": 1.25,                              # unknown / small pools
+    "pool_pct_by_dex": {"pumpfun": 1.25, "pumpswap": 1.1},  # PumpSwap ~1.0-1.2% in the scanner's $50K-$2M range
+    "launch_pool_pct": 1.25,                               # bonding curve (and low-cap PumpSwap after graduation)
+    "jup_pct": 0.10, "jup_new_token_pct": 0.50, "new_token_hours": 24,   # Jupiter /order platform fee per side
+    "network_usd_per_side": 0.003,                         # base + priority fee per transaction (rent assumed refunded)
+}
