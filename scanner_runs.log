@@ -2819,3 +2819,11 @@
 [2026-10-21T07:59:28+00:00] second_look: pass end {"queued": 42, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T08:00:14+00:00] launch: paper: candles unavailable for 2b36fJ7G (RuntimeError), using snapshot price
 [2026-10-21T08:00:14+00:00] launch: pass end {"inbox": 20, "eligible": 2, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 14/24 elapsed=46s
+[2026-10-21T08:04:18+00:00] run start (LOG ONLY)
+[2026-10-21T08:04:28+00:00] discovered=56 fresh=46 market_pass=0
+[2026-10-21T08:04:28+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T08:04:28+00:00] run end {"discovered": 56, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "mcap_too_low": 15, "too_old": 8, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-21T08:04:28+00:00] second_look: pass end {"queued": 42, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T08:04:33+00:00] launch: TRENCHPAD CymGUyYF… fail: far_below_ath
+[2026-10-21T08:05:17+00:00] launch: paper: candles unavailable for 2b36fJ7G (RuntimeError), using snapshot price
+[2026-10-21T08:05:17+00:00] launch: pass end {"inbox": 20, "eligible": 3, "market_fail": 2, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 14/24 elapsed=48s
