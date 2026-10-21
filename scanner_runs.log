@@ -2472,3 +2472,11 @@
 [2026-10-21T04:25:28+00:00] launch: Og fUP4mNub… fail: danger:Creator history of rugged tokens
 [2026-10-21T04:25:37+00:00] launch: paper: [scalp] SPWERPS: closed (stop_loss) -10.0%
 [2026-10-21T04:25:37+00:00] launch: pass end {"inbox": 20, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 5/24 elapsed=13s
+[2026-10-21T04:30:11+00:00] run start (LOG ONLY)
+[2026-10-21T04:30:24+00:00] discovered=61 fresh=50 market_pass=0
+[2026-10-21T04:30:24+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T04:30:24+00:00] run end {"discovered": 61, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "mcap_too_low": 18, "too_new": 2, "mcap_too_high": 1, "too_old": 8, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
+[2026-10-21T04:30:24+00:00] second_look: pass end {"queued": 32, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T04:30:28+00:00] launch: PAPER BUY $10 x3 strategies PHP-UP E1FTwWrB… @ 2.17e-05 (launch: curve 89.8%, holders 523, top 3.85%, top10 24.09%, vol1h $113417, age 26m)
+[2026-10-21T04:31:11+00:00] launch: paper: candles unavailable for E1FTwWrB (RuntimeError), using snapshot price
+[2026-10-21T04:31:11+00:00] launch: pass end {"inbox": 20, "eligible": 9, "market_fail": 8, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 6/24 elapsed=46s
