@@ -2192,3 +2192,10 @@
 [2026-10-21T00:57:24+00:00] grok daily budget 1/40 used, 0 no-response, $0.0028 (2026-10-21 UTC)
 [2026-10-21T00:57:24+00:00] run end {"discovered": 61, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "too_new": 6, "mcap_too_low": 13, "mcap_too_high": 1, "too_old": 7, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
 [2026-10-21T00:57:24+00:00] second_look: pass end {"queued": 11, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T01:02:13+00:00] run start (LOG ONLY)
+[2026-10-21T01:02:25+00:00] discovered=62 fresh=51 market_pass=2
+[2026-10-21T01:02:25+00:00] grok daily budget 1/40 used, 0 no-response, $0.0028 (2026-10-21 UTC)
+[2026-10-21T01:02:45+00:00] grok call 18.6s model=grok-4.3 tokens=999+68 reasoning=595
+[2026-10-21T01:02:45+00:00] grok [rugcheck] claytonkimm 4VKPhhDD… -> SKIP (0.85) Huge 259% h6 and 69% h1 gains already look like a fading pump; m5 price flat with buys slowing relative to earlier volume. | risk: Entering after blow-off top with momentum stalling
+[2026-10-21T01:02:48+00:00] run end {"discovered": 62, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 13, "liquidity_low": 1, "too_new": 3, "mcap_too_high": 1, "too_old": 7, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {"top10": 1}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 4} elapsed=35s
+[2026-10-21T01:02:49+00:00] second_look: pass end {"queued": 15, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
