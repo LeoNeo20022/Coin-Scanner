@@ -112,7 +112,7 @@ def run():
     except Exception as e:
         say(f"pairs_error {e}"); pairs = {}
 
-    survivors = []
+    survivors = []; launch_inbox = {}
     for mint in fresh:
         src = ",".join(found[mint]); ent = seen.setdefault(mint, {})
         relog = nowts - ent.get("market_logged", 0) > S["market_relog_hours"] * 3600
@@ -123,11 +123,15 @@ def run():
         m = market(mint, pairs[mint]); k = market_kill(m)
         if k:
             stats["market"][k] = stats["market"].get(k, 0) + 1; sample(m, "market", k, src)
+            if k == "pumpfun_bonding_curve": launch_inbox[mint] = src      # LAUNCH paper category (launch.py)
             if relog or ent.get("market_reason") != k:
                 log(m, "market", reason=k, sources=src); ent["market_logged"] = nowts; ent["market_reason"] = k
             continue
         survivors.append((m, src))
     say(f"discovered={len(found)} fresh={len(fresh)} market_pass={len(survivors)}")
+    try:                                                     # hand bonding-curve coins to launch.py (paper only)
+        tmp = "launch_inbox.json.tmp"; json.dump({"time": iso(), "mints": launch_inbox}, open(tmp, "w")); os.replace(tmp, "launch_inbox.json")
+    except Exception as e: say(f"launch: inbox write error {e}")
 
     grok_calls = 0
     budget = load_budget(); limit = grok_budget_limit()

@@ -124,6 +124,8 @@ def shadow_sections(main_trades):
             print(f"  Same {len(same)} coins under main/hold: {money(sum(float(mains[t['mint']]['pnl_usd'] or 0) for t in same))} "
                   f"vs {name} {money(sum(float(t['pnl_usd'] or 0) for t in same))}")
     table += second_look_section()
+    try: table += launch_section()
+    except Exception as e: print(f"\n(LAUNCH section error: {e})")
     print(f"\n=== Strategies side by side (each has its own pretend ${start:.0f}) ===")
     print(f"  {'strategy':<10} {'trades':>6} {'closed':>6} {'wins':>5} {'win%':>5} {'P&L':>9} {'budget':>9}  break-even win rate")
     for name, n, c, w, wr, pnl, be in table:
@@ -168,6 +170,40 @@ def second_look_section():
         closed, wins, pnl, wr = strat_stats(tr, test)
         print(f"     {name:<8} {len(tr)} buys, {len(closed)} closed, {len(wins)} wins, P&L {money(pnl)}, budget ${start + pnl:.2f}")
         out.append((f"2nd:{name}", len(tr), len(closed), len(wins), wr, pnl, bes[name]))
+    return out
+
+def launch_section():
+    """LAUNCH: pump.fun bonding-curve (pre-graduation) coins, free checks only, quick exits. Returns side-by-side rows."""
+    import json
+    from config import LAUNCH as L
+    print("\n=== LAUNCH: pump.fun coins still on the bonding curve (pre-graduation), free checks only, no Grok ===")
+    try: st = json.load(open(L["state_file"]))
+    except Exception: st = {"mints": {}, "days": {}}
+    checks = rows(L["check_file"]); cut = datetime.now(timezone.utc) - timedelta(hours=24)
+    c24 = [r for r in checks if ts(r["time"]) >= cut]
+    seen24 = sum(1 for e in st.get("mints", {}).values() if e.get("first", 0) >= cut.timestamp())
+    print(f"Bonding-curve coins seen (last 24h): {seen24}; RugCheck-checked: {len(c24)}, passed: {sum(1 for r in c24 if r['result'] == 'pass')}")
+    fails = Counter()
+    for d, v in st.get("days", {}).items():
+        if d >= cut.strftime("%Y-%m-%d"): fails.update(v.get("fails", {}))
+    if fails: print(f"  Top fail reasons (today+yesterday UTC, incl. repeat looks): {', '.join(f'{k} {v}' for k, v in fails.most_common(8))}")
+    out = []; start = float(S.get("paper_budget_usd", 100))
+    print(f"  $10 paper buys at the price at detection, own pretend ${start:.0f} each, 1-min candles (curve pool, then PumpSwap after"
+          f" graduation). NO fees/slippage simulated (real pump.fun trades pay fees each side + latency/MEV):")
+    for name, path in L["paper_files"].items():
+        tp, fr, sl, mh = L["strategies"][name]; tr = rows(path)
+        test = (lambda t: float(t["pnl_usd"] or 0) > 0) if fr < 1 else (lambda t: t["exit_reason"] == "take_profit")
+        closed, wins, pnl, wr = strat_stats(tr, test)
+        be = f"~{breakeven(fr * tp + (1 - fr) * sl, sl):.0f}%" if fr < 1 else f"{breakeven(tp, sl):.0f}%"
+        grad = sum(1 for t in tr if t.get("graduated_at")); snap = sum(1 for t in tr if t.get("price_source") == "snapshot")
+        print(f"     {name:<8} (+{tp}%{' half' if fr < 1 else ''} / {sl}% / {mh / 60:g}h) {len(tr)} buys, {len(closed)} closed, "
+              f"{len(wins)} wins ({wr}), P&L {money(pnl)}, budget ${start + pnl:.2f}"
+              + (f", {grad} graduated" if grad else "") + (f", {snap} on snapshot prices" if snap else ""))
+        out.append((f"lch:{name}", len(tr), len(closed), len(wins), wr, pnl, be))
+    for t in sorted(rows(L["paper_files"]["scalp"]), key=lambda t: t["opened_at"])[-10:]:
+        stt = t["status"] if t["status"] == "open" else f"closed: {t['exit_reason']}"
+        print(f"    #{t['id']} {t['symbol']:<12} scalp {money(float(t['pnl_usd'] or 0)):>8} ({float(t['pnl_pct'] or 0):+.0f}%) [{stt}] "
+              f"curve {t.get('curve_progress_pct') or '?'}%  opened {t['opened_at'][:16]}")
     return out
 
 def main():

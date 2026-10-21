@@ -28,3 +28,13 @@ Files written by the scanner: `scanner_log.csv`, `paper_trades.csv`, `seen.json`
 `scanner_runs.log`. Run `python summary.py` for a plain-English summary.
 
 The only secret is `XAI_API_KEY`, stored as a GitHub Actions repository secret (never in the code).
+
+## LAUNCH paper category (launch.py, paper only)
+Coins still on the pump.fun bonding curve (the scanner rejects them as `pumpfun_bonding_curve`) are handed to
+`launch.py` via `launch_inbox.json`. A capped sample (max 24/UTC day, 3/hour, 1 per scan) that passes the
+pre-graduation checks in `config.LAUNCH` (DexScreener activity filter + a required RugCheck report: authorities off,
+no danger risks, no transfer fee, holder/creator/insider caps excluding the curve account, curve progress 15-97%,
+50+ holders; pump.fun's public coin endpoint for graduated/banned/ATH when reachable) gets one $10 paper buy at the
+DexScreener price at detection. Scored on GeckoTerminal 1-min candles of the curve pool (then the PumpSwap pool after
+graduation) under scalp (+20/-10/60m), target5 (+50/-50/24h) and hold (main rules), each with its own pretend $100.
+Files: launch_checks.csv, launch_state.json, launch_{scalp,target5,hold}.csv. No Grok, no fees/slippage simulated.

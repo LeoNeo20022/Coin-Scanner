@@ -73,3 +73,32 @@ SECOND_LOOK = {
     "max_rechecks_per_scan": 8, "max_paper_coins_per_scan": 12, "max_seconds_per_scan": 90,
     "queue_keep_days": 5,
 }
+
+# ---- LAUNCH (see launch.py): paper-test coins still on the pump.fun BONDING CURVE (not graduated; the scanner
+#      rejects these as 'pumpfun_bonding_curve'). Capped sample that passes the basic checks possible before
+#      graduation (RugCheck report required, NO Grok). $10 paper buy at the DexScreener price at detection, scored on
+#      GeckoTerminal 1-min candles of the curve pool (then the PumpSwap pool after graduation). No fees/slippage. ----
+LAUNCH = {
+    "inbox_file": "launch_inbox.json", "state_file": "launch_state.json", "check_file": "launch_checks.csv",
+    "paper_files": {"scalp": "launch_scalp.csv", "target5": "launch_target5.csv", "hold": "launch_hold.csv"},
+    # name -> (tp_pct, tp_fraction, sl_pct, max_hold_min); hold = main rules (half at +100%, -50% stop, 72h)
+    "strategies": {"scalp": (20, 1.0, -10, 60), "target5": (50, 1.0, -50, 24 * 60),
+                   "hold": (SCANNER["take_profit_pct"], SCANNER["take_profit_fraction"], SCANNER["stop_loss_pct"],
+                            SCANNER["max_hold_hours"] * 60)},
+    # pre-graduation market filter (DexScreener pumpfun pair)
+    "min_age_min": 5, "max_age_hours": 24,
+    "min_mcap_usd": 8_000, "min_volume_h1_usd": 5_000, "min_buys_h1": 40, "min_buy_sell_ratio_h1": 1.0,
+    "min_price_change_m5_pct": -15,            # skip coins dumping right now
+    # curve + token checks (RugCheck report is REQUIRED; no report -> no buy)
+    "min_curve_progress_pct": 15, "max_curve_progress_pct": 97,
+    "max_risk_score": 50, "min_holders": 50,
+    "max_top_holder_pct": 8, "max_top10_pct": 30,     # excluding the bonding-curve account itself
+    "max_creator_pct": 5, "max_insider_network_pct": 10,
+    "min_ath_ratio": 0.5,                      # pump.fun (optional source): skip if mcap < 50% of its ATH mcap
+    # pacing / caps
+    "max_buys_per_day": 24, "max_buys_per_hour": 3, "max_buys_per_scan": 1,
+    "max_rugchecks_per_scan": 6, "reeval_after_min": 15, "max_evals_per_mint": 6,
+    "max_paper_coins_per_scan": 15, "max_seconds_per_scan": 100,
+    "curve_initial_real_tokens": 793_100_000, "curve_virtual_sol_offset": 30,   # pump.fun curve constants (impact estimate)
+    "state_keep_days": 3,
+}

@@ -7,12 +7,12 @@
 set -uo pipefail
 INTERVAL_S=${SCAN_INTERVAL_S:-300}
 WINDOW_S=${SCAN_WINDOW_S:-2280}          # 38 min -> scans at 0,5,...,35 min = 8 scans
-FILES="seen.json paper_trades.csv scanner_log.csv scanner_runs.log grok_budget.json paper_trades_target5.csv paper_trades_scalp.csv second_look_queue.json second_look.csv second_look_hold.csv second_look_target5.csv second_look_scalp.csv"
+FILES="seen.json paper_trades.csv scanner_log.csv scanner_runs.log grok_budget.json paper_trades_target5.csv paper_trades_scalp.csv second_look_queue.json second_look.csv second_look_hold.csv second_look_target5.csv second_look_scalp.csv launch_state.json launch_checks.csv launch_scalp.csv launch_target5.csv launch_hold.csv"
 T0=$(date +%s)
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-existing() { for f in $FILES; do [ -f "$f" ] && echo "$f"; done; }   # second_look_* files appear only once used
+existing() { for f in $FILES; do [ -f "$f" ] && echo "$f"; done; }   # second_look_* / launch_* files appear only once used
 commit_state() {
   git add $(existing)
   if git diff --cached --quiet; then echo "no state changes"; return 0; fi
@@ -47,6 +47,8 @@ while :; do
   timeout 360 python scanner.py 2>&1 | tee -a scanner_runs.log || echo "[$(date -u +%FT%TZ)] scanner exited with code $?" >> scanner_runs.log
   # second look (paper only, no Grok): recheck rejected coins at ~24h/48h; separate process so it can't break the scan
   timeout 150 python second_look.py 2>&1 | tee -a scanner_runs.log || echo "[$(date -u +%FT%TZ)] second_look exited with code $?" >> scanner_runs.log
+  # launch (paper only, no Grok): pump.fun bonding-curve coins, quick exits; separate process so it can't break the scan
+  timeout 150 python launch.py 2>&1 | tee -a scanner_runs.log || echo "[$(date -u +%FT%TZ)] launch exited with code $?" >> scanner_runs.log
   tail -n 5000 scanner_runs.log > scanner_runs.log.tmp && mv scanner_runs.log.tmp scanner_runs.log
   commit_state || true
   next=$((start + INTERVAL_S))
