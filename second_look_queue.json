@@ -413,6 +413,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "Ety3BtYenUFm2Hvz6a6VGRTs8p9sgXggJ3M9XtpZpump": {
+   "mint": "Ety3BtYenUFm2Hvz6a6VGRTs8p9sgXggJ3M9XtpZpump",
+   "symbol": "Trencher",
+   "pair": "D2BgCgaU5gJpb9sKfjQ4USusrHt1K5izXhuJgoKE9UU6",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T02:48:42+00:00",
+   "rejected_ts": 1792550922,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.000191,
+   "mcap_usd": 186189,
+   "liquidity_usd": 38435.81,
+   "age_hours": 1.5,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -431,7 +449,7 @@
    }
   },
   "2026-10-21": {
-   "total": 20,
+   "total": 21,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -451,7 +469,7 @@
     "market:pumpfun_bonding_curve": 3,
     "market:too_new": 2,
     "grok:skip": 3,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "rugcheck:insiders": 1,
     "rugcheck:danger": 4,
     "market:mcap_too_low": 2
