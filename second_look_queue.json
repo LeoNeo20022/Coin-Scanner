@@ -791,6 +791,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": {
+   "mint": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
+   "symbol": "KIMCHI",
+   "pair": "AYq1Hkkkq6oitjCNbDEYUo9AHHo6FLaXjuybmLBvvPzD",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T11:11:53+00:00",
+   "rejected_ts": 1792581113,
+   "stage": "grok",
+   "reason": "Catastrophic price collapse (-89% 1h, -91% 6h) despite high volume; buys outnumber sells but price action shows heavy sell pressure dominating.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.0009557,
+   "mcap_usd": 952718,
+   "liquidity_usd": 92626.74,
+   "age_hours": 11.35,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -809,7 +827,7 @@
    }
   },
   "2026-10-21": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -849,7 +867,7 @@
     "market:liquidity_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 1,
     "rugcheck:danger": 5,
