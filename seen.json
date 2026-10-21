@@ -5269,7 +5269,9 @@
  },
  "54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump": {
   "market_logged": 1792588463.5102158,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792591288.3708932,
+  "symbol": "HUMANOID"
  },
  "3H5y8ViY6MKXN5zyWzXQznfdS83Q45QqBCGsGTp7pump": {
   "market_logged": 1792589133.3649242,
@@ -5296,8 +5298,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "9iCtpgPhsh7vhotrfDsA5xAUiGweEG2QKUeGDbirpump": {
-  "market_logged": 1792590987.7527523,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792591288.3708932,
+  "market_reason": "mcap_too_low"
  },
  "7NgwJMbrvxdestgmfLaiGf8XCoUD98GqSD2TFw3kpump": {
   "market_logged": 1792590633.8567886,
@@ -5314,5 +5316,9 @@
  "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP": {
   "market_logged": 1792590933.4278283,
   "market_reason": "too_old"
+ },
+ "3LTox4ciobeuUivZRueYbyuXjeTga4CA1w8JjqhQpump": {
+  "market_logged": 1792591288.3708932,
+  "market_reason": "volume_h1_low"
  }
 }
