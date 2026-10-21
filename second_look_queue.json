@@ -863,6 +863,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "KoLoaG4ktXXA2g5FjrwNAHeNy5wPfQ2RzVUxscgZrpc": {
+   "mint": "KoLoaG4ktXXA2g5FjrwNAHeNy5wPfQ2RzVUxscgZrpc",
+   "symbol": "KOLO",
+   "pair": "6nL5pjeXGNjWH4TQUgo524KiWZZ3oo23fH2yNoz862Vk",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T13:19:26+00:00",
+   "rejected_ts": 1792588766,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-boosts/top",
+   "price_usd": 0.001117,
+   "mcap_usd": 1114462,
+   "liquidity_usd": 103782.3,
+   "age_hours": 15.93,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -881,7 +899,7 @@
    }
   },
   "2026-10-21": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -915,7 +933,9 @@
     "07|market:too_new": 1,
     "07|market:liquidity_low": 1,
     "08": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "13": 1,
+    "13|market:volume_h1_low": 1
    },
    "reasons": {
     "market:liquidity_low": 6,
@@ -926,7 +946,8 @@
     "rugcheck:insiders": 2,
     "rugcheck:danger": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:lp_unlocked": 3
+    "rugcheck:lp_unlocked": 3,
+    "market:volume_h1_low": 1
    }
   }
  }
