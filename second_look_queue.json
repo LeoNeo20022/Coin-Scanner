@@ -287,6 +287,42 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "De5V2NfBFpUqZor8wyQ88LH3uVNPBVuTBNe6TeRfpump": {
+   "mint": "De5V2NfBFpUqZor8wyQ88LH3uVNPBVuTBNe6TeRfpump",
+   "symbol": "kimchi",
+   "pair": "9mb6MiXnuJipJQe1whaK8HV5ezmu3z2XSFjMAsopcntN",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T01:27:50+00:00",
+   "rejected_ts": 1792546070,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001184,
+   "mcap_usd": 111506,
+   "liquidity_usd": 26718.59,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
+  },
+  "BG2cn6Brpua2ik3R1HSxZtjNPbPK32mEk9PY7LSPpump": {
+   "mint": "BG2cn6Brpua2ik3R1HSxZtjNPbPK32mEk9PY7LSPpump",
+   "symbol": "umi",
+   "pair": "BsdoNeyPSf3ujononHQBBemeQkubHFcNJF8ycfQSsVY7",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T01:27:52+00:00",
+   "rejected_ts": 1792546072,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0002951,
+   "mcap_usd": 291586,
+   "liquidity_usd": 43671.19,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -305,7 +341,7 @@
    }
   },
   "2026-10-21": {
-   "total": 13,
+   "total": 15,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -323,7 +359,7 @@
     "grok:skip": 3,
     "rugcheck:top10": 2,
     "rugcheck:insiders": 1,
-    "rugcheck:danger": 1,
+    "rugcheck:danger": 3,
     "market:mcap_too_low": 1
    }
   }
