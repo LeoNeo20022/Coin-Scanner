@@ -3134,3 +3134,10 @@
 [2026-10-21T11:01:43+00:00] second_look: pass end {"queued": 44, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T11:01:47+00:00] launch: KIMPHIL 5UxPc1Wt… fail: no_curve_market
 [2026-10-21T11:02:30+00:00] launch: pass end {"inbox": 22, "eligible": 6, "market_fail": 5, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 23/24 elapsed=46s
+[2026-10-21T11:06:33+00:00] run start (LOG ONLY)
+[2026-10-21T11:06:43+00:00] discovered=54 fresh=46 market_pass=0
+[2026-10-21T11:06:43+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
+[2026-10-21T11:06:43+00:00] run end {"discovered": 54, "skipped_recent": 8, "no_pair": 0, "market": {"too_new": 4, "pumpfun_bonding_curve": 22, "mcap_too_low": 12, "too_old": 4, "liquidity_low": 1, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-21T11:06:43+00:00] second_look: pass end {"queued": 44, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T11:07:36+00:00] launch: paper: [scalp] SUPR: closed (time_exit) +13.9%
+[2026-10-21T11:07:36+00:00] launch: pass end {"inbox": 22, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 23/24 elapsed=53s
