@@ -3184,3 +3184,12 @@
 [2026-10-21T11:33:08+00:00] second_look: pass end {"queued": 46, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T11:33:27+00:00] launch: paper: [scalp] MOTION: closed (stop_loss) -10.0%
 [2026-10-21T11:33:27+00:00] launch: pass end {"inbox": 25, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 24/24 elapsed=19s
+[2026-10-21T11:37:58+00:00] run start (LOG ONLY)
+[2026-10-21T11:38:08+00:00] discovered=57 fresh=48 market_pass=0
+[2026-10-21T11:38:08+00:00] grok daily budget 5/40 used, 0 no-response, $0.0140 (2026-10-21 UTC)
+[2026-10-21T11:38:08+00:00] run end {"discovered": 57, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 24, "too_new": 2, "mcap_too_low": 15, "too_old": 4, "liquidity_low": 1, "mcap_too_high": 1, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-21T11:38:08+00:00] second_look: pass end {"queued": 46, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T11:39:04+00:00] launch: paper: candles unavailable for 89X1RR4V (RuntimeError), using snapshot price
+[2026-10-21T11:39:04+00:00] launch: paper: [target5] MOTION: closed (stop_loss) -50.0%
+[2026-10-21T11:39:04+00:00] launch: paper: [hold] MOTION: closed (stop_loss) -50.0%
+[2026-10-21T11:39:04+00:00] launch: pass end {"inbox": 24, "eligible": 7, "market_fail": 5, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=55s
