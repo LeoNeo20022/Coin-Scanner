@@ -6038,7 +6038,9 @@
  },
  "KaEE36UcWo3hCgks3PVU8vYZ8ykkp8jyf8pBtVupump": {
   "market_logged": 1792618446.2893367,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "judged": 1792623943.7932467,
+  "symbol": "BABYKIMCHI"
  },
  "BodwAyiqYqnQKzxY6Ntwy9dUfRmittMbYCdnc55Kpump": {
   "market_logged": 1792617245.883934,
@@ -6171,8 +6173,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "FeXtQM95hAEpSaiaVpdrWHL4K5aXkxSF9C7gBw7BL1NK": {
-  "market_logged": 1792623644.3924427,
-  "market_reason": "too_new"
+  "market_logged": 1792623943.7932467,
+  "market_reason": "mcap_too_low"
  },
  "5hNzisQXL7c1DDVsHYtVcYZJndZLsoQd5uL2zUCCpump": {
   "market_logged": 1792620879.8574255,
@@ -6263,5 +6265,13 @@
  "6YwBwuS6vy95x2wkxHYXySfgPkpsYMHgXKBXce79pump": {
   "market_logged": 1792623644.3924427,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "21qjavef4eWJNTGHVDr4Xw3T9eeXVxvUXuAq7D5Qpump": {
+  "market_logged": 1792623943.7932467,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "CWHunzmc7p7HYpbRvauduXZ66mfBFwEybkQHwNZ5pump": {
+  "market_logged": 1792623943.7932467,
+  "market_reason": "mcap_too_low"
  }
 }
