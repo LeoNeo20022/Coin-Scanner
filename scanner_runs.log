@@ -3766,3 +3766,11 @@
 [2026-10-21T18:21:23+00:00] run end {"discovered": 53, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 15, "too_new": 4, "mcap_too_low": 12, "missing:mcap_usd": 1, "missing:liquidity_usd": 1, "too_old": 7, "volume_h1_low": 3, "mcap_too_high": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=23s
 [2026-10-21T18:21:23+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T18:21:33+00:00] launch: pass end {"inbox": 15, "eligible": 4, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=9s
+[2026-10-21T18:26:00+00:00] run start (LOG ONLY)
+[2026-10-21T18:26:10+00:00] discovered=53 fresh=44 market_pass=1
+[2026-10-21T18:26:10+00:00] grok daily budget 11/40 used, 0 no-response, $0.0294 (2026-10-21 UTC)
+[2026-10-21T18:26:19+00:00] grok call 7.5s model=grok-4.3 tokens=997+73 reasoning=579
+[2026-10-21T18:26:19+00:00] grok [rugcheck] kimchi/acc HYgZeYJn… -> SKIP (0.85) 1143% h6 and 165% h1 gains with buys_m5/sells_m5 ratio collapsing vs h1 indicate fading momentum after blow-off. Still very new but classic exit pattern. | risk: Post-pump distribution by early holders
+[2026-10-21T18:26:21+00:00] run end {"discovered": 53, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 15, "too_new": 3, "mcap_too_low": 12, "missing:mcap_usd": 1, "missing:liquidity_usd": 1, "too_old": 7, "volume_h1_low": 3, "mcap_too_high": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=21s
+[2026-10-21T18:26:21+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T18:26:31+00:00] launch: pass end {"inbox": 15, "eligible": 3, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 24/24 elapsed=9s
