@@ -395,6 +395,24 @@
    "age_hours": 0.67,
    "checks": {},
    "done": false
+  },
+  "CdXHgb7CboQfbTRZwH2AFnmVnDKuwkrPUFp4jt53pump": {
+   "mint": "CdXHgb7CboQfbTRZwH2AFnmVnDKuwkrPUFp4jt53pump",
+   "symbol": "ORANGIE",
+   "pair": "3tsGYLDAWNDyvPY4X6cG4pYy9yAYjs2h1e5J4kUQo9bt",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-21T02:38:42+00:00",
+   "rejected_ts": 1792550322,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 9.783e-05,
+   "mcap_usd": 94926,
+   "liquidity_usd": 26242.81,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -413,7 +431,7 @@
    }
   },
   "2026-10-21": {
-   "total": 19,
+   "total": 20,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -435,7 +453,7 @@
     "grok:skip": 3,
     "rugcheck:top10": 3,
     "rugcheck:insiders": 1,
-    "rugcheck:danger": 3,
+    "rugcheck:danger": 4,
     "market:mcap_too_low": 2
    }
   }
