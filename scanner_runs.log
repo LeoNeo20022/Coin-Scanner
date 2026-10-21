@@ -3462,3 +3462,14 @@
 [2026-10-21T14:47:41+00:00] run end {"discovered": 61, "skipped_recent": 7, "no_pair": 0, "market": {"pumpfun_bonding_curve": 24, "too_new": 3, "mcap_too_low": 18, "sells_ge_buys_h1": 1, "volume_h1_low": 2, "too_old": 4, "mcap_too_high": 1, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=10s
 [2026-10-21T14:47:41+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T14:47:54+00:00] launch: pass end {"inbox": 24, "eligible": 6, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 24/24 elapsed=13s
+[2026-10-21T14:52:31+00:00] run start (LOG ONLY)
+[2026-10-21T14:52:41+00:00] discovered=60 fresh=53 market_pass=2
+[2026-10-21T14:52:41+00:00] grok daily budget 5/40 used, 0 no-response, $0.0140 (2026-10-21 UTC)
+[2026-10-21T14:52:49+00:00] grok call 4.6s model=grok-4.3 tokens=999+78 reasoning=441
+[2026-10-21T14:52:49+00:00] grok [rugcheck] wifchi 8uWftzVo… -> SKIP (0.85) Huge 6h pump (+155%) already reversing hard (-85% h1, -13% m5) with volume spiking on the way down. Classic blow-off top, not steady broad accumulation. | risk: Fading spike after parabolic move, buyers likely exiting
+[2026-10-21T14:52:57+00:00] grok call 5.2s model=grok-4.3 tokens=993+59 reasoning=421
+[2026-10-21T14:52:57+00:00] grok [rugcheck] DOT LUpgK4hZ… -> SKIP (0.75) h1 buys/sells balanced but m5 already tilting sell; volume slowing after 23% h1 pump. | risk: fading momentum on thin liquidity relative to recent gains
+[2026-10-21T14:52:59+00:00] run end {"discovered": 60, "skipped_recent": 7, "no_pair": 0, "market": {"pumpfun_bonding_curve": 23, "mcap_too_low": 18, "too_new": 2, "volume_h1_low": 2, "too_old": 4, "mcap_too_high": 1, "missing:liquidity_usd": 1}, "rug": {}, "grok": 2, "BUY": 0, "SKIP": 2, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=28s
+[2026-10-21T14:52:59+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T14:53:13+00:00] launch: paper: [hold] LARRY: closed (stop_loss) +80.1%
+[2026-10-21T14:53:13+00:00] launch: pass end {"inbox": 23, "eligible": 8, "market_fail": 6, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=13s
