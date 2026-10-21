@@ -341,7 +341,7 @@
    "first": 1792559460.243035,
    "evals": 6,
    "next": 1792565530.2902267,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles",
    "why": "missing:age_min"
   },
@@ -559,7 +559,7 @@
    "first": 1792572933.3884864,
    "evals": 6,
    "next": 1792578914.5212739,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles,token-boosts,token-boosts/top",
    "why": "mcap_low"
   },
@@ -675,7 +675,7 @@
    "first": 1792579214.4073887,
    "evals": 6,
    "next": 1792585729.011063,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -691,7 +691,7 @@
    "first": 1792579814.2345421,
    "evals": 6,
    "next": 1792586631.2563567,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles,token-boosts,token-boosts/top",
    "why": "volume_h1_low"
   },
@@ -826,7 +826,7 @@
    "first": 1792588467.0657644,
    "evals": 1,
    "next": 1792589367.0657644,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -859,7 +859,7 @@
    "first": 1792589437.08906,
    "evals": 1,
    "next": 1792590337.08906,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -1145,7 +1145,7 @@
    "first": 1792600467.9741607,
    "evals": 6,
    "next": 1792606836.8910964,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles,token-boosts,token-boosts/top",
    "why": "volume_h1_low"
   },
@@ -1224,7 +1224,7 @@
    "first": 1792603204.462955,
    "evals": 6,
    "next": 1792609003.1831656,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles,token-boosts,token-boosts/top",
    "why": "volume_h1_low"
   },
@@ -1305,7 +1305,7 @@
    "first": 1792606884.135861,
    "evals": 2,
    "next": 1792609303.8710105,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles",
    "why": "dumping_m5"
   },
@@ -1313,7 +1313,7 @@
    "first": 1792606884.135861,
    "evals": 2,
    "next": 1792609902.9141946,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -1321,7 +1321,7 @@
    "first": 1792607770.841408,
    "evals": 2,
    "next": 1792609603.4528446,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -1334,35 +1334,51 @@
   },
   "AzdfD9U58uiEmZpjkTtbcm5zz1LmzRKVeTq9soG5pump": {
    "first": 1792608071.0502777,
-   "evals": 0,
-   "next": 0,
-   "last": 1792609002.9141946,
-   "src": "token-profiles"
+   "evals": 1,
+   "next": 1792610212.5715194,
+   "last": 1792609312.5715194,
+   "src": "token-profiles",
+   "why": "dumping_m5"
   },
   "E87GHFj823bqtMUfgjYYdWM84X2kwUx8RrkLkqSGpump": {
    "first": 1792608103.1831656,
-   "evals": 1,
-   "next": 1792609303.8710105,
-   "last": 1792609002.9141946,
+   "evals": 2,
+   "next": 1792610212.5715194,
+   "last": 1792609312.5715194,
    "src": "token-profiles",
-   "why": "dumping_m5"
+   "why": "mcap_low"
   },
   "724AMeMtZZQ5KmPMzqnPY5bixBoZA9hSHn2p886Lpump": {
    "first": 1792608403.8710105,
    "evals": 1,
    "next": 1792609303.8710105,
-   "last": 1792609002.9141946,
+   "last": 1792609312.5715194,
    "src": "token-profiles",
    "done": true,
    "why": "too_old"
   },
   "5v6HJ5uWYzhU6FggA9qd4Qwhun6t2snWgL4R4N4Apump": {
    "first": 1792608403.8710105,
-   "evals": 1,
-   "next": 1792609303.8710105,
-   "last": 1792609002.9141946,
+   "evals": 2,
+   "next": 1792610212.5715194,
+   "last": 1792609312.5715194,
    "src": "token-profiles",
    "why": "missing:price_usd"
+  },
+  "vofbjQG4x2uJBKSe1QLkk6tsjpNk1wwZUucGmp73mab": {
+   "first": 1792609312.5715194,
+   "evals": 1,
+   "next": 1792610212.5715194,
+   "last": 1792609312.5715194,
+   "src": "token-profiles",
+   "why": "mcap_low"
+  },
+  "FrWsoz8b3ySwcARforVsEzhCrq1Ww42r7LThqHZYpump": {
+   "first": 1792609312.5715194,
+   "evals": 0,
+   "next": 0,
+   "last": 1792609312.5715194,
+   "src": "token-profiles"
   }
  },
  "days": {
@@ -1381,12 +1397,12 @@
    },
    "evals": 33,
    "fails": {
-    "mcap_low": 267,
-    "dumping_m5": 51,
+    "mcap_low": 269,
+    "dumping_m5": 52,
     "too_old": 8,
     "missing:age_min": 14,
     "volume_h1_low": 24,
-    "missing:price_usd": 98,
+    "missing:price_usd": 99,
     "far_below_ath": 4,
     "insiders": 2,
     "too_new": 7,
