@@ -4178,3 +4178,9 @@
 [2026-10-21T23:10:46+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T23:11:15+00:00] launch: paper: candles unavailable for 9Bn4iAbr (HTTPError), using snapshot price
 [2026-10-21T23:11:15+00:00] launch: pass end {"inbox": 17, "eligible": 4, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 24/24 elapsed=28s
+[2026-10-21T23:15:37+00:00] run start (LOG ONLY)
+[2026-10-21T23:15:47+00:00] discovered=61 fresh=52 market_pass=1
+[2026-10-21T23:15:47+00:00] grok daily budget 18/40 used, 0 no-response, $0.0481 (2026-10-21 UTC)
+[2026-10-21T23:15:48+00:00] run end {"discovered": 61, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 18, "mcap_too_low": 16, "too_new": 4, "missing:mcap_usd": 2, "missing:liquidity_usd": 1, "mcap_too_high": 2, "too_old": 6, "volume_h1_low": 2}, "rug": {"insiders": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-10-21T23:15:49+00:00] second_look: pass end {"queued": 53, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-21T23:15:59+00:00] launch: pass end {"inbox": 18, "eligible": 10, "market_fail": 4, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 6} today buys 24/24 elapsed=10s

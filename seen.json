@@ -6228,7 +6228,9 @@
  },
  "FRxQFfRZZpr6aXWsVAhYQ1n3rUPHD89QbNqQFmqNpump": {
   "market_logged": 1792622114.0753183,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792624543.8463364,
+  "symbol": "ARMY"
  },
  "DQnMXD198NYbyLzAr5ZDcgjfSgnTs3RsmmUyQotApump": {
   "market_logged": 1792622414.1613228,
@@ -6275,11 +6277,15 @@
   "market_reason": "mcap_too_low"
  },
  "783nJ4iv1NNKhNqQHHGE2pRCCNU49qf7QJbHBwogpump": {
-  "market_logged": 1792624243.4461155,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792624543.8463364,
+  "market_reason": "mcap_too_low"
  },
  "4fzEnAxUUbNz321LBAkJo6tVdDkVG2S9behy3tUHpump": {
   "market_logged": 1792624243.4461155,
   "market_reason": "too_new"
+ },
+ "FMngnv2V3EjDu2WkrpU1moSi6VuS6rg67MhUQd8qpoke": {
+  "market_logged": 1792624543.8463364,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
