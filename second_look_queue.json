@@ -2134,6 +2134,24 @@
    "age_hours": 3.54,
    "checks": {},
    "done": false
+  },
+  "BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump": {
+   "mint": "BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump",
+   "symbol": "KTA",
+   "pair": "GHdGRvNJSpqSe4F7wnLfjAHMehjcAyKQkfZ1KGiJps3x",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T15:21:57+00:00",
+   "rejected_ts": 1792682517,
+   "stage": "grok",
+   "reason": "438% h6 gain followed by -16% h1 pullback with m5 rebound looks like fading blow-off top. Volume strong but buying not broad enough to overcome exit pressure.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002778,
+   "mcap_usd": 274331,
+   "liquidity_usd": 44816.03,
+   "age_hours": 3.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2208,7 +2226,7 @@
    }
   },
   "2026-10-22": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2254,7 +2272,7 @@
     "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "market:liquidity_low": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:danger": 1,
     "rugcheck:lp_unlocked": 5,
     "rugcheck:insiders": 4
