@@ -6,8 +6,10 @@
 #    pump.fun's public coin endpoint is used when reachable (graduated / banned / ATH), but never required.
 #    NO Grok calls. Capped sample: max 24 buys/UTC day, 3/hour, 1 per scan.
 # 3) A passing coin gets ONE hypothetical $10 paper buy at the DexScreener price at detection, scored under
-#    scalp / target5 / hold on GeckoTerminal 1-min candles of the curve pool (and the PumpSwap pool after graduation),
+#    scalp / target5 / hold / flash on GeckoTerminal 1-min candles of the curve pool (and the PumpSwap pool after graduation),
 #    each strategy in its own CSV with its own pretend $100. Snapshot-price fallback is labelled price_source=snapshot.
+#    flash = +10% / -7% / 15 min (added Oct 22, same entries; older buys backfilled by launch_flash_backfill.py).
+#    1-min candles can't see sub-minute moves, so real fills on fast exits would differ.
 #    No fees or slippage simulated. Nothing here can trade: read-only public APIs + CSV/JSON files.
 import csv, json, os, sys, time, traceback
 from datetime import datetime, timezone
@@ -255,6 +257,25 @@ def update_paper(sleep_s, max_coins, stop_at):
         if changed: _save(rows, path=L["paper_files"][name])
     return events
 
+def flash_catchup():
+    """Same entries for flash: copy recent scalp entries missing from the flash book (e.g. opened by an older code version
+    mid-run). Never a new buy decision. Older gaps are left to launch_flash_backfill.py."""
+    path = L["paper_files"].get("flash")
+    if not path: return 0
+    fl = _load(path); have = {r["mint"] for r in fl}; cut = time.time() - L.get("flash_catchup_hours", 3) * 3600; n = 0
+    for s in sorted(_load(L["paper_files"]["scalp"]), key=lambda r: r["opened_at"]):
+        if s["mint"] in have or datetime.fromisoformat(s["opened_at"]).timestamp() < cut: continue
+        price = float(s["entry_price"]); usd = float(s["entry_usd"]); tokens = usd / price
+        r = {k: s.get(k, "") for k in PAPER_FIELDS}
+        r.update({"id": str(len(fl) + 1), "tokens_initial": repr(tokens), "tokens_left": repr(tokens), "half_taken": "0",
+                  "status": "open", "realized_usd": 0, "last_price": repr(price), "last_update": s["opened_at"], "closed_at": "",
+                  "exit_reason": "", "strategy": "flash", "price_source": "",
+                  "last_candle_ts": str(int(datetime.fromisoformat(s["opened_at"]).timestamp())),
+                  "events": f"{s['opened_at']} BUY ${usd} @ {price} (launch, bonding curve; flash catch-up copy of scalp entry)"})
+        paper._recalc(r); fl.append(r); have.add(s["mint"]); n += 1
+    if n: _save(fl, path)
+    return n
+
 # ---------------- one pass ----------------
 def run():
     t0 = time.time(); sl = S["sleep_between_calls_s"]; stop_at = t0 + L["max_seconds_per_scan"]
@@ -335,6 +356,10 @@ def run():
                 say(f"PAPER BUY ${S['paper_ticket_usd']} x{len(opened)} strategies {m['symbol']} {m['mint'][:8]}… @ {m['price_usd']} ({why})")
     d["hours"] = {h: v for h, v in d["hours"].items() if h.startswith(day)}
     save_state(st)
+    try:
+        nc = flash_catchup()
+        if nc: say(f"flash: copied {nc} recent scalp entries")
+    except Exception as ex: say(f"flash catch-up error {type(ex).__name__}")
     for ev in update_paper(sl, L["max_paper_coins_per_scan"], stop_at + 30): say("paper: " + ev)
     say("pass end " + json.dumps(stats) + f" today buys {d['buys']}/{L['max_buys_per_day']} elapsed={time.time() - t0:.0f}s")
 

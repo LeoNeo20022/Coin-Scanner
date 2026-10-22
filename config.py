@@ -80,9 +80,11 @@ SECOND_LOOK = {
 #      GeckoTerminal 1-min candles of the curve pool (then the PumpSwap pool after graduation). No fees/slippage. ----
 LAUNCH = {
     "inbox_file": "launch_inbox.json", "state_file": "launch_state.json", "check_file": "launch_checks.csv",
-    "paper_files": {"scalp": "launch_scalp.csv", "target5": "launch_target5.csv", "hold": "launch_hold.csv"},
+    "paper_files": {"scalp": "launch_scalp.csv", "target5": "launch_target5.csv", "hold": "launch_hold.csv",
+                    "flash": "launch_flash.csv"},
     # name -> (tp_pct, tp_fraction, sl_pct, max_hold_min); hold = main rules (half at +100%, -50% stop, 72h)
-    "strategies": {"scalp": (20, 1.0, -10, 60), "target5": (50, 1.0, -50, 24 * 60),
+    # flash (added Oct 22): fastest in-and-out, +10% / -7% / 15 min, same entries as the others (own pretend $100)
+    "strategies": {"scalp": (20, 1.0, -10, 60), "target5": (50, 1.0, -50, 24 * 60), "flash": (10, 1.0, -7, 15),
                    "hold": (SCANNER["take_profit_pct"], SCANNER["take_profit_fraction"], SCANNER["stop_loss_pct"],
                             SCANNER["max_hold_hours"] * 60)},
     # pre-graduation market filter (DexScreener pumpfun pair)
@@ -101,6 +103,7 @@ LAUNCH = {
     "max_paper_coins_per_scan": 15, "max_seconds_per_scan": 100,
     "curve_initial_real_tokens": 793_100_000, "curve_virtual_sol_offset": 30,   # pump.fun curve constants (impact estimate)
     "state_keep_days": 3,
+    "flash_catchup_hours": 3,      # launch.py copies scalp entries missing from launch_flash.csv if this recent (older: backfill script)
 }
 
 # ---- ESTIMATED LIVE FEES (display only, see fees.py): applied in summary.py ALONGSIDE the unchanged paper numbers,

@@ -226,10 +226,17 @@ def launch_section():
         be = f"~{breakeven(fr * tp + (1 - fr) * sl, sl):.0f}%" if fr < 1 else f"{breakeven(tp, sl):.0f}%"
         grad = sum(1 for t in tr if t.get("graduated_at")); snap = sum(1 for t in tr if t.get("price_source") == "snapshot")
         fp = fee_pnl(tr, launch=True)
-        print(f"     {name:<8} (+{tp}%{' half' if fr < 1 else ''} / {sl}% / {mh / 60:g}h) {len(tr)} buys, {len(closed)} closed, "
+        hold_s = f"{mh:g}min" if mh < 60 else f"{mh / 60:g}h"
+        bf = sum(1 for t in tr if t.get("price_source") == "candles_1m_backfill")
+        print(f"     {name:<8} (+{tp}%{' half' if fr < 1 else ''} / {sl}% / {hold_s}) {len(tr)} buys, {len(closed)} closed, "
               f"{len(wins)} wins ({wr}), P&L {money(pnl)}, budget ${start + pnl:.2f} | after est. fees {money(fp)}, ${start + fp:.2f}"
-              + (f", {grad} graduated" if grad else "") + (f", {snap} on snapshot prices" if snap else ""))
+              + (f", {grad} graduated" if grad else "") + (f", {snap} on snapshot prices" if snap else "")
+              + (f", {bf} backfilled from history" if bf else ""))
         out.append((f"lch:{name}", len(tr), len(closed), len(wins), wr, pnl, fp, be))
+    if "flash" in L["paper_files"]:
+        print("  flash = fastest in-and-out (+10% / -7% / 15 min, same entries; buys before Oct 22 backfilled from historical"
+              " 1-min candles). 1-min candles can't capture sub-minute moves, so real fills would differ (TP fills at a gap-up"
+              " open are optimistic). After-fee figures exclude slippage.")
     for t in sorted(rows(L["paper_files"]["scalp"]), key=lambda t: t["opened_at"])[-10:]:
         stt = t["status"] if t["status"] == "open" else f"closed: {t['exit_reason']}"
         print(f"    #{t['id']} {t['symbol']:<12} scalp {money(float(t['pnl_usd'] or 0)):>8} ({float(t['pnl_pct'] or 0):+.0f}%) [{stt}] "

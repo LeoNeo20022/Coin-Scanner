@@ -7,7 +7,7 @@
 set -uo pipefail
 INTERVAL_S=${SCAN_INTERVAL_S:-300}
 WINDOW_S=${SCAN_WINDOW_S:-2280}          # 38 min -> scans at 0,5,...,35 min = 8 scans
-FILES="seen.json paper_trades.csv scanner_log.csv scanner_runs.log grok_budget.json paper_trades_target5.csv paper_trades_scalp.csv second_look_queue.json second_look.csv second_look_hold.csv second_look_target5.csv second_look_scalp.csv launch_state.json launch_checks.csv launch_scalp.csv launch_target5.csv launch_hold.csv"
+FILES="seen.json paper_trades.csv scanner_log.csv scanner_runs.log grok_budget.json paper_trades_target5.csv paper_trades_scalp.csv second_look_queue.json second_look.csv second_look_hold.csv second_look_target5.csv second_look_scalp.csv launch_state.json launch_checks.csv launch_scalp.csv launch_target5.csv launch_hold.csv launch_flash.csv"
 T0=$(date +%s)
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
