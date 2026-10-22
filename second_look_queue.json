@@ -1519,6 +1519,24 @@
    "age_hours": 0.17,
    "checks": {},
    "done": false
+  },
+  "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": {
+   "mint": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
+   "symbol": "NOOX",
+   "pair": "6WFSZfs6UojT4GJYxJnoJC78QuJYngREXj834ZyvLujA",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T04:12:22+00:00",
+   "rejected_ts": 1792642342,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.000129,
+   "mcap_usd": 124479,
+   "liquidity_usd": 29922.11,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -1593,7 +1611,7 @@
    }
   },
   "2026-10-22": {
-   "total": 19,
+   "total": 20,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -1623,7 +1641,8 @@
     "rugcheck:top10": 3,
     "market:volume_h1_low": 1,
     "market:liquidity_low": 2,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "rugcheck:danger": 1
    }
   }
  }
