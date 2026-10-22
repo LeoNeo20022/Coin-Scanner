@@ -1780,6 +1780,24 @@
    "age_hours": 1.17,
    "checks": {},
    "done": false
+  },
+  "Aa4iwuxmvN6DiBieBc2T9CB7AFBnzffKrFcBVqoKpump": {
+   "mint": "Aa4iwuxmvN6DiBieBc2T9CB7AFBnzffKrFcBVqoKpump",
+   "symbol": "Dino",
+   "pair": "2WdkR4fRe6RYsYgzhFdkL3FS2DZVqbmrHT9dH6SeGCHk",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T07:11:28+00:00",
+   "rejected_ts": 1792653088,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.492e-05,
+   "mcap_usd": 54923,
+   "liquidity_usd": 18737.06,
+   "age_hours": 0.14,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -1854,7 +1872,7 @@
    }
   },
   "2026-10-22": {
-   "total": 30,
+   "total": 31,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -1883,8 +1901,9 @@
     "06": 2,
     "06|market:too_new": 1,
     "06|market:liquidity_low": 1,
-    "07": 1,
-    "07|market:too_new": 1
+    "07": 2,
+    "07|market:too_new": 1,
+    "07|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -1892,7 +1911,7 @@
     "market:too_new": 5,
     "rugcheck:top10": 6,
     "market:volume_h1_low": 1,
-    "market:liquidity_low": 3,
+    "market:liquidity_low": 4,
     "grok:skip": 1,
     "rugcheck:danger": 1,
     "rugcheck:lp_unlocked": 1
