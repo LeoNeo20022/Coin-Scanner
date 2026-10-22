@@ -118,7 +118,7 @@
    "first": 1792552144.7818334,
    "evals": 1,
    "next": 0,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -1145,7 +1145,7 @@
    "first": 1792600467.9741607,
    "evals": 6,
    "next": 1792606836.8910964,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles,token-boosts,token-boosts/top",
    "why": "volume_h1_low"
   },
@@ -1224,7 +1224,7 @@
    "first": 1792603204.462955,
    "evals": 6,
    "next": 1792609003.1831656,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles,token-boosts,token-boosts/top",
    "why": "volume_h1_low"
   },
@@ -1392,7 +1392,7 @@
    "first": 1792610532.7471206,
    "evals": 6,
    "next": 1792617849.7063937,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles,token-boosts,token-boosts/top",
    "why": "mcap_low"
   },
@@ -1690,7 +1690,7 @@
    "first": 1792618149.2397408,
    "evals": 6,
    "next": 1792623947.2043118,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-boosts",
    "why": "mcap_low"
   },
@@ -1866,7 +1866,7 @@
    "first": 1792624549.2017906,
    "evals": 3,
    "next": 1792627895.1026425,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -1874,7 +1874,7 @@
    "first": 1792624847.5997758,
    "evals": 3,
    "next": 1792627581.8847215,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -1889,7 +1889,7 @@
    "first": 1792625483.4331598,
    "evals": 2,
    "next": 1792627581.8847215,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -1897,23 +1897,24 @@
    "first": 1792625483.4331598,
    "evals": 1,
    "next": 1792626383.4331598,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles",
    "done": true,
    "why": "too_old"
   },
   "3ApPzYXE6TRKgEVcVdvy7tqf1DkqUhudGxuwzY1bpump": {
    "first": 1792626381.7791226,
-   "evals": 0,
-   "next": 0,
-   "last": 1792626995.1026425,
-   "src": "token-profiles"
+   "evals": 1,
+   "next": 1792628181.9722798,
+   "last": 1792627281.9722798,
+   "src": "token-profiles",
+   "why": "no_curve_market"
   },
   "CTAUSN94wg9Rk7Us34N4fKfvj2H4dvJUNDdpAoyJuGqh": {
    "first": 1792626381.7791226,
-   "evals": 1,
-   "next": 1792627281.7791226,
-   "last": 1792626995.1026425,
+   "evals": 2,
+   "next": 1792628181.9722798,
+   "last": 1792627281.9722798,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -1921,9 +1922,34 @@
    "first": 1792626681.8847215,
    "evals": 1,
    "next": 1792627581.8847215,
-   "last": 1792626995.1026425,
+   "last": 1792627281.9722798,
    "src": "token-profiles",
    "why": "dumping_m5"
+  },
+  "Cob3ULyNhvgryzJ8M5x8ACp3nLJhyWR2wX2e8Mv3oC8f": {
+   "first": 1792627281.9722798,
+   "evals": 1,
+   "next": 1792628181.9722798,
+   "last": 1792627281.9722798,
+   "src": "token-profiles",
+   "why": "dumping_m5"
+  },
+  "DRyVvPj6jDoWp7zExocDrieHujqoFjKiT8N5zFRpump": {
+   "first": 1792627281.9722798,
+   "evals": 1,
+   "next": 1792628181.9722798,
+   "last": 1792627281.9722798,
+   "src": "token-profiles",
+   "why": "dumping_m5"
+  },
+  "CnPcMJWgcKfQYQHiPauNmego67PsBDx1G9ZsK89bpump": {
+   "first": 1792627281.9722798,
+   "evals": 1,
+   "next": 1792628181.9722798,
+   "last": 1792627281.9722798,
+   "src": "token-profiles",
+   "done": true,
+   "why": "too_old"
   }
  },
  "days": {
@@ -1956,6 +1982,17 @@
     "no_curve_market": 2,
     "buys_h1_low": 5,
     "graduated_or_not_curve": 1
+   }
+  },
+  "2026-10-22": {
+   "buys": 0,
+   "hours": {},
+   "evals": 1,
+   "fails": {
+    "mcap_low": 1,
+    "dumping_m5": 2,
+    "no_curve_market": 1,
+    "too_old": 1
    }
   }
  }
