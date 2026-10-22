@@ -4687,3 +4687,11 @@
 [2026-10-22T04:12:22+00:00] run end {"discovered": 60, "skipped_recent": 7, "no_pair": 1, "market": {"mcap_too_low": 21, "pumpfun_bonding_curve": 18, "missing:liquidity_usd": 1, "too_new": 1, "mcap_too_high": 3, "liquidity_low": 1, "too_old": 4, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {"danger:Creator history of rugged tokens": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=12s
 [2026-10-22T04:12:22+00:00] second_look: pass end {"queued": 73, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-22T04:12:33+00:00] launch: pass end {"inbox": 18, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 12/24 elapsed=11s
+[2026-10-22T04:12:48+00:00] run start (LOG ONLY)
+[2026-10-22T04:12:58+00:00] discovered=60 fresh=52 market_pass=0
+[2026-10-22T04:12:58+00:00] grok daily budget 3/40 used, 0 no-response, $0.0084 (2026-10-22 UTC)
+[2026-10-22T04:12:58+00:00] run end {"discovered": 60, "skipped_recent": 8, "no_pair": 1, "market": {"pumpfun_bonding_curve": 18, "mcap_too_low": 21, "missing:liquidity_usd": 1, "too_new": 1, "mcap_too_high": 3, "liquidity_low": 1, "too_old": 4, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-22T04:12:58+00:00] second_look: pass end {"queued": 73, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T04:13:02+00:00] launch: PAPER BUY $10 x3 strategies Offline 2wvjazBg… @ 2.881e-05 (launch: curve 92.8%, holders 455, top 2.84%, top10 21.58%, vol1h $63433, age 7m)
+[2026-10-22T04:13:45+00:00] launch: paper: candles unavailable for 2wvjazBg (RuntimeError), using snapshot price
+[2026-10-22T04:13:45+00:00] launch: pass end {"inbox": 18, "eligible": 3, "market_fail": 2, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 13/24 elapsed=47s
