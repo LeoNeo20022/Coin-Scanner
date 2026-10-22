@@ -1823,6 +1823,24 @@
    "age_hours": 38.18,
    "checks": {},
    "done": false
+  },
+  "G9xrNbBBYBsGFL2XiHdXDy56gWfAMnefD6L8ZKHLpump": {
+   "mint": "G9xrNbBBYBsGFL2XiHdXDy56gWfAMnefD6L8ZKHLpump",
+   "symbol": "CAPY",
+   "pair": "675q1ikTQQ4ijHBvSgHVbC2CrEPCjRDuEQ3yDtiU8HyP",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T08:12:08+00:00",
+   "rejected_ts": 1792656728,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 8.389e-05,
+   "mcap_usd": 83897,
+   "liquidity_usd": 23471.23,
+   "age_hours": 0.1,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -1897,7 +1915,7 @@
    }
   },
   "2026-10-22": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -1929,12 +1947,14 @@
     "07": 3,
     "07|market:too_new": 1,
     "07|market:liquidity_low": 1,
-    "07|market:volume_h1_low": 1
+    "07|market:volume_h1_low": 1,
+    "08": 1,
+    "08|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "market:too_new": 5,
+    "market:too_new": 6,
     "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "market:liquidity_low": 4,
