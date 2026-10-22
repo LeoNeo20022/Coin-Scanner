@@ -4897,3 +4897,12 @@
 [2026-10-22T06:14:52+00:00] launch: paper: [scalp] Traders: closed (take_profit) +20.0%
 [2026-10-22T06:14:52+00:00] launch: paper: [hold] Offline: closed (stop_loss) -50.0%
 [2026-10-22T06:14:52+00:00] launch: pass end {"inbox": 22, "eligible": 2, "market_fail": 1, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 18/24 elapsed=14s
+[2026-10-22T06:19:29+00:00] run start (LOG ONLY)
+[2026-10-22T06:19:38+00:00] discovered=69 fresh=58 market_pass=1
+[2026-10-22T06:19:38+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-22 UTC)
+[2026-10-22T06:19:48+00:00] grok call 8.4s model=grok-4.3 tokens=1002+66 reasoning=444
+[2026-10-22T06:19:48+00:00] grok [rugcheck] ヤギ FxzUDJHc… -> SKIP (0.85) 637% h6 and 217% h1 gains signal blow-off top; volume and buys still elevated but already fading relative to spike. | risk: Extreme short-term price run-up means new buyers likely exit liquidity
+[2026-10-22T06:19:50+00:00] run end {"discovered": 69, "skipped_recent": 11, "no_pair": 0, "market": {"mcap_too_low": 21, "pumpfun_bonding_curve": 22, "missing:mcap_usd": 3, "too_old": 7, "volume_h1_low": 2, "mcap_too_high": 2}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=21s
+[2026-10-22T06:19:53+00:00] second_look: 24h PHP Cbkg5w7V… (rejected rugcheck:lp_unlocked) -> fail: lp_unlocked
+[2026-10-22T06:19:53+00:00] second_look: pass end {"queued": 81, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=3s
+[2026-10-22T06:20:05+00:00] launch: pass end {"inbox": 22, "eligible": 8, "market_fail": 8, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 18/24 elapsed=12s
