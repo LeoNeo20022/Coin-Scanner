@@ -4516,3 +4516,12 @@
 [2026-10-22T02:35:48+00:00] launch: paper: candles unavailable for Air8Q9i3 (RuntimeError), using snapshot price
 [2026-10-22T02:35:48+00:00] launch: paper: [scalp] JDuval: closed (stop_loss) -10.0%
 [2026-10-22T02:35:48+00:00] launch: pass end {"inbox": 20, "eligible": 3, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 7/24 elapsed=45s
+[2026-10-22T02:39:53+00:00] run start (LOG ONLY)
+[2026-10-22T02:40:03+00:00] discovered=60 fresh=52 market_pass=0
+[2026-10-22T02:40:03+00:00] grok daily budget 2/40 used, 0 no-response, $0.0055 (2026-10-22 UTC)
+[2026-10-22T02:40:03+00:00] run end {"discovered": 60, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "too_new": 2, "mcap_too_low": 19, "too_old": 7, "mcap_too_high": 2, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-22T02:40:05+00:00] second_look: 24h ORANGIE CdXHgb7C… (rejected rugcheck:danger) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-22T02:40:05+00:00] second_look: pass end {"queued": 64, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-22T02:40:09+00:00] launch: JOE 3VdjHGAT… fail: far_below_ath
+[2026-10-22T02:40:52+00:00] launch: paper: candles unavailable for Air8Q9i3 (RuntimeError), using snapshot price
+[2026-10-22T02:40:52+00:00] launch: pass end {"inbox": 20, "eligible": 2, "market_fail": 1, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 7/24 elapsed=47s
