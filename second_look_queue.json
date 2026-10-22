@@ -2188,6 +2188,24 @@
    "age_hours": 22.9,
    "checks": {},
    "done": false
+  },
+  "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": {
+   "mint": "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump",
+   "symbol": "KIMCHIBULL",
+   "pair": "Ds6CaQYBQL7GjDATf9CVH189S9ef1mz7dkTrSoV7RWEM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T16:07:42+00:00",
+   "rejected_ts": 1792685262,
+   "stage": "grok",
+   "reason": "Price crashed 65% in 6h and 45% in 1h while volume remains elevated; buy counts high but clearly not absorbing sells. Classic fading spike / distribution patter",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts/top",
+   "price_usd": 0.001892,
+   "mcap_usd": 1887107,
+   "liquidity_usd": 133863.49,
+   "age_hours": 20.67,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2262,7 +2280,7 @@
    }
   },
   "2026-10-22": {
-   "total": 48,
+   "total": 49,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2310,7 +2328,7 @@
     "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "market:liquidity_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:danger": 1,
     "rugcheck:lp_unlocked": 5,
     "rugcheck:insiders": 5,
