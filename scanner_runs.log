@@ -4962,3 +4962,12 @@
 [2026-10-22T07:00:15+00:00] second_look: pass end {"queued": 81, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-22T07:00:20+00:00] launch: Dino Aa4iwuxm… fail: curve_almost_done
 [2026-10-22T07:00:29+00:00] launch: pass end {"inbox": 21, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 18/24 elapsed=15s
+[2026-10-22T07:05:05+00:00] run start (LOG ONLY)
+[2026-10-22T07:05:14+00:00] discovered=67 fresh=57 market_pass=0
+[2026-10-22T07:05:14+00:00] grok daily budget 5/40 used, 0 no-response, $0.0134 (2026-10-22 UTC)
+[2026-10-22T07:05:14+00:00] run end {"discovered": 67, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "mcap_too_low": 23, "missing:mcap_usd": 3, "too_old": 7, "volume_h1_low": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-22T07:05:16+00:00] second_look: 24h Clout 8FGreSHZ… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-22T07:05:16+00:00] second_look: pass end {"queued": 81, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-22T07:05:20+00:00] launch: Adam TnUQ5TXY… fail: far_below_ath
+[2026-10-22T07:05:22+00:00] launch: PAPER BUY $10 x3 strategies Particle CNJMHy3J… @ 2.224e-05 (launch: curve 89.8%, holders 273, top 3.08%, top10 16.47%, vol1h $69275, age 9m)
+[2026-10-22T07:05:33+00:00] launch: pass end {"inbox": 21, "eligible": 2, "market_fail": 0, "rugchecked": 2, "token_fail": 1, "opened": 1, "skipped_cap": 0} today buys 19/24 elapsed=17s
