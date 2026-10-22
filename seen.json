@@ -6565,8 +6565,8 @@
   "market_reason": "mcap_too_high"
  },
  "Ema8HLvXe8TvE5hi5snRb9kaHj4PkPMXmbnpom1epump": {
-  "market_logged": 1792639286.3121533,
-  "market_reason": "too_new"
+  "market_logged": 1792641436.944571,
+  "market_reason": "mcap_too_low"
  },
  "smnL8CkS13UMCF5gx9yCEUN4dV8vtJK7vGh2Yx84USD": {
   "market_logged": 1792639286.3121533,
@@ -6582,15 +6582,17 @@
  },
  "5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": {
   "market_logged": 1792639885.930238,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "BROZO",
+  "judged": 1792641436.944571
  },
  "BqrEjo2UVZ4jtEEwNn1PX3ptBM7ZBT2AtrFJq9PSpump": {
   "market_logged": 1792640836.567224,
   "market_reason": "mcap_too_low"
  },
  "3sKZuSZF7onqPYFrWu3bH4Lh141duydt9MAmSd46jaLJ": {
-  "market_logged": 1792640836.567224,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792641436.944571,
+  "market_reason": "mcap_too_low"
  },
  "9q57S439caJTTZZPQbcBWfUcLTgCJ2ofDYrjqHJMpump": {
   "market_logged": 1792640536.8951888,
@@ -6618,5 +6620,9 @@
  "Bnh6ApcK4QAEyASCx57RbNWiWJM3xSXPYmoRj7sJpump": {
   "market_logged": 1792641137.0981958,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "EDeuGfmFSJpEq3s5S6CCZoTnJY2rSMRCVeqXSd3HcJRZ": {
+  "market_logged": 1792641436.944571,
+  "market_reason": "liquidity_low"
  }
 }

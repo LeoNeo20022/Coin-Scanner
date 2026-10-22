@@ -1426,6 +1426,24 @@
    "age_hours": 0.64,
    "checks": {},
    "done": false
+  },
+  "5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": {
+   "mint": "5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump",
+   "symbol": "BROZO",
+   "pair": "7oeo9iEbMiFkW9DMMzXoPfqijWFShjE45au4Auhr1bAf",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T03:57:32+00:00",
+   "rejected_ts": 1792641452,
+   "stage": "grok",
+   "reason": "90%+ pump in first hour with volume almost entirely in h1; m5 flips to sells > buys and flat/negative price.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 8.393e-05,
+   "mcap_usd": 81219,
+   "liquidity_usd": 23636.07,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -1500,7 +1518,7 @@
    }
   },
   "2026-10-22": {
-   "total": 15,
+   "total": 16,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -1525,7 +1543,8 @@
     "market:too_new": 2,
     "rugcheck:top10": 3,
     "market:volume_h1_low": 1,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "grok:skip": 1
    }
   }
  }
