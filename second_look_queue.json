@@ -1873,6 +1873,24 @@
    "age_hours": 0.15,
    "checks": {},
    "done": false
+  },
+  "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": {
+   "mint": "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd",
+   "symbol": "SHAV",
+   "pair": "7F5PZ3MgwTV9Pkp6J7vNBnrW374LdrTJdy9NQMZ7NqTm",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T10:20:46+00:00",
+   "rejected_ts": 1792664446,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001344,
+   "mcap_usd": 130977,
+   "liquidity_usd": 31465.56,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -1947,7 +1965,7 @@
    }
   },
   "2026-10-22": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -1993,7 +2011,8 @@
     "market:liquidity_low": 5,
     "grok:skip": 1,
     "rugcheck:danger": 1,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
