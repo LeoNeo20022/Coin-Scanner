@@ -2170,6 +2170,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea": {
+   "mint": "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea",
+   "symbol": "PVE",
+   "pair": "9CzQZsHHHTBjYZkdvJER3BdBuMPooEk4qqP9aw22tZeo",
+   "dex": "meteora",
+   "rejected_at": "2026-10-22T16:02:30+00:00",
+   "rejected_ts": 1792684950,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 4.547e-05,
+   "mcap_usd": 134825,
+   "liquidity_usd": 20206.03,
+   "age_hours": 22.9,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2244,7 +2262,7 @@
    }
   },
   "2026-10-22": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2281,7 +2299,9 @@
     "08|market:too_new": 1,
     "08|market:liquidity_low": 1,
     "11": 1,
-    "11|market:liquidity_low": 1
+    "11|market:liquidity_low": 1,
+    "16": 1,
+    "16|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -2293,7 +2313,8 @@
     "grok:skip": 4,
     "rugcheck:danger": 1,
     "rugcheck:lp_unlocked": 5,
-    "rugcheck:insiders": 5
+    "rugcheck:insiders": 5,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
