@@ -1,11 +1,3 @@
-[2026-10-19T13:10:32+00:00] run start (LOG ONLY)
-[2026-10-19T13:10:43+00:00] discovered=59 fresh=53 market_pass=1
-[2026-10-19T13:10:43+00:00] grok daily budget 6/40 used, 0 no-response, $0.0148 (2026-10-19 UTC)
-[2026-10-19T13:11:03+00:00] grok call 18.0s model=grok-4.3 tokens=995+57 reasoning=628
-[2026-10-19T13:11:03+00:00] grok [rugcheck] RWA Ee1b5t49… -> SKIP (0.85) 319% h6 and 72% h1 gains signal blow-off top; buying after vertical move is exit liquidity. | risk: Rapid pump already fading into thin liquidity
-[2026-10-19T13:11:04+00:00] run end {"discovered": 59, "skipped_recent": 6, "no_pair": 0, "market": {"pumpfun_bonding_curve": 17, "mcap_too_low": 22, "too_new": 1, "too_old": 9, "mcap_too_high": 3}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=33s
-[2026-10-19T13:15:31+00:00] run start (LOG ONLY)
-[2026-10-19T13:15:42+00:00] discovered=58 fresh=51 market_pass=0
 [2026-10-19T13:15:42+00:00] grok daily budget 7/40 used, 0 no-response, $0.0176 (2026-10-19 UTC)
 [2026-10-19T13:15:42+00:00] run end {"discovered": 58, "skipped_recent": 7, "no_pair": 0, "market": {"too_new": 3, "mcap_too_low": 21, "pumpfun_bonding_curve": 15, "too_old": 9, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
 [2026-10-19T13:20:31+00:00] run start (LOG ONLY)
@@ -4998,3 +4990,11 @@
 [2026-10-22T09:09:34+00:00] second_look: 24h GUZZLEGOAT 4tieigPJ… (rejected rugcheck:lp_unlocked) -> fail: mcap_too_low [dead: price_-90%]
 [2026-10-22T09:09:34+00:00] second_look: pass end {"queued": 87, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-22T09:10:04+00:00] launch: pass end {"inbox": 21, "eligible": 5, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 24/24 elapsed=30s
+[2026-10-22T09:14:22+00:00] run start (LOG ONLY)
+[2026-10-22T09:14:31+00:00] discovered=63 fresh=56 market_pass=0
+[2026-10-22T09:14:31+00:00] grok daily budget 5/40 used, 0 no-response, $0.0134 (2026-10-22 UTC)
+[2026-10-22T09:14:31+00:00] run end {"discovered": 63, "skipped_recent": 7, "no_pair": 1, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 20, "missing:mcap_usd": 2, "too_old": 7, "volume_h1_low": 1, "liquidity_low": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-22T09:14:31+00:00] second_look: pass end {"queued": 87, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T09:15:16+00:00] launch: paper: candles unavailable for GMDaSAbn (RuntimeError), using snapshot price
+[2026-10-22T09:15:16+00:00] launch: paper: [hold] CAPE: closed (stop_loss) +30.6%
+[2026-10-22T09:15:16+00:00] launch: pass end {"inbox": 22, "eligible": 6, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 24/24 elapsed=44s
