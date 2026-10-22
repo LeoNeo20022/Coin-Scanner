@@ -4320,3 +4320,11 @@
 [2026-10-22T00:37:31+00:00] second_look: 24h PILL D6JPhhDz… (rejected rugcheck:top10) -> fail: mcap_too_low
 [2026-10-22T00:37:31+00:00] second_look: pass end {"queued": 57, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-22T00:37:42+00:00] launch: pass end {"inbox": 18, "eligible": 3, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 1/24 elapsed=11s
+[2026-10-22T00:42:20+00:00] run start (LOG ONLY)
+[2026-10-22T00:42:29+00:00] discovered=53 fresh=46 market_pass=1
+[2026-10-22T00:42:29+00:00] grok daily budget 1/40 used, 0 no-response, $0.0028 (2026-10-22 UTC)
+[2026-10-22T00:42:40+00:00] grok call 9.3s model=grok-4.3 tokens=997+73 reasoning=575
+[2026-10-22T00:42:40+00:00] grok [rugcheck] CYBERCAT HVBXp1v8… -> SKIP (0.75) Massive early pump (+158% h6) already reversing hard (-20% m5, -17% h1) despite buy volume. Looks like fading hype spike. | risk: Sharp post-launch correction with thin liquidity likely to accelerate on sells
+[2026-10-22T00:42:42+00:00] run end {"discovered": 53, "skipped_recent": 7, "no_pair": 0, "market": {"too_new": 3, "pumpfun_bonding_curve": 17, "mcap_too_low": 14, "mcap_too_high": 2, "too_old": 6, "volume_h1_low": 2, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=22s
+[2026-10-22T00:42:42+00:00] second_look: pass end {"queued": 57, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T00:42:53+00:00] launch: pass end {"inbox": 17, "eligible": 2, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 1/24 elapsed=11s
