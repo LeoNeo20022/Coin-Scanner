@@ -615,7 +615,14 @@
    "mcap_usd": 25998.28,
    "liquidity_usd": null,
    "age_hours": 0.1,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-22T03:06:31+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "pumpfun_bonding_curve"
+    }
+   },
    "done": false
   },
   "4T8v5x2pqHXL5eu73JLB9jYbqKYNGoiz2NKHF4Bxpump": {
@@ -633,7 +640,14 @@
    "mcap_usd": 5166,
    "liquidity_usd": 4453.69,
    "age_hours": 0.24,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-22T03:06:31+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "AfGxRFYpumsrXAdRYw6WDTYZht93bp656j7eNc8rpump": {
@@ -651,7 +665,14 @@
    "mcap_usd": 690653,
    "liquidity_usd": 73877.55,
    "age_hours": 0.9,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-22T03:06:31+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "cpuxtvVNNVGDHpk1MHyv4cC6d1rFmHBf7xAJCPHF3NY": {
@@ -669,7 +690,14 @@
    "mcap_usd": 68916,
    "liquidity_usd": 22106.34,
    "age_hours": 1.1,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-22T03:06:31+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "ANrmxCwhQHxp9g3gumWE3jYcfdbnA6MWBaJ9A6NYpump": {

@@ -4570,3 +4570,16 @@
 [2026-10-22T03:01:28+00:00] second_look: pass end {"queued": 68, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-22T03:02:11+00:00] launch: paper: candles unavailable for FpjqgJcs (RuntimeError), using snapshot price
 [2026-10-22T03:02:11+00:00] launch: pass end {"inbox": 19, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 9/24 elapsed=43s
+[2026-10-22T03:06:20+00:00] run start (LOG ONLY)
+[2026-10-22T03:06:29+00:00] discovered=61 fresh=52 market_pass=0
+[2026-10-22T03:06:29+00:00] grok daily budget 2/40 used, 0 no-response, $0.0055 (2026-10-22 UTC)
+[2026-10-22T03:06:29+00:00] run end {"discovered": 61, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 20, "missing:liquidity_usd": 1, "too_new": 1, "too_old": 7, "mcap_too_high": 2, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-22T03:06:31+00:00] second_look: 24h reply DBFBpthR… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve
+[2026-10-22T03:06:31+00:00] second_look: 24h Naseem 4T8v5x2p… (rejected market:mcap_too_low) -> fail: mcap_too_low
+[2026-10-22T03:06:31+00:00] second_look: 24h KIMCHI AfGxRFYp… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-22T03:06:31+00:00] second_look: 24h CPU cpuxtvVN… (rejected rugcheck:top10) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-22T03:06:31+00:00] second_look: pass end {"queued": 68, "due": 4, "rechecked": 4, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-22T03:06:34+00:00] launch: PAPER BUY $10 x3 strategies COGE 264ciPZa… @ 2.738e-05 (launch: curve 87.5%, holders 360, top 3.28%, top10 23.91%, vol1h $48877, age 5m)
+[2026-10-22T03:07:21+00:00] launch: paper: [target5] Stone: closed (stop_loss) -50.0%
+[2026-10-22T03:07:21+00:00] launch: paper: [hold] Stone: closed (stop_loss) -50.0%
+[2026-10-22T03:07:21+00:00] launch: pass end {"inbox": 19, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 10/24 elapsed=50s
