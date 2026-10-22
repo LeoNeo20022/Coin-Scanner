@@ -2116,6 +2116,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": {
+   "mint": "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
+   "symbol": "SHAVCOIN",
+   "pair": "HfT2fJjb1SmDsdjHbCkJuvnVdzDSY1525j4rhYXwdTDt",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T15:11:08+00:00",
+   "rejected_ts": 1792681868,
+   "stage": "grok",
+   "reason": "Parabolic blow-off: +438% h1 / +798% h6 on 3.5h-old token. Buying remains heavy but already looks like exit liquidity.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0004135,
+   "mcap_usd": 407682,
+   "liquidity_usd": 55422.1,
+   "age_hours": 3.54,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2190,7 +2208,7 @@
    }
   },
   "2026-10-22": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2236,7 +2254,7 @@
     "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "market:liquidity_low": 6,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:danger": 1,
     "rugcheck:lp_unlocked": 5,
     "rugcheck:insiders": 4
