@@ -21,9 +21,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-22T23:05:38+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3KeZeSnf5iQusHFVvrcUVYgppHLHVuYj5neENC5cpump": {
    "mint": "3KeZeSnf5iQusHFVvrcUVYgppHLHVuYj5neENC5cpump",
@@ -46,9 +52,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-10-22T23:05:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "9vuGTtRoL6GeD4Gwt6mQBm7Bn1AzJWATBvjkiMQXpump": {
    "mint": "9vuGTtRoL6GeD4Gwt6mQBm7Bn1AzJWATBvjkiMQXpump",
@@ -71,9 +83,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-22T23:05:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8zemVcC8974xhtHva7wuY64B6viXsfj24b6LH41mpump": {
    "mint": "8zemVcC8974xhtHva7wuY64B6viXsfj24b6LH41mpump",
