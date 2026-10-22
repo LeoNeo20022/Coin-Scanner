@@ -4767,3 +4767,14 @@
 [2026-10-22T04:58:34+00:00] run end {"discovered": 63, "skipped_recent": 9, "no_pair": 1, "market": {"missing:mcap_usd": 3, "pumpfun_bonding_curve": 17, "too_new": 1, "mcap_too_low": 21, "missing:liquidity_usd": 1, "too_old": 6, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {"lp_unlocked": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=12s
 [2026-10-22T04:58:34+00:00] second_look: pass end {"queued": 75, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-22T04:58:44+00:00] launch: pass end {"inbox": 17, "eligible": 1, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 14/24 elapsed=10s
+[2026-10-22T05:03:22+00:00] run start (LOG ONLY)
+[2026-10-22T05:03:32+00:00] discovered=63 fresh=54 market_pass=0
+[2026-10-22T05:03:32+00:00] grok daily budget 3/40 used, 0 no-response, $0.0084 (2026-10-22 UTC)
+[2026-10-22T05:03:32+00:00] run end {"discovered": 63, "skipped_recent": 9, "no_pair": 1, "market": {"pumpfun_bonding_curve": 19, "too_new": 1, "missing:mcap_usd": 3, "mcap_too_low": 21, "missing:liquidity_usd": 1, "too_old": 5, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 3} elapsed=10s
+[2026-10-22T05:03:34+00:00] second_look: 24h CODEWORD 6hvs6yMz… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_price]
+[2026-10-22T05:03:34+00:00] second_look: 24h $DUKE G9WuTdRa… (rejected market:mcap_too_low) -> fail: mcap_too_low
+[2026-10-22T05:03:34+00:00] second_look: 24h MINERS 3v83h8qu… (rejected market:liquidity_low) -> fail: mcap_too_low
+[2026-10-22T05:03:34+00:00] second_look: pass end {"queued": 78, "due": 3, "rechecked": 3, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-22T05:03:38+00:00] launch: GRAIL CPPJ4RmR… fail: insiders
+[2026-10-22T05:03:40+00:00] launch: PAPER BUY $10 x3 strategies Goon 6JSX2syV… @ 1.942e-05 (launch: curve 86.4%, holders 194, top 3.34%, top10 21.06%, vol1h $31475, age 12m)
+[2026-10-22T05:03:50+00:00] launch: pass end {"inbox": 19, "eligible": 5, "market_fail": 3, "rugchecked": 2, "token_fail": 1, "opened": 1, "skipped_cap": 0} today buys 15/24 elapsed=16s
