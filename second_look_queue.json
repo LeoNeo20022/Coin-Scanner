@@ -1102,6 +1102,24 @@
    "age_hours": 20.09,
    "checks": {},
    "done": false
+  },
+  "8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": {
+   "mint": "8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump",
+   "symbol": "FRENS",
+   "pair": "F6iMAncvXAj539FFf3r6w1J5Mpff1XLcrksEWtP5NvAP",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T00:47:31+00:00",
+   "rejected_ts": 1792630051,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0001189,
+   "mcap_usd": 115802,
+   "liquidity_usd": 28656.43,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -1176,7 +1194,7 @@
    }
   },
   "2026-10-22": {
-   "total": 4,
+   "total": 5,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -1187,7 +1205,7 @@
     "market:pumpfun_bonding_curve": 1,
     "market:mcap_too_low": 1,
     "market:too_new": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 2
    }
   }
  }
