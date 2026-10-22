@@ -1,11 +1,3 @@
-[2026-10-20T01:27:01+00:00] run end {"discovered": 53, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 16, "too_new": 2, "missing:mcap_usd": 4, "missing:liquidity_usd": 1, "liquidity_low": 1, "mcap_too_high": 1, "too_old": 4}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=13s
-[2026-10-20T01:31:48+00:00] run start (LOG ONLY)
-[2026-10-20T01:32:01+00:00] discovered=54 fresh=46 market_pass=0
-[2026-10-20T01:32:01+00:00] grok daily budget 2/40 used, 0 no-response, $0.0060 (2026-10-20 UTC)
-[2026-10-20T01:32:01+00:00] run end {"discovered": 54, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 17, "mcap_too_low": 17, "too_new": 2, "missing:mcap_usd": 4, "missing:liquidity_usd": 1, "mcap_too_high": 1, "too_old": 4}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=13s
-[2026-10-20T01:36:48+00:00] run start (LOG ONLY)
-[2026-10-20T01:37:01+00:00] discovered=54 fresh=46 market_pass=0
-[2026-10-20T01:37:01+00:00] grok daily budget 2/40 used, 0 no-response, $0.0060 (2026-10-20 UTC)
 [2026-10-20T01:37:01+00:00] run end {"discovered": 54, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 15, "too_new": 2, "missing:mcap_usd": 4, "missing:liquidity_usd": 1, "mcap_too_high": 1, "too_old": 4}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=13s
 [2026-10-20T01:41:48+00:00] run start (LOG ONLY)
 [2026-10-20T01:41:52+00:00] paper: [target5] GDC: closed (take_profit) at +50.0% [candles_1m]
@@ -4998,3 +4990,11 @@
 [2026-10-22T17:13:43+00:00] run end {"discovered": 66, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 24, "missing:mcap_usd": 2, "mcap_too_low": 11, "too_new": 2, "missing:liquidity_usd": 1, "too_old": 10, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-22T17:13:46+00:00] second_look: pass end {"queued": 103, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-22T17:13:55+00:00] launch: pass end {"inbox": 24, "eligible": 6, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 24/24 elapsed=9s
+[2026-10-22T17:18:34+00:00] run start (LOG ONLY)
+[2026-10-22T17:18:44+00:00] discovered=66 fresh=54 market_pass=1
+[2026-10-22T17:18:44+00:00] grok daily budget 12/40 used, 0 no-response, $0.0318 (2026-10-22 UTC)
+[2026-10-22T17:18:50+00:00] grok call 4.4s model=grok-4.3 tokens=996+74 reasoning=532
+[2026-10-22T17:18:50+00:00] grok [rugcheck] 1SHARE yNePjCgk… -> SKIP (0.85) 290% h6 and 127% h1 gains with only 1.89h age point to blow-off top; m5 volume flat and price already -3.45%. | risk: Entering after parabolic move likely catches the exit liquidity.
+[2026-10-22T17:18:52+00:00] run end {"discovered": 66, "skipped_recent": 12, "no_pair": 0, "market": {"liquidity_low": 1, "pumpfun_bonding_curve": 21, "missing:mcap_usd": 2, "mcap_too_low": 13, "too_new": 1, "missing:liquidity_usd": 1, "too_old": 10, "sells_ge_buys_h1": 1, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=17s
+[2026-10-22T17:18:54+00:00] second_look: pass end {"queued": 103, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-22T17:19:04+00:00] launch: pass end {"inbox": 21, "eligible": 4, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 2} today buys 24/24 elapsed=10s
