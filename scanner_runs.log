@@ -4955,3 +4955,10 @@
 [2026-10-22T06:55:14+00:00] run end {"discovered": 67, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "missing:mcap_usd": 3, "mcap_too_low": 22, "too_old": 7, "volume_h1_low": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-22T06:55:14+00:00] second_look: pass end {"queued": 81, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-22T06:55:26+00:00] launch: pass end {"inbox": 21, "eligible": 7, "market_fail": 7, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 18/24 elapsed=11s
+[2026-10-22T07:00:05+00:00] run start (LOG ONLY)
+[2026-10-22T07:00:15+00:00] discovered=67 fresh=56 market_pass=0
+[2026-10-22T07:00:15+00:00] grok daily budget 5/40 used, 0 no-response, $0.0134 (2026-10-22 UTC)
+[2026-10-22T07:00:15+00:00] run end {"discovered": 67, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "missing:mcap_usd": 3, "mcap_too_low": 22, "too_old": 7, "volume_h1_low": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-22T07:00:15+00:00] second_look: pass end {"queued": 81, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T07:00:20+00:00] launch: Dino Aa4iwuxm… fail: curve_almost_done
+[2026-10-22T07:00:29+00:00] launch: pass end {"inbox": 21, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 18/24 elapsed=15s
