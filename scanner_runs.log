@@ -1,9 +1,3 @@
-[2026-10-19T22:55:14+00:00] run start (LOG ONLY)
-[2026-10-19T22:55:25+00:00] discovered=54 fresh=45 market_pass=1
-[2026-10-19T22:55:25+00:00] grok daily budget 9/40 used, 0 no-response, $0.0229 (2026-10-19 UTC)
-[2026-10-19T22:55:27+00:00] run end {"discovered": 54, "skipped_recent": 9, "no_pair": 0, "market": {"liquidity_low": 1, "pumpfun_bonding_curve": 16, "mcap_too_low": 13, "too_new": 4, "missing:mcap_usd": 1, "missing:liquidity_usd": 2, "mcap_too_high": 1, "too_old": 6}, "rug": {"lp_unlocked": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=13s
-[2026-10-19T23:00:14+00:00] run start (LOG ONLY)
-[2026-10-19T23:00:25+00:00] discovered=54 fresh=44 market_pass=1
 [2026-10-19T23:00:25+00:00] grok daily budget 9/40 used, 0 no-response, $0.0229 (2026-10-19 UTC)
 [2026-10-19T23:00:41+00:00] grok call 14.4s model=grok-4.3 tokens=998+72 reasoning=529
 [2026-10-19T23:00:41+00:00] grok [rugcheck] MILO 2tgNZbwu… -> SKIP (0.85) 3286% gain in 6h on 1h-old token screams blow-off top. Liquidity only 6.4% of mcap leaves it fragile to any sell pressure. | risk: massive early pump already pricing in exit liquidity
@@ -4998,3 +4992,9 @@
 [2026-10-22T15:36:48+00:00] run end {"discovered": 66, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 24, "mcap_too_low": 15, "missing:liquidity_usd": 2, "too_new": 1, "too_old": 10, "volume_h1_low": 1, "mcap_too_high": 2, "missing:mcap_usd": 1}, "rug": {"insiders": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=12s
 [2026-10-22T15:36:50+00:00] second_look: pass end {"queued": 100, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-22T15:37:00+00:00] launch: pass end {"inbox": 24, "eligible": 1, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 24/24 elapsed=9s
+[2026-10-22T15:41:36+00:00] run start (LOG ONLY)
+[2026-10-22T15:41:46+00:00] discovered=66 fresh=56 market_pass=0
+[2026-10-22T15:41:46+00:00] grok daily budget 8/40 used, 0 no-response, $0.0212 (2026-10-22 UTC)
+[2026-10-22T15:41:46+00:00] run end {"discovered": 66, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 24, "mcap_too_low": 16, "missing:liquidity_usd": 1, "too_new": 1, "too_old": 10, "volume_h1_low": 1, "mcap_too_high": 2, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-22T15:41:48+00:00] second_look: pass end {"queued": 100, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-22T15:41:59+00:00] launch: pass end {"inbox": 24, "eligible": 6, "market_fail": 6, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 24/24 elapsed=10s
