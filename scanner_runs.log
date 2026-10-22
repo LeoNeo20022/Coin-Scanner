@@ -4306,3 +4306,10 @@
 [2026-10-22T00:31:58+00:00] second_look: pass end {"queued": 57, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-22T00:32:01+00:00] launch: WIKI 3ApPzYXE… fail: no_curve_market
 [2026-10-22T00:32:11+00:00] launch: pass end {"inbox": 18, "eligible": 4, "market_fail": 3, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 1/24 elapsed=13s
+[2026-10-22T00:36:46+00:00] run start (LOG ONLY)
+[2026-10-22T00:36:55+00:00] discovered=53 fresh=46 market_pass=0
+[2026-10-22T00:36:55+00:00] grok daily budget 1/40 used, 0 no-response, $0.0028 (2026-10-22 UTC)
+[2026-10-22T00:36:55+00:00] run end {"discovered": 53, "skipped_recent": 7, "no_pair": 0, "market": {"pumpfun_bonding_curve": 18, "too_new": 3, "mcap_too_low": 14, "mcap_too_high": 2, "too_old": 6, "volume_h1_low": 2, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-22T00:36:56+00:00] second_look: pass end {"queued": 57, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T00:36:59+00:00] launch: POINTLESS D6Tgd46z… fail: insiders
+[2026-10-22T00:37:09+00:00] launch: pass end {"inbox": 18, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 1/24 elapsed=13s
