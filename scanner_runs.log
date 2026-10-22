@@ -4414,3 +4414,10 @@
 [2026-10-22T01:33:06+00:00] second_look: pass end {"queued": 61, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-22T01:33:09+00:00] launch: hedge 2XbgkshL… fail: danger:Large Amount of LP Unlocked
 [2026-10-22T01:33:19+00:00] launch: pass end {"inbox": 20, "eligible": 2, "market_fail": 1, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 4/24 elapsed=14s
+[2026-10-22T01:37:56+00:00] run start (LOG ONLY)
+[2026-10-22T01:38:05+00:00] discovered=56 fresh=48 market_pass=0
+[2026-10-22T01:38:05+00:00] grok daily budget 2/40 used, 0 no-response, $0.0055 (2026-10-22 UTC)
+[2026-10-22T01:38:05+00:00] run end {"discovered": 56, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "mcap_too_low": 17, "too_old": 7, "mcap_too_high": 2, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-22T01:38:06+00:00] second_look: pass end {"queued": 61, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T01:38:10+00:00] launch: PAPER BUY $10 x3 strategies ser CMbTAif3… @ 1.642e-05 (launch: curve 80.2%, holders 110, top 3.55%, top10 24.24%, vol1h $21209, age 8m)
+[2026-10-22T01:38:21+00:00] launch: pass end {"inbox": 20, "eligible": 3, "market_fail": 2, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 5/24 elapsed=16s
