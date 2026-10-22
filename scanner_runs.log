@@ -4820,3 +4820,12 @@
 [2026-10-22T05:29:08+00:00] second_look: pass end {"queued": 78, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-22T05:29:11+00:00] launch: PAPER BUY $10 x3 strategies kPEPE 25Pmz2Mv… @ 1.385e-05 (launch: curve 60.4%, holders 231, top 2.73%, top10 17.05%, vol1h $29050, age 9m)
 [2026-10-22T05:29:21+00:00] launch: pass end {"inbox": 20, "eligible": 3, "market_fail": 2, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 16/24 elapsed=13s
+[2026-10-22T05:33:55+00:00] run start (LOG ONLY)
+[2026-10-22T05:34:04+00:00] discovered=65 fresh=55 market_pass=0
+[2026-10-22T05:34:04+00:00] grok daily budget 3/40 used, 0 no-response, $0.0084 (2026-10-22 UTC)
+[2026-10-22T05:34:04+00:00] run end {"discovered": 65, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "mcap_too_low": 21, "too_new": 2, "missing:mcap_usd": 3, "liquidity_low": 1, "too_old": 5, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-22T05:34:05+00:00] second_look: pass end {"queued": 78, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T05:34:14+00:00] launch: paper: [scalp] kPEPE: closed (stop_loss) -60.7%
+[2026-10-22T05:34:14+00:00] launch: paper: [target5] kPEPE: closed (stop_loss) -60.7%
+[2026-10-22T05:34:14+00:00] launch: paper: [hold] kPEPE: closed (stop_loss) -60.7%
+[2026-10-22T05:34:14+00:00] launch: pass end {"inbox": 20, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 16/24 elapsed=9s
