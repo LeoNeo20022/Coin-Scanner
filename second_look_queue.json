@@ -1998,6 +1998,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm": {
+   "mint": "roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm",
+   "symbol": "YAPROACH",
+   "pair": "EcniqD24ETYitYhWEm3iNPCJFVwgSzYCQsRVN2eit27F",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T13:25:55+00:00",
+   "rejected_ts": 1792675555,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0003892,
+   "mcap_usd": 380678,
+   "liquidity_usd": 91535.03,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2072,7 +2090,7 @@
    }
   },
   "2026-10-22": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2120,7 +2138,7 @@
     "market:liquidity_low": 6,
     "grok:skip": 2,
     "rugcheck:danger": 1,
-    "rugcheck:lp_unlocked": 2,
+    "rugcheck:lp_unlocked": 3,
     "rugcheck:insiders": 2
    }
   }
