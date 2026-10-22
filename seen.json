@@ -7214,7 +7214,9 @@
  },
  "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump": {
   "market_logged": 1792676749.052369,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792677905.0969257,
+  "symbol": "VECTOR"
  },
  "F6u7FdxYggT8pHhsfxTRmYHZ24EhTKmn5Ppp4VExpump": {
   "market_logged": 1792677049.2337723,
@@ -7231,5 +7233,13 @@
  "6nwCxJbZukXAV7xxvMcUidSoxqoFVkP8ihzyrRp9pump": {
   "market_logged": 1792677604.6509185,
   "market_reason": "mcap_too_low"
+ },
+ "H9hnx2AGK4G9Lg6zkzx3vE8jy89fHh4juDknV8cPrpsd": {
+  "market_logged": 1792677905.0969257,
+  "market_reason": "missing:liquidity_usd"
+ },
+ "GbKogroNUdW96vCiWcS2mawJ2zd6NPPLCgLaKN7Ypump": {
+  "market_logged": 1792677905.0969257,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }

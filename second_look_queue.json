@@ -1240,7 +1240,14 @@
    "mcap_usd": 263737,
    "liquidity_usd": 43094.59,
    "age_hours": 26.33,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-22T14:05:12+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump": {
@@ -1258,7 +1265,14 @@
    "mcap_usd": 392921,
    "liquidity_usd": 57668.01,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-22T14:05:12+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": {
@@ -2052,6 +2066,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump": {
+   "mint": "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump",
+   "symbol": "VECTOR",
+   "pair": "92KgVDBs9TSRBX5XxYJRczFRsawA4sLTaKWnMDAJfWA1",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T14:05:10+00:00",
+   "rejected_ts": 1792677910,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0002538,
+   "mcap_usd": 248802,
+   "liquidity_usd": 45904.59,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2126,7 +2158,7 @@
    }
   },
   "2026-10-22": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2174,7 +2206,7 @@
     "market:liquidity_low": 6,
     "grok:skip": 2,
     "rugcheck:danger": 1,
-    "rugcheck:lp_unlocked": 4,
+    "rugcheck:lp_unlocked": 5,
     "rugcheck:insiders": 3
    }
   }
