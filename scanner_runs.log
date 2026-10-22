@@ -4786,3 +4786,10 @@
 [2026-10-22T05:08:44+00:00] launch: paper: [scalp] Goon: closed (stop_loss) -10.0%
 [2026-10-22T05:08:44+00:00] launch: paper: [target5] Goon: closed (take_profit) +50.0%
 [2026-10-22T05:08:44+00:00] launch: pass end {"inbox": 19, "eligible": 4, "market_fail": 4, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 15/24 elapsed=11s
+[2026-10-22T05:13:23+00:00] run start (LOG ONLY)
+[2026-10-22T05:13:32+00:00] discovered=64 fresh=55 market_pass=0
+[2026-10-22T05:13:32+00:00] grok daily budget 3/40 used, 0 no-response, $0.0084 (2026-10-22 UTC)
+[2026-10-22T05:13:32+00:00] run end {"discovered": 64, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 20, "too_new": 2, "missing:mcap_usd": 3, "liquidity_low": 1, "missing:liquidity_usd": 1, "too_old": 6, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-22T05:13:33+00:00] second_look: pass end {"queued": 78, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T05:13:44+00:00] launch: paper: [hold] Goon: closed (stop_loss) -50.0%
+[2026-10-22T05:13:44+00:00] launch: pass end {"inbox": 19, "eligible": 1, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 15/24 elapsed=11s
