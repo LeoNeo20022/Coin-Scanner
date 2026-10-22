@@ -2152,6 +2152,24 @@
    "age_hours": 3.05,
    "checks": {},
    "done": false
+  },
+  "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump": {
+   "mint": "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump",
+   "symbol": "TRUMPOCEAN",
+   "pair": "HM29GQwJw4qfgQPbicN1bftqCoBjM7gVE1zdLpie2zYV",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T15:36:48+00:00",
+   "rejected_ts": 1792683408,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0002998,
+   "mcap_usd": 297653,
+   "liquidity_usd": 47968.39,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2226,7 +2244,7 @@
    }
   },
   "2026-10-22": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2275,7 +2293,7 @@
     "grok:skip": 4,
     "rugcheck:danger": 1,
     "rugcheck:lp_unlocked": 5,
-    "rugcheck:insiders": 4
+    "rugcheck:insiders": 5
    }
   }
  }
