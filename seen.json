@@ -174,8 +174,8 @@
   "market_reason": "mcap_too_high"
  },
  "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
-  "market_logged": 1792665040.499244,
-  "market_reason": "mcap_too_high",
+  "market_logged": 1792665340.539846,
+  "market_reason": "too_old",
   "judged": 1792403560.5012507,
   "symbol": "GLITCH"
  },
@@ -7029,5 +7029,9 @@
  "D1YZZg9dBZ7AbfknZVbaeVLto36eySwoFYEVhZrD4F4n": {
   "market_logged": 1792665040.499244,
   "market_reason": "too_old"
+ },
+ "3aFGhGuYimQgfd9XX81ztnDHtE88r3Jww9x9Acmzpump": {
+  "market_logged": 1792665340.539846,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
