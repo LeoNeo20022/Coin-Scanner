@@ -4583,3 +4583,17 @@
 [2026-10-22T03:07:21+00:00] launch: paper: [target5] Stone: closed (stop_loss) -50.0%
 [2026-10-22T03:07:21+00:00] launch: paper: [hold] Stone: closed (stop_loss) -50.0%
 [2026-10-22T03:07:21+00:00] launch: pass end {"inbox": 19, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 10/24 elapsed=50s
+[2026-10-22T03:11:19+00:00] run start (LOG ONLY)
+[2026-10-22T03:11:28+00:00] discovered=62 fresh=53 market_pass=0
+[2026-10-22T03:11:28+00:00] grok daily budget 2/40 used, 0 no-response, $0.0055 (2026-10-22 UTC)
+[2026-10-22T03:11:28+00:00] run end {"discovered": 62, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "mcap_too_low": 19, "missing:liquidity_usd": 1, "too_new": 1, "too_old": 7, "mcap_too_high": 2, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-22T03:11:28+00:00] second_look: pass end {"queued": 68, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T03:11:32+00:00] launch: PAPER BUY $10 x3 strategies PHP3SHELL 9GSibxwt… @ 2.19e-05 (launch: curve 79.4%, holders 218, top 3.69%, top10 21.36%, vol1h $34977, age 6m)
+[2026-10-22T03:12:17+00:00] launch: paper: candles unavailable for FpjqgJcs (RuntimeError), using snapshot price
+[2026-10-22T03:12:17+00:00] launch: paper: [scalp] COGE: closed (stop_loss) -10.0%
+[2026-10-22T03:12:17+00:00] launch: paper: [scalp] PHP3SHELL: closed (stop_loss) -42.0%
+[2026-10-22T03:12:17+00:00] launch: paper: [target5] COGE: closed (stop_loss) -50.0%
+[2026-10-22T03:12:17+00:00] launch: paper: [target5] PHP3SHELL: closed (stop_loss) -50.0%
+[2026-10-22T03:12:17+00:00] launch: paper: [hold] COGE: closed (stop_loss) -50.0%
+[2026-10-22T03:12:17+00:00] launch: paper: [hold] PHP3SHELL: closed (stop_loss) -50.0%
+[2026-10-22T03:12:17+00:00] launch: pass end {"inbox": 21, "eligible": 2, "market_fail": 1, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 11/24 elapsed=48s
