@@ -1,11 +1,3 @@
-[2026-10-20T03:08:11+00:00] grok daily budget 2/40 used, 0 no-response, $0.0060 (2026-10-20 UTC)
-[2026-10-20T03:08:25+00:00] grok call 12.0s model=grok-4.3 tokens=991+62 reasoning=530
-[2026-10-20T03:08:25+00:00] grok [rugcheck] OSI 54XyfgB9… -> SKIP (0.85) 311% h6 pump already reversing in m5 (-8%) after extreme volume; classic blow-off pattern on 1h-old token. | risk: Late entry into rapid pump with fading momentum
-[2026-10-20T03:08:27+00:00] run end {"discovered": 53, "skipped_recent": 8, "no_pair": 0, "market": {"mcap_too_low": 16, "pumpfun_bonding_curve": 19, "too_new": 1, "liquidity_low": 1, "volume_h1_low": 1, "missing:mcap_usd": 2, "mcap_too_high": 1, "too_old": 3}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=26s
-[2026-10-20T03:13:00+00:00] run start (LOG ONLY)
-[2026-10-20T03:13:02+00:00] paper: GDC: closed (stop_loss) at -99.5%
-[2026-10-20T03:13:11+00:00] discovered=54 fresh=44 market_pass=0
-[2026-10-20T03:13:11+00:00] grok daily budget 3/40 used, 0 no-response, $0.0086 (2026-10-20 UTC)
 [2026-10-20T03:13:11+00:00] run end {"discovered": 54, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 17, "too_new": 1, "volume_h1_low": 1, "missing:mcap_usd": 2, "mcap_too_high": 1, "too_old": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
 [2026-10-20T03:18:00+00:00] run start (LOG ONLY)
 [2026-10-20T03:18:11+00:00] discovered=54 fresh=44 market_pass=0
@@ -4998,3 +4990,11 @@
 [2026-10-22T18:15:30+00:00] run end {"discovered": 69, "skipped_recent": 17, "no_pair": 0, "market": {"pumpfun_bonding_curve": 26, "missing:mcap_usd": 3, "too_new": 3, "missing:liquidity_usd": 1, "mcap_too_low": 7, "too_old": 10, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-22T18:15:32+00:00] second_look: pass end {"queued": 103, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-22T18:15:43+00:00] launch: pass end {"inbox": 26, "eligible": 5, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 24/24 elapsed=11s
+[2026-10-22T18:20:20+00:00] run start (LOG ONLY)
+[2026-10-22T18:20:29+00:00] discovered=68 fresh=53 market_pass=1
+[2026-10-22T18:20:29+00:00] grok daily budget 14/40 used, 0 no-response, $0.0365 (2026-10-22 UTC)
+[2026-10-22T18:20:40+00:00] grok call 9.2s model=grok-4.3 tokens=1000+75 reasoning=667
+[2026-10-22T18:20:40+00:00] grok [rugcheck] KIMCHAI CQ4FfF2q… -> SKIP (0.75) Massive 171% h6 / 82% h1 gains on 1h-old token with volume concentrated early; m5 already -6%. Buy/sell ratio strong but looks like fading spike. | risk: Buying the exit after blow-off top
+[2026-10-22T18:20:42+00:00] run end {"discovered": 68, "skipped_recent": 15, "no_pair": 0, "market": {"pumpfun_bonding_curve": 28, "missing:mcap_usd": 2, "too_new": 2, "missing:liquidity_usd": 1, "mcap_too_low": 7, "too_old": 10, "mcap_too_high": 2}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=22s
+[2026-10-22T18:20:44+00:00] second_look: pass end {"queued": 103, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-22T18:20:54+00:00] launch: pass end {"inbox": 28, "eligible": 8, "market_fail": 4, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 4} today buys 24/24 elapsed=10s
