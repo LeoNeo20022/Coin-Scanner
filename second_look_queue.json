@@ -1959,6 +1959,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "7S6HGeZs3eNXQunVfiz9tceeuMPuSVLGFJ7BSwBApump": {
+   "mint": "7S6HGeZs3eNXQunVfiz9tceeuMPuSVLGFJ7BSwBApump",
+   "symbol": "DJT",
+   "pair": "8wFw1ZAZt6tRvoVtGg18PcnTMBKkQE24KS8AGza6jGMi",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T11:27:10+00:00",
+   "rejected_ts": 1792668430,
+   "stage": "grok",
+   "reason": "180% h1 pump followed by -29% m5 reversal shows fading spike, not steady buying. Copycat token adds extra risk.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001227,
+   "mcap_usd": 117619,
+   "liquidity_usd": 30296.5,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2033,7 +2051,7 @@
    }
   },
   "2026-10-22": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2079,7 +2097,7 @@
     "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "market:liquidity_low": 6,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:danger": 1,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:insiders": 2

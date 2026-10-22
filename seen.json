@@ -7012,7 +7012,9 @@
  },
  "7S6HGeZs3eNXQunVfiz9tceeuMPuSVLGFJ7BSwBApump": {
   "market_logged": 1792665040.499244,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "DJT",
+  "judged": 1792668416.4403963
  },
  "5n9QqyVtkWmeZ1QwZR86yZWqqNZWSwVBbYiDmHV8pump": {
   "market_logged": 1792664740.720243,
@@ -7091,8 +7093,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "Di3YBHLp5hwnq2CrJBFRgcynWFwozKGRFT95coPnpump": {
-  "market_logged": 1792667776.8887777,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1792668416.4403963,
+  "market_reason": "liquidity_low"
  },
  "GSdzioCmcouDADrJAx2Va8AXfG6EMkGrxQpf5Lypump": {
   "market_logged": 1792667477.1493986,
@@ -7104,6 +7106,10 @@
  },
  "Fs13Kvxj8cBtue4NKjuV2FMFfM4GSCW5hvg9seXBpump": {
   "market_logged": 1792668077.1411963,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8qA6AmPZrikPwAwRSGVgxAY7RvtW1EkozAKXDHKypump": {
+  "market_logged": 1792668416.4403963,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
