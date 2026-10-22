@@ -4383,3 +4383,12 @@
 [2026-10-22T01:13:05+00:00] run end {"discovered": 56, "skipped_recent": 9, "no_pair": 0, "market": {"too_new": 1, "pumpfun_bonding_curve": 18, "mcap_too_low": 18, "mcap_too_high": 2, "too_old": 5, "volume_h1_low": 2, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-22T01:13:06+00:00] second_look: pass end {"queued": 61, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-22T01:13:16+00:00] launch: pass end {"inbox": 18, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 3/24 elapsed=10s
+[2026-10-22T01:17:55+00:00] run start (LOG ONLY)
+[2026-10-22T01:18:05+00:00] discovered=57 fresh=48 market_pass=0
+[2026-10-22T01:18:05+00:00] grok daily budget 2/40 used, 0 no-response, $0.0055 (2026-10-22 UTC)
+[2026-10-22T01:18:05+00:00] run end {"discovered": 57, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 20, "too_new": 1, "mcap_too_low": 17, "mcap_too_high": 2, "too_old": 5, "volume_h1_low": 2, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-22T01:18:05+00:00] second_look: pass end {"queued": 61, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-22T01:18:09+00:00] launch: PAPER BUY $10 x3 strategies Charlie Ex5GTZqG… @ 1.752e-05 (launch: curve 80.1%, holders 115, top 3.65%, top10 27.71%, vol1h $16866, age 25m)
+[2026-10-22T01:18:21+00:00] launch: paper: [target5] drops: closed (stop_loss) -50.0%
+[2026-10-22T01:18:21+00:00] launch: paper: [hold] drops: closed (stop_loss) -50.0%
+[2026-10-22T01:18:21+00:00] launch: pass end {"inbox": 20, "eligible": 6, "market_fail": 5, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 4/24 elapsed=16s
