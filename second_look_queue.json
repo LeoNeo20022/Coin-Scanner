@@ -1744,6 +1744,42 @@
    "age_hours": 2.7,
    "checks": {},
    "done": false
+  },
+  "5aA5znUxUtAamxDgRxsbWzdVLe9bauYhTRXJZmvFpump": {
+   "mint": "5aA5znUxUtAamxDgRxsbWzdVLe9bauYhTRXJZmvFpump",
+   "symbol": "AURACHI",
+   "pair": "HhssSvETV8Ah5XoKmPJHpvxkFceNYawXVtDJYxqKz6W7",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T07:10:14+00:00",
+   "rejected_ts": 1792653014,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0005967,
+   "mcap_usd": 596780,
+   "liquidity_usd": 85538.23,
+   "age_hours": 0.48,
+   "checks": {},
+   "done": false
+  },
+  "B28EEeqoZ8NhCtkXLmNkWQp2NUp9mixH54V4etaLpump": {
+   "mint": "B28EEeqoZ8NhCtkXLmNkWQp2NUp9mixH54V4etaLpump",
+   "symbol": "TIB",
+   "pair": "8Xs4XAL95GGVwBtYteJcuykUu6jiGDfmUKFYw8fLGnUM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-22T07:10:18+00:00",
+   "rejected_ts": 1792653018,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001624,
+   "mcap_usd": 154949,
+   "liquidity_usd": 33908.14,
+   "age_hours": 1.17,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -1818,7 +1854,7 @@
    }
   },
   "2026-10-22": {
-   "total": 28,
+   "total": 30,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -1846,13 +1882,15 @@
     "05|market:mcap_too_low": 1,
     "06": 2,
     "06|market:too_new": 1,
-    "06|market:liquidity_low": 1
+    "06|market:liquidity_low": 1,
+    "07": 1,
+    "07|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "market:too_new": 4,
-    "rugcheck:top10": 5,
+    "market:too_new": 5,
+    "rugcheck:top10": 6,
     "market:volume_h1_low": 1,
     "market:liquidity_low": 3,
     "grok:skip": 1,
