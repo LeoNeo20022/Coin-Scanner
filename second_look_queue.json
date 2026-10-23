@@ -3591,6 +3591,24 @@
    "age_hours": 1.54,
    "checks": {},
    "done": false
+  },
+  "HYLhzvLHmC4gqckEyACvy2jDMoCizE2hS1qcJ1Q7pump": {
+   "mint": "HYLhzvLHmC4gqckEyACvy2jDMoCizE2hS1qcJ1Q7pump",
+   "symbol": "McSauce",
+   "pair": "FrupwRLRnrDCFtBRTLBQ6KG3g5VRpGDKKEnWm6Yuv1Fy",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T15:48:11+00:00",
+   "rejected_ts": 1792770491,
+   "stage": "grok",
+   "reason": "1087% h6 gain with volume almost entirely in first hour signals blow-off top. Still buying but chart already parabolic after 1h age.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0006537,
+   "mcap_usd": 650070,
+   "liquidity_usd": 71457.04,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3721,7 +3739,7 @@
    }
   },
   "2026-10-23": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3768,7 +3786,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 3,
     "rugcheck:top10": 4,
