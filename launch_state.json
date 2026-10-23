@@ -826,7 +826,7 @@
    "first": 1792588467.0657644,
    "evals": 1,
    "next": 1792589367.0657644,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -3101,7 +3101,7 @@
    "first": 1792682208.404859,
    "evals": 4,
    "next": 1792709106.780191,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "bought",
    "done": true
@@ -3650,7 +3650,7 @@
    "first": 1792699953.3863764,
    "evals": 6,
    "next": 1792712437.5012808,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -3783,7 +3783,7 @@
    "first": 1792705438.7430472,
    "evals": 6,
    "next": 1792711537.673907,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles,token-boosts",
    "why": "missing:price_usd"
   },
@@ -3838,7 +3838,7 @@
    "first": 1792708206.780191,
    "evals": 1,
    "next": 1792709106.780191,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -4122,7 +4122,7 @@
    "first": 1792723163.4894595,
    "evals": 6,
    "next": 1792729241.645458,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4130,7 +4130,7 @@
    "first": 1792723764.1102839,
    "evals": 6,
    "next": 1792729842.2263029,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4138,7 +4138,7 @@
    "first": 1792724060.243281,
    "evals": 6,
    "next": 1792729879.4577937,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4146,7 +4146,7 @@
    "first": 1792724060.243281,
    "evals": 2,
    "next": 1792724960.243281,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "bought",
    "done": true
@@ -4163,7 +4163,7 @@
    "first": 1792724996.0724988,
    "evals": 4,
    "next": 1792729879.4577937,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "sells_gt_buys_h1"
   },
@@ -4171,7 +4171,7 @@
    "first": 1792725895.7863603,
    "evals": 1,
    "next": 0,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4180,7 +4180,7 @@
    "first": 1792725895.7863603,
    "evals": 1,
    "next": 0,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4204,7 +4204,7 @@
    "first": 1792727140.367999,
    "evals": 3,
    "next": 1792729879.4577937,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "missing:price_usd"
   },
@@ -4212,7 +4212,7 @@
    "first": 1792727741.8884745,
    "evals": 1,
    "next": 0,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4221,7 +4221,7 @@
    "first": 1792728979.4577937,
    "evals": 1,
    "next": 1792729879.4577937,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "insiders"
   },
@@ -4229,9 +4229,18 @@
    "first": 1792729278.9191172,
    "evals": 1,
    "next": 1792730178.9191172,
-   "last": 1792729278.9191172,
+   "last": 1792729578.8700936,
    "src": "token-profiles",
    "why": "mcap_low"
+  },
+  "H5qpKH6cVgNZCNRSzzqYG47fStQdgnMh8ph3fkYXpump": {
+   "first": 1792729578.8700936,
+   "evals": 1,
+   "next": 1792730478.8700936,
+   "last": 1792729578.8700936,
+   "src": "token-profiles",
+   "why": "danger:Creator history of rugged tokens",
+   "done": true
   }
  },
  "days": {
@@ -4310,14 +4319,14 @@
     "2026-10-23T03": 3,
     "2026-10-23T04": 1
    },
-   "evals": 22,
+   "evals": 23,
    "fails": {
     "dumping_m5": 9,
     "mcap_low": 79,
     "missing:price_usd": 10,
     "top_holder": 4,
     "too_old": 1,
-    "danger:Creator": 3,
+    "danger:Creator": 4,
     "sells_gt_buys_h1": 2,
     "no_curve_market": 2,
     "danger:Low": 1,
