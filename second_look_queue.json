@@ -300,9 +300,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-23T00:27:00+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "D6JPhhDzCecig895drexKKn5H236EF3vJKgvWK6gpump": {
    "mint": "D6JPhhDzCecig895drexKKn5H236EF3vJKgvWK6gpump",
@@ -1469,7 +1475,14 @@
    "mcap_usd": 70361,
    "liquidity_usd": 24106.33,
    "age_hours": 20.09,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-23T00:27:00+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": {
