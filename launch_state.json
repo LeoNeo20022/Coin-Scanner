@@ -675,7 +675,7 @@
    "first": 1792579214.4073887,
    "evals": 6,
    "next": 1792585729.011063,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -3650,7 +3650,7 @@
    "first": 1792699953.3863764,
    "evals": 6,
    "next": 1792712437.5012808,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -4459,7 +4459,7 @@
    "first": 1792746000.5833242,
    "evals": 6,
    "next": 1792752250.1897192,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4467,7 +4467,7 @@
    "first": 1792746000.5833242,
    "evals": 1,
    "next": 0,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4476,7 +4476,7 @@
    "first": 1792746299.4640236,
    "evals": 1,
    "next": 0,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4485,15 +4485,15 @@
    "first": 1792746706.6814694,
    "evals": 6,
    "next": 1792752850.3341603,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
   "8mgJzDdsVPY5vbyoZM13Pb54EvT2abWEKDS7t9gxpump": {
    "first": 1792747906.6369085,
-   "evals": 5,
-   "next": 1792752850.3341603,
-   "last": 1792752553.4047794,
+   "evals": 6,
+   "next": 1792753750.4154162,
+   "last": 1792752850.4154162,
    "src": "token-boosts",
    "why": "mcap_low"
   },
@@ -4501,15 +4501,15 @@
    "first": 1792748506.2781432,
    "evals": 5,
    "next": 1792753150.5274642,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "why": "mcap_low"
   },
   "CPvtksvE7cDh3uCAeHYx8quxoSGhmQJ6KbfvZ8Brpump": {
    "first": 1792748877.3737526,
-   "evals": 4,
-   "next": 1792752850.3341603,
-   "last": 1792752553.4047794,
+   "evals": 5,
+   "next": 1792753750.4154162,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4526,7 +4526,7 @@
    "first": 1792749177.735844,
    "evals": 4,
    "next": 1792753150.5274642,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "why": "far_below_ath"
   },
@@ -4534,7 +4534,7 @@
    "first": 1792750077.2624443,
    "evals": 1,
    "next": 0,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4543,7 +4543,7 @@
    "first": 1792750077.2624443,
    "evals": 1,
    "next": 1792750977.2624443,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -4552,26 +4552,34 @@
    "first": 1792751650.9053104,
    "evals": 2,
    "next": 1792753453.4047794,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "why": "buys_h1_low"
   },
   "2FpUDR9zUA6jEW19wjBZSd4z3YzCgryfojqRZXpMpump": {
    "first": 1792751950.3341603,
-   "evals": 1,
-   "next": 1792752850.3341603,
-   "last": 1792752553.4047794,
+   "evals": 2,
+   "next": 1792753750.4154162,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
-   "why": "insiders"
+   "why": "mcap_low"
   },
   "BWNvZSuGuMDZ1foz7koiiE5Y3T7uFi9Tz1k4gmgDpump": {
    "first": 1792752553.4047794,
    "evals": 1,
    "next": 0,
-   "last": 1792752553.4047794,
+   "last": 1792752850.4154162,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
+  },
+  "HffH5YB6YhTWinZYzbqJowpDbKzqALGMX1NFAHYdpump": {
+   "first": 1792752850.4154162,
+   "evals": 0,
+   "next": 1792753750.4154162,
+   "last": 1792752850.4154162,
+   "src": "token-profiles",
+   "why": "too_new"
   }
  },
  "days": {
@@ -4659,7 +4667,7 @@
    "evals": 62,
    "fails": {
     "dumping_m5": 15,
-    "mcap_low": 140,
+    "mcap_low": 143,
     "missing:price_usd": 24,
     "top_holder": 10,
     "too_old": 4,
@@ -4667,7 +4675,7 @@
     "sells_gt_buys_h1": 3,
     "no_curve_market": 7,
     "danger:Low": 1,
-    "too_new": 3,
+    "too_new": 4,
     "far_below_ath": 5,
     "insiders": 9,
     "top10": 1,
