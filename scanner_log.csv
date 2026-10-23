@@ -3423,3 +3423,5 @@ time,mint,symbol,mcap_usd,liquidity_usd,age_hours,volume_h1_usd,buys_h1,sells_h1
 2026-10-23T12:51:19+00:00,TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump,eCat,194617,37557.16,0.59,233020.9,3941,2310,market,SKIP,,too_new,,token-profiles
 2026-10-23T12:51:19+00:00,217NMz7ia83i8Y6ezVBeTsEfhpuxBUCLj9RygjTSpump,CORTEX,42908.22,,0.16,43986.05,561,210,market,SKIP,,pumpfun_bonding_curve,,token-profiles
 2026-10-23T12:51:19+00:00,DjBGgYBCAUsCjZ9zgfMmPTjiWkvgur7dCiRGNh7opump,Kona,52157,18550.34,0.29,156163.52,2823,1961,market,SKIP,,liquidity_low,,token-profiles
+2026-10-23T12:56:20+00:00,DjBGgYBCAUsCjZ9zgfMmPTjiWkvgur7dCiRGNh7opump,Kona,40377,15600.78,0.38,180020.8,3315,2344,market,SKIP,,mcap_too_low,,token-profiles
+2026-10-23T12:56:32+00:00,Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump,McNugget,419269,55099.44,1.04,427928.44,2253,1022,grok,BUY,0.75,Broad steady buying (buys >> sells in h1 and m5) with very low top-10 concentration and full LP lock. No warnings or dangers flagged.,Massive short-term price surge (50%+ h1) risks momentum fade or quick reversal.,token-profiles

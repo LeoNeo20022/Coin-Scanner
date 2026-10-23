@@ -1,14 +1,3 @@
-[2026-10-21T07:54:05+00:00] launch: paper: candles unavailable for 2b36fJ7G (RuntimeError), using snapshot price
-[2026-10-21T07:54:05+00:00] launch: pass end {"inbox": 20, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 14/24 elapsed=43s
-[2026-10-21T07:54:19+00:00] run start (LOG ONLY)
-[2026-10-21T07:54:28+00:00] discovered=57 fresh=47 market_pass=0
-[2026-10-21T07:54:28+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
-[2026-10-21T07:54:28+00:00] run end {"discovered": 57, "skipped_recent": 10, "no_pair": 0, "market": {"too_new": 1, "pumpfun_bonding_curve": 20, "mcap_too_low": 15, "too_old": 8, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-21T07:54:28+00:00] second_look: pass end {"queued": 42, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-21T07:55:12+00:00] launch: paper: candles unavailable for 2b36fJ7G (RuntimeError), using snapshot price
-[2026-10-21T07:55:12+00:00] launch: pass end {"inbox": 20, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 14/24 elapsed=43s
-[2026-10-21T07:59:18+00:00] run start (LOG ONLY)
-[2026-10-21T07:59:28+00:00] discovered=57 fresh=47 market_pass=0
 [2026-10-21T07:59:28+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-10-21 UTC)
 [2026-10-21T07:59:28+00:00] run end {"discovered": 57, "skipped_recent": 10, "no_pair": 0, "market": {"too_new": 1, "pumpfun_bonding_curve": 20, "mcap_too_low": 15, "too_old": 8, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-21T07:59:28+00:00] second_look: pass end {"queued": 42, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
@@ -4998,3 +4987,14 @@
 [2026-10-23T12:51:22+00:00] second_look: pass end {"queued": 137, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-23T12:52:18+00:00] launch: paper: candles unavailable for Dx27ajSK (RuntimeError), using snapshot price
 [2026-10-23T12:52:18+00:00] launch: pass end {"inbox": 15, "eligible": 1, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 24/24 elapsed=56s
+[2026-10-23T12:56:10+00:00] run start (LOG ONLY)
+[2026-10-23T12:56:20+00:00] discovered=57 fresh=46 market_pass=1
+[2026-10-23T12:56:20+00:00] grok daily budget 5/40 used, 0 no-response, $0.0139 (2026-10-23 UTC)
+[2026-10-23T12:56:32+00:00] grok call 10.1s model=grok-4.3 tokens=995+80 reasoning=712
+[2026-10-23T12:56:32+00:00] grok [rugcheck] McNugget Cy7qKnoN… -> BUY (0.75) Broad steady buying (buys >> sells in h1 and m5) with very low top-10 concentration and full LP lock. No warnings or dangers flagged. | risk: Massive short-term price surge (50%+ h1) risks momentum fade or quick reversal.
+[2026-10-23T12:56:32+00:00] paper BUY $10 McNugget @ 0.0004223
+[2026-10-23T12:56:32+00:00] paper SHADOW BUY [target5] $10 McNugget @ 0.0004223
+[2026-10-23T12:56:32+00:00] paper SHADOW BUY [scalp] $10 McNugget @ 0.0004223
+[2026-10-23T12:56:33+00:00] run end {"discovered": 57, "skipped_recent": 11, "no_pair": 0, "market": {"too_old": 9, "too_new": 1, "pumpfun_bonding_curve": 15, "mcap_too_low": 13, "missing:liquidity_usd": 2, "mcap_too_high": 3, "volume_h1_low": 2}, "rug": {}, "grok": 1, "BUY": 1, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=23s
+[2026-10-23T12:56:36+00:00] second_look: pass end {"queued": 137, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-23T12:57:02+00:00] launch: pass end {"inbox": 15, "eligible": 3, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 1} today buys 24/24 elapsed=26s
