@@ -3074,6 +3074,24 @@
    "age_hours": 7.98,
    "checks": {},
    "done": false
+  },
+  "vqeAuApujp4PELabpxftY42EMsGELAyA1TVLzbHpump": {
+   "mint": "vqeAuApujp4PELabpxftY42EMsGELAyA1TVLzbHpump",
+   "symbol": "PETECOOPER",
+   "pair": "5HW2viz3QL2H1oKrwX62MJQQXbYy6cYQzt6amCJg5BNc",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T06:30:03+00:00",
+   "rejected_ts": 1792737003,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0001279,
+   "mcap_usd": 127934,
+   "liquidity_usd": 29529.88,
+   "age_hours": 0.6,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3204,7 +3222,7 @@
    }
   },
   "2026-10-23": {
-   "total": 23,
+   "total": 24,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3229,12 +3247,14 @@
     "05": 3,
     "05|market:pumpfun_bonding_curve": 1,
     "05|market:mcap_too_low": 1,
-    "05|market:liquidity_low": 1
+    "05|market:liquidity_low": 1,
+    "06": 1,
+    "06|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "market:too_new": 3,
+    "market:too_new": 4,
     "grok:skip": 2,
     "market:liquidity_low": 2,
     "market:volume_h1_low": 1,
