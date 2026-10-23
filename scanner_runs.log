@@ -1,12 +1,3 @@
-[2026-10-20T14:47:02+00:00] discovered=55 fresh=42 market_pass=0
-[2026-10-20T14:47:02+00:00] grok daily budget 10/40 used, 0 no-response, $0.0277 (2026-10-20 UTC)
-[2026-10-20T14:47:02+00:00] run end {"discovered": 55, "skipped_recent": 13, "no_pair": 0, "market": {"liquidity_low": 2, "pumpfun_bonding_curve": 17, "too_new": 1, "mcap_too_low": 13, "too_old": 7, "mcap_too_high": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
-[2026-10-20T14:51:52+00:00] run start (LOG ONLY)
-[2026-10-20T14:52:03+00:00] discovered=57 fresh=44 market_pass=0
-[2026-10-20T14:52:03+00:00] grok daily budget 10/40 used, 0 no-response, $0.0277 (2026-10-20 UTC)
-[2026-10-20T14:52:03+00:00] run end {"discovered": 57, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 15, "too_old": 7, "liquidity_low": 1, "mcap_too_high": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
-[2026-10-20T14:56:51+00:00] run start (LOG ONLY)
-[2026-10-20T14:57:02+00:00] discovered=58 fresh=45 market_pass=0
 [2026-10-20T14:57:02+00:00] grok daily budget 10/40 used, 0 no-response, $0.0277 (2026-10-20 UTC)
 [2026-10-20T14:57:02+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "mcap_too_low": 14, "too_old": 7, "sells_ge_buys_h1": 1, "mcap_too_high": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
 [2026-10-20T15:01:52+00:00] run start (LOG ONLY)
@@ -4998,3 +4989,12 @@
 [2026-10-23T01:27:57+00:00] second_look: pass end {"queued": 110, "due": 2, "rechecked": 2, "pass": 0, "opened": 0} elapsed=4s
 [2026-10-23T01:28:00+00:00] launch: PAPER BUY $10 x4 strategies PATCH Euqou4H1… @ 1.56e-05 (launch: curve 78.0%, holders 223, top 3.23%, top10 23.19%, vol1h $42868, age 26m)
 [2026-10-23T01:28:10+00:00] launch: pass end {"inbox": 19, "eligible": 5, "market_fail": 4, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 3/24 elapsed=13s
+[2026-10-23T01:32:42+00:00] run start (LOG ONLY)
+[2026-10-23T01:32:53+00:00] discovered=63 fresh=49 market_pass=0
+[2026-10-23T01:32:53+00:00] grok daily budget 3/40 used, 0 no-response, $0.0085 (2026-10-23 UTC)
+[2026-10-23T01:32:53+00:00] run end {"discovered": 63, "skipped_recent": 14, "no_pair": 2, "market": {"mcap_too_low": 11, "pumpfun_bonding_curve": 18, "liquidity_low": 1, "missing:mcap_usd": 2, "missing:liquidity_usd": 1, "mcap_too_high": 2, "too_old": 11, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-10-23T01:32:56+00:00] second_look: pass end {"queued": 110, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-23T01:33:06+00:00] launch: paper: candles unavailable for Euqou4H1 (HTTPError), using snapshot price
+[2026-10-23T01:33:06+00:00] launch: paper: [scalp] PATCH: closed (stop_loss) -13.3%
+[2026-10-23T01:33:06+00:00] launch: paper: [flash] PATCH: closed (stop_loss) -13.3%
+[2026-10-23T01:33:06+00:00] launch: pass end {"inbox": 18, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 3/24 elapsed=10s
