@@ -1,10 +1,3 @@
-[2026-10-20T23:11:10+00:00] second_look: pass end {"queued": 3, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-20T23:15:59+00:00] run start (LOG ONLY)
-[2026-10-20T23:16:10+00:00] discovered=63 fresh=51 market_pass=0
-[2026-10-20T23:16:10+00:00] grok daily budget 19/40 used, 0 no-response, $0.0520 (2026-10-20 UTC)
-[2026-10-20T23:16:10+00:00] run end {"discovered": 63, "skipped_recent": 12, "no_pair": 0, "market": {"too_new": 1, "pumpfun_bonding_curve": 22, "mcap_too_low": 17, "missing:mcap_usd": 2, "too_old": 7, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-20T23:16:10+00:00] second_look: pass end {"queued": 3, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-20T23:20:59+00:00] run start (LOG ONLY)
 [2026-10-20T23:21:10+00:00] discovered=64 fresh=52 market_pass=0
 [2026-10-20T23:21:10+00:00] grok daily budget 19/40 used, 0 no-response, $0.0520 (2026-10-20 UTC)
 [2026-10-20T23:21:10+00:00] run end {"discovered": 64, "skipped_recent": 12, "no_pair": 0, "market": {"mcap_too_high": 1, "too_new": 1, "pumpfun_bonding_curve": 22, "mcap_too_low": 16, "liquidity_low": 1, "missing:mcap_usd": 2, "too_old": 7, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
@@ -4998,3 +4991,10 @@
 [2026-10-23T05:53:51+00:00] launch: verse 7VAJJE54… fail: danger:Creator history of rugged tokens
 [2026-10-23T05:53:53+00:00] launch: KIARA 7oJ3Gt8S… fail: top_holder
 [2026-10-23T05:54:21+00:00] launch: pass end {"inbox": 16, "eligible": 5, "market_fail": 3, "rugchecked": 2, "token_fail": 2, "opened": 0, "skipped_cap": 0} today buys 13/24 elapsed=34s
+[2026-10-23T05:58:33+00:00] run start (LOG ONLY)
+[2026-10-23T05:58:42+00:00] discovered=58 fresh=46 market_pass=0
+[2026-10-23T05:58:42+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-23 UTC)
+[2026-10-23T05:58:42+00:00] run end {"discovered": 58, "skipped_recent": 12, "no_pair": 0, "market": {"pumpfun_bonding_curve": 18, "mcap_too_low": 14, "liquidity_low": 1, "sells_ge_buys_h1": 1, "too_old": 9, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-23T05:58:44+00:00] second_look: pass end {"queued": 126, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-23T05:58:48+00:00] launch: PUMPDONE 82jqmd2s… fail: insiders
+[2026-10-23T05:59:21+00:00] launch: pass end {"inbox": 18, "eligible": 3, "market_fail": 2, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 13/24 elapsed=37s
