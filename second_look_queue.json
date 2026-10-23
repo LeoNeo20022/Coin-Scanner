@@ -2773,6 +2773,24 @@
    "age_hours": 1.23,
    "checks": {},
    "done": false
+  },
+  "4C8xh6tW9wbeG7vX2DwmPJasXL7fQ6dUiNMCneu8pump": {
+   "mint": "4C8xh6tW9wbeG7vX2DwmPJasXL7fQ6dUiNMCneu8pump",
+   "symbol": "CAPYGLOW",
+   "pair": "9k81TP1Q1a1oc7k2FDnXujWsE1KHLGzMvL4mQ1M9Vydt",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T03:55:39+00:00",
+   "rejected_ts": 1792727739,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0006655,
+   "mcap_usd": 648953,
+   "liquidity_usd": 120883.25,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2903,7 +2921,7 @@
    }
   },
   "2026-10-23": {
-   "total": 15,
+   "total": 16,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2929,7 +2947,8 @@
     "grok:skip": 2,
     "market:liquidity_low": 1,
     "market:volume_h1_low": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
