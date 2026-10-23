@@ -1,10 +1,3 @@
-[2026-10-21T00:46:59+00:00] discovered=59 fresh=48 market_pass=0
-[2026-10-21T00:46:59+00:00] grok daily budget 1/40 used, 0 no-response, $0.0028 (2026-10-21 UTC)
-[2026-10-21T00:46:59+00:00] run end {"discovered": 59, "skipped_recent": 11, "no_pair": 0, "market": {"too_new": 6, "pumpfun_bonding_curve": 19, "mcap_too_low": 12, "mcap_too_high": 1, "missing:mcap_usd": 1, "too_old": 7, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=12s
-[2026-10-21T00:46:59+00:00] second_look: pass end {"queued": 11, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-21T00:47:13+00:00] run start (LOG ONLY)
-[2026-10-21T00:47:25+00:00] discovered=59 fresh=48 market_pass=0
-[2026-10-21T00:47:25+00:00] grok daily budget 1/40 used, 0 no-response, $0.0028 (2026-10-21 UTC)
 [2026-10-21T00:47:25+00:00] run end {"discovered": 59, "skipped_recent": 11, "no_pair": 0, "market": {"too_new": 6, "pumpfun_bonding_curve": 19, "mcap_too_low": 12, "mcap_too_high": 1, "missing:mcap_usd": 1, "too_old": 7, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
 [2026-10-21T00:47:25+00:00] second_look: pass end {"queued": 11, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T00:52:13+00:00] run start (LOG ONLY)
@@ -4998,3 +4991,10 @@
 [2026-10-23T06:46:14+00:00] launch: KIARA 7oJ3Gt8S… fail: top_holder
 [2026-10-23T06:46:56+00:00] launch: paper: candles unavailable for 2mrT8hiz (RuntimeError), using snapshot price
 [2026-10-23T06:46:56+00:00] launch: pass end {"inbox": 19, "eligible": 4, "market_fail": 3, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 15/24 elapsed=45s
+[2026-10-23T06:50:59+00:00] run start (LOG ONLY)
+[2026-10-23T06:51:09+00:00] discovered=61 fresh=50 market_pass=0
+[2026-10-23T06:51:09+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-23 UTC)
+[2026-10-23T06:51:09+00:00] run end {"discovered": 61, "skipped_recent": 11, "no_pair": 0, "market": {"liquidity_low": 1, "pumpfun_bonding_curve": 19, "mcap_too_low": 16, "missing:mcap_usd": 1, "too_old": 10, "sells_ge_buys_h1": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-23T06:51:11+00:00] second_look: pass end {"queued": 127, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-23T06:51:53+00:00] launch: paper: candles unavailable for 2mrT8hiz (RuntimeError), using snapshot price
+[2026-10-23T06:51:53+00:00] launch: pass end {"inbox": 19, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 15/24 elapsed=41s
