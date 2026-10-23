@@ -675,7 +675,7 @@
    "first": 1792579214.4073887,
    "evals": 6,
    "next": 1792585729.011063,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -4493,7 +4493,7 @@
    "first": 1792747906.6369085,
    "evals": 6,
    "next": 1792753750.4154162,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-boosts",
    "why": "mcap_low"
   },
@@ -4543,7 +4543,7 @@
    "first": 1792750077.2624443,
    "evals": 1,
    "next": 1792750977.2624443,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -4708,7 +4708,7 @@
    "first": 1792760488.5445778,
    "evals": 1,
    "next": 1792761388.5445778,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-profiles",
    "done": true,
    "why": "too_old"
@@ -4717,15 +4717,15 @@
    "first": 1792760785.8727615,
    "evals": 3,
    "next": 1792765138.2827303,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-profiles",
    "why": "mcap_low"
   },
   "AUZj9SscSAwgGLPDL7LzbyUTfudhxVP4cq6qo9wmpump": {
    "first": 1792760785.8727615,
-   "evals": 4,
-   "next": 1792764734.8326342,
-   "last": 1792764524.0790164,
+   "evals": 5,
+   "next": 1792765721.9109435,
+   "last": 1792764821.9109435,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4741,21 +4741,21 @@
    "first": 1792761685.3446043,
    "evals": 0,
    "next": 0,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-profiles"
   },
   "EWwPMR39VKkv5wiRXYexdjwod2MhwG2sfR7p9geSpump": {
    "first": 1792762331.4321268,
    "evals": 0,
    "next": 0,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-profiles"
   },
   "2JLaDUZruJBVn59sL93rSNcGaTRPrnbUndGzJG8Vpump": {
    "first": 1792762331.4321268,
    "evals": 2,
    "next": 1792764817.621192,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-profiles",
    "why": "dumping_m5"
   },
@@ -4768,9 +4768,9 @@
   },
   "oc2UEtRazf8MAqFavTsiW3eRPSgkmxnBWMNDymepump": {
    "first": 1792762931.6321244,
-   "evals": 2,
-   "next": 1792764734.8326342,
-   "last": 1792764524.0790164,
+   "evals": 3,
+   "next": 1792765721.9109435,
+   "last": 1792764821.9109435,
    "src": "token-profiles",
    "why": "missing:price_usd"
   },
@@ -4778,22 +4778,45 @@
    "first": 1792763834.8326342,
    "evals": 0,
    "next": 0,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-profiles"
   },
   "41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg": {
    "first": 1792764238.2827303,
-   "evals": 0,
-   "next": 0,
-   "last": 1792764524.0790164,
-   "src": "token-profiles"
+   "evals": 1,
+   "next": 1792765721.9109435,
+   "last": 1792764821.9109435,
+   "src": "token-profiles",
+   "why": "dumping_m5"
   },
   "2Cq1PzrsGXNxyJjQ2ybNo9jDxGgQgDd1WEgvh3yKpump": {
    "first": 1792764238.2827303,
    "evals": 0,
    "next": 0,
-   "last": 1792764524.0790164,
+   "last": 1792764821.9109435,
    "src": "token-profiles"
+  },
+  "4gCkAqLXo2cyYzi47tsoDWtcPhNzwi5HjpVHSDiWpump": {
+   "first": 1792764821.9109435,
+   "evals": 0,
+   "next": 0,
+   "last": 1792764821.9109435,
+   "src": "token-profiles"
+  },
+  "8WNktPhNqnAgtyyqgU4DrWe1BWLbM5NsuhERJquZpump": {
+   "first": 1792764821.9109435,
+   "evals": 0,
+   "next": 0,
+   "last": 1792764821.9109435,
+   "src": "token-profiles"
+  },
+  "CmgcFZdh2opKAXXQUi4taxHBzCprcnq8W1LCnUPypump": {
+   "first": 1792764821.9109435,
+   "evals": 1,
+   "next": 1792765721.9109435,
+   "last": 1792764821.9109435,
+   "src": "token-profiles",
+   "why": "missing:price_usd"
   }
  },
  "days": {
@@ -4881,9 +4904,9 @@
    },
    "evals": 65,
    "fails": {
-    "dumping_m5": 20,
-    "mcap_low": 186,
-    "missing:price_usd": 36,
+    "dumping_m5": 21,
+    "mcap_low": 187,
+    "missing:price_usd": 38,
     "top_holder": 10,
     "too_old": 6,
     "danger:Creator": 6,
