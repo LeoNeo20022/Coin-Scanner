@@ -2397,6 +2397,42 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "9RHwrgkQgaKR7oHMdzL1c1LxSYtC2cVUnJQLKY9cpump": {
+   "mint": "9RHwrgkQgaKR7oHMdzL1c1LxSYtC2cVUnJQLKY9cpump",
+   "symbol": "UI",
+   "pair": "HREX2vRLuXJL3B6xH8dp5GYugxZRZWPLon8yLJHwnvzb",
+   "dex": "pumpfun",
+   "rejected_at": "2026-10-23T01:02:19+00:00",
+   "rejected_ts": 1792717339,
+   "stage": "market",
+   "reason": "pumpfun_bonding_curve",
+   "reason_key": "market:pumpfun_bonding_curve",
+   "sources": "token-profiles",
+   "price_usd": 3.704e-06,
+   "mcap_usd": 3704.6,
+   "liquidity_usd": null,
+   "age_hours": 0.35,
+   "checks": {},
+   "done": false
+  },
+  "8wDZtKyMHV8XZokfiV13n6apuuUskvi2tP1r7H4pump": {
+   "mint": "8wDZtKyMHV8XZokfiV13n6apuuUskvi2tP1r7H4pump",
+   "symbol": "ELON",
+   "pair": "4WCBGVmzkKMHQ7PLQkJEmgynLauTL1L2KfMhN3nZYEnL",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T01:02:19+00:00",
+   "rejected_ts": 1792717339,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 1.209e-05,
+   "mcap_usd": 12040,
+   "liquidity_usd": 8197.23,
+   "age_hours": 1.96,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2527,16 +2563,19 @@
    }
   },
   "2026-10-23": {
-   "total": 4,
+   "total": 6,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
     "00|market:mcap_too_low": 1,
-    "00|market:too_new": 1
+    "00|market:too_new": 1,
+    "01": 2,
+    "01|market:pumpfun_bonding_curve": 1,
+    "01|market:mcap_too_low": 1
    },
    "reasons": {
-    "market:pumpfun_bonding_curve": 1,
-    "market:mcap_too_low": 1,
+    "market:pumpfun_bonding_curve": 2,
+    "market:mcap_too_low": 2,
     "market:too_new": 1,
     "grok:skip": 1
    }
