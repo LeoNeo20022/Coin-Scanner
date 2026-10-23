@@ -675,7 +675,7 @@
    "first": 1792579214.4073887,
    "evals": 6,
    "next": 1792585729.011063,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -4493,7 +4493,7 @@
    "first": 1792747906.6369085,
    "evals": 6,
    "next": 1792753750.4154162,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-boosts",
    "why": "mcap_low"
   },
@@ -4543,7 +4543,7 @@
    "first": 1792750077.2624443,
    "evals": 1,
    "next": 1792750977.2624443,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -4667,7 +4667,7 @@
    "first": 1792757984.3204374,
    "evals": 4,
    "next": 1792763231.4321268,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4675,7 +4675,7 @@
    "first": 1792758584.3708012,
    "evals": 4,
    "next": 1792763533.2937708,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4683,7 +4683,7 @@
    "first": 1792758584.3708012,
    "evals": 5,
    "next": 1792763533.2937708,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4691,7 +4691,7 @@
    "first": 1792758584.3708012,
    "evals": 1,
    "next": 1792759484.3708012,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "done": true,
    "why": "too_old"
@@ -4700,14 +4700,14 @@
    "first": 1792759882.2379673,
    "evals": 0,
    "next": 0,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles"
   },
   "4sfvc4dHviSKG33KnT6ZvecXtUpvqtE4Nb4Stkj2S9Ya": {
    "first": 1792760488.5445778,
    "evals": 1,
    "next": 1792761388.5445778,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "done": true,
    "why": "too_old"
@@ -4716,7 +4716,7 @@
    "first": 1792760785.8727615,
    "evals": 2,
    "next": 1792763231.4321268,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "why": "dumping_m5"
   },
@@ -4724,7 +4724,7 @@
    "first": 1792760785.8727615,
    "evals": 3,
    "next": 1792763533.2937708,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4740,21 +4740,21 @@
    "first": 1792761685.3446043,
    "evals": 0,
    "next": 0,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles"
   },
   "EWwPMR39VKkv5wiRXYexdjwod2MhwG2sfR7p9geSpump": {
    "first": 1792762331.4321268,
    "evals": 0,
    "next": 0,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles"
   },
   "2JLaDUZruJBVn59sL93rSNcGaTRPrnbUndGzJG8Vpump": {
    "first": 1792762331.4321268,
    "evals": 1,
    "next": 1792763231.4321268,
-   "last": 1792762633.2937708,
+   "last": 1792762931.6321244,
    "src": "token-profiles",
    "why": "dumping_m5"
   },
@@ -4764,6 +4764,14 @@
    "next": 0,
    "last": 1792762633.2937708,
    "src": "token-profiles"
+  },
+  "oc2UEtRazf8MAqFavTsiW3eRPSgkmxnBWMNDymepump": {
+   "first": 1792762931.6321244,
+   "evals": 1,
+   "next": 1792763831.6321244,
+   "last": 1792762931.6321244,
+   "src": "token-profiles",
+   "why": "missing:price_usd"
   }
  },
  "days": {
@@ -4853,7 +4861,7 @@
    "fails": {
     "dumping_m5": 19,
     "mcap_low": 181,
-    "missing:price_usd": 34,
+    "missing:price_usd": 35,
     "top_holder": 10,
     "too_old": 6,
     "danger:Creator": 6,
