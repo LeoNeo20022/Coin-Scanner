@@ -920,9 +920,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-23T04:05:39+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "JAcDD718cQgyKdFRdJ4DRQ8F2iLgAAbuXhQWCzQrpump": {
    "mint": "JAcDD718cQgyKdFRdJ4DRQ8F2iLgAAbuXhQWCzQrpump",
@@ -945,9 +951,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-10-23T04:05:39+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "pumpfun_bonding_curve"
     }
    },
-   "done": false
+   "done": true
   },
   "8bBQP9ngcjyr7g1ytggodjaaQSHSyNcnxCrm8YN9pump": {
    "mint": "8bBQP9ngcjyr7g1ytggodjaaQSHSyNcnxCrm8YN9pump",
@@ -970,9 +982,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-23T04:05:39+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "6hvs6yMz32JsNwof7pQige8aivr6jtd7JVYKkANJpump": {
    "mint": "6hvs6yMz32JsNwof7pQige8aivr6jtd7JVYKkANJpump",
@@ -1914,7 +1932,14 @@
    "mcap_usd": 14995.16,
    "liquidity_usd": null,
    "age_hours": 0.06,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-23T04:05:39+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "pumpfun_bonding_curve"
+    }
+   },
    "done": false
   },
   "AfFRZTpyxkHE3hsWVLtR2gC1kmUZ54ccY8yuf2kYc4ZD": {
@@ -1932,7 +1957,14 @@
    "mcap_usd": 45385,
    "liquidity_usd": 17558.08,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-23T04:05:39+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "EDeuGfmFSJpEq3s5S6CCZoTnJY2rSMRCVeqXSd3HcJRZ": {
@@ -1950,7 +1982,14 @@
    "mcap_usd": 54702,
    "liquidity_usd": 19289.32,
    "age_hours": 0.17,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-23T04:05:39+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": {
