@@ -205,7 +205,7 @@ def launch_section():
     """LAUNCH: pump.fun bonding-curve (pre-graduation) coins, free checks only, quick exits. Returns side-by-side rows."""
     import json
     from config import LAUNCH as L
-    print("\n=== LAUNCH: pump.fun coins still on the bonding curve (pre-graduation), free checks only, no Grok ===")
+    print("\n=== LAUNCH (stopped Oct 23 2026, no new buys): pump.fun coins still on the bonding curve (pre-graduation), free checks only, no Grok ===")
     try: st = json.load(open(L["state_file"]))
     except Exception: st = {"mints": {}, "days": {}}
     checks = rows(L["check_file"]); cut = datetime.now(timezone.utc) - timedelta(hours=24)

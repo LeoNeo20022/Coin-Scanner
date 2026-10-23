@@ -16,6 +16,8 @@ from datetime import datetime, timezone
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import requests
 from config import SCANNER as S, LAUNCH as L
+try: from config import LAUNCH_ENABLED
+except ImportError: LAUNCH_ENABLED = True
 import paper, candles, dexscreener as dx
 
 CHECK_FIELDS = ["time", "mint", "symbol", "pair", "age_min", "price_usd", "mcap_usd", "volume_h1_usd", "buys_h1", "sells_h1",
@@ -285,7 +287,7 @@ def run():
     stats = {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0}
     try: inbox = json.load(open(L["inbox_file"]))
     except Exception: inbox = {"mints": {}}
-    fresh_inbox = inbox.get("time", "") >= iso(datetime.fromtimestamp(nowts - 600, timezone.utc))   # only this scan's sightings
+    fresh_inbox = LAUNCH_ENABLED and inbox.get("time", "") >= iso(datetime.fromtimestamp(nowts - 600, timezone.utc))   # only this scan's sightings
     cands = []
     for mint, src in (inbox.get("mints") or {}).items() if fresh_inbox else []:
         e = st["mints"].setdefault(mint, {"first": nowts, "evals": 0, "next": 0})

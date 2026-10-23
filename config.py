@@ -78,6 +78,8 @@ SECOND_LOOK = {
 #      rejects these as 'pumpfun_bonding_curve'). Capped sample that passes the basic checks possible before
 #      graduation (RugCheck report required, NO Grok). $10 paper buy at the DexScreener price at detection, scored on
 #      GeckoTerminal 1-min candles of the curve pool (then the PumpSwap pool after graduation). No fees/slippage. ----
+# Oct 23 2026: LAUNCH dropped by owner. New launch paper buys OFF; open launch trades are still exit-checked to close.
+LAUNCH_ENABLED = False
 LAUNCH = {
     "inbox_file": "launch_inbox.json", "state_file": "launch_state.json", "check_file": "launch_checks.csv",
     "paper_files": {"scalp": "launch_scalp.csv", "target5": "launch_target5.csv", "hold": "launch_hold.csv",
