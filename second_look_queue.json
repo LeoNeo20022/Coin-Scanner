@@ -2637,6 +2637,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": {
+   "mint": "FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump",
+   "symbol": "GLOOB",
+   "pair": "FHvV9rf64Bf3AFCpk9HnRC93KiDsFXAknUJkwiXeMyB9",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T02:44:28+00:00",
+   "rejected_ts": 1792723468,
+   "stage": "grok",
+   "reason": "Massive 171-243% pumps already with m5 price now -7.6% and buys slowing; volume spike looks front-loaded.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001476,
+   "mcap_usd": 142138,
+   "liquidity_usd": 31732.82,
+   "age_hours": 1.15,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2767,7 +2785,7 @@
    }
   },
   "2026-10-23": {
-   "total": 11,
+   "total": 12,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2786,7 +2804,7 @@
     "market:pumpfun_bonding_curve": 3,
     "market:mcap_too_low": 3,
     "market:too_new": 1,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "market:liquidity_low": 1,
     "market:volume_h1_low": 1,
     "rugcheck:top10": 1
