@@ -2659,7 +2659,14 @@
    "mcap_usd": 475311,
    "liquidity_usd": 117326.92,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-23T13:57:12+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump": {
@@ -3435,6 +3442,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": {
+   "mint": "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump",
+   "symbol": "TC67",
+   "pair": "E3oTLCVds9S1nJbuXoivhibh1YXgVPMN1Fncz3NbQvLn",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T13:57:10+00:00",
+   "rejected_ts": 1792763830,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001384,
+   "mcap_usd": 135313,
+   "liquidity_usd": 31368.25,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3565,7 +3590,7 @@
    }
   },
   "2026-10-23": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3617,7 +3642,7 @@
     "market:volume_h1_low": 3,
     "rugcheck:top10": 2,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:insiders": 2,
+    "rugcheck:insiders": 3,
     "market:sells_ge_buys_h1": 1
    }
   }
