@@ -1,11 +1,3 @@
-[2026-10-21T02:13:15+00:00] run end {"discovered": 61, "skipped_recent": 12, "no_pair": 0, "market": {"too_new": 3, "pumpfun_bonding_curve": 21, "mcap_too_low": 12, "volume_h1_low": 2, "liquidity_low": 1, "mcap_too_high": 1, "too_old": 7, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-21T02:13:16+00:00] second_look: pass end {"queued": 22, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-21T02:18:04+00:00] run start (LOG ONLY)
-[2026-10-21T02:18:15+00:00] discovered=61 fresh=49 market_pass=0
-[2026-10-21T02:18:15+00:00] grok daily budget 3/40 used, 0 no-response, $0.0083 (2026-10-21 UTC)
-[2026-10-21T02:18:15+00:00] run end {"discovered": 61, "skipped_recent": 12, "no_pair": 0, "market": {"too_new": 4, "pumpfun_bonding_curve": 21, "mcap_too_low": 11, "liquidity_low": 1, "sells_ge_buys_h1": 2, "mcap_too_high": 1, "too_old": 7, "volume_h1_low": 1, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-21T02:18:15+00:00] second_look: pass end {"queued": 22, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-21T02:23:04+00:00] run start (LOG ONLY)
 [2026-10-21T02:23:15+00:00] discovered=61 fresh=49 market_pass=0
 [2026-10-21T02:23:15+00:00] grok daily budget 3/40 used, 0 no-response, $0.0083 (2026-10-21 UTC)
 [2026-10-21T02:23:15+00:00] run end {"discovered": 61, "skipped_recent": 12, "no_pair": 0, "market": {"too_new": 4, "pumpfun_bonding_curve": 21, "mcap_too_low": 11, "liquidity_low": 2, "mcap_too_high": 1, "too_old": 7, "volume_h1_low": 1, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
@@ -4998,3 +4990,11 @@
 [2026-10-23T07:42:19+00:00] second_look: pass end {"queued": 128, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-23T07:43:20+00:00] launch: paper: candles unavailable for 9Bn4iAbr (RuntimeError), using snapshot price
 [2026-10-23T07:43:20+00:00] launch: pass end {"inbox": 20, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 17/24 elapsed=60s
+[2026-10-23T07:47:08+00:00] run start (LOG ONLY)
+[2026-10-23T07:47:18+00:00] discovered=61 fresh=50 market_pass=0
+[2026-10-23T07:47:18+00:00] grok daily budget 5/40 used, 0 no-response, $0.0139 (2026-10-23 UTC)
+[2026-10-23T07:47:18+00:00] run end {"discovered": 61, "skipped_recent": 11, "no_pair": 0, "market": {"too_new": 2, "pumpfun_bonding_curve": 20, "mcap_too_low": 14, "missing:mcap_usd": 1, "too_old": 10, "sells_ge_buys_h1": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-23T07:47:19+00:00] second_look: 24h SASONA 8xH5RFEk… (rejected market:volume_h1_low) -> fail: volume_h1_low
+[2026-10-23T07:47:21+00:00] second_look: pass end {"queued": 128, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
+[2026-10-23T07:48:23+00:00] launch: paper: candles unavailable for 9Bn4iAbr (RuntimeError), using snapshot price
+[2026-10-23T07:48:23+00:00] launch: pass end {"inbox": 20, "eligible": 2, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 17/24 elapsed=62s
