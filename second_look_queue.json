@@ -486,9 +486,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-23T01:12:21+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "De5V2NfBFpUqZor8wyQ88LH3uVNPBVuTBNe6TeRfpump": {
    "mint": "De5V2NfBFpUqZor8wyQ88LH3uVNPBVuTBNe6TeRfpump",
@@ -2478,6 +2484,24 @@
    "age_hours": 1.96,
    "checks": {},
    "done": false
+  },
+  "DwBBao2hSdjfFScgycvhXQqMuWaG7njrPhXRgQ5qpump": {
+   "mint": "DwBBao2hSdjfFScgycvhXQqMuWaG7njrPhXRgQ5qpump",
+   "symbol": "CABAL",
+   "pair": "6VxLKiMvPoPF3eLJi39mQyJgSSk9w92d1P6wa212ytre",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T01:12:19+00:00",
+   "rejected_ts": 1792717939,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 8.082e-05,
+   "mcap_usd": 91584,
+   "liquidity_usd": 3978.72,
+   "age_hours": 818.81,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2608,21 +2632,23 @@
    }
   },
   "2026-10-23": {
-   "total": 6,
+   "total": 7,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
     "00|market:mcap_too_low": 1,
     "00|market:too_new": 1,
-    "01": 2,
+    "01": 3,
     "01|market:pumpfun_bonding_curve": 1,
-    "01|market:mcap_too_low": 1
+    "01|market:mcap_too_low": 1,
+    "01|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 2,
     "market:mcap_too_low": 2,
     "market:too_new": 1,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "market:liquidity_low": 1
    }
   }
  }
