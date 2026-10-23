@@ -1540,9 +1540,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-23T14:03:50+00:00",
+     "would_pass": "1",
+     "dead": "0",
+     "result": "pass"
     }
    },
-   "done": false
+   "done": true
   },
   "54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump": {
    "mint": "54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump",
@@ -1565,9 +1571,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-23T14:03:54+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": {
    "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
@@ -3460,6 +3472,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": {
+   "mint": "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump",
+   "symbol": "ODIE",
+   "pair": "DNm2wASF4PP9XivPucrwm3CV9AnAsuugEgANqUDtLgs",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T14:03:47+00:00",
+   "rejected_ts": 1792764227,
+   "stage": "grok",
+   "reason": "2197% h6 and 314% h1 gains signal blow-off top already in progress. Buying remains strong but liquidity thin at 8% of mcap on a 1h-old token.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.001317,
+   "mcap_usd": 1309934,
+   "liquidity_usd": 104611.02,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3590,7 +3620,7 @@
    }
   },
   "2026-10-23": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3637,7 +3667,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 3,
     "rugcheck:top10": 2,
