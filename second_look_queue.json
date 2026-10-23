@@ -1416,9 +1416,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-23T11:26:00+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump": {
    "mint": "Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump",
@@ -2535,7 +2541,14 @@
    "mcap_usd": 497221,
    "liquidity_usd": 67099.43,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-23T11:26:00+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "7S6HGeZs3eNXQunVfiz9tceeuMPuSVLGFJ7BSwBApump": {
@@ -3347,6 +3360,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump": {
+   "mint": "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump",
+   "symbol": "RAT",
+   "pair": "F7Do8a2Lfsm2HWQSyNMJ1yhV7ADErn5DRZVD34RScJt9",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T11:25:58+00:00",
+   "rejected_ts": 1792754758,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-boosts",
+   "price_usd": 0.000302,
+   "mcap_usd": 290125,
+   "liquidity_usd": 51474.37,
+   "age_hours": 63.15,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3477,7 +3508,7 @@
    }
   },
   "2026-10-23": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3515,9 +3546,10 @@
     "09|market:liquidity_low": 1,
     "10": 1,
     "10|market:liquidity_low": 1,
-    "11": 2,
+    "11": 3,
     "11|market:liquidity_low": 1,
-    "11|market:sells_ge_buys_h1": 1
+    "11|market:sells_ge_buys_h1": 1,
+    "11|market:volume_h1_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -3525,7 +3557,7 @@
     "market:too_new": 6,
     "grok:skip": 2,
     "market:liquidity_low": 6,
-    "market:volume_h1_low": 2,
+    "market:volume_h1_low": 3,
     "rugcheck:top10": 2,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:insiders": 1,
