@@ -3666,6 +3666,24 @@
    "age_hours": 25.03,
    "checks": {},
    "done": false
+  },
+  "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": {
+   "mint": "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump",
+   "symbol": "MCRIBINU",
+   "pair": "9nc82YaQaGPHDeUmA1JgERbqCQz69HvCkn2gzEC43Rua",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T16:55:06+00:00",
+   "rejected_ts": 1792774506,
+   "stage": "grok",
+   "reason": "513% h6 and 145% h1 gains after 1h age point to blow-off top; m5 already -8.57% while volume concentrated early.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0002859,
+   "mcap_usd": 282265,
+   "liquidity_usd": 44631.68,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3796,7 +3814,7 @@
    }
   },
   "2026-10-23": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3845,7 +3863,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 4,
     "rugcheck:top10": 4,
