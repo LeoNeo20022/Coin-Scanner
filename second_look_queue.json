@@ -3738,6 +3738,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump": {
+   "mint": "E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump",
+   "symbol": "CI",
+   "pair": "FdcKb3iKFeYcWAqYfjRx246wFrY1CmMdC36N9PSAU4us",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T19:00:40+00:00",
+   "rejected_ts": 1792782040,
+   "stage": "grok",
+   "reason": "1011% h6 gain on 1h-old token with 65% h1 move signals blow-off top; m5 price now flattening while volume remains extreme.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0006484,
+   "mcap_usd": 645228,
+   "liquidity_usd": 69924.09,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3868,7 +3886,7 @@
    }
   },
   "2026-10-23": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3917,7 +3935,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 4,
     "rugcheck:top10": 5,
