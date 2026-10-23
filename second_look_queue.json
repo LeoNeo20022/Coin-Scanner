@@ -3702,6 +3702,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "BqVngDCWkrdnahmcG7ZbBQzXCqsnNDbHRGgL9NThpump": {
+   "mint": "BqVngDCWkrdnahmcG7ZbBQzXCqsnNDbHRGgL9NThpump",
+   "symbol": "BULLCHI",
+   "pair": "G42GHpTavPk5hHopdAqtsidK2xX2TUGyP44CFCcJXYti",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T17:57:35+00:00",
+   "rejected_ts": 1792778255,
+   "stage": "rugcheck",
+   "reason": "danger:Top 10 holders high ownership",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001364,
+   "mcap_usd": 132349,
+   "liquidity_usd": 29930.15,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3832,7 +3850,7 @@
    }
   },
   "2026-10-23": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3887,7 +3905,8 @@
     "rugcheck:top10": 5,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:insiders": 5,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 1,
+    "rugcheck:danger": 1
    }
   }
  }

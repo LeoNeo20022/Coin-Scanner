@@ -7852,8 +7852,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": {
-  "market_logged": 1792777949.6155887,
-  "market_reason": "too_old"
+  "market_logged": 1792778249.6728628,
+  "market_reason": "mcap_too_high"
  },
  "BjVsSDQoNbxswtPLtpAr5QXZTEXQsfEQTAz7A7iipump": {
   "market_logged": 1792700847.6542544,
@@ -9022,7 +9022,9 @@
  },
  "BqVngDCWkrdnahmcG7ZbBQzXCqsnNDbHRGgL9NThpump": {
   "market_logged": 1792774904.0594394,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792778249.6728628,
+  "symbol": "BULLCHI"
  },
  "jyF5pxtWMRzVTwFTGedwLewy76f7SVBRyfpeKumpump": {
   "market_logged": 1792777649.8938408,
@@ -9098,6 +9100,10 @@
  },
  "DWDvPc9HknSqz4pZHxvLqMmVHrtjmoFhC2mgvjXipump": {
   "market_logged": 1792777949.6155887,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8FUuWEJ2CKQwMFoC8qSKqPqeFevtnZK3u4pb8HMbpump": {
+  "market_logged": 1792778249.6728628,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
