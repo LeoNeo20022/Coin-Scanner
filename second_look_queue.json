@@ -3125,6 +3125,24 @@
    "age_hours": 0.6,
    "checks": {},
    "done": false
+  },
+  "HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump": {
+   "mint": "HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump",
+   "symbol": "ogkimchi",
+   "pair": "GSBtZpbcMq7JteW4TqqpifcQn1ycoFtokG9ehfbTAt9Q",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T07:22:17+00:00",
+   "rejected_ts": 1792740137,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0001888,
+   "mcap_usd": 188825,
+   "liquidity_usd": 42072.81,
+   "age_hours": 0.42,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3255,7 +3273,7 @@
    }
   },
   "2026-10-23": {
-   "total": 24,
+   "total": 25,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3282,12 +3300,14 @@
     "05|market:mcap_too_low": 1,
     "05|market:liquidity_low": 1,
     "06": 1,
-    "06|market:too_new": 1
+    "06|market:too_new": 1,
+    "07": 1,
+    "07|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "market:too_new": 4,
+    "market:too_new": 5,
     "grok:skip": 2,
     "market:liquidity_low": 2,
     "market:volume_h1_low": 1,
