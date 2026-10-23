@@ -7852,8 +7852,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": {
-  "market_logged": 1792771674.9916987,
-  "market_reason": "too_old"
+  "market_logged": 1792772575.9037519,
+  "market_reason": "mcap_too_high"
  },
  "BjVsSDQoNbxswtPLtpAr5QXZTEXQsfEQTAz7A7iipump": {
   "market_logged": 1792700847.6542544,
@@ -8440,8 +8440,8 @@
   "judged": 1792738565.9282222
  },
  "AoC5CM2qgKDpUYdkTAzuZnTpqiV8Sh3n3X9CkJGZpump": {
-  "market_logged": 1792771975.961537,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792772575.9037519,
+  "market_reason": "mcap_too_low"
  },
  "AmZuyFhJ8pGFKgCqChxBa2xN4KtxnNPGLT9jXWpMWBUy": {
   "market_logged": 1792737000.2404785,
@@ -8936,7 +8936,9 @@
  },
  "F2mnGB8pPXz8hfoyXpBMZSdKSu6bAcoA77ST8ai6pump": {
   "market_logged": 1792771375.5343053,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "JailKimchi",
+  "judged": 1792772575.9037519
  },
  "BVYgGhh1Xp8aehnZ2HiEaSrmh3WrRZFRkxNmFzCUpump": {
   "market_logged": 1792771975.961537,
@@ -8961,5 +8963,9 @@
  "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": {
   "market_logged": 1792772275.0801868,
   "market_reason": "too_new"
+ },
+ "7WF3wosXD5FtRN65NvsG2AvAkmhAG773ddYiY9cspump": {
+  "market_logged": 1792772575.9037519,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
