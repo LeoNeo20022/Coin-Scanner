@@ -3309,6 +3309,24 @@
    "age_hours": 0.29,
    "checks": {},
    "done": false
+  },
+  "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": {
+   "mint": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
+   "symbol": "ARCTIS",
+   "pair": "5SpztG8hdXCG3YWx7hWjHGHF8CYGNRSWZ1smmfQQkAMX",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T11:05:58+00:00",
+   "rejected_ts": 1792753558,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 7.33e-05,
+   "mcap_usd": 70424,
+   "liquidity_usd": 21377.32,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3439,7 +3457,7 @@
    }
   },
   "2026-10-23": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3477,8 +3495,9 @@
     "09|market:liquidity_low": 1,
     "10": 1,
     "10|market:liquidity_low": 1,
-    "11": 1,
-    "11|market:liquidity_low": 1
+    "11": 2,
+    "11|market:liquidity_low": 1,
+    "11|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -3489,7 +3508,8 @@
     "market:volume_h1_low": 2,
     "rugcheck:top10": 2,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
