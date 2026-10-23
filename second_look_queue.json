@@ -3720,6 +3720,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": {
+   "mint": "D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump",
+   "symbol": "SHEKEL",
+   "pair": "GMyKTQ2sgRG9SosBVRkqNLu3aPFM3BCzP2WuefUN63cQ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T18:07:34+00:00",
+   "rejected_ts": 1792778854,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001223,
+   "mcap_usd": 117622,
+   "liquidity_usd": 29591.17,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3850,7 +3868,7 @@
    }
   },
   "2026-10-23": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3904,7 +3922,7 @@
     "market:volume_h1_low": 4,
     "rugcheck:top10": 5,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:insiders": 5,
+    "rugcheck:insiders": 6,
     "market:sells_ge_buys_h1": 1,
     "rugcheck:danger": 1
    }

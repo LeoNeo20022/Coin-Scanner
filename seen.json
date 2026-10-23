@@ -6227,8 +6227,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "2JJ3ZDTV6eUK67Veb2MzNLNmp1qK7daNsAvYmFRQpump": {
-  "market_logged": 1792777003.9666722,
-  "market_reason": "volume_h1_low"
+  "market_logged": 1792778849.4171314,
+  "market_reason": "liquidity_low"
  },
  "5WiRTEHKpcoCEUjh5iseWEvAerM2TKsZEzMLSPy5pump": {
   "market_logged": 1792622114.0753183,
@@ -9048,7 +9048,9 @@
  },
  "D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": {
   "market_logged": 1792776104.643394,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792778849.4171314,
+  "symbol": "SHEKEL"
  },
  "74HWwTXegzuGxmpNjEdCJnnPY3z4Zyy5oNhaQaMwpump": {
   "market_logged": 1792776104.643394,
@@ -9109,5 +9111,9 @@
  "BoQnHBEa3c4ywVwxAx2nezpxX7dcfLCZMDXx111qpump": {
   "market_logged": 1792778549.6725414,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "AWyrCCnbXx8XM7rfvep5M4PfAKsRxq6qSrtzWnBYpump": {
+  "market_logged": 1792778849.4171314,
+  "market_reason": "mcap_too_low"
  }
 }
