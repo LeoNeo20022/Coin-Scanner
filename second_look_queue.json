@@ -2353,6 +2353,24 @@
    "age_hours": 0.61,
    "checks": {},
    "done": false
+  },
+  "8JUmK89f7v4m3LxcfHdpGhEoGjrEFpkvkx9XGJnjpump": {
+   "mint": "8JUmK89f7v4m3LxcfHdpGhEoGjrEFpkvkx9XGJnjpump",
+   "symbol": "SUKI",
+   "pair": "23uoFsC33ensne3owr1o2gDR7TVfTpcoeiJY1Fb58Zcq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T00:16:52+00:00",
+   "rejected_ts": 1792714612,
+   "stage": "grok",
+   "reason": "232% h6 pump already reversing (-17% h1) with price action showing exit liquidity. Volume spike looks like one-time frenzy rather than sustained organic flow.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001715,
+   "mcap_usd": 169252,
+   "liquidity_usd": 34902.72,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -2483,7 +2501,7 @@
    }
   },
   "2026-10-23": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -2493,7 +2511,8 @@
    "reasons": {
     "market:pumpfun_bonding_curve": 1,
     "market:mcap_too_low": 1,
-    "market:too_new": 1
+    "market:too_new": 1,
+    "grok:skip": 1
    }
   }
  }

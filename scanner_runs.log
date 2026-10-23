@@ -1,17 +1,3 @@
-[2026-10-20T12:09:33+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 14, "too_new": 1, "mcap_too_low": 21, "missing:mcap_usd": 3, "too_old": 5, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=12s
-[2026-10-20T12:14:22+00:00] run start (LOG ONLY)
-[2026-10-20T12:14:33+00:00] discovered=58 fresh=45 market_pass=0
-[2026-10-20T12:14:33+00:00] grok daily budget 10/40 used, 0 no-response, $0.0277 (2026-10-20 UTC)
-[2026-10-20T12:14:33+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 14, "too_new": 2, "mcap_too_low": 20, "missing:mcap_usd": 3, "too_old": 5, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
-[2026-10-20T12:19:22+00:00] run start (LOG ONLY)
-[2026-10-20T12:19:33+00:00] discovered=57 fresh=44 market_pass=0
-[2026-10-20T12:19:33+00:00] grok daily budget 10/40 used, 0 no-response, $0.0277 (2026-10-20 UTC)
-[2026-10-20T12:19:33+00:00] run end {"discovered": 57, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 14, "liquidity_low": 1, "too_new": 1, "mcap_too_low": 20, "too_old": 5, "mcap_too_high": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=12s
-[2026-10-20T12:19:54+00:00] run start (LOG ONLY)
-[2026-10-20T12:20:05+00:00] discovered=57 fresh=44 market_pass=0
-[2026-10-20T12:20:05+00:00] grok daily budget 10/40 used, 0 no-response, $0.0277 (2026-10-20 UTC)
-[2026-10-20T12:20:05+00:00] run end {"discovered": 57, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 14, "too_new": 1, "liquidity_low": 1, "mcap_too_low": 20, "too_old": 5, "mcap_too_high": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
-[2026-10-20T12:24:54+00:00] run start (LOG ONLY)
 [2026-10-20T12:25:05+00:00] discovered=57 fresh=45 market_pass=0
 [2026-10-20T12:25:05+00:00] grok daily budget 10/40 used, 0 no-response, $0.0277 (2026-10-20 UTC)
 [2026-10-20T12:25:05+00:00] run end {"discovered": 57, "skipped_recent": 12, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "missing:mcap_usd": 3, "too_new": 2, "mcap_too_low": 18, "too_old": 5, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
@@ -4998,3 +4984,17 @@
 [2026-10-23T00:11:44+00:00] second_look: 48h KAITE Gv8hoq7f… (rejected rugcheck:insiders) -> fail: mcap_too_low [dead: no_volume_24h]
 [2026-10-23T00:11:46+00:00] second_look: pass end {"queued": 106, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
 [2026-10-23T00:11:53+00:00] launch: pass end {"inbox": 18, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 1/24 elapsed=7s
+[2026-10-23T00:16:32+00:00] run start (LOG ONLY)
+[2026-10-23T00:16:42+00:00] discovered=69 fresh=56 market_pass=2
+[2026-10-23T00:16:42+00:00] grok daily budget 0/40 used, 0 no-response, $0.0000 (2026-10-23 UTC)
+[2026-10-23T00:16:52+00:00] grok call 8.1s model=grok-4.3 tokens=997+71 reasoning=490
+[2026-10-23T00:16:52+00:00] grok [rugcheck] SUKI 8JUmK89f… -> SKIP (0.75) 232% h6 pump already reversing (-17% h1) with price action showing exit liquidity. Volume spike looks like one-time frenzy rather than sustained organic flow. | risk: Post-pump fade with thin remaining liquidity relative to realized volume
+[2026-10-23T00:17:00+00:00] grok call 4.2s model=grok-4.3 tokens=998+80 reasoning=684
+[2026-10-23T00:17:00+00:00] grok [rugcheck] KIMCHINU BbaZXnPR… -> BUY (0.72) Sustained heavy buys (19k h1, 1k m5) vs sells, top10 only 6.9%, risk 1 with zero warns. | risk: 1-hour age + 1280% run leaves room for sharp reversal on any volume drop
+[2026-10-23T00:17:00+00:00] paper BUY $10 KIMCHINU @ 0.0007176
+[2026-10-23T00:17:00+00:00] paper SHADOW BUY [target5] $10 KIMCHINU @ 0.0007176
+[2026-10-23T00:17:00+00:00] paper SHADOW BUY [scalp] $10 KIMCHINU @ 0.0007176
+[2026-10-23T00:17:01+00:00] run end {"discovered": 69, "skipped_recent": 13, "no_pair": 2, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 15, "missing:liquidity_usd": 1, "too_new": 2, "missing:mcap_usd": 2, "mcap_too_high": 3, "too_old": 10}, "rug": {}, "grok": 2, "BUY": 1, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=29s
+[2026-10-23T00:17:04+00:00] second_look: pass end {"queued": 107, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-23T00:17:07+00:00] launch: MP A3D9ubpT… fail: top_holder
+[2026-10-23T00:17:15+00:00] launch: pass end {"inbox": 19, "eligible": 3, "market_fail": 2, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 1/24 elapsed=11s
