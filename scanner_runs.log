@@ -1,13 +1,3 @@
-[2026-10-21T01:07:24+00:00] discovered=63 fresh=50 market_pass=1
-[2026-10-21T01:07:24+00:00] grok daily budget 2/40 used, 0 no-response, $0.0055 (2026-10-21 UTC)
-[2026-10-21T01:07:37+00:00] grok call 11.2s model=grok-4.3 tokens=997+78 reasoning=584
-[2026-10-21T01:07:37+00:00] grok [rugcheck] KIMCHIBOSS AMuS3KCH… -> SKIP (0.75) 901% h6 and 150% h1 gains with m5 already -13% point to fading spike after blow-off. Buy pressure remains elevated but volume and price action look like exit liquidity. | risk: Post-hype dump on thin remaining buyers after extreme early gains
-[2026-10-21T01:07:39+00:00] run end {"discovered": 63, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 23, "mcap_too_low": 13, "too_new": 2, "mcap_too_high": 1, "too_old": 8, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=26s
-[2026-10-21T01:07:39+00:00] second_look: pass end {"queued": 16, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-21T01:12:13+00:00] run start (LOG ONLY)
-[2026-10-21T01:12:24+00:00] discovered=63 fresh=49 market_pass=0
-[2026-10-21T01:12:24+00:00] grok daily budget 3/40 used, 0 no-response, $0.0083 (2026-10-21 UTC)
-[2026-10-21T01:12:24+00:00] run end {"discovered": 63, "skipped_recent": 14, "no_pair": 0, "market": {"pumpfun_bonding_curve": 23, "mcap_too_low": 13, "too_new": 2, "mcap_too_high": 1, "too_old": 8, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
 [2026-10-21T01:12:24+00:00] second_look: pass end {"queued": 16, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T01:17:14+00:00] run start (LOG ONLY)
 [2026-10-21T01:17:25+00:00] discovered=63 fresh=49 market_pass=0
@@ -4998,3 +4988,13 @@
 [2026-10-23T07:01:14+00:00] second_look: pass end {"queued": 127, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-23T07:02:12+00:00] launch: paper: candles unavailable for Dx27ajSK (RuntimeError), using snapshot price
 [2026-10-23T07:02:12+00:00] launch: pass end {"inbox": 19, "eligible": 2, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 15/24 elapsed=58s
+[2026-10-23T07:05:59+00:00] run start (LOG ONLY)
+[2026-10-23T07:06:00+00:00] paper: PETECOOPER: closed (stop_loss) at -96.2%
+[2026-10-23T07:06:02+00:00] paper: [target5] PETECOOPER: closed (stop_loss) at -50.0% [candles_1m]
+[2026-10-23T07:06:12+00:00] discovered=61 fresh=49 market_pass=0
+[2026-10-23T07:06:12+00:00] grok daily budget 5/40 used, 0 no-response, $0.0139 (2026-10-23 UTC)
+[2026-10-23T07:06:12+00:00] run end {"discovered": 61, "skipped_recent": 12, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 16, "missing:mcap_usd": 1, "too_old": 10, "sells_ge_buys_h1": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
+[2026-10-23T07:06:14+00:00] second_look: 48h Clout 8FGreSHZ… (rejected market:too_new) -> fail: mcap_too_low [dead: no_volume_24h]
+[2026-10-23T07:06:16+00:00] second_look: pass end {"queued": 127, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
+[2026-10-23T07:07:12+00:00] launch: paper: candles unavailable for Dx27ajSK (RuntimeError), using snapshot price
+[2026-10-23T07:07:12+00:00] launch: pass end {"inbox": 19, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 15/24 elapsed=56s
