@@ -1,9 +1,3 @@
-[2026-10-21T03:09:04+00:00] second_look: pass end {"queued": 28, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-21T03:09:09+00:00] launch: PAPER BUY $10 x3 strategies wifchi BLhG3Yk7… @ 2.182e-05 (launch: curve 85.7%, holders 216, top 3.01%, top10 25.01%, vol1h $8368, age 112m)
-[2026-10-21T03:09:13+00:00] launch: pass end {"inbox": 20, "eligible": 20, "market_fail": 18, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 1} today buys 1/24 elapsed=9s
-[2026-10-21T03:13:53+00:00] run start (LOG ONLY)
-[2026-10-21T03:14:04+00:00] discovered=61 fresh=46 market_pass=1
-[2026-10-21T03:14:04+00:00] grok daily budget 3/40 used, 0 no-response, $0.0083 (2026-10-21 UTC)
 [2026-10-21T03:14:06+00:00] run end {"discovered": 61, "skipped_recent": 15, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "mcap_too_low": 13, "too_new": 1, "mcap_too_high": 1, "too_old": 7, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1}, "rug": {"insiders": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
 [2026-10-21T03:14:06+00:00] second_look: pass end {"queued": 28, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-21T03:14:10+00:00] launch: LARPOOOR BpcfF47h… fail: far_below_ath
@@ -4998,3 +4992,9 @@
 [2026-10-23T08:23:46+00:00] second_look: pass end {"queued": 131, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-23T08:24:29+00:00] launch: paper: [scalp] SIDEEYE: closed (take_profit) +20.0%
 [2026-10-23T08:24:29+00:00] launch: pass end {"inbox": 19, "eligible": 1, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 18/24 elapsed=43s
+[2026-10-23T08:28:34+00:00] run start (LOG ONLY)
+[2026-10-23T08:28:44+00:00] discovered=57 fresh=45 market_pass=0
+[2026-10-23T08:28:44+00:00] grok daily budget 5/40 used, 0 no-response, $0.0139 (2026-10-23 UTC)
+[2026-10-23T08:28:44+00:00] run end {"discovered": 57, "skipped_recent": 12, "no_pair": 0, "market": {"too_new": 2, "pumpfun_bonding_curve": 18, "missing:liquidity_usd": 1, "mcap_too_low": 9, "missing:mcap_usd": 1, "volume_h1_low": 2, "too_old": 8, "sells_ge_buys_h1": 1, "liquidity_low": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-23T08:28:47+00:00] second_look: pass end {"queued": 131, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=3s
+[2026-10-23T08:29:31+00:00] launch: pass end {"inbox": 18, "eligible": 1, "market_fail": 1, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 18/24 elapsed=44s
