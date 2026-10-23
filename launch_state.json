@@ -675,7 +675,7 @@
    "first": 1792579214.4073887,
    "evals": 6,
    "next": 1792585729.011063,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -3650,7 +3650,7 @@
    "first": 1792699953.3863764,
    "evals": 6,
    "next": 1792712437.5012808,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -4459,7 +4459,7 @@
    "first": 1792746000.5833242,
    "evals": 6,
    "next": 1792752250.1897192,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4467,7 +4467,7 @@
    "first": 1792746000.5833242,
    "evals": 1,
    "next": 0,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4476,7 +4476,7 @@
    "first": 1792746299.4640236,
    "evals": 1,
    "next": 0,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4485,7 +4485,7 @@
    "first": 1792746706.6814694,
    "evals": 6,
    "next": 1792752850.3341603,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -4493,15 +4493,15 @@
    "first": 1792747906.6369085,
    "evals": 6,
    "next": 1792753750.4154162,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-boosts",
    "why": "mcap_low"
   },
   "8o5Hrr5exUHvL22CaH2FqHo62NgTVUVso4JL1DJ5pump": {
    "first": 1792748506.2781432,
-   "evals": 5,
-   "next": 1792753150.5274642,
-   "last": 1792752961.5882025,
+   "evals": 6,
+   "next": 1792754161.9583158,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4509,7 +4509,7 @@
    "first": 1792748877.3737526,
    "evals": 5,
    "next": 1792753750.4154162,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4524,9 +4524,9 @@
   },
   "7PZ6fUqXF9kp5JoEGsX1owFavjRv3tUH2SScmMbJaHgV": {
    "first": 1792749177.735844,
-   "evals": 4,
-   "next": 1792753150.5274642,
-   "last": 1792752961.5882025,
+   "evals": 5,
+   "next": 1792754161.9583158,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "far_below_ath"
   },
@@ -4534,7 +4534,7 @@
    "first": 1792750077.2624443,
    "evals": 1,
    "next": 0,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4543,7 +4543,7 @@
    "first": 1792750077.2624443,
    "evals": 1,
    "next": 1792750977.2624443,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -4552,7 +4552,7 @@
    "first": 1792751650.9053104,
    "evals": 2,
    "next": 1792753453.4047794,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "buys_h1_low"
   },
@@ -4560,7 +4560,7 @@
    "first": 1792751950.3341603,
    "evals": 2,
    "next": 1792753750.4154162,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4568,7 +4568,7 @@
    "first": 1792752553.4047794,
    "evals": 1,
    "next": 0,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "done": true,
    "why": "bought"
@@ -4577,7 +4577,7 @@
    "first": 1792752850.4154162,
    "evals": 0,
    "next": 1792753750.4154162,
-   "last": 1792752961.5882025,
+   "last": 1792753261.9583158,
    "src": "token-profiles",
    "why": "too_new"
   }
@@ -4664,10 +4664,10 @@
     "2026-10-23T09": 2,
     "2026-10-23T10": 2
    },
-   "evals": 62,
+   "evals": 63,
    "fails": {
     "dumping_m5": 15,
-    "mcap_low": 143,
+    "mcap_low": 144,
     "missing:price_usd": 24,
     "top_holder": 10,
     "too_old": 4,
@@ -4676,7 +4676,7 @@
     "no_curve_market": 7,
     "danger:Low": 1,
     "too_new": 4,
-    "far_below_ath": 5,
+    "far_below_ath": 6,
     "insiders": 9,
     "top10": 1,
     "volume_h1_low": 3,

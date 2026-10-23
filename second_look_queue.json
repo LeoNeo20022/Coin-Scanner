@@ -3291,6 +3291,24 @@
    "age_hours": 1.08,
    "checks": {},
    "done": false
+  },
+  "6LyUFZwGvMF69ET9FKhaRGpYq7EaRDyWgLPdpS1LSYm6": {
+   "mint": "6LyUFZwGvMF69ET9FKhaRGpYq7EaRDyWgLPdpS1LSYm6",
+   "symbol": "MW",
+   "pair": "CaNeQ4PmStNBksSMnM3gkmS9haSejsCXv7Xo6f163MJE",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T11:00:59+00:00",
+   "rejected_ts": 1792753259,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.843e-05,
+   "mcap_usd": 58434,
+   "liquidity_usd": 19487.21,
+   "age_hours": 0.29,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3421,7 +3439,7 @@
    }
   },
   "2026-10-23": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3458,14 +3476,16 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "10": 1,
-    "10|market:liquidity_low": 1
+    "10|market:liquidity_low": 1,
+    "11": 1,
+    "11|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "grok:skip": 2,
-    "market:liquidity_low": 5,
+    "market:liquidity_low": 6,
     "market:volume_h1_low": 2,
     "rugcheck:top10": 2,
     "rugcheck:lp_unlocked": 1,
