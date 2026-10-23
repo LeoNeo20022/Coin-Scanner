@@ -7852,8 +7852,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": {
-  "market_logged": 1792795673.4211257,
-  "market_reason": "too_old"
+  "market_logged": 1792795973.0373747,
+  "market_reason": "mcap_too_high"
  },
  "BjVsSDQoNbxswtPLtpAr5QXZTEXQsfEQTAz7A7iipump": {
   "market_logged": 1792700847.6542544,
@@ -9511,7 +9511,8 @@
   "market_reason": "mcap_too_low"
  },
  "GRstRiMU8si4b2zNrJ8wxxbuFJoFhHa8AhJ5qWTqpump": {
-  "market_logged": 1792795673.4211257
+  "market_logged": 1792795973.0373747,
+  "market_reason": "pumpfun_bonding_curve"
  },
  "9ucwvjLyN25PoQVe98LYLrKjxfkA98sx1tzdNLNeNeS": {
   "market_logged": 1792795673.4211257,
@@ -9528,5 +9529,9 @@
  "5QJ7u1ooyroGBCZK5rd3k21BPVVXDa7KVipbobv3pump": {
   "market_logged": 1792795673.4211257,
   "market_reason": "mcap_too_low"
+ },
+ "FxwWTze7qwWM8GMRcdyHWpocmCw8Th8QLRGETBJbeSUo": {
+  "judged": 1792795973.0373747,
+  "symbol": "POP"
  }
 }
