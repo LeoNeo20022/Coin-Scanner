@@ -3684,6 +3684,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "CH9oKtvyCC9RsxnF282NAWN13wFeEwPDkih2ebtNpump": {
+   "mint": "CH9oKtvyCC9RsxnF282NAWN13wFeEwPDkih2ebtNpump",
+   "symbol": "RSN",
+   "pair": "rrHCCuzgrLqGcacdszqMmxh1nWTQ8Ft5Fq7xc33mSNM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T17:06:48+00:00",
+   "rejected_ts": 1792775208,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 9.133e-05,
+   "mcap_usd": 87694,
+   "liquidity_usd": 25254.85,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3814,7 +3832,7 @@
    }
   },
   "2026-10-23": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3866,7 +3884,7 @@
     "grok:skip": 5,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 4,
-    "rugcheck:top10": 4,
+    "rugcheck:top10": 5,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:insiders": 5,
     "market:sells_ge_buys_h1": 1
