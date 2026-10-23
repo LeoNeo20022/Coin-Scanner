@@ -675,7 +675,7 @@
    "first": 1792579214.4073887,
    "evals": 6,
    "next": 1792585729.011063,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles",
    "why": "volume_h1_low"
   },
@@ -4493,7 +4493,7 @@
    "first": 1792747906.6369085,
    "evals": 6,
    "next": 1792753750.4154162,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-boosts",
    "why": "mcap_low"
   },
@@ -4543,7 +4543,7 @@
    "first": 1792750077.2624443,
    "evals": 1,
    "next": 1792750977.2624443,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-boosts",
    "done": true,
    "why": "too_old"
@@ -4708,7 +4708,7 @@
    "first": 1792760488.5445778,
    "evals": 1,
    "next": 1792761388.5445778,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles",
    "done": true,
    "why": "too_old"
@@ -4717,7 +4717,7 @@
    "first": 1792760785.8727615,
    "evals": 3,
    "next": 1792765138.2827303,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4725,7 +4725,7 @@
    "first": 1792760785.8727615,
    "evals": 5,
    "next": 1792765721.9109435,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles",
    "why": "mcap_low"
   },
@@ -4741,21 +4741,22 @@
    "first": 1792761685.3446043,
    "evals": 0,
    "next": 0,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles"
   },
   "EWwPMR39VKkv5wiRXYexdjwod2MhwG2sfR7p9geSpump": {
    "first": 1792762331.4321268,
-   "evals": 0,
-   "next": 0,
-   "last": 1792764821.9109435,
-   "src": "token-profiles"
+   "evals": 1,
+   "next": 1792766019.4360654,
+   "last": 1792765119.4360654,
+   "src": "token-profiles",
+   "why": "volume_h1_low"
   },
   "2JLaDUZruJBVn59sL93rSNcGaTRPrnbUndGzJG8Vpump": {
    "first": 1792762331.4321268,
    "evals": 2,
    "next": 1792764817.621192,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles",
    "why": "dumping_m5"
   },
@@ -4770,16 +4771,17 @@
    "first": 1792762931.6321244,
    "evals": 3,
    "next": 1792765721.9109435,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles",
    "why": "missing:price_usd"
   },
   "EsE7DkD1oS2yGSH79YtM3Eg7midm4xQeJPi7Xvsppump": {
    "first": 1792763834.8326342,
-   "evals": 0,
-   "next": 0,
-   "last": 1792764821.9109435,
-   "src": "token-profiles"
+   "evals": 1,
+   "next": 1792766019.4360654,
+   "last": 1792765119.4360654,
+   "src": "token-profiles",
+   "why": "dumping_m5"
   },
   "41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg": {
    "first": 1792764238.2827303,
@@ -4793,30 +4795,47 @@
    "first": 1792764238.2827303,
    "evals": 0,
    "next": 0,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles"
   },
   "4gCkAqLXo2cyYzi47tsoDWtcPhNzwi5HjpVHSDiWpump": {
    "first": 1792764821.9109435,
    "evals": 0,
    "next": 0,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles"
   },
   "8WNktPhNqnAgtyyqgU4DrWe1BWLbM5NsuhERJquZpump": {
    "first": 1792764821.9109435,
-   "evals": 0,
-   "next": 0,
-   "last": 1792764821.9109435,
-   "src": "token-profiles"
+   "evals": 1,
+   "next": 1792766019.4360654,
+   "last": 1792765119.4360654,
+   "src": "token-profiles",
+   "why": "dumping_m5"
   },
   "CmgcFZdh2opKAXXQUi4taxHBzCprcnq8W1LCnUPypump": {
    "first": 1792764821.9109435,
    "evals": 1,
    "next": 1792765721.9109435,
-   "last": 1792764821.9109435,
+   "last": 1792765119.4360654,
    "src": "token-profiles",
    "why": "missing:price_usd"
+  },
+  "LmAocjuQ8Tda59Crdg98MDa1kb3KoNkbE6qLGTfi1Xx": {
+   "first": 1792765119.4360654,
+   "evals": 1,
+   "next": 1792766019.4360654,
+   "last": 1792765119.4360654,
+   "src": "token-profiles",
+   "why": "missing:price_usd"
+  },
+  "23K5Kvr46NQxZopN7QEVocUZpT2YZZHJG7nixNr5pump": {
+   "first": 1792765119.4360654,
+   "evals": 1,
+   "next": 1792766019.4360654,
+   "last": 1792765119.4360654,
+   "src": "token-profiles",
+   "why": "sells_gt_buys_h1"
   }
  },
  "days": {
@@ -4904,20 +4923,20 @@
    },
    "evals": 65,
    "fails": {
-    "dumping_m5": 21,
+    "dumping_m5": 23,
     "mcap_low": 187,
-    "missing:price_usd": 38,
+    "missing:price_usd": 39,
     "top_holder": 10,
     "too_old": 6,
     "danger:Creator": 6,
-    "sells_gt_buys_h1": 3,
+    "sells_gt_buys_h1": 4,
     "no_curve_market": 7,
     "danger:Low": 2,
     "too_new": 7,
     "far_below_ath": 6,
     "insiders": 9,
     "top10": 1,
-    "volume_h1_low": 10,
+    "volume_h1_low": 11,
     "graduated_or_not_curve": 1,
     "buys_h1_low": 7
    }
