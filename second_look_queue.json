@@ -3230,6 +3230,24 @@
    "age_hours": 60.24,
    "checks": {},
    "done": false
+  },
+  "4ZWiMnny1sw8Wi6i22kYjyh6WvvdtUa67nUcApvVtbbo": {
+   "mint": "4ZWiMnny1sw8Wi6i22kYjyh6WvvdtUa67nUcApvVtbbo",
+   "symbol": "OS",
+   "pair": "FJkhR847xY9HrShzEjR5tJZ4QnHZVPy48hVujCWzopzT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-23T09:41:43+00:00",
+   "rejected_ts": 1792748503,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.552e-05,
+   "mcap_usd": 55520,
+   "liquidity_usd": 18561.51,
+   "age_hours": 0.1,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3360,7 +3378,7 @@
    }
   },
   "2026-10-23": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -3393,14 +3411,16 @@
     "08": 3,
     "08|market:too_new": 1,
     "08|market:volume_h1_low": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "grok:skip": 2,
-    "market:liquidity_low": 3,
+    "market:liquidity_low": 4,
     "market:volume_h1_low": 2,
     "rugcheck:top10": 2,
     "rugcheck:lp_unlocked": 1
