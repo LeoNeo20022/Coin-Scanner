@@ -1,12 +1,3 @@
-[2026-10-20T18:12:10+00:00] grok daily budget 12/40 used, 0 no-response, $0.0330 (2026-10-20 UTC)
-[2026-10-20T18:12:10+00:00] run end {"discovered": 60, "skipped_recent": 10, "no_pair": 0, "market": {"mcap_too_low": 16, "pumpfun_bonding_curve": 15, "too_new": 6, "too_old": 7, "volume_h1_low": 3, "missing:liquidity_usd": 1, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
-[2026-10-20T18:16:59+00:00] run start (LOG ONLY)
-[2026-10-20T18:17:10+00:00] discovered=63 fresh=53 market_pass=0
-[2026-10-20T18:17:10+00:00] grok daily budget 12/40 used, 0 no-response, $0.0330 (2026-10-20 UTC)
-[2026-10-20T18:17:10+00:00] run end {"discovered": 63, "skipped_recent": 10, "no_pair": 0, "market": {"missing:liquidity_usd": 3, "pumpfun_bonding_curve": 16, "too_new": 6, "mcap_too_low": 16, "too_old": 7, "volume_h1_low": 3, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=11s
-[2026-10-20T18:17:22+00:00] run start (LOG ONLY)
-[2026-10-20T18:17:34+00:00] discovered=63 fresh=53 market_pass=0
-[2026-10-20T18:17:34+00:00] grok daily budget 12/40 used, 0 no-response, $0.0330 (2026-10-20 UTC)
 [2026-10-20T18:17:34+00:00] run end {"discovered": 63, "skipped_recent": 10, "no_pair": 0, "market": {"missing:liquidity_usd": 3, "pumpfun_bonding_curve": 16, "too_new": 6, "mcap_too_low": 16, "too_old": 7, "volume_h1_low": 3, "sells_ge_buys_h1": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0} elapsed=12s
 [2026-10-20T18:22:22+00:00] run start (LOG ONLY)
 [2026-10-20T18:22:34+00:00] discovered=62 fresh=52 market_pass=1
@@ -4998,3 +4989,12 @@
 [2026-10-23T03:09:55+00:00] second_look: pass end {"queued": 118, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-23T03:10:00+00:00] launch: PAPER BUY $10 x4 strategies SNOWMEI 2nEwN3ZL… @ 1.574e-05 (launch: curve 68.8%, holders 201, top 3.04%, top10 23.01%, vol1h $55238, age 62m)
 [2026-10-23T03:10:10+00:00] launch: pass end {"inbox": 21, "eligible": 3, "market_fail": 1, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 1} today buys 7/24 elapsed=14s
+[2026-10-23T03:14:45+00:00] run start (LOG ONLY)
+[2026-10-23T03:14:54+00:00] discovered=65 fresh=52 market_pass=1
+[2026-10-23T03:14:54+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-23 UTC)
+[2026-10-23T03:14:56+00:00] run end {"discovered": 65, "skipped_recent": 13, "no_pair": 0, "market": {"mcap_too_low": 15, "too_new": 1, "pumpfun_bonding_curve": 20, "too_old": 12, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {"top10": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-10-23T03:14:58+00:00] second_look: pass end {"queued": 118, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-23T03:15:02+00:00] launch: PAIR PairUott… fail: top_holder
+[2026-10-23T03:15:12+00:00] launch: paper: [scalp] SNOWMEI: closed (stop_loss) -13.0%
+[2026-10-23T03:15:12+00:00] launch: paper: [flash] SNOWMEI: closed (stop_loss) -13.0%
+[2026-10-23T03:15:12+00:00] launch: pass end {"inbox": 20, "eligible": 4, "market_fail": 3, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 7/24 elapsed=14s
