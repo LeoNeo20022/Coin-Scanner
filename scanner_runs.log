@@ -1,9 +1,3 @@
-[2026-10-22T11:26:50+00:00] run start (LOG ONLY)
-[2026-10-22T11:27:01+00:00] discovered=71 fresh=61 market_pass=1
-[2026-10-22T11:27:01+00:00] grok daily budget 5/40 used, 0 no-response, $0.0134 (2026-10-22 UTC)
-[2026-10-22T11:27:10+00:00] grok call 7.1s model=grok-4.3 tokens=998+63 reasoning=511
-[2026-10-22T11:27:10+00:00] grok [rugcheck] DJT 7S6HGeZs… -> SKIP (0.85) 180% h1 pump followed by -29% m5 reversal shows fading spike, not steady buying. Copycat token adds extra risk. | risk: Blow-off top with sharp correction already underway
-[2026-10-22T11:27:11+00:00] run end {"discovered": 71, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 25, "liquidity_low": 1, "missing:mcap_usd": 2, "mcap_too_low": 18, "too_old": 10, "volume_h1_low": 2, "mcap_too_high": 2}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=22s
 [2026-10-22T11:27:11+00:00] second_look: pass end {"queued": 92, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-22T11:27:24+00:00] launch: pass end {"inbox": 25, "eligible": 8, "market_fail": 4, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 4} today buys 24/24 elapsed=13s
 [2026-10-22T11:31:49+00:00] run start (LOG ONLY)
@@ -4998,3 +4992,9 @@
 [2026-10-24T16:42:25+00:00] second_look: 48h MI 4krFcF31… (rejected grok:skip) -> fail: mcap_too_low [dead: price_-90%]
 [2026-10-24T16:42:27+00:00] second_look: pass end {"queued": 197, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
 [2026-10-24T16:42:32+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=5s
+[2026-10-24T16:47:14+00:00] run start (LOG ONLY)
+[2026-10-24T16:47:23+00:00] discovered=61 fresh=48 market_pass=0
+[2026-10-24T16:47:23+00:00] grok daily budget 13/40 used, 0 no-response, $0.0360 (2026-10-24 UTC)
+[2026-10-24T16:47:23+00:00] run end {"discovered": 61, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 13, "too_new": 1, "too_old": 6, "mcap_too_high": 4, "volume_h1_low": 1, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-24T16:47:25+00:00] second_look: pass end {"queued": 197, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-24T16:47:31+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=5s
