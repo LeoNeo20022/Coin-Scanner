@@ -6652,8 +6652,8 @@
   "market_reason": "mcap_too_low"
  },
  "7Yiy7urdzLosM34A1PvP4ZkgpfLXXAzsgNgsAJSRcpW5": {
-  "market_logged": 1792803732.4960523,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792805231.990751,
+  "market_reason": "mcap_too_low"
  },
  "3zPjPxhp7tGFCmSq4x14ZTwttWUeoJevXESC7Xvrpump": {
   "market_logged": 1792642036.6928566,
@@ -9632,7 +9632,9 @@
  },
  "FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
   "market_logged": 1792803047.7971323,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792805231.990751,
+  "symbol": "ELON"
  },
  "GFNFFEd5RokMqP3CPZtzZ3McmzAvZ3Xb3oh5LFYwpump": {
   "market_logged": 1792803732.4960523,
@@ -9647,8 +9649,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "HJcPYoVCbJM3mqMNRMNUDu4h7DiC7tb7WfJZfumvpump": {
-  "market_logged": 1792804331.5975242,
-  "market_reason": "too_new"
+  "market_logged": 1792805231.990751,
+  "market_reason": "mcap_too_low"
  },
  "7Qet1qXDQ97HLjHapNfsiZZavBpVkGsXN7MRyy4Jpump": {
   "market_logged": 1792804331.5975242,
@@ -9672,6 +9674,14 @@
  },
  "3XfwEXLGXAPanD5JCfTWSAwy3Trxe5G9KfBGV2dZpump": {
   "market_logged": 1792804931.490748,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "HTLSJSroPYreXR6xQXL9MEcjSs9jLaRrS5pAeUCzpump": {
+  "market_logged": 1792805231.990751,
+  "market_reason": "mcap_too_low"
+ },
+ "4HkzQaBXrK1edGd8i3JthZbHv8gzavZvVjNNWjtzM8TF": {
+  "market_logged": 1792805231.990751,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
