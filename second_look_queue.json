@@ -5067,6 +5067,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": {
+   "mint": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
+   "symbol": "GDC",
+   "pair": "AU5eQdjHKeHo4E7Ub78p2DBdjUReBsKEYr9dMphwGbRh",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T14:51:07+00:00",
+   "rejected_ts": 1792853467,
+   "stage": "grok",
+   "reason": "994% h6 / 144% h1 run-up after 1h age looks like blow-off; m5 price already -4.2% while volume concentrated early.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0006038,
+   "mcap_usd": 598687,
+   "liquidity_usd": 67854.55,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5259,7 +5277,7 @@
    }
   },
   "2026-10-24": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -5306,7 +5324,7 @@
     "rugcheck:top10": 6,
     "rugcheck:insiders": 5,
     "market:liquidity_low": 6,
-    "grok:skip": 4
+    "grok:skip": 5
    }
   }
  }
