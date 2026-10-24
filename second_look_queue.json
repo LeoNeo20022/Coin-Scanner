@@ -4553,6 +4553,24 @@
    "age_hours": 4.03,
    "checks": {},
    "done": false
+  },
+  "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": {
+   "mint": "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump",
+   "symbol": "DPM",
+   "pair": "Fmphtp5u7sRTPqEx1d9ASm1LjKYTn45yXmNZNwvx2NMY",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T05:30:12+00:00",
+   "rejected_ts": 1792819812,
+   "stage": "grok",
+   "reason": "203% h6 pump already reversing hard (-19.5% m5) with buys_m5 still positive but volume clearly fading from h1 peak.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001361,
+   "mcap_usd": 134393,
+   "liquidity_usd": 30410.86,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4745,7 +4763,7 @@
    }
   },
   "2026-10-24": {
-   "total": 25,
+   "total": 26,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -4780,7 +4798,7 @@
     "rugcheck:top10": 3,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 1,
-    "grok:skip": 1
+    "grok:skip": 2
    }
   }
  }
