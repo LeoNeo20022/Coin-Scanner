@@ -5234,6 +5234,24 @@
    "age_hours": 1.08,
    "checks": {},
    "done": false
+  },
+  "AcsdEAts1wWTW3wXCs96L33PPovrDiymT1hf8sY5pump": {
+   "mint": "AcsdEAts1wWTW3wXCs96L33PPovrDiymT1hf8sY5pump",
+   "symbol": "BIBI",
+   "pair": "7SxEbUmVNSi9uABfNk5xcACh1QSHCVhhFynxDF5XbD5P",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T21:16:57+00:00",
+   "rejected_ts": 1792876617,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0001692,
+   "mcap_usd": 160963,
+   "liquidity_usd": 36506.55,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5426,7 +5444,7 @@
    }
   },
   "2026-10-24": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -5469,7 +5487,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:lp_unlocked": 2,
+    "rugcheck:lp_unlocked": 3,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 6,
     "market:liquidity_low": 6,
