@@ -4750,6 +4750,42 @@
    "age_hours": 1.92,
    "checks": {},
    "done": false
+  },
+  "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68": {
+   "mint": "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68",
+   "symbol": "SLOPCOIN",
+   "pair": "AfquLkmFwn8rRz889gfN2gWD3RhJ7srmQMJKZ7S1EAhK",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T09:00:16+00:00",
+   "rejected_ts": 1792832416,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 6.445e-05,
+   "mcap_usd": 64373,
+   "liquidity_usd": 19966.02,
+   "age_hours": 0.16,
+   "checks": {},
+   "done": false
+  },
+  "BSBsxXFGHrew8FcxjYHDgx5EnzoRs9cWkZWxkvP5KAZQ": {
+   "mint": "BSBsxXFGHrew8FcxjYHDgx5EnzoRs9cWkZWxkvP5KAZQ",
+   "symbol": "PUMP DEV",
+   "pair": "5ez5uZfdq7p3Q5W8ECp576mdEcPH4eM6zCXXZ69h62iW",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T09:00:18+00:00",
+   "rejected_ts": 1792832418,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 8.021e-05,
+   "mcap_usd": 77659,
+   "liquidity_usd": 22808.3,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4942,7 +4978,7 @@
    }
   },
   "2026-10-24": {
-   "total": 31,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -4971,16 +5007,18 @@
     "06": 1,
     "06|market:too_new": 1,
     "07": 1,
-    "07|market:liquidity_low": 1
+    "07|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:top10": 4,
+    "rugcheck:top10": 5,
     "rugcheck:insiders": 3,
-    "market:liquidity_low": 2,
+    "market:liquidity_low": 3,
     "grok:skip": 3
    }
   }
