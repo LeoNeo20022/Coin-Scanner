@@ -7443,7 +7443,7 @@
   "market_logged": 1792685548.2998664,
   "market_reason": "too_new",
   "symbol": "VIRTUAL",
-  "judged": 1792774194.9172769
+  "judged": 1792860740.8701794
  },
  "EdNSCBBxsM9oYLnMoKG6mLj67Z3uJrSS9Wv1Bzuvpump": {
   "market_logged": 1792685847.7171783,
@@ -10440,7 +10440,9 @@
  },
  "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
   "market_logged": 1792858609.9213684,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792860740.8701794,
+  "symbol": "ber"
  },
  "FnQxzrChfhyh3g42RvXSZAXMcn3Pk39pxoFTw1oapump": {
   "market_logged": 1792856479.030285,
@@ -10521,5 +10523,9 @@
  "HTi6JahmSzq2s1B2zg7GG6Ev6cQEpoGRDRxKWATYpump": {
   "market_logged": 1792860440.5994194,
   "market_reason": "mcap_too_low"
+ },
+ "4iyVDsyT5oLMYqM7VQXmXz3XP2aGY1yfoYYv3Jtqpump": {
+  "market_logged": 1792860740.8701794,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
