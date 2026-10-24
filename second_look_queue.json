@@ -4657,6 +4657,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "6ZY8335NunQkyKGasxfbL7iHmvoqFbSLbiXt7qUSpump": {
+   "mint": "6ZY8335NunQkyKGasxfbL7iHmvoqFbSLbiXt7qUSpump",
+   "symbol": "PAWN",
+   "pair": "4R8GqQeyVxu3JkREF86D1xV94qgPMwvCaYPizGSnZPLq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T07:28:26+00:00",
+   "rejected_ts": 1792826906,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.072e-05,
+   "mcap_usd": 50721,
+   "liquidity_usd": 17435.95,
+   "age_hours": 0.21,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4849,7 +4867,7 @@
    }
   },
   "2026-10-24": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -4876,7 +4894,9 @@
     "05|market:too_new": 1,
     "05|market:pumpfun_bonding_curve": 1,
     "06": 1,
-    "06|market:too_new": 1
+    "06|market:too_new": 1,
+    "07": 1,
+    "07|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -4885,7 +4905,7 @@
     "rugcheck:lp_unlocked": 1,
     "rugcheck:top10": 3,
     "rugcheck:insiders": 2,
-    "market:liquidity_low": 1,
+    "market:liquidity_low": 2,
     "grok:skip": 3
    }
   }
