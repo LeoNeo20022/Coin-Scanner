@@ -1,12 +1,3 @@
-[2026-10-22T02:04:23+00:00] discovered=58 fresh=50 market_pass=0
-[2026-10-22T02:04:23+00:00] grok daily budget 2/40 used, 0 no-response, $0.0055 (2026-10-22 UTC)
-[2026-10-22T02:04:23+00:00] run end {"discovered": 58, "skipped_recent": 8, "no_pair": 0, "market": {"mcap_too_low": 17, "too_new": 1, "pumpfun_bonding_curve": 20, "liquidity_low": 1, "too_old": 7, "mcap_too_high": 2, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 3} elapsed=10s
-[2026-10-22T02:04:25+00:00] second_look: 24h KIMPAD FGQbFLtH… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_price]
-[2026-10-22T02:04:25+00:00] second_look: 24h BREZ 9hmmhLmM… (rejected market:too_new) -> fail: mcap_too_low
-[2026-10-22T02:04:25+00:00] second_look: 24h Morgano2.0 HLnHnd8H… (rejected market:mcap_too_low) -> fail: mcap_too_low
-[2026-10-22T02:04:25+00:00] second_look: pass end {"queued": 64, "due": 3, "rechecked": 3, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-22T02:04:38+00:00] launch: pass end {"inbox": 20, "eligible": 3, "market_fail": 3, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 6/24 elapsed=13s
-[2026-10-22T02:09:13+00:00] run start (LOG ONLY)
 [2026-10-22T02:09:23+00:00] discovered=58 fresh=50 market_pass=0
 [2026-10-22T02:09:23+00:00] grok daily budget 2/40 used, 0 no-response, $0.0055 (2026-10-22 UTC)
 [2026-10-22T02:09:23+00:00] run end {"discovered": 58, "skipped_recent": 8, "no_pair": 0, "market": {"mcap_too_low": 17, "too_new": 1, "pumpfun_bonding_curve": 20, "liquidity_low": 1, "too_old": 7, "mcap_too_high": 2, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
@@ -4998,3 +4989,12 @@
 [2026-10-24T06:26:29+00:00] second_look: pass end {"queued": 180, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-24T06:27:10+00:00] launch: paper: candles unavailable for 2mrT8hiz (RuntimeError), using snapshot price
 [2026-10-24T06:27:10+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=42s
+[2026-10-24T06:31:17+00:00] run start (LOG ONLY)
+[2026-10-24T06:31:27+00:00] discovered=67 fresh=48 market_pass=1
+[2026-10-24T06:31:27+00:00] grok daily budget 6/40 used, 0 no-response, $0.0174 (2026-10-24 UTC)
+[2026-10-24T06:31:40+00:00] grok call 11.7s model=grok-4.3 tokens=997+77 reasoning=597
+[2026-10-24T06:31:40+00:00] grok [rugcheck] GSIR GoLpdpR9… -> SKIP (0.85) 1308% h6 gain with buys_m5 collapsing to 3 vs 336 in h1 shows fading spike. Slight m5 dip after 24% h1 run suggests early exit phase. | risk: Post-pump momentum loss on 1-hour-old token
+[2026-10-24T06:31:42+00:00] run end {"discovered": 67, "skipped_recent": 19, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 16, "missing:mcap_usd": 1, "too_old": 6, "mcap_too_high": 1, "liquidity_low": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=25s
+[2026-10-24T06:31:44+00:00] second_look: 24h PETECOOPER vqeAuApu… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-24T06:31:46+00:00] second_look: pass end {"queued": 181, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
+[2026-10-24T06:32:03+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=17s

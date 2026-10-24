@@ -3651,7 +3651,14 @@
    "mcap_usd": 127934,
    "liquidity_usd": 29529.88,
    "age_hours": 0.6,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-24T06:31:44+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump": {
@@ -4607,6 +4614,24 @@
    "age_hours": 0.75,
    "checks": {},
    "done": false
+  },
+  "GoLpdpR9X66mC8m2hYYHsuMDs5trNNVv9ze21gzXpump": {
+   "mint": "GoLpdpR9X66mC8m2hYYHsuMDs5trNNVv9ze21gzXpump",
+   "symbol": "GSIR",
+   "pair": "B399UeZ6B8n5dNbVWuYgqzS4tAsK8HLu9LmfUyTKNBQc",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T06:31:40+00:00",
+   "rejected_ts": 1792823500,
+   "stage": "grok",
+   "reason": "1308% h6 gain with buys_m5 collapsing to 3 vs 336 in h1 shows fading spike. Slight m5 dip after 24% h1 run suggests early exit phase.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0009789,
+   "mcap_usd": 976685,
+   "liquidity_usd": 84909.91,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4799,7 +4824,7 @@
    }
   },
   "2026-10-24": {
-   "total": 27,
+   "total": 28,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -4836,7 +4861,7 @@
     "rugcheck:top10": 3,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 1,
-    "grok:skip": 2
+    "grok:skip": 3
    }
   }
  }
