@@ -5085,6 +5085,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump": {
+   "mint": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
+   "symbol": "PRIVACY",
+   "pair": "96FFm6VefGxBNGv92Ezdw7dyELEXdycWqFgR7nLuRBFi",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T14:56:06+00:00",
+   "rejected_ts": 1792853766,
+   "stage": "grok",
+   "reason": "1616% gain in 6h after extreme early volume; buying the exit on a blow-off top. Buys still outpace sells but momentum is already parabolic.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0008916,
+   "mcap_usd": 888181,
+   "liquidity_usd": 81513.73,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5277,7 +5295,7 @@
    }
   },
   "2026-10-24": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -5324,7 +5342,7 @@
     "rugcheck:top10": 6,
     "rugcheck:insiders": 5,
     "market:liquidity_low": 6,
-    "grok:skip": 5
+    "grok:skip": 6
    }
   }
  }
