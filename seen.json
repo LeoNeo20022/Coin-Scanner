@@ -9560,7 +9560,9 @@
  },
  "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": {
   "market_logged": 1792798422.936569,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792801247.9650002,
+  "symbol": "KURIBO"
  },
  "FMqWsXKaAe41Kxfji7v5cpzQmr2gKAteAi9wREmkpump": {
   "market_logged": 1792799390.409604,
@@ -9607,7 +9609,11 @@
   "market_reason": "mcap_too_low"
  },
  "6WapBfZxtk6nGaWXDvWXdcyVr8VKwP34W1KBcPkwpump": {
-  "market_logged": 1792800947.7641442,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792801247.9650002,
+  "market_reason": "mcap_too_low"
+ },
+ "DSMLRDWPDKWDLx4mTGaAYXYfiAD5D9oXg5fhsbPPpump": {
+  "market_logged": 1792801247.9650002,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }

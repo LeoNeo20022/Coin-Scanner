@@ -3001,7 +3001,14 @@
    "mcap_usd": 169252,
    "liquidity_usd": 34902.72,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-24T00:20:54+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9RHwrgkQgaKR7oHMdzL1c1LxSYtC2cVUnJQLKY9cpump": {
@@ -3921,6 +3928,24 @@
    "age_hours": 1.26,
    "checks": {},
    "done": false
+  },
+  "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": {
+   "mint": "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "symbol": "KURIBO",
+   "pair": "FjirF8j2vLxKF1uN2ex4odSRDUFcYY1LtoY6SJHQtxfz",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T00:20:53+00:00",
+   "rejected_ts": 1792801253,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0002467,
+   "mcap_usd": 240856,
+   "liquidity_usd": 42365.81,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4113,7 +4138,7 @@
    }
   },
   "2026-10-24": {
-   "total": 5,
+   "total": 6,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -4125,7 +4150,8 @@
     "market:pumpfun_bonding_curve": 1,
     "market:mcap_too_low": 1,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
