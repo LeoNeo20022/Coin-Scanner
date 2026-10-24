@@ -1,9 +1,3 @@
-[2026-10-22T07:16:18+00:00] run start (LOG ONLY)
-[2026-10-22T07:16:28+00:00] discovered=66 fresh=57 market_pass=0
-[2026-10-22T07:16:28+00:00] grok daily budget 5/40 used, 0 no-response, $0.0134 (2026-10-22 UTC)
-[2026-10-22T07:16:28+00:00] run end {"discovered": 66, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "too_new": 1, "liquidity_low": 1, "missing:mcap_usd": 2, "mcap_too_low": 21, "too_old": 7, "volume_h1_low": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-22T07:16:30+00:00] second_look: 24h Clout 7k1S1H4V… (rejected market:liquidity_low) -> fail: mcap_too_low [dead: price_-90%]
-[2026-10-22T07:16:30+00:00] second_look: pass end {"queued": 84, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-22T07:17:13+00:00] launch: paper: candles unavailable for CNJMHy3J (RuntimeError), using snapshot price
 [2026-10-22T07:17:13+00:00] launch: paper: [target5] anonymous: closed (stop_loss) -50.0%
 [2026-10-22T07:17:13+00:00] launch: paper: [hold] Particle: closed (stop_loss) -84.3%
@@ -4998,3 +4992,9 @@
 [2026-10-24T12:33:47+00:00] run end {"discovered": 54, "skipped_recent": 13, "no_pair": 0, "market": {"liquidity_low": 3, "too_new": 1, "pumpfun_bonding_curve": 18, "mcap_too_low": 11, "too_old": 5, "volume_h1_low": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-24T12:33:49+00:00] second_look: pass end {"queued": 191, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-24T12:33:55+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=6s
+[2026-10-24T12:38:37+00:00] run start (LOG ONLY)
+[2026-10-24T12:38:47+00:00] discovered=55 fresh=42 market_pass=0
+[2026-10-24T12:38:47+00:00] grok daily budget 7/40 used, 0 no-response, $0.0202 (2026-10-24 UTC)
+[2026-10-24T12:38:47+00:00] run end {"discovered": 55, "skipped_recent": 13, "no_pair": 0, "market": {"too_new": 3, "mcap_too_low": 12, "pumpfun_bonding_curve": 18, "too_old": 5, "volume_h1_low": 1, "mcap_too_high": 2, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-24T12:38:49+00:00] second_look: pass end {"queued": 191, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-24T12:38:54+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=5s
