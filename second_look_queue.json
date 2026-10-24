@@ -3946,6 +3946,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "EBweTXzLPTDoXrokPbUtHkupwV1dG9DFtAWAZfz6pump": {
+   "mint": "EBweTXzLPTDoXrokPbUtHkupwV1dG9DFtAWAZfz6pump",
+   "symbol": "IC",
+   "pair": "ERswRUX3PsPrnywt6YSfgXNWuDz8PPLH6YHAjUiATEzo",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T00:25:53+00:00",
+   "rejected_ts": 1792801553,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0005218,
+   "mcap_usd": 517133,
+   "liquidity_usd": 61803.62,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4138,7 +4156,7 @@
    }
   },
   "2026-10-24": {
-   "total": 6,
+   "total": 7,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -4151,7 +4169,7 @@
     "market:mcap_too_low": 1,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:top10": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 2
    }
   }
  }

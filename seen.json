@@ -6652,8 +6652,8 @@
   "market_reason": "mcap_too_low"
  },
  "7Yiy7urdzLosM34A1PvP4ZkgpfLXXAzsgNgsAJSRcpW5": {
-  "market_logged": 1792800290.149646,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792801548.158793,
+  "market_reason": "volume_h1_low"
  },
  "3zPjPxhp7tGFCmSq4x14ZTwttWUeoJevXESC7Xvrpump": {
   "market_logged": 1792642036.6928566,
@@ -9592,7 +9592,9 @@
  },
  "EBweTXzLPTDoXrokPbUtHkupwV1dG9DFtAWAZfz6pump": {
   "market_logged": 1792799989.947174,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792801548.158793,
+  "symbol": "IC"
  },
  "J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": {
   "judged": 1792800290.149646,
