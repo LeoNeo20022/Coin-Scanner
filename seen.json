@@ -9766,7 +9766,9 @@
  },
  "BLAZEgnrPc5rw1NGPAdUYT3S5AtyoDaPM2WneBk7uYz8": {
   "market_logged": 1792818212.3666966,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "judged": 1792818889.2768903,
+  "symbol": "BLAZE"
  },
  "CHSSBJXpKcptQUMyeGYF8XhtCHSZBZ8ARjKwtbnjpump": {
   "market_logged": 1792813887.4662275,
@@ -9789,8 +9791,8 @@
   "market_reason": "mcap_too_low"
  },
  "36LGcntje2Dj283QGUNvtVkhQGoEf7Db8Qi9zgRZpump": {
-  "market_logged": 1792818567.1801455,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1792818889.2768903,
+  "market_reason": "liquidity_low"
  },
  "HHvJzTLUwN7AQ7ypF2wW3WKeAyfEETzYoLnYAKypump": {
   "market_logged": 1792817612.4831505,
@@ -9827,8 +9829,8 @@
   "judged": 1792818567.1801455
  },
  "CACbKus5h8iEpncWfLafR2bPcYB8tvTyokPwA6CFpump": {
-  "market_logged": 1792817912.6195033,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1792818889.2768903,
+  "market_reason": "too_new"
  },
  "FFPSPaZ6pZEeVET743ZBxAhbwQqKZhRp997dMWDNpump": {
   "judged": 1792818567.1801455,
@@ -9837,5 +9839,9 @@
  "D7V5THHQRQ2wD3T7b7oaP19VUYqFWMsNZ7imLRD5pump": {
   "market_logged": 1792818567.1801455,
   "market_reason": "too_new"
+ },
+ "FBYUkFDALBvP86DhHgEYaKBtH18ZkaxsRHzkv8Jpump": {
+  "market_logged": 1792818889.2768903,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
