@@ -10576,7 +10576,9 @@
  },
  "5C1KYte7uCe1sDT2scodWY1B4s7xASxWFSqK2pfipump": {
   "market_logged": 1792864102.9551954,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "GTA",
+  "judged": 1792864703.3365576
  },
  "DEU2iFMPePKqpze4EqZn9i5yBzeQT3riwx7vwgVVpump": {
   "market_logged": 1792864402.578034,
@@ -10589,5 +10591,17 @@
  "2sdwsnPizUaYLJSnLq6XeAa3bMSw5STboKmrYEpWpump": {
   "market_logged": 1792864402.578034,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "DUxnHraorABWJEno1RQRW4vvxJq1CFoXJ7izVLQtpump": {
+  "market_logged": 1792864703.3365576,
+  "market_reason": "too_new"
+ },
+ "2kkWDoS7RBdZ954yzUJbUSU9CXiUnNTdBAWfiPJhpump": {
+  "market_logged": 1792864703.3365576,
+  "market_reason": "mcap_too_low"
+ },
+ "CvBsKdeG2iY6DQv57saPnUGa1tXTXHHW3BSVRdaciTY": {
+  "market_logged": 1792864703.3365576,
+  "market_reason": "missing:mcap_usd"
  }
 }
