@@ -4275,6 +4275,24 @@
    "age_hours": 0.8,
    "checks": {},
    "done": false
+  },
+  "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump": {
+   "mint": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
+   "symbol": "TRUMP",
+   "pair": "7Yk7UAsViEvP5wkyfapAFS7KySmCnJtpvamxmCMKiavU",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T03:52:59+00:00",
+   "rejected_ts": 1792813979,
+   "stage": "grok",
+   "reason": "1525% h6 and 102% h1 gains on 1h-old token signal blow-off top risk despite strong buy flow.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0008355,
+   "mcap_usd": 832221,
+   "liquidity_usd": 79052.71,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4467,7 +4485,7 @@
    }
   },
   "2026-10-24": {
-   "total": 16,
+   "total": 17,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -4493,7 +4511,8 @@
     "rugcheck:lp_unlocked": 1,
     "rugcheck:top10": 1,
     "rugcheck:insiders": 2,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "grok:skip": 1
    }
   }
  }
