@@ -5270,6 +5270,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "H5n1Csm8SSN9V4DXdWheVWqZNS8pA813FhyWsdJ6pump": {
+   "mint": "H5n1Csm8SSN9V4DXdWheVWqZNS8pA813FhyWsdJ6pump",
+   "symbol": "SUI",
+   "pair": "41TKwiNWDfGv1SPiC7ogB8gFaWmsEkAs86hcXiahDHE8",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T23:23:41+00:00",
+   "rejected_ts": 1792884221,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0002478,
+   "mcap_usd": 238358,
+   "liquidity_usd": 64416.79,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5462,7 +5480,7 @@
    }
   },
   "2026-10-24": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -5512,7 +5530,8 @@
     "rugcheck:insiders": 6,
     "market:liquidity_low": 6,
     "grok:skip": 6,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 1,
+    "rugcheck:danger": 1
    }
   }
  }
