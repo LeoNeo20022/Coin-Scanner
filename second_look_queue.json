@@ -5036,6 +5036,24 @@
    "age_hours": 0.74,
    "checks": {},
    "done": false
+  },
+  "CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": {
+   "mint": "CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump",
+   "symbol": "MI",
+   "pair": "2jW1oUzWsSQ14hrGowXeadeqMygcCAYvM4knpRZ3P9DJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-24T14:30:25+00:00",
+   "rejected_ts": 1792852225,
+   "stage": "grok",
+   "reason": "3164% h6 and 835% h1 gains after 1h age scream blow-off top. Buying pressure remains strong but volume and price action indicate late-stage hype.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.001449,
+   "mcap_usd": 1433137,
+   "liquidity_usd": 101428.64,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5228,7 +5246,7 @@
    }
   },
   "2026-10-24": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -5275,7 +5293,7 @@
     "rugcheck:top10": 6,
     "rugcheck:insiders": 5,
     "market:liquidity_low": 6,
-    "grok:skip": 3
+    "grok:skip": 4
    }
   }
  }
