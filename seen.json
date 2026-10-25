@@ -11441,8 +11441,8 @@
   "market_reason": "mcap_too_low"
  },
  "3Sd5E415MgJBhBhUQdVA1oKVvQXuB1Q8xGQw4a4ppump": {
-  "market_logged": 1792942736.6089127,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792943036.7859647,
+  "market_reason": "mcap_too_low"
  },
  "6GUfTJMg25RKTJKNqZxaFM8bzYJBXXFHiiwuoZXkpump": {
   "market_logged": 1792941209.9797995,
@@ -11450,7 +11450,9 @@
  },
  "3Hz6XFrdmFKt79HSSahTeYp7BztXtq9znD8A2aPzpump": {
   "market_logged": 1792941209.9797995,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792943036.7859647,
+  "symbol": "TTC"
  },
  "5QUazVwndVyQLiTrFg75ZX9NmYHuwW8mZvxwQym9pump": {
   "market_logged": 1792941509.6160133,
@@ -11467,5 +11469,9 @@
  "EyX3HYebzwqW8VT1SZi7HmaWPpbSAfatWp18bEZipump": {
   "market_logged": 1792942736.6089127,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "FG2x9vQuYR9cFmyKu666LgLsSkKMX2VMLEZfnJTxpump": {
+  "market_logged": 1792943036.7859647,
+  "market_reason": "mcap_too_low"
  }
 }

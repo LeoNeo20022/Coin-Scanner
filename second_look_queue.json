@@ -6675,6 +6675,24 @@
    "age_hours": 5.46,
    "checks": {},
    "done": false
+  },
+  "3Hz6XFrdmFKt79HSSahTeYp7BztXtq9znD8A2aPzpump": {
+   "mint": "3Hz6XFrdmFKt79HSSahTeYp7BztXtq9znD8A2aPzpump",
+   "symbol": "TTC",
+   "pair": "DgiraZW71QbrcXaWZEaWRPSicMXArdaFUB1h9W828XE",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T15:44:02+00:00",
+   "rejected_ts": 1792943042,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0002638,
+   "mcap_usd": 254707,
+   "liquidity_usd": 43160.6,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6922,7 +6940,7 @@
    }
   },
   "2026-10-25": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6974,7 +6992,7 @@
     "rugcheck:danger": 3,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 2,
-    "rugcheck:insiders": 4,
+    "rugcheck:insiders": 5,
     "market:sells_ge_buys_h1": 1
    }
   }
