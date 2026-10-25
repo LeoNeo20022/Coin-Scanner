@@ -11256,8 +11256,8 @@
   "market_logged": 1792913830.5470748
  },
  "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx": {
-  "market_logged": 1792916590.1233168,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792919617.8559105,
+  "market_reason": "mcap_too_low"
  },
  "4PAPJyck7pCwLnXtBNSu1b5APLyLhDp9upQFgYJrpump": {
   "market_logged": 1792914759.2074084,
@@ -11305,5 +11305,9 @@
  "FwfAN1vbaJjDE6LYZvtofu5YsfSNpbRk2G275fZEpump": {
   "market_logged": 1792919318.087443,
   "market_reason": "too_new"
+ },
+ "CGjCtjEztGYKptwjm9NUdJDkbxdCiXLM4opZB9zDpump": {
+  "market_logged": 1792919617.8559105,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
