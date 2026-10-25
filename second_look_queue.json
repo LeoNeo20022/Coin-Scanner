@@ -5796,6 +5796,24 @@
    "age_hours": 0.72,
    "checks": {},
    "done": false
+  },
+  "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": {
+   "mint": "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump",
+   "symbol": "Marvin",
+   "pair": "FYLA8ej1X6n4nBiEKCZ3zmvACeH5MhdPRkkgPqtWsm1n",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T03:17:23+00:00",
+   "rejected_ts": 1792898243,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0005989,
+   "mcap_usd": 571661,
+   "liquidity_usd": 71962.45,
+   "age_hours": 1.19,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6043,7 +6061,7 @@
    }
   },
   "2026-10-25": {
-   "total": 17,
+   "total": 18,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6067,7 +6085,8 @@
     "market:mcap_too_low": 4,
     "market:too_new": 4,
     "grok:skip": 2,
-    "rugcheck:top10": 3
+    "rugcheck:top10": 3,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
