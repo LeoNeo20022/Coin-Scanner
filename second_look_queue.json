@@ -4485,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-25T15:54:03+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "liquidity_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": {
    "mint": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
@@ -6699,6 +6705,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "5KtxmGhFfy6QaoU3Qtu2ouweqq1qfXfNZHg3CJH7y6ea": {
+   "mint": "5KtxmGhFfy6QaoU3Qtu2ouweqq1qfXfNZHg3CJH7y6ea",
+   "symbol": "ZGAP",
+   "pair": "5Y889k2E1EF2UmVPZQgC83bXvk6KZ5JQNxmKDSTEkaki",
+   "dex": "meteora",
+   "rejected_at": "2026-10-25T15:54:01+00:00",
+   "rejected_ts": 1792943641,
+   "stage": "rugcheck",
+   "reason": "authority_open",
+   "reason_key": "rugcheck:authority_open",
+   "sources": "token-profiles",
+   "price_usd": 5.108e-05,
+   "mcap_usd": 51087,
+   "liquidity_usd": 21856.28,
+   "age_hours": 1.53,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6946,7 +6970,7 @@
    }
   },
   "2026-10-25": {
-   "total": 48,
+   "total": 49,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6999,7 +7023,8 @@
     "market:liquidity_low": 6,
     "market:volume_h1_low": 2,
     "rugcheck:insiders": 5,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 1,
+    "rugcheck:authority_open": 1
    }
   }
  }
