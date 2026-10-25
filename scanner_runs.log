@@ -1,9 +1,3 @@
-[2026-10-23T13:11:10+00:00] run start (LOG ONLY)
-[2026-10-23T13:11:12+00:00] paper: McNugget: take-profit half at +139.4%
-[2026-10-23T13:11:21+00:00] discovered=57 fresh=45 market_pass=0
-[2026-10-23T13:11:21+00:00] grok daily budget 6/40 used, 0 no-response, $0.0169 (2026-10-23 UTC)
-[2026-10-23T13:11:21+00:00] run end {"discovered": 57, "skipped_recent": 12, "no_pair": 0, "market": {"pumpfun_bonding_curve": 17, "too_old": 9, "too_new": 1, "mcap_too_low": 11, "missing:liquidity_usd": 2, "mcap_too_high": 3, "volume_h1_low": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-23T13:11:23+00:00] second_look: pass end {"queued": 137, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-23T13:12:52+00:00] launch: paper: candles unavailable for BWNvZSuG (ReadTimeout), using snapshot price
 [2026-10-23T13:12:52+00:00] launch: paper: candles unavailable for bWVX1QQt (ReadTimeout), using snapshot price
 [2026-10-23T13:12:52+00:00] launch: paper: candles unavailable for Dx27ajSK (ReadTimeout), using snapshot price
@@ -4998,3 +4992,9 @@
 [2026-10-25T21:03:23+00:00] run end {"discovered": 68, "skipped_recent": 15, "no_pair": 0, "market": {"mcap_too_low": 21, "pumpfun_bonding_curve": 19, "too_new": 3, "missing:liquidity_usd": 2, "volume_h1_low": 1, "too_old": 4, "mcap_too_high": 1, "missing:mcap_usd": 1}, "rug": {"top10": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=12s
 [2026-10-25T21:03:25+00:00] second_look: pass end {"queued": 250, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-25T21:03:29+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
+[2026-10-25T21:08:11+00:00] run start (LOG ONLY)
+[2026-10-25T21:08:21+00:00] discovered=67 fresh=51 market_pass=0
+[2026-10-25T21:08:21+00:00] grok daily budget 11/40 used, 0 no-response, $0.0309 (2026-10-25 UTC)
+[2026-10-25T21:08:21+00:00] run end {"discovered": 67, "skipped_recent": 16, "no_pair": 0, "market": {"mcap_too_low": 20, "pumpfun_bonding_curve": 19, "too_new": 3, "missing:liquidity_usd": 2, "volume_h1_low": 1, "too_old": 4, "mcap_too_high": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-25T21:08:23+00:00] second_look: pass end {"queued": 250, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-25T21:08:27+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
