@@ -6723,6 +6723,24 @@
    "age_hours": 1.53,
    "checks": {},
    "done": false
+  },
+  "HgdBJvh8fTafnhmnWHgNHEQrYPzqBDQLu2hKZKfkpump": {
+   "mint": "HgdBJvh8fTafnhmnWHgNHEQrYPzqBDQLu2hKZKfkpump",
+   "symbol": "ANALOS",
+   "pair": "7ace9kjY77HwmTthVwgqeSrcfju3fCr1om91bwGyXK6e",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T15:59:01+00:00",
+   "rejected_ts": 1792943941,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001528,
+   "mcap_usd": 149116,
+   "liquidity_usd": 32613.92,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6970,7 +6988,7 @@
    }
   },
   "2026-10-25": {
-   "total": 49,
+   "total": 50,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7022,7 +7040,7 @@
     "rugcheck:danger": 3,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 2,
-    "rugcheck:insiders": 5,
+    "rugcheck:insiders": 6,
     "market:sells_ge_buys_h1": 1,
     "rugcheck:authority_open": 1
    }
