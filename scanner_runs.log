@@ -1,9 +1,3 @@
-[2026-10-23T11:27:45+00:00] launch: paper: candles unavailable for 9Bn4iAbr (RuntimeError), using snapshot price
-[2026-10-23T11:27:45+00:00] launch: paper: [scalp] Firestar: closed (stop_loss) -18.7%
-[2026-10-23T11:27:45+00:00] launch: paper: [flash] Firestar: closed (stop_loss) -18.7%
-[2026-10-23T11:27:45+00:00] launch: pass end {"inbox": 16, "eligible": 1, "market_fail": 0, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 0} today buys 24/24 elapsed=103s
-[2026-10-23T11:30:49+00:00] run start (LOG ONLY)
-[2026-10-23T11:30:58+00:00] discovered=58 fresh=46 market_pass=0
 [2026-10-23T11:30:58+00:00] grok daily budget 5/40 used, 0 no-response, $0.0139 (2026-10-23 UTC)
 [2026-10-23T11:30:58+00:00] run end {"discovered": 58, "skipped_recent": 12, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 16, "too_new": 1, "volume_h1_low": 2, "too_old": 8, "missing:liquidity_usd": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-23T11:31:00+00:00] second_look: 24h DJT 7S6HGeZs… (rejected grok:skip) -> fail: mcap_too_low
@@ -4998,3 +4992,9 @@
 [2026-10-25T19:06:57+00:00] second_look: 48h SQUADS CokrQHPj… (rejected rugcheck:lp_unlocked) -> fail: lp_unlocked
 [2026-10-25T19:06:59+00:00] second_look: pass end {"queued": 250, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=6s
 [2026-10-25T19:07:03+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=3s
+[2026-10-25T19:11:45+00:00] run start (LOG ONLY)
+[2026-10-25T19:11:54+00:00] discovered=71 fresh=57 market_pass=0
+[2026-10-25T19:11:54+00:00] grok daily budget 8/40 used, 0 no-response, $0.0225 (2026-10-25 UTC)
+[2026-10-25T19:11:54+00:00] run end {"discovered": 71, "skipped_recent": 14, "no_pair": 2, "market": {"too_new": 6, "liquidity_low": 2, "missing:liquidity_usd": 1, "pumpfun_bonding_curve": 21, "mcap_too_low": 15, "too_old": 6, "sells_ge_buys_h1": 1, "mcap_too_high": 2, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-25T19:11:57+00:00] second_look: pass end {"queued": 250, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-25T19:12:00+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
