@@ -11883,11 +11883,17 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8U4hUSfL4PEjz5DbXmsSfaRJwrb4tW65FQn7jZAdLnZF": {
-  "market_logged": 1792967986.3323786,
-  "market_reason": "too_new"
+  "market_logged": 1792968285.5120187,
+  "market_reason": "liquidity_low"
  },
  "4WgxC56hGyNXLd14mCgxBuR2DUyDReF8koFDynhepump": {
   "market_logged": 1792967653.8739676,
-  "market_reason": "sells_ge_buys_h1"
+  "market_reason": "sells_ge_buys_h1",
+  "judged": 1792968285.5120187,
+  "symbol": "NVDA"
+ },
+ "GbC6WtXvmWKTfQnkjkZifcTtnahf5nAr7mLUphh3pump": {
+  "market_logged": 1792968285.5120187,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
