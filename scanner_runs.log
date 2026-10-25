@@ -1,10 +1,3 @@
-[2026-10-23T05:58:48+00:00] launch: PUMPDONE 82jqmd2s… fail: insiders
-[2026-10-23T05:59:21+00:00] launch: pass end {"inbox": 18, "eligible": 3, "market_fail": 2, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 13/24 elapsed=37s
-[2026-10-23T06:03:33+00:00] run start (LOG ONLY)
-[2026-10-23T06:03:43+00:00] discovered=58 fresh=46 market_pass=0
-[2026-10-23T06:03:43+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-23 UTC)
-[2026-10-23T06:03:43+00:00] run end {"discovered": 58, "skipped_recent": 12, "no_pair": 0, "market": {"pumpfun_bonding_curve": 18, "mcap_too_low": 15, "sells_ge_buys_h1": 1, "too_old": 9, "mcap_too_high": 2, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
-[2026-10-23T06:03:44+00:00] second_look: 48h X 2jCuh5iQ… (rejected market:mcap_too_low) -> fail: mcap_too_low
 [2026-10-23T06:03:44+00:00] second_look: 48h SOLMATE EtvMqs9F… (rejected market:too_new) -> fail: mcap_too_low [dead: no_volume_24h]
 [2026-10-23T06:03:46+00:00] second_look: 48h DICKBUTTIFIER 8QtbrC9d… (rejected market:liquidity_low) -> fail: top10
 [2026-10-23T06:03:49+00:00] second_look: pass end {"queued": 126, "due": 3, "rechecked": 3, "pass": 0, "opened": 0} elapsed=6s
@@ -4998,3 +4991,10 @@
 [2026-10-25T12:21:09+00:00] run end {"discovered": 69, "skipped_recent": 20, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 17, "too_new": 1, "too_old": 7, "mcap_too_high": 5, "sells_ge_buys_h1": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-25T12:21:11+00:00] second_look: pass end {"queued": 240, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-25T12:21:14+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=3s
+[2026-10-25T12:25:59+00:00] run start (LOG ONLY)
+[2026-10-25T12:26:08+00:00] discovered=68 fresh=49 market_pass=0
+[2026-10-25T12:26:08+00:00] grok daily budget 4/40 used, 0 no-response, $0.0113 (2026-10-25 UTC)
+[2026-10-25T12:26:08+00:00] run end {"discovered": 68, "skipped_recent": 19, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 17, "too_new": 1, "too_old": 7, "mcap_too_high": 5, "sells_ge_buys_h1": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-25T12:26:10+00:00] second_look: 24h 苦根 5kzuj5Mv… (rejected market:liquidity_low) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-25T12:26:12+00:00] second_look: pass end {"queued": 240, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
+[2026-10-25T12:26:15+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=3s
