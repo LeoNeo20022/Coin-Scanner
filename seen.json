@@ -11617,7 +11617,9 @@
  },
  "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": {
   "market_logged": 1792957010.7743068,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "AAPL",
+  "judged": 1792960072.0331914
  },
  "D2MSYa6LnnhJ7WdqAfux4DAK7stmYig7DaeuEeKVpump": {
   "market_logged": 1792957339.8862932,
@@ -11640,8 +11642,8 @@
   "market_reason": "mcap_too_low"
  },
  "HGS5NmToJnbM1wNtRgFhDYmAzy45D23jeT4TC3gZpump": {
-  "market_logged": 1792959772.7267687,
-  "market_reason": "too_new"
+  "market_logged": 1792960072.0331914,
+  "market_reason": "mcap_too_low"
  },
  "65V31DT6xGVXY8axRu2QzNf1U7u6ZuQ77sRoBGYYpump": {
   "market_logged": 1792957940.224812,
@@ -11689,6 +11691,18 @@
  },
  "8au8reJBqEhMbCtY8MsQKcV3NBuJRsEVFKRVKFktpump": {
   "market_logged": 1792959772.7267687,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "FZQGuBrqGqNfLn48BxUj4fuqnuH5A4HesxfAcoppump": {
+  "market_logged": 1792960072.0331914,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "3nm2Fa1LRtC4dLt8cvdzicK8U6stnVFLRxtjBVbgpump": {
+  "market_logged": 1792960072.0331914,
+  "market_reason": "too_new"
+ },
+ "D3oWE6gjnAaDV1iEPAwnhtLCPLN3LxRqRK8JRhMjpump": {
+  "market_logged": 1792960072.0331914,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
