@@ -6114,6 +6114,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "27GPe4GYJJpGNVqgyJgfZB2GZvqwk9LEK6FnCoiYSTNK": {
+   "mint": "27GPe4GYJJpGNVqgyJgfZB2GZvqwk9LEK6FnCoiYSTNK",
+   "symbol": "WHITEWHALE",
+   "pair": "HC9isCVNbfVLCrrqgUPDNc8sHJBBgM29uvRqLhuCdugb",
+   "dex": "raydium",
+   "rejected_at": "2026-10-25T07:10:17+00:00",
+   "rejected_ts": 1792912217,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.006e-05,
+   "mcap_usd": 50061,
+   "liquidity_usd": 19635.16,
+   "age_hours": 0.3,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6361,7 +6379,7 @@
    }
   },
   "2026-10-25": {
-   "total": 27,
+   "total": 28,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6386,7 +6404,9 @@
     "05": 3,
     "05|market:mcap_too_low": 1,
     "05|market:too_new": 1,
-    "05|market:pumpfun_bonding_curve": 1
+    "05|market:pumpfun_bonding_curve": 1,
+    "07": 1,
+    "07|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -6395,7 +6415,8 @@
     "grok:skip": 3,
     "rugcheck:top10": 4,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:danger": 1
+    "rugcheck:danger": 1,
+    "market:liquidity_low": 1
    }
   }
  }
