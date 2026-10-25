@@ -6417,6 +6417,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "EVGstwCAWo1tNqEJCUecjjwTYkK1jytP8WYVgxBHpump": {
+   "mint": "EVGstwCAWo1tNqEJCUecjjwTYkK1jytP8WYVgxBHpump",
+   "symbol": "SOL",
+   "pair": "4JnLktLXEgUqgoJo9MM6sy3f7pxURKoQVzCKJrr9Ex5u",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T11:35:45+00:00",
+   "rejected_ts": 1792928145,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 9.593e-05,
+   "mcap_usd": 91458,
+   "liquidity_usd": 26059.62,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6664,7 +6682,7 @@
    }
   },
   "2026-10-25": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6705,7 +6723,7 @@
     "grok:skip": 3,
     "rugcheck:top10": 6,
     "rugcheck:lp_unlocked": 2,
-    "rugcheck:danger": 2,
+    "rugcheck:danger": 3,
     "market:liquidity_low": 3,
     "market:volume_h1_low": 1,
     "rugcheck:insiders": 2
