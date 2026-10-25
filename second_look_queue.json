@@ -3431,9 +3431,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-10-25T02:06:20+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "pumpfun_bonding_curve"
     }
    },
-   "done": false
+   "done": true
   },
   "8FnhV1WE8vGMEfbzNRYbmZsRDtsVPDfbK3v6uvLppump": {
    "mint": "8FnhV1WE8vGMEfbzNRYbmZsRDtsVPDfbK3v6uvLppump",
@@ -3456,9 +3462,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-25T02:06:20+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3hH6NvBWvxFjDcNLWBT9p1pVEa2reLgTwx7nSYuCLoUT": {
    "mint": "3hH6NvBWvxFjDcNLWBT9p1pVEa2reLgTwx7nSYuCLoUT",
@@ -3481,9 +3493,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-25T02:06:20+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
     }
    },
-   "done": false
+   "done": true
   },
   "B66MyRSvU5KaP8wfUgHCNXMNHmiw4y5tFwSWq6iQpump": {
    "mint": "B66MyRSvU5KaP8wfUgHCNXMNHmiw4y5tFwSWq6iQpump",
@@ -4750,7 +4768,14 @@
    "mcap_usd": 5163,
    "liquidity_usd": 4516.87,
    "age_hours": 0.16,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-25T02:06:22+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "GGHi5KXLsyBePcjyQsrPCKKJiXnV1rVNPwoXFKZBpump": {
@@ -4768,7 +4793,14 @@
    "mcap_usd": 25741.62,
    "liquidity_usd": null,
    "age_hours": 1.58,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-25T02:06:22+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "3fwux1eyKEYzSnbYWVGoZtgg4ajUx4MBSAsvmTEgpump": {
@@ -4786,7 +4818,14 @@
    "mcap_usd": 97477,
    "liquidity_usd": 16234.88,
    "age_hours": 3.96,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-25T02:06:22+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "liquidity_low"
+    }
+   },
    "done": false
   },
   "EAqhsvrVXTXdirQrY1yB7e5AGjjkfxqWMkwJ1HCppump": {
