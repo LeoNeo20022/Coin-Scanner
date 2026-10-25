@@ -5544,6 +5544,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "8BqMeQLvypnnKbHS9hFHMzfxcY9Fea6mB5AnVoKNpump": {
+   "mint": "8BqMeQLvypnnKbHS9hFHMzfxcY9Fea6mB5AnVoKNpump",
+   "symbol": "Myers",
+   "pair": "A5CPtxS8PJwe3tpwwYrHW8vhjN3NFeDBgWkyXRQx6YN4",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T01:50:47+00:00",
+   "rejected_ts": 1792893047,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 7.045e-05,
+   "mcap_usd": 66830,
+   "liquidity_usd": 21222.88,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5791,7 +5809,7 @@
    }
   },
   "2026-10-25": {
-   "total": 8,
+   "total": 9,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -5807,7 +5825,7 @@
     "market:mcap_too_low": 2,
     "market:too_new": 2,
     "grok:skip": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 2
    }
   }
  }
