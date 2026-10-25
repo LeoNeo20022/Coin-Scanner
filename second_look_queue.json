@@ -5920,6 +5920,24 @@
    "age_hours": 47.26,
    "checks": {},
    "done": false
+  },
+  "FDsVJ9b5FHnDqEbC1u7ZQifhBi8MjNzkd1fE3j1Kpump": {
+   "mint": "FDsVJ9b5FHnDqEbC1u7ZQifhBi8MjNzkd1fE3j1Kpump",
+   "symbol": "TRUMP",
+   "pair": "HFEKEX86XgARYyqsJyREvbsTX6MsZdL98zDFpBeqBWGr",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T04:08:08+00:00",
+   "rejected_ts": 1792901288,
+   "stage": "grok",
+   "reason": "Sharp -26% m5 drop after +86% h6 run signals fading spike; volume concentrated in first hour with recent correction.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.000148,
+   "mcap_usd": 145924,
+   "liquidity_usd": 31575.8,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6167,7 +6185,7 @@
    }
   },
   "2026-10-25": {
-   "total": 21,
+   "total": 22,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6194,7 +6212,7 @@
     "market:pumpfun_bonding_curve": 5,
     "market:mcap_too_low": 5,
     "market:too_new": 5,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:top10": 3,
     "rugcheck:lp_unlocked": 1
    }
