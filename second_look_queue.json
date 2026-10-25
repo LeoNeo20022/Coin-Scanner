@@ -5415,6 +5415,24 @@
    "age_hours": 0.19,
    "checks": {},
    "done": false
+  },
+  "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump": {
+   "mint": "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump",
+   "symbol": "REACHY",
+   "pair": "Bozb9ALBQf4JBayYXKYHA7KmsRk5vKYaBPn75oZFK8mV",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T00:50:22+00:00",
+   "rejected_ts": 1792889422,
+   "stage": "grok",
+   "reason": "366% h6 and 58% h1 gains with volume almost entirely in first hour signal blow-off top. m5 activity still positive but fading momentum after massive early spike",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0002055,
+   "mcap_usd": 202397,
+   "liquidity_usd": 37234.49,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5662,7 +5680,7 @@
    }
   },
   "2026-10-25": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -5672,7 +5690,8 @@
    "reasons": {
     "market:pumpfun_bonding_curve": 1,
     "market:mcap_too_low": 1,
-    "market:too_new": 1
+    "market:too_new": 1,
+    "grok:skip": 1
    }
   }
  }
