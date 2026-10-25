@@ -4237,9 +4237,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "top10"
+    },
+    "48h": {
+     "time": "2026-10-25T11:30:47+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
     }
    },
-   "done": false
+   "done": true
   },
   "TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump": {
    "mint": "TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump",
@@ -6393,6 +6399,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "5kPuDh6YVwCxY1xVTe4gz6cFPkvov2GD7i83kbyjpump": {
+   "mint": "5kPuDh6YVwCxY1xVTe4gz6cFPkvov2GD7i83kbyjpump",
+   "symbol": "SPCX",
+   "pair": "7wsoF5D5n7pP2YQE3MR1t9Lz6be98aSsrrnPyf35zzVq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T11:30:45+00:00",
+   "rejected_ts": 1792927845,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001156,
+   "mcap_usd": 111917,
+   "liquidity_usd": 28948.55,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6640,7 +6664,7 @@
    }
   },
   "2026-10-25": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6684,7 +6708,7 @@
     "rugcheck:danger": 2,
     "market:liquidity_low": 3,
     "market:volume_h1_low": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 2
    }
   }
  }
