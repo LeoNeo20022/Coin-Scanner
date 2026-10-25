@@ -660,8 +660,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn": {
-  "market_logged": 1792934527.1599953,
-  "market_reason": "too_old"
+  "market_logged": 1792935126.7959206,
+  "market_reason": "liquidity_low"
  },
  "4nzoNr651o77A811SrtEpwM14Vj3vdZ9oa9wvJM4pump": {
   "market_logged": 1792407982.80863,
@@ -11446,7 +11446,9 @@
  },
  "6p5ECyCAymV4Dzyq5yZhMnGLqjeUKKTnRHama1b3pump": {
   "market_logged": 1792932695.1029491,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1792935126.7959206,
+  "symbol": "BASE"
  },
  "3sdpz8wAn4EDhcVKAyePDKu8WC7EmY4JAcEUvs7Ypump": {
   "market_logged": 1792932695.1029491,
