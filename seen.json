@@ -11459,8 +11459,8 @@
   "symbol": "TTC"
  },
  "5QUazVwndVyQLiTrFg75ZX9NmYHuwW8mZvxwQym9pump": {
-  "market_logged": 1792944237.3403451,
-  "market_reason": "sells_ge_buys_h1"
+  "market_logged": 1792956410.7792244,
+  "market_reason": "mcap_too_low"
  },
  "CLcA7VsFhxnPMG4ErvAuDZoW8N4WT9qC2F3xUD4Jpump": {
   "market_logged": 1792942109.8503096,
@@ -11695,8 +11695,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "PWRDXNBbauWxU2ndLqvW99sdL4ZmsA21LzQoDcmpump": {
-  "market_logged": 1792956110.7622542,
-  "market_reason": "liquidity_low"
+  "market_logged": 1792956410.7792244,
+  "market_reason": "too_new"
  },
  "8A7jjShchYcVF5VzdbYrtQj4T953xgbqcPzi9Sd1pump": {
   "market_logged": 1792954279.08535,
@@ -11730,7 +11730,8 @@
   "market_reason": "too_new"
  },
  "J3WnaAhq16iB1LEeXFdssy2FGNGVtpkmd2m3k4HkEuLi": {
-  "market_logged": 1792956110.7622542
+  "market_logged": 1792956410.7792244,
+  "market_reason": "too_new"
  },
  "3jc4ubQHxvRcj1U645GHPZJ6pneJPm3yUPQR4vXKbqs3": {
   "market_logged": 1792956110.7622542,
@@ -11742,5 +11743,9 @@
  "84aTPXRQPDStSQ65YsHEsyomRz9AHc8u4Cw4tTwepump": {
   "market_logged": 1792956110.7622542,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "5YMCJ9pAh1w9paV1zy2iKZcXzXyvbskc8ijZ22rmMWaY": {
+  "market_logged": 1792956410.7792244,
+  "market_reason": "missing:liquidity_usd"
  }
 }
