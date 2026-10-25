@@ -6496,6 +6496,24 @@
    "age_hours": 5.39,
    "checks": {},
    "done": false
+  },
+  "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": {
+   "mint": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+   "symbol": "LAUNCH",
+   "pair": "GezArkyjgqsjid7m9zg3jkxxFmnHuh8dDzmqUpbL7K59",
+   "dex": "raydium",
+   "rejected_at": "2026-10-25T12:41:39+00:00",
+   "rejected_ts": 1792932099,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0002931,
+   "mcap_usd": 290148,
+   "liquidity_usd": 48665.68,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6743,7 +6761,7 @@
    }
   },
   "2026-10-25": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6788,7 +6806,7 @@
     "market:too_new": 6,
     "grok:skip": 3,
     "rugcheck:top10": 6,
-    "rugcheck:lp_unlocked": 2,
+    "rugcheck:lp_unlocked": 3,
     "rugcheck:danger": 3,
     "market:liquidity_low": 5,
     "market:volume_h1_low": 1,
