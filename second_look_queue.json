@@ -5308,7 +5308,14 @@
    "mcap_usd": 50721,
    "liquidity_usd": 17435.95,
    "age_hours": 0.21,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-25T07:32:18+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4xyFdDk83aZtkJM9PZ6KQj7upfeoC1r2XWZ9z5NTpump": {
@@ -6138,6 +6145,24 @@
    "age_hours": 0.3,
    "checks": {},
    "done": false
+  },
+  "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj": {
+   "mint": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
+   "symbol": "WHITEWHALE",
+   "pair": "9toKeT8N2rhw5k5KhH7Cu45Zt7gBZBUjeQGtykyWNhSX",
+   "dex": "raydium",
+   "rejected_at": "2026-10-25T07:32:16+00:00",
+   "rejected_ts": 1792913536,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0004256,
+   "mcap_usd": 425654,
+   "liquidity_usd": 60691.67,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6385,7 +6410,7 @@
    }
   },
   "2026-10-25": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6420,7 +6445,7 @@
     "market:too_new": 6,
     "grok:skip": 3,
     "rugcheck:top10": 4,
-    "rugcheck:lp_unlocked": 1,
+    "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 1,
     "market:liquidity_low": 1
    }
