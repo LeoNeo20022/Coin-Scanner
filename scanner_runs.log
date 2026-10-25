@@ -1,9 +1,3 @@
-[2026-10-23T05:02:31+00:00] second_look: 48h CODEWORD 6hvs6yMz… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_price]
-[2026-10-23T05:02:31+00:00] second_look: 48h $DUKE G9WuTdRa… (rejected market:mcap_too_low) -> fail: mcap_too_low
-[2026-10-23T05:02:31+00:00] second_look: 48h MINERS 3v83h8qu… (rejected market:liquidity_low) -> fail: mcap_too_low
-[2026-10-23T05:02:31+00:00] second_look: 24h SURY DYR8Kqxt… (rejected rugcheck:lp_unlocked) -> fail: mcap_too_low [dead: price_-90%]
-[2026-10-23T05:02:33+00:00] second_look: pass end {"queued": 126, "due": 4, "rechecked": 4, "pass": 0, "opened": 0} elapsed=4s
-[2026-10-23T05:02:37+00:00] launch: PAPER BUY $10 x4 strategies BRAIN Dgc7ZeiC… @ 2.466e-05 (launch: curve 83.9%, holders 322, top 6.71%, top10 26.73%, vol1h $60427, age 40m)
 [2026-10-23T05:03:20+00:00] launch: paper: [scalp] BRAIN: closed (stop_loss) -23.9%
 [2026-10-23T05:03:20+00:00] launch: paper: [flash] BRAIN: closed (stop_loss) -23.9%
 [2026-10-23T05:03:20+00:00] launch: pass end {"inbox": 15, "eligible": 4, "market_fail": 2, "rugchecked": 1, "token_fail": 0, "opened": 1, "skipped_cap": 1} today buys 13/24 elapsed=47s
@@ -4998,3 +4992,9 @@
 [2026-10-25T11:10:16+00:00] second_look: 48h ARCTIS 2JSj9dzL… (rejected market:sells_ge_buys_h1) -> fail: volume_h1_low
 [2026-10-25T11:10:17+00:00] second_look: pass end {"queued": 235, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
 [2026-10-25T11:10:21+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
+[2026-10-25T11:15:05+00:00] run start (LOG ONLY)
+[2026-10-25T11:15:14+00:00] discovered=64 fresh=47 market_pass=0
+[2026-10-25T11:15:14+00:00] grok daily budget 4/40 used, 0 no-response, $0.0113 (2026-10-25 UTC)
+[2026-10-25T11:15:14+00:00] run end {"discovered": 64, "skipped_recent": 17, "no_pair": 0, "market": {"too_new": 3, "pumpfun_bonding_curve": 16, "mcap_too_low": 14, "too_old": 7, "mcap_too_high": 4, "sells_ge_buys_h1": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-10-25T11:15:16+00:00] second_look: pass end {"queued": 235, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-25T11:15:20+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
