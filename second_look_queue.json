@@ -5951,6 +5951,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump": {
+   "mint": "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump",
+   "symbol": "PUMP",
+   "pair": "7Wp6dui9UAvMJ3Peaeho8KopXiHowGcQwhP3Kwgi6bEa",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T04:58:51+00:00",
+   "rejected_ts": 1792904331,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001441,
+   "mcap_usd": 138230,
+   "liquidity_usd": 31650.44,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6198,7 +6216,7 @@
    }
   },
   "2026-10-25": {
-   "total": 22,
+   "total": 23,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6227,7 +6245,8 @@
     "market:too_new": 5,
     "grok:skip": 3,
     "rugcheck:top10": 3,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "rugcheck:danger": 1
    }
   }
  }
