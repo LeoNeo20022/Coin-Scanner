@@ -1,9 +1,3 @@
-[2026-10-23T05:38:48+00:00] launch: KIARA 7oJ3Gt8S… fail: top_holder
-[2026-10-23T05:39:21+00:00] launch: pass end {"inbox": 16, "eligible": 4, "market_fail": 3, "rugchecked": 1, "token_fail": 1, "opened": 0, "skipped_cap": 0} today buys 13/24 elapsed=37s
-[2026-10-23T05:43:33+00:00] run start (LOG ONLY)
-[2026-10-23T05:43:42+00:00] discovered=58 fresh=45 market_pass=0
-[2026-10-23T05:43:42+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-23 UTC)
-[2026-10-23T05:43:42+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 15, "sells_ge_buys_h1": 1, "too_old": 10, "mcap_too_high": 2, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-23T05:43:44+00:00] second_look: pass end {"queued": 126, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-23T05:43:48+00:00] launch: OI CmoAaGFr… fail: no_curve_market
 [2026-10-23T05:43:50+00:00] launch: PUMPDONE 82jqmd2s… fail: insiders
@@ -4998,3 +4992,9 @@
 [2026-10-25T11:56:09+00:00] run end {"discovered": 67, "skipped_recent": 20, "no_pair": 0, "market": {"too_new": 2, "pumpfun_bonding_curve": 15, "mcap_too_low": 15, "liquidity_low": 1, "too_old": 6, "mcap_too_high": 5, "sells_ge_buys_h1": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-25T11:56:11+00:00] second_look: pass end {"queued": 239, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-25T11:56:15+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=3s
+[2026-10-25T12:00:59+00:00] run start (LOG ONLY)
+[2026-10-25T12:01:08+00:00] discovered=68 fresh=48 market_pass=0
+[2026-10-25T12:01:08+00:00] grok daily budget 4/40 used, 0 no-response, $0.0113 (2026-10-25 UTC)
+[2026-10-25T12:01:08+00:00] run end {"discovered": 68, "skipped_recent": 20, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "too_new": 2, "mcap_too_low": 15, "liquidity_low": 1, "too_old": 6, "mcap_too_high": 5, "sells_ge_buys_h1": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=9s
+[2026-10-25T12:01:10+00:00] second_look: pass end {"queued": 240, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-25T12:01:14+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=3s

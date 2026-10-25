@@ -6453,6 +6453,24 @@
    "age_hours": 0.1,
    "checks": {},
    "done": false
+  },
+  "AjopaDD9cxEptNR8s1vgVrcjmXWboA6n9qkewSH5pump": {
+   "mint": "AjopaDD9cxEptNR8s1vgVrcjmXWboA6n9qkewSH5pump",
+   "symbol": "SATH",
+   "pair": "9yZTPsVkKH8SSBqT6JMBEwHA91MMuPLXCiDctL5MALpv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T12:01:08+00:00",
+   "rejected_ts": 1792929668,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 5.85e-05,
+   "mcap_usd": 58500,
+   "liquidity_usd": 19372.75,
+   "age_hours": 0.15,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6700,7 +6718,7 @@
    }
   },
   "2026-10-25": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6734,7 +6752,9 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "11": 1,
-    "11|market:liquidity_low": 1
+    "11|market:liquidity_low": 1,
+    "12": 1,
+    "12|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -6744,7 +6764,7 @@
     "rugcheck:top10": 6,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 3,
-    "market:liquidity_low": 4,
+    "market:liquidity_low": 5,
     "market:volume_h1_low": 1,
     "rugcheck:insiders": 2
    }
