@@ -5686,7 +5686,14 @@
    "mcap_usd": 1433137,
    "liquidity_usd": 101428.64,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-25T14:33:18+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": {
@@ -6624,6 +6631,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump": {
+   "mint": "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump",
+   "symbol": "PumpkinBot",
+   "pair": "Fo8EVDB3qphm944An9KKWRJi7U1Ft9JurtWd688dFmce",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T14:33:15+00:00",
+   "rejected_ts": 1792938795,
+   "stage": "grok",
+   "reason": "465% gain in 6h on 5.5h-old token screams blow-off top. Recent m5/h1 buys are positive but volume and price action already fading from peak.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.000302,
+   "mcap_usd": 294786,
+   "liquidity_usd": 45672.92,
+   "age_hours": 5.46,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6871,7 +6896,7 @@
    }
   },
   "2026-10-25": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6917,7 +6942,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:top10": 6,
     "rugcheck:lp_unlocked": 3,
     "rugcheck:danger": 3,
