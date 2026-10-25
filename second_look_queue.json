@@ -3307,9 +3307,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-25T00:19:46+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "9RHwrgkQgaKR7oHMdzL1c1LxSYtC2cVUnJQLKY9cpump": {
    "mint": "9RHwrgkQgaKR7oHMdzL1c1LxSYtC2cVUnJQLKY9cpump",
@@ -5377,6 +5383,24 @@
    "age_hours": 0.38,
    "checks": {},
    "done": false
+  },
+  "ECu55nr64oyY3bCV39zbt5fknU1SjQtYaLfmxYLpump": {
+   "mint": "ECu55nr64oyY3bCV39zbt5fknU1SjQtYaLfmxYLpump",
+   "symbol": "SKINWALKER",
+   "pair": "7YVSyZFSodHGhNq7bmHsSiXAnWyCgWVz4BEjbtbv3B8v",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T00:19:43+00:00",
+   "rejected_ts": 1792887583,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 6.389e-05,
+   "mcap_usd": 63898,
+   "liquidity_usd": 20733.59,
+   "age_hours": 0.19,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5624,15 +5648,17 @@
    }
   },
   "2026-10-25": {
-   "total": 2,
+   "total": 3,
    "hours": {
-    "00": 2,
+    "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
-    "00|market:mcap_too_low": 1
+    "00|market:mcap_too_low": 1,
+    "00|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 1,
-    "market:mcap_too_low": 1
+    "market:mcap_too_low": 1,
+    "market:too_new": 1
    }
   }
  }
