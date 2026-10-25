@@ -1,9 +1,3 @@
-[2026-10-23T06:55:59+00:00] run start (LOG ONLY)
-[2026-10-23T06:56:09+00:00] discovered=61 fresh=50 market_pass=1
-[2026-10-23T06:56:09+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-23 UTC)
-[2026-10-23T06:56:16+00:00] grok call 5.5s model=grok-4.3 tokens=996+87 reasoning=596
-[2026-10-23T06:56:16+00:00] grok [rugcheck] PETECOOPER vqeAuApu… -> BUY (0.75) Strong sustained buys (3025/2377 h1, 166/141 m5) with clean low-risk profile, 100% LP lock, top10 22.6%. Volume and activity look organic rather than single-spike. | risk: Early-stage token still vulnerable to rapid reversal after initial hype
-[2026-10-23T06:56:16+00:00] paper BUY $10 PETECOOPER @ 6.231e-05
 [2026-10-23T06:56:16+00:00] paper SHADOW BUY [target5] $10 PETECOOPER @ 6.231e-05
 [2026-10-23T06:56:16+00:00] paper SHADOW BUY [scalp] $10 PETECOOPER @ 6.231e-05
 [2026-10-23T06:56:18+00:00] run end {"discovered": 61, "skipped_recent": 11, "no_pair": 0, "market": {"pumpfun_bonding_curve": 19, "mcap_too_low": 16, "missing:mcap_usd": 1, "too_old": 10, "sells_ge_buys_h1": 1, "mcap_too_high": 2}, "rug": {}, "grok": 1, "BUY": 1, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=19s
@@ -4998,3 +4992,9 @@
 [2026-10-25T13:37:09+00:00] run end {"discovered": 64, "skipped_recent": 18, "no_pair": 0, "market": {"pumpfun_bonding_curve": 17, "too_new": 2, "sells_ge_buys_h1": 1, "mcap_too_low": 12, "liquidity_low": 1, "too_old": 6, "mcap_too_high": 5, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-25T13:37:11+00:00] second_look: pass end {"queued": 244, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-25T13:37:15+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
+[2026-10-25T13:42:00+00:00] run start (LOG ONLY)
+[2026-10-25T13:42:09+00:00] discovered=65 fresh=47 market_pass=1
+[2026-10-25T13:42:09+00:00] grok daily budget 4/40 used, 0 no-response, $0.0113 (2026-10-25 UTC)
+[2026-10-25T13:42:11+00:00] run end {"discovered": 65, "skipped_recent": 18, "no_pair": 0, "market": {"volume_h1_low": 1, "pumpfun_bonding_curve": 17, "too_new": 1, "sells_ge_buys_h1": 1, "mcap_too_low": 11, "liquidity_low": 2, "too_old": 6, "mcap_too_high": 5, "missing:mcap_usd": 2}, "rug": {"insiders": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 2} elapsed=11s
+[2026-10-25T13:42:14+00:00] second_look: pass end {"queued": 246, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-25T13:42:17+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
