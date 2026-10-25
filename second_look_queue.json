@@ -3400,9 +3400,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-25T01:15:17+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3zoDs3JGpcvJ44h2it4ssPVEbtFTEWRsxs6Z9h2Tpump": {
    "mint": "3zoDs3JGpcvJ44h2it4ssPVEbtFTEWRsxs6Z9h2Tpump",
@@ -5520,6 +5526,24 @@
    "age_hours": 8.6,
    "checks": {},
    "done": false
+  },
+  "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": {
+   "mint": "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
+   "symbol": "KURUMI",
+   "pair": "DxvCfzrLE4DyctHUZm5Xchmb9zuEaek56zkPbYuivfDF",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T01:15:16+00:00",
+   "rejected_ts": 1792890916,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0003657,
+   "mcap_usd": 362321,
+   "liquidity_usd": 50076.7,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5767,7 +5791,7 @@
    }
   },
   "2026-10-25": {
-   "total": 7,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -5782,7 +5806,8 @@
     "market:pumpfun_bonding_curve": 2,
     "market:mcap_too_low": 2,
     "market:too_new": 2,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "rugcheck:top10": 1
    }
   }
  }
