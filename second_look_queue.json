@@ -6325,6 +6325,24 @@
    "age_hours": 1.37,
    "checks": {},
    "done": false
+  },
+  "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC": {
+   "mint": "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
+   "symbol": "BTC",
+   "pair": "9nkE3B5zF3yCDh8YrQrhch4dGNyLYcNBqEB7feo3V9Av",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T10:34:46+00:00",
+   "rejected_ts": 1792924486,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0002502,
+   "mcap_usd": 240428,
+   "liquidity_usd": 44451.1,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6572,7 +6590,7 @@
    }
   },
   "2026-10-25": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6611,7 +6629,7 @@
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "grok:skip": 3,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 1,
     "market:liquidity_low": 3,
