@@ -5401,7 +5401,14 @@
    "mcap_usd": 64373,
    "liquidity_usd": 19966.02,
    "age_hours": 0.16,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-25T09:03:42+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BSBsxXFGHrew8FcxjYHDgx5EnzoRs9cWkZWxkvP5KAZQ": {
@@ -5419,7 +5426,14 @@
    "mcap_usd": 77659,
    "liquidity_usd": 22808.3,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-25T09:03:42+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "75LU2pCf9nD1y5RKNYcqSekNrTomj6o6r45eD1g2pump": {
@@ -6267,6 +6281,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx": {
+   "mint": "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx",
+   "symbol": "WHITEWHALE",
+   "pair": "7bzDKLCjmQ6vSbJV3oMkSinGTWrhb7aBZe9rv8RnaYxP",
+   "dex": "meteora",
+   "rejected_at": "2026-10-25T09:03:41+00:00",
+   "rejected_ts": 1792919021,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 0.0001857,
+   "mcap_usd": 185798,
+   "liquidity_usd": 578.02,
+   "age_hours": 1.37,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6514,7 +6546,7 @@
    }
   },
   "2026-10-25": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6544,7 +6576,9 @@
     "07|market:liquidity_low": 1,
     "08": 2,
     "08|market:liquidity_low": 1,
-    "08|market:volume_h1_low": 1
+    "08|market:volume_h1_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -6554,7 +6588,7 @@
     "rugcheck:top10": 5,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 2,
+    "market:liquidity_low": 3,
     "market:volume_h1_low": 1,
     "rugcheck:insiders": 1
    }
