@@ -5562,6 +5562,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": {
+   "mint": "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
+   "symbol": "MAYA",
+   "pair": "2X5p7bVpciv44iGmE7KrKLqNtDzyRK7muXsYVGtyz79v",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-25T01:57:17+00:00",
+   "rejected_ts": 1792893437,
+   "stage": "grok",
+   "reason": "2783% h6 and 372% h1 gains after 1h age scream blow-off top; buying the exit on extreme parabolic move.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.001479,
+   "mcap_usd": 1473274,
+   "liquidity_usd": 106759.34,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5809,7 +5827,7 @@
    }
   },
   "2026-10-25": {
-   "total": 9,
+   "total": 10,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -5824,7 +5842,7 @@
     "market:pumpfun_bonding_curve": 2,
     "market:mcap_too_low": 2,
     "market:too_new": 2,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:top10": 2
    }
   }
