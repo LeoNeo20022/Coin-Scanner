@@ -117,3 +117,41 @@ FEES = {
     "jup_pct": 0.10, "jup_new_token_pct": 0.50, "new_token_hours": 24,   # Jupiter /order platform fee per side
     "network_usd_per_side": 0.003,                         # base + priority fee per transaction (rent assumed refunded)
 }
+
+# ---- SCOUT strategies (see scout.py, added Oct 26 2026): two LOG-ONLY paper sources scouted on X by Theo.
+#      A "pool"  = POOL-GRADUATED FILTER (@JnoAYx): graduated pool, 24h vol >= $40K, mcap $60K-$8M, never in the first
+#                  minutes; his exit +50% with a -30% / -50% stop (72h), plus our hold / target5 / scalp.
+#      B "wait3" = WAIT-3 PULLBACK (@malangeeSOL, no proof): never up 5x from the pool's first price, 30-50% pullback from
+#                  the high, then a higher low with volume holding; ladder 50% at 2x / 25% at 5x / 25% at 10x, stop at the
+#                  pullback low, 24h time stop (72h variant too), plus our hold / target5 / scalp.
+#      Every paper buy first passes RugCheck (or the free fallback) AND a read-only Jupiter sell quote (~$15 -> SOL,
+#      no wallet): skipped if no route or the sell loses > max_sell_loss_pct beyond the pool fee. $10 per paper buy.
+#      Fees in the CSVs: pool fee/side (1.25%, 1.1% PumpSwap) + $0.003 network/side, no Jupiter fee, no slippage. ----
+SCOUT = {
+    "state_file": "scout_state.json", "check_file": "scout_checks.csv",
+    "trade_files": {"pool": "pool_filter_trades.csv", "wait3": "wait3_trades.csv"},
+    "ticket_usd": 10, "budget_usd": 100, "network_usd_per_side": 0.003,
+    "pool_pct_by_dex": {"pumpswap": 1.1}, "pool_pct_default": 1.25,
+    # watchlist (candidates): GeckoTerminal trending / top PumpSwap / new pools + this iteration's scanner discoveries
+    # + optional scout_watch.json (e.g. caller / influencer mints pushed by the box). Kept 48h from first sight.
+    "watch_hours": 48, "max_watch": 350,
+    "gt_feeds": ["trending_pools?page=1", "trending_pools?page=1&duration=1h",
+                 "dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc", "new_pools?page=1"],
+    "gt_feed_min_reserve_usd": 10_000,
+    # A: pool-graduated filter
+    "a_min_vol24_usd": 40_000, "a_min_mcap_usd": 60_000, "a_max_mcap_usd": 8_000_000,
+    "a_min_liquidity_usd": 10_000, "a_min_pool_age_min": 15,
+    "a_max_per_day": 10, "a_slot_hours": 2,          # <= 1 new A buy per 2h slot (UTC), <= 10 per UTC day
+    "a_rebuy_days": 7, "a_fail_cooldown_h": 6, "a_max_attempts_per_scan": 3,
+    # B: WAIT-3 pullback (5-min candles from the pool start)
+    "b_max_pool_age_h": 72, "b_min_pool_age_min": 30, "b_min_liquidity_usd": 10_000, "b_min_vol24_usd": 20_000,
+    "b_min_mcap_usd": 30_000, "b_eval_every_min": 25, "b_evals_per_scan": 6, "b_signal_max_age_min": 35,
+    "b_max_chase_pct": 10, "b_max_per_day": 10,
+    "w3": {"max_run_x": 5.0, "pull_min": 0.30, "pull_max": 0.50, "bounce_pct": 10, "hl_min_pct": 2,
+           "min_dip_pct": 5, "max_entry_vs_high": 0.85, "vol_hold_ratio": 0.5, "min_vol_1h_usd": 5_000},
+    # liquidity (real sell depth) check: read-only Jupiter quote, token -> SOL
+    "liq_quote_usd": 15, "max_sell_loss_pct": 5.0, "max_jup_impact_pct": 5.0,
+    "jup_quote_url": "https://lite-api.jup.ag/swap/v1/quote", "jup_price_url": "https://lite-api.jup.ag/price/v3",
+    # pacing
+    "max_update_coins_per_scan": 10, "max_seconds_per_scan": 110, "sleep_s": 1.2,
+}

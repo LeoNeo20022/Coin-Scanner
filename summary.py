@@ -253,6 +253,9 @@ def main():
     section("All time", log, trades)
     budget(trades, "Main/hold")
     shadow_sections(trades)
+    try:                                   # scout paper sources (scout.py), own fee note inside
+        import scout_summary; scout_summary.main()
+    except Exception as e: print(f"\n(scout summary error: {e})")
     print(f"\nFees: {FEE_NOTE}; open trades marked as if sold now. Display only, exits unchanged.")
     print("\nNote: market-filter rejects are logged once per token per day; P&L uses prices sampled every scheduled run, no fees unless set in config.")
 

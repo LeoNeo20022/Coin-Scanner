@@ -38,3 +38,25 @@ no danger risks, no transfer fee, holder/creator/insider caps excluding the curv
 DexScreener price at detection. Scored on GeckoTerminal 1-min candles of the curve pool (then the PumpSwap pool after
 graduation) under scalp (+20/-10/60m), target5 (+50/-50/24h) and hold (main rules), each with its own pretend $100.
 Files: launch_checks.csv, launch_state.json, launch_{scalp,target5,hold}.csv. No Grok, no fees/slippage simulated.
+
+## SCOUT paper sources (scout.py, paper only, added Oct 26 2026)
+Two strategies scouted on X by Theo, run by `loop.sh` after `launch.py` every scan. No Grok, no wallet, no trades.
+Candidates: GeckoTerminal trending / top-PumpSwap / new pools (reserve >= $10K), this iteration's scanner discoveries
+with a real pool, and an optional `scout_watch.json` (`{"mints": {MINT: {"src": "caller:NAME", "time": ISO}}}`),
+kept on a watchlist for 48h and re-read from DexScreener each scan.
+- **A, pool-graduated filter** (@JnoAYx) -> `pool_filter_trades.csv`: graduated pool (not the bonding curve),
+  liquidity >= $10K, 24h volume >= $40K, mcap $60K-$8M, pool at least 15 min old. Cap: at most 1 new buy per 2-hour
+  UTC slot and 10 per UTC day, taking the qualifying coin with the highest 24h volume; one buy per coin per 7 days.
+  Exits: `tp50_sl30` (+50% / -30%, 72h), `target5` (+50% / -50%, 72h; = his exit with a -50% stop), `hold`, `scalp`.
+- **B, WAIT-3 pullback** (@malangeeSOL, no proof) -> `wait3_trades.csv`: on 5-min candles from the pool start, never
+  up 5x from the pool's first 5-min close, a 30-50% pullback from the high, a +10% bounce, a higher low (>= 2% above
+  the pullback low, after a >= 5% dip), entry on the first close above the higher-low candle's high while <= 85% of the
+  high and the last hour's volume is >= 50% of the hour before the high (and >= $5K). Max 10/day, one per coin.
+  Exits: `wait3_24h` (50% at 2x, 25% at 5x, 25% at 10x, stop at the pullback low, 24h time stop), `wait3_72h` (same,
+  72h), `hold`, `target5`, `scalp`. (One $10 entry; the original scales in with half size in 2-3 buys.)
+- Before every paper buy: RugCheck (or the free fallback) and a **sell-depth check**: a read-only Jupiter quote for
+  selling ~$15 of the token to SOL (no wallet). Skipped if there is no route, Jupiter's price impact is > 5%, or the
+  quote returns more than 5% less than the pool fee alone would cost. Every attempt -> `scout_checks.csv` with the reason.
+- P&L columns: paper and after fees (pool fee/side 1.25%, 1.1% PumpSwap, + $0.003 network/side, no Jupiter fee,
+  no slippage). Exits on GeckoTerminal 1-min candles, stop first. `python scout_summary.py` (also inside `summary.py`).
+- Settings: `config.SCOUT`. Backtest (box only): `/workspace/copyfilter/scout_backtest.py`.
