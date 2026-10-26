@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HKuQM1KVHi5no2smae8WvC3J2HHPkm7893guzTWtpump": {
-   "mint": "HKuQM1KVHi5no2smae8WvC3J2HHPkm7893guzTWtpump",
-   "symbol": "PHP",
-   "pair": "Gmr1FLfV1WfAogcUyWsB1nyM1xNNrqyx9uLZP1e1Bx3E",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T11:21:44+00:00",
-   "rejected_ts": 1792581704,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0003186,
-   "mcap_usd": 306030,
-   "liquidity_usd": 49190.66,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T11:22:02+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T11:26:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump": {
    "mint": "Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump",
    "symbol": "LASTAGENCY",
@@ -5660,7 +5629,14 @@
    "mcap_usd": 111917,
    "liquidity_usd": 28948.55,
    "age_hours": 1.05,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-26T11:31:05+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "EVGstwCAWo1tNqEJCUecjjwTYkK1jytP8WYVgxBHpump": {
