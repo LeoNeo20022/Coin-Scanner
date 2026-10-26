@@ -6535,6 +6535,24 @@
    "age_hours": 1.27,
    "checks": {},
    "done": false
+  },
+  "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": {
+   "mint": "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump",
+   "symbol": "ANT",
+   "pair": "CqGjKAH8VaRfsVHaJ5We1pdYvBv842qcYimTpf1k9jc8",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T15:36:17+00:00",
+   "rejected_ts": 1793028977,
+   "stage": "grok",
+   "reason": "3057% h6 gain after only 1.25h is classic blow-off; m5 already -19.65% while volume stays elevated.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.001916,
+   "mcap_usd": 1910387,
+   "liquidity_usd": 123667.14,
+   "age_hours": 1.25,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6840,7 +6858,7 @@
    }
   },
   "2026-10-26": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6889,7 +6907,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 3,
     "market:sells_ge_buys_h1": 1,
