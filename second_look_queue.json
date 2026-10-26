@@ -1,36 +1,5 @@
 {
  "entries": {
-  "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": {
-   "mint": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
-   "symbol": "GUZZLEGOAT",
-   "pair": "3Nazu5yFVWPnLQKXt8uNoiksjoL4UAfK2FBvr5b8YvEu",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T09:05:34+00:00",
-   "rejected_ts": 1792573534,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0004226,
-   "mcap_usd": 410125,
-   "liquidity_usd": 95400.25,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T09:09:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T09:06:45+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": {
    "mint": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
    "symbol": "KIMCHI",
@@ -5623,7 +5592,14 @@
    "mcap_usd": 185798,
    "liquidity_usd": 578.02,
    "age_hours": 1.37,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-26T09:07:40+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC": {
