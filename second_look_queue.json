@@ -1,98 +1,5 @@
 {
  "entries": {
-  "De5V2NfBFpUqZor8wyQ88LH3uVNPBVuTBNe6TeRfpump": {
-   "mint": "De5V2NfBFpUqZor8wyQ88LH3uVNPBVuTBNe6TeRfpump",
-   "symbol": "kimchi",
-   "pair": "9mb6MiXnuJipJQe1whaK8HV5ezmu3z2XSFjMAsopcntN",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T01:27:50+00:00",
-   "rejected_ts": 1792546070,
-   "stage": "rugcheck",
-   "reason": "danger:Large Amount of LP Unlocked",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001184,
-   "mcap_usd": 111506,
-   "liquidity_usd": 26718.59,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T01:28:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T01:27:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "BG2cn6Brpua2ik3R1HSxZtjNPbPK32mEk9PY7LSPpump": {
-   "mint": "BG2cn6Brpua2ik3R1HSxZtjNPbPK32mEk9PY7LSPpump",
-   "symbol": "umi",
-   "pair": "BsdoNeyPSf3ujononHQBBemeQkubHFcNJF8ycfQSsVY7",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T01:27:52+00:00",
-   "rejected_ts": 1792546072,
-   "stage": "rugcheck",
-   "reason": "danger:Large Amount of LP Unlocked",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0002951,
-   "mcap_usd": 291586,
-   "liquidity_usd": 43671.19,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T01:28:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    },
-    "48h": {
-     "time": "2026-10-23T01:27:55+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "9mUsvixt7axzYFNxux2ppM2VSBUm6P1wP9WyA1yCgato": {
-   "mint": "9mUsvixt7axzYFNxux2ppM2VSBUm6P1wP9WyA1yCgato",
-   "symbol": "LORENZO",
-   "pair": "8UTe9R8hpK4SHkTr4zoDmUs5jtkPjcezZNqreYtr9J7w",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T01:47:50+00:00",
-   "rejected_ts": 1792547270,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.411e-05,
-   "mcap_usd": 80438,
-   "liquidity_usd": 23449.88,
-   "age_hours": 5.74,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T01:48:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T01:47:55+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FGQbFLtHxZ7vaDdseXwMhkPP3ZP6n48oLRiSHiotpump": {
    "mint": "FGQbFLtHxZ7vaDdseXwMhkPP3ZP6n48oLRiSHiotpump",
    "symbol": "KIMPAD",
@@ -5697,7 +5604,14 @@
    "mcap_usd": 66830,
    "liquidity_usd": 21222.88,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-26T01:52:13+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": {
