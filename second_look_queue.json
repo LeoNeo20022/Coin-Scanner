@@ -1,67 +1,5 @@
 {
  "entries": {
-  "CdXHgb7CboQfbTRZwH2AFnmVnDKuwkrPUFp4jt53pump": {
-   "mint": "CdXHgb7CboQfbTRZwH2AFnmVnDKuwkrPUFp4jt53pump",
-   "symbol": "ORANGIE",
-   "pair": "3tsGYLDAWNDyvPY4X6cG4pYy9yAYjs2h1e5J4kUQo9bt",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T02:38:42+00:00",
-   "rejected_ts": 1792550322,
-   "stage": "rugcheck",
-   "reason": "danger:Creator history of rugged tokens",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 9.783e-05,
-   "mcap_usd": 94926,
-   "liquidity_usd": 26242.81,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T02:40:05+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T02:39:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "Ety3BtYenUFm2Hvz6a6VGRTs8p9sgXggJ3M9XtpZpump": {
-   "mint": "Ety3BtYenUFm2Hvz6a6VGRTs8p9sgXggJ3M9XtpZpump",
-   "symbol": "Trencher",
-   "pair": "D2BgCgaU5gJpb9sKfjQ4USusrHt1K5izXhuJgoKE9UU6",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T02:48:42+00:00",
-   "rejected_ts": 1792550922,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.000191,
-   "mcap_usd": 186189,
-   "liquidity_usd": 38435.81,
-   "age_hours": 1.5,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T02:50:04+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T02:49:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DBFBpthRrPA8M52LeVk6kbS8H2ZUCWn1aJH6yJTGpump": {
    "mint": "DBFBpthRrPA8M52LeVk6kbS8H2ZUCWn1aJH6yJTGpump",
    "symbol": "reply",
@@ -6563,6 +6501,24 @@
    "age_hours": 20.3,
    "checks": {},
    "done": false
+  },
+  "6iaMAnGphKAiXN7q1VkhL8YJsp7Qbg9r9j4ismC8pump": {
+   "mint": "6iaMAnGphKAiXN7q1VkhL8YJsp7Qbg9r9j4ismC8pump",
+   "symbol": "KILLA",
+   "pair": "GXZthabC3eHP3T1NMcBmSCwRns18r9BmuS6T7Eomem6G",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T02:55:56+00:00",
+   "rejected_ts": 1792983356,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 6.919e-05,
+   "mcap_usd": 65779,
+   "liquidity_usd": 20762.09,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6868,7 +6824,7 @@
    }
   },
   "2026-10-26": {
-   "total": 14,
+   "total": 15,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6887,7 +6843,7 @@
     "market:too_new": 3,
     "market:pumpfun_bonding_curve": 3,
     "market:mcap_too_low": 2,
-    "rugcheck:top10": 2,
+    "rugcheck:top10": 3,
     "market:liquidity_low": 1,
     "grok:skip": 2,
     "rugcheck:lp_unlocked": 1
