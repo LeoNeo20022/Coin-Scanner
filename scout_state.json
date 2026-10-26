@@ -1,5 +1,29 @@
 {
  "watch": {
+  "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump": {
+   "t": 1793034991,
+   "src": "gt:trending_pools"
+  },
+  "3Dgwn5E7H5a8k6iGrz3qirkaJqUaJrKHEZ2xPcLRpump": {
+   "t": 1793034991,
+   "src": "gt:trending_pools"
+  },
+  "Gc5hxBYZjxWNpt3B8XYbp4YoGCHSMfrJK7ex4GUTpump": {
+   "t": 1793034991,
+   "src": "gt:trending_pools"
+  },
+  "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": {
+   "t": 1793034991,
+   "src": "gt:trending_pools"
+  },
+  "3My3UFmTdugQU6Meh4oUZ3YPHthvgXWooT3RCpAKpump": {
+   "t": 1793034991,
+   "src": "scanner"
+  },
+  "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": {
+   "t": 1793034991,
+   "src": "scanner"
+  },
   "KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP": {
    "t": 1793034688,
    "src": "gt:trending_pools"
@@ -253,7 +277,10 @@
   "5sCE8tvdBA3US6suimHaenDw5QjQSeWdemMwTePBpump": 1793034688,
   "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793034688,
   "CsovxRtEM6g4jcVGtcTB3xwycoAuPjEafpUTR6zrpump": 1793034688,
-  "FSidgiX9pSKsKqCSip5xY6DRK4NZdY5TFr4n1wYh54qv": 1793034688
+  "FSidgiX9pSKsKqCSip5xY6DRK4NZdY5TFr4n1wYh54qv": 1793034688,
+  "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793034991,
+  "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793034991,
+  "fR9dwtL4PhAcV19XyFnnsAvWcXsk93raxvWdWCqpump": 1793034991
  },
  "cool": {
   "pool|FSidgiX9pSKsKqCSip5xY6DRK4NZdY5TFr4n1wYh54qv": 1793055999,
@@ -263,17 +290,23 @@
   "pool|3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793056288,
   "pool|5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793056288
  },
- "decimals": {},
+ "decimals": {
+  "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 6
+ },
  "w3_seen": {},
  "bought": {
-  "pool": {},
+  "pool": {
+   "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793035015
+  },
   "wait3": {}
  },
  "days": {
   "2026-10-26": {
-   "pool": 0,
+   "pool": 1,
    "wait3": 0,
-   "pool_slots": []
+   "pool_slots": [
+    "8"
+   ]
   }
  }
 }
