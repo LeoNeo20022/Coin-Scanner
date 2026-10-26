@@ -100,10 +100,6 @@
   "market_logged": 1792511868.7774916,
   "market_reason": "pumpfun_bonding_curve"
  },
- "BcKHDvDTi6d83WYHcX1NnYzF11Yax9Q8M8NCqXJJnSXe": {
-  "market_logged": 1792428880.5496755,
-  "market_reason": "mcap_too_low"
- },
  "87w3p3UGaJJfrjcnhobMAjttAjL1SFgZijpqqW4jWjms": {
   "market_logged": 1792429480.0902374,
   "market_reason": "mcap_too_low"
@@ -11917,12 +11913,14 @@
   "market_logged": 1793031865.71707
  },
  "766RYwWxvvT6B4SLTz14hWosjnwN9yJUB8txcfzfpump": {
-  "market_logged": 1793031865.71707,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793033965.990107,
+  "market_reason": "mcap_too_low"
  },
  "fR9dwtL4PhAcV19XyFnnsAvWcXsk93raxvWdWCqpump": {
   "market_logged": 1793031865.71707,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "MFORGE",
+  "judged": 1793033965.990107
  },
  "FC1SCp6fnsbadsfk9MJbs4TxDBYg5n45yp1v2PCBpump": {
   "market_logged": 1793031865.71707,
@@ -12026,5 +12024,9 @@
  "BXuygUoyVY99HmeKJHARZkcpfoMmo66z57epsjJjpump": {
   "market_logged": 1793033665.6716273,
   "market_reason": "too_new"
+ },
+ "2KgLdjNSnhyX4wA1kWCthpSnYjsbbgJKKKG2dEXApump": {
+  "market_logged": 1793033965.990107,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
