@@ -1,36 +1,5 @@
 {
  "entries": {
-  "7wY4rfVsUcNcwKcrLw6CHazzXw4bihcwP73ynj6jpump": {
-   "mint": "7wY4rfVsUcNcwKcrLw6CHazzXw4bihcwP73ynj6jpump",
-   "symbol": "ALON",
-   "pair": "4JCBNsFaJjio4fSTpBD6GfMZPwydJHUpjy2sWMcEtoXK",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T05:26:01+00:00",
-   "rejected_ts": 1792560361,
-   "stage": "rugcheck",
-   "reason": "danger:Top 10 holders high ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001149,
-   "mcap_usd": 113625,
-   "liquidity_usd": 28858.65,
-   "age_hours": 1.1,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T05:29:08+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-23T05:27:30+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "2jCuh5iQbXCJBt1kfzeUT2KECkxUzRkWnGf5VXUspump": {
    "mint": "2jCuh5iQbXCJBt1kfzeUT2KECkxUzRkWnGf5VXUspump",
    "symbol": "X",
@@ -4454,9 +4423,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-26T05:32:44+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "B7cX5wW3wxHhRzSYTpM56YgMo8pesJjJk6ehz8aXpump": {
    "mint": "B7cX5wW3wxHhRzSYTpM56YgMo8pesJjJk6ehz8aXpump",
