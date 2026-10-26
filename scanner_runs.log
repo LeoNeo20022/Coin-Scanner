@@ -1,13 +1,3 @@
-[2026-10-24T04:39:06+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=26s
-[2026-10-24T04:43:26+00:00] run start (LOG ONLY)
-[2026-10-24T04:43:36+00:00] discovered=64 fresh=47 market_pass=0
-[2026-10-24T04:43:36+00:00] grok daily budget 3/40 used, 0 no-response, $0.0086 (2026-10-24 UTC)
-[2026-10-24T04:43:36+00:00] run end {"discovered": 64, "skipped_recent": 17, "no_pair": 0, "market": {"pumpfun_bonding_curve": 17, "too_new": 2, "mcap_too_low": 18, "missing:mcap_usd": 1, "too_old": 7, "mcap_too_high": 1, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
-[2026-10-24T04:43:38+00:00] second_look: pass end {"queued": 174, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-24T04:44:04+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=26s
-[2026-10-24T04:48:26+00:00] run start (LOG ONLY)
-[2026-10-24T04:48:36+00:00] discovered=65 fresh=48 market_pass=0
-[2026-10-24T04:48:36+00:00] grok daily budget 3/40 used, 0 no-response, $0.0086 (2026-10-24 UTC)
 [2026-10-24T04:48:36+00:00] run end {"discovered": 65, "skipped_recent": 17, "no_pair": 0, "market": {"mcap_too_low": 19, "pumpfun_bonding_curve": 17, "too_new": 2, "missing:mcap_usd": 1, "too_old": 7, "mcap_too_high": 1, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-24T04:48:38+00:00] second_look: pass end {"queued": 174, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-24T04:49:04+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=27s
@@ -4998,3 +4988,13 @@
 [2026-10-26T16:59:39+00:00] run end {"discovered": 61, "skipped_recent": 12, "no_pair": 2, "market": {"pumpfun_bonding_curve": 15, "too_new": 4, "missing:liquidity_usd": 3, "mcap_too_low": 14, "mcap_too_high": 3, "too_old": 7}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=19s
 [2026-10-26T16:59:39+00:00] second_look: pass end {"queued": 243, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-26T16:59:39+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-26T17:06:18+00:00] run start (LOG ONLY)
+[2026-10-26T17:06:28+00:00] discovered=62 fresh=49 market_pass=1
+[2026-10-26T17:06:28+00:00] grok daily budget 15/40 used, 3 no-response, $0.0412 (2026-10-26 UTC)
+[2026-10-26T17:06:37+00:00] grok call 6.9s model=grok-4.3 tokens=987+64 reasoning=506
+[2026-10-26T17:06:37+00:00] grok [rugcheck] AI BXuygUoy… -> SKIP (0.85) 289% h1 pump with buys already fading (m5 sells > buys) after massive volume spike; classic blow-off top. | risk: Entering after the initial crowd has exited, leaving thin follow-through
+[2026-10-26T17:06:38+00:00] run end {"discovered": 62, "skipped_recent": 13, "no_pair": 3, "market": {"pumpfun_bonding_curve": 15, "too_new": 3, "missing:liquidity_usd": 3, "mcap_too_low": 14, "mcap_too_high": 3, "too_old": 7}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=20s
+[2026-10-26T17:06:38+00:00] second_look: pass end {"queued": 243, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-26T17:06:38+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-26T17:07:57+00:00] scout: wait3 candles error 5YEk5atS ReadTimeout
+[2026-10-26T17:08:11+00:00] scout: pass end {"watch": 41, "a_qualify": 24, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=92s
