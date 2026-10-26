@@ -1,36 +1,5 @@
 {
  "entries": {
-  "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": {
-   "mint": "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
-   "symbol": "KIMCHIBOSS",
-   "pair": "A8HS75tMWQSTJ2YHzaerJHEHkNa2QzNZNdf3CkhsAjRJ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T01:07:37+00:00",
-   "rejected_ts": 1792544857,
-   "stage": "grok",
-   "reason": "901% h6 and 150% h1 gains with m5 already -13% point to fading spike after blow-off. Buy pressure remains elevated but volume and price action look like exit li",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0005857,
-   "mcap_usd": 581033,
-   "liquidity_usd": 66818.76,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T01:12:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T01:12:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "De5V2NfBFpUqZor8wyQ88LH3uVNPBVuTBNe6TeRfpump": {
    "mint": "De5V2NfBFpUqZor8wyQ88LH3uVNPBVuTBNe6TeRfpump",
    "symbol": "kimchi",
@@ -5703,7 +5672,14 @@
    "mcap_usd": 362321,
    "liquidity_usd": 50076.7,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-26T01:16:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "8BqMeQLvypnnKbHS9hFHMzfxcY9Fea6mB5AnVoKNpump": {
