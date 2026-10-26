@@ -6483,6 +6483,42 @@
    "age_hours": 0.74,
    "checks": {},
    "done": false
+  },
+  "8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": {
+   "mint": "8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump",
+   "symbol": "ROFLAMP",
+   "pair": "HzYT4SKrWUWsPSBk7A54574HSdfEuqajYR7fCLx7jXYD",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T04:37:18+00:00",
+   "rejected_ts": 1792989438,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0002386,
+   "mcap_usd": 232367,
+   "liquidity_usd": 40379.96,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
+  },
+  "5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": {
+   "mint": "5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray",
+   "symbol": "RAYPAD",
+   "pair": "7ftn7EhRcEodfTdgo8CgM9fxHjJqSFvYc3VUk8dN4fCv",
+   "dex": "raydium",
+   "rejected_at": "2026-10-26T04:37:20+00:00",
+   "rejected_ts": 1792989440,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001306,
+   "mcap_usd": 130636,
+   "liquidity_usd": 33394.84,
+   "age_hours": 1.86,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6788,7 +6824,7 @@
    }
   },
   "2026-10-26": {
-   "total": 21,
+   "total": 23,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6815,10 +6851,11 @@
     "market:too_new": 5,
     "market:pumpfun_bonding_curve": 5,
     "market:mcap_too_low": 4,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "market:liquidity_low": 1,
     "grok:skip": 2,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "rugcheck:danger": 1
    }
   }
  }
