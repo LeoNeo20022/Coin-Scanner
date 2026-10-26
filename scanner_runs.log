@@ -1,11 +1,3 @@
-[2026-10-24T06:31:40+00:00] grok call 11.7s model=grok-4.3 tokens=997+77 reasoning=597
-[2026-10-24T06:31:40+00:00] grok [rugcheck] GSIR GoLpdpR9… -> SKIP (0.85) 1308% h6 gain with buys_m5 collapsing to 3 vs 336 in h1 shows fading spike. Slight m5 dip after 24% h1 run suggests early exit phase. | risk: Post-pump momentum loss on 1-hour-old token
-[2026-10-24T06:31:42+00:00] run end {"discovered": 67, "skipped_recent": 19, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 16, "missing:mcap_usd": 1, "too_old": 6, "mcap_too_high": 1, "liquidity_low": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=25s
-[2026-10-24T06:31:44+00:00] second_look: 24h PETECOOPER vqeAuApu… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
-[2026-10-24T06:31:46+00:00] second_look: pass end {"queued": 181, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
-[2026-10-24T06:32:03+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=17s
-[2026-10-24T06:36:17+00:00] run start (LOG ONLY)
-[2026-10-24T06:36:27+00:00] discovered=66 fresh=46 market_pass=0
 [2026-10-24T06:36:27+00:00] grok daily budget 7/40 used, 0 no-response, $0.0202 (2026-10-24 UTC)
 [2026-10-24T06:36:27+00:00] run end {"discovered": 66, "skipped_recent": 20, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "liquidity_low": 2, "mcap_too_low": 14, "missing:mcap_usd": 1, "too_old": 6, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-24T06:36:29+00:00] second_look: pass end {"queued": 181, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
@@ -4998,3 +4990,11 @@
 [2026-10-26T18:36:44+00:00] scout: wait3 candles error A17w3re6 RuntimeError
 [2026-10-26T18:37:15+00:00] scout: wait3 candles error GGCcC1xn RuntimeError
 [2026-10-26T18:37:44+00:00] scout: pass end {"watch": 132, "a_qualify": 32, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=99s
+[2026-10-26T18:40:15+00:00] run start (LOG ONLY)
+[2026-10-26T18:40:24+00:00] discovered=62 fresh=47 market_pass=1
+[2026-10-26T18:40:24+00:00] grok daily budget 19/40 used, 3 no-response, $0.0520 (2026-10-26 UTC)
+[2026-10-26T18:40:31+00:00] run end {"discovered": 62, "skipped_recent": 15, "no_pair": 1, "market": {"pumpfun_bonding_curve": 18, "liquidity_low": 1, "mcap_too_low": 12, "missing:mcap_usd": 1, "too_new": 3, "too_old": 7, "mcap_too_high": 3}, "rug": {"top10": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=16s
+[2026-10-26T18:40:31+00:00] second_look: pass end {"queued": 244, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-26T18:40:31+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-26T18:41:11+00:00] scout: wait3 candles error AYqXTCgv RuntimeError
+[2026-10-26T18:42:00+00:00] scout: pass end {"watch": 134, "a_qualify": 34, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=89s
