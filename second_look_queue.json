@@ -6600,6 +6600,24 @@
    "age_hours": 0.94,
    "checks": {},
    "done": false
+  },
+  "5ejn3WqMHKgf57puQywbuYGyhPuuP9UXizKqV332pump": {
+   "mint": "5ejn3WqMHKgf57puQywbuYGyhPuuP9UXizKqV332pump",
+   "symbol": "Olivia",
+   "pair": "6Ynp33NyG1i813WmrkoVWWup6BxbanNXL6a2DCPmUaWt",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T00:56:13+00:00",
+   "rejected_ts": 1792976173,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 9.244e-05,
+   "mcap_usd": 89260,
+   "liquidity_usd": 25913.38,
+   "age_hours": 1.61,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6905,7 +6923,7 @@
    }
   },
   "2026-10-26": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6915,7 +6933,8 @@
    "reasons": {
     "market:too_new": 1,
     "market:pumpfun_bonding_curve": 1,
-    "market:mcap_too_low": 1
+    "market:mcap_too_low": 1,
+    "rugcheck:top10": 1
    }
   }
  }
