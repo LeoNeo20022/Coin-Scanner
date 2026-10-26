@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": {
-   "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
-   "symbol": "MONEYBIZ",
-   "pair": "GS1bQcY4W3ScfJMo5Ch9c1xggBUqNpvjoWY7Yc7pJGdL",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T14:21:32+00:00",
-   "rejected_ts": 1792592492,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-boosts/top",
-   "price_usd": 0.00158,
-   "mcap_usd": 1569288,
-   "liquidity_usd": 120970.07,
-   "age_hours": 25.23,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T14:25:12+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-10-23T14:23:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "LUpgK4hZJbyDY1UyZPKZLbRKEqYTWVxxgHFNvoDpump": {
    "mint": "LUpgK4hZJbyDY1UyZPKZLbRKEqYTWVxxgHFNvoDpump",
    "symbol": "DOT",
@@ -4423,9 +4392,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-26T14:33:44+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": {
    "mint": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
@@ -5742,7 +5717,14 @@
    "mcap_usd": 294786,
    "liquidity_usd": 45672.92,
    "age_hours": 5.46,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-26T14:33:44+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "3Hz6XFrdmFKt79HSSahTeYp7BztXtq9znD8A2aPzpump": {
