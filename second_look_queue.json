@@ -6652,6 +6652,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": {
+   "mint": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+   "symbol": "CATTLEAXE",
+   "pair": "3p3uYa9AYzV7w2nHEJeo8ANkuuwhYUonQvhHS8LyrqJY",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T20:41:42+00:00",
+   "rejected_ts": 1793047302,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-boosts/top",
+   "price_usd": 0.0003324,
+   "mcap_usd": 330834,
+   "liquidity_usd": 56741.02,
+   "age_hours": 49.1,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6957,7 +6975,7 @@
    }
   },
   "2026-10-26": {
-   "total": 48,
+   "total": 49,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7015,7 +7033,7 @@
     "rugcheck:danger": 3,
     "market:sells_ge_buys_h1": 3,
     "market:volume_h1_low": 2,
-    "rugcheck:insiders": 2
+    "rugcheck:insiders": 3
    }
   }
  }
