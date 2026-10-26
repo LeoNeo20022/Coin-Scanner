@@ -12074,7 +12074,10 @@
  },
  "5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump": {
   "market_logged": 1792978617.389324,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "MAGA2028",
+  "grok_fail": 1,
+  "grok_retry_at": 1792985124.6110778
  },
  "BRWwaW2TAfnuma8aneunWoYToZPWH6qiVxg6qZwKpump": {
   "market_logged": 1792978917.508674,
@@ -12090,5 +12093,9 @@
  "3k44GEL1BRGEWG1bYjYjVfM2a8eHSqPUnkdqDC7Fpump": {
   "market_logged": 1792980624.5798752,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": {
+  "judged": 1792981524.6110778,
+  "symbol": "PMUP"
  }
 }

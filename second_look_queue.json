@@ -6538,6 +6538,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": {
+   "mint": "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump",
+   "symbol": "PMUP",
+   "pair": "Ang7vjh7KoSScfbuE1ZWW6gAoXf7EcAZLPJzmMdcgwZj",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T02:25:29+00:00",
+   "rejected_ts": 1792981529,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001757,
+   "mcap_usd": 166063,
+   "liquidity_usd": 36068.55,
+   "age_hours": 20.3,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6843,7 +6861,7 @@
    }
   },
   "2026-10-26": {
-   "total": 13,
+   "total": 14,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6862,7 +6880,7 @@
     "market:too_new": 3,
     "market:pumpfun_bonding_curve": 3,
     "market:mcap_too_low": 2,
-    "rugcheck:top10": 1,
+    "rugcheck:top10": 2,
     "market:liquidity_low": 1,
     "grok:skip": 2,
     "rugcheck:lp_unlocked": 1
