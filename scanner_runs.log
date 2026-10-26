@@ -1,11 +1,3 @@
-[2026-10-24T05:04:32+00:00] second_look: pass end {"queued": 177, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-24T05:05:13+00:00] launch: paper: candles unavailable for 2mrT8hiz (RuntimeError), using snapshot price
-[2026-10-24T05:05:13+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=41s
-[2026-10-24T05:09:20+00:00] run start (LOG ONLY)
-[2026-10-24T05:09:30+00:00] discovered=64 fresh=47 market_pass=2
-[2026-10-24T05:09:30+00:00] grok daily budget 3/40 used, 0 no-response, $0.0086 (2026-10-24 UTC)
-[2026-10-24T05:09:45+00:00] grok call 11.4s model=grok-4.3 tokens=995+74 reasoning=854
-[2026-10-24T05:09:45+00:00] grok [rugcheck] BERU 74aMfYvU… -> SKIP (0.6) low confidence 0.6: Buys exceed sells across h1 and m5 with very high volume; all risk fields clean, LP 100% locked, top10 low. | risk: 103% h6 gain on 1h-old token risks buying late into initial spike
 [2026-10-24T05:09:47+00:00] run end {"discovered": 64, "skipped_recent": 17, "no_pair": 0, "market": {"too_new": 2, "mcap_too_low": 18, "pumpfun_bonding_curve": 15, "missing:mcap_usd": 1, "liquidity_low": 2, "too_old": 6, "mcap_too_high": 1}, "rug": {"top10": 1}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=26s
 [2026-10-24T05:09:49+00:00] second_look: pass end {"queued": 178, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-24T05:10:06+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=17s
@@ -4998,3 +4990,11 @@
 [2026-10-26T17:26:28+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-10-26T17:27:06+00:00] scout: wait3 candles error 5QREAgtf RuntimeError
 [2026-10-26T17:27:09+00:00] scout: pass end {"watch": 79, "a_qualify": 26, "a_open": 0, "b_eval": 2, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=42s
+[2026-10-26T17:31:18+00:00] run start (LOG ONLY)
+[2026-10-26T17:31:27+00:00] discovered=59 fresh=44 market_pass=0
+[2026-10-26T17:31:27+00:00] grok daily budget 16/40 used, 3 no-response, $0.0437 (2026-10-26 UTC)
+[2026-10-26T17:31:27+00:00] run end {"discovered": 59, "skipped_recent": 15, "no_pair": 2, "market": {"pumpfun_bonding_curve": 12, "mcap_too_low": 12, "missing:liquidity_usd": 5, "too_new": 2, "missing:mcap_usd": 1, "sells_ge_buys_h1": 1, "mcap_too_high": 3, "too_old": 6}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-26T17:31:28+00:00] second_look: pass end {"queued": 244, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-26T17:31:28+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-26T17:31:30+00:00] scout: paper: [pool/scalp] ANT closed stop_loss -1.20 after fees
+[2026-10-26T17:31:36+00:00] scout: pass end {"watch": 81, "a_qualify": 28, "a_open": 0, "b_eval": 0, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=9s
