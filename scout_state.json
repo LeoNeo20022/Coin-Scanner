@@ -1,5 +1,25 @@
 {
  "watch": {
+  "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+   "t": 1793038109,
+   "src": "gt:trending_pools"
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "t": 1793038109,
+   "src": "gt:trending_pools"
+  },
+  "DWCq2vKkfFzhWvrM6EtcSX2cxkrw2pXefZU89je1Yh4r": {
+   "t": 1793038109,
+   "src": "gt:pools"
+  },
+  "6g551ZtnvTG6amxYzag4D94JRMkTKCs6165xREjtb4SA": {
+   "t": 1793038109,
+   "src": "gt:new_pools"
+  },
+  "HLqHprH5aHNXsMwCuLEDHc15VgJ7tHsvWx6Q9gnVpump": {
+   "t": 1793038109,
+   "src": "scanner"
+  },
   "5iFjNhQ4LQWiNiBFwqf9NRFALBa3wRc4v5dzsXQVpump": {
    "t": 1793037806,
    "src": "gt:trending_pools"
@@ -470,7 +490,7 @@
   }
  },
  "evals": {
-  "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793036188,
+  "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793038109,
   "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793036188,
   "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793037207,
   "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793036188,
@@ -498,7 +518,12 @@
   "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793037806,
   "GGCcC1xnsuhB6SRWv9ipGWVZwd1guyqSLFXdjctkpump": 1793037806,
   "i8Mq9wk9FBiCdJdqtUtvuiaSERKSReeHd7VReUEpump": 1793037806,
-  "27Fe2sET619et2hXBBJXdabBK7ScD5UNym64u6Dqpump": 1793037806
+  "27Fe2sET619et2hXBBJXdabBK7ScD5UNym64u6Dqpump": 1793037806,
+  "DWCq2vKkfFzhWvrM6EtcSX2cxkrw2pXefZU89je1Yh4r": 1793038109,
+  "bQ3xgfzHYKNwiYLbibVjq2S7S3dP2Dq4GesZtLipump": 1793038109,
+  "93V9oUvKghBNtqPrUjKtDCrr9nrLxsj5WuwddJWEpump": 1793038109,
+  "AYqXTCgv7jw8RXU6UR7yoqMo7hD1ryNfctjVQs1zpump": 1793038109,
+  "DGvwrm6BUZMPnegAXMDTb52WjVZPTe21aAqkYv9Hpump": 1793038109
  },
  "cool": {
   "pool|FSidgiX9pSKsKqCSip5xY6DRK4NZdY5TFr4n1wYh54qv": 1793055999,
@@ -509,24 +534,29 @@
   "pool|5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793056288,
   "pool|DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": 1793059406,
   "pool|JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793059406,
-  "pool|CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793059406
+  "pool|CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793059406,
+  "pool|DWCq2vKkfFzhWvrM6EtcSX2cxkrw2pXefZU89je1Yh4r": 1793059709,
+  "pool|JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793059709
  },
  "decimals": {
-  "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 6
+  "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 6,
+  "AYqXTCgv7jw8RXU6UR7yoqMo7hD1ryNfctjVQs1zpump": 6
  },
  "w3_seen": {},
  "bought": {
   "pool": {
-   "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793035015
+   "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793035015,
+   "AYqXTCgv7jw8RXU6UR7yoqMo7hD1ryNfctjVQs1zpump": 1793038127
   },
   "wait3": {}
  },
  "days": {
   "2026-10-26": {
-   "pool": 1,
+   "pool": 2,
    "wait3": 0,
    "pool_slots": [
-    "8"
+    "8",
+    "9"
    ]
   }
  }
