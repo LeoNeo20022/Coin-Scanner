@@ -1,36 +1,5 @@
 {
  "entries": {
-  "65ruvkKxdqmR2aaohdLykPQ9GmYQkjrVcWhX8Lcrpump": {
-   "mint": "65ruvkKxdqmR2aaohdLykPQ9GmYQkjrVcWhX8Lcrpump",
-   "symbol": "MEME",
-   "pair": "7X23C9sGjE3Sn229GmpSxpGctsgFSXUHjHvHgg42o4ic",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T08:29:27+00:00",
-   "rejected_ts": 1792571367,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.037e-05,
-   "mcap_usd": 50375,
-   "liquidity_usd": 17843.98,
-   "age_hours": 0.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T08:33:47+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T08:29:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": {
    "mint": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
    "symbol": "GUZZLEGOAT",
@@ -4392,9 +4361,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "top10"
+    },
+    "48h": {
+     "time": "2026-10-26T08:37:58+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68": {
    "mint": "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68",
