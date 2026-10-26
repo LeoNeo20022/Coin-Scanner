@@ -4423,9 +4423,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-26T05:12:55+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": {
    "mint": "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump",
@@ -6533,6 +6539,42 @@
    "age_hours": 1.81,
    "checks": {},
    "done": false
+  },
+  "8SdiFzutvkQE3V47JyGKjE5pnCzMG3xdcPKESF8hpump": {
+   "mint": "8SdiFzutvkQE3V47JyGKjE5pnCzMG3xdcPKESF8hpump",
+   "symbol": "neet",
+   "pair": "Jtbc6qY4FsdBzgj5d6vYNL5dcVuU3G6XYa31Uz8b59T",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T05:12:44+00:00",
+   "rejected_ts": 1792991564,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001361,
+   "mcap_usd": 131905,
+   "liquidity_usd": 31515.59,
+   "age_hours": 1.72,
+   "checks": {},
+   "done": false
+  },
+  "BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": {
+   "mint": "BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump",
+   "symbol": "ApeLax",
+   "pair": "HY6tXeV7ZefucL8hs3hjqgWnDYeYtj4gG58iTP2WNhta",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T05:12:51+00:00",
+   "rejected_ts": 1792991571,
+   "stage": "grok",
+   "reason": "Huge h1/h6 gains already reversing in m5 with sells overtaking buys; thin liq on 117k mcap.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001217,
+   "mcap_usd": 117244,
+   "liquidity_usd": 27942.09,
+   "age_hours": 1.29,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6838,7 +6880,7 @@
    }
   },
   "2026-10-26": {
-   "total": 26,
+   "total": 28,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6869,9 +6911,9 @@
     "market:too_new": 5,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 5,
-    "rugcheck:top10": 4,
+    "rugcheck:top10": 5,
     "market:liquidity_low": 1,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 1,
     "market:sells_ge_buys_h1": 1
