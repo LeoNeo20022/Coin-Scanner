@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": {
-   "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-   "symbol": "PHP",
-   "pair": "YQ4NNeQxHAtdcB8ohx21eJ9U8eTzxNRvGNHkRaA4Pnw",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T06:17:12+00:00",
-   "rejected_ts": 1792563432,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0002617,
-   "mcap_usd": 255634,
-   "liquidity_usd": 45064.76,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T06:19:51+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    },
-    "48h": {
-     "time": "2026-10-23T06:20:04+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
   "8FGreSHZeiinbu3zPeBA3vawxvz2phvyomnPn1NEpump": {
    "mint": "8FGreSHZeiinbu3zPeBA3vawxvz2phvyomnPn1NEpump",
    "symbol": "Clout",
@@ -4392,9 +4361,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-26T06:33:39+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "6ZY8335NunQkyKGasxfbL7iHmvoqFbSLbiXt7qUSpump": {
    "mint": "6ZY8335NunQkyKGasxfbL7iHmvoqFbSLbiXt7qUSpump",
