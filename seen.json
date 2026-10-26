@@ -7949,8 +7949,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": {
-  "market_logged": 1792966154.0020313,
-  "market_reason": "mcap_too_low",
+  "market_logged": 1792995189.7807715,
+  "market_reason": "volume_h1_low",
   "judged": 1792744494.3375373,
   "symbol": "GUST"
  },
@@ -12162,7 +12162,9 @@
  },
  "FC8NVR6yg4kc1jP48QR6rePRbfqv58zRRSxmTMbkpump": {
   "market_logged": 1792990333.3789332,
-  "market_reason": "sells_ge_buys_h1"
+  "market_reason": "sells_ge_buys_h1",
+  "symbol": "Shinagami",
+  "judged": 1792995189.7807715
  },
  "L4txJYbXXDBbamVtbPJ3PJaMFjeGt6tiB9kF1nspump": {
   "market_logged": 1792987600.3255956,
@@ -12233,5 +12235,8 @@
  "2LNY72wupJgnH3XT3zHQXEAgvZQzrPgDXCCY6MC1pump": {
   "market_logged": 1792994589.9258728,
   "market_reason": "mcap_too_low"
+ },
+ "8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": {
+  "market_logged": 1792995189.7807715
  }
 }
