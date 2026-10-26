@@ -1,10 +1,3 @@
-[2026-10-24T01:29:24+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=73s
-[2026-10-24T01:32:56+00:00] run start (LOG ONLY)
-[2026-10-24T01:33:06+00:00] discovered=69 fresh=51 market_pass=0
-[2026-10-24T01:33:06+00:00] grok daily budget 1/40 used, 0 no-response, $0.0031 (2026-10-24 UTC)
-[2026-10-24T01:33:06+00:00] run end {"discovered": 69, "skipped_recent": 18, "no_pair": 0, "market": {"pumpfun_bonding_curve": 24, "mcap_too_low": 16, "too_new": 1, "too_old": 8, "mcap_too_high": 1, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-24T01:33:10+00:00] second_look: pass end {"queued": 163, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
-[2026-10-24T01:34:24+00:00] launch: paper: candles unavailable for 9Bn4iAbr (RuntimeError), using snapshot price
 [2026-10-24T01:34:24+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=73s
 [2026-10-24T01:37:56+00:00] run start (LOG ONLY)
 [2026-10-24T01:38:06+00:00] discovered=69 fresh=51 market_pass=0
@@ -4998,3 +4991,10 @@
 [2026-10-26T10:31:42+00:00] run end {"discovered": 50, "skipped_recent": 17, "no_pair": 1, "market": {"pumpfun_bonding_curve": 9, "mcap_too_low": 16, "volume_h1_low": 1, "liquidity_low": 2, "mcap_too_high": 2, "too_old": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-26T10:31:45+00:00] second_look: pass end {"queued": 242, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-26T10:31:45+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-26T10:36:32+00:00] run start (LOG ONLY)
+[2026-10-26T10:36:42+00:00] discovered=48 fresh=32 market_pass=0
+[2026-10-26T10:36:42+00:00] grok daily budget 9/40 used, 2 no-response, $0.0242 (2026-10-26 UTC)
+[2026-10-26T10:36:42+00:00] run end {"discovered": 48, "skipped_recent": 16, "no_pair": 1, "market": {"pumpfun_bonding_curve": 9, "mcap_too_low": 14, "volume_h1_low": 2, "liquidity_low": 2, "mcap_too_high": 2, "too_old": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-26T10:36:44+00:00] second_look: 24h BTC BTCk1ZAA… (rejected rugcheck:top10) -> fail: volume_h1_low
+[2026-10-26T10:36:46+00:00] second_look: pass end {"queued": 242, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
+[2026-10-26T10:36:46+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
