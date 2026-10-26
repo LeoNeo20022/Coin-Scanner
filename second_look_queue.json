@@ -4516,9 +4516,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-26T11:01:06+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "5kzuj5MvGyVgTi3jx1sWCXHyxBo2DnDayWtbmUqxpump": {
    "mint": "5kzuj5MvGyVgTi3jx1sWCXHyxBo2DnDayWtbmUqxpump",
@@ -6562,6 +6568,24 @@
    "age_hours": 70.89,
    "checks": {},
    "done": false
+  },
+  "merKB1YufDS1RrQXsbFsDoT9es12jgV1ZGn6hkYwVfQ": {
+   "mint": "merKB1YufDS1RrQXsbFsDoT9es12jgV1ZGn6hkYwVfQ",
+   "symbol": "MER",
+   "pair": "FEjZMPnSvBFqBAqi4pKrCj6sowHUkjsD9px9SgyjkbKm",
+   "dex": "meteora",
+   "rejected_at": "2026-10-26T11:01:04+00:00",
+   "rejected_ts": 1793012464,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 0.0004328,
+   "mcap_usd": 51945,
+   "liquidity_usd": 16758.04,
+   "age_hours": 0.85,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6867,7 +6891,7 @@
    }
   },
   "2026-10-26": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6900,14 +6924,16 @@
     "07": 1,
     "07|market:liquidity_low": 1,
     "10": 1,
-    "10|market:liquidity_low": 1
+    "10|market:liquidity_low": 1,
+    "11": 1,
+    "11|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
-    "market:liquidity_low": 3,
+    "market:liquidity_low": 4,
     "grok:skip": 4,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 2,
