@@ -1,36 +1,5 @@
 {
  "entries": {
-  "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": {
-   "mint": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
-   "symbol": "KIMCHI",
-   "pair": "AYq1Hkkkq6oitjCNbDEYUo9AHHo6FLaXjuybmLBvvPzD",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-21T11:11:53+00:00",
-   "rejected_ts": 1792581113,
-   "stage": "grok",
-   "reason": "Catastrophic price collapse (-89% 1h, -91% 6h) despite high volume; buys outnumber sells but price action shows heavy sell pressure dominating.",
-   "reason_key": "grok:skip",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 0.0009557,
-   "mcap_usd": 952718,
-   "liquidity_usd": 92626.74,
-   "age_hours": 11.35,
-   "checks": {
-    "24h": {
-     "time": "2026-10-22T11:16:23+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-23T11:16:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HKuQM1KVHi5no2smae8WvC3J2HHPkm7893guzTWtpump": {
    "mint": "HKuQM1KVHi5no2smae8WvC3J2HHPkm7893guzTWtpump",
    "symbol": "PHP",
@@ -5666,7 +5635,14 @@
    "mcap_usd": 71061,
    "liquidity_usd": 24196.71,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-26T11:21:05+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5kPuDh6YVwCxY1xVTe4gz6cFPkvov2GD7i83kbyjpump": {
