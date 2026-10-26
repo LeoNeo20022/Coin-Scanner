@@ -1,14 +1,3 @@
-[2026-10-24T11:37:43+00:00] grok daily budget 7/40 used, 0 no-response, $0.0202 (2026-10-24 UTC)
-[2026-10-24T11:37:45+00:00] run end {"discovered": 60, "skipped_recent": 16, "no_pair": 0, "market": {"pumpfun_bonding_curve": 23, "mcap_too_low": 11, "too_old": 5, "volume_h1_low": 1, "mcap_too_high": 2, "liquidity_low": 1}, "rug": {"lp_unlocked": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-24T11:37:47+00:00] second_look: pass end {"queued": 190, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-24T11:37:55+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=7s
-[2026-10-24T11:38:06+00:00] run start (LOG ONLY)
-[2026-10-24T11:38:16+00:00] discovered=59 fresh=43 market_pass=0
-[2026-10-24T11:38:16+00:00] grok daily budget 7/40 used, 0 no-response, $0.0202 (2026-10-24 UTC)
-[2026-10-24T11:38:16+00:00] run end {"discovered": 59, "skipped_recent": 16, "no_pair": 0, "market": {"pumpfun_bonding_curve": 23, "mcap_too_low": 11, "too_old": 5, "volume_h1_low": 1, "mcap_too_high": 2, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-24T11:38:18+00:00] second_look: pass end {"queued": 190, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-24T11:38:26+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=8s
-[2026-10-24T11:43:06+00:00] run start (LOG ONLY)
 [2026-10-24T11:43:16+00:00] discovered=58 fresh=42 market_pass=0
 [2026-10-24T11:43:16+00:00] grok daily budget 7/40 used, 0 no-response, $0.0202 (2026-10-24 UTC)
 [2026-10-24T11:43:16+00:00] run end {"discovered": 58, "skipped_recent": 16, "no_pair": 0, "market": {"too_new": 1, "pumpfun_bonding_curve": 21, "mcap_too_low": 11, "too_old": 5, "volume_h1_low": 1, "mcap_too_high": 2, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
@@ -4998,3 +4987,14 @@
 [2026-10-26T23:02:57+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-10-26T23:03:42+00:00] scout: wait3 candles error G9u3w1NA RuntimeError
 [2026-10-26T23:04:42+00:00] scout: pass end {"watch": 332, "a_qualify": 46, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=106s
+[2026-10-26T23:07:47+00:00] run start (LOG ONLY)
+[2026-10-26T23:07:57+00:00] discovered=69 fresh=56 market_pass=1
+[2026-10-26T23:07:57+00:00] grok daily budget 20/40 used, 3 no-response, $0.0546 (2026-10-26 UTC)
+[2026-10-26T23:08:04+00:00] grok call 5.0s model=grok-4.3 tokens=993+65 reasoning=573
+[2026-10-26T23:08:04+00:00] grok [rugcheck] NOMO DNjwxV2U… -> SKIP (0.85) 606% h1 pump on 1h-old token with volume already peaking; m5 price now flat-to-down signals fading spike. | risk: Classic blow-off top; thin liquidity will accelerate any sell-off
+[2026-10-26T23:08:05+00:00] run end {"discovered": 69, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 16, "missing:liquidity_usd": 4, "liquidity_low": 1, "too_new": 1, "too_old": 7, "mcap_too_high": 4}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=18s
+[2026-10-26T23:08:06+00:00] second_look: pass end {"queued": 247, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-26T23:08:06+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-26T23:08:16+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-26T23:08:53+00:00] scout: wait3 candles error AAzxViJz RuntimeError
+[2026-10-26T23:09:58+00:00] scout: pass end {"watch": 332, "a_qualify": 47, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=112s
