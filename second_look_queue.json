@@ -6634,6 +6634,24 @@
    "age_hours": 22.55,
    "checks": {},
    "done": false
+  },
+  "Gwk57iPpEZZzyfZQrHW7J3rwsPaifnjDJpvSYQ44pump": {
+   "mint": "Gwk57iPpEZZzyfZQrHW7J3rwsPaifnjDJpvSYQ44pump",
+   "symbol": "KOBE",
+   "pair": "7R6U8SzJ5Jy6weBRq2RYw4vGCSqNjMK1ynZddubH41cd",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T19:45:46+00:00",
+   "rejected_ts": 1793043946,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001675,
+   "mcap_usd": 162699,
+   "liquidity_usd": 34567.38,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6939,7 +6957,7 @@
    }
   },
   "2026-10-26": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6997,7 +7015,7 @@
     "rugcheck:danger": 3,
     "market:sells_ge_buys_h1": 3,
     "market:volume_h1_low": 2,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 2
    }
   }
  }
