@@ -1,11 +1,3 @@
-[2026-10-23T16:17:58+00:00] run end {"discovered": 59, "skipped_recent": 12, "no_pair": 0, "market": {"too_new": 4, "pumpfun_bonding_curve": 18, "mcap_too_low": 12, "volume_h1_low": 2, "too_old": 6, "mcap_too_high": 4, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-23T16:18:02+00:00] second_look: pass end {"queued": 145, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
-[2026-10-23T16:19:20+00:00] launch: paper: candles unavailable for Dx27ajSK (RuntimeError), using snapshot price
-[2026-10-23T16:19:20+00:00] launch: pass end {"inbox": 18, "eligible": 5, "market_fail": 2, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 3} today buys 24/24 elapsed=78s
-[2026-10-23T16:22:48+00:00] run start (LOG ONLY)
-[2026-10-23T16:22:59+00:00] discovered=60 fresh=47 market_pass=1
-[2026-10-23T16:22:59+00:00] grok daily budget 8/40 used, 0 no-response, $0.0223 (2026-10-23 UTC)
-[2026-10-23T16:23:08+00:00] grok call 7.7s model=grok-4.3 tokens=1000+80 reasoning=706
 [2026-10-23T16:23:08+00:00] grok [rugcheck] JailKimchi F2mnGB8p… -> BUY (0.75) Sustained high buys (8k h1, 1k m5) with buys>>sells and low top-10 (18%). LP 100% locked, zero warnings. | risk: Early 587% h6 pump may already be fading despite recent volume
 [2026-10-23T16:23:08+00:00] paper BUY $10 JailKimchi @ 0.0003971
 [2026-10-23T16:23:08+00:00] paper SHADOW BUY [target5] $10 JailKimchi @ 0.0003971
@@ -4998,3 +4990,11 @@
 [2026-10-26T00:41:11+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "too_new": 2, "mcap_too_low": 16, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-26T00:41:13+00:00] second_look: pass end {"queued": 243, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-26T00:41:13+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-26T00:46:02+00:00] run start (LOG ONLY)
+[2026-10-26T00:46:11+00:00] discovered=58 fresh=45 market_pass=1
+[2026-10-26T00:46:11+00:00] grok daily budget 0/40 used, 1 no-response, $0.0000 (2026-10-26 UTC)
+[2026-10-26T00:46:19+00:00] grok call 5.4s model=grok-4.3 tokens=994+70 reasoning=613
+[2026-10-26T00:46:19+00:00] grok [rugcheck] GTONK 9qyUWAY2… -> SKIP (0.75) Extreme 133% h1 / 303% h6 gains on 1h-old token signal blow-off top risk despite strong buy counts. | risk: Late entry into parabolic move likely to reverse hard on first wave of profit-taking
+[2026-10-26T00:46:20+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "liquidity_low": 1, "mcap_too_low": 16, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=18s
+[2026-10-26T00:46:22+00:00] second_look: pass end {"queued": 243, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-26T00:46:23+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
