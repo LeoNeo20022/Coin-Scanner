@@ -5586,7 +5586,14 @@
    "mcap_usd": 128332,
    "liquidity_usd": 31703.24,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-26T08:42:58+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx": {
@@ -6488,6 +6495,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": {
+   "mint": "BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1",
+   "symbol": "LAB",
+   "pair": "8gc4VyWxq5JdZ26oH1T9eEKEnJPJcyEYt2XkbPCNAU38",
+   "dex": "raydium",
+   "rejected_at": "2026-10-26T08:42:56+00:00",
+   "rejected_ts": 1793004176,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001562,
+   "mcap_usd": 156270,
+   "liquidity_usd": 45757.56,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6793,7 +6818,7 @@
    }
   },
   "2026-10-26": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6834,7 +6859,7 @@
     "market:liquidity_low": 2,
     "grok:skip": 3,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:danger": 1,
+    "rugcheck:danger": 2,
     "market:sells_ge_buys_h1": 1,
     "market:volume_h1_low": 1
    }
