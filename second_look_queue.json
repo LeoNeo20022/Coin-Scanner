@@ -5773,7 +5773,14 @@
    "mcap_usd": 149116,
    "liquidity_usd": 32613.92,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-26T16:01:33+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9qyUWAY2LsccnYxNh5UCF8pybsbjru7nZLP59SMfpump": {
@@ -6567,6 +6574,24 @@
    "age_hours": 1.25,
    "checks": {},
    "done": false
+  },
+  "5Mbttpskm2EesN4ECWJiZSMh9cYNkAWLUoKHAbvtpump": {
+   "mint": "5Mbttpskm2EesN4ECWJiZSMh9cYNkAWLUoKHAbvtpump",
+   "symbol": "PUMPCAT",
+   "pair": "487y8NgSsaAZJejzycwy9SaWFyb8T5ZsS5fEQQCCea5s",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-26T16:01:30+00:00",
+   "rejected_ts": 1793030490,
+   "stage": "grok",
+   "reason": "194% h1 and 497% h6 gains after 1h age point to blow-off top; volume and buys still elevated but momentum already extreme.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003044,
+   "mcap_usd": 298968,
+   "liquidity_usd": 46179.18,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6872,7 +6897,7 @@
    }
   },
   "2026-10-26": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6921,7 +6946,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 3,
     "market:sells_ge_buys_h1": 1,
