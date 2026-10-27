@@ -5752,3 +5752,7 @@ time,mint,symbol,mcap_usd,liquidity_usd,age_hours,volume_h1_usd,buys_h1,sells_h1
 2026-10-27T03:12:31+00:00,3sKZuSZF7onqPYFrWu3bH4Lh141duydt9MAmSd46jaLJ,ZILLIONS,168521,34150.56,119.84,0.27,0,1,market,SKIP,,too_old,,token-boosts
 2026-10-27T03:17:30+00:00,2BS3r41ma2cJMFBVhXCpcbwhEko4LuYqGdjAh9fLpump,Rape,69959,21067.39,0.07,32146.94,320,205,market,SKIP,,too_new,,token-profiles
 2026-10-27T03:17:32+00:00,91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump,MIYA,158498,34026.82,1.01,742419.24,7475,6261,rugcheck,SKIP,,lp_unlocked,,token-profiles
+2026-10-27T03:22:31+00:00,J8WA96u77HbfAnG9aciUF1nKD1fRsY7JGUfQiJ34pump,something,36420,14289.64,0.53,50804.62,801,630,market,SKIP,,mcap_too_low,,token-profiles
+2026-10-27T03:22:31+00:00,AYvEpcK9119T453PpSCJjeR91VWNn9rDW1i2yc1vpump,REA,40264,,0.01,123.07,3,5,market,SKIP,,missing:liquidity_usd,,token-profiles
+2026-10-27T03:22:31+00:00,2BS3r41ma2cJMFBVhXCpcbwhEko4LuYqGdjAh9fLpump,Rape,44613,16619.11,0.16,83354.37,984,682,market,SKIP,,mcap_too_low,,token-profiles
+2026-10-27T03:22:40+00:00,HZFrwE8NrqehL54sG5ob9L3kUTSSUVSyS5E7PHUPpump,DMAGA2028,90310,24709.39,1.04,726122,18069,5531,grok,SKIP,0.75,Sharp -24% h1 and -17% m5 after +81% h6 pump shows fading momentum and likely exit liquidity. High buy counts persist but price action dominates.,Post-pump correction with thin liquidity relative to volume,token-profiles
