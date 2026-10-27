@@ -6595,6 +6595,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": {
+   "mint": "3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump",
+   "symbol": "SI",
+   "pair": "3KgVPft91E1E3YedModfn1gwcLDSMErFDFhLGHa65LCj",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T17:52:05+00:00",
+   "rejected_ts": 1793123525,
+   "stage": "grok",
+   "reason": "Already +1568% in 6h and +373% in 1h with volume spiking then cooling; looks like late entry on a blow-off.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.0009162,
+   "mcap_usd": 907948,
+   "liquidity_usd": 84000.02,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6964,7 +6982,7 @@
    }
   },
   "2026-10-27": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7009,7 +7027,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 6,
     "market:volume_h1_low": 1,
