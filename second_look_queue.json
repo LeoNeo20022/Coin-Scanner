@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FjLFsaPKSxJGh25iTKCLEkthbeHKLJrxvHyJG9wqpump": {
-   "mint": "FjLFsaPKSxJGh25iTKCLEkthbeHKLJrxvHyJG9wqpump",
-   "symbol": "PHP2SHELL",
-   "pair": "7RrUHBYMch1q1KtkHYXjQUd1ngW1tFbd89jDBTTxaRwd",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T00:26:57+00:00",
-   "rejected_ts": 1792628817,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 7.446e-05,
-   "mcap_usd": 70361,
-   "liquidity_usd": 24106.33,
-   "age_hours": 20.09,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T00:27:00+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T00:30:52+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": {
    "mint": "8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump",
    "symbol": "FRENS",
@@ -6742,6 +6711,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": {
+   "mint": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
+   "symbol": "N64",
+   "pair": "EWjia2Nk268HowctfiTp8cHQSkeC8Z6aZAhciMkPpXfi",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T00:27:19+00:00",
+   "rejected_ts": 1793060839,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 8.223e-05,
+   "mcap_usd": 79722,
+   "liquidity_usd": 22709.82,
+   "age_hours": 1.32,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7111,7 +7098,7 @@
    }
   },
   "2026-10-27": {
-   "total": 5,
+   "total": 6,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7123,7 +7110,8 @@
     "market:too_new": 1,
     "market:mcap_too_low": 1,
     "grok:skip": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
