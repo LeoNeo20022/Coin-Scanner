@@ -1,36 +1,5 @@
 {
  "entries": {
-  "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump": {
-   "mint": "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump",
-   "symbol": "TRUMPOCEAN",
-   "pair": "HM29GQwJw4qfgQPbicN1bftqCoBjM7gVE1zdLpie2zYV",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T15:36:48+00:00",
-   "rejected_ts": 1792683408,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0002998,
-   "mcap_usd": 297653,
-   "liquidity_usd": 47968.39,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T15:41:04+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T15:41:23+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea": {
    "mint": "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea",
    "symbol": "PVE",
@@ -5753,7 +5722,14 @@
    "mcap_usd": 1910387,
    "liquidity_usd": 123667.14,
    "age_hours": 1.25,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-27T15:37:42+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5Mbttpskm2EesN4ECWJiZSMh9cYNkAWLUoKHAbvtpump": {
