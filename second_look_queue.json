@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": {
-   "mint": "8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump",
-   "symbol": "FRENS",
-   "pair": "F6iMAncvXAj539FFf3r6w1J5Mpff1XLcrksEWtP5NvAP",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T00:47:31+00:00",
-   "rejected_ts": 1792630051,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0001189,
-   "mcap_usd": 115802,
-   "liquidity_usd": 28656.43,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T00:52:21+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-24T00:50:52+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    }
-   },
-   "done": true
-  },
   "coLdDsTiFricfFDWYbAkaX6GxcbUdxWE1t3aw5scNgM": {
    "mint": "coLdDsTiFricfFDWYbAkaX6GxcbUdxWE1t3aw5scNgM",
    "symbol": "coldboot",
@@ -4547,9 +4516,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-27T00:54:20+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "7GNXdW2Tb3sHsVmS2hF1or52K6Cmo5t9Dcxeyjtnpump": {
    "mint": "7GNXdW2Tb3sHsVmS2hF1or52K6Cmo5t9Dcxeyjtnpump",
@@ -6729,6 +6704,24 @@
    "age_hours": 1.32,
    "checks": {},
    "done": false
+  },
+  "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": {
+   "mint": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
+   "symbol": "CHICO",
+   "pair": "EZtwXZFmNS9sJjGVyCH35i6e3oywSDJDEQL9cBzGFDap",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T00:54:19+00:00",
+   "rejected_ts": 1793062459,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.001798,
+   "mcap_usd": 1775124,
+   "liquidity_usd": 113292.91,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7098,7 +7091,7 @@
    }
   },
   "2026-10-27": {
-   "total": 6,
+   "total": 7,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7110,7 +7103,7 @@
     "market:too_new": 1,
     "market:mcap_too_low": 1,
     "grok:skip": 1,
-    "rugcheck:top10": 1,
+    "rugcheck:top10": 2,
     "rugcheck:insiders": 1
    }
   }
