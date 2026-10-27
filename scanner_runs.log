@@ -1,20 +1,3 @@
-[2026-10-24T14:25:21+00:00] second_look: pass end {"queued": 193, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-24T14:25:27+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=6s
-[2026-10-24T14:30:09+00:00] run start (LOG ONLY)
-[2026-10-24T14:30:19+00:00] discovered=60 fresh=53 market_pass=1
-[2026-10-24T14:30:19+00:00] grok daily budget 7/40 used, 0 no-response, $0.0202 (2026-10-24 UTC)
-[2026-10-24T14:30:25+00:00] grok call 4.1s model=grok-4.3 tokens=991+74 reasoning=442
-[2026-10-24T14:30:25+00:00] grok [rugcheck] MI CbTbAY45… -> SKIP (0.85) 3164% h6 and 835% h1 gains after 1h age scream blow-off top. Buying pressure remains strong but volume and price action indicate late-stage hype. | risk: Parabolic move already exhausted; thin liquidity will amplify any reversal
-[2026-10-24T14:30:26+00:00] run end {"discovered": 60, "skipped_recent": 7, "no_pair": 0, "market": {"too_new": 4, "pumpfun_bonding_curve": 21, "mcap_too_low": 14, "mcap_too_high": 4, "too_old": 7, "volume_h1_low": 1, "liquidity_low": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=17s
-[2026-10-24T14:30:28+00:00] second_look: pass end {"queued": 194, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-24T14:30:34+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=6s
-[2026-10-24T14:35:09+00:00] run start (LOG ONLY)
-[2026-10-24T14:35:18+00:00] discovered=61 fresh=53 market_pass=0
-[2026-10-24T14:35:18+00:00] grok daily budget 8/40 used, 0 no-response, $0.0226 (2026-10-24 UTC)
-[2026-10-24T14:35:18+00:00] run end {"discovered": 61, "skipped_recent": 8, "no_pair": 0, "market": {"too_new": 6, "pumpfun_bonding_curve": 21, "mcap_too_low": 13, "mcap_too_high": 4, "too_old": 7, "volume_h1_low": 1, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-24T14:35:20+00:00] second_look: 48h TRENCHERS 9RhEr8Cv… (rejected rugcheck:insiders) -> fail: volume_h1_low
-[2026-10-24T14:35:20+00:00] second_look: 24h Trace 6V8ZLegB… (rejected rugcheck:top10) -> fail: mcap_too_low [dead: price_-90%]
-[2026-10-24T14:35:22+00:00] second_look: pass end {"queued": 194, "due": 2, "rechecked": 2, "pass": 0, "opened": 0} elapsed=4s
 [2026-10-24T14:35:28+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=6s
 [2026-10-24T14:35:40+00:00] run start (LOG ONLY)
 [2026-10-24T14:35:49+00:00] discovered=61 fresh=53 market_pass=0
@@ -4998,3 +4981,20 @@
 [2026-10-27T01:00:10+00:00] scout: wait3 candles error 8fsziCyX RuntimeError
 [2026-10-27T01:01:03+00:00] scout: wait3 candles error 1466w9MB RuntimeError
 [2026-10-27T01:01:04+00:00] scout: pass end {"watch": 350, "a_qualify": 35, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=106s
+[2026-10-27T01:04:07+00:00] run start (LOG ONLY)
+[2026-10-27T01:04:17+00:00] discovered=67 fresh=49 market_pass=0
+[2026-10-27T01:04:17+00:00] grok daily budget 1/40 used, 0 no-response, $0.0028 (2026-10-27 UTC)
+[2026-10-27T01:04:17+00:00] run end {"discovered": 67, "skipped_recent": 18, "no_pair": 0, "market": {"mcap_too_low": 13, "pumpfun_bonding_curve": 22, "too_new": 2, "mcap_too_high": 5, "too_old": 7}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 3} elapsed=10s
+[2026-10-27T01:04:18+00:00] second_look: 48h SPY 7GNXdW2T… (rejected market:pumpfun_bonding_curve) -> fail: mcap_too_low
+[2026-10-27T01:04:18+00:00] second_look: 48h Chunkee GkrpmRvh… (rejected market:too_new) -> fail: mcap_too_low [dead: no_volume_24h]
+[2026-10-27T01:04:18+00:00] second_look: 48h Annautaq EXEZixAq… (rejected market:mcap_too_low) -> fail: mcap_too_low
+[2026-10-27T01:04:18+00:00] second_look: 24h TIT C4BdpK4b… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-27T01:04:18+00:00] second_look: 24h SIMUL AutKxC56… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve
+[2026-10-27T01:04:18+00:00] second_look: 24h HOOKER 82FEcWhK… (rejected market:liquidity_low) -> fail: mcap_too_low
+[2026-10-27T01:04:18+00:00] second_look: 24h GTA 7JEfFdwm… (rejected grok:skip) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-27T01:04:18+00:00] second_look: pass end {"queued": 249, "due": 7, "rechecked": 7, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-27T01:04:19+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-27T01:04:33+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-27T01:04:33+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-27T01:05:09+00:00] scout: wait3 candles error CCci2Fr6 RuntimeError
+[2026-10-27T01:06:09+00:00] scout: pass end {"watch": 350, "a_qualify": 34, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=110s
