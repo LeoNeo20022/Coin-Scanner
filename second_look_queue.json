@@ -1,36 +1,5 @@
 {
  "entries": {
-  "5hyyjwZqJgnPZorMdb7X4r2J1dT3VujKVkLD8Ptbpump": {
-   "mint": "5hyyjwZqJgnPZorMdb7X4r2J1dT3VujKVkLD8Ptbpump",
-   "symbol": "KWH",
-   "pair": "DYAKK4ui3hhBVariht6kF31QMWYnKZGAom67SzHnxncK",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T11:21:23+00:00",
-   "rejected_ts": 1792668083,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0005109,
-   "mcap_usd": 497221,
-   "liquidity_usd": 67099.43,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T11:26:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T11:22:45+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "7S6HGeZs3eNXQunVfiz9tceeuMPuSVLGFJ7BSwBApump": {
    "mint": "7S6HGeZs3eNXQunVfiz9tceeuMPuSVLGFJ7BSwBApump",
    "symbol": "DJT",
@@ -4516,9 +4485,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-27T11:23:32+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "5kPuDh6YVwCxY1xVTe4gz6cFPkvov2GD7i83kbyjpump": {
    "mint": "5kPuDh6YVwCxY1xVTe4gz6cFPkvov2GD7i83kbyjpump",
