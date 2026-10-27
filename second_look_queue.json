@@ -1,36 +1,5 @@
 {
  "entries": {
-  "G9xrNbBBYBsGFL2XiHdXDy56gWfAMnefD6L8ZKHLpump": {
-   "mint": "G9xrNbBBYBsGFL2XiHdXDy56gWfAMnefD6L8ZKHLpump",
-   "symbol": "CAPY",
-   "pair": "675q1ikTQQ4ijHBvSgHVbC2CrEPCjRDuEQ3yDtiU8HyP",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T08:12:08+00:00",
-   "rejected_ts": 1792656728,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 8.389e-05,
-   "mcap_usd": 83897,
-   "liquidity_usd": 23471.23,
-   "age_hours": 0.1,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T08:13:46+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T08:14:43+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GMDaSAbntf9ZTGvnAj53Vn3pSRVo6oe6NaiKLYy9pump": {
    "mint": "GMDaSAbntf9ZTGvnAj53Vn3pSRVo6oe6NaiKLYy9pump",
    "symbol": "CAPE",
@@ -6701,6 +6670,24 @@
    "age_hours": 0.39,
    "checks": {},
    "done": false
+  },
+  "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump": {
+   "mint": "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump",
+   "symbol": "wiener",
+   "pair": "GYpVK1rZF9ez8rfhmwXMtBve9ti2KsDEFrCX8cpwBdaT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T08:13:36+00:00",
+   "rejected_ts": 1793088816,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0002653,
+   "mcap_usd": 258820,
+   "liquidity_usd": 43482.24,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7070,7 +7057,7 @@
    }
   },
   "2026-10-27": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7109,7 +7096,7 @@
     "market:mcap_too_low": 6,
     "grok:skip": 2,
     "rugcheck:top10": 6,
-    "rugcheck:insiders": 1,
+    "rugcheck:insiders": 2,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 1,
