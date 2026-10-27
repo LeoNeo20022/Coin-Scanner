@@ -1,98 +1,5 @@
 {
  "entries": {
-  "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump": {
-   "mint": "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump",
-   "symbol": "TRENCHERS",
-   "pair": "RTmsLPPy6vJckdZgjFFQMFhZSdn1r7e2AhhKbZHMQjR",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T14:35:10+00:00",
-   "rejected_ts": 1792679710,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 8.728e-05,
-   "mcap_usd": 85053,
-   "liquidity_usd": 23652.71,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T14:39:32+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-10-24T14:35:20+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": {
-   "mint": "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
-   "symbol": "SHAVCOIN",
-   "pair": "HfT2fJjb1SmDsdjHbCkJuvnVdzDSY1525j4rhYXwdTDt",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T15:11:08+00:00",
-   "rejected_ts": 1792681868,
-   "stage": "grok",
-   "reason": "Parabolic blow-off: +438% h1 / +798% h6 on 3.5h-old token. Buying remains heavy but already looks like exit liquidity.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0004135,
-   "mcap_usd": 407682,
-   "liquidity_usd": 55422.1,
-   "age_hours": 3.54,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T15:16:04+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T15:11:23+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump": {
-   "mint": "BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump",
-   "symbol": "KTA",
-   "pair": "GHdGRvNJSpqSe4F7wnLfjAHMehjcAyKQkfZ1KGiJps3x",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T15:21:57+00:00",
-   "rejected_ts": 1792682517,
-   "stage": "grok",
-   "reason": "438% h6 gain followed by -16% h1 pullback with m5 rebound looks like fading blow-off top. Volume strong but buying not broad enough to overcome exit pressure.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002778,
-   "mcap_usd": 274331,
-   "liquidity_usd": 44816.03,
-   "age_hours": 3.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T15:26:04+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T15:26:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump": {
    "mint": "G4wmrx15b8XChfhPg1C9qycMfKNAFSHnsLz1gU1wpump",
    "symbol": "TRUMPOCEAN",
@@ -5771,7 +5678,14 @@
    "mcap_usd": 98732,
    "liquidity_usd": 25297.36,
    "age_hours": 2.35,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-27T15:32:45+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq": {
@@ -5789,7 +5703,14 @@
    "mcap_usd": 137660,
    "liquidity_usd": 34919.74,
    "age_hours": 1.14,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-27T15:32:45+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": {
@@ -5807,7 +5728,14 @@
    "mcap_usd": 117061,
    "liquidity_usd": 29209.97,
    "age_hours": 1.27,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-27T15:32:45+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": {
