@@ -6700,6 +6700,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": {
+   "mint": "CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH",
+   "symbol": "OC",
+   "pair": "94fER58PCLPucfc4RsVNqQac1DFpkR4jFs2SGNsGFP7X",
+   "dex": "raydium",
+   "rejected_at": "2026-10-27T08:50:36+00:00",
+   "rejected_ts": 1793091036,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0002733,
+   "mcap_usd": 220297,
+   "liquidity_usd": 51370.98,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7069,7 +7087,7 @@
    }
   },
   "2026-10-27": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7111,7 +7129,7 @@
     "rugcheck:insiders": 3,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:danger": 1,
+    "rugcheck:danger": 2,
     "market:liquidity_low": 2
    }
   }
