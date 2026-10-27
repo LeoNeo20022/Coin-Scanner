@@ -187,10 +187,6 @@
   "judged": 1792533317.1875205,
   "symbol": "SXSI"
  },
- "5SWejcBKBV6xzagLhdB2yoXnnPLgeRkJrGEF4EsFtXkH": {
-  "market_logged": 1792531491.9719982,
-  "market_reason": "mcap_too_low"
- },
  "2yEqrg7mpTw51rgkfvN7hPztdjdvYzA352nHw89Fpump": {
   "market_logged": 1792531791.5045621,
   "market_reason": "pumpfun_bonding_curve"
@@ -11498,8 +11494,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "DzfDFonCVcF4zygAFPRZpf85Pw7EUKwKWETmfsbzpump": {
-  "market_logged": 1793136147.7597954,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793136447.8484075,
+  "market_reason": "liquidity_low"
  },
  "4qUu6ApQBeRpY6Kp6nCzxQQBzZwNEsDqvRTdixe7pump": {
   "market_logged": 1793135848.0649717,
@@ -11527,6 +11523,10 @@
  },
  "6xC31cak7HnFsoaez9U3ELowUWMT589k2eh9wj3ypump": {
   "market_logged": 1793136147.7597954,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "5pLMhLiSjAM8roK77SGB9iZGjbdWwESnH6nnvwPipump": {
+  "market_logged": 1793136447.8484075,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
