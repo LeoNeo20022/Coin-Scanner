@@ -6613,6 +6613,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": {
+   "mint": "GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump",
+   "symbol": "SWELL",
+   "pair": "Hmt2gCerdbmsDkaXrpxpNw6fs8RapUZL2xz6bgAtLFUV",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T18:21:59+00:00",
+   "rejected_ts": 1793125319,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0006815,
+   "mcap_usd": 676135,
+   "liquidity_usd": 73120.08,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6982,7 +7000,7 @@
    }
   },
   "2026-10-27": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7021,7 +7039,9 @@
     "11": 1,
     "11|market:liquidity_low": 1,
     "12": 1,
-    "12|market:liquidity_low": 1
+    "12|market:liquidity_low": 1,
+    "18": 1,
+    "18|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7033,7 +7053,8 @@
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 3,
-    "market:liquidity_low": 6
+    "market:liquidity_low": 6,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
