@@ -152,10 +152,6 @@
   "judged": 1792456894.689214,
   "symbol": "YOKAI"
  },
- "4B3dwCLobMJqbUiD73MyqDXTNvi5gjoMDvDS3fX2pump": {
-  "market_logged": 1792454468.862441,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "DhNeWY3MD9ttAxyXhSkAzXJDPFws8Hn9TbfoWJUmpump": {
   "market_logged": 1792456269.9284475,
   "market_reason": "too_new"
@@ -11858,8 +11854,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": {
-  "market_logged": 1793058615.8935676,
-  "market_reason": "too_new"
+  "market_logged": 1793059333.7114267,
+  "market_reason": "liquidity_low"
  },
  "FdBEsLzCN3mHUcFVDCH9SisexM2c3rByTvm4tFWQpump": {
   "market_logged": 1793058315.4813888,
@@ -11895,7 +11891,9 @@
  },
  "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": {
   "market_logged": 1793058315.4813888,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "\u2588\u2588\u2588WIF",
+  "judged": 1793059333.7114267
  },
  "JeueTx1qxRVUGTRCJvC2EYup8iDqXjAUn5ByV46pump": {
   "market_logged": 1793058315.4813888,
@@ -11912,5 +11910,9 @@
  "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt": {
   "market_logged": 1793059033.7411072,
   "market_reason": "mcap_too_high"
+ },
+ "CCci2Fr6DNnNVeE8t2LxeK2CVMZ2LFn8KFBtEYEypump": {
+  "market_logged": 1793059333.7114267,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
