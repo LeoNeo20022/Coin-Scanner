@@ -1,36 +1,5 @@
 {
  "entries": {
-  "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": {
-   "mint": "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd",
-   "symbol": "SHAV",
-   "pair": "7F5PZ3MgwTV9Pkp6J7vNBnrW374LdrTJdy9NQMZ7NqTm",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T10:20:46+00:00",
-   "rejected_ts": 1792664446,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001344,
-   "mcap_usd": 130977,
-   "liquidity_usd": 31465.56,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T10:24:09+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T10:21:33+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Di3YBHLp5hwnq2CrJBFRgcynWFwozKGRFT95coPnpump": {
    "mint": "Di3YBHLp5hwnq2CrJBFRgcynWFwozKGRFT95coPnpump",
    "symbol": "kumchi",
@@ -6774,6 +6743,24 @@
    "age_hours": 0.74,
    "checks": {},
    "done": false
+  },
+  "5XapX9FpytfrwqY8Y7mNStwrur8u5fNnJjEcJNXZpump": {
+   "mint": "5XapX9FpytfrwqY8Y7mNStwrur8u5fNnJjEcJNXZpump",
+   "symbol": "urmom",
+   "pair": "8TYacYUTtFqBgLwez8nt6wkBkpQsej8oQq3k6fNp8vwU",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T10:24:26+00:00",
+   "rejected_ts": 1793096666,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0002476,
+   "mcap_usd": 243720,
+   "liquidity_usd": 41862.55,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7143,7 +7130,7 @@
    }
   },
   "2026-10-27": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7186,7 +7173,7 @@
     "market:mcap_too_low": 6,
     "grok:skip": 2,
     "rugcheck:top10": 6,
-    "rugcheck:insiders": 3,
+    "rugcheck:insiders": 4,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 2,
