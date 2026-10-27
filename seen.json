@@ -8839,8 +8839,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC": {
-  "market_logged": 1793046997.8243415,
-  "market_reason": "mcap_too_low",
+  "market_logged": 1793083049.3616734,
+  "market_reason": "liquidity_low",
   "judged": 1792924481.5563772,
   "symbol": "BTC"
  },
@@ -11752,7 +11752,9 @@
  },
  "6GaNPFwUv3P7K8nzFRXLba4hnabdmrjiKofmr5Qkpump": {
   "market_logged": 1793080227.105914,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "GTAELON",
+  "judged": 1793083049.3616734
  },
  "ApAF9VF27eG8yQr2GD4Rnt2Wd3BSCaZDhjUYS5Gjpump": {
   "market_logged": 1793080527.1569588,
