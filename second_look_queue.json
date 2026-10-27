@@ -6756,6 +6756,24 @@
    "age_hours": 0.37,
    "checks": {},
    "done": false
+  },
+  "GrtE7xGn3iBk93hhf1zz6i3Wbfv1uDd9unStGVhGpump": {
+   "mint": "GrtE7xGn3iBk93hhf1zz6i3Wbfv1uDd9unStGVhGpump",
+   "symbol": "GAMBIT",
+   "pair": "2hmQJQPkJP67f68rd1AkPyWjVYVfpPi9aDExTXw2kN8R",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T10:14:25+00:00",
+   "rejected_ts": 1793096065,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.355e-05,
+   "mcap_usd": 51395,
+   "liquidity_usd": 17643.17,
+   "age_hours": 0.74,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7125,7 +7143,7 @@
    }
   },
   "2026-10-27": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7158,7 +7176,9 @@
     "08": 1,
     "08|market:liquidity_low": 1,
     "09": 1,
-    "09|market:liquidity_low": 1
+    "09|market:liquidity_low": 1,
+    "10": 1,
+    "10|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7170,7 +7190,7 @@
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 2,
-    "market:liquidity_low": 3
+    "market:liquidity_low": 4
    }
   }
  }
