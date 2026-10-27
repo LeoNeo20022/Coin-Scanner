@@ -164,10 +164,6 @@
   "market_logged": 1792769159.1426892,
   "market_reason": "pumpfun_bonding_curve"
  },
- "35xfZ32EE1fh28HdVdj3RLX611ebi5XFRpmV2saYpump": {
-  "market_logged": 1792460841.7596867,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "34UP5PyixivH2bSwp8KpY2ate1F7Cs93RzWj9EFDpump": {
   "market_logged": 1792461141.1505983,
   "market_reason": "pumpfun_bonding_curve"
@@ -11796,8 +11792,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
-  "market_logged": 1793065290.2506201,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793065702.8545702,
+  "market_reason": "mcap_too_low"
  },
  "27Qg7EcnGfmbthfQeQXTs4qjfnvU6gXf8W1ahJiJpump": {
   "market_logged": 1793062453.702684,
@@ -11823,7 +11819,9 @@
  },
  "6zMfMXjovo7ivtrypSP7YspHm5TcbV4Sh5TwSDgapump": {
   "market_logged": 1793063490.0494664,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "TRUMP2028",
+  "judged": 1793065702.8545702
  },
  "1226TMaWZiZYWdP7CBZBqfJGXoWXaKXJJiKf45e5xfun": {
   "market_logged": 1793064389.7131422,
@@ -11856,5 +11854,9 @@
  "85jBWktfRenUaYt9SBiFdG8hzuh8txzdpVDRKxFZpump": {
   "market_logged": 1793065590.0803454,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "9zbaBnJ8Wmv2kRiYc2kn2L5HAkogXX15FjnnG97Xdjup": {
+  "market_logged": 1793065702.8545702,
+  "market_reason": "missing:liquidity_usd"
  }
 }

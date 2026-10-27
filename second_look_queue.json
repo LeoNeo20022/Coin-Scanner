@@ -6749,6 +6749,24 @@
    "age_hours": 0.96,
    "checks": {},
    "done": false
+  },
+  "6zMfMXjovo7ivtrypSP7YspHm5TcbV4Sh5TwSDgapump": {
+   "mint": "6zMfMXjovo7ivtrypSP7YspHm5TcbV4Sh5TwSDgapump",
+   "symbol": "TRUMP2028",
+   "pair": "7yvfSJJzHeGgZ3c4QqutXn8ZBCH3DaZfkc6nTxCPUYVd",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T01:48:32+00:00",
+   "rejected_ts": 1793065712,
+   "stage": "grok",
+   "reason": "Huge 1390% h6 / 90% h1 pump already reversing (m5 -7%, sells>buys). Front-loaded volume and thin 10% liq/mcap make it classic early-exit setup.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0007526,
+   "mcap_usd": 749479,
+   "liquidity_usd": 74336.79,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7118,7 +7136,7 @@
    }
   },
   "2026-10-27": {
-   "total": 10,
+   "total": 11,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7133,7 +7151,7 @@
     "market:pumpfun_bonding_curve": 2,
     "market:too_new": 2,
     "market:mcap_too_low": 2,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:top10": 2,
     "rugcheck:insiders": 1
    }
