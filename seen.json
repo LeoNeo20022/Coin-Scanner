@@ -167,12 +167,6 @@
   "market_logged": 1792754755.5415459,
   "market_reason": "volume_h1_low"
  },
- "F6Kw7crAAXQp4hjXVSe8ZuyvnaLyjvJDVBpcxGUFpump": {
-  "market_logged": 1792522675.554334,
-  "market_reason": "too_new",
-  "symbol": "DACITY",
-  "judged": 1792525100.959332
- },
  "8xH5RFEkSyneYBhCZh5gi2svgdyrDCREW9SxCfKuYgFd": {
   "market_logged": 1792655184.6595814,
   "market_reason": "volume_h1_low",
@@ -207,22 +201,11 @@
   "symbol": "Punani",
   "judged": 1792526945.9697688
  },
- "8LmZ6dWvKtoSU4Pqp6hqvPYTcZYGiKYb8iGugh8hpump": {
-  "market_logged": 1792525100.959332,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "CicoFLHq5c3n6w61e68WfnooFWUzTLisp3a2HdiWpump": {
   "market_logged": 1792526945.9697688,
   "market_reason": "too_new",
   "judged": 1792528445.3439147,
   "symbol": "ENERGY"
- },
- "EZoGjPeZ1AVDSA3tzRGfMUZHMETfNTAcFVxygjy7pump": {
-  "market_logged": 1792525100.959332,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "9sSWHwmxYTUd5mgBr8rcWSKR2L35UdLWM3nSj3eZY7ZC": {
-  "market_logged": 1792525100.959332
  },
  "J21LUTsBLBmjeoZxuvK5t1UyRB3U6R8mFfduTxQCpump": {
   "market_logged": 1792525700.5035205,
@@ -11533,5 +11516,13 @@
  "GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn": {
   "market_logged": 1793129782.1906435,
   "market_reason": "mcap_too_low"
+ },
+ "J4VRWRA5xHnL8T36wUykXqy5vgeUYa6MaF2gVDELkora": {
+  "market_logged": 1793130082.214284,
+  "market_reason": "missing:mcap_usd"
+ },
+ "73mY4EWowk1vyqRq3y8SChTNV7ApYY5SLkSTdmopump": {
+  "market_logged": 1793130082.214284,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
