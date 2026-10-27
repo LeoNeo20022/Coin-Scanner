@@ -6559,6 +6559,24 @@
    "age_hours": 1.6,
    "checks": {},
    "done": false
+  },
+  "295n8Gb5AcWCxeSCnysfyZoibxsd9yLmsJP3JXckpump": {
+   "mint": "295n8Gb5AcWCxeSCnysfyZoibxsd9yLmsJP3JXckpump",
+   "symbol": "SCSF",
+   "pair": "2ww5rf1fUe3L4eQxBJLU81uZddj3sEVDximm52sfzLie",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T17:22:11+00:00",
+   "rejected_ts": 1793121731,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001781,
+   "mcap_usd": 171546,
+   "liquidity_usd": 35634.37,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6928,7 +6946,7 @@
    }
   },
   "2026-10-27": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6975,7 +6993,7 @@
     "market:mcap_too_low": 6,
     "grok:skip": 3,
     "rugcheck:top10": 6,
-    "rugcheck:insiders": 5,
+    "rugcheck:insiders": 6,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 3,
