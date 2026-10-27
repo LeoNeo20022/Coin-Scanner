@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": {
-   "mint": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
-   "symbol": "NOOX",
-   "pair": "6WFSZfs6UojT4GJYxJnoJC78QuJYngREXj834ZyvLujA",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T04:12:22+00:00",
-   "rejected_ts": 1792642342,
-   "stage": "rugcheck",
-   "reason": "danger:Creator history of rugged tokens",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.000129,
-   "mcap_usd": 124479,
-   "liquidity_usd": 29922.11,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T04:15:39+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T04:12:42+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "5V8QnDgzmzG6gPtikA3YmfYUF9eaMoYJyvygG2C9pump": {
    "mint": "5V8QnDgzmzG6gPtikA3YmfYUF9eaMoYJyvygG2C9pump",
    "symbol": "1GTA",
@@ -6810,6 +6779,24 @@
    "age_hours": 0.41,
    "checks": {},
    "done": false
+  },
+  "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V": {
+   "mint": "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V",
+   "symbol": "Leverage",
+   "pair": "Gsga8icyrVNiKGsiSgWuVCVUF2QXmtT2dt2WNekcsAWX",
+   "dex": "raydium",
+   "rejected_at": "2026-10-27T04:14:37+00:00",
+   "rejected_ts": 1793074477,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 9.21e-05,
+   "mcap_usd": 90247,
+   "liquidity_usd": 26140.03,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7179,7 +7166,7 @@
    }
   },
   "2026-10-27": {
-   "total": 23,
+   "total": 24,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7207,7 +7194,7 @@
     "market:too_new": 4,
     "market:mcap_too_low": 5,
     "grok:skip": 2,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "rugcheck:insiders": 1,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
