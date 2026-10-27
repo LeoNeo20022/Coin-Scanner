@@ -6674,6 +6674,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": {
+   "mint": "9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew",
+   "symbol": "Frongus",
+   "pair": "yDRC7WbYx3VzJMRNsFzVVwPyrfGkHg1e7nFtPr85GHH",
+   "dex": "raydium",
+   "rejected_at": "2026-10-27T20:18:30+00:00",
+   "rejected_ts": 1793132310,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles,community-takeovers",
+   "price_usd": 0.0002346,
+   "mcap_usd": 234694,
+   "liquidity_usd": 43469.01,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7043,7 +7061,7 @@
    }
   },
   "2026-10-27": {
-   "total": 49,
+   "total": 50,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7086,7 +7104,9 @@
     "18": 1,
     "18|market:sells_ge_buys_h1": 1,
     "19": 1,
-    "19|market:volume_h1_low": 1
+    "19|market:volume_h1_low": 1,
+    "20": 1,
+    "20|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7099,7 +7119,7 @@
     "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 3,
     "market:liquidity_low": 6,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 2
    }
   }
  }
