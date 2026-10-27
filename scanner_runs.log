@@ -1,19 +1,3 @@
-[2026-10-25T21:38:55+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
-[2026-10-25T21:43:39+00:00] run start (LOG ONLY)
-[2026-10-25T21:43:48+00:00] discovered=68 fresh=52 market_pass=0
-[2026-10-25T21:43:48+00:00] grok daily budget 12/40 used, 0 no-response, $0.0336 (2026-10-25 UTC)
-[2026-10-25T21:43:48+00:00] run end {"discovered": 68, "skipped_recent": 16, "no_pair": 0, "market": {"too_new": 3, "pumpfun_bonding_curve": 21, "mcap_too_low": 21, "volume_h1_low": 1, "too_old": 4, "mcap_too_high": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
-[2026-10-25T21:43:51+00:00] second_look: pass end {"queued": 250, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-25T21:43:55+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
-[2026-10-25T21:48:40+00:00] run start (LOG ONLY)
-[2026-10-25T21:48:49+00:00] discovered=67 fresh=52 market_pass=0
-[2026-10-25T21:48:49+00:00] grok daily budget 12/40 used, 0 no-response, $0.0336 (2026-10-25 UTC)
-[2026-10-25T21:48:49+00:00] run end {"discovered": 67, "skipped_recent": 15, "no_pair": 0, "market": {"missing:liquidity_usd": 1, "too_new": 4, "pumpfun_bonding_curve": 21, "mcap_too_low": 18, "liquidity_low": 1, "volume_h1_low": 1, "too_old": 4, "mcap_too_high": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-25T21:48:52+00:00] second_look: pass end {"queued": 250, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-25T21:48:55+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
-[2026-10-25T21:53:40+00:00] run start (LOG ONLY)
-[2026-10-25T21:53:49+00:00] discovered=67 fresh=52 market_pass=0
-[2026-10-25T21:53:49+00:00] grok daily budget 12/40 used, 0 no-response, $0.0336 (2026-10-25 UTC)
 [2026-10-25T21:53:49+00:00] run end {"discovered": 67, "skipped_recent": 15, "no_pair": 0, "market": {"pumpfun_bonding_curve": 21, "missing:liquidity_usd": 1, "liquidity_low": 1, "too_new": 3, "mcap_too_low": 19, "volume_h1_low": 1, "too_old": 4, "mcap_too_high": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-25T21:53:51+00:00] second_look: pass end {"queued": 250, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-25T21:53:55+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
@@ -4998,3 +4982,19 @@
 [2026-10-27T22:20:30+00:00] second_look: pass end {"queued": 247, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-27T22:20:30+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-10-27T22:21:21+00:00] scout: pass end {"watch": 349, "a_qualify": 68, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=51s
+[2026-10-27T22:25:20+00:00] run start (LOG ONLY)
+[2026-10-27T22:25:30+00:00] discovered=68 fresh=56 market_pass=2
+[2026-10-27T22:25:30+00:00] grok daily budget 11/40 used, 0 no-response, $0.0294 (2026-10-27 UTC)
+[2026-10-27T22:25:40+00:00] grok call 8.0s model=grok-4.3 tokens=997+68 reasoning=542
+[2026-10-27T22:25:40+00:00] grok [rugcheck] Something AZdhikmy… -> SKIP (0.85) Huge h6/h1 pumps (2186%/179%) already reversing in m5 with sells dominating. High holder correlation warn on a 1-hour-old token. | risk: Blow-off top with coordinated holders exiting
+[2026-10-27T22:25:55+00:00] grok call 11.8s model=grok-4.3 tokens=994+92 reasoning=613
+[2026-10-27T22:25:55+00:00] grok [rugcheck] PEPUS 32GwB1RZ… -> BUY (0.85) Buys crush sells 6771:1494 h1 and 393:62 m5 with sustained volume; risk_score 1, top10 11.45%, LP 100% locked, zero warnings. | risk: 409% h6 / 72% h1 gains on 1h-old token may be late momentum
+[2026-10-27T22:25:55+00:00] paper BUY $10 PEPUS @ 0.0002263
+[2026-10-27T22:25:55+00:00] paper SHADOW BUY [target5] $10 PEPUS @ 0.0002263
+[2026-10-27T22:25:55+00:00] paper SHADOW BUY [scalp] $10 PEPUS @ 0.0002263
+[2026-10-27T22:25:56+00:00] run end {"discovered": 68, "skipped_recent": 12, "no_pair": 0, "market": {"mcap_too_low": 18, "pumpfun_bonding_curve": 19, "missing:liquidity_usd": 2, "too_new": 4, "sells_ge_buys_h1": 1, "volume_h1_low": 2, "too_old": 6, "mcap_too_high": 2}, "rug": {}, "grok": 2, "BUY": 1, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=36s
+[2026-10-27T22:25:58+00:00] second_look: 24h LMAO DEZrHa3C… (rejected market:sells_ge_buys_h1) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-27T22:25:58+00:00] second_look: pass end {"queued": 247, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-27T22:25:58+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-27T22:26:51+00:00] scout: wait3 candles error 67swHeky RuntimeError
+[2026-10-27T22:27:11+00:00] scout: pass end {"watch": 349, "a_qualify": 67, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=73s
