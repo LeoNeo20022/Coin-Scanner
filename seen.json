@@ -179,19 +179,11 @@
   "market_logged": 1792517040.2141087,
   "market_reason": "mcap_too_low"
  },
- "68n3HAQV8EqCzVjbrKqd4xsrga4g2eYgyRJAHRE9pump": {
-  "market_logged": 1792516440.6435256,
-  "market_reason": "mcap_too_low"
- },
  "G6dHfpt5nD77RBNgoKSMkSuH8KFHQif3KTPge9A2pump": {
   "market_logged": 1792516140.261679,
   "market_reason": "too_new",
   "symbol": "GTAa",
   "judged": 1792519627.4793553
- },
- "LBQ4o6HwM2vpEuwc8wcpGZ4soJmKCT3spVoa1cipump": {
-  "market_logged": 1792516440.6435256,
-  "market_reason": "mcap_too_low"
  },
  "Df18xmSEf64DXaKMMfoCrJaEgqBKVc7rXfmKDyagpump": {
   "market_logged": 1792516440.6435256,
@@ -11522,8 +11514,8 @@
   "market_reason": "too_new"
  },
  "27F4ADeEKDJ7FhdgduVYLknhNLAUVKkM8ZPVCc4Wpump": {
-  "market_logged": 1793119465.9963791,
-  "market_reason": "too_new"
+  "market_logged": 1793121424.8662064,
+  "market_reason": "mcap_too_low"
  },
  "DWL514CQK5CDvJ83w2NSMhHjWJ8LwFvEgkwthuKupump": {
   "market_logged": 1793119465.9963791,
@@ -11542,12 +11534,12 @@
   "market_reason": "mcap_too_low"
  },
  "5RvL4VWX6nduCt17P5k3FKJA8jo3wRkUZ29aHQThpump": {
-  "market_logged": 1793120066.001361,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793121424.8662064,
+  "market_reason": "liquidity_low"
  },
  "BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump": {
-  "market_logged": 1793120825.7232926,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793121424.8662064,
+  "market_reason": "liquidity_low"
  },
  "ACTnhwTvoDjJ7jwrBSokhbhGNmiFEbEC7FRu3YLZpump": {
   "market_logged": 1793120825.7232926,
@@ -11570,8 +11562,8 @@
   "market_reason": "too_new"
  },
  "CqeWWnUnQdxWysTDDS8T3DqXLvwNiRPLpV1h1imCpump": {
-  "market_logged": 1793121125.2015598,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793121424.8662064,
+  "market_reason": "too_new"
  },
  "AQJMgUxFWPDTQosXccfDK9YM51AFMinTGdx7FQ51pump": {
   "market_logged": 1793121125.2015598,
@@ -11580,5 +11572,17 @@
  "28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": {
   "judged": 1793121125.2015598,
   "symbol": "MOONX"
+ },
+ "65UW8wDCHLNWykBLN6jLZvo8sn7vjhX4QooArFeapump": {
+  "market_logged": 1793121424.8662064,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "AvsEq8ppqWdwhVG9AQgFez2vd84zXQFZorihyHbxpump": {
+  "market_logged": 1793121424.8662064,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "AG1Z8sn3kNpuY6HReZcMjUUTdgBQQZasXZARhh6Ppump": {
+  "market_logged": 1793121424.8662064,
+  "market_reason": "too_new"
  }
 }
