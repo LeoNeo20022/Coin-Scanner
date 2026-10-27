@@ -1,36 +1,5 @@
 {
  "entries": {
-  "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump": {
-   "mint": "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump",
-   "symbol": "VECTOR",
-   "pair": "92KgVDBs9TSRBX5XxYJRczFRsawA4sLTaKWnMDAJfWA1",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T14:05:10+00:00",
-   "rejected_ts": 1792677910,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0002538,
-   "mcap_usd": 248802,
-   "liquidity_usd": 45904.59,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T14:08:39+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T14:05:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump": {
    "mint": "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump",
    "symbol": "TRENCHERS",
@@ -5771,7 +5740,14 @@
    "mcap_usd": 53996,
    "liquidity_usd": 18440.39,
    "age_hours": 0.6,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-27T14:06:20+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9d8dWs22f6L4gJSXMpXvTLc3Z8ATj1z5YUdxmmMspump": {
