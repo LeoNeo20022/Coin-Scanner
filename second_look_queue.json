@@ -1,67 +1,5 @@
 {
  "entries": {
-  "roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm": {
-   "mint": "roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm",
-   "symbol": "YAPROACH",
-   "pair": "EcniqD24ETYitYhWEm3iNPCJFVwgSzYCQsRVN2eit27F",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T13:25:55+00:00",
-   "rejected_ts": 1792675555,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0003892,
-   "mcap_usd": 380678,
-   "liquidity_usd": 91535.03,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T13:27:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T13:29:51+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "8ujgaCNgVEkpEnQKuWT6ANdkKhBKmK6JxxkqGZhipump": {
-   "mint": "8ujgaCNgVEkpEnQKuWT6ANdkKhBKmK6JxxkqGZhipump",
-   "symbol": "Au",
-   "pair": "B8ydk1zZZWVLg1kh7RGRCFnJ9HZTNkpfTxkr7hVGBBN8",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T13:35:55+00:00",
-   "rejected_ts": 1792676155,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0002416,
-   "mcap_usd": 233828,
-   "liquidity_usd": 42168.43,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T13:37:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T13:39:51+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "Bnq4KRE1i1gcvFjqPaPNtkFs2ZojsPGEoAaPTkvGpump": {
    "mint": "Bnq4KRE1i1gcvFjqPaPNtkFs2ZojsPGEoAaPTkvGpump",
    "symbol": "LASTCALL",
@@ -4702,9 +4640,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-27T13:36:21+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "GGCcC1xnsuhB6SRWv9ipGWVZwd1guyqSLFXdjctkpump": {
    "mint": "GGCcC1xnsuhB6SRWv9ipGWVZwd1guyqSLFXdjctkpump",
