@@ -1,36 +1,5 @@
 {
  "entries": {
-  "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": {
-   "mint": "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump",
-   "symbol": "KIMCHIBULL",
-   "pair": "Ds6CaQYBQL7GjDATf9CVH189S9ef1mz7dkTrSoV7RWEM",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T16:07:42+00:00",
-   "rejected_ts": 1792685262,
-   "stage": "grok",
-   "reason": "Price crashed 65% in 6h and 45% in 1h while volume remains elevated; buy counts high but clearly not absorbing sells. Classic fading spike / distribution patter",
-   "reason_key": "grok:skip",
-   "sources": "token-boosts/top",
-   "price_usd": 0.001892,
-   "mcap_usd": 1887107,
-   "liquidity_usd": 133863.49,
-   "age_hours": 20.67,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T16:07:59+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T16:12:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump": {
    "mint": "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
    "symbol": "MI",
@@ -5759,7 +5728,14 @@
    "mcap_usd": 304580,
    "liquidity_usd": 46251.11,
    "age_hours": 3.64,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-27T16:07:42+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": {
