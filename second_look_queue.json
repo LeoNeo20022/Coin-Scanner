@@ -6710,6 +6710,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "GQo5HattkKNSBZAgtcJ7ELJ11WLmCrHeAQymT2Lcpump": {
+   "mint": "GQo5HattkKNSBZAgtcJ7ELJ11WLmCrHeAQymT2Lcpump",
+   "symbol": "FKC",
+   "pair": "GFNPe12yzUsAfvQPY83mPvKkgXv6xatcdw1nvmBD7YQc",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T12:00:34+00:00",
+   "rejected_ts": 1793102434,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.501e-05,
+   "mcap_usd": 55020,
+   "liquidity_usd": 17943.58,
+   "age_hours": 0.31,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7079,7 +7097,7 @@
    }
   },
   "2026-10-27": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7116,7 +7134,9 @@
     "10": 1,
     "10|market:liquidity_low": 1,
     "11": 1,
-    "11|market:liquidity_low": 1
+    "11|market:liquidity_low": 1,
+    "12": 1,
+    "12|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7128,7 +7148,7 @@
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 3,
-    "market:liquidity_low": 5
+    "market:liquidity_low": 6
    }
   }
  }
