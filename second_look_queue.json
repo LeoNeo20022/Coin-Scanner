@@ -1,98 +1,5 @@
 {
  "entries": {
-  "5aA5znUxUtAamxDgRxsbWzdVLe9bauYhTRXJZmvFpump": {
-   "mint": "5aA5znUxUtAamxDgRxsbWzdVLe9bauYhTRXJZmvFpump",
-   "symbol": "AURACHI",
-   "pair": "HhssSvETV8Ah5XoKmPJHpvxkFceNYawXVtDJYxqKz6W7",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T07:10:14+00:00",
-   "rejected_ts": 1792653014,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0005967,
-   "mcap_usd": 596780,
-   "liquidity_usd": 85538.23,
-   "age_hours": 0.48,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T07:11:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T07:12:35+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "B28EEeqoZ8NhCtkXLmNkWQp2NUp9mixH54V4etaLpump": {
-   "mint": "B28EEeqoZ8NhCtkXLmNkWQp2NUp9mixH54V4etaLpump",
-   "symbol": "TIB",
-   "pair": "8Xs4XAL95GGVwBtYteJcuykUu6jiGDfmUKFYw8fLGnUM",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T07:10:18+00:00",
-   "rejected_ts": 1792653018,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001624,
-   "mcap_usd": 154949,
-   "liquidity_usd": 33908.14,
-   "age_hours": 1.17,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T07:11:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T07:12:35+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "Aa4iwuxmvN6DiBieBc2T9CB7AFBnzffKrFcBVqoKpump": {
-   "mint": "Aa4iwuxmvN6DiBieBc2T9CB7AFBnzffKrFcBVqoKpump",
-   "symbol": "Dino",
-   "pair": "2WdkR4fRe6RYsYgzhFdkL3FS2DZVqbmrHT9dH6SeGCHk",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T07:11:28+00:00",
-   "rejected_ts": 1792653088,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.492e-05,
-   "mcap_usd": 54923,
-   "liquidity_usd": 18737.06,
-   "age_hours": 0.14,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T07:16:10+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T07:12:35+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8xH5RFEkSyneYBhCZh5gi2svgdyrDCREW9SxCfKuYgFd": {
    "mint": "8xH5RFEkSyneYBhCZh5gi2svgdyrDCREW9SxCfKuYgFd",
    "symbol": "SASONA",
@@ -4547,9 +4454,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-27T07:14:26+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj": {
    "mint": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
