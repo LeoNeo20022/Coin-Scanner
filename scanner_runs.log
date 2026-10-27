@@ -1,15 +1,3 @@
-[2026-10-25T11:00:21+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
-[2026-10-25T11:05:04+00:00] run start (LOG ONLY)
-[2026-10-25T11:05:14+00:00] discovered=65 fresh=48 market_pass=0
-[2026-10-25T11:05:14+00:00] grok daily budget 4/40 used, 0 no-response, $0.0113 (2026-10-25 UTC)
-[2026-10-25T11:05:14+00:00] run end {"discovered": 65, "skipped_recent": 17, "no_pair": 0, "market": {"too_new": 3, "pumpfun_bonding_curve": 17, "mcap_too_low": 14, "too_old": 6, "mcap_too_high": 5, "sells_ge_buys_h1": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
-[2026-10-25T11:05:15+00:00] second_look: 48h MW 6LyUFZwG… (rejected market:liquidity_low) -> fail: mcap_too_low [dead: price_-90%]
-[2026-10-25T11:05:17+00:00] second_look: pass end {"queued": 235, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
-[2026-10-25T11:05:21+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
-[2026-10-25T11:10:04+00:00] run start (LOG ONLY)
-[2026-10-25T11:10:14+00:00] discovered=64 fresh=47 market_pass=0
-[2026-10-25T11:10:14+00:00] grok daily budget 4/40 used, 0 no-response, $0.0113 (2026-10-25 UTC)
-[2026-10-25T11:10:14+00:00] run end {"discovered": 64, "skipped_recent": 17, "no_pair": 0, "market": {"too_new": 3, "pumpfun_bonding_curve": 17, "mcap_too_low": 13, "too_old": 6, "mcap_too_high": 5, "sells_ge_buys_h1": 1, "missing:mcap_usd": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-25T11:10:16+00:00] second_look: 48h ARCTIS 2JSj9dzL… (rejected market:sells_ge_buys_h1) -> fail: volume_h1_low
 [2026-10-25T11:10:17+00:00] second_look: pass end {"queued": 235, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
 [2026-10-25T11:10:21+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=4s
@@ -4998,3 +4986,15 @@
 [2026-10-27T14:58:19+00:00] scout: paper: candles unavailable EahiWEUb (ReadTimeout)
 [2026-10-27T14:58:25+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-27T14:59:23+00:00] scout: pass end {"watch": 348, "a_qualify": 25, "a_open": 0, "b_eval": 3, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=110s
+[2026-10-27T15:02:05+00:00] run start (LOG ONLY)
+[2026-10-27T15:02:15+00:00] discovered=65 fresh=54 market_pass=0
+[2026-10-27T15:02:15+00:00] grok daily budget 7/40 used, 0 no-response, $0.0189 (2026-10-27 UTC)
+[2026-10-27T15:02:15+00:00] run end {"discovered": 65, "skipped_recent": 11, "no_pair": 1, "market": {"too_new": 2, "pumpfun_bonding_curve": 22, "missing:liquidity_usd": 5, "mcap_too_low": 12, "too_old": 6, "mcap_too_high": 6}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
+[2026-10-27T15:02:17+00:00] second_look: pass end {"queued": 245, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-27T15:02:17+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-27T15:02:37+00:00] scout: feed error trending_pools?page=1: 429
+[2026-10-27T15:02:37+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-27T15:02:37+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-27T15:02:37+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-27T15:03:14+00:00] scout: wait3 candles error J8wrk834 RuntimeError
+[2026-10-27T15:04:00+00:00] scout: pass end {"watch": 348, "a_qualify": 26, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=102s
