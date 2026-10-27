@@ -11804,8 +11804,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "2BS3r41ma2cJMFBVhXCpcbwhEko4LuYqGdjAh9fLpump": {
-  "market_logged": 1793072371.9975796,
-  "market_reason": "too_new"
+  "market_logged": 1793073272.214827,
+  "market_reason": "liquidity_low"
  },
  "Ecx9c59agmjDeFgiNoGY1fz3qTj6JeushRiZNK6npump": {
   "market_logged": 1793070029.4205234,
@@ -11848,7 +11848,9 @@
  },
  "Az5naRCqYLfMi9KT92QCzJwR74BR5X33nZtMkXyvpump": {
   "market_logged": 1793072671.825494,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793073272.214827,
+  "symbol": "CRAZYROLL"
  },
  "AxwWvR22HeroEQFq6ANrmuBdgFa3Kx1Lxfw1U6LZpump": {
   "market_logged": 1793072972.3612716,
@@ -11856,6 +11858,10 @@
  },
  "7fHr9MLg29hyEFfcBDaBvdTeRHdKBruHExAVE68Fpump": {
   "market_logged": 1793072972.3612716,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4C7vo49nstJQH1ebPNm7DXftHQUBjpptdBc8HWXLpump": {
+  "market_logged": 1793073272.214827,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
