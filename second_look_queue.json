@@ -6686,6 +6686,24 @@
    "age_hours": 970.42,
    "checks": {},
    "done": false
+  },
+  "Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": {
+   "mint": "Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa",
+   "symbol": "MMGA",
+   "pair": "Az8uSk7S7TCG2bTDM45dEdNmkwjLUQxGA1Fr2ui7XwA4",
+   "dex": "raydium",
+   "rejected_at": "2026-10-27T11:45:36+00:00",
+   "rejected_ts": 1793101536,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 6.131e-05,
+   "mcap_usd": 61313,
+   "liquidity_usd": 20458.11,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7055,7 +7073,7 @@
    }
   },
   "2026-10-27": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7103,7 +7121,7 @@
     "rugcheck:insiders": 4,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:danger": 2,
+    "rugcheck:danger": 3,
     "market:liquidity_low": 5
    }
   }
