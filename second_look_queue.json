@@ -6577,6 +6577,24 @@
    "age_hours": 1.08,
    "checks": {},
    "done": false
+  },
+  "AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump": {
+   "mint": "AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump",
+   "symbol": "MBAPPE",
+   "pair": "GcyDp8tck2y3y5eNDRwZtK5wG3e2N2venJJh83deU1MJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T17:47:09+00:00",
+   "rejected_ts": 1793123229,
+   "stage": "grok",
+   "reason": "409% gain in 6h + 52% in last 5m shows classic blow-off top momentum. Buying pressure remains strong but volume and price action indicate we are late.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002329,
+   "mcap_usd": 229846,
+   "liquidity_usd": 40670,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6946,7 +6964,7 @@
    }
   },
   "2026-10-27": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6991,7 +7009,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 6,
     "market:volume_h1_low": 1,
