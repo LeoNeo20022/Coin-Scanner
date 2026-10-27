@@ -4609,9 +4609,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-27T15:57:55+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HgdBJvh8fTafnhmnWHgNHEQrYPzqBDQLu2hKZKfkpump": {
    "mint": "HgdBJvh8fTafnhmnWHgNHEQrYPzqBDQLu2hKZKfkpump",
@@ -6583,6 +6589,24 @@
    "age_hours": 0.31,
    "checks": {},
    "done": false
+  },
+  "J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump": {
+   "mint": "J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump",
+   "symbol": "TON",
+   "pair": "6ewGGiNEpb1KPyr2rpTLXZXrB325zr2boX5Gyg8yaYBz",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-27T15:57:51+00:00",
+   "rejected_ts": 1793116671,
+   "stage": "grok",
+   "reason": "507% H6 and 104% H1 gains with still-rising M5 price indicate blow-off top. Copycat token warning compounds exit risk.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003048,
+   "mcap_usd": 300692,
+   "liquidity_usd": 46094.26,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6952,7 +6976,7 @@
    }
   },
   "2026-10-27": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6997,7 +7021,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 4,
     "market:volume_h1_low": 1,
