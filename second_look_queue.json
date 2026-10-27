@@ -1,36 +1,5 @@
 {
  "entries": {
-  "7S6HGeZs3eNXQunVfiz9tceeuMPuSVLGFJ7BSwBApump": {
-   "mint": "7S6HGeZs3eNXQunVfiz9tceeuMPuSVLGFJ7BSwBApump",
-   "symbol": "DJT",
-   "pair": "8wFw1ZAZt6tRvoVtGg18PcnTMBKkQE24KS8AGza6jGMi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-22T11:27:10+00:00",
-   "rejected_ts": 1792668430,
-   "stage": "grok",
-   "reason": "180% h1 pump followed by -29% m5 reversal shows fading spike, not steady buying. Copycat token adds extra risk.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001227,
-   "mcap_usd": 117619,
-   "liquidity_usd": 30296.5,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-23T11:31:00+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-24T11:27:46+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm": {
    "mint": "roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm",
    "symbol": "YAPROACH",
@@ -4516,9 +4485,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-27T11:33:31+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "EVGstwCAWo1tNqEJCUecjjwTYkK1jytP8WYVgxBHpump": {
    "mint": "EVGstwCAWo1tNqEJCUecjjwTYkK1jytP8WYVgxBHpump",
