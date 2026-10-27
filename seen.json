@@ -182,19 +182,11 @@
   "market_logged": 1793029858.9670725,
   "market_reason": "mcap_too_low"
  },
- "CnSGd9u8FHprCtF5HF4d7BgQSNk8M3VSRzyFq1Vcpump": {
-  "market_logged": 1792475109.6215641,
-  "market_reason": "missing:mcap_usd"
- },
  "7oJPrdPWttGaioDiFNcvPi6zPCFJLPN69Cfvfi8wpump": {
   "market_logged": 1792479973.399494,
   "market_reason": "sells_ge_buys_h1",
   "judged": 1792480873.4797907,
   "symbol": "DCT"
- },
- "BN3VouGoaTF4T3BmqF1yspwftgvev9BB6gdwzu6Ppump": {
-  "market_logged": 1792475109.6215641,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "8FK1vDQbojFRVDfRF3nrrhpmQCC2cmLKYABX2yjWpump": {
   "market_logged": 1792475730.8033335,
@@ -11588,8 +11580,8 @@
   "market_reason": "volume_h1_low"
  },
  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-  "market_logged": 1793079026.2944043,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793079926.3601518,
+  "market_reason": "liquidity_low"
  },
  "2DWZ76YqYvT18Y1xig7vpas6cSvy7L4xPyRVrDXfpump": {
   "market_logged": 1793064689.5646436,
@@ -11811,5 +11803,9 @@
  "LhBqYg9Mu5UPBEFsqC21iiDMZwhQgwGVZ6o25X7pump": {
   "market_logged": 1793079625.9990287,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "2qQVrHpQaWzGf8iGYbpVUjYELYN2Q911XQWxFbsGpump": {
+  "market_logged": 1793079926.3601518,
+  "market_reason": "too_new"
  }
 }
