@@ -11455,7 +11455,9 @@
  },
  "2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": {
   "market_logged": 1793126655.0485046,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793129782.1906435,
+  "symbol": "Frongus"
  },
  "WcmAzC9f7Jz4XAMKVzB1AQ2HVX1QJFixBVdcqdspump": {
   "market_logged": 1793126055.0810683,
@@ -11521,7 +11523,15 @@
   "market_reason": "too_new"
  },
  "67swHekykm7copiKAufdV9yuPC68mUFs4epsaKympump": {
-  "market_logged": 1793129481.7269351,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793129782.1906435,
+  "market_reason": "volume_h1_low"
+ },
+ "EYHiPbYSycj8rfi4MAoCY4puNxzhMGPpbhUheuPhpump": {
+  "market_logged": 1793129782.1906435,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn": {
+  "market_logged": 1793129782.1906435,
+  "market_reason": "mcap_too_low"
  }
 }
