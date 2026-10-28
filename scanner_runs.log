@@ -1,14 +1,3 @@
-[2026-10-26T01:01:57+00:00] grok call 18.7s model=grok-4.3 tokens=995+66 reasoning=650
-[2026-10-26T01:01:57+00:00] grok [rugcheck] GTA 7JEfFdwm… -> SKIP (0.85) 1166% h6 gain after only 2h age screams blow-off top already fading; m5 momentum weak vs h1 spike. | risk: Extreme early pump likely to crash on first wave of profit-taking
-[2026-10-26T01:01:58+00:00] run end {"discovered": 58, "skipped_recent": 14, "no_pair": 0, "market": {"too_new": 2, "pumpfun_bonding_curve": 19, "liquidity_low": 1, "mcap_too_low": 16, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 4} elapsed=32s
-[2026-10-26T01:02:00+00:00] second_look: 24h SPY 7GNXdW2T… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_price]
-[2026-10-26T01:02:00+00:00] second_look: 24h Chunkee GkrpmRvh… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
-[2026-10-26T01:02:00+00:00] second_look: 24h Annautaq EXEZixAq… (rejected market:mcap_too_low) -> fail: mcap_too_low
-[2026-10-26T01:02:02+00:00] second_look: pass end {"queued": 247, "due": 3, "rechecked": 3, "pass": 0, "opened": 0} elapsed=4s
-[2026-10-26T01:02:03+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-26T01:06:27+00:00] run start (LOG ONLY)
-[2026-10-26T01:06:36+00:00] discovered=58 fresh=43 market_pass=0
-[2026-10-26T01:06:36+00:00] grok daily budget 2/40 used, 1 no-response, $0.0057 (2026-10-26 UTC)
 [2026-10-26T01:06:36+00:00] run end {"discovered": 58, "skipped_recent": 15, "no_pair": 0, "market": {"too_new": 2, "pumpfun_bonding_curve": 19, "liquidity_low": 1, "mcap_too_low": 16, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
 [2026-10-26T01:06:38+00:00] second_look: 48h Shitcoin GFNFFEd5… (rejected market:pumpfun_bonding_curve) -> fail: mcap_too_low
 [2026-10-26T01:06:38+00:00] second_look: 48h ELON FUMMypMw… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
@@ -4998,3 +4987,14 @@
 [2026-10-28T00:16:46+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-10-28T00:16:46+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-28T00:18:03+00:00] scout: pass end {"watch": 348, "a_qualify": 65, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=94s
+[2026-10-28T00:21:13+00:00] run start (LOG ONLY)
+[2026-10-28T00:21:26+00:00] discovered=68 fresh=56 market_pass=1
+[2026-10-28T00:21:26+00:00] grok daily budget 0/40 used, 0 no-response, $0.0000 (2026-10-28 UTC)
+[2026-10-28T00:21:28+00:00] run end {"discovered": 68, "skipped_recent": 12, "no_pair": 4, "market": {"pumpfun_bonding_curve": 16, "too_new": 2, "missing:liquidity_usd": 4, "mcap_too_low": 23, "too_old": 4, "mcap_too_high": 2}, "rug": {"top10": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=15s
+[2026-10-28T00:21:30+00:00] second_look: pass end {"queued": 248, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-28T00:21:30+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-28T00:21:48+00:00] scout: feed error trending_pools?page=1: 429
+[2026-10-28T00:21:48+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-28T00:21:48+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-28T00:21:48+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-28T00:23:05+00:00] scout: pass end {"watch": 348, "a_qualify": 67, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=94s
