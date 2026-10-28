@@ -173,10 +173,6 @@
   "symbol": "DOT",
   "judged": 1792594358.180009
  },
- "412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump": {
-  "market_logged": 1792593087.6803188,
-  "market_reason": "too_new"
- },
  "8uWftzVoVBqyPJj6Xq9kRUtnz54W5GP4pd4smwZHpump": {
   "market_logged": 1792593087.6803188,
   "market_reason": "too_new",
@@ -10207,8 +10203,8 @@
   "market_reason": "mcap_too_low"
  },
  "ExD37VZjge3GUEot1yAtCZfhtEJLUetqui4FeVRepump": {
-  "market_logged": 1793197854.077805,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793198153.1964874,
+  "market_reason": "liquidity_low"
  },
  "HF6ykZ2Wm8iX6DcixN5AoPsCgaSTuk2vPqbzL7r2pump": {
   "market_logged": 1793133327.8815246,
@@ -11424,5 +11420,9 @@
  "89qyYdJoB1BbCrkvoG5yGufxuwtwXjEfSBoMyFwEpair": {
   "market_logged": 1793197854.077805,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "BfmqsbahsqYju8eTtCFVsLiwSdHqQsuMcTRsZhsspump": {
+  "market_logged": 1793198153.1964874,
+  "market_reason": "too_new"
  }
 }
