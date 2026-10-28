@@ -1,36 +1,5 @@
 {
  "entries": {
-  "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": {
-   "mint": "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump",
-   "symbol": "ODIE",
-   "pair": "DNm2wASF4PP9XivPucrwm3CV9AnAsuugEgANqUDtLgs",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T14:03:47+00:00",
-   "rejected_ts": 1792764227,
-   "stage": "grok",
-   "reason": "2197% h6 and 314% h1 gains signal blow-off top already in progress. Buying remains strong but liquidity thin at 8% of mcap on a 1h-old token.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.001317,
-   "mcap_usd": 1309934,
-   "liquidity_usd": 104611.02,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T14:05:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T14:07:42+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FWz2EY9qhMpLeKYUgunVbfj6pNSbX3Nq3KnGE9whpump": {
    "mint": "FWz2EY9qhMpLeKYUgunVbfj6pNSbX3Nq3KnGE9whpump",
    "symbol": "TC67",
@@ -4671,9 +4640,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-28T14:07:01+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "9d8dWs22f6L4gJSXMpXvTLc3Z8ATj1z5YUdxmmMspump": {
    "mint": "9d8dWs22f6L4gJSXMpXvTLc3Z8ATj1z5YUdxmmMspump",
