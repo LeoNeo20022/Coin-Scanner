@@ -1,36 +1,5 @@
 {
  "entries": {
-  "vqeAuApujp4PELabpxftY42EMsGELAyA1TVLzbHpump": {
-   "mint": "vqeAuApujp4PELabpxftY42EMsGELAyA1TVLzbHpump",
-   "symbol": "PETECOOPER",
-   "pair": "5HW2viz3QL2H1oKrwX62MJQQXbYy6cYQzt6amCJg5BNc",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T06:30:03+00:00",
-   "rejected_ts": 1792737003,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001279,
-   "mcap_usd": 127934,
-   "liquidity_usd": 29529.88,
-   "age_hours": 0.6,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T06:31:44+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T06:34:49+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump": {
    "mint": "HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump",
    "symbol": "ogkimchi",
@@ -6940,6 +6909,24 @@
    "age_hours": 0.19,
    "checks": {},
    "done": false
+  },
+  "DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump": {
+   "mint": "DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump",
+   "symbol": "DORA",
+   "pair": "5dPxJsNxo5RpiUBnS4pFKGhKYfAgarzXpTvu9tWhxcdv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T06:37:06+00:00",
+   "rejected_ts": 1793169426,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 7.591e-05,
+   "mcap_usd": 72069,
+   "liquidity_usd": 21866.54,
+   "age_hours": 1.25,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7371,7 +7358,7 @@
    }
   },
   "2026-10-28": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7406,7 +7393,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "rugcheck:insiders": 2,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "grok:skip": 3,
     "rugcheck:danger": 1,
     "market:sells_ge_buys_h1": 1,
