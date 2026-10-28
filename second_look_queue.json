@@ -6996,6 +6996,24 @@
    "age_hours": 1.24,
    "checks": {},
    "done": false
+  },
+  "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea": {
+   "mint": "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea",
+   "symbol": "PVE",
+   "pair": "9CzQZsHHHTBjYZkdvJER3BdBuMPooEk4qqP9aw22tZeo",
+   "dex": "meteora",
+   "rejected_at": "2026-10-28T09:31:34+00:00",
+   "rejected_ts": 1793179894,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "community-takeovers",
+   "price_usd": 4.39e-05,
+   "mcap_usd": 130313,
+   "liquidity_usd": 19752.15,
+   "age_hours": 160.38,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7427,7 +7445,7 @@
    }
   },
   "2026-10-28": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7459,7 +7477,9 @@
     "07": 1,
     "07|market:liquidity_low": 1,
     "08": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
@@ -7472,7 +7492,7 @@
     "market:sells_ge_buys_h1": 1,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:authority_open": 1,
-    "market:liquidity_low": 3
+    "market:liquidity_low": 4
    }
   }
  }
