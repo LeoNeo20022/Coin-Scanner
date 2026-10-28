@@ -187,18 +187,6 @@
   "market_logged": 1792557021.352022,
   "market_reason": "mcap_too_low"
  },
- "6Ez7jwuUoTr81akzQsBPjfGA67nRWoePEQUsKCUfpump": {
-  "market_logged": 1792556379.9118283,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "AgWZHz6zwggxEFufCeZjy9itn29moQUYQTepez93pump": {
-  "market_logged": 1792556379.9118283,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "63ji3LxbkEmmkpersaCnAk9QdkTp7ymqpcq8vuW3pump": {
-  "market_logged": 1792556379.9118283,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "fUP4mNub1ipk5xLxyvdHZoXtVuR4Yj9PyTcVQPPpump": {
   "market_logged": 1792556721.6017442,
   "market_reason": "pumpfun_bonding_curve"
@@ -11331,7 +11319,9 @@
  },
  "6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": {
   "market_logged": 1793158679.7820868,
-  "market_reason": "sells_ge_buys_h1"
+  "market_reason": "sells_ge_buys_h1",
+  "judged": 1793161310.735272,
+  "symbol": "Robotaxi"
  },
  "B4MpGyWyBvVmQMBhXQFhvgpKT3rFqSm4dscrRWXKpump": {
   "market_logged": 1793156685.6017728,
@@ -11396,8 +11386,8 @@
   "market_reason": "mcap_too_low"
  },
  "BpRPVFVhGN5Pf1HpXpqYuESGwAj52ETreJbmkpLFpump": {
-  "market_logged": 1793161010.634018,
-  "market_reason": "too_new"
+  "market_logged": 1793161310.735272,
+  "market_reason": "mcap_too_low"
  },
  "HRPXsaQMScUi7mrfizhWFJ3RSS9V6CZaEB7qtQtKpump": {
   "market_logged": 1793159879.791675,
@@ -11426,5 +11416,9 @@
  "7vVg96AFcPhU9uxN5MUZJ8ouyE63oJniAnLJgnRYeX5z": {
   "market_logged": 1793161010.634018,
   "market_reason": "missing:liquidity_usd"
+ },
+ "69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": {
+  "market_logged": 1793161310.735272,
+  "market_reason": "too_new"
  }
 }
