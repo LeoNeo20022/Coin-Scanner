@@ -6008,7 +6008,14 @@
    "mcap_usd": 220297,
    "liquidity_usd": 51370.98,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T08:52:14+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "2gRA2bmWpcs5VkYm2r3d4MXZWksgz3gxqNYZRFoZpump": {
@@ -6946,6 +6953,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV": {
+   "mint": "AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV",
+   "symbol": "LAUNCHOORS",
+   "pair": "6vHR8PmBJKJrhWFWX6EfNHo6ck59t78R9LojraidRESa",
+   "dex": "raydium",
+   "rejected_at": "2026-10-28T08:52:12+00:00",
+   "rejected_ts": 1793177532,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001788,
+   "mcap_usd": 157848,
+   "liquidity_usd": 39554.98,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7377,7 +7402,7 @@
    }
   },
   "2026-10-28": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7418,7 +7443,7 @@
     "rugcheck:insiders": 2,
     "rugcheck:top10": 5,
     "grok:skip": 3,
-    "rugcheck:danger": 2,
+    "rugcheck:danger": 3,
     "market:sells_ge_buys_h1": 1,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:authority_open": 1,
