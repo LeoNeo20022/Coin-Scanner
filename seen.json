@@ -183,12 +183,6 @@
   "symbol": "KIMCHI",
   "judged": 1792581099.8302712
  },
- "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": {
-  "market_logged": 1792542715.3933525,
-  "market_reason": "too_new",
-  "symbol": "KIMCHIBOSS",
-  "judged": 1792544841.2717106
- },
  "BG2cn6Brpua2ik3R1HSxZtjNPbPK32mEk9PY7LSPpump": {
   "market_logged": 1792543015.4625914,
   "market_reason": "too_new",
@@ -204,14 +198,6 @@
  "2K4oXpvgAV8KPgGzay2szGQK5thG9dZW3NswpL7Epump": {
   "market_logged": 1792548492.892665,
   "market_reason": "mcap_too_low"
- },
- "5Ym3Cwvzi8AMXdy65ocbNm7VJUXh4BV6JuCbBKAoBAGS": {
-  "market_logged": 1792544841.2717106,
-  "market_reason": "mcap_too_low"
- },
- "FkdQVsktbYTRCD5vYEuQxnQiJqftxcvp9cjkVgp5pump": {
-  "market_logged": 1792544841.2717106,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "DAmKsUs98GCeTGyEarKLKG27dKHBKEZAbN1NydPApump": {
   "market_logged": 1792545441.9324114,
@@ -11373,7 +11359,9 @@
  },
  "Mithri1Vi1BYFekdqfPRW6Z27XNwi9veqrJ3ZYWtwos": {
   "market_logged": 1793149409.4758444,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793149710.3774073,
+  "symbol": "MITH"
  },
  "7JbU6AqB7WpvS852FvvPb48dXXuprf7gii6RYW1Kvg1Q": {
   "market_logged": 1793147779.8681,
@@ -11428,5 +11416,13 @@
  "DrrfaXhRyzWUVUhzds1ZRdQ2NmPvjDzgMDdEsEzmpump": {
   "market_logged": 1793148810.0374448,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "CSCHUuqXBXgk2QJVcwV95WNrVGpRdPEb1owGAT13pump": {
+  "market_logged": 1793149710.3774073,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "DnX4wwrWcXCxhoYuzKs7uovbokvL4QTb4nzBM7Ktpump": {
+  "market_logged": 1793149710.3774073,
+  "market_reason": "too_new"
  }
 }

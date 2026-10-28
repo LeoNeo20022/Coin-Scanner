@@ -1,16 +1,3 @@
-[2026-10-26T02:15:28+00:00] run end {"discovered": 60, "skipped_recent": 17, "no_pair": 1, "market": {"pumpfun_bonding_curve": 18, "mcap_too_low": 16, "too_new": 2, "mcap_too_high": 1, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-26T02:15:30+00:00] second_look: pass end {"queued": 240, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-26T02:15:31+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-26T02:20:18+00:00] run start (LOG ONLY)
-[2026-10-26T02:20:28+00:00] discovered=60 fresh=43 market_pass=1
-[2026-10-26T02:20:28+00:00] grok daily budget 4/40 used, 1 no-response, $0.0112 (2026-10-26 UTC)
-[2026-10-26T02:20:30+00:00] run end {"discovered": 60, "skipped_recent": 17, "no_pair": 1, "market": {"pumpfun_bonding_curve": 18, "mcap_too_low": 16, "too_new": 1, "mcap_too_high": 1, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {"lp_unlocked": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=12s
-[2026-10-26T02:20:32+00:00] second_look: pass end {"queued": 241, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-26T02:20:32+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-26T02:25:18+00:00] run start (LOG ONLY)
-[2026-10-26T02:25:27+00:00] discovered=59 fresh=41 market_pass=2
-[2026-10-26T02:25:27+00:00] grok daily budget 4/40 used, 1 no-response, $0.0112 (2026-10-26 UTC)
-[2026-10-26T02:25:32+00:00] grok [rugcheck] MAGA2028 5uXsRw3F… -> no response after 0s: grok_no_response (retry in 60m): HTTP 429: {"code":"resource-exhausted","error":"The model is currently at capacity due to high demand. Please try again in a few m
 [2026-10-26T02:25:33+00:00] run end {"discovered": 59, "skipped_recent": 18, "no_pair": 1, "market": {"pumpfun_bonding_curve": 17, "mcap_too_low": 15, "mcap_too_high": 1, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {"top10": 1}, "grok": 1, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "grok_no_response": 1, "second_look_queued": 1} elapsed=16s
 [2026-10-26T02:25:36+00:00] second_look: pass end {"queued": 242, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-26T02:25:36+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
@@ -4998,3 +4985,16 @@
 [2026-10-28T01:03:52+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-10-28T01:03:52+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-28T01:05:07+00:00] scout: pass end {"watch": 348, "a_qualify": 63, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=91s
+[2026-10-28T01:08:24+00:00] run start (LOG ONLY)
+[2026-10-28T01:08:33+00:00] discovered=67 fresh=56 market_pass=1
+[2026-10-28T01:08:33+00:00] grok daily budget 1/40 used, 0 no-response, $0.0030 (2026-10-28 UTC)
+[2026-10-28T01:08:35+00:00] run end {"discovered": 67, "skipped_recent": 11, "no_pair": 2, "market": {"pumpfun_bonding_curve": 15, "too_new": 3, "mcap_too_low": 23, "missing:mcap_usd": 1, "missing:liquidity_usd": 3, "mcap_too_high": 4, "too_old": 4}, "rug": {"danger:Top 10 holders high ownership": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=11s
+[2026-10-28T01:08:38+00:00] second_look: 24h HACHI DMnMwUvo… (rejected market:mcap_too_low) -> fail: top10
+[2026-10-28T01:08:38+00:00] second_look: 24h ASSETS 7gJN7kVr… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_volume_24h]
+[2026-10-28T01:08:38+00:00] second_look: 24h ELON2028 27Qg7Ecn… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-28T01:08:41+00:00] second_look: pass end {"queued": 251, "due": 3, "rechecked": 3, "pass": 0, "opened": 0} elapsed=5s
+[2026-10-28T01:08:41+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-28T01:08:56+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-28T01:08:56+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-28T01:08:56+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-28T01:10:08+00:00] scout: pass end {"watch": 348, "a_qualify": 61, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=87s
