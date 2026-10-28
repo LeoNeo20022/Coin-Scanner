@@ -6788,6 +6788,24 @@
    "age_hours": 0.5,
    "checks": {},
    "done": false
+  },
+  "Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump": {
+   "mint": "Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump",
+   "symbol": "STFD",
+   "pair": "DS83fGxDTfGRKeZp4mW7tMVrzxgKGC8CLZJgNzyRqznB",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T03:23:21+00:00",
+   "rejected_ts": 1793157801,
+   "stage": "grok",
+   "reason": "Massive 480% run in <2h with still-hot m5 buying; looks like late-stage momentum rather than early accumulation.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002928,
+   "mcap_usd": 289509,
+   "liquidity_usd": 44774.86,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7219,7 +7237,7 @@
    }
   },
   "2026-10-28": {
-   "total": 17,
+   "total": 18,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7244,7 +7262,7 @@
     "market:too_new": 3,
     "rugcheck:insiders": 2,
     "rugcheck:top10": 1,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:danger": 1,
     "market:sells_ge_buys_h1": 1
    }
