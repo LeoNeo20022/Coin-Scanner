@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump": {
-   "mint": "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump",
-   "symbol": "cyber",
-   "pair": "HVngHmsWnk1piJUytDYbQx1Qch2Nm3MbKHRyJttpBk5M",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T10:49:10+00:00",
-   "rejected_ts": 1792752550,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001077,
-   "mcap_usd": 106588,
-   "liquidity_usd": 28029.1,
-   "age_hours": 1.08,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T10:52:12+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T10:50:15+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "6LyUFZwGvMF69ET9FKhaRGpYq7EaRDyWgLPdpS1LSYm6": {
    "mint": "6LyUFZwGvMF69ET9FKhaRGpYq7EaRDyWgLPdpS1LSYm6",
    "symbol": "MW",
@@ -6996,6 +6965,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "HZccH9aPk9PpxNRZwgESbYE3BMb3zcrjtunJkdAwpump": {
+   "mint": "HZccH9aPk9PpxNRZwgESbYE3BMb3zcrjtunJkdAwpump",
+   "symbol": "Spain",
+   "pair": "7FtG4apwdf4cvTzXJQwLFmVjkcBqtYrEHJpAfK9AKnt9",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T10:57:58+00:00",
+   "rejected_ts": 1793185078,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.461e-05,
+   "mcap_usd": 54610,
+   "liquidity_usd": 18214.78,
+   "age_hours": 0.53,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7427,7 +7414,7 @@
    }
   },
   "2026-10-28": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7461,7 +7448,9 @@
     "08": 1,
     "08|market:liquidity_low": 1,
     "09": 1,
-    "09|market:liquidity_low": 1
+    "09|market:liquidity_low": 1,
+    "10": 1,
+    "10|market:liquidity_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
@@ -7474,7 +7463,7 @@
     "market:sells_ge_buys_h1": 1,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:authority_open": 1,
-    "market:liquidity_low": 4
+    "market:liquidity_low": 5
    }
   }
  }
