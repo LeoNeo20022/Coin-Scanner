@@ -6824,6 +6824,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": {
+   "mint": "4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump",
+   "symbol": "Robotaxi",
+   "pair": "5URKrFAQb4g6Dqj6BDNjKnHrtzcydYrnLoJrrQWvC3HN",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T03:43:04+00:00",
+   "rejected_ts": 1793158984,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0002844,
+   "mcap_usd": 278250,
+   "liquidity_usd": 48620.83,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7255,7 +7273,7 @@
    }
   },
   "2026-10-28": {
-   "total": 19,
+   "total": 20,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7282,7 +7300,8 @@
     "rugcheck:top10": 2,
     "grok:skip": 2,
     "rugcheck:danger": 1,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }

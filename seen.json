@@ -183,10 +183,6 @@
   "judged": 1792556079.776176,
   "symbol": "KIMCHI"
  },
- "9dAxxKvYRxLoLwq3v72JzsyE2b3xvKawmkEwTKxcpump": {
-  "market_logged": 1792553943.2759643,
-  "market_reason": "mcap_too_low"
- },
  "3v83h8quvZFVF3pKGGDdFc2NsNArxnPqvP2fJ2z7pump": {
   "market_logged": 1792558858.7310266,
   "market_reason": "liquidity_low"
@@ -11375,7 +11371,9 @@
  },
  "4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": {
   "market_logged": 1793155486.3594918,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793158979.5544014,
+  "symbol": "Robotaxi"
  },
  "EtXzpr8RaCDCUHJs6sXZmJeszWsHy9D2jc5ADhCwpump": {
   "market_logged": 1793155486.3594918,
@@ -11442,5 +11440,9 @@
  "8s2yPkWeiZFDKFGd7nHCk96SB3VWSTou9HjNu7zWpump": {
   "market_logged": 1793158679.7820868,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "7BZBP5Tm5mHAtgMF3qKF5aBeE8eM8cqQdNWgFmSDpump": {
+  "market_logged": 1793158979.5544014,
+  "market_reason": "mcap_too_low"
  }
 }
