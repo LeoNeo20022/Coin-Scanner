@@ -4578,9 +4578,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-28T15:32:06+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq": {
    "mint": "5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq",
@@ -4603,9 +4609,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-28T15:32:06+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": {
    "mint": "ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump",
@@ -4628,9 +4640,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-28T15:32:06+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": {
    "mint": "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump",
