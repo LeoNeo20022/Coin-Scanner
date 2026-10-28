@@ -1,67 +1,5 @@
 {
  "entries": {
-  "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": {
-   "mint": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
-   "symbol": "VIRTUAL",
-   "pair": "MFsvPTXCy6eiT1qMpMGKJf6a8K8fdj7YKUFPKDeEXEX",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T16:50:01+00:00",
-   "rejected_ts": 1792774201,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 0.0003376,
-   "mcap_usd": 295603,
-   "liquidity_usd": 51524.86,
-   "age_hours": 25.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T16:52:29+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-10-25T16:54:56+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": {
-   "mint": "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump",
-   "symbol": "MCRIBINU",
-   "pair": "9nc82YaQaGPHDeUmA1JgERbqCQz69HvCkn2gzEC43Rua",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T16:55:06+00:00",
-   "rejected_ts": 1792774506,
-   "stage": "grok",
-   "reason": "513% h6 and 145% h1 gains after 1h age point to blow-off top; m5 already -8.57% while volume concentrated early.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0002859,
-   "mcap_usd": 282265,
-   "liquidity_usd": 44631.68,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T16:57:26+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T17:00:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "CH9oKtvyCC9RsxnF282NAWN13wFeEwPDkih2ebtNpump": {
    "mint": "CH9oKtvyCC9RsxnF282NAWN13wFeEwPDkih2ebtNpump",
    "symbol": "RSN",
@@ -6838,6 +6776,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": {
+   "mint": "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump",
+   "symbol": "HERMIT",
+   "pair": "HknqzEAg7Q78CqAGfG1LZRVcnNzbFfczEV1hjKF7ELq9",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T16:57:15+00:00",
+   "rejected_ts": 1793206635,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0003009,
+   "mcap_usd": 291660,
+   "liquidity_usd": 47786.86,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7269,7 +7225,7 @@
    }
   },
   "2026-10-28": {
-   "total": 48,
+   "total": 49,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7318,7 +7274,7 @@
     "grok:skip": 6,
     "rugcheck:danger": 3,
     "market:sells_ge_buys_h1": 1,
-    "rugcheck:lp_unlocked": 2,
+    "rugcheck:lp_unlocked": 3,
     "rugcheck:authority_open": 1,
     "market:liquidity_low": 6
    }
