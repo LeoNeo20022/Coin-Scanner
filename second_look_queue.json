@@ -1,36 +1,5 @@
 {
  "entries": {
-  "B66MyRSvU5KaP8wfUgHCNXMNHmiw4y5tFwSWq6iQpump": {
-   "mint": "B66MyRSvU5KaP8wfUgHCNXMNHmiw4y5tFwSWq6iQpump",
-   "symbol": "stablecoin",
-   "pair": "4UcVkkd1SV7CGgUdbUDCGxcHQu61gBSCR4iBXmfiFiBp",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T02:13:39+00:00",
-   "rejected_ts": 1792721619,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 9.112e-05,
-   "mcap_usd": 85644,
-   "liquidity_usd": 24853.12,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T02:14:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T02:16:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": {
    "mint": "FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump",
    "symbol": "GLOOB",
@@ -4640,9 +4609,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-28T02:23:08+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": {
    "mint": "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump",
