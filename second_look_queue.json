@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FWz2EY9qhMpLeKYUgunVbfj6pNSbX3Nq3KnGE9whpump": {
-   "mint": "FWz2EY9qhMpLeKYUgunVbfj6pNSbX3Nq3KnGE9whpump",
-   "symbol": "TC67",
-   "pair": "3vjDeiWAxhbqnKVxhVF2wPVPYVvKctbyDnLx9GkTjVyw",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T14:08:38+00:00",
-   "rejected_ts": 1792764518,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0003964,
-   "mcap_usd": 385616,
-   "liquidity_usd": 55981.76,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T14:10:23+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T14:12:42+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6V8ZLegByoWKpRCmfFtpK5mvMbZ5wFTSaajhr5Ckpump": {
    "mint": "6V8ZLegByoWKpRCmfFtpK5mvMbZ5wFTSaajhr5Ckpump",
    "symbol": "Trace",
@@ -6860,6 +6829,24 @@
    "age_hours": 15.3,
    "checks": {},
    "done": false
+  },
+  "6igRi89tQdNDH2qaLi6gUk6NVXudrTeF7vU39YrMpump": {
+   "mint": "6igRi89tQdNDH2qaLi6gUk6NVXudrTeF7vU39YrMpump",
+   "symbol": "BOBWEASEL",
+   "pair": "DTwdHQW1P4TSXi62phS8BgF4HmUuXbUxuGPfALWDcuDH",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T14:30:59+00:00",
+   "rejected_ts": 1793197859,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 6.979e-05,
+   "mcap_usd": 69368,
+   "liquidity_usd": 22238.86,
+   "age_hours": 1.17,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7291,7 +7278,7 @@
    }
   },
   "2026-10-28": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7335,7 +7322,7 @@
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
-    "rugcheck:insiders": 3,
+    "rugcheck:insiders": 4,
     "rugcheck:top10": 6,
     "grok:skip": 3,
     "rugcheck:danger": 3,
