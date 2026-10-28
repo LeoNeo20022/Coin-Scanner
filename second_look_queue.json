@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump": {
-   "mint": "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump",
-   "symbol": "Bear",
-   "pair": "2WLnHH53VutGVZ4zzKzRHKHdX9qSuv5AhehbR8toNcpy",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T10:17:55+00:00",
-   "rejected_ts": 1792750675,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.854e-05,
-   "mcap_usd": 58542,
-   "liquidity_usd": 19803.46,
-   "age_hours": 0.52,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T10:21:33+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T10:19:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump": {
    "mint": "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump",
    "symbol": "cyber",
@@ -6064,7 +6033,14 @@
    "mcap_usd": 243720,
    "liquidity_usd": 41862.55,
    "age_hours": 1.05,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T10:26:52+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Bz5N9wrcxDw2YTf8tQkG8PJzdbUW89ZNWLWbdqA2pump": {
