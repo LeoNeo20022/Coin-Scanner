@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DwBBao2hSdjfFScgycvhXQqMuWaG7njrPhXRgQ5qpump": {
-   "mint": "DwBBao2hSdjfFScgycvhXQqMuWaG7njrPhXRgQ5qpump",
-   "symbol": "CABAL",
-   "pair": "6VxLKiMvPoPF3eLJi39mQyJgSSk9w92d1P6wa212ytre",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T01:12:19+00:00",
-   "rejected_ts": 1792717939,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 8.082e-05,
-   "mcap_usd": 91584,
-   "liquidity_usd": 3978.72,
-   "age_hours": 818.81,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T01:17:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T01:15:17+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "3zoDs3JGpcvJ44h2it4ssPVEbtFTEWRsxs6Z9h2Tpump": {
    "mint": "3zoDs3JGpcvJ44h2it4ssPVEbtFTEWRsxs6Z9h2Tpump",
    "symbol": "MEME",
@@ -6818,6 +6787,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": {
+   "mint": "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr",
+   "symbol": "INVISIBLE",
+   "pair": "4j3TQ21o45ipb4zDmBfQs4CcXwCyH6qEZfTQGBhdWwUw",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T01:25:31+00:00",
+   "rejected_ts": 1793150731,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0003805,
+   "mcap_usd": 368171,
+   "liquidity_usd": 54556.53,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7249,7 +7236,7 @@
    }
   },
   "2026-10-28": {
-   "total": 10,
+   "total": 11,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7264,7 +7251,7 @@
     "market:mcap_too_low": 2,
     "market:pumpfun_bonding_curve": 2,
     "market:too_new": 2,
-    "rugcheck:insiders": 1,
+    "rugcheck:insiders": 2,
     "rugcheck:top10": 1,
     "grok:skip": 1,
     "rugcheck:danger": 1
