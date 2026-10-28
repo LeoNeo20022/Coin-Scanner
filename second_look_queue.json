@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Bivugv4GNFUiqUabDhvFcepDskTcgPk7EtExV4mvpump": {
-   "mint": "Bivugv4GNFUiqUabDhvFcepDskTcgPk7EtExV4mvpump",
-   "symbol": "Xingxing",
-   "pair": "DQJymzEaB41ffVY9pr6symzWUVaBK1wxE7TKWzHnUxxR",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T08:18:44+00:00",
-   "rejected_ts": 1792743524,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts",
-   "price_usd": 5.133e-05,
-   "mcap_usd": 50191,
-   "liquidity_usd": 18996.61,
-   "age_hours": 60.24,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T08:19:43+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T08:22:46+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "4ZWiMnny1sw8Wi6i22kYjyh6WvvdtUa67nUcApvVtbbo": {
    "mint": "4ZWiMnny1sw8Wi6i22kYjyh6WvvdtUa67nUcApvVtbbo",
    "symbol": "OS",
@@ -6008,7 +5977,14 @@
    "mcap_usd": 659452,
    "liquidity_usd": 71695.46,
    "age_hours": 1.06,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T08:32:12+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": {
