@@ -1,98 +1,5 @@
 {
  "entries": {
-  "E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump": {
-   "mint": "E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump",
-   "symbol": "CI",
-   "pair": "FdcKb3iKFeYcWAqYfjRx246wFrY1CmMdC36N9PSAU4us",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T19:00:40+00:00",
-   "rejected_ts": 1792782040,
-   "stage": "grok",
-   "reason": "1011% h6 gain on 1h-old token with 65% h1 move signals blow-off top; m5 price now flattening while volume remains extreme.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0006484,
-   "mcap_usd": 645228,
-   "liquidity_usd": 69924.09,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T19:04:47+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T19:01:23+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1": {
-   "mint": "CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1",
-   "symbol": "SQUADS",
-   "pair": "5ZdDcSxL6ogbg2cQrCNUjpMg3jb1ZYvMWTPpmffhTnHk",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T19:05:28+00:00",
-   "rejected_ts": 1792782328,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0002857,
-   "mcap_usd": 274141,
-   "liquidity_usd": 48199.6,
-   "age_hours": 3.88,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T19:09:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-10-25T19:06:55+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    }
-   },
-   "done": true
-  },
-  "8VxPcu3K5gVK7VzZu3XsA87ZahyF6GP4UaTs54bApump": {
-   "mint": "8VxPcu3K5gVK7VzZu3XsA87ZahyF6GP4UaTs54bApump",
-   "symbol": "CTA",
-   "pair": "39MVzJZwKPcaHTkeTa84ycN9aba9mtBex2mKqp93DcFi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T19:15:27+00:00",
-   "rejected_ts": 1792782927,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 6.666e-05,
-   "mcap_usd": 64838,
-   "liquidity_usd": 21033.6,
-   "age_hours": 1.17,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T19:19:48+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T19:16:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": {
    "mint": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
    "symbol": "REMUS",
@@ -5822,7 +5729,14 @@
    "mcap_usd": 66856,
    "liquidity_usd": 20396.61,
    "age_hours": 4.12,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T19:37:42+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": {
@@ -5840,7 +5754,14 @@
    "mcap_usd": 649016,
    "liquidity_usd": 75494.45,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T19:37:42+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": {
