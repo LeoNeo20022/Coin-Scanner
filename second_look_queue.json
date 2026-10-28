@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": {
-   "mint": "FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump",
-   "symbol": "GLOOB",
-   "pair": "FHvV9rf64Bf3AFCpk9HnRC93KiDsFXAknUJkwiXeMyB9",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T02:44:28+00:00",
-   "rejected_ts": 1792723468,
-   "stage": "grok",
-   "reason": "Massive 171-243% pumps already with m5 price now -7.6% and buys slowing; volume spike looks front-loaded.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001476,
-   "mcap_usd": 142138,
-   "liquidity_usd": 31732.82,
-   "age_hours": 1.15,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T02:45:38+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T02:46:54+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Gtv7Ges2upYyJeW8Gh4QACW2J2CUnGf5LodcZBiupump": {
    "mint": "Gtv7Ges2upYyJeW8Gh4QACW2J2CUnGf5LodcZBiupump",
    "symbol": "Sherlock",
@@ -4671,9 +4640,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-28T02:59:50+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8uNfPfgGW4SfhX8qCm9MUSpSEbfd6qNPSY7yHUS3pump": {
    "mint": "8uNfPfgGW4SfhX8qCm9MUSpSEbfd6qNPSY7yHUS3pump",
