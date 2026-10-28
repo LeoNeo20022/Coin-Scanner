@@ -6820,6 +6820,24 @@
    "age_hours": 1.13,
    "checks": {},
    "done": false
+  },
+  "6EKmRQYzAXh5t6t1XNe2chYqmdSHgd32uA7xki9upump": {
+   "mint": "6EKmRQYzAXh5t6t1XNe2chYqmdSHgd32uA7xki9upump",
+   "symbol": "NVINU",
+   "pair": "3MSeAyD6yj7PaCzurFnbBueKN6YSTKm9gqGAbNZxFV8K",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T16:47:02+00:00",
+   "rejected_ts": 1793206022,
+   "stage": "grok",
+   "reason": "403% h6 gain + 90% h1 already priced in; m5 reversal shows momentum fading fast.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002548,
+   "mcap_usd": 250522,
+   "liquidity_usd": 42092.92,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7251,7 +7269,7 @@
    }
   },
   "2026-10-28": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7297,7 +7315,7 @@
     "market:too_new": 6,
     "rugcheck:insiders": 5,
     "rugcheck:top10": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:danger": 3,
     "market:sells_ge_buys_h1": 1,
     "rugcheck:lp_unlocked": 2,
