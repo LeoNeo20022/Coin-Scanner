@@ -1,67 +1,5 @@
 {
  "entries": {
-  "TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump": {
-   "mint": "TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump",
-   "symbol": "eCat",
-   "pair": "7ukqR6b6NVkQeYTRzVwBDbHtfYMcN1YhDYEC8zCveWfB",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T13:16:23+00:00",
-   "rejected_ts": 1792761383,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001586,
-   "mcap_usd": 153377,
-   "liquidity_usd": 33927.31,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T13:19:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T13:17:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": {
-   "mint": "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump",
-   "symbol": "TC67",
-   "pair": "E3oTLCVds9S1nJbuXoivhibh1YXgVPMN1Fncz3NbQvLn",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T13:57:10+00:00",
-   "rejected_ts": 1792763830,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001384,
-   "mcap_usd": 135313,
-   "liquidity_usd": 31368.25,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T13:59:51+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T13:57:42+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": {
    "mint": "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump",
    "symbol": "ODIE",
@@ -4671,9 +4609,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-28T14:01:46+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump": {
    "mint": "CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump",
@@ -4696,9 +4640,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-28T14:01:46+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3ZzBtriJ1rd3ntcdsQ5wohwPWk1MRdrDd5BaKAsipump": {
    "mint": "3ZzBtriJ1rd3ntcdsQ5wohwPWk1MRdrDd5BaKAsipump",
