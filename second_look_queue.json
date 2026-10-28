@@ -1,67 +1,5 @@
 {
  "entries": {
-  "BqVngDCWkrdnahmcG7ZbBQzXCqsnNDbHRGgL9NThpump": {
-   "mint": "BqVngDCWkrdnahmcG7ZbBQzXCqsnNDbHRGgL9NThpump",
-   "symbol": "BULLCHI",
-   "pair": "G42GHpTavPk5hHopdAqtsidK2xX2TUGyP44CFCcJXYti",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T17:57:35+00:00",
-   "rejected_ts": 1792778255,
-   "stage": "rugcheck",
-   "reason": "danger:Top 10 holders high ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001364,
-   "mcap_usd": 132349,
-   "liquidity_usd": 29930.15,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T17:58:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T18:00:50+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": {
-   "mint": "D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump",
-   "symbol": "SHEKEL",
-   "pair": "GMyKTQ2sgRG9SosBVRkqNLu3aPFM3BCzP2WuefUN63cQ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T18:07:34+00:00",
-   "rejected_ts": 1792778854,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001223,
-   "mcap_usd": 117622,
-   "liquidity_usd": 29591.17,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T18:08:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T18:10:54+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump": {
    "mint": "E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump",
    "symbol": "CI",
@@ -5859,7 +5797,14 @@
    "mcap_usd": 676135,
    "liquidity_usd": 73120.08,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T18:22:33+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "67swHekykm7copiKAufdV9yuPC68mUFs4epsaKympump": {
