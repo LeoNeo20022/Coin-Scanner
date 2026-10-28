@@ -1,14 +1,3 @@
-[2026-10-26T18:18:27+00:00] grok daily budget 16/40 used, 3 no-response, $0.0437 (2026-10-26 UTC)
-[2026-10-26T18:18:27+00:00] run end {"discovered": 61, "skipped_recent": 13, "no_pair": 1, "market": {"pumpfun_bonding_curve": 17, "mcap_too_low": 11, "too_new": 5, "liquidity_low": 1, "missing:liquidity_usd": 2, "sells_ge_buys_h1": 1, "too_old": 7, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-26T18:18:27+00:00] second_look: pass end {"queued": 244, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-26T18:18:27+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-26T18:18:38+00:00] scout: feed error new_pools?page=1: 429
-[2026-10-26T18:19:12+00:00] scout: wait3 candles error AAzxViJz RuntimeError
-[2026-10-26T18:19:58+00:00] scout: pass end {"watch": 125, "a_qualify": 34, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=91s
-[2026-10-26T18:20:15+00:00] run start (LOG ONLY)
-[2026-10-26T18:20:25+00:00] discovered=61 fresh=48 market_pass=0
-[2026-10-26T18:20:25+00:00] grok daily budget 16/40 used, 3 no-response, $0.0437 (2026-10-26 UTC)
-[2026-10-26T18:20:25+00:00] run end {"discovered": 61, "skipped_recent": 13, "no_pair": 1, "market": {"pumpfun_bonding_curve": 17, "mcap_too_low": 12, "too_new": 5, "missing:liquidity_usd": 2, "sells_ge_buys_h1": 1, "too_old": 7, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-26T18:20:25+00:00] second_look: pass end {"queued": 244, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-26T18:20:25+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-10-26T18:20:29+00:00] scout: paper: [pool/hold] ANT closed stop_loss +2.22 after fees
@@ -4998,3 +4987,14 @@
 [2026-10-28T10:12:17+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-10-28T10:12:17+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-10-28T10:13:34+00:00] scout: pass end {"watch": 349, "a_qualify": 31, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=101s
+[2026-10-28T10:16:38+00:00] run start (LOG ONLY)
+[2026-10-28T10:16:51+00:00] discovered=56 fresh=44 market_pass=0
+[2026-10-28T10:16:51+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-28 UTC)
+[2026-10-28T10:16:51+00:00] run end {"discovered": 56, "skipped_recent": 12, "no_pair": 2, "market": {"pumpfun_bonding_curve": 15, "mcap_too_low": 17, "liquidity_low": 2, "too_old": 3, "missing:liquidity_usd": 2, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
+[2026-10-28T10:16:52+00:00] second_look: 24h GAMBIT GrtE7xGn… (rejected market:liquidity_low) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-28T10:16:52+00:00] second_look: pass end {"queued": 259, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-28T10:16:52+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-28T10:17:17+00:00] scout: feed error trending_pools?page=1: 429
+[2026-10-28T10:17:17+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-28T10:17:17+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-28T10:18:33+00:00] scout: pass end {"watch": 349, "a_qualify": 30, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=100s

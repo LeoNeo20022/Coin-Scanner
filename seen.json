@@ -185,10 +185,6 @@
   "market_logged": 1792578610.649484,
   "market_reason": "mcap_too_low"
  },
- "88ZHFdAkFZ8czq1w8jfKMpEA1sfry6F9DJMKTSJUpump": {
-  "market_logged": 1792577614.3557897,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "2Dy6RY7GzUGLu9ZqNuboWrJP6Xo6WR9zJZsmbtzPpump": {
   "market_logged": 1792578011.0995808,
   "market_reason": "pumpfun_bonding_curve"
@@ -6607,8 +6603,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC": {
-  "market_logged": 1793179891.572536,
-  "market_reason": "mcap_too_low",
+  "market_logged": 1793182607.9592042,
+  "market_reason": "liquidity_low",
   "judged": 1792924481.5563772,
   "symbol": "BTC"
  },
@@ -11463,5 +11459,9 @@
  },
  "3NgdC9MwLeocAzgwdrHNwyT46vsk5HUvPTi1HvozrnSZ": {
   "market_logged": 1793182308.2877848
+ },
+ "Rm8xx8HesYGvDb7pvSSLKUvadcY9Ti3wvoAMu1fpump": {
+  "market_logged": 1793182607.9592042,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
