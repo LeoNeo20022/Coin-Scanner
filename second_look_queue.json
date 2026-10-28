@@ -4640,9 +4640,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-10-28T02:03:09+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "pumpfun_bonding_curve"
     }
    },
-   "done": false
+   "done": true
   },
   "BRWwaW2TAfnuma8aneunWoYToZPWH6qiVxg6qZwKpump": {
    "mint": "BRWwaW2TAfnuma8aneunWoYToZPWH6qiVxg6qZwKpump",
@@ -4665,9 +4671,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-28T02:03:09+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump": {
    "mint": "5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump",
@@ -4690,9 +4702,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-28T02:03:09+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": {
    "mint": "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump",
@@ -5934,7 +5952,14 @@
    "mcap_usd": 54356,
    "liquidity_usd": 20136.74,
    "age_hours": 1.11,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T02:03:09+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "5wyVHQcToNiSZsDVzDViZWQ8gRQng6TGTJ2U3NKSpump": {
@@ -6818,6 +6843,60 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "HXtANftb98nBgawRhdYr7euGke7wr2dA15Z2iNhxpump": {
+   "mint": "HXtANftb98nBgawRhdYr7euGke7wr2dA15Z2iNhxpump",
+   "symbol": "PumpCult",
+   "pair": "9kbktVpD5b2KwAfD3GxNWjEWqp9QuYCF8LWWG8CKE8QV",
+   "dex": "pumpfun",
+   "rejected_at": "2026-10-28T02:03:07+00:00",
+   "rejected_ts": 1793152987,
+   "stage": "market",
+   "reason": "pumpfun_bonding_curve",
+   "reason_key": "market:pumpfun_bonding_curve",
+   "sources": "token-profiles",
+   "price_usd": 5.345e-06,
+   "mcap_usd": 5345.05,
+   "liquidity_usd": null,
+   "age_hours": 0.22,
+   "checks": {},
+   "done": false
+  },
+  "AsY6oq86gpvjfxhsZqwBcNdyL2geHptmMSdzCjTPpump": {
+   "mint": "AsY6oq86gpvjfxhsZqwBcNdyL2geHptmMSdzCjTPpump",
+   "symbol": "Bill",
+   "pair": "3mKX8GDqTycihyqyqMDzmaocWYgGcXFvc6Qtr78yCemN",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T02:03:07+00:00",
+   "rejected_ts": 1793152987,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 2.372e-06,
+   "mcap_usd": 2275,
+   "liquidity_usd": 2435.1,
+   "age_hours": 0.72,
+   "checks": {},
+   "done": false
+  },
+  "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": {
+   "mint": "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k",
+   "symbol": "jeff",
+   "pair": "JCXWfcZGjgJC8NZa5Qb6JP3cgvqW4vGUg4Tqj87G5ZnY",
+   "dex": "raydium",
+   "rejected_at": "2026-10-28T02:03:07+00:00",
+   "rejected_ts": 1793152987,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0002334,
+   "mcap_usd": 233464,
+   "liquidity_usd": 23779.44,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7249,7 +7328,7 @@
    }
   },
   "2026-10-28": {
-   "total": 11,
+   "total": 14,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7258,16 +7337,21 @@
     "01": 3,
     "01|market:pumpfun_bonding_curve": 1,
     "01|market:mcap_too_low": 1,
-    "01|market:too_new": 1
+    "01|market:too_new": 1,
+    "02": 3,
+    "02|market:pumpfun_bonding_curve": 1,
+    "02|market:mcap_too_low": 1,
+    "02|market:sells_ge_buys_h1": 1
    },
    "reasons": {
-    "market:mcap_too_low": 2,
-    "market:pumpfun_bonding_curve": 2,
+    "market:mcap_too_low": 3,
+    "market:pumpfun_bonding_curve": 3,
     "market:too_new": 2,
     "rugcheck:insiders": 2,
     "rugcheck:top10": 1,
     "grok:skip": 1,
-    "rugcheck:danger": 1
+    "rugcheck:danger": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
