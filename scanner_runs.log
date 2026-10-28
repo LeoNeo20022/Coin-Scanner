@@ -1,15 +1,3 @@
-[2026-10-26T15:46:02+00:00] run end {"discovered": 56, "skipped_recent": 12, "no_pair": 1, "market": {"pumpfun_bonding_curve": 14, "too_new": 4, "missing:liquidity_usd": 1, "mcap_too_low": 17, "too_old": 5, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
-[2026-10-26T15:46:03+00:00] second_look: 24h TTC 3Hz6XFrd… (rejected rugcheck:insiders) -> fail: mcap_too_low [dead: price_-90%]
-[2026-10-26T15:46:03+00:00] second_look: pass end {"queued": 241, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-26T15:46:04+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-26T15:50:52+00:00] run start (LOG ONLY)
-[2026-10-26T15:51:02+00:00] discovered=56 fresh=44 market_pass=0
-[2026-10-26T15:51:02+00:00] grok daily budget 10/40 used, 2 no-response, $0.0270 (2026-10-26 UTC)
-[2026-10-26T15:51:02+00:00] run end {"discovered": 56, "skipped_recent": 12, "no_pair": 1, "market": {"too_new": 4, "pumpfun_bonding_curve": 14, "missing:liquidity_usd": 1, "mcap_too_low": 16, "too_old": 6, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
-[2026-10-26T15:51:02+00:00] second_look: pass end {"queued": 241, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-26T15:51:02+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-26T15:55:53+00:00] run start (LOG ONLY)
-[2026-10-26T15:56:02+00:00] discovered=56 fresh=44 market_pass=0
 [2026-10-26T15:56:02+00:00] grok daily budget 10/40 used, 2 no-response, $0.0270 (2026-10-26 UTC)
 [2026-10-26T15:56:02+00:00] run end {"discovered": 56, "skipped_recent": 12, "no_pair": 1, "market": {"too_new": 4, "pumpfun_bonding_curve": 14, "missing:liquidity_usd": 1, "mcap_too_low": 16, "too_old": 6, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
 [2026-10-26T15:56:04+00:00] second_look: 24h ZGAP 5KtxmGhF… (rejected rugcheck:authority_open) -> fail: volume_h1_low
@@ -4998,3 +4986,15 @@
 [2026-10-28T08:16:54+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-10-28T08:16:54+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-28T08:18:09+00:00] scout: pass end {"watch": 348, "a_qualify": 34, "a_open": 1, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=94s
+[2026-10-28T08:26:57+00:00] run start (LOG ONLY)
+[2026-10-28T08:27:10+00:00] discovered=57 fresh=46 market_pass=0
+[2026-10-28T08:27:10+00:00] grok daily budget 4/40 used, 0 no-response, $0.0110 (2026-10-28 UTC)
+[2026-10-28T08:27:10+00:00] run end {"discovered": 57, "skipped_recent": 11, "no_pair": 0, "market": {"too_new": 4, "mcap_too_low": 21, "pumpfun_bonding_curve": 12, "too_old": 4, "missing:liquidity_usd": 2, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
+[2026-10-28T08:27:10+00:00] second_look: pass end {"queued": 256, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-28T08:27:11+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-28T08:27:32+00:00] scout: feed error trending_pools?page=1: 429
+[2026-10-28T08:27:32+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-28T08:27:32+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-28T08:27:32+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-28T08:28:09+00:00] scout: wait3 candles error AWvvUNra RuntimeError
+[2026-10-28T08:28:58+00:00] scout: pass end {"watch": 348, "a_qualify": 34, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=108s
