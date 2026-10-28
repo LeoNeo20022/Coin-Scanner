@@ -6958,6 +6958,24 @@
    "age_hours": 1.18,
    "checks": {},
    "done": false
+  },
+  "6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": {
+   "mint": "6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump",
+   "symbol": "Grokbot",
+   "pair": "AxfHbztLN7uxmgA4d2HxpP539FzFAHNEGXYY9T3JC8v9",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T07:56:35+00:00",
+   "rejected_ts": 1793174195,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.000142,
+   "mcap_usd": 124287,
+   "liquidity_usd": 32450.44,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7389,7 +7407,7 @@
    }
   },
   "2026-10-28": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7428,7 +7446,7 @@
     "rugcheck:insiders": 2,
     "rugcheck:top10": 5,
     "grok:skip": 3,
-    "rugcheck:danger": 1,
+    "rugcheck:danger": 2,
     "market:sells_ge_buys_h1": 1,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:authority_open": 1,
