@@ -205,20 +205,6 @@
   "market_logged": 1792633082.5597053,
   "market_reason": "pumpfun_bonding_curve"
  },
- "9mUsvixt7axzYFNxux2ppM2VSBUm6P1wP9WyA1yCgato": {
-  "market_logged": 1792546965.2231777,
-  "market_reason": "volume_h1_low",
-  "judged": 1792547264.8955975,
-  "symbol": "LORENZO"
- },
- "6wVY1aQoHsZAQZc1XTGSfjW6VL3mx7Y4Q3rrGbmFpump": {
-  "market_logged": 1792547264.8955975,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "5iEouo5NRev4bpYQ7DiJnT9nCkQXE24j2wwL4rP8pump": {
-  "market_logged": 1792547264.8955975,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "9EeMkr2UdUN8kQsjFGHseQAUDGivpSWpTEPsFSS1D7gp": {
   "market_logged": 1792547865.2023573,
   "market_reason": "pumpfun_bonding_curve"
@@ -9732,8 +9718,8 @@
   "market_reason": "mcap_too_low"
  },
  "6zMfMXjovo7ivtrypSP7YspHm5TcbV4Sh5TwSDgapump": {
-  "market_logged": 1793063490.0494664,
-  "market_reason": "too_new",
+  "market_logged": 1793152226.998825,
+  "market_reason": "mcap_too_low",
   "symbol": "TRUMP2028",
   "judged": 1793065702.8545702
  },
@@ -11407,12 +11393,12 @@
   "market_reason": "mcap_too_low"
  },
  "4V6xZ5UdRtBX8xqhKfVPPNk7CuGftCFsfDftUZiJpump": {
-  "market_logged": 1793150009.7223983,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793152226.998825,
+  "market_reason": "mcap_too_low"
  },
  "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": {
-  "market_logged": 1793151927.3197796,
-  "market_reason": "too_new"
+  "market_logged": 1793152226.998825,
+  "market_reason": "liquidity_low"
  },
  "5Ae1WGC1ztUV8L2pmgbWnp8nYJovmjvRSd26C8sKpump": {
   "market_logged": 1793150009.7223983,
@@ -11451,6 +11437,10 @@
  },
  "DzUj8Y9c5xsq6C1QaxAA8MNLegzTEyVw3uFscqkmpump": {
   "market_logged": 1793151626.4347095,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4ViUizb6eicqiYLKoMPahmXB1Bq7xMh6vLkBf1kWpump": {
+  "market_logged": 1793152226.998825,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
