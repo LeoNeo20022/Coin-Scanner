@@ -163,10 +163,6 @@
   "market_logged": 1792596490.3141916,
   "market_reason": "mcap_too_low"
  },
- "DrqXjXGHwcPpjp3XdBiF5c752z4vCL8cPWPGTBNppump": {
-  "market_logged": 1792596189.6893523,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "7Ge2KHuJLgMUs4YBq1wjENAYZiGnpZXK3dC85JiuFUND": {
   "market_logged": 1792596490.3141916,
   "market_reason": "pumpfun_bonding_curve"
@@ -11316,8 +11312,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "8tjtN7AGLaSLbMoNizXbZFTKqdk3iCFgcqmhHY4Hpump": {
-  "market_logged": 1793199053.762991,
-  "market_reason": "too_old"
+  "market_logged": 1793201221.956464,
+  "market_reason": "liquidity_low"
  },
  "6EA2bLcCtrDAxjoQdwTCWcmdSr4uFFfk9nabH4DwV4CM": {
   "market_logged": 1793197854.077805,
@@ -11377,10 +11373,20 @@
  },
  "D9NXzZxiJxgp2U69EDWJ1tJDMtGcEiWh2xGGY58Gpump": {
   "market_logged": 1793200921.869338,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "Potpot",
+  "judged": 1793201221.956464
  },
  "Exv4ix6ZjWXexSkf4ZUvUbMcXCoGMksTp1NDG74wpump": {
   "market_logged": 1793200921.869338,
   "market_reason": "too_new"
+ },
+ "8yWLU5rDC8cHRaLsUTQu8NLaohZoPVoi6awTffU6pump": {
+  "market_logged": 1793201221.956464,
+  "market_reason": "too_new"
+ },
+ "AWqjGVukKcG79uPHm9FcBcbAHmApemZPZetzv69aW7QM": {
+  "market_logged": 1793201221.956464,
+  "market_reason": "mcap_too_low"
  }
 }
