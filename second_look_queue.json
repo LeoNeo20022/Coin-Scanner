@@ -6713,6 +6713,24 @@
    "age_hours": 0.08,
    "checks": {},
    "done": false
+  },
+  "BtM6yvMeqZ9ZHdeEJRcep9EnaZm6qGWCEwz9t8hapump": {
+   "mint": "BtM6yvMeqZ9ZHdeEJRcep9EnaZm6qGWCEwz9t8hapump",
+   "symbol": "MOTHADO",
+   "pair": "27v9YuHL5YLF6bCpQhsBmZGMBAyahhLoPkCFZH2oS9xR",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T00:11:28+00:00",
+   "rejected_ts": 1793146288,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0003924,
+   "mcap_usd": 390032,
+   "liquidity_usd": 53589.04,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7144,7 +7162,7 @@
    }
   },
   "2026-10-28": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7154,7 +7172,8 @@
    "reasons": {
     "market:mcap_too_low": 1,
     "market:pumpfun_bonding_curve": 1,
-    "market:too_new": 1
+    "market:too_new": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
