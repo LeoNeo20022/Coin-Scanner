@@ -175,10 +175,6 @@
   "judged": 1792558223.8917606,
   "symbol": "smol"
  },
- "AW8Eo7c6ZxvPQ2LadTydjS6q4wG7ixVkGSn6pX9mpump": {
-  "market_logged": 1792557921.5251634,
-  "market_reason": "mcap_too_low"
- },
  "E1FTwWrBi3tVQqYTmLVBJP36db3EfzbiiTpMFkD7Qsmh": {
   "market_logged": 1792560656.298551,
   "market_reason": "mcap_too_low"
@@ -11429,7 +11425,9 @@
  },
  "CbFQMeEFCtRPGoEMHWjKGKH5AM3eGEH7mfKtAnNpump": {
   "market_logged": 1793162210.4324424,
-  "market_reason": "sells_ge_buys_h1"
+  "market_reason": "sells_ge_buys_h1",
+  "symbol": "ETH",
+  "judged": 1793162773.4454684
  },
  "FjxhmwHc3LoeTJw6iSCuoFwiAjrY21Wk8JLKmAFt1p8H": {
   "market_logged": 1793162210.4324424,
@@ -11438,5 +11436,9 @@
  "J46qG9nF2nF6ei7nyJCBgv455DUk8QgbXE6XZZ24pump": {
   "market_logged": 1793162510.6720836,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "C47Tnm21MYB9nGEEgrJHetZy76iEcSDEppmgfRL8X8PL": {
+  "market_logged": 1793162773.4454684,
+  "market_reason": "mcap_too_low"
  }
 }
