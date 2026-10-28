@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": {
-   "mint": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
-   "symbol": "ARCTIS",
-   "pair": "5SpztG8hdXCG3YWx7hWjHGHF8CYGNRSWZ1smmfQQkAMX",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-23T11:05:58+00:00",
-   "rejected_ts": 1792753558,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 7.33e-05,
-   "mcap_usd": 70424,
-   "liquidity_usd": 21377.32,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T11:07:45+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-25T11:10:16+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump": {
    "mint": "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump",
    "symbol": "RAT",
@@ -6002,7 +5971,14 @@
    "mcap_usd": 54882,
    "liquidity_usd": 18826.55,
    "age_hours": 970.42,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T11:12:59+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": {
