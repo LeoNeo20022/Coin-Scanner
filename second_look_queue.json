@@ -1,36 +1,5 @@
 {
  "entries": {
-  "7Yiy7urdzLosM34A1PvP4ZkgpfLXXAzsgNgsAJSRcpW5": {
-   "mint": "7Yiy7urdzLosM34A1PvP4ZkgpfLXXAzsgNgsAJSRcpW5",
-   "symbol": "CHEWY",
-   "pair": "8U5zdwP98n8e9qbPSGQHidJdkbsMwJfzhfira7S43JZ5",
-   "dex": "raydium",
-   "rejected_at": "2026-10-23T08:08:44+00:00",
-   "rejected_ts": 1792742924,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-boosts",
-   "price_usd": 5.301e-05,
-   "mcap_usd": 53012,
-   "liquidity_usd": 20411.29,
-   "age_hours": 28.72,
-   "checks": {
-    "24h": {
-     "time": "2026-10-24T08:09:44+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-25T08:12:44+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
   "Bivugv4GNFUiqUabDhvFcepDskTcgPk7EtExV4mvpump": {
    "mint": "Bivugv4GNFUiqUabDhvFcepDskTcgPk7EtExV4mvpump",
    "symbol": "Xingxing",
@@ -6014,7 +5983,14 @@
    "mcap_usd": 258820,
    "liquidity_usd": 43482.24,
    "age_hours": 1.08,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-28T08:16:35+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4ED2eJ9nLAdPonaWvTXpbLQLZsJf7TUBKCPA3Vzxpump": {
