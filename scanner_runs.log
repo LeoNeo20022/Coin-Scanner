@@ -1,18 +1,3 @@
-[2026-10-26T00:36:13+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-26T00:41:01+00:00] run start (LOG ONLY)
-[2026-10-26T00:41:11+00:00] discovered=58 fresh=45 market_pass=0
-[2026-10-26T00:41:11+00:00] grok daily budget 0/40 used, 1 no-response, $0.0000 (2026-10-26 UTC)
-[2026-10-26T00:41:11+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "too_new": 2, "mcap_too_low": 16, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-10-26T00:41:13+00:00] second_look: pass end {"queued": 243, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-26T00:41:13+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-26T00:46:02+00:00] run start (LOG ONLY)
-[2026-10-26T00:46:11+00:00] discovered=58 fresh=45 market_pass=1
-[2026-10-26T00:46:11+00:00] grok daily budget 0/40 used, 1 no-response, $0.0000 (2026-10-26 UTC)
-[2026-10-26T00:46:19+00:00] grok call 5.4s model=grok-4.3 tokens=994+70 reasoning=613
-[2026-10-26T00:46:19+00:00] grok [rugcheck] GTONK 9qyUWAY2… -> SKIP (0.75) Extreme 133% h1 / 303% h6 gains on 1h-old token signal blow-off top risk despite strong buy counts. | risk: Late entry into parabolic move likely to reverse hard on first wave of profit-taking
-[2026-10-26T00:46:20+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "liquidity_low": 1, "mcap_too_low": 16, "too_old": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=18s
-[2026-10-26T00:46:22+00:00] second_look: pass end {"queued": 243, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-26T00:46:23+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-10-26T00:51:01+00:00] run start (LOG ONLY)
 [2026-10-26T00:51:11+00:00] discovered=57 fresh=43 market_pass=0
 [2026-10-26T00:51:11+00:00] grok daily budget 1/40 used, 1 no-response, $0.0028 (2026-10-26 UTC)
@@ -4998,3 +4983,18 @@
 [2026-10-28T00:01:44+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-10-28T00:01:44+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-28T00:03:07+00:00] scout: pass end {"watch": 348, "a_qualify": 68, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=99s
+[2026-10-28T00:06:13+00:00] run start (LOG ONLY)
+[2026-10-28T00:06:26+00:00] discovered=70 fresh=58 market_pass=0
+[2026-10-28T00:06:26+00:00] grok daily budget 0/40 used, 0 no-response, $0.0000 (2026-10-28 UTC)
+[2026-10-28T00:06:26+00:00] run end {"discovered": 70, "skipped_recent": 12, "no_pair": 2, "market": {"pumpfun_bonding_curve": 16, "missing:liquidity_usd": 5, "mcap_too_low": 25, "too_new": 2, "too_old": 5, "mcap_too_high": 2, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=14s
+[2026-10-28T00:06:28+00:00] second_look: 24h EPIC CCci2Fr6… (rejected market:pumpfun_bonding_curve) -> fail: mcap_too_low
+[2026-10-28T00:06:28+00:00] second_look: 24h ELON2028 8BnNS15Q… (rejected market:too_new) -> fail: sells_ge_buys_h1
+[2026-10-28T00:06:28+00:00] second_look: 24h MUSK2028 7aGAb9jr… (rejected market:mcap_too_low) -> fail: mcap_too_low
+[2026-10-28T00:06:30+00:00] second_look: 24h ███WIF 8U6Rw9WV… (rejected grok:skip) -> WOULD PASS -> paper buy $10 x3 strategies
+[2026-10-28T00:06:33+00:00] second_look: pass end {"queued": 247, "due": 4, "rechecked": 4, "pass": 1, "opened": 1} elapsed=6s
+[2026-10-28T00:06:33+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-28T00:06:51+00:00] scout: feed error trending_pools?page=1: 429
+[2026-10-28T00:06:51+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-28T00:06:51+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-28T00:06:51+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-28T00:08:06+00:00] scout: pass end {"watch": 348, "a_qualify": 66, "a_open": 1, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=93s
