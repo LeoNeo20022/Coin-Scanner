@@ -177,12 +177,6 @@
   "market_logged": 1792588763.3914146,
   "market_reason": "volume_h1_low"
  },
- "RAPRVe54A9bN4JPA5hFrpa7m4UL7LWLQzhDjFyRXxmX": {
-  "market_logged": 1792539067.3624775,
-  "market_reason": "too_new",
-  "judged": 1792542115.4238293,
-  "symbol": "RAPR2"
- },
  "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": {
   "market_logged": 1792540290.2342575,
   "market_reason": "too_new",
@@ -218,10 +212,6 @@
   "market_reason": "too_new",
   "symbol": "claytonkimm",
   "judged": 1792544541.814352
- },
- "6WCutatiM6V7DH7ag3HhrLKrbrSMqyxrevNaJUh8pump": {
-  "market_logged": 1792542115.4238293,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "F4KqwtJXgAAVPeyJBPZiNe7Ki1RLQDXNfEcUApdrpump": {
   "market_logged": 1792543315.5863583,
@@ -5259,7 +5249,7 @@
   "symbol": "Moustache"
  },
  "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": {
-  "market_logged": 1793060533.6222095,
+  "market_logged": 1793147183.4218779,
   "market_reason": "too_old",
   "symbol": "REMUS",
   "judged": 1792974038.2104871
@@ -11416,8 +11406,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "J2hFoWkCd61Fyh19XUYZYSTf8Dpm9WyepDQYffY7pump": {
-  "market_logged": 1793144055.0861652,
-  "market_reason": "too_new"
+  "market_logged": 1793147183.4218779,
+  "market_reason": "sells_ge_buys_h1"
  },
  "BtM6yvMeqZ9ZHdeEJRcep9EnaZm6qGWCEwz9t8hapump": {
   "market_logged": 1793144355.9288428,
@@ -11467,7 +11457,22 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "Mithri1Vi1BYFekdqfPRW6Z27XNwi9veqrJ3ZYWtwos": {
-  "market_logged": 1793146882.944035,
+  "market_logged": 1793147183.4218779,
+  "market_reason": "liquidity_low"
+ },
+ "7JbU6AqB7WpvS852FvvPb48dXXuprf7gii6RYW1Kvg1Q": {
+  "market_logged": 1793147183.4218779
+ },
+ "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": {
+  "market_logged": 1793147183.4218779,
+  "market_reason": "mcap_too_low"
+ },
+ "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump": {
+  "market_logged": 1793147183.4218779,
   "market_reason": "too_new"
+ },
+ "8gMWXHfSwBRSLc2wKtLv24JYboCAsKaEqfC5cXLeZJXL": {
+  "market_logged": 1793147183.4218779,
+  "market_reason": "mcap_too_low"
  }
 }
