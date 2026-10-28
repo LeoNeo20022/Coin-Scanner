@@ -6732,6 +6732,24 @@
    "age_hours": 1.15,
    "checks": {},
    "done": false
+  },
+  "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump": {
+   "mint": "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump",
+   "symbol": "CATUS",
+   "pair": "rgYVAM22WjBfMszK2jTb3rx1Sab9B7uxtSgr6y4NfWM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-28T00:36:33+00:00",
+   "rejected_ts": 1793147793,
+   "stage": "grok",
+   "reason": "Sharp -49% h1 drop after +78% h6 pump shows fading momentum despite buy volume. Recent m5 buys strong but overall pattern typical of early exit.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 8.92e-05,
+   "mcap_usd": 88246,
+   "liquidity_usd": 24034.39,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7163,7 +7181,7 @@
    }
   },
   "2026-10-28": {
-   "total": 5,
+   "total": 6,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7175,7 +7193,8 @@
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
     "rugcheck:insiders": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "grok:skip": 1
    }
   }
  }

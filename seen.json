@@ -8,7 +8,7 @@
   "market_reason": "too_old"
  },
  "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
-  "market_logged": 1793033665.6716273,
+  "market_logged": 1793147779.8681,
   "market_reason": "mcap_too_high",
   "judged": 1792403560.5012507,
   "symbol": "GLITCH"
@@ -222,10 +222,6 @@
   "market_reason": "too_new",
   "symbol": "KIMCHIBOSS",
   "judged": 1792544841.2717106
- },
- "FdFtJ3Y3eR5EwrmJPEmsyLQ7twHm6cZUVKbnaFYbpump": {
-  "market_logged": 1792542715.3933525,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "yS95GRTqLfuPZZfrdrHPHAEqSCgSETjqRTdAvhmpump": {
   "market_logged": 1792543015.4625914,
@@ -11453,7 +11449,8 @@
   "market_reason": "too_new"
  },
  "7JbU6AqB7WpvS852FvvPb48dXXuprf7gii6RYW1Kvg1Q": {
-  "market_logged": 1793147183.4218779
+  "market_logged": 1793147779.8681,
+  "market_reason": "mcap_too_low"
  },
  "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": {
   "market_logged": 1793147483.458725,
@@ -11461,7 +11458,9 @@
  },
  "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump": {
   "market_logged": 1793147183.4218779,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "CATUS",
+  "judged": 1793147779.8681
  },
  "8gMWXHfSwBRSLc2wKtLv24JYboCAsKaEqfC5cXLeZJXL": {
   "market_logged": 1793147183.4218779,
@@ -11472,7 +11471,7 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "9tVNgpiLGvGoZWyGCu4fQDD93XCw8pmdLRmPxTWapump": {
-  "market_logged": 1793147483.458725,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793147779.8681,
+  "market_reason": "liquidity_low"
  }
 }
