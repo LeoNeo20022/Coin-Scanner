@@ -11399,7 +11399,9 @@
  },
  "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea": {
   "market_logged": 1793160711.3077793,
-  "market_reason": "sells_ge_buys_h1"
+  "market_reason": "sells_ge_buys_h1",
+  "judged": 1793162210.4324424,
+  "symbol": "ONECOIN"
  },
  "HNuJsfEL9qWbbJ1PRmgsHzy2GWNGEz27NHtJrLG8pump": {
   "market_logged": 1793161010.634018,
@@ -11422,7 +11424,15 @@
   "market_reason": "missing:mcap_usd"
  },
  "AuwrksVpKiMKURa4NasQd8NCFs4Qju8aZyzHY829pump": {
-  "market_logged": 1793161910.676952,
-  "market_reason": "too_new"
+  "market_logged": 1793162210.4324424,
+  "market_reason": "mcap_too_low"
+ },
+ "CbFQMeEFCtRPGoEMHWjKGKH5AM3eGEH7mfKtAnNpump": {
+  "market_logged": 1793162210.4324424,
+  "market_reason": "sells_ge_buys_h1"
+ },
+ "FjxhmwHc3LoeTJw6iSCuoFwiAjrY21Wk8JLKmAFt1p8H": {
+  "market_logged": 1793162210.4324424,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }

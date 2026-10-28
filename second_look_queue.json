@@ -6825,6 +6825,24 @@
    "age_hours": 0.35,
    "checks": {},
    "done": false
+  },
+  "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea": {
+   "mint": "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea",
+   "symbol": "ONECOIN",
+   "pair": "AWWfULEQvYKuMuNk42UmgBpAiLK3aVeiejaHxBStLrF6",
+   "dex": "meteora",
+   "rejected_at": "2026-10-28T04:36:55+00:00",
+   "rejected_ts": 1793162215,
+   "stage": "rugcheck",
+   "reason": "authority_open",
+   "reason_key": "rugcheck:authority_open",
+   "sources": "token-profiles",
+   "price_usd": 6.257e-05,
+   "mcap_usd": 53023,
+   "liquidity_usd": 24424.58,
+   "age_hours": 56.84,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7256,7 +7274,7 @@
    }
   },
   "2026-10-28": {
-   "total": 23,
+   "total": 24,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7288,7 +7306,8 @@
     "grok:skip": 2,
     "rugcheck:danger": 1,
     "market:sells_ge_buys_h1": 1,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "rugcheck:authority_open": 1
    }
   }
  }
