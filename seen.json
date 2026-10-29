@@ -199,20 +199,8 @@
   "judged": 1792766365.6330106,
   "symbol": "TRENCHERS"
  },
- "sWU4CmpMRom92sa7yhEvxRkR1VB5Mv9FP2SCL96pump": {
-  "market_logged": 1792680054.4754703,
-  "market_reason": "mcap_too_low"
- },
  "FQZn3AikRWqpKWzSFJAdDNcT6BEMCwGKjcGoKMCapump": {
   "market_logged": 1792880581.8959558,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "FM63TBqGpc2C9MdXdQd8rMaWyvJUSwMtpSW54YJbpump": {
-  "market_logged": 1792680054.4754703,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "YHmDZQuamPVAVhES5PQTFN5uAjfAw78MNSH4gh4pump": {
-  "market_logged": 1792680054.4754703,
   "market_reason": "pumpfun_bonding_curve"
  },
  "3iCWDZKyMoJ1QMGjtHrnW1wZpkYJxS7dbbv3Amwfpump": {
@@ -6204,7 +6192,9 @@
  },
  "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": {
   "symbol": "DESSA",
-  "judged": 1793030759.69179
+  "judged": 1793030759.69179,
+  "market_logged": 1793285033.6947694,
+  "market_reason": "too_old"
  },
  "1EwcGE6WrssiY2sKSadB5E5DE9WhPDQvBC6kev1EDGE": {
   "market_logged": 1793030759.69179,
@@ -10961,6 +10951,10 @@
  },
  "Fh8PsewqXZ43h97TH3GxndqwpKcY1Hzn9yESbGyNo9cb": {
   "market_logged": 1793284733.0586514,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4WTGWUhiTcj3KXiQtjogmrJWGPa6VnmYGuif8DHTpump": {
+  "market_logged": 1793285033.6947694,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
