@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": {
-   "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
-   "symbol": "COIL",
-   "pair": "BDFCdXTi8JfCkioHtytKCBfy2axEMmQoUV6j9BoLj2KJ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T08:34:44+00:00",
-   "rejected_ts": 1792830884,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001377,
-   "mcap_usd": 132452,
-   "liquidity_usd": 31298.78,
-   "age_hours": 1.92,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T08:38:16+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-10-26T08:37:58+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68": {
    "mint": "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68",
    "symbol": "SLOPCOIN",
@@ -5996,7 +5965,14 @@
    "mcap_usd": 155800,
    "liquidity_usd": 34099.54,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-29T08:41:18+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV": {
