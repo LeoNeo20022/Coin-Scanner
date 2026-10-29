@@ -6725,6 +6725,24 @@
    "age_hours": 1.11,
    "checks": {},
    "done": false
+  },
+  "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": {
+   "mint": "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump",
+   "symbol": "SLEGO",
+   "pair": "DSCVy8umUzka8C2jdnsf2HaRHfhMJT8QMauL3Um8yyqT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T02:32:39+00:00",
+   "rejected_ts": 1793241159,
+   "stage": "grok",
+   "reason": "566% h1 gain on a 1-hour-old token with volume almost entirely front-loaded signals a blow-off top already in progress.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003387,
+   "mcap_usd": 327276,
+   "liquidity_usd": 47875.73,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7213,7 +7231,7 @@
    }
   },
   "2026-10-29": {
-   "total": 13,
+   "total": 14,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7234,7 +7252,7 @@
     "market:mcap_too_low": 3,
     "rugcheck:top10": 3,
     "market:liquidity_low": 1,
-    "grok:skip": 1
+    "grok:skip": 2
    }
   }
  }
