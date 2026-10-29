@@ -4547,9 +4547,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-29T02:17:03+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "85jBWktfRenUaYt9SBiFdG8hzuh8txzdpVDRKxFZpump": {
    "mint": "85jBWktfRenUaYt9SBiFdG8hzuh8txzdpVDRKxFZpump",
@@ -4572,9 +4578,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-10-29T02:17:03+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "4qprYozXaoUaXiEVTMKU8y33Kmik5dREMjKEHZNFpkCH": {
    "mint": "4qprYozXaoUaXiEVTMKU8y33Kmik5dREMjKEHZNFpkCH",
@@ -4597,9 +4609,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-29T02:17:03+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "Ecx9c59agmjDeFgiNoGY1fz3qTj6JeushRiZNK6npump": {
    "mint": "Ecx9c59agmjDeFgiNoGY1fz3qTj6JeushRiZNK6npump",
@@ -6689,6 +6707,24 @@
    "age_hours": 1.73,
    "checks": {},
    "done": false
+  },
+  "147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec": {
+   "mint": "147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec",
+   "symbol": "0",
+   "pair": "H5EcTJgmsDU7SdMLDNk8NdheULLr9x1uYogrpq6sEGbw",
+   "dex": "raydium",
+   "rejected_at": "2026-10-29T02:16:58+00:00",
+   "rejected_ts": 1793240218,
+   "stage": "grok",
+   "reason": "Huge 255% h1 / 494% h6 gains with only mild m5 correction point to blow-off top; buying volume still elevated but fading relative to the pump.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002384,
+   "mcap_usd": 236566,
+   "liquidity_usd": 41009.48,
+   "age_hours": 1.11,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7177,7 +7213,7 @@
    }
   },
   "2026-10-29": {
-   "total": 12,
+   "total": 13,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7197,7 +7233,8 @@
     "market:too_new": 2,
     "market:mcap_too_low": 3,
     "rugcheck:top10": 3,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "grok:skip": 1
    }
   }
  }
