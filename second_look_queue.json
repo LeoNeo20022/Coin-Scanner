@@ -6652,6 +6652,24 @@
    "age_hours": 0.5,
    "checks": {},
    "done": false
+  },
+  "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": {
+   "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
+   "symbol": "CPU",
+   "pair": "APKy43xkxRZ4iJQB7aQAr6u82cRpk8tCg13TKsmUKcAD",
+   "dex": "raydium",
+   "rejected_at": "2026-10-29T01:24:47+00:00",
+   "rejected_ts": 1793237087,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001767,
+   "mcap_usd": 176785,
+   "liquidity_usd": 87374.77,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7140,7 +7158,7 @@
    }
   },
   "2026-10-29": {
-   "total": 7,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7155,7 +7173,7 @@
     "market:pumpfun_bonding_curve": 2,
     "market:too_new": 2,
     "market:mcap_too_low": 2,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 2
    }
   }
  }
