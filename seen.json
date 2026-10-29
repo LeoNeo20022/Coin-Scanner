@@ -263,10 +263,6 @@
   "judged": 1792696565.8224902,
   "symbol": "RESOLVED"
  },
- "fCUBpdeRn76xfRaa4UPHDauGeRG3EvMB3MjuRgdpump": {
-  "market_logged": 1792694126.6330535,
-  "market_reason": "mcap_too_low"
- },
  "7onkWNqxWrRM98mxBk4dxQGYo3kX2sKt52rkc4z2pump": {
   "market_logged": 1792694427.152438,
   "market_reason": "pumpfun_bonding_curve"
@@ -10943,7 +10939,9 @@
  },
  "53oJbc1vd4gkFZyuiUc4yGmJNceVmKWqRe4huQYEpump": {
   "market_logged": 1793298174.0412803,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793299214.859548,
+  "symbol": "Elon"
  },
  "ERDHASE2cJqemd8Grp9D52awbac438Fkwg67F2vWpump": {
   "judged": 1793298174.0412803,
@@ -10964,5 +10962,9 @@
  "6FvMhHrcDiogqHxB3D1CHzXcShTTyu7xZ2t5Sy4Xpump": {
   "market_logged": 1793298914.373375,
   "market_reason": "mcap_too_low"
+ },
+ "AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": {
+  "market_logged": 1793299214.859548,
+  "market_reason": "too_new"
  }
 }
