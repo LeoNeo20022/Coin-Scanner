@@ -211,18 +211,6 @@
   "judged": 1792677905.0969257,
   "symbol": "VECTOR"
  },
- "GCDUh93pQsY3qx7UKXqLVqBoxHXYML8kJoZCcUU1pump": {
-  "market_logged": 1792677604.6509185,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "9bmZUBkQQj5dbnQEYgxUyphWBFRKSXY68Bp3fY3Zpump": {
-  "market_logged": 1792677604.6509185,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "6nwCxJbZukXAV7xxvMcUidSoxqoFVkP8ihzyrRp9pump": {
-  "market_logged": 1792677604.6509185,
-  "market_reason": "mcap_too_low"
- },
  "H9hnx2AGK4G9Lg6zkzx3vE8jy89fHh4juDknV8cPrpsd": {
   "market_logged": 1792677905.0969257,
   "market_reason": "missing:liquidity_usd"
@@ -10903,7 +10891,9 @@
  },
  "J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump": {
   "market_logged": 1793279954.8030953,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793282584.9246907,
+  "symbol": "CHLOE"
  },
  "GwaFUDzWgmG3WYNP8raitkosYtBrnFKe9DRTsVMMrush": {
   "market_logged": 1793281384.9515507,
@@ -10950,6 +10940,10 @@
  },
  "13paEpNnhRi5mKA8kaPZA1K3EZutGZ7UzVuHjHXapump": {
   "market_logged": 1793282284.2987845,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "DCFGQcanXNc6uWvohuvs2W2f2GwrPgusnsLRM1WKpump": {
+  "market_logged": 1793282584.9246907,
   "market_reason": "pumpfun_bonding_curve"
  }
 }

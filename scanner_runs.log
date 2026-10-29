@@ -1,13 +1,3 @@
-[2026-10-27T22:45:33+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-27T22:45:52+00:00] scout: feed error trending_pools?page=1: 429
-[2026-10-27T22:45:52+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-10-27T22:45:52+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-10-27T22:45:52+00:00] scout: feed error new_pools?page=1: 429
-[2026-10-27T22:46:44+00:00] scout: pass end {"watch": 349, "a_qualify": 68, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=71s
-[2026-10-27T22:46:56+00:00] run start (LOG ONLY)
-[2026-10-27T22:47:09+00:00] discovered=68 fresh=53 market_pass=0
-[2026-10-27T22:47:09+00:00] grok daily budget 13/40 used, 0 no-response, $0.0349 (2026-10-27 UTC)
-[2026-10-27T22:47:09+00:00] run end {"discovered": 68, "skipped_recent": 15, "no_pair": 0, "market": {"too_new": 3, "mcap_too_low": 19, "pumpfun_bonding_curve": 18, "missing:mcap_usd": 1, "missing:liquidity_usd": 3, "liquidity_low": 1, "sells_ge_buys_h1": 1, "too_old": 5, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
 [2026-10-27T22:47:09+00:00] second_look: pass end {"queued": 247, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-10-27T22:47:09+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-10-27T22:47:27+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
@@ -4998,3 +4988,13 @@
 [2026-10-29T13:58:17+00:00] scout: paper: [pool/scalp] Chloe closed take_profit +1.73 after fees
 [2026-10-29T13:59:06+00:00] scout: wait3 candles error dyw5fDNv RuntimeError
 [2026-10-29T13:59:19+00:00] scout: pass end {"watch": 329, "a_qualify": 0, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=72s
+[2026-10-29T14:02:56+00:00] run start (LOG ONLY)
+[2026-10-29T14:03:08+00:00] discovered=51 fresh=44 market_pass=1
+[2026-10-29T14:03:08+00:00] grok daily budget 5/40 used, 0 no-response, $0.0134 (2026-10-29 UTC)
+[2026-10-29T14:03:10+00:00] run end {"discovered": 51, "skipped_recent": 7, "no_pair": 1, "market": {"pumpfun_bonding_curve": 9, "mcap_too_low": 17, "too_new": 1, "volume_h1_low": 3, "missing:liquidity_usd": 2, "too_old": 8, "mcap_too_high": 2}, "rug": {"top10": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
+[2026-10-29T14:03:10+00:00] second_look: pass end {"queued": 247, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-29T14:03:10+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-29T14:03:19+00:00] scout: paper: [pool/hold] Chloe closed stop_loss +2.22 after fees
+[2026-10-29T14:03:26+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-29T14:04:13+00:00] scout: wait3 candles error GmyoabL4 RuntimeError
+[2026-10-29T14:04:20+00:00] scout: pass end {"watch": 329, "a_qualify": 1, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=69s
