@@ -4609,9 +4609,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-29T08:05:21+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump": {
    "mint": "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump",
@@ -6747,6 +6753,24 @@
    "age_hours": 0.06,
    "checks": {},
    "done": false
+  },
+  "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump": {
+   "mint": "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump",
+   "symbol": "HASHTAG",
+   "pair": "CWpXy5ddYCbPoNAQ5qZQyJQmtnLMNy4PyRuZEYyoUqim",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T08:05:18+00:00",
+   "rejected_ts": 1793261118,
+   "stage": "grok",
+   "reason": "91% h1 and 137% h6 gains on a 1h-old token signal a blow-off top; buying the exit after the spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001263,
+   "mcap_usd": 123098,
+   "liquidity_usd": 30410.9,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7235,7 +7259,7 @@
    }
   },
   "2026-10-29": {
-   "total": 30,
+   "total": 31,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7275,7 +7299,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 5,
     "market:liquidity_low": 3,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "market:volume_h1_low": 2
    }
   }
