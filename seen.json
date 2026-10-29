@@ -205,20 +205,6 @@
   "judged": 1792766365.6330106,
   "symbol": "TRENCHERS"
  },
- "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump": {
-  "market_logged": 1792676749.052369,
-  "market_reason": "too_new",
-  "judged": 1792677905.0969257,
-  "symbol": "VECTOR"
- },
- "H9hnx2AGK4G9Lg6zkzx3vE8jy89fHh4juDknV8cPrpsd": {
-  "market_logged": 1792677905.0969257,
-  "market_reason": "missing:liquidity_usd"
- },
- "GbKogroNUdW96vCiWcS2mawJ2zd6NPPLCgLaKN7Ypump": {
-  "market_logged": 1792677905.0969257,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "5UpfiVvupR9FYjNV64f81XcoVq8DJ9KgJ2rXn3SXpump": {
   "market_logged": 1792678504.512937,
   "market_reason": "pumpfun_bonding_curve"
@@ -9247,7 +9233,7 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "5mzy2oEPEneJ47T2pb21FqGewjKY9TtGxGZUjVdNpump": {
-  "market_logged": 1793173290.9092276,
+  "market_logged": 1793282884.480285,
   "market_reason": "pumpfun_bonding_curve"
  },
  "GW12Y7SuPn6578ZU1tdhqJYfkmoCpBZ6XF3vmJympump": {
@@ -10900,7 +10886,8 @@
   "market_reason": "volume_h1_low"
  },
  "3nzHTAGiAQX5UYfBRxpUixXEjPRu4WeQB1ymydAr2fxn": {
-  "market_logged": 1793281384.9515507
+  "market_logged": 1793282884.480285,
+  "market_reason": "mcap_too_low"
  },
  "CQb9YU3S51hbHu1nyTVJJZNxqimas7ozuLrgqGrztMJ9": {
   "market_logged": 1793281384.9515507,
@@ -10931,8 +10918,8 @@
   "market_reason": "mcap_too_low"
  },
  "9B5uDwoTPkXXb67vaHiqWmyvWuUEDBMSU6ssZH1Zpump": {
-  "market_logged": 1793281684.8536863,
-  "market_reason": "too_new"
+  "market_logged": 1793282884.480285,
+  "market_reason": "mcap_too_low"
  },
  "3L2UC4gQumwMPYoBNhtmuJjiphqbRjsvc2JDRVR7pump": {
   "market_logged": 1793281984.0086477,
@@ -10945,5 +10932,13 @@
  "DCFGQcanXNc6uWvohuvs2W2f2GwrPgusnsLRM1WKpump": {
   "market_logged": 1793282584.9246907,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "AUaGFdgncXiSHEw7XvxLWQ37Sdj5DYzEj6duMExVpump": {
+  "market_logged": 1793282884.480285,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+  "market_logged": 1793282884.480285,
+  "market_reason": "too_new"
  }
 }
