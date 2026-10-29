@@ -6697,6 +6697,24 @@
    "age_hours": 1.22,
    "checks": {},
    "done": false
+  },
+  "2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump": {
+   "mint": "2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump",
+   "symbol": "ELOOONG",
+   "pair": "8ghRxLg3PgMf5vQXrUgVTcwuegjk3Hc7onnkc3NrQe5q",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T16:42:56+00:00",
+   "rejected_ts": 1793292176,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.000156,
+   "mcap_usd": 153659,
+   "liquidity_usd": 33019.8,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7185,7 +7203,7 @@
    }
   },
   "2026-10-29": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7236,7 +7254,7 @@
     "grok:skip": 6,
     "market:volume_h1_low": 3,
     "rugcheck:danger": 1,
-    "rugcheck:insiders": 2,
+    "rugcheck:insiders": 3,
     "rugcheck:lp_unlocked": 1
    }
   }
