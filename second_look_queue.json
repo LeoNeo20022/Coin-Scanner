@@ -6746,6 +6746,24 @@
    "age_hours": 0.25,
    "checks": {},
    "done": false
+  },
+  "DPb1vNz5wXuYCv27S85zZ8sGh6NTfU6gMYRFYA7Jpump": {
+   "mint": "DPb1vNz5wXuYCv27S85zZ8sGh6NTfU6gMYRFYA7Jpump",
+   "symbol": "SELLICON",
+   "pair": "GfYJTeV46JaTuFFKmDQ3P7cF7tkqqTfhP6LkDFTAhVfQ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T07:00:57+00:00",
+   "rejected_ts": 1793257257,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0001808,
+   "mcap_usd": 180807,
+   "liquidity_usd": 36772.94,
+   "age_hours": 0.43,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7234,7 +7252,7 @@
    }
   },
   "2026-10-29": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7263,11 +7281,13 @@
     "06": 3,
     "06|market:too_new": 1,
     "06|market:volume_h1_low": 1,
-    "06|market:liquidity_low": 1
+    "06|market:liquidity_low": 1,
+    "07": 1,
+    "07|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
-    "market:too_new": 5,
+    "market:too_new": 6,
     "market:mcap_too_low": 6,
     "rugcheck:top10": 5,
     "market:liquidity_low": 2,
