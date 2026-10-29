@@ -1,36 +1,5 @@
 {
  "entries": {
-  "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump": {
-   "mint": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
-   "symbol": "TRUMP",
-   "pair": "7Yk7UAsViEvP5wkyfapAFS7KySmCnJtpvamxmCMKiavU",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T03:52:59+00:00",
-   "rejected_ts": 1792813979,
-   "stage": "grok",
-   "reason": "1525% h6 and 102% h1 gains on 1h-old token signal blow-off top risk despite strong buy flow.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0008355,
-   "mcap_usd": 832221,
-   "liquidity_usd": 79052.71,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T03:57:54+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T03:56:22+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9E35BhwVHsmKYJU1pAMyoCAahmarUns3cHhpnCWPpump": {
    "mint": "9E35BhwVHsmKYJU1pAMyoCAahmarUns3cHhpnCWPpump",
    "symbol": "beb\u00e9bigote",
@@ -4671,9 +4640,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-29T03:56:31+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "5zTLJ9JxQRDeTxfm8onF8Gbf7J9tfXFwRbubaLs3pump": {
    "mint": "5zTLJ9JxQRDeTxfm8onF8Gbf7J9tfXFwRbubaLs3pump",
