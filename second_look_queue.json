@@ -6703,6 +6703,24 @@
    "age_hours": 0.17,
    "checks": {},
    "done": false
+  },
+  "GMXf4jmhR4hEeAjqq543oi4w2VVLd21fmKrn2gpQ2xsu": {
+   "mint": "GMXf4jmhR4hEeAjqq543oi4w2VVLd21fmKrn2gpQ2xsu",
+   "symbol": "KING",
+   "pair": "GqjPkgX1azo4atbUUWYvX4yyYs4Bf4HNaa2Y8MmmUFtz",
+   "dex": "raydium",
+   "rejected_at": "2026-10-29T05:48:38+00:00",
+   "rejected_ts": 1793252918,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-boosts",
+   "price_usd": 5.678e-05,
+   "mcap_usd": 55731,
+   "liquidity_usd": 20113.87,
+   "age_hours": 1.83,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7191,7 +7209,7 @@
    }
   },
   "2026-10-29": {
-   "total": 24,
+   "total": 25,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7222,7 +7240,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 4,
     "market:mcap_too_low": 6,
-    "rugcheck:top10": 4,
+    "rugcheck:top10": 5,
     "market:liquidity_low": 1,
     "grok:skip": 2,
     "market:volume_h1_low": 1
