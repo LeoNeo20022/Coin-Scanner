@@ -1,36 +1,5 @@
 {
  "entries": {
-  "JDTh2sJHiCALKw2Wccu9f1uzKTFdFKAe1scVrFnLpump": {
-   "mint": "JDTh2sJHiCALKw2Wccu9f1uzKTFdFKAe1scVrFnLpump",
-   "symbol": "swordcat",
-   "pair": "9ovWzTL7wE7mSc6HQWEjHixzXrx9riMnLFCyvnS1fWw9",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T16:16:55+00:00",
-   "rejected_ts": 1792858615,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001233,
-   "mcap_usd": 119886,
-   "liquidity_usd": 28791.27,
-   "age_hours": 1.08,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T16:19:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T16:24:56+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AcsdEAts1wWTW3wXCs96L33PPovrDiymT1hf8sY5pump": {
    "mint": "AcsdEAts1wWTW3wXCs96L33PPovrDiymT1hf8sY5pump",
    "symbol": "BIBI",
@@ -5866,7 +5835,14 @@
    "mcap_usd": 977069,
    "liquidity_usd": 86530.61,
    "age_hours": 1.16,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-29T16:17:57+00:00",
+     "would_pass": "1",
+     "dead": "0",
+     "result": "pass"
+    }
+   },
    "done": false
   },
   "8sooQVq6sRjV1jHxdCk53VZ9fxna8WitKKzAFs1xX9wP": {
@@ -5884,7 +5860,14 @@
    "mcap_usd": 149430,
    "liquidity_usd": 35878.14,
    "age_hours": 1.13,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-29T16:18:00+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "6EKmRQYzAXh5t6t1XNe2chYqmdSHgd32uA7xki9upump": {
