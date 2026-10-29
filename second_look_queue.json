@@ -1,36 +1,5 @@
 {
  "entries": {
-  "CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": {
-   "mint": "CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump",
-   "symbol": "MI",
-   "pair": "2jW1oUzWsSQ14hrGowXeadeqMygcCAYvM4knpRZ3P9DJ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T14:30:25+00:00",
-   "rejected_ts": 1792852225,
-   "stage": "grok",
-   "reason": "3164% h6 and 835% h1 gains after 1h age scream blow-off top. Buying pressure remains strong but volume and price action indicate late-stage hype.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.001449,
-   "mcap_usd": 1433137,
-   "liquidity_usd": 101428.64,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T14:33:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T14:33:44+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": {
    "mint": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
    "symbol": "GDC",
@@ -5903,7 +5872,14 @@
    "mcap_usd": 69368,
    "liquidity_usd": 22238.86,
    "age_hours": 1.17,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-29T14:33:57+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "D9NXzZxiJxgp2U69EDWJ1tJDMtGcEiWh2xGGY58Gpump": {
