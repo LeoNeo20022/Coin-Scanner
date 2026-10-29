@@ -205,10 +205,6 @@
   "judged": 1792683402.973967,
   "symbol": "TRUMPOCEAN"
  },
- "7uFobQL8fvvRRuJufTs5TJMS9LLnuNKJLTKxpCHHpump": {
-  "market_logged": 1792681556.0803735,
-  "market_reason": "mcap_too_low"
- },
  "FX1nYoan17vnNAafdCGdzbRsYySfunNh4pktT4bapump": {
   "market_logged": 1792681855.9890704,
   "market_reason": "pumpfun_bonding_curve"
@@ -10926,8 +10922,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "25NVbDfwuAVhb2XADxGCs6WQuPjU1RsgDfUG6GV132Tm": {
-  "market_logged": 1793285933.7234936,
-  "market_reason": "too_new"
+  "market_logged": 1793286533.2200222,
+  "market_reason": "mcap_too_low"
  },
  "Fh8PsewqXZ43h97TH3GxndqwpKcY1Hzn9yESbGyNo9cb": {
   "market_logged": 1793284733.0586514,
@@ -10958,8 +10954,8 @@
   "market_reason": "too_new"
  },
  "5DAqRe7Fa7SzVN3urM8hqKfmCUwZvowZTvp5WMgupump": {
-  "market_logged": 1793286233.6632304,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793286533.2200222,
+  "market_reason": "too_new"
  },
  "2C5DqjLHvJbxdf5c2o99KB8PScyt3XUtykmXHYuGmeme": {
   "market_logged": 1793285933.7234936,
@@ -10968,5 +10964,13 @@
  "FGGwUpqPHTxwLDdtoY37KBJ6tQxfY5N1JLTXEs2ppump": {
   "market_logged": 1793286233.6632304,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "6nSGsXyfpGeCsuny9wGE4fVrUdtJnVdNS2iTpaKqpump": {
+  "market_logged": 1793286533.2200222,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "9AfSCLTcHTwgKdy78ibYdJFn3TGbkQRcaxd2RUyHpump": {
+  "market_logged": 1793286533.2200222,
+  "market_reason": "liquidity_low"
  }
 }
