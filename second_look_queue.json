@@ -6784,6 +6784,24 @@
    "age_hours": 124.41,
    "checks": {},
    "done": false
+  },
+  "Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump": {
+   "mint": "Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump",
+   "symbol": "OTC",
+   "pair": "6Wfuyx4DvKykPnGaNguAJii7or1A4Xmr5m8DnN2Bdh1T",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T08:46:18+00:00",
+   "rejected_ts": 1793263578,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001209,
+   "mcap_usd": 113668,
+   "liquidity_usd": 28126.73,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7272,7 +7290,7 @@
    }
   },
   "2026-10-29": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7315,7 +7333,8 @@
     "rugcheck:top10": 5,
     "market:liquidity_low": 4,
     "grok:skip": 3,
-    "market:volume_h1_low": 2
+    "market:volume_h1_low": 2,
+    "rugcheck:danger": 1
    }
   }
  }
