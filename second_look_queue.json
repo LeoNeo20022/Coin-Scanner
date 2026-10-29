@@ -6735,6 +6735,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": {
+   "mint": "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt",
+   "symbol": "WALT",
+   "pair": "76TD5fVVqUBv9HLGLMdbhbCHgdaLe1XeT4wSeaAf9Xm4",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T10:52:18+00:00",
+   "rejected_ts": 1793271138,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 8.717e-05,
+   "mcap_usd": 84207,
+   "liquidity_usd": 23975.41,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7223,7 +7241,7 @@
    }
   },
   "2026-10-29": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7265,7 +7283,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "market:liquidity_low": 5,
     "grok:skip": 3,
     "market:volume_h1_low": 2,
