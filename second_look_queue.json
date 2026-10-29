@@ -1,36 +1,5 @@
 {
  "entries": {
-  "GoLpdpR9X66mC8m2hYYHsuMDs5trNNVv9ze21gzXpump": {
-   "mint": "GoLpdpR9X66mC8m2hYYHsuMDs5trNNVv9ze21gzXpump",
-   "symbol": "GSIR",
-   "pair": "B399UeZ6B8n5dNbVWuYgqzS4tAsK8HLu9LmfUyTKNBQc",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T06:31:40+00:00",
-   "rejected_ts": 1792823500,
-   "stage": "grok",
-   "reason": "1308% h6 gain with buys_m5 collapsing to 3 vs 336 in h1 shows fading spike. Slight m5 dip after 24% h1 run suggests early exit phase.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0009789,
-   "mcap_usd": 976685,
-   "liquidity_usd": 84909.91,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T06:34:49+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-26T06:33:39+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "6ZY8335NunQkyKGasxfbL7iHmvoqFbSLbiXt7qUSpump": {
    "mint": "6ZY8335NunQkyKGasxfbL7iHmvoqFbSLbiXt7qUSpump",
    "symbol": "PAWN",
@@ -5934,7 +5903,14 @@
    "mcap_usd": 72069,
    "liquidity_usd": 21866.54,
    "age_hours": 1.25,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-29T06:40:58+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": {
