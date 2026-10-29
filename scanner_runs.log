@@ -1,17 +1,3 @@
-[2026-10-28T00:31:34+00:00] second_look: paper: [scalp] ███WIF: closed (take_profit)
-[2026-10-28T00:31:34+00:00] second_look: pass end {"queued": 248, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=6s
-[2026-10-28T00:31:34+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-28T00:31:52+00:00] scout: feed error trending_pools?page=1: 429
-[2026-10-28T00:31:52+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-10-28T00:31:52+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-10-28T00:31:52+00:00] scout: feed error new_pools?page=1: 429
-[2026-10-28T00:33:10+00:00] scout: pass end {"watch": 348, "a_qualify": 62, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=95s
-[2026-10-28T00:36:13+00:00] run start (LOG ONLY)
-[2026-10-28T00:36:23+00:00] discovered=71 fresh=58 market_pass=1
-[2026-10-28T00:36:23+00:00] grok daily budget 0/40 used, 0 no-response, $0.0000 (2026-10-28 UTC)
-[2026-10-28T00:36:33+00:00] grok call 8.3s model=grok-4.3 tokens=997+70 reasoning=681
-[2026-10-28T00:36:33+00:00] grok [rugcheck] CATUS B4XWhKBU… -> SKIP (0.75) Sharp -49% h1 drop after +78% h6 pump shows fading momentum despite buy volume. Recent m5 buys strong but overall pattern typical of early exit. | risk: Post-pump correction likely to continue with thin liquidity
-[2026-10-28T00:36:34+00:00] run end {"discovered": 71, "skipped_recent": 13, "no_pair": 3, "market": {"pumpfun_bonding_curve": 16, "liquidity_low": 1, "mcap_too_low": 24, "too_new": 2, "missing:liquidity_usd": 4, "mcap_too_high": 3, "too_old": 4}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=21s
 [2026-10-28T00:36:37+00:00] second_look: pass end {"queued": 249, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
 [2026-10-28T00:36:37+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-10-28T00:36:42+00:00] scout: paper: [pool/scalp] SI closed stop_loss -1.20 after fees
@@ -4998,3 +4984,17 @@
 [2026-10-29T17:10:35+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-29T17:11:13+00:00] scout: wait3 candles error 3w2TvVmT RuntimeError
 [2026-10-29T17:11:41+00:00] scout: pass end {"watch": 328, "a_qualify": 28, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=105s
+[2026-10-29T17:14:41+00:00] run start (LOG ONLY)
+[2026-10-29T17:14:52+00:00] discovered=62 fresh=52 market_pass=0
+[2026-10-29T17:14:52+00:00] grok daily budget 7/40 used, 0 no-response, $0.0188 (2026-10-29 UTC)
+[2026-10-29T17:14:52+00:00] run end {"discovered": 62, "skipped_recent": 10, "no_pair": 0, "market": {"pumpfun_bonding_curve": 12, "mcap_too_low": 22, "too_new": 4, "missing:liquidity_usd": 2, "mcap_too_high": 3, "too_old": 8, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-10-29T17:14:54+00:00] second_look: 48h MOONX 28vWTtEw… (rejected rugcheck:insiders) -> fail: volume_h1_low
+[2026-10-29T17:14:54+00:00] second_look: 24h МЕДВЕД HsChU2kZ… (rejected market:sells_ge_buys_h1) -> fail: mcap_too_low [dead: price_-90%]
+[2026-10-29T17:14:56+00:00] second_look: pass end {"queued": 248, "due": 2, "rechecked": 2, "pass": 0, "opened": 0} elapsed=4s
+[2026-10-29T17:14:56+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-29T17:15:35+00:00] scout: feed error trending_pools?page=1: 429
+[2026-10-29T17:15:35+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-29T17:15:35+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-29T17:15:35+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-29T17:16:13+00:00] scout: wait3 candles error 5JbRYEz8 RuntimeError
+[2026-10-29T17:16:41+00:00] scout: pass end {"watch": 328, "a_qualify": 28, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=104s
