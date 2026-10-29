@@ -229,10 +229,6 @@
   "judged": 1792708799.4171011,
   "symbol": "CYBERCAT"
  },
- "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump": {
-  "market_logged": 1792702083.4489694,
-  "market_reason": "liquidity_low"
- },
  "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": {
   "market_logged": 1793191023.9083817,
   "market_reason": "mcap_too_high"
@@ -10902,8 +10898,8 @@
   "market_reason": "mcap_too_low"
  },
  "C5hLhhd5MivJ8m2MTQjB9A2nmuBymRzYhyRpeRMMpump": {
-  "market_logged": 1793306763.8836372,
-  "market_reason": "too_new"
+  "market_logged": 1793307063.2997503,
+  "market_reason": "mcap_too_low"
  },
  "9hsUf4d21CpjLs6FNdxQosSEUnoT4SqLyUAjqGESKgG7": {
   "market_logged": 1793306763.8836372,
@@ -10991,6 +10987,10 @@
  },
  "2orqEGSdkm5BMmhdM8TpKCpACk32a3Zaj3Lef7ceqsc6": {
   "market_logged": 1793306763.8836372,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "DCA8Y187z5idPn95BQhra13W4Ca6iyJ44JnSmT5NkHs": {
+  "market_logged": 1793307063.2997503,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
