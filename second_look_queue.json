@@ -6683,6 +6683,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": {
+   "mint": "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump",
+   "symbol": "VI",
+   "pair": "G8vQy7Bo6MrfKQH6CxsUiE9KSh7fGBY4NhSpj4GKLfhU",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T15:25:32+00:00",
+   "rejected_ts": 1793287532,
+   "stage": "grok",
+   "reason": "264% h6 pump already done, m5 activity collapsed to near-zero while h1 still shows residual volume.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001782,
+   "mcap_usd": 176456,
+   "liquidity_usd": 34652.7,
+   "age_hours": 1.22,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7171,7 +7189,7 @@
    }
   },
   "2026-10-29": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7219,7 +7237,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:volume_h1_low": 3,
     "rugcheck:danger": 1,
     "rugcheck:insiders": 2,
