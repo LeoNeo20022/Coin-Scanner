@@ -1,67 +1,5 @@
 {
  "entries": {
-  "AcsdEAts1wWTW3wXCs96L33PPovrDiymT1hf8sY5pump": {
-   "mint": "AcsdEAts1wWTW3wXCs96L33PPovrDiymT1hf8sY5pump",
-   "symbol": "BIBI",
-   "pair": "7SxEbUmVNSi9uABfNk5xcACh1QSHCVhhFynxDF5XbD5P",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T21:16:57+00:00",
-   "rejected_ts": 1792876617,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0001692,
-   "mcap_usd": 160963,
-   "liquidity_usd": 36506.55,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T21:18:35+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T21:18:18+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump": {
-   "mint": "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
-   "symbol": "Pablo",
-   "pair": "5991THFJ2QDEXkPSUP6bq4s7hiwCJo9pj4h2EG4hWCEc",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T22:38:05+00:00",
-   "rejected_ts": 1792881485,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 8.22e-05,
-   "mcap_usd": 79993,
-   "liquidity_usd": 23135.04,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T22:40:01+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T22:40:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "H5n1Csm8SSN9V4DXdWheVWqZNS8pA813FhyWsdJ6pump": {
    "mint": "H5n1Csm8SSN9V4DXdWheVWqZNS8pA813FhyWsdJ6pump",
    "symbol": "SUI",
@@ -6856,6 +6794,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "2BTpBX5ktiFjfHxwcLNj3uftawbm9AT7KUg46aCFpump": {
+   "mint": "2BTpBX5ktiFjfHxwcLNj3uftawbm9AT7KUg46aCFpump",
+   "symbol": "WASTED",
+   "pair": "CMH7HnnYzpsyyawH2D92f9v8cQDuV2E5TQXBDrC955x2",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T22:44:26+00:00",
+   "rejected_ts": 1793313866,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0005362,
+   "mcap_usd": 532443,
+   "liquidity_usd": 61102.8,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7344,7 +7300,7 @@
    }
   },
   "2026-10-29": {
-   "total": 48,
+   "total": 49,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7397,7 +7353,7 @@
     "grok:skip": 6,
     "market:volume_h1_low": 4,
     "rugcheck:danger": 1,
-    "rugcheck:insiders": 5,
+    "rugcheck:insiders": 6,
     "rugcheck:lp_unlocked": 2
    }
   }
