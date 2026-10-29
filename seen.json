@@ -225,12 +225,6 @@
   "judged": 1792753856.0966785,
   "symbol": "ARCTIS"
  },
- "CQ4FfF2qkzDTuK23hpKHAgSWYAkRkmaU3yqFvjBhpump": {
-  "market_logged": 1792690756.528558,
-  "market_reason": "too_new",
-  "symbol": "KIMCHAI",
-  "judged": 1792693226.6414552
- },
  "E7DTr6RANsHApnidgGT1VqzAJKcqYXBEvf2QeyvJMUZ2": {
   "market_logged": 1792691955.911057,
   "market_reason": "too_new",
@@ -258,10 +252,6 @@
  "BRU19mBvS93Ta9kymAmAVoDvtVwHY23gou4Sj6rHpump": {
   "market_logged": 1792693826.8134956,
   "market_reason": "mcap_too_low"
- },
- "9bgwVFBthRKyPugk5LY1fWivjEUux8eTU6WbHjsPpump": {
-  "market_logged": 1792693226.6414552,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "GEZev5APkmxo7DLiXtvMiZ732qqEe1VAAFyv249HLock": {
   "market_logged": 1792696266.164337,
@@ -10617,8 +10607,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "25NVbDfwuAVhb2XADxGCs6WQuPjU1RsgDfUG6GV132Tm": {
-  "market_logged": 1793297873.3236015,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793298174.0412803,
+  "market_reason": "mcap_too_low"
  },
  "Fh8PsewqXZ43h97TH3GxndqwpKcY1Hzn9yESbGyNo9cb": {
   "market_logged": 1793284733.0586514,
@@ -10910,8 +10900,8 @@
   "market_reason": "too_new"
  },
  "Fa1Uqysy2s6UwpcMQhjwpn49dp7oHPvxq8FrBqKqpump": {
-  "market_logged": 1793296373.5741043,
-  "market_reason": "too_new"
+  "market_logged": 1793298174.0412803,
+  "market_reason": "mcap_too_low"
  },
  "7jDYkD5FT2Sku9gpDiqcpaGfLk2VDhha528ne8HMpump": {
   "market_logged": 1793296673.3114269,
@@ -10958,11 +10948,19 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8WmbpB3Y8ZkGBGtXZX8q7GYHbv8Ac87ARCfgkW3Xpump": {
-  "market_logged": 1793297873.3236015,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793298174.0412803,
+  "market_reason": "mcap_too_low"
  },
  "DdUWzDPNXzLEAjUoULPx63F2u3AxUMi3vRgJJdbDpump": {
   "market_logged": 1793297873.3236015,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "53oJbc1vd4gkFZyuiUc4yGmJNceVmKWqRe4huQYEpump": {
+  "market_logged": 1793298174.0412803,
+  "market_reason": "too_new"
+ },
+ "ERDHASE2cJqemd8Grp9D52awbac438Fkwg67F2vWpump": {
+  "judged": 1793298174.0412803,
+  "symbol": "DEXTRO"
  }
 }
