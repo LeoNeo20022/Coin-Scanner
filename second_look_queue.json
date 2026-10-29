@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FFPSPaZ6pZEeVET743ZBxAhbwQqKZhRp997dMWDNpump": {
-   "mint": "FFPSPaZ6pZEeVET743ZBxAhbwQqKZhRp997dMWDNpump",
-   "symbol": "baldcat",
-   "pair": "6YUTVnzEnopXFEN9UFXddsEDkn1tqEon3jLzAH4cQyES",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T05:09:32+00:00",
-   "rejected_ts": 1792818572,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.053e-05,
-   "mcap_usd": 76876,
-   "liquidity_usd": 23545.62,
-   "age_hours": 4.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T05:13:50+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T05:12:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": {
    "mint": "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump",
    "symbol": "DPM",
@@ -5940,7 +5909,14 @@
    "mcap_usd": 62647,
    "liquidity_usd": 21166.6,
    "age_hours": 3.52,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-29T05:29:20+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "GcumZadLqEiWzB2VLVr6WgZwqcN4Deg51S3bxR4UWmzh": {
