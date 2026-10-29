@@ -253,26 +253,6 @@
   "market_logged": 1792702083.4489694,
   "market_reason": "liquidity_low"
  },
- "fUkSnEAsbNW9pkZRFoNnCYPFRzbDuE62kK6VLdvTmZi": {
-  "market_logged": 1792699947.8452656,
-  "market_reason": "mcap_too_low"
- },
- "Du9kbMui6rtyvLgqXRBSoriVuRM8aLhskwRbU8gXpump": {
-  "market_logged": 1792699947.8452656,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "3nyNjt55pxCePAkevhXYQZrRWbTPZd912GGutModTyHB": {
-  "market_logged": 1792699947.8452656,
-  "market_reason": "missing:mcap_usd"
- },
- "5wgCSXNnH5W9XAGPMbBFvhy96n9YydrwQXa1tAyJpump": {
-  "market_logged": 1792699947.8452656,
-  "market_reason": "mcap_too_low"
- },
- "86qZLiDcKSDeWGB12abFRjYpE17z8KkGwR73WjqSpump": {
-  "market_logged": 1792699947.8452656,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "22vNe5rfHBx3pxEj9BnFCBBzWDxKpFQQbWtz2Nk2pump": {
   "market_logged": 1792700547.839687,
   "market_reason": "pumpfun_bonding_curve"
@@ -10961,7 +10941,9 @@
  },
  "H3iGq7KSqdzw7QG3xZo2mF4eaYsvihZqqoAkdXripump": {
   "market_logged": 1793302728.6783068,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "CROWD",
+  "judged": 1793305033.4638727
  },
  "AnNxAekjNfLx3H4GXPoHAtv2iBToSfKK7fZWxPXZDRMi": {
   "market_logged": 1793303028.105778,
@@ -10976,8 +10958,8 @@
   "market_reason": "mcap_too_low"
  },
  "C5hLhhd5MivJ8m2MTQjB9A2nmuBymRzYhyRpeRMMpump": {
-  "market_logged": 1793304733.9193358,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793305033.4638727,
+  "market_reason": "mcap_too_low"
  },
  "9hsUf4d21CpjLs6FNdxQosSEUnoT4SqLyUAjqGESKgG7": {
   "market_logged": 1793304733.9193358,
@@ -10998,5 +10980,21 @@
  "7rCKRYJavhWMJs3QPKb1dybR8HaGdB5KJB9xRkfshZ9k": {
   "market_logged": 1793304733.9193358,
   "market_reason": "missing:liquidity_usd"
+ },
+ "AvVHH59ommHqNVyguDJ7PJzKSoFaAjqW3KkjEMqepump": {
+  "market_logged": 1793305033.4638727,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "HBFxk72r4xVqhT8yK8ZFXEEGvpfkoeeSTQXiewZP7SZM": {
+  "market_logged": 1793305033.4638727,
+  "market_reason": "liquidity_low"
+ },
+ "GkfVPCNcjEPo27NpuC96BUUqFRaZFgygUBree5UceRa6": {
+  "market_logged": 1793305033.4638727,
+  "market_reason": "missing:mcap_usd"
+ },
+ "BY72wXremm4pqv25427WWjQ96EtXSujxZybUodaF54rJ": {
+  "market_logged": 1793305033.4638727,
+  "market_reason": "missing:mcap_usd"
  }
 }
