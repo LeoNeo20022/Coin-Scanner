@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": {
-   "mint": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
-   "symbol": "\u2588\u2588\u2588",
-   "pair": "9sY4Amm2RFpsBQ1qgCQTxcjfvhmfJ9K4d2J5xfM1k75M",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T04:27:42+00:00",
-   "rejected_ts": 1792816062,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 9.395e-05,
-   "mcap_usd": 91469,
-   "liquidity_usd": 25604.38,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T04:28:25+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    },
-    "48h": {
-     "time": "2026-10-26T04:31:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    }
-   },
-   "done": true
-  },
   "CACbKus5h8iEpncWfLafR2bPcYB8tvTyokPwA6CFpump": {
    "mint": "CACbKus5h8iEpncWfLafR2bPcYB8tvTyokPwA6CFpump",
    "symbol": "Shh",
@@ -5921,7 +5890,14 @@
    "mcap_usd": 53023,
    "liquidity_usd": 24424.58,
    "age_hours": 56.84,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-29T04:39:48+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": {
