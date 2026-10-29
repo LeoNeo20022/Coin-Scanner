@@ -1,67 +1,5 @@
 {
  "entries": {
-  "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": {
-   "mint": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
-   "symbol": "GDC",
-   "pair": "AU5eQdjHKeHo4E7Ub78p2DBdjUReBsKEYr9dMphwGbRh",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T14:51:07+00:00",
-   "rejected_ts": 1792853467,
-   "stage": "grok",
-   "reason": "994% h6 / 144% h1 run-up after 1h age looks like blow-off; m5 price already -4.2% while volume concentrated early.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0006038,
-   "mcap_usd": 598687,
-   "liquidity_usd": 67854.55,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T14:53:07+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T15:31:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump": {
-   "mint": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
-   "symbol": "PRIVACY",
-   "pair": "96FFm6VefGxBNGv92Ezdw7dyELEXdycWqFgR7nLuRBFi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T14:56:06+00:00",
-   "rejected_ts": 1792853766,
-   "stage": "grok",
-   "reason": "1616% gain in 6h after extreme early volume; buying the exit on a blow-off top. Buys still outpace sells but momentum is already parabolic.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0008916,
-   "mcap_usd": 888181,
-   "liquidity_usd": 81513.73,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T14:58:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T15:31:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "JDTh2sJHiCALKw2Wccu9f1uzKTFdFKAe1scVrFnLpump": {
    "mint": "JDTh2sJHiCALKw2Wccu9f1uzKTFdFKAe1scVrFnLpump",
    "symbol": "swordcat",
@@ -6709,6 +6647,42 @@
    "age_hours": 47.22,
    "checks": {},
    "done": false
+  },
+  "6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump": {
+   "mint": "6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump",
+   "symbol": "CHLOE",
+   "pair": "D5tXS5Yauwk9ny2vGjs85WynMbf5PfuPiA4GxaQGrk6s",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T14:58:58+00:00",
+   "rejected_ts": 1793285938,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001425,
+   "mcap_usd": 139821,
+   "liquidity_usd": 31821.29,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
+  },
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "symbol": "STANK",
+   "pair": "6hYFMyE2BYYScTErqUeCKhihQ5X9j2WD2z9waTdwy38N",
+   "dex": "raydium",
+   "rejected_at": "2026-10-29T14:59:08+00:00",
+   "rejected_ts": 1793285948,
+   "stage": "grok",
+   "reason": "Big 69% h6 run already fading (m5 -4.7%, buys/sells near parity). High early volume but momentum clearly cooling on a 1h-old token.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 7.226e-05,
+   "mcap_usd": 72261,
+   "liquidity_usd": 23594.21,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7197,7 +7171,7 @@
    }
   },
   "2026-10-29": {
-   "total": 40,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7245,10 +7219,10 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "market:volume_h1_low": 3,
     "rugcheck:danger": 1,
-    "rugcheck:insiders": 1,
+    "rugcheck:insiders": 2,
     "rugcheck:lp_unlocked": 1
    }
   }
