@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EBweTXzLPTDoXrokPbUtHkupwV1dG9DFtAWAZfz6pump": {
-   "mint": "EBweTXzLPTDoXrokPbUtHkupwV1dG9DFtAWAZfz6pump",
-   "symbol": "IC",
-   "pair": "ERswRUX3PsPrnywt6YSfgXNWuDz8PPLH6YHAjUiATEzo",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T00:25:53+00:00",
-   "rejected_ts": 1792801553,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0005218,
-   "mcap_usd": 517133,
-   "liquidity_usd": 61803.62,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T00:29:45+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T00:26:12+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GFNFFEd5RokMqP3CPZtzZ3McmzAvZ3Xb3oh5LFYwpump": {
    "mint": "GFNFFEd5RokMqP3CPZtzZ3McmzAvZ3Xb3oh5LFYwpump",
    "symbol": "Shitcoin",
@@ -4547,9 +4516,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "insiders"
+    },
+    "48h": {
+     "time": "2026-10-29T00:27:31+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": {
    "mint": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
