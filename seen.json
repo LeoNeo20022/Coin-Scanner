@@ -225,10 +225,6 @@
   "judged": 1792753856.0966785,
   "symbol": "ARCTIS"
  },
- "2VEmKGyHRosZciehmau2jiqbCWZE2asf1PVdJHQXpump": {
-  "market_logged": 1792695665.7709181,
-  "market_reason": "mcap_too_low"
- },
  "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": {
   "market_logged": 1792779528.4994993,
   "market_reason": "too_old"
@@ -10947,7 +10943,9 @@
  },
  "FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump": {
   "market_logged": 1793300114.2001457,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793300714.2528996,
+  "symbol": "Hypurr"
  },
  "CNtdYoJq9viwsj5eogkK45Bn9HjMyGKWpU6GB2dwpump": {
   "market_logged": 1793300114.2001457,
@@ -10967,6 +10965,14 @@
  },
  "7c7VbfrjZuGPJDU7fE6WCbYp7WibPzfxY54cEP6mi4DT": {
   "market_logged": 1793300414.6372442,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "5h6eVq4SCz7zF9FTQj7t8bvzrHwEntcJLU2WoGmTpump": {
+  "market_logged": 1793300714.2528996,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2c6KepS2pTKbJn7Jx2w3VYAUjbaGqn89WaSmiqt7pump": {
+  "market_logged": 1793300714.2528996,
   "market_reason": "pumpfun_bonding_curve"
  }
 }

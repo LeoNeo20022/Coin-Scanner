@@ -6820,6 +6820,24 @@
    "age_hours": 3.54,
    "checks": {},
    "done": false
+  },
+  "FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump": {
+   "mint": "FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump",
+   "symbol": "Hypurr",
+   "pair": "EFo49Kr3Do3amvov1kbTPuuhhzzNfu6Y3pMGzTWDAHM7",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T19:05:19+00:00",
+   "rejected_ts": 1793300719,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0002087,
+   "mcap_usd": 200565,
+   "liquidity_usd": 41531.41,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7308,7 +7326,7 @@
    }
   },
   "2026-10-29": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7361,7 +7379,7 @@
     "grok:skip": 6,
     "market:volume_h1_low": 4,
     "rugcheck:danger": 1,
-    "rugcheck:insiders": 4,
+    "rugcheck:insiders": 5,
     "rugcheck:lp_unlocked": 2
    }
   }
