@@ -6722,6 +6722,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": {
+   "mint": "9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump",
+   "symbol": "HOUSEWORM",
+   "pair": "5aw8oMKNbwWtecNWL2WWSca4bMaatveZoRyc7EUJjoaT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T16:52:56+00:00",
+   "rejected_ts": 1793292776,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0005556,
+   "mcap_usd": 552447,
+   "liquidity_usd": 63801.89,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7210,7 +7228,7 @@
    }
   },
   "2026-10-29": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7261,7 +7279,7 @@
     "grok:skip": 6,
     "market:volume_h1_low": 3,
     "rugcheck:danger": 1,
-    "rugcheck:insiders": 3,
+    "rugcheck:insiders": 4,
     "rugcheck:lp_unlocked": 1
    }
   }
