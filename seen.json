@@ -10934,7 +10934,9 @@
  },
  "9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": {
   "market_logged": 1793270833.3324134,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "MULTI",
+  "judged": 1793273695.0156784
  },
  "CmD5vJwsnNnKZvGRcwqkKFY1KGix8eMeHTakypZoe1ki": {
   "market_logged": 1793272795.9546063,
@@ -10949,6 +10951,14 @@
  },
  "7WYJycaBqvSDGoCCMND89tAgToy4YNW7KdQVDwXzxPFq": {
   "market_logged": 1793273395.9312744,
+  "market_reason": "mcap_too_low"
+ },
+ "U7PMTgmXcwLRijdRf14H9jU8EuXTgnyPnSbvZr25pye": {
+  "market_logged": 1793273695.0156784,
+  "market_reason": "missing:liquidity_usd"
+ },
+ "BX6QbxPJ1rmgwd8q3FrqoVeEQGTYVidzNQ7UjLUbpump": {
+  "market_logged": 1793273695.0156784,
   "market_reason": "mcap_too_low"
  }
 }

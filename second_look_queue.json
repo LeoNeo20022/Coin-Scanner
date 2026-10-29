@@ -6753,6 +6753,24 @@
    "age_hours": 50.64,
    "checks": {},
    "done": false
+  },
+  "9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": {
+   "mint": "9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi",
+   "symbol": "MULTI",
+   "pair": "JCA7j5pcdJyxjVyqcmfQKHJaQ2jfnrNRUiLq3fJLj57X",
+   "dex": "raydium",
+   "rejected_at": "2026-10-29T11:35:08+00:00",
+   "rejected_ts": 1793273708,
+   "stage": "grok",
+   "reason": "340% pump in first hour with volume almost entirely front-loaded; m5 activity slowing after initial spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001727,
+   "mcap_usd": 169790,
+   "liquidity_usd": 35229.48,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7241,7 +7259,7 @@
    }
   },
   "2026-10-29": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7287,7 +7305,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "market:volume_h1_low": 2,
     "rugcheck:danger": 1,
     "rugcheck:insiders": 1
