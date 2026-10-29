@@ -1,36 +1,5 @@
 {
  "entries": {
-  "5kzuj5MvGyVgTi3jx1sWCXHyxBo2DnDayWtbmUqxpump": {
-   "mint": "5kzuj5MvGyVgTi3jx1sWCXHyxBo2DnDayWtbmUqxpump",
-   "symbol": "\u82e6\u6839",
-   "pair": "C2DL2YeDHM6Hrwvzd6tXmnYbmEX6xVYCuSDNDwFyCq4F",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-24T12:23:46+00:00",
-   "rejected_ts": 1792844626,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.567e-05,
-   "mcap_usd": 55677,
-   "liquidity_usd": 18484.38,
-   "age_hours": 0.27,
-   "checks": {
-    "24h": {
-     "time": "2026-10-25T12:26:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-26T13:58:48+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "3XhLXLXvRtWF3T6TCggYV6NeA6AdWcttvwiMsnANpump": {
    "mint": "3XhLXLXvRtWF3T6TCggYV6NeA6AdWcttvwiMsnANpump",
    "symbol": "Friendship",
@@ -6790,6 +6759,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": {
+   "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
+   "symbol": "OREN",
+   "pair": "FptqM7Ev2nWFNT2v4QW5e1cHH6TAkgYtQd2NcJeKWebx",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-29T12:59:20+00:00",
+   "rejected_ts": 1793278760,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0001693,
+   "mcap_usd": 162255,
+   "liquidity_usd": 34742.45,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7278,7 +7265,7 @@
    }
   },
   "2026-10-29": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7327,7 +7314,8 @@
     "grok:skip": 4,
     "market:volume_h1_low": 2,
     "rugcheck:danger": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
