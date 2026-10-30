@@ -6762,6 +6762,42 @@
    "age_hours": 0.51,
    "checks": {},
    "done": false
+  },
+  "3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": {
+   "mint": "3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump",
+   "symbol": "HYPERCHAN",
+   "pair": "5mxPpt9pFtDyK624QQ5Lxbw1HfGr4YCqeaFUdKMtKyVY",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T04:25:00+00:00",
+   "rejected_ts": 1793334300,
+   "stage": "grok",
+   "reason": "Huge 2000%+ run already reversing (-23% m5) with sells overtaking buys; volume peaked in hour 1 and is fading.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.001013,
+   "mcap_usd": 1008790,
+   "liquidity_usd": 84896.86,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
+  },
+  "9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": {
+   "mint": "9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump",
+   "symbol": "BITCAT",
+   "pair": "EZFJHntVDzDB1ifgKxUGmUm43nE7yUjgQ5tX1qhy5qrx",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T04:25:11+00:00",
+   "rejected_ts": 1793334311,
+   "stage": "grok",
+   "reason": "663% h6 and 174% h1 gains with most volume in last hour point to blow-off top already in progress.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0003175,
+   "mcap_usd": 313009,
+   "liquidity_usd": 45867.9,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7294,7 +7330,7 @@
    }
   },
   "2026-10-30": {
-   "total": 21,
+   "total": 23,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7323,7 +7359,7 @@
     "market:too_new": 3,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 3,
-    "grok:skip": 2,
+    "grok:skip": 4,
     "rugcheck:top10": 2
    }
   }
