@@ -189,10 +189,6 @@
   "judged": 1792791309.7650986,
   "symbol": "TRUTH"
  },
- "HqbShgzgsrXuUtZd4ALfzjMHA1D4uBSQT8itLzRzpump": {
-  "market_logged": 1792793203.8412852,
-  "market_reason": "mcap_too_low"
- },
  "5h4Ur1vUFVdFFS2pQKMPmwPoY2wMtQYomGb3skb6pump": {
   "market_logged": 1792794770.3069377,
   "market_reason": "mcap_too_low"
@@ -216,10 +212,6 @@
  "2bjLxGw7HYx47ir6RJq8ijXjMJnVFtFCgBFzTN9Gpump": {
   "market_logged": 1792795673.4211257,
   "market_reason": "mcap_too_low"
- },
- "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump": {
-  "market_logged": 1792793203.8412852,
-  "market_reason": "too_old"
  },
  "ETsGZmhVMNf4rh424y1TMZvTkCGZ15iXnAVE3L9mpump": {
   "market_logged": 1792793503.954373,
@@ -10798,7 +10790,9 @@
  },
  "J5jxG3PFaWpj6BLEQExyC6FSqSvaTKNdQ9G3sZwBpump": {
   "market_logged": 1793395153.7166674,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "PILLSEY",
+  "judged": 1793398290.2183306
  },
  "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": {
   "market_logged": 1793395153.7166674,
@@ -10827,5 +10821,9 @@
  "CAiY8irm7FP6ACyXBxFfSfksr4uxkjX4bsAysqfApump": {
   "market_logged": 1793397390.4283879,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "4sYcQgiC3aMoDL935gBUGTvfrWHhoyiUDQicGYLHbibi": {
+  "market_logged": 1793398290.2183306,
+  "market_reason": "mcap_too_high"
  }
 }
