@@ -6649,6 +6649,24 @@
    "age_hours": 1.15,
    "checks": {},
    "done": false
+  },
+  "etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump": {
+   "mint": "etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump",
+   "symbol": "SAFU",
+   "pair": "J1PUm351Zj2dW1uA5k14gHdjfM2H4EwzAjUQFkNunKzk",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T13:51:09+00:00",
+   "rejected_ts": 1793368269,
+   "stage": "grok",
+   "reason": "432% h6 gain with m5 reversal (-13%) after only 1h age signals blow-off top. Volume high but activity already cooling.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002247,
+   "mcap_usd": 222456,
+   "liquidity_usd": 37825.32,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7181,7 +7199,7 @@
    }
   },
   "2026-10-30": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7225,7 +7243,7 @@
     "market:too_new": 6,
     "rugcheck:insiders": 5,
     "market:liquidity_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:top10": 5,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 1,

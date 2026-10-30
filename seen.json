@@ -184,7 +184,7 @@
   "market_reason": "too_old"
  },
  "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": {
-  "market_logged": 1793191023.9083817,
+  "market_logged": 1793368254.3097806,
   "market_reason": "mcap_too_high"
  },
  "wKy6tEDZj6jS1GUMmnSSTrR1bXJQa35s7VHcWHxhNbA": {
@@ -10935,7 +10935,9 @@
  },
  "etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump": {
   "market_logged": 1793367955.407832,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "SAFU",
+  "judged": 1793368254.3097806
  },
  "4qizrkdhWZBRMSm1BCs1m13Ju3YJxAu4mjbuSKjypump": {
   "market_logged": 1793367955.407832,
@@ -10944,5 +10946,13 @@
  "kxEqDg3QBnnNp7izgyNnnbkCdArdkz35YPTspQAmfun": {
   "market_logged": 1793367955.407832,
   "market_reason": "missing:liquidity_usd"
+ },
+ "HZk68axB7kaiUgxauBRLLY2iiadXpdxHexw9Vz1qpump": {
+  "market_logged": 1793368254.3097806,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "BsFuREtbbaPEKT4xKTPjqtj7cqnaJMLBAyHozSoXpump": {
+  "market_logged": 1793368254.3097806,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
