@@ -6872,6 +6872,24 @@
    "age_hours": 0.56,
    "checks": {},
    "done": false
+  },
+  "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn": {
+   "mint": "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn",
+   "symbol": "EGGU",
+   "pair": "H8S3Xm93y6ufMjHJue7XQHh6sAQ8SzQvJGwwNYdRpeCq",
+   "dex": "raydium",
+   "rejected_at": "2026-10-30T07:51:00+00:00",
+   "rejected_ts": 1793346660,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-boosts",
+   "price_usd": 5.798e-05,
+   "mcap_usd": 57986,
+   "liquidity_usd": 19981.11,
+   "age_hours": 1082.38,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7404,7 +7422,7 @@
    }
   },
   "2026-10-30": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7434,15 +7452,16 @@
     "06|market:mcap_too_low": 1,
     "06|market:liquidity_low": 1,
     "06|market:too_new": 1,
-    "07": 1,
-    "07|market:too_new": 1
+    "07": 2,
+    "07|market:too_new": 1,
+    "07|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "rugcheck:insiders": 2,
-    "market:liquidity_low": 4,
+    "market:liquidity_low": 5,
     "grok:skip": 4,
     "rugcheck:top10": 3,
     "rugcheck:danger": 1
