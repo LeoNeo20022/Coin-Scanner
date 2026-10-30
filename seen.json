@@ -203,10 +203,6 @@
   "judged": 1792800290.149646,
   "symbol": "DONNA"
  },
- "jv4mRHpYKXpU2UFZjAi7qY8Kn4peskBnyWKBY7xbDBC": {
-  "market_logged": 1792799090.390784,
-  "market_reason": "missing:liquidity_usd"
- },
  "3KZZRBTaiBwxE1mZ6USjygpsaP4QTrCx9Ya2bptWpump": {
   "market_logged": 1792799390.409604,
   "market_reason": "pumpfun_bonding_curve"
@@ -10788,7 +10784,9 @@
  },
  "3P6dYjBnwHKbowrxV73oEGZGUdw4ooD98MiAMTAQpump": {
   "market_logged": 1793402152.449861,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793404095.6986175,
+  "symbol": "PUMPCAT"
  },
  "3ncynkHfkANRSJURNXzM2dvUTkieZ3rXyi6kWWb7pump": {
   "market_logged": 1793401405.2512236,
@@ -10857,5 +10855,9 @@
  "AZfKuArxqjPLJoADpRBMxUsbD9mE5Wvwtji9hPaYpump": {
   "market_logged": 1793403795.6270232,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "4poKLzPuwjKJgXM6eF3EqBbMzWgkapi96vbNSkZipump": {
+  "market_logged": 1793404095.6986175,
+  "market_reason": "mcap_too_low"
  }
 }
