@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FDsVJ9b5FHnDqEbC1u7ZQifhBi8MjNzkd1fE3j1Kpump": {
-   "mint": "FDsVJ9b5FHnDqEbC1u7ZQifhBi8MjNzkd1fE3j1Kpump",
-   "symbol": "TRUMP",
-   "pair": "HFEKEX86XgARYyqsJyREvbsTX6MsZdL98zDFpBeqBWGr",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T04:08:08+00:00",
-   "rejected_ts": 1792901288,
-   "stage": "grok",
-   "reason": "Sharp -26% m5 drop after +86% h6 run signals fading spike; volume concentrated in first hour with recent correction.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.000148,
-   "mcap_usd": 145924,
-   "liquidity_usd": 31575.8,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T04:11:45+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T04:09:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump": {
    "mint": "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump",
    "symbol": "PUMP",
@@ -4640,9 +4609,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-10-30T04:08:43+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "BpRPVFVhGN5Pf1HpXpqYuESGwAj52ETreJbmkpLFpump": {
    "mint": "BpRPVFVhGN5Pf1HpXpqYuESGwAj52ETreJbmkpLFpump",
@@ -4665,9 +4640,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-30T04:08:43+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "GNt7xeKjjM699z2jJjuUZYsnrWqLK5P5dtvUKKRkpump": {
    "mint": "GNt7xeKjjM699z2jJjuUZYsnrWqLK5P5dtvUKKRkpump",
@@ -4690,9 +4671,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-30T04:08:43+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea": {
    "mint": "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea",
