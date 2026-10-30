@@ -6685,6 +6685,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": {
+   "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
+   "symbol": "Kim",
+   "pair": "8zBr6K8wxVy8SmkEkYNtZWSpfwnQYWE7S1ATSMa7D1WY",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T14:21:10+00:00",
+   "rejected_ts": 1793370070,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001204,
+   "mcap_usd": 116552,
+   "liquidity_usd": 28352.62,
+   "age_hours": 3.36,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7217,7 +7235,7 @@
    }
   },
   "2026-10-30": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7259,7 +7277,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
-    "rugcheck:insiders": 5,
+    "rugcheck:insiders": 6,
     "market:liquidity_low": 6,
     "grok:skip": 5,
     "rugcheck:top10": 6,
