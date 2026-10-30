@@ -1,36 +1,5 @@
 {
  "entries": {
-  "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": {
-   "mint": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
-   "symbol": "LAUNCH",
-   "pair": "GezArkyjgqsjid7m9zg3jkxxFmnHuh8dDzmqUpbL7K59",
-   "dex": "raydium",
-   "rejected_at": "2026-10-25T12:41:39+00:00",
-   "rejected_ts": 1792932099,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0002931,
-   "mcap_usd": 290148,
-   "liquidity_usd": 48665.68,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T13:58:48+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    },
-    "48h": {
-     "time": "2026-10-27T12:42:36+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_high"
-    }
-   },
-   "done": true
-  },
   "9j9UdaHujVmMgqdVNbw1LitMJfYkptxfp19bDxSCpump": {
    "mint": "9j9UdaHujVmMgqdVNbw1LitMJfYkptxfp19bDxSCpump",
    "symbol": "Catoween",
@@ -5852,7 +5821,14 @@
    "mcap_usd": 162255,
    "liquidity_usd": 34742.45,
    "age_hours": 1.07,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T12:59:31+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "insiders"
+    }
+   },
    "done": false
   },
   "GwaFUDzWgmG3WYNP8raitkosYtBrnFKe9DRTsVMMrush": {
