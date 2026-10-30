@@ -6846,6 +6846,24 @@
    "age_hours": 19.56,
    "checks": {},
    "done": false
+  },
+  "C6NniJqUMTMhGGgr1RNyDsUgbLQwrLfrxhm8kG3opump": {
+   "mint": "C6NniJqUMTMhGGgr1RNyDsUgbLQwrLfrxhm8kG3opump",
+   "symbol": "WENLAMBO",
+   "pair": "G5kuewQZ8A96KdxA54X7YLEdM8wjMgXLFiEZBPXN11vE",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T09:39:46+00:00",
+   "rejected_ts": 1793353186,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0001906,
+   "mcap_usd": 186422,
+   "liquidity_usd": 39319.13,
+   "age_hours": 6.67,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7378,7 +7396,7 @@
    }
   },
   "2026-10-30": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7412,7 +7430,9 @@
     "07|market:too_new": 1,
     "07|market:liquidity_low": 1,
     "08": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:volume_h1_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7422,7 +7442,8 @@
     "market:liquidity_low": 6,
     "grok:skip": 4,
     "rugcheck:top10": 5,
-    "rugcheck:danger": 1
+    "rugcheck:danger": 1,
+    "market:volume_h1_low": 1
    }
   }
  }
