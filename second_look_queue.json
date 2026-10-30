@@ -6864,6 +6864,24 @@
    "age_hours": 6.67,
    "checks": {},
    "done": false
+  },
+  "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": {
+   "mint": "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump",
+   "symbol": "ZERODAY",
+   "pair": "6LovbxuN4oj6q2QvzwGmYkjZYEd8C7x8umUg4pQ3PgEQ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T10:04:58+00:00",
+   "rejected_ts": 1793354698,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001492,
+   "mcap_usd": 145785,
+   "liquidity_usd": 32980.25,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7396,7 +7414,7 @@
    }
   },
   "2026-10-30": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7438,7 +7456,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
-    "rugcheck:insiders": 2,
+    "rugcheck:insiders": 3,
     "market:liquidity_low": 6,
     "grok:skip": 4,
     "rugcheck:top10": 5,
