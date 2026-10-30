@@ -6704,6 +6704,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "AobUjTvWqxjncsSLqeNBewqNCzbqJre4tS9X2dtepump": {
+   "mint": "AobUjTvWqxjncsSLqeNBewqNCzbqJre4tS9X2dtepump",
+   "symbol": "SAYLUR",
+   "pair": "DSXQjZXrUzSMtjtkvmDmHrRSfE2LGChfg9u3FfT1ErZu",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T17:08:28+00:00",
+   "rejected_ts": 1793380108,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0001135,
+   "mcap_usd": 111374,
+   "liquidity_usd": 28759.25,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7236,7 +7254,7 @@
    }
   },
   "2026-10-30": {
-   "total": 48,
+   "total": 49,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7274,7 +7292,9 @@
     "09": 1,
     "09|market:volume_h1_low": 1,
     "16": 1,
-    "16|market:volume_h1_low": 1
+    "16|market:volume_h1_low": 1,
+    "17": 1,
+    "17|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7286,7 +7306,8 @@
     "rugcheck:top10": 6,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 2,
-    "rugcheck:lp_unlocked": 2
+    "rugcheck:lp_unlocked": 2,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
