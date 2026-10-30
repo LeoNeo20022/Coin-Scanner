@@ -4671,9 +4671,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-30T03:31:24+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": {
    "mint": "4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump",
@@ -5890,7 +5896,14 @@
    "mcap_usd": 81708,
    "liquidity_usd": 23851.49,
    "age_hours": 1.05,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T03:31:24+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "3qyPwRwSGkE8y9J12JKZeNAXPzmKE4KfGoWQor5vpump": {
@@ -6756,6 +6769,24 @@
    "age_hours": 1.19,
    "checks": {},
    "done": false
+  },
+  "J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": {
+   "mint": "J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump",
+   "symbol": "Foxii",
+   "pair": "DcfRBm9vYwQSwMqiQjsB3mynfJ2mgpQWDiRFzt78Dq97",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T03:31:21+00:00",
+   "rejected_ts": 1793331081,
+   "stage": "grok",
+   "reason": "766% h1 gain on 1h-old token screams blow-off top; volume strong but buys already slowing relative to the spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003775,
+   "mcap_usd": 363198,
+   "liquidity_usd": 49762.82,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7288,7 +7319,7 @@
    }
   },
   "2026-10-30": {
-   "total": 17,
+   "total": 18,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7313,7 +7344,7 @@
     "market:too_new": 2,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 3,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:top10": 2
    }
   }
