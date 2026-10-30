@@ -1,36 +1,5 @@
 {
  "entries": {
-  "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx": {
-   "mint": "AXoNsSQ2DjoBY8x8fP76pCeqrjhZEFRmRnnaM5hegVQx",
-   "symbol": "WHITEWHALE",
-   "pair": "7bzDKLCjmQ6vSbJV3oMkSinGTWrhb7aBZe9rv8RnaYxP",
-   "dex": "meteora",
-   "rejected_at": "2026-10-25T09:03:41+00:00",
-   "rejected_ts": 1792919021,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 0.0001857,
-   "mcap_usd": 185798,
-   "liquidity_usd": 578.02,
-   "age_hours": 1.37,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T09:07:40+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T09:05:35+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC": {
    "mint": "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
    "symbol": "BTC",
@@ -6847,6 +6816,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "51H7AzyyUAy6AkTPa2g1AMyfkoEoVXZjAKkqyHTopump": {
+   "mint": "51H7AzyyUAy6AkTPa2g1AMyfkoEoVXZjAKkqyHTopump",
+   "symbol": "PERPS",
+   "pair": "Ex7py8GH5UgcPDhd5KSGHHR7eTWbAt44p2WWor8MZxPF",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T09:14:48+00:00",
+   "rejected_ts": 1793351688,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 8.68e-05,
+   "mcap_usd": 83124,
+   "liquidity_usd": 23356.86,
+   "age_hours": 19.56,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7379,7 +7366,7 @@
    }
   },
   "2026-10-30": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7422,7 +7409,7 @@
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
     "grok:skip": 4,
-    "rugcheck:top10": 4,
+    "rugcheck:top10": 5,
     "rugcheck:danger": 1
    }
   }
