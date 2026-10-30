@@ -1,98 +1,5 @@
 {
  "entries": {
-  "6p5ECyCAymV4Dzyq5yZhMnGLqjeUKKTnRHama1b3pump": {
-   "mint": "6p5ECyCAymV4Dzyq5yZhMnGLqjeUKKTnRHama1b3pump",
-   "symbol": "BASE",
-   "pair": "3kGZEiDhDhg21m2j7XexaqLg4AmsfPMmFQgbaCEBUNgF",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T13:32:12+00:00",
-   "rejected_ts": 1792935132,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0002048,
-   "mcap_usd": 199467,
-   "liquidity_usd": 38107.25,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T13:58:51+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T13:36:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "GGCcC1xnsuhB6SRWv9ipGWVZwd1guyqSLFXdjctkpump": {
-   "mint": "GGCcC1xnsuhB6SRWv9ipGWVZwd1guyqSLFXdjctkpump",
-   "symbol": "RANCH",
-   "pair": "FeyUtB13Vnyw7EDsoZNALohJNcfjzQhmnC4De7rDwzMb",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T13:42:09+00:00",
-   "rejected_ts": 1792935729,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles",
-   "price_usd": 7.233e-05,
-   "mcap_usd": 68703,
-   "liquidity_usd": 20925.59,
-   "age_hours": 21.63,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T13:58:51+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-27T13:46:20+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": {
-   "mint": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
-   "symbol": "GME",
-   "pair": "FFnuTJsNSH8pmU1E9X1nj285dkB4JAhnFnJnq89KHUgW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T13:42:11+00:00",
-   "rejected_ts": 1792935731,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001758,
-   "mcap_usd": 170394,
-   "liquidity_usd": 36209.61,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T14:03:45+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-10-27T13:46:20+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump": {
    "mint": "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump",
    "symbol": "PumpkinBot",
@@ -5815,7 +5722,14 @@
    "mcap_usd": 474030,
    "liquidity_usd": 54746.86,
    "age_hours": 47.22,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T13:46:00+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump": {
