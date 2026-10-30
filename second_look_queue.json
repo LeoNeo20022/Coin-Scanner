@@ -1,36 +1,5 @@
 {
  "entries": {
-  "4PAPJyck7pCwLnXtBNSu1b5APLyLhDp9upQFgYJrpump": {
-   "mint": "4PAPJyck7pCwLnXtBNSu1b5APLyLhDp9upQFgYJrpump",
-   "symbol": "WHITEWHALE",
-   "pair": "3io9g85qMYKwxjLmFJPAgHNnAWRRrvUgTWQF7cfFFSWD",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T08:22:44+00:00",
-   "rejected_ts": 1792916564,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0002073,
-   "mcap_usd": 200051,
-   "liquidity_usd": 39421.75,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T08:22:56+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T08:23:36+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8yxCjef6QBoKjQZetwB9gY3j5nC4gT9kTa4cLsbk47xe": {
    "mint": "8yxCjef6QBoKjQZetwB9gY3j5nC4gT9kTa4cLsbk47xe",
    "symbol": "WHITEWHALE",
@@ -5945,7 +5914,14 @@
    "mcap_usd": 50230,
    "liquidity_usd": 17451.75,
    "age_hours": 124.41,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T08:33:56+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump": {
