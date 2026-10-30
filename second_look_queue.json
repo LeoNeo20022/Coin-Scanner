@@ -1,36 +1,5 @@
 {
  "entries": {
-  "ECu55nr64oyY3bCV39zbt5fknU1SjQtYaLfmxYLpump": {
-   "mint": "ECu55nr64oyY3bCV39zbt5fknU1SjQtYaLfmxYLpump",
-   "symbol": "SKINWALKER",
-   "pair": "7YVSyZFSodHGhNq7bmHsSiXAnWyCgWVz4BEjbtbv3B8v",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T00:19:43+00:00",
-   "rejected_ts": 1792887583,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 6.389e-05,
-   "mcap_usd": 63898,
-   "liquidity_usd": 20733.59,
-   "age_hours": 0.19,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T00:20:45+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T00:22:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump": {
    "mint": "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump",
    "symbol": "REACHY",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-30T00:23:31+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump": {
    "mint": "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump",
