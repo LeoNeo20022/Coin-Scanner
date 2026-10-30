@@ -6745,6 +6745,24 @@
    "age_hours": 0.19,
    "checks": {},
    "done": false
+  },
+  "31FZ9fnK5NqFrymDmNdwKZmrnVvYtpKoVdWXDeXTpump": {
+   "mint": "31FZ9fnK5NqFrymDmNdwKZmrnVvYtpKoVdWXDeXTpump",
+   "symbol": "HYPERPAD",
+   "pair": "EBvQqAyAGBRTmZ7oJzDoc4bYXaAc1Pz7Qbi8VfUGZkWU",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T02:43:05+00:00",
+   "rejected_ts": 1793328185,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 8.297e-05,
+   "mcap_usd": 80896,
+   "liquidity_usd": 25033.67,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7277,7 +7295,7 @@
    }
   },
   "2026-10-30": {
-   "total": 12,
+   "total": 13,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7298,7 +7316,8 @@
     "market:too_new": 2,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 2,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "rugcheck:top10": 1
    }
   }
  }
