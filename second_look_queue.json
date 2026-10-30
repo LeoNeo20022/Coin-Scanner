@@ -1,36 +1,5 @@
 {
  "entries": {
-  "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump": {
-   "mint": "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump",
-   "symbol": "PumpkinBot",
-   "pair": "Fo8EVDB3qphm944An9KKWRJi7U1Ft9JurtWd688dFmce",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T14:33:15+00:00",
-   "rejected_ts": 1792938795,
-   "stage": "grok",
-   "reason": "465% gain in 6h on 5.5h-old token screams blow-off top. Recent m5/h1 buys are positive but volume and price action already fading from peak.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.000302,
-   "mcap_usd": 294786,
-   "liquidity_usd": 45672.92,
-   "age_hours": 5.46,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T14:33:44+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-27T14:33:54+00:00",
-     "would_pass": "1",
-     "dead": "0",
-     "result": "pass"
-    }
-   },
-   "done": true
-  },
   "3Hz6XFrdmFKt79HSSahTeYp7BztXtq9znD8A2aPzpump": {
    "mint": "3Hz6XFrdmFKt79HSSahTeYp7BztXtq9znD8A2aPzpump",
    "symbol": "TTC",
@@ -5753,7 +5722,14 @@
    "mcap_usd": 139821,
    "liquidity_usd": 31821.29,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T15:13:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
@@ -5771,7 +5747,14 @@
    "mcap_usd": 72261,
    "liquidity_usd": 23594.21,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T15:13:38+00:00",
+     "would_pass": "1",
+     "dead": "0",
+     "result": "pass"
+    }
+   },
    "done": false
   },
   "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": {
