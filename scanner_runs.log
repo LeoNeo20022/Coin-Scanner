@@ -1,16 +1,3 @@
-[2026-10-29T02:42:20+00:00] scout: paper: [pool/scalp] FLOATER closed stop_loss -1.20 after fees
-[2026-10-29T02:42:31+00:00] scout: feed error trending_pools?page=1: 429
-[2026-10-29T02:42:31+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-10-29T02:42:31+00:00] scout: feed error new_pools?page=1: 429
-[2026-10-29T02:43:42+00:00] scout: pass end {"watch": 338, "a_qualify": 34, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=114s
-[2026-10-29T02:46:36+00:00] run start (LOG ONLY)
-[2026-10-29T02:46:47+00:00] discovered=62 fresh=50 market_pass=0
-[2026-10-29T02:46:47+00:00] grok daily budget 3/40 used, 0 no-response, $0.0080 (2026-10-29 UTC)
-[2026-10-29T02:46:47+00:00] run end {"discovered": 62, "skipped_recent": 12, "no_pair": 1, "market": {"liquidity_low": 1, "mcap_too_low": 23, "pumpfun_bonding_curve": 13, "too_new": 1, "missing:mcap_usd": 1, "too_old": 8, "mcap_too_high": 1, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-29T02:46:48+00:00] second_look: pass end {"queued": 248, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-10-29T02:46:48+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-29T02:47:30+00:00] scout: feed error trending_pools?page=1: 429
-[2026-10-29T02:47:30+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-10-29T02:47:30+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-29T02:48:47+00:00] scout: pass end {"watch": 338, "a_qualify": 35, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=119s
 [2026-10-29T02:51:36+00:00] run start (LOG ONLY)
@@ -4998,3 +4985,16 @@
 [2026-10-30T19:27:54+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-10-30T19:27:54+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-30T19:29:07+00:00] scout: pass end {"watch": 348, "a_qualify": 30, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=97s
+[2026-10-30T19:32:18+00:00] run start (LOG ONLY)
+[2026-10-30T19:32:30+00:00] discovered=61 fresh=51 market_pass=1
+[2026-10-30T19:32:30+00:00] grok daily budget 12/40 used, 0 no-response, $0.0334 (2026-10-30 UTC)
+[2026-10-30T19:32:40+00:00] grok call 8.2s model=grok-4.3 tokens=992+70 reasoning=580
+[2026-10-30T19:32:40+00:00] grok [rugcheck] BTC ra4qZ68o… -> SKIP (0.85) Sharp reversal after +107% h6 pump: -31.7% h1 and -11.3% m5 while volume remains elevated. Looks like exit liquidity. | risk: Post-pump dump with thin remaining bid support
+[2026-10-30T19:32:41+00:00] run end {"discovered": 61, "skipped_recent": 10, "no_pair": 1, "market": {"too_new": 1, "pumpfun_bonding_curve": 23, "mcap_too_low": 15, "missing:liquidity_usd": 1, "too_old": 3, "mcap_too_high": 3, "liquidity_low": 2, "volume_h1_low": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=23s
+[2026-10-30T19:32:41+00:00] second_look: pass end {"queued": 249, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-10-30T19:32:41+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-30T19:33:03+00:00] scout: feed error trending_pools?page=1: 429
+[2026-10-30T19:33:03+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-30T19:33:03+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-30T19:33:03+00:00] scout: feed error new_pools?page=1: 429
+[2026-10-30T19:34:06+00:00] scout: pass end {"watch": 348, "a_qualify": 30, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=85s

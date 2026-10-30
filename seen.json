@@ -207,14 +207,6 @@
   "judged": 1792784799.2765336,
   "symbol": "BENJAMIN"
  },
- "HxPNodoRhQeTkDc5Qd1apFVSk64147A7L9FeFfGApump": {
-  "market_logged": 1792783899.6346023,
-  "market_reason": "mcap_too_low"
- },
- "EyLZ1MgU8dgqpsK6UbUgkedXDoyx9GUekfnZZdsApump": {
-  "market_logged": 1792783899.6346023,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "JDdDcSnHZ6eE82uvcR6WPtnbbUmVACg6CaC4iSXjpump": {
   "market_logged": 1792785699.8614764,
   "market_reason": "mcap_too_low"
@@ -6258,8 +6250,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn": {
-  "market_logged": 1793388146.6616116,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793388746.8206792,
+  "market_reason": "mcap_too_low"
  },
  "J4VRWRA5xHnL8T36wUykXqy5vgeUYa6MaF2gVDELkora": {
   "market_logged": 1793130082.214284,
@@ -10805,7 +10797,9 @@
  },
  "ra4qZ68oPFuEhHR5hMRpUsGH5riMbRBuMyW68r3pump": {
   "market_logged": 1793386220.603546,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "BTC",
+  "judged": 1793388746.8206792
  },
  "Dn9ucMvQp4ut2yz46GKfC5cPH3cv3uJTnpAUjN6Zpump": {
   "market_logged": 1793387420.3414931,
@@ -10852,6 +10846,22 @@
  },
  "CFbCJoug4938FKhq68GzKiDUbnCMRLuB9yKE1WSkpump": {
   "market_logged": 1793388146.6616116,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "BK4sWbteR1EhULXACs7khW1dasdF9LEkjuS9BAV3pump": {
+  "market_logged": 1793388746.8206792,
+  "market_reason": "too_new"
+ },
+ "2PC3ixyfa8oXZd9GmDR4obHjPYryGxCamYZNJTvipump": {
+  "market_logged": 1793388746.8206792,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4N52BUEU8GppSjYrMhnGuFFfWG6hhMAiFmEfBikppump": {
+  "market_logged": 1793388746.8206792,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "DUgbA97XBRYKXmHa3X9cBU3N7g7onFVnge8S1FWjpump": {
+  "market_logged": 1793388746.8206792,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
