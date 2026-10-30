@@ -189,12 +189,6 @@
   "judged": 1792791309.7650986,
   "symbol": "TRUTH"
  },
- "Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump": {
-  "market_logged": 1792792603.4664643,
-  "market_reason": "too_new",
-  "symbol": "YMB",
-  "judged": 1792795369.385557
- },
  "Aov3BtQvrGXM5V9oiHu8PKJWeV8a2rFnr24fwWcNpump": {
   "market_logged": 1793049794.4790215,
   "market_reason": "too_old"
@@ -210,10 +204,6 @@
  "3fwux1eyKEYzSnbYWVGoZtgg4ajUx4MBSAsvmTEgpump": {
   "market_logged": 1792868982.8536248,
   "market_reason": "liquidity_low"
- },
- "DSPAfRKonbybd1cpksMBMa48VaiJuUnJxa1eWA4mpump": {
-  "market_logged": 1792795369.385557,
-  "market_reason": "mcap_too_low"
  },
  "GRstRiMU8si4b2zNrJ8wxxbuFJoFhHa8AhJ5qWTqpump": {
   "market_logged": 1792797226.4658587,
@@ -5270,7 +5260,9 @@
  },
  "5G3pzMiNQxiFctE1aZRTctYJLz5zGdfA1S65QMT5pump": {
   "market_logged": 1793399904.909436,
-  "market_reason": "volume_h1_low"
+  "market_reason": "volume_h1_low",
+  "judged": 1793400205.1855025,
+  "symbol": "AMC"
  },
  "Fek7BGWxw9MabKejxFdhEftygFkJXcQjezk99fkTmKaX": {
   "market_logged": 1793091030.8017006,
@@ -10832,5 +10824,12 @@
  "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": {
   "market_logged": 1793399904.909436,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "E3Hn56f3avZQoMA9i1GXrKSgPD5L8NsJVQmFUv1d14ag": {
+  "market_logged": 1793400205.1855025
+ },
+ "AqoA1STsYD1pwEaHdAHk3j5XrFeXqsmPtFAfm2mQpump": {
+  "market_logged": 1793400205.1855025,
+  "market_reason": "mcap_too_low"
  }
 }
