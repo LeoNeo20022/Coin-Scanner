@@ -1,67 +1,5 @@
 {
  "entries": {
-  "Eez2VqN8FqLq5LPmW4DzBAk6FgkGGxGPFkV9q1nKpump": {
-   "mint": "Eez2VqN8FqLq5LPmW4DzBAk6FgkGGxGPFkV9q1nKpump",
-   "symbol": "NI",
-   "pair": "F7D663FVoi1CUL4pGoXFgtEbPEQihu3fVjY67CEAVqSx",
-   "dex": "pumpfun",
-   "rejected_at": "2026-10-25T00:04:10+00:00",
-   "rejected_ts": 1792886650,
-   "stage": "market",
-   "reason": "pumpfun_bonding_curve",
-   "reason_key": "market:pumpfun_bonding_curve",
-   "sources": "token-profiles",
-   "price_usd": 2.938e-05,
-   "mcap_usd": 29386.07,
-   "liquidity_usd": null,
-   "age_hours": 0.64,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T00:05:47+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T00:07:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "A1q8MuhXQWP2iXUuKKMTVbQLAHAyjfDTVKRRwFG1pump": {
-   "mint": "A1q8MuhXQWP2iXUuKKMTVbQLAHAyjfDTVKRRwFG1pump",
-   "symbol": "DOGEUS",
-   "pair": "ELBstNbxRBPnR3W6FLUbR8dzWbJE7ZARSdLUjzoeKmMe",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T00:04:10+00:00",
-   "rejected_ts": 1792886650,
-   "stage": "market",
-   "reason": "mcap_too_low",
-   "reason_key": "market:mcap_too_low",
-   "sources": "token-profiles",
-   "price_usd": 1.903e-06,
-   "mcap_usd": 1903,
-   "liquidity_usd": 1990.11,
-   "age_hours": 0.38,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T00:05:47+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T00:07:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "ECu55nr64oyY3bCV39zbt5fknU1SjQtYaLfmxYLpump": {
    "mint": "ECu55nr64oyY3bCV39zbt5fknU1SjQtYaLfmxYLpump",
    "symbol": "SKINWALKER",
@@ -6008,7 +5946,14 @@
    "mcap_usd": 64145,
    "liquidity_usd": 21398.59,
    "age_hours": 2.51,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T00:08:31+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5kUxYJi5ekgoYTHNxSkTtKRC5cntYBWhCbwpc6GEnbwo": {
