@@ -6667,6 +6667,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "2xkczG594A3iYjpJdECVSZooukxu13GwRgGxVTJvpump": {
+   "mint": "2xkczG594A3iYjpJdECVSZooukxu13GwRgGxVTJvpump",
+   "symbol": "NIG",
+   "pair": "7orUH8xR3HwXc83yM6d3v8PwZFGFtS4J8m5J8hYcadyi",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T13:56:03+00:00",
+   "rejected_ts": 1793368563,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 9.944e-05,
+   "mcap_usd": 95893,
+   "liquidity_usd": 25582.14,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7199,7 +7217,7 @@
    }
   },
   "2026-10-30": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7244,7 +7262,7 @@
     "rugcheck:insiders": 5,
     "market:liquidity_low": 6,
     "grok:skip": 5,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1
