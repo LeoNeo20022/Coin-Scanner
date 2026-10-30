@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj": {
-   "mint": "9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj",
-   "symbol": "WHITEWHALE",
-   "pair": "9toKeT8N2rhw5k5KhH7Cu45Zt7gBZBUjeQGtykyWNhSX",
-   "dex": "raydium",
-   "rejected_at": "2026-10-25T07:32:16+00:00",
-   "rejected_ts": 1792913536,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0004256,
-   "mcap_usd": 425654,
-   "liquidity_usd": 60691.67,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T07:35:15+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T07:36:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump": {
    "mint": "2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump",
    "symbol": "Chubby",
@@ -5970,7 +5939,14 @@
    "mcap_usd": 50692,
    "liquidity_usd": 17165.25,
    "age_hours": 0.06,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T07:41:02+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump": {
