@@ -26,8 +26,8 @@
   "market_reason": "too_old"
  },
  "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn": {
-  "market_logged": 1793360918.0826178,
-  "market_reason": "too_old"
+  "market_logged": 1793362312.2044108,
+  "market_reason": "liquidity_low"
  },
  "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump": {
   "market_logged": 1793224393.448924,
@@ -224,14 +224,6 @@
   "market_reason": "mcap_too_low",
   "judged": 1792744494.3375373,
   "symbol": "GUST"
- },
- "5EK3UpjrtDpxutsfh32bkmavZEn7iqAryhTUqNgVpump": {
-  "market_logged": 1792757377.1687944,
-  "market_reason": "mcap_too_low"
- },
- "3HUSV4DqnAYYR9Bq8sAcGt32yapVQB2Yx7mXHzK1pump": {
-  "market_logged": 1792757271.7212174,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "KHAfbh3sncU1V35zEycs7FMCpwHZ9m2Mj7m1PDMuaHM": {
   "market_logged": 1792759176.4235632,
@@ -10972,5 +10964,9 @@
  "BzndCZ2ZrjUA21aVW7t6AWEENRAps3EmdQg9hf94pump": {
   "market_logged": 1793362012.709692,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "C4PzJjgHzw16shEnUyw5PzbsAMWAyvbcNzn8N1Dszg3n": {
+  "market_logged": 1793362312.2044108,
+  "market_reason": "missing:liquidity_usd"
  }
 }
