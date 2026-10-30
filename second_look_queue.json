@@ -6705,6 +6705,24 @@
    "age_hours": 3.36,
    "checks": {},
    "done": false
+  },
+  "kziXxCJLQMpkiuoyAkgHELxGcKDs4hNoeWdnpgkpump": {
+   "mint": "kziXxCJLQMpkiuoyAkgHELxGcKDs4hNoeWdnpgkpump",
+   "symbol": "SAFU",
+   "pair": "ETemNCpLeoeV3ZQdkiTXp9JEa1mJ3AyaK36ScHy9LYgZ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T15:33:31+00:00",
+   "rejected_ts": 1793374411,
+   "stage": "grok",
+   "reason": "Huge gains (262% h6, 113% h1, 54% m5) with still-dominant buys point to blow-off top risk. Liquidity ratio is fine but momentum looks exhausted.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001699,
+   "mcap_usd": 167797,
+   "liquidity_usd": 32458.68,
+   "age_hours": 1.16,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7237,7 +7255,7 @@
    }
   },
   "2026-10-30": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7281,7 +7299,7 @@
     "market:too_new": 6,
     "rugcheck:insiders": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:top10": 6,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 1,
