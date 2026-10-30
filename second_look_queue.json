@@ -1,36 +1,5 @@
 {
  "entries": {
-  "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": {
-   "mint": "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
-   "symbol": "KURUMI",
-   "pair": "DxvCfzrLE4DyctHUZm5Xchmb9zuEaek56zkPbYuivfDF",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T01:15:16+00:00",
-   "rejected_ts": 1792890916,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0003657,
-   "mcap_usd": 362321,
-   "liquidity_usd": 50076.7,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T01:16:38+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-27T01:16:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8BqMeQLvypnnKbHS9hFHMzfxcY9Fea6mB5AnVoKNpump": {
    "mint": "8BqMeQLvypnnKbHS9hFHMzfxcY9Fea6mB5AnVoKNpump",
    "symbol": "Myers",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-30T01:25:06+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": {
    "mint": "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr",
@@ -5927,7 +5902,14 @@
    "mcap_usd": 176785,
    "liquidity_usd": 87374.77,
    "age_hours": 1.06,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T01:25:06+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "9QT2ue258kE1NYr7U9f3uGpcRNQHPB45ikxmmCdGpump": {
@@ -6793,6 +6775,24 @@
    "age_hours": 0.73,
    "checks": {},
    "done": false
+  },
+  "G68ruHgnWmHBg8QGbXkPv9UMpPhDmJ33MHTbdf5tpump": {
+   "mint": "G68ruHgnWmHBg8QGbXkPv9UMpPhDmJ33MHTbdf5tpump",
+   "symbol": "Zeroday",
+   "pair": "BjMUjLqCKMr2bbixEWCkZtXKhswUS4KYmb3qoiLW3ZT3",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-30T01:25:03+00:00",
+   "rejected_ts": 1793323503,
+   "stage": "grok",
+   "reason": "Massive -75% h1 drop after +69% h6 pump shows classic blow-off; buys still high but price action indicates larger sells dominating.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 8.878e-05,
+   "mcap_usd": 88199,
+   "liquidity_usd": 23711.32,
+   "age_hours": 1.28,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7325,7 +7325,7 @@
    }
   },
   "2026-10-30": {
-   "total": 7,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7341,7 +7341,8 @@
     "market:mcap_too_low": 1,
     "market:too_new": 2,
     "rugcheck:insiders": 1,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "grok:skip": 1
    }
   }
  }
