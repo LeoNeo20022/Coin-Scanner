@@ -55,12 +55,6 @@
   "judged": 1792507291.9673626,
   "symbol": "WiSP"
  },
- "6ceuPfcE67PLs3Z6CbJpFpqNyAevVocP2zsDkbM1pump": {
-  "market_logged": 1792796926.6333387,
-  "market_reason": "too_old",
-  "judged": 1792710331.5886488,
-  "symbol": "requests"
- },
  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
   "market_logged": 1793339100.7953308,
   "market_reason": "mcap_too_high"
@@ -10819,8 +10813,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "3P6dYjBnwHKbowrxV73oEGZGUdw4ooD98MiAMTAQpump": {
-  "market_logged": 1793401405.2512236,
-  "market_reason": "too_new"
+  "market_logged": 1793401852.8837926,
+  "market_reason": "mcap_too_low"
  },
  "3ncynkHfkANRSJURNXzM2dvUTkieZ3rXyi6kWWb7pump": {
   "market_logged": 1793401405.2512236,
@@ -10840,6 +10834,10 @@
  },
  "7oMNiz9cgs7RLGsUGhaUKEgnFztjQsETbmbBrSJEpump": {
   "market_logged": 1793401553.1309335,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "3mUcXkpVVkQ5ZJMctz2f1VBk4rwu3NRfNwVQZtDzpump": {
+  "market_logged": 1793401852.8837926,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
