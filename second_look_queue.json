@@ -1,36 +1,5 @@
 {
  "entries": {
-  "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC": {
-   "mint": "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC",
-   "symbol": "BTC",
-   "pair": "9nkE3B5zF3yCDh8YrQrhch4dGNyLYcNBqEB7feo3V9Av",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-25T10:34:46+00:00",
-   "rejected_ts": 1792924486,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0002502,
-   "mcap_usd": 240428,
-   "liquidity_usd": 44451.1,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-26T10:36:44+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-27T10:36:33+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "EcuMNoYi79hmX7fr48zk33fDnCcazKPrgJiZ9Gp1pump": {
    "mint": "EcuMNoYi79hmX7fr48zk33fDnCcazKPrgJiZ9Gp1pump",
    "symbol": "BTC",
@@ -5957,7 +5926,14 @@
    "mcap_usd": 102788,
    "liquidity_usd": 26058.28,
    "age_hours": 1.07,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-30T10:43:23+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": {
