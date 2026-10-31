@@ -4547,9 +4547,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-31T07:52:03+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump": {
    "mint": "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump",
@@ -5841,7 +5847,14 @@
    "mcap_usd": 57986,
    "liquidity_usd": 19981.11,
    "age_hours": 1082.38,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-31T07:52:03+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "liquidity_low"
+    }
+   },
    "done": false
   },
   "AtKvRVDF738YA925jmxNeh4iV2qCVBBJeMxQNyrupump": {
@@ -6599,6 +6612,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "HRdx7yxRVd8cPbuYva1kzMDodtoiHCEQxWSA3Y2dpump": {
+   "mint": "HRdx7yxRVd8cPbuYva1kzMDodtoiHCEQxWSA3Y2dpump",
+   "symbol": "BOAR",
+   "pair": "DSzDqVZfCcaSrJ9fvkchJGkR5QPNvhxddr4CfWy6JF7u",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T07:51:59+00:00",
+   "rejected_ts": 1793433119,
+   "stage": "grok",
+   "reason": "269% h6 gain with fading buy/sell ratio (m5 1.1 vs h1 1.45) signals blow-off momentum. Organic score 0 and pump.fun origin typical of quick dumps.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.000149,
+   "mcap_usd": 146314,
+   "liquidity_usd": 31734.75,
+   "age_hours": 1.15,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7134,7 +7165,7 @@
    }
   },
   "2026-10-31": {
-   "total": 25,
+   "total": 26,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7169,7 +7200,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 2,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "market:mcap_too_low": 6,
     "rugcheck:top10(holders_unknown)": 3
    }
