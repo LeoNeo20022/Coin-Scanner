@@ -5934,7 +5934,14 @@
    "mcap_usd": 186422,
    "liquidity_usd": 39319.13,
    "age_hours": 6.67,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-31T09:41:06+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": {
@@ -6674,6 +6681,24 @@
    "age_hours": 0.03,
    "checks": {},
    "done": false
+  },
+  "419P2wrVug9cW5hMwsjEEdhM5aLBt7YFnwn1p7dypump": {
+   "mint": "419P2wrVug9cW5hMwsjEEdhM5aLBt7YFnwn1p7dypump",
+   "symbol": "ATI",
+   "pair": "Hjcgmfy7XAhXGLtgs4NSid2aXQtsrU9r7F8MADhQ2W1H",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T09:40:58+00:00",
+   "rejected_ts": 1793439658,
+   "stage": "grok",
+   "reason": "Parabolic +319% h1 followed by -36% m5 reversal on already high volume; classic fading spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002869,
+   "mcap_usd": 280869,
+   "liquidity_usd": 44352.86,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7209,7 +7234,7 @@
    }
   },
   "2026-10-31": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7246,7 +7271,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 3,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "market:mcap_too_low": 6,
     "rugcheck:top10(holders_unknown)": 3
    }
