@@ -213,10 +213,6 @@
   "market_logged": 1792888180.2332594,
   "market_reason": "mcap_too_low"
  },
- "A1q8MuhXQWP2iXUuKKMTVbQLAHAyjfDTVKRRwFG1pump": {
-  "market_logged": 1792886049.6859374,
-  "market_reason": "mcap_too_low"
- },
  "Eez2VqN8FqLq5LPmW4DzBAk6FgkGGxGPFkV9q1nKpump": {
   "market_logged": 1792890311.073028,
   "market_reason": "mcap_too_low"
@@ -10506,11 +10502,13 @@
  },
  "Jy8kKwumNBdg3VtpvkzKh22kLQSw57Zr8sfdSSjpump": {
   "market_logged": 1793490593.4145398,
-  "market_reason": "mcap_too_low"
+  "market_reason": "mcap_too_low",
+  "judged": 1793490893.3361049,
+  "symbol": "INKKY"
  },
  "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": {
-  "market_logged": 1793490293.1848645,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793490893.3361049,
+  "market_reason": "liquidity_low"
  },
  "HLzTFsX99uqzAP7uK36gJ2pPHGfRM8ugvxXWJzjSpump": {
   "market_logged": 1793486996.4208229,
@@ -10543,5 +10541,9 @@
  "AyfGkRKafCS5QSxGvQVDjSz5sEEeNkDVVziPgsCbpump": {
   "market_logged": 1793490593.4145398,
   "market_reason": "too_new"
+ },
+ "EDDVFXvF8p5cxLMXF4THFBtrAKmKMnMA2UEMSSqipump": {
+  "market_logged": 1793490893.3361049,
+  "market_reason": "mcap_too_low"
  }
 }
