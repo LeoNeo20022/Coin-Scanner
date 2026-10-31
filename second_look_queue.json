@@ -1,36 +1,5 @@
 {
  "entries": {
-  "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": {
-   "mint": "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump",
-   "symbol": "PMUP",
-   "pair": "Ang7vjh7KoSScfbuE1ZWW6gAoXf7EcAZLPJzmMdcgwZj",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T02:25:29+00:00",
-   "rejected_ts": 1792981529,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001757,
-   "mcap_usd": 166063,
-   "liquidity_usd": 36068.55,
-   "age_hours": 20.3,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T02:25:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    },
-    "48h": {
-     "time": "2026-10-28T02:28:08+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    }
-   },
-   "done": true
-  },
   "6iaMAnGphKAiXN7q1VkhL8YJsp7Qbg9r9j4ismC8pump": {
    "mint": "6iaMAnGphKAiXN7q1VkhL8YJsp7Qbg9r9j4ismC8pump",
    "symbol": "KILLA",
@@ -4671,9 +4640,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-31T02:36:08+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "93U1sARLngyTbdpEY6kCpyrLCa7sHSBiUuYT2o2Jpump": {
    "mint": "93U1sARLngyTbdpEY6kCpyrLCa7sHSBiUuYT2o2Jpump",
@@ -6713,6 +6688,24 @@
    "age_hours": 0.98,
    "checks": {},
    "done": false
+  },
+  "9t4JYVrNW8pyjhSqAdSM57svukMFYmnrXziHtjaxpump": {
+   "mint": "9t4JYVrNW8pyjhSqAdSM57svukMFYmnrXziHtjaxpump",
+   "symbol": "iApe",
+   "pair": "DK6HVJY8DrmffiwNNoo3tr2sKzkDwYBfEMTTEc8Md6tv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T02:36:06+00:00",
+   "rejected_ts": 1793414166,
+   "stage": "rugcheck",
+   "reason": "fb:top10(holders_unknown)",
+   "reason_key": "rugcheck:top10(holders_unknown)",
+   "sources": "token-boosts",
+   "price_usd": 8.012e-05,
+   "mcap_usd": 76552,
+   "liquidity_usd": 23476.03,
+   "age_hours": 1.63,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7248,7 +7241,7 @@
    }
   },
   "2026-10-31": {
-   "total": 10,
+   "total": 11,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7268,7 +7261,8 @@
     "market:pumpfun_bonding_curve": 3,
     "market:liquidity_low": 1,
     "grok:skip": 1,
-    "market:mcap_too_low": 2
+    "market:mcap_too_low": 2,
+    "rugcheck:top10(holders_unknown)": 1
    }
   }
  }
