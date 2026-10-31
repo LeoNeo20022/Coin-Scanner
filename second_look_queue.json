@@ -6602,6 +6602,42 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "7y3u3a7M29PdrSz4cTHn5v1w2CQJNFtAGWxc3kgzpump": {
+   "mint": "7y3u3a7M29PdrSz4cTHn5v1w2CQJNFtAGWxc3kgzpump",
+   "symbol": "AAPL",
+   "pair": "3vXJz4nhuxtkvSznaCpKMFjVfCHKYajZwMFWiBshQMi7",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T16:58:42+00:00",
+   "rejected_ts": 1793465922,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 6.347e-05,
+   "mcap_usd": 61835,
+   "liquidity_usd": 20610.05,
+   "age_hours": 1.93,
+   "checks": {},
+   "done": false
+  },
+  "42yUJZF3AarkppccT6MFQqgvh1LnL47GnQezetWipump": {
+   "mint": "42yUJZF3AarkppccT6MFQqgvh1LnL47GnQezetWipump",
+   "symbol": "whitepaper",
+   "pair": "7KiWUkkXqjoqyNhUFNUTq4485ba8jhtTrHw5AW7c7GjB",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T16:58:44+00:00",
+   "rejected_ts": 1793465924,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0002201,
+   "mcap_usd": 216841,
+   "liquidity_usd": 38691.97,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7137,7 +7173,7 @@
    }
   },
   "2026-10-31": {
-   "total": 36,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7176,7 +7212,9 @@
     "11": 1,
     "11|market:liquidity_low": 1,
     "14": 1,
-    "14|market:sells_ge_buys_h1": 1
+    "14|market:sells_ge_buys_h1": 1,
+    "16": 1,
+    "16|market:volume_h1_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7186,7 +7224,9 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10(holders_unknown)": 4,
     "rugcheck:single_holder(dev)": 1,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 1,
+    "market:volume_h1_low": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
