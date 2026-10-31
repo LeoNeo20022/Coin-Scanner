@@ -233,10 +233,6 @@
   "symbol": "TRUMPE",
   "judged": 1792854979.3741486
  },
- "2pvaQoyHEM2f4p1UQmcf6vgzcThYB3zqgfYdVJhGpump": {
-  "market_logged": 1792854047.9491568,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "CEV537MfYSgQv8LCqNGqAgZVCAAMjwwyUTbGEHUYpump": {
   "market_logged": 1792854647.6155977,
   "market_reason": "pumpfun_bonding_curve"
@@ -10696,7 +10692,9 @@
  },
  "7Nr1NvVdsczHyLsVT1z3uAJ1tLBL7n6PkP8fYkFbpump": {
   "market_logged": 1793456708.4103792,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "PUMPE",
+  "judged": 1793458954.5185652
  },
  "2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump": {
   "market_logged": 1793457308.2114372,
@@ -10723,6 +10721,10 @@
  },
  "6Bur33vXX7ASEbvh3KkzJmAxFchJDS4tGmhQ5gUApump": {
   "market_logged": 1793458654.2791142,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GL7LbqwtKE6rxzzoJk5D9eD1Morp5kvESQen1ANfpump": {
+  "market_logged": 1793458954.5185652,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
