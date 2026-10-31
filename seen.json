@@ -225,10 +225,6 @@
   "market_logged": 1792817612.4831505,
   "market_reason": "mcap_too_low"
  },
- "EcYF3kerbdbYpMEphg4WSgGBdvg9HwWiMDBvMyrHpump": {
-  "market_logged": 1792816712.7835102,
-  "market_reason": "mcap_too_low"
- },
  "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": {
   "market_logged": 1792816712.7835102,
   "market_reason": "too_new",
@@ -10881,12 +10877,12 @@
   "market_logged": 1793420427.913461
  },
  "F7ZQtqwJjwQs4VRUAnxg6KRZWPzMvLpKKmUsx4x9pump": {
-  "market_logged": 1793421027.2758954,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793421627.915392,
+  "market_reason": "mcap_too_low"
  },
  "5e1SR3Do9C5hHmoA24qtBS6aQXCAsqoACgspikgnpump": {
-  "market_logged": 1793421027.2758954,
-  "market_reason": "too_new"
+  "market_logged": 1793421627.915392,
+  "market_reason": "liquidity_low"
  },
  "6Pj4h1Zu7zkefuT3ZekXy9m23mjaAxnqYwbiqmYkpump": {
   "market_logged": 1793421327.5369298,
@@ -10895,5 +10891,9 @@
  "49t765AnJMQAzSUutr9T7rC4QAtGxbqiL374qxsHpump": {
   "judged": 1793421327.5369298,
   "symbol": "MONEKO"
+ },
+ "ADpzsC5eB1yDD5T9LocQ8kpN7jrcW5gobA4FBHuipump": {
+  "market_logged": 1793421627.915392,
+  "market_reason": "liquidity_low"
  }
 }
