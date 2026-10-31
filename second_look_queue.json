@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Gwk57iPpEZZzyfZQrHW7J3rwsPaifnjDJpvSYQ44pump": {
-   "mint": "Gwk57iPpEZZzyfZQrHW7J3rwsPaifnjDJpvSYQ44pump",
-   "symbol": "KOBE",
-   "pair": "7R6U8SzJ5Jy6weBRq2RYw4vGCSqNjMK1ynZddubH41cd",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T19:45:46+00:00",
-   "rejected_ts": 1793043946,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001675,
-   "mcap_usd": 162699,
-   "liquidity_usd": 34567.38,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T19:48:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T19:50:44+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": {
    "mint": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
    "symbol": "CATTLEAXE",
@@ -6801,6 +6770,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": {
+   "mint": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
+   "symbol": "AgenC",
+   "pair": "ABF43sbqjwKF1GzY8MkHNHR8EJLZgf6V9ASR8LRmbuCj",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T20:00:14+00:00",
+   "rejected_ts": 1793476814,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-boosts/top",
+   "price_usd": 0.001125,
+   "mcap_usd": 1119083,
+   "liquidity_usd": 1009552.43,
+   "age_hours": 25.66,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7336,7 +7323,7 @@
    }
   },
   "2026-10-31": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7384,7 +7371,9 @@
     "18|market:volume_h1_low": 1,
     "19": 2,
     "19|market:volume_h1_low": 1,
-    "19|market:sells_ge_buys_h1": 1
+    "19|market:sells_ge_buys_h1": 1,
+    "20": 1,
+    "20|market:volume_h1_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7395,7 +7384,7 @@
     "rugcheck:top10(holders_unknown)": 4,
     "rugcheck:single_holder(dev)": 1,
     "market:sells_ge_buys_h1": 2,
-    "market:volume_h1_low": 4,
+    "market:volume_h1_low": 5,
     "rugcheck:insiders": 2,
     "rugcheck:danger": 1,
     "rugcheck:top10": 3
