@@ -205,26 +205,6 @@
   "judged": 1792871416.4709067,
   "symbol": "MOONERO"
  },
- "GtFnRnBADETCCrezkbKThaG9WcgBKR1ZTBWXLsFwpump": {
-  "market_logged": 1792868083.301711,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "815XyaNWCrchNyrh2wsCGDXvNZQtXiVsBqEexC5F6AXj": {
-  "market_logged": 1792868083.301711,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "EUbjhYqxUJAWMKLgFQk2bYSpwS5EzWMmzhTsa98Zpump": {
-  "market_logged": 1792868083.301711,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "BiXQXFrVoZAEagv2ikQ841RfgNYziwpQxed1dBuapump": {
-  "market_logged": 1792868083.301711,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "AggHb1mhQtk3R7R7X1hiKBMqQjpSusiE4ULtYxqHF5DQ": {
-  "market_logged": 1792868083.301711,
-  "market_reason": "missing:liquidity_usd"
- },
  "A73U9ZTL9RiSUAaNFYFgLoE2Cs8iYckL4Ld68E63pump": {
   "market_logged": 1792868382.795881,
   "market_reason": "pumpfun_bonding_curve"
@@ -7684,7 +7664,7 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "9eFaj6tsTmurbVKA1ND4J7LiXngBLNxz5X94AEfEpump": {
-  "market_logged": 1793288115.445924,
+  "market_logged": 1793472933.3501863,
   "market_reason": "pumpfun_bonding_curve"
  },
  "3j2RebsuBjNoV5DPz1xSztasqWhjStpQarisDpcLpump": {
@@ -10628,7 +10608,9 @@
  },
  "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": {
   "market_logged": 1793471733.6060495,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "SIS",
+  "judged": 1793472933.3501863
  },
  "hypePw3aDJdYz3msJdg8nkAUt5uEKTYL7XMkUi7Con2": {
   "market_logged": 1793471733.6060495,
@@ -10651,8 +10633,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "74LvYN8vbt7USs8vQy51CMqNgJ1tbbBWDSswBjTTpump": {
-  "market_logged": 1793472633.2881684,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793472933.3501863,
+  "market_reason": "liquidity_low"
  },
  "8WoUVrirZ4acoYVhBhCys2wyucGyQcc6DTDiuae1pump": {
   "market_logged": 1793472633.2881684,
@@ -10660,10 +10642,20 @@
  },
  "CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": {
   "market_logged": 1793472633.2881684,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "judged": 1793472933.3501863,
+  "symbol": "ANSEM"
  },
  "5hvV6oAoUt8rxDJgusk3c32TfxtXYCbddbfkabupump": {
   "market_logged": 1793472633.2881684,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "BJPP9Df54Gi394FFsMJFgJwoBhD1Vku7ZNvxQhYApump": {
+  "market_logged": 1793472933.3501863,
+  "market_reason": "too_new"
+ },
+ "GYKnd6jGUSQoBUnj6LdGCBtCWYDgr2Zd6QwNPcy5pump": {
+  "market_logged": 1793472933.3501863,
+  "market_reason": "too_new"
  }
 }

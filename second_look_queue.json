@@ -6741,6 +6741,24 @@
    "age_hours": 2.83,
    "checks": {},
    "done": false
+  },
+  "CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": {
+   "mint": "CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump",
+   "symbol": "ANSEM",
+   "pair": "8q2jaCSxrbD98BBC9M8TsWY8euKCjuhk7hdv7YqJV174",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T18:55:38+00:00",
+   "rejected_ts": 1793472938,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 7.881e-05,
+   "mcap_usd": 76521,
+   "liquidity_usd": 22277.88,
+   "age_hours": 2.91,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7276,7 +7294,7 @@
    }
   },
   "2026-10-31": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7335,7 +7353,7 @@
     "market:volume_h1_low": 3,
     "rugcheck:insiders": 2,
     "rugcheck:danger": 1,
-    "rugcheck:top10": 2
+    "rugcheck:top10": 3
    }
   }
  }
