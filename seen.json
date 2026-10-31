@@ -221,10 +221,6 @@
   "judged": 1792841860.3151803,
   "symbol": "OpenSolana"
  },
- "G6NnKQTgN7Dmo9yrJXwoqiDm35FznQmQ1qXVFAXPpump": {
-  "market_logged": 1792840361.1235225,
-  "market_reason": "mcap_too_low"
- },
  "2mLKxLcMmUSz93bUuniNpEGxJBfo87gaXqMNYWoKpump": {
   "market_logged": 1792840660.850531,
   "market_reason": "pumpfun_bonding_curve"
@@ -10751,15 +10747,17 @@
  },
  "FcZuu76twm89BKVN6WoWhFwfCmAVFPx24NkT8hKvpump": {
   "market_logged": 1793442313.6159673,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "FUN",
+  "judged": 1793445163.4915886
  },
  "FDSG65a94jA3mdC47VPikD5WARCJN5ffSgot3TfHpump": {
   "market_logged": 1793443813.0497477,
   "market_reason": "mcap_too_low"
  },
  "HAJcmgd5Y4r3Y6yzLSf3sSW18TJEkwvZy2awjaDypump": {
-  "market_logged": 1793442613.5447028,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793445163.4915886,
+  "market_reason": "mcap_too_low"
  },
  "4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump": {
   "market_logged": 1793444862.9377086,
@@ -10775,6 +10773,10 @@
  },
  "GM7bWHAzkoqaQUaLeCj5VodJGkD7rg9MDRaGYv4fpump": {
   "market_logged": 1793444413.7444355,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4AiZr4fD5N2xaQwtScLFrJfp3dUMAJr5N6fcDgTCpump": {
+  "market_logged": 1793445163.4915886,
   "market_reason": "pumpfun_bonding_curve"
  }
 }

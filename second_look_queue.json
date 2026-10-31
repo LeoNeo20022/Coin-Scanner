@@ -6698,6 +6698,24 @@
    "age_hours": 0.44,
    "checks": {},
    "done": false
+  },
+  "FcZuu76twm89BKVN6WoWhFwfCmAVFPx24NkT8hKvpump": {
+   "mint": "FcZuu76twm89BKVN6WoWhFwfCmAVFPx24NkT8hKvpump",
+   "symbol": "FUN",
+   "pair": "BLmGxiCQiRjFedQ3hFwNXbeRbuPRnUZ6qa8itXrXonzm",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T11:12:58+00:00",
+   "rejected_ts": 1793445178,
+   "stage": "grok",
+   "reason": "Huge 285% h6 gain already reversing with -13.75% m5 drop; organic_score 0 despite high volume and holder spread.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001547,
+   "mcap_usd": 152249,
+   "liquidity_usd": 31858.07,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7233,7 +7251,7 @@
    }
   },
   "2026-10-31": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7276,7 +7294,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:mcap_too_low": 6,
     "rugcheck:top10(holders_unknown)": 3
    }
