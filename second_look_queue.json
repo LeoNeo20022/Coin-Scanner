@@ -5940,7 +5940,14 @@
    "mcap_usd": 65650,
    "liquidity_usd": 20054.62,
    "age_hours": 2.69,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-31T04:35:35+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BYKvWQKbLywn8icfQB4EbXLAWpxg3D65MATi5ikjpump": {
@@ -6716,6 +6723,24 @@
    "age_hours": 0.18,
    "checks": {},
    "done": false
+  },
+  "49t765AnJMQAzSUutr9T7rC4QAtGxbqiL374qxsHpump": {
+   "mint": "49t765AnJMQAzSUutr9T7rC4QAtGxbqiL374qxsHpump",
+   "symbol": "MONEKO",
+   "pair": "9eKpgdtswayv5q6WT5bAj5oEiByjjGJ9VNcWBGrr9aYB",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T04:35:33+00:00",
+   "rejected_ts": 1793421333,
+   "stage": "rugcheck",
+   "reason": "fb:top10(holders_unknown)",
+   "reason_key": "rugcheck:top10(holders_unknown)",
+   "sources": "token-profiles",
+   "price_usd": 0.0002935,
+   "mcap_usd": 274946,
+   "liquidity_usd": 48748.81,
+   "age_hours": 4.17,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7251,7 +7276,7 @@
    }
   },
   "2026-10-31": {
-   "total": 17,
+   "total": 18,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7280,7 +7305,7 @@
     "market:liquidity_low": 1,
     "grok:skip": 1,
     "market:mcap_too_low": 4,
-    "rugcheck:top10(holders_unknown)": 1
+    "rugcheck:top10(holders_unknown)": 2
    }
   }
  }
