@@ -1,67 +1,5 @@
 {
  "entries": {
-  "7yqTtb47Sa1w2KNabXCSLkv99DH1uCLLehK8uDpapQEe": {
-   "mint": "7yqTtb47Sa1w2KNabXCSLkv99DH1uCLLehK8uDpapQEe",
-   "symbol": "AUGUR",
-   "pair": "2xhGw35xUMy29MxQTHXNpoYW8Lhj4isnhURMUDHKyn1f",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T13:58:43+00:00",
-   "rejected_ts": 1793023123,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.337e-05,
-   "mcap_usd": 51502,
-   "liquidity_usd": 17686.61,
-   "age_hours": 1.2,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T14:01:21+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T14:01:46+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump": {
-   "mint": "CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump",
-   "symbol": "SPILL",
-   "pair": "6KtZ9cjnHCtKocLsJkSneqge55GTKku72mErrPF3NWk4",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T13:58:45+00:00",
-   "rejected_ts": 1793023125,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0001822,
-   "mcap_usd": 178278,
-   "liquidity_usd": 48359.59,
-   "age_hours": 1.83,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T14:01:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T14:01:46+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "3ZzBtriJ1rd3ntcdsQ5wohwPWk1MRdrDd5BaKAsipump": {
    "mint": "3ZzBtriJ1rd3ntcdsQ5wohwPWk1MRdrDd5BaKAsipump",
    "symbol": "ASS",
@@ -6805,6 +6743,24 @@
    "age_hours": 9.49,
    "checks": {},
    "done": false
+  },
+  "4eq4JfnpdgqZTzeyR3GnRGHJQ3QhQT6Lp7nKnQ2nS7Rv": {
+   "mint": "4eq4JfnpdgqZTzeyR3GnRGHJQ3QhQT6Lp7nKnQ2nS7Rv",
+   "symbol": "UNSAFU",
+   "pair": "ArYtLAprgHtsPXSJGS8q9Mw7om8MF5Xdh8QFzLQkUHLi",
+   "dex": "raydium",
+   "rejected_at": "2026-10-31T14:02:39+00:00",
+   "rejected_ts": 1793455359,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0002103,
+   "mcap_usd": 210371,
+   "liquidity_usd": 37623.29,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7340,7 +7296,7 @@
    }
   },
   "2026-10-31": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7377,7 +7333,9 @@
     "10": 1,
     "10|market:liquidity_low": 1,
     "11": 1,
-    "11|market:liquidity_low": 1
+    "11|market:liquidity_low": 1,
+    "14": 1,
+    "14|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7386,7 +7344,8 @@
     "grok:skip": 6,
     "market:mcap_too_low": 6,
     "rugcheck:top10(holders_unknown)": 4,
-    "rugcheck:single_holder(dev)": 1
+    "rugcheck:single_holder(dev)": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
