@@ -6729,6 +6729,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump": {
+   "mint": "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump",
+   "symbol": "AMAZON",
+   "pair": "4dh9bKP5FgvR6oeL7Rj2FemJpbSHtig8zr4YpVBRbFKD",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T12:23:04+00:00",
+   "rejected_ts": 1793449384,
+   "stage": "rugcheck",
+   "reason": "fb:single_holder(dev)",
+   "reason_key": "rugcheck:single_holder(dev)",
+   "sources": "token-profiles",
+   "price_usd": 0.000545,
+   "mcap_usd": 537341,
+   "liquidity_usd": 59375.49,
+   "age_hours": 2.13,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7264,7 +7282,7 @@
    }
   },
   "2026-10-31": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7309,7 +7327,8 @@
     "market:liquidity_low": 6,
     "grok:skip": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:top10(holders_unknown)": 3
+    "rugcheck:top10(holders_unknown)": 3,
+    "rugcheck:single_holder(dev)": 1
    }
   }
  }
