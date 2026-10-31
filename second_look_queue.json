@@ -1,36 +1,5 @@
 {
  "entries": {
-  "3ZzBtriJ1rd3ntcdsQ5wohwPWk1MRdrDd5BaKAsipump": {
-   "mint": "3ZzBtriJ1rd3ntcdsQ5wohwPWk1MRdrDd5BaKAsipump",
-   "symbol": "ASS",
-   "pair": "3N2H8cg5d9RsUxUu869Y44EShheZFEDgBVRb9QEg7U74",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T14:03:43+00:00",
-   "rejected_ts": 1793023423,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.399e-05,
-   "mcap_usd": 53996,
-   "liquidity_usd": 18440.39,
-   "age_hours": 0.6,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T14:06:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T14:07:01+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9d8dWs22f6L4gJSXMpXvTLc3Z8ATj1z5YUdxmmMspump": {
    "mint": "9d8dWs22f6L4gJSXMpXvTLc3Z8ATj1z5YUdxmmMspump",
    "symbol": "OPACUS",
@@ -6021,7 +5990,14 @@
    "mcap_usd": 116552,
    "liquidity_usd": 28352.62,
    "age_hours": 3.36,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-31T14:25:13+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "kziXxCJLQMpkiuoyAkgHELxGcKDs4hNoeWdnpgkpump": {
