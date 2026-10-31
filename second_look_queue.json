@@ -6636,6 +6636,24 @@
    "age_hours": 1.15,
    "checks": {},
    "done": false
+  },
+  "AhyWCaBF1U1ssTWgjFRrEvqNQdy4NsFCvLYRSJKppump": {
+   "mint": "AhyWCaBF1U1ssTWgjFRrEvqNQdy4NsFCvLYRSJKppump",
+   "symbol": "CRAMERSAN",
+   "pair": "Dt8efo2CFoXELeeF6VE9FTpicQzAAbWPiX3okwszJ3jc",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T08:21:58+00:00",
+   "rejected_ts": 1793434918,
+   "stage": "grok",
+   "reason": "282% h6 gain with still-rising m5 price signals blow-off top; buying the exit. Organic score 0 and fallback data increase uncertainty.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001538,
+   "mcap_usd": 151232,
+   "liquidity_usd": 31925.28,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7171,7 +7189,7 @@
    }
   },
   "2026-10-31": {
-   "total": 26,
+   "total": 27,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7206,7 +7224,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 2,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "market:mcap_too_low": 6,
     "rugcheck:top10(holders_unknown)": 3
    }
