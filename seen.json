@@ -205,10 +205,6 @@
   "judged": 1792902498.7582326,
   "symbol": "\u2588\u2588\u2588"
  },
- "F7GKJwJKZMaND4ADPBpQjPBbqzRGD9B288t3TzQfpump": {
-  "market_logged": 1792820092.0212183,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "J2FB5nnpg1YNin8RFPvApCSkbC7VpVd5bJqTdEvjpump": {
   "market_logged": 1792820392.5926566,
   "market_reason": "pumpfun_bonding_curve"
@@ -10816,7 +10812,9 @@
  },
  "FHHxyowUnk6oVKF9FV1U9zyt9YFEr2vu68gbpkKcpump": {
   "market_logged": 1793421927.0732734,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "iCat",
+  "judged": 1793424997.2805483
  },
  "4MinLrUYVTGQ854Jk8WjaxaDMtKHTYRiDqr2BKyCpump": {
   "market_logged": 1793423197.1751027,
@@ -10851,6 +10849,10 @@
  },
  "6beU5DRNgTWmfJ8T2CzgfoB5y7KsfpbJMgeNgtfDpump": {
   "market_logged": 1793424697.2539163,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "Bb8z8QJogSpAWuqiacJmKG1HkpuS693QGXN3ZYuVpump": {
+  "market_logged": 1793424997.2805483,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
