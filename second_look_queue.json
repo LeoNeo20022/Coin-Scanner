@@ -1,67 +1,5 @@
 {
  "entries": {
-  "8SdiFzutvkQE3V47JyGKjE5pnCzMG3xdcPKESF8hpump": {
-   "mint": "8SdiFzutvkQE3V47JyGKjE5pnCzMG3xdcPKESF8hpump",
-   "symbol": "neet",
-   "pair": "Jtbc6qY4FsdBzgj5d6vYNL5dcVuU3G6XYa31Uz8b59T",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T05:12:44+00:00",
-   "rejected_ts": 1792991564,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001361,
-   "mcap_usd": 131905,
-   "liquidity_usd": 31515.59,
-   "age_hours": 1.72,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T05:13:26+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T05:16:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": {
-   "mint": "BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump",
-   "symbol": "ApeLax",
-   "pair": "HY6tXeV7ZefucL8hs3hjqgWnDYeYtj4gG58iTP2WNhta",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T05:12:51+00:00",
-   "rejected_ts": 1792991571,
-   "stage": "grok",
-   "reason": "Huge h1/h6 gains already reversing in m5 with sells overtaking buys; thin liq on 117k mcap.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001217,
-   "mcap_usd": 117244,
-   "liquidity_usd": 27942.09,
-   "age_hours": 1.29,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T05:13:26+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T05:16:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "2LNY72wupJgnH3XT3zHQXEAgvZQzrPgDXCCY6MC1pump": {
    "mint": "2LNY72wupJgnH3XT3zHQXEAgvZQzrPgDXCCY6MC1pump",
    "symbol": "TAIL",
@@ -6679,6 +6617,24 @@
    "age_hours": 0.74,
    "checks": {},
    "done": false
+  },
+  "F7ZQtqwJjwQs4VRUAnxg6KRZWPzMvLpKKmUsx4x9pump": {
+   "mint": "F7ZQtqwJjwQs4VRUAnxg6KRZWPzMvLpKKmUsx4x9pump",
+   "symbol": "offline",
+   "pair": "Azh5HmxEHvbxdk27e7B9x4nPZkqeStcBVvo91jbn3rHi",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T05:39:17+00:00",
+   "rejected_ts": 1793425157,
+   "stage": "rugcheck",
+   "reason": "fb:top10(holders_unknown)",
+   "reason_key": "rugcheck:top10(holders_unknown)",
+   "sources": "token-profiles",
+   "price_usd": 7.692e-05,
+   "mcap_usd": 74021,
+   "liquidity_usd": 21525.72,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7214,7 +7170,7 @@
    }
   },
   "2026-10-31": {
-   "total": 21,
+   "total": 22,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7247,7 +7203,7 @@
     "market:liquidity_low": 1,
     "grok:skip": 1,
     "market:mcap_too_low": 5,
-    "rugcheck:top10(holders_unknown)": 2
+    "rugcheck:top10(holders_unknown)": 3
    }
   }
  }
