@@ -1,36 +1,5 @@
 {
  "entries": {
-  "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": {
-   "mint": "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump",
-   "symbol": "Bow",
-   "pair": "J6EK9Fv4ksNh87VTU42wagCuHmPTuFErFfTjzG3jfE5M",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T02:20:30+00:00",
-   "rejected_ts": 1792981230,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0002131,
-   "mcap_usd": 208142,
-   "liquidity_usd": 41247.06,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T02:23:27+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T02:23:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": {
    "mint": "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump",
    "symbol": "PMUP",
@@ -4671,9 +4640,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-10-31T02:21:05+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": {
    "mint": "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump",
