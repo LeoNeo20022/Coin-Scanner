@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": {
-   "mint": "DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump",
-   "symbol": "LMAO",
-   "pair": "CFwWK6esez97bvjy6LmGGte5WUEmBgGoVeuN3CF332bX",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T22:25:53+00:00",
-   "rejected_ts": 1793053553,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles,token-boosts,token-boosts,token-boosts/top",
-   "price_usd": 0.001324,
-   "mcap_usd": 1314817,
-   "liquidity_usd": 98816.06,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T22:25:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T22:25:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "CCci2Fr6DNnNVeE8t2LxeK2CVMZ2LFn8KFBtEYEypump": {
    "mint": "CCci2Fr6DNnNVeE8t2LxeK2CVMZ2LFn8KFBtEYEypump",
    "symbol": "EPIC",
@@ -4640,9 +4609,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-31T22:45:03+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "5xisvatFv2xLEbnFDFkXVQrf1AKQB17JH5CowXoVpump": {
    "mint": "5xisvatFv2xLEbnFDFkXVQrf1AKQB17JH5CowXoVpump",
