@@ -217,10 +217,6 @@
   "judged": 1792860740.8701794,
   "symbol": "ber"
  },
- "E6GcEbYG3vnmBx2GGo1WywFa4pdWE99RoADZGiXQpump": {
-  "market_logged": 1792860140.3787932,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "HTi6JahmSzq2s1B2zg7GG6Ev6cQEpoGRDRxKWATYpump": {
   "market_logged": 1792966753.6117997,
   "market_reason": "mcap_too_low"
@@ -10566,8 +10562,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "AqtAQxLmzoQFJNdxgZN5BLxzYeGuVJNWc2riYCRDpump": {
-  "market_logged": 1793464586.1676226,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793465019.1194956,
+  "market_reason": "mcap_too_low"
  },
  "6Bur33vXX7ASEbvh3KkzJmAxFchJDS4tGmhQ5gUApump": {
   "market_logged": 1793458654.2791142,
@@ -10652,5 +10648,9 @@
  "F9JYpRZ9HjFkKf3BQtHQ2DxmT8Dh5SsoW26GB6UGpump": {
   "market_logged": 1793464586.1676226,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "AFqw58vGV6vdP5WyqeE4C7aj7qirPpG9dByFGXMYpump": {
+  "market_logged": 1793465019.1194956,
+  "market_reason": "too_new"
  }
 }
