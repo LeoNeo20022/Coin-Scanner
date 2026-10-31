@@ -6618,6 +6618,42 @@
    "age_hours": 0.59,
    "checks": {},
    "done": false
+  },
+  "Fo4Tz8HwQrp8wvn2pJwRRCzYcE5P1zeRHYwCtwAjpump": {
+   "mint": "Fo4Tz8HwQrp8wvn2pJwRRCzYcE5P1zeRHYwCtwAjpump",
+   "symbol": "Ape",
+   "pair": "GpNkUJ5TrjyQ47Y4DsCHMZ25egnCQqU5z4cngWWmprS9",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T07:09:13+00:00",
+   "rejected_ts": 1793430553,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 5.34e-05,
+   "mcap_usd": 53410,
+   "liquidity_usd": 17853.27,
+   "age_hours": 0.31,
+   "checks": {},
+   "done": false
+  },
+  "4rYEicv2uE1MnV6gB754MivhbXELEPRoykqTp6Mypump": {
+   "mint": "4rYEicv2uE1MnV6gB754MivhbXELEPRoykqTp6Mypump",
+   "symbol": "TITTYVERSE",
+   "pair": "2W2tHrMff2gmnPauwDRJ7f1cgwHts4uPdPRzBTyyvq4W",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T07:09:25+00:00",
+   "rejected_ts": 1793430565,
+   "stage": "grok",
+   "reason": "279% h6 and 102% h1 gains point to blow-off top already in progress. Buys still outnumber sells but momentum is fading fast on a 1-hour-old token.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001538,
+   "mcap_usd": 150114,
+   "liquidity_usd": 32070.01,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7153,7 +7189,7 @@
    }
   },
   "2026-10-31": {
-   "total": 23,
+   "total": 25,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7180,13 +7216,15 @@
     "05|market:too_new": 1,
     "05|market:mcap_too_low": 1,
     "06": 1,
-    "06|market:mcap_too_low": 1
+    "06|market:mcap_too_low": 1,
+    "07": 1,
+    "07|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
-    "market:liquidity_low": 1,
-    "grok:skip": 1,
+    "market:liquidity_low": 2,
+    "grok:skip": 2,
     "market:mcap_too_low": 6,
     "rugcheck:top10(holders_unknown)": 3
    }
