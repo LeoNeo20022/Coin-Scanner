@@ -1,36 +1,5 @@
 {
  "entries": {
-  "BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": {
-   "mint": "BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1",
-   "symbol": "LAB",
-   "pair": "8gc4VyWxq5JdZ26oH1T9eEKEnJPJcyEYt2XkbPCNAU38",
-   "dex": "raydium",
-   "rejected_at": "2026-10-26T08:42:56+00:00",
-   "rejected_ts": 1793004176,
-   "stage": "rugcheck",
-   "reason": "danger:Large Amount of LP Unlocked",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001562,
-   "mcap_usd": 156270,
-   "liquidity_usd": 45757.56,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T08:45:35+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "danger:Large Amount of LP Unlocked"
-    },
-    "48h": {
-     "time": "2026-10-28T08:47:13+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK": {
    "mint": "HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK",
    "symbol": "FOMOPAD",
@@ -4640,9 +4609,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-31T08:49:03+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "6KiSJe4GB9vLratvfF4Zb91jNQeekE3QCG3BnLzkpump": {
    "mint": "6KiSJe4GB9vLratvfF4Zb91jNQeekE3QCG3BnLzkpump",
@@ -5909,7 +5884,14 @@
    "mcap_usd": 67661,
    "liquidity_usd": 21686.34,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-31T08:49:03+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "51H7AzyyUAy6AkTPa2g1AMyfkoEoVXZjAKkqyHTopump": {
