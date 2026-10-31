@@ -6780,6 +6780,24 @@
    "age_hours": 0.29,
    "checks": {},
    "done": false
+  },
+  "5Afz2mwDXjasvHXZHTT8anNxpec2QYdCiHHhubAWpump": {
+   "mint": "5Afz2mwDXjasvHXZHTT8anNxpec2QYdCiHHhubAWpump",
+   "symbol": "AAPL",
+   "pair": "31bUMZx7Y9N9G2iQNvYNvzbSova6ft7LrAKyeRY1V4HX",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T00:40:46+00:00",
+   "rejected_ts": 1793407246,
+   "stage": "grok",
+   "reason": "432% h6 and 91% h1 gains with -12% m5 reversal signal blow-off top. Buy/sell ratio strong but volume spike already fading after 1h age.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002533,
+   "mcap_usd": 250229,
+   "liquidity_usd": 40281.98,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7315,7 +7333,7 @@
    }
   },
   "2026-10-31": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7325,7 +7343,8 @@
    "reasons": {
     "market:too_new": 1,
     "market:pumpfun_bonding_curve": 1,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "grok:skip": 1
    }
   }
  }
