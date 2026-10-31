@@ -6705,6 +6705,24 @@
    "age_hours": 0.63,
    "checks": {},
    "done": false
+  },
+  "4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump": {
+   "mint": "4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump",
+   "symbol": "VAMPCAT",
+   "pair": "3QH8289k4Dme6yaAWFWkSyJDhNbcp4rEYz75zRtG2PHJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T11:00:16+00:00",
+   "rejected_ts": 1793444416,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.789e-05,
+   "mcap_usd": 57893,
+   "liquidity_usd": 18630.68,
+   "age_hours": 0.44,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7240,7 +7258,7 @@
    }
   },
   "2026-10-31": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7275,12 +7293,14 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "10": 1,
-    "10|market:liquidity_low": 1
+    "10|market:liquidity_low": 1,
+    "11": 1,
+    "11|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
-    "market:liquidity_low": 5,
+    "market:liquidity_low": 6,
     "grok:skip": 5,
     "market:mcap_too_low": 6,
     "rugcheck:top10(holders_unknown)": 3
