@@ -1,36 +1,5 @@
 {
  "entries": {
-  "merKB1YufDS1RrQXsbFsDoT9es12jgV1ZGn6hkYwVfQ": {
-   "mint": "merKB1YufDS1RrQXsbFsDoT9es12jgV1ZGn6hkYwVfQ",
-   "symbol": "MER",
-   "pair": "FEjZMPnSvBFqBAqi4pKrCj6sowHUkjsD9px9SgyjkbKm",
-   "dex": "meteora",
-   "rejected_at": "2026-10-26T11:01:04+00:00",
-   "rejected_ts": 1793012464,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 0.0004328,
-   "mcap_usd": 51945,
-   "liquidity_usd": 16758.04,
-   "age_hours": 0.85,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T11:01:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    },
-    "48h": {
-     "time": "2026-10-28T11:02:59+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "liquidity_low"
-    }
-   },
-   "done": true
-  },
   "7yqTtb47Sa1w2KNabXCSLkv99DH1uCLLehK8uDpapQEe": {
    "mint": "7yqTtb47Sa1w2KNabXCSLkv99DH1uCLLehK8uDpapQEe",
    "symbol": "AUGUR",
@@ -4671,9 +4640,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-10-31T11:02:48+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": {
    "mint": "9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi",
