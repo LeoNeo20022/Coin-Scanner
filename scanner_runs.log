@@ -1,19 +1,3 @@
-[2026-10-30T08:01:01+00:00] second_look: 48h Grokbot 6NaM98xd… (rejected rugcheck:danger) -> fail: volume_h1_low
-[2026-10-30T08:01:01+00:00] second_look: pass end {"queued": 253, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-30T08:01:01+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-30T08:02:12+00:00] scout: paper: candles unavailable 4vKTEZuA (RuntimeError)
-[2026-10-30T08:02:12+00:00] scout: paper: candles unavailable Vbj43iug (RuntimeError)
-[2026-10-30T08:02:21+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-10-30T08:02:21+00:00] scout: feed error new_pools?page=1: 429
-[2026-10-30T08:02:57+00:00] scout: pass end {"watch": 345, "a_qualify": 38, "a_open": 0, "b_eval": 3, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=116s
-[2026-10-30T08:18:44+00:00] run start (LOG ONLY)
-[2026-10-30T08:18:55+00:00] discovered=66 fresh=53 market_pass=0
-[2026-10-30T08:18:55+00:00] grok daily budget 4/40 used, 0 no-response, $0.0107 (2026-10-30 UTC)
-[2026-10-30T08:18:55+00:00] run end {"discovered": 66, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 18, "too_new": 1, "missing:mcap_usd": 2, "too_old": 7, "liquidity_low": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-30T08:18:57+00:00] second_look: 48h Ryker H4EED2vH… (rejected market:liquidity_low) -> fail: mcap_too_low [dead: no_volume_24h]
-[2026-10-30T08:18:57+00:00] second_look: 24h HASHTAG 4GgEwQvd… (rejected grok:skip) -> fail: volume_h1_low
-[2026-10-30T08:18:57+00:00] second_look: pass end {"queued": 253, "due": 2, "rechecked": 2, "pass": 0, "opened": 0} elapsed=2s
-[2026-10-30T08:18:57+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-10-30T08:20:11+00:00] scout: paper: candles unavailable ANVLA6eK (RuntimeError)
 [2026-10-30T08:20:11+00:00] scout: paper: candles unavailable J3Reuwck (RuntimeError)
 [2026-10-30T08:20:20+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
@@ -4998,3 +4982,19 @@
 [2026-10-31T20:53:48+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-10-31T20:53:48+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-10-31T20:54:57+00:00] scout: pass end {"watch": 349, "a_qualify": 38, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=121s
+[2026-10-31T20:57:41+00:00] run start (LOG ONLY)
+[2026-10-31T20:57:54+00:00] discovered=61 fresh=49 market_pass=1
+[2026-10-31T20:57:54+00:00] grok daily budget 23/40 used, 0 no-response, $0.0679 (2026-10-31 UTC)
+[2026-10-31T20:58:07+00:00] grok call 11.5s model=grok-4.3 tokens=1001+80 reasoning=843
+[2026-10-31T20:58:07+00:00] grok [rugcheck] PAWCAT 762ZqBCd… -> BUY (0.75) Exceptional buy pressure (19k buys vs 5k sells h1) with top10 at 4.5% and zero warnings; volume and distribution far above typical low-cap noise. | risk: 3163% h6 gain risks buying the exit if momentum fades quickly
+[2026-10-31T20:58:07+00:00] paper BUY $10 PAWCAT @ 0.001569
+[2026-10-31T20:58:07+00:00] paper SHADOW BUY [target5] $10 PAWCAT @ 0.001569
+[2026-10-31T20:58:07+00:00] paper SHADOW BUY [scalp] $10 PAWCAT @ 0.001569
+[2026-10-31T20:58:09+00:00] run end {"discovered": 61, "skipped_recent": 12, "no_pair": 1, "market": {"pumpfun_bonding_curve": 23, "too_new": 3, "missing:liquidity_usd": 1, "mcap_too_low": 7, "sells_ge_buys_h1": 1, "liquidity_low": 2, "mcap_too_high": 4, "too_old": 6}, "rug": {}, "grok": 1, "BUY": 1, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=28s
+[2026-10-31T20:58:11+00:00] second_look: pass end {"queued": 249, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
+[2026-10-31T20:58:11+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-10-31T20:59:06+00:00] scout: paper: candles unavailable BJPP9Df5 (RuntimeError)
+[2026-10-31T20:59:16+00:00] scout: feed error trending_pools?page=1: 429
+[2026-10-31T20:59:16+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-10-31T20:59:16+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-10-31T21:00:10+00:00] scout: pass end {"watch": 349, "a_qualify": 38, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=118s
