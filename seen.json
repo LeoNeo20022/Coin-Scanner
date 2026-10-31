@@ -223,18 +223,6 @@
   "judged": 1792832413.369717,
   "symbol": "PUMP DEV"
  },
- "9j3iZCQvNG11uCmqqaMbWZcfT1iv7e6bBSFaDdeJpump": {
-  "market_logged": 1792831179.3138514,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "2gdDv54LJ7UFcTm611UwZX1agRSwDBhE5LLftiDmpump": {
-  "market_logged": 1792831179.3138514,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "7wYXEuBTwu1KUpmx739J2kkbXQh99NeL7ZmUzqwjpump": {
-  "market_logged": 1792831179.3138514,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "FQPjpP73ZZN8GSUHjAcQmCmn7JBHwTcq3h8qJpRrpump": {
   "market_logged": 1792831513.0930343,
   "market_reason": "pumpfun_bonding_curve"
@@ -10829,8 +10817,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "CcSRXUReR3VVG92C4rE8FqsLomzwmH6Dn1WhTGebpump": {
-  "market_logged": 1793435938.9428692,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793436239.5984893,
+  "market_reason": "too_new"
  },
  "EsKnqXKPVGTyBqpRrWGw5Ltz9Qj4t71ZPCDUWhQNpump": {
   "market_logged": 1793434904.411281,
@@ -10843,5 +10831,9 @@
  "Dm4hMN9j4HPtRsyLaYWV3pwUhcgh3wiPVTj4UhHKpump": {
   "market_logged": 1793435938.9428692,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": {
+  "market_logged": 1793436239.5984893,
+  "market_reason": "too_old"
  }
 }
