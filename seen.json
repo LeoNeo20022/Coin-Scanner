@@ -197,18 +197,6 @@
   "judged": 1792871416.4709067,
   "symbol": "MOONERO"
  },
- "5LhehTicJq3d1vXqHULi9VJA7LEPoJmkCiCNn6dmpump": {
-  "market_logged": 1792869915.9353838,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "22rWiyDiY9GgxSrFiWC2vX1GxNxjkvrRPmZJDzv9pq6X": {
-  "market_logged": 1792869915.9353838,
-  "market_reason": "missing:liquidity_usd"
- },
- "6dVFnTuKSJtzQhmQvxHCdhEQGK434Df9Ma82qXcrpump": {
-  "market_logged": 1792869915.9353838,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
   "market_logged": 1793044841.478618,
   "market_reason": "mcap_too_high"
@@ -10580,7 +10568,9 @@
  },
  "28dYWwEA6w8WFY2Uiakidujkq6ZPDzBDsGGZ1tM2pump": {
   "market_logged": 1793472034.0063882,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "TRACER",
+  "judged": 1793474875.8321152
  },
  "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": {
   "market_logged": 1793471733.6060495,
@@ -10609,8 +10599,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "74LvYN8vbt7USs8vQy51CMqNgJ1tbbBWDSswBjTTpump": {
-  "market_logged": 1793473236.0756185,
-  "market_reason": "too_new"
+  "market_logged": 1793474875.8321152,
+  "market_reason": "mcap_too_low"
  },
  "8WoUVrirZ4acoYVhBhCys2wyucGyQcc6DTDiuae1pump": {
   "market_logged": 1793472633.2881684,
@@ -10655,7 +10645,15 @@
   "market_reason": "too_new"
  },
  "4xFp4RHxPSqBrgmCq772fTW9jgJypm7rxrFvJv5Mpump": {
-  "market_logged": 1793474576.395212,
-  "market_reason": "too_new"
+  "market_logged": 1793474875.8321152,
+  "market_reason": "mcap_too_low"
+ },
+ "2i8uH6B7emwAypye6XNXQ4v6PTf3N7KPseatCkLWpump": {
+  "market_logged": 1793474875.8321152,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2D64Rm5cYCe4w8844xn5JSjWUxtoifX1Q3bNJnb1pump": {
+  "market_logged": 1793474875.8321152,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
