@@ -30,8 +30,8 @@
   "market_reason": "liquidity_low"
  },
  "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump": {
-  "market_logged": 1793415841.0414574,
-  "market_reason": "too_old",
+  "market_logged": 1793416141.131597,
+  "market_reason": "mcap_too_low",
   "judged": 1792509744.6601703,
   "symbol": "WORTHLESS"
  },
@@ -216,10 +216,6 @@
   "market_reason": "too_new",
   "symbol": "TRUMP",
   "judged": 1792813957.8857288
- },
- "wpr2yofZfyxebXJWAJJLwofpNivVzvG5A6KoaqApump": {
-  "market_logged": 1792811132.4572482,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "CePvX5yJSR3ZkSnU5SoeMuYS1exwBJR1YKyN5Ps8pump": {
   "market_logged": 1792813587.1070838,
@@ -1402,7 +1398,7 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": {
-  "market_logged": 1793329562.7176287,
+  "market_logged": 1793416141.131597,
   "market_reason": "too_old",
   "judged": 1793069730.1715376,
   "symbol": "NETWORK"
@@ -10860,6 +10856,14 @@
  },
  "C7o7ucDkNEihpD8FJ1MsWQNmtFtZ3MBhWzCCoyTVpump": {
   "market_logged": 1793415060.0196142,
+  "market_reason": "mcap_too_low"
+ },
+ "8i44jWePNBkbTbBAN17qB3DQwdpPC6Bk4g1nk7VHpump": {
+  "market_logged": 1793416141.131597,
+  "market_reason": "mcap_too_low"
+ },
+ "5iCwbSuVERt4v19ULqzQLhQzFQQaoJkm9Me6699fpump": {
+  "market_logged": 1793416141.131597,
   "market_reason": "mcap_too_low"
  }
 }
