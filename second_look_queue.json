@@ -6760,6 +6760,24 @@
    "age_hours": 2.13,
    "checks": {},
    "done": false
+  },
+  "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": {
+   "mint": "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump",
+   "symbol": "RAM",
+   "pair": "A5FpVH5c4Zya6EwbBWGzLsFDoUGCX5BjSXK4FXKUwHMW",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T13:25:20+00:00",
+   "rejected_ts": 1793453120,
+   "stage": "rugcheck",
+   "reason": "fb:top10(holders_unknown)",
+   "reason_key": "rugcheck:top10(holders_unknown)",
+   "sources": "token-profiles",
+   "price_usd": 8.019e-05,
+   "mcap_usd": 77038,
+   "liquidity_usd": 22506.05,
+   "age_hours": 9.49,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7295,7 +7313,7 @@
    }
   },
   "2026-10-31": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7340,7 +7358,7 @@
     "market:liquidity_low": 6,
     "grok:skip": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:top10(holders_unknown)": 3,
+    "rugcheck:top10(holders_unknown)": 4,
     "rugcheck:single_holder(dev)": 1
    }
   }
