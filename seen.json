@@ -215,12 +215,6 @@
   "symbol": "LUCIA",
   "judged": 1792884846.0207937
  },
- "H5n1Csm8SSN9V4DXdWheVWqZNS8pA813FhyWsdJ6pump": {
-  "market_logged": 1792883315.9972358,
-  "market_reason": "too_new",
-  "judged": 1792884216.0545504,
-  "symbol": "SUI"
- },
  "7PHPSS4btbBoRkheZ2guBKw9y3GPLJTNopTV48wupump": {
   "market_logged": 1792888180.2332594,
   "market_reason": "mcap_too_low"
@@ -10537,8 +10531,8 @@
   "market_reason": "too_new"
  },
  "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": {
-  "market_logged": 1793488034.2374382,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793489234.4407678,
+  "market_reason": "liquidity_low"
  },
  "HLzTFsX99uqzAP7uK36gJ2pPHGfRM8ugvxXWJzjSpump": {
   "market_logged": 1793486996.4208229,
@@ -10551,5 +10545,9 @@
  "DEQJomTSGiJSXafXV2Xkb7Un3ZfZrHt9p4zQUDPkpump": {
   "market_logged": 1793488934.2328596,
   "market_reason": "too_new"
+ },
+ "7gu7qzhuNL28eTyCVS1hisqUepLfphsvDgYHyYw6pump": {
+  "market_logged": 1793489234.4407678,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
