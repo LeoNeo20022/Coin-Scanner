@@ -30,8 +30,8 @@
   "market_reason": "liquidity_low"
  },
  "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump": {
-  "market_logged": 1793439942.1320496,
-  "market_reason": "liquidity_low",
+  "market_logged": 1793441278.6072688,
+  "market_reason": "mcap_too_low",
   "judged": 1792509744.6601703,
   "symbol": "WORTHLESS"
  },
@@ -10790,6 +10790,10 @@
  },
  "DzJ3oax8inwSeE2RkLfQk7pE1eCybyiTHfgGQAw6pump": {
   "market_logged": 1793440678.0815635,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "CUuVFC18uNCHWLXau5hijdqp1r6rJg9ZN3f2xVUFpump": {
+  "market_logged": 1793441278.6072688,
   "market_reason": "pumpfun_bonding_curve"
  }
 }

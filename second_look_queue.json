@@ -1,67 +1,5 @@
 {
  "entries": {
-  "HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK": {
-   "mint": "HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK",
-   "symbol": "FOMOPAD",
-   "pair": "7Fk5EjHYGGZjHFQoEvNVcaig366uohk9de8EjfKJxoTK",
-   "dex": "raydium",
-   "rejected_at": "2026-10-26T09:56:36+00:00",
-   "rejected_ts": 1793008596,
-   "stage": "grok",
-   "reason": "223% h1 pump on 1h-old token with volume already peaking; buys strong but fading pattern vs h6.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.000116,
-   "mcap_usd": 116029,
-   "liquidity_usd": 30178.06,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T09:59:28+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-10-28T10:01:55+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "EL2zqbtSTeFMkNYzKCaUDfBW7DHdt8dYguc11Qxppump": {
-   "mint": "EL2zqbtSTeFMkNYzKCaUDfBW7DHdt8dYguc11Qxppump",
-   "symbol": "PRB",
-   "pair": "2p4gBqfZr5ca7S1jVZ6deJsGKpZeX4H2cuFufNT6Scsv",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-26T10:01:30+00:00",
-   "rejected_ts": 1793008890,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 6.322e-05,
-   "mcap_usd": 60462,
-   "liquidity_usd": 19750.83,
-   "age_hours": 70.89,
-   "checks": {
-    "24h": {
-     "time": "2026-10-27T10:04:26+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-28T10:01:55+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "merKB1YufDS1RrQXsbFsDoT9es12jgV1ZGn6hkYwVfQ": {
    "mint": "merKB1YufDS1RrQXsbFsDoT9es12jgV1ZGn6hkYwVfQ",
    "symbol": "MER",
@@ -5959,7 +5897,14 @@
    "mcap_usd": 145785,
    "liquidity_usd": 32980.25,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-10-31T10:08:03+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": {
