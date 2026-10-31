@@ -6664,6 +6664,24 @@
    "age_hours": 0.61,
    "checks": {},
    "done": false
+  },
+  "653joYuZ5EntuKd1bspZakjHdueMxHGs5Lvm7RdWpump": {
+   "mint": "653joYuZ5EntuKd1bspZakjHdueMxHGs5Lvm7RdWpump",
+   "symbol": "LUMI",
+   "pair": "HaCZyKryBD5LjLy5XbFZHF3o483dFuDzMP7EscjKYW4v",
+   "dex": "pumpswap",
+   "rejected_at": "2026-10-31T03:19:04+00:00",
+   "rejected_ts": 1793416744,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0001444,
+   "mcap_usd": 144462,
+   "liquidity_usd": 29770.06,
+   "age_hours": 0.23,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7199,7 +7217,7 @@
    }
   },
   "2026-10-31": {
-   "total": 13,
+   "total": 14,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7213,12 +7231,13 @@
     "02|market:mcap_too_low": 1,
     "02|market:pumpfun_bonding_curve": 1,
     "02|market:too_new": 1,
-    "03": 2,
+    "03": 3,
     "03|market:mcap_too_low": 1,
-    "03|market:pumpfun_bonding_curve": 1
+    "03|market:pumpfun_bonding_curve": 1,
+    "03|market:too_new": 1
    },
    "reasons": {
-    "market:too_new": 3,
+    "market:too_new": 4,
     "market:pumpfun_bonding_curve": 4,
     "market:liquidity_low": 1,
     "grok:skip": 1,
