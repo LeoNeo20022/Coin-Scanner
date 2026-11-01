@@ -1,36 +1,5 @@
 {
  "entries": {
-  "GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": {
-   "mint": "GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump",
-   "symbol": "SWELL",
-   "pair": "Hmt2gCerdbmsDkaXrpxpNw6fs8RapUZL2xz6bgAtLFUV",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T18:21:59+00:00",
-   "rejected_ts": 1793125319,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 0.0006815,
-   "mcap_usd": 676135,
-   "liquidity_usd": 73120.08,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T18:22:33+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T18:23:01+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "67swHekykm7copiKAufdV9yuPC68mUFs4epsaKympump": {
    "mint": "67swHekykm7copiKAufdV9yuPC68mUFs4epsaKympump",
    "symbol": "ROFL!",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-01T18:22:29+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "EjKydyBwN4rTasguqvakwfarAxxsYUCivqMP95arpump": {
    "mint": "EjKydyBwN4rTasguqvakwfarAxxsYUCivqMP95arpump",
