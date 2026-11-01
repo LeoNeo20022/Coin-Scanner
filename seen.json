@@ -215,12 +215,6 @@
   "market_logged": 1793038703.4922807,
   "market_reason": "pumpfun_bonding_curve"
  },
- "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": {
-  "market_logged": 1792958243.5182273,
-  "market_reason": "too_new",
-  "symbol": "SWENEE",
-  "judged": 1792960672.198867
- },
  "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump": {
   "market_logged": 1792960972.174735,
   "market_reason": "mcap_too_low"
@@ -231,14 +225,6 @@
  },
  "D3oWE6gjnAaDV1iEPAwnhtLCPLN3LxRqRK8JRhMjpump": {
   "market_logged": 1792961268.6002774,
-  "market_reason": "mcap_too_low"
- },
- "2YwwGPPCgnLWMSsHmrdAcc8iD92CAcKPy26WmsVcHz7d": {
-  "market_logged": 1792960672.198867,
-  "market_reason": "mcap_too_low"
- },
- "ChndBvFHjMNnNxfPVbDwaFh4YTKX8mb2gKzGUEy3TVwV": {
-  "market_logged": 1792960672.198867,
   "market_reason": "mcap_too_low"
  },
  "D8RvBoPLyn1pQRToJM9sScczyW9RXQ9Fey3nAaL5pump": {
@@ -10200,8 +10186,8 @@
   "market_reason": "mcap_too_low"
  },
  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
-  "market_logged": 1793565390.3808303,
-  "market_reason": "too_old"
+  "market_logged": 1793565690.818321,
+  "market_reason": "mcap_too_high"
  },
  "1f3soMcKyii7AFPNDCq9XWcgB8oEzCp4XMuZBzs7evo": {
   "market_logged": 1793557644.046072,
@@ -10331,5 +10317,13 @@
  "HX2fgA7M2VD6QLix3vmgAVuW3pKkE5jsnHtMeGqiPjbA": {
   "market_logged": 1793565390.3808303,
   "market_reason": "missing:liquidity_usd"
+ },
+ "8gZMwbCgQu1RHXdSkW2M8AnZmXfXMvKbXPngG8D9pump": {
+  "market_logged": 1793565690.818321,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": {
+  "market_logged": 1793565690.818321,
+  "market_reason": "liquidity_low"
  }
 }
