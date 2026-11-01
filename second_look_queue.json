@@ -4609,9 +4609,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-01T12:41:52+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": {
    "mint": "EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump",
@@ -6533,6 +6539,24 @@
    "age_hours": 0.68,
    "checks": {},
    "done": false
+  },
+  "EfB1tdCYLcseZBywfojYyo3sJwuUGxa26LGzCLvFpump": {
+   "mint": "EfB1tdCYLcseZBywfojYyo3sJwuUGxa26LGzCLvFpump",
+   "symbol": "SOLSTARS",
+   "pair": "DvTxosEdye9fnVMX2wMRGrAQhDoM378wLpZDBczQDwM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-01T12:41:50+00:00",
+   "rejected_ts": 1793536910,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.875e-05,
+   "mcap_usd": 58636,
+   "liquidity_usd": 18195,
+   "age_hours": 0.21,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7082,7 +7106,7 @@
    }
   },
   "2026-11-01": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7117,12 +7141,14 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "10": 1,
-    "10|market:liquidity_low": 1
+    "10|market:liquidity_low": 1,
+    "12": 1,
+    "12|market:liquidity_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
-    "market:liquidity_low": 5,
+    "market:liquidity_low": 6,
     "rugcheck:top10": 3,
     "market:too_new": 6,
     "grok:skip": 4,
