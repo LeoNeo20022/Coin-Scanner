@@ -69,10 +69,6 @@
   "judged": 1792691056.0603104,
   "symbol": "ZILLIONS"
  },
- "2jYyA2HUmRsg83gq2Y1oS2J2zH5vK8WTbjPSuH3Npump": {
-  "market_logged": 1792902498.7582326,
-  "market_reason": "missing:mcap_usd"
- },
  "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea": {
   "market_logged": 1793193219.8791268,
   "market_reason": "liquidity_low",
@@ -229,31 +225,15 @@
   "judged": 1792904326.3053863,
   "symbol": "PUMP"
  },
- "2Qm9Pgq23GNAdxZRpzb5WHCNxRNLMjeWSr6uULvwpump": {
-  "market_logged": 1792901899.15386,
-  "market_reason": "mcap_too_low"
- },
  "3R1Kry3rj4xpFwud5quHtpQQxh6e8gwp25qiaEqBXkid": {
   "market_logged": 1792901269.5852118,
   "market_reason": "too_new",
   "judged": 1792904625.6403775,
   "symbol": "KID"
  },
- "FuvueXc8VEDy4358MU5bDzguBXXEjanLiWXMqU67pump": {
-  "market_logged": 1792901899.15386,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "CkFFoyWrtkawsRk4eavEbm2W9TBk4pxvgJ9FtVww3bzS": {
-  "market_logged": 1792901899.15386,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "VzZW19bKsLydbc21u3KJUhpaMSYveLxransncR5RUNE": {
   "market_logged": 1792909185.2923515,
   "market_reason": "mcap_too_low"
- },
- "DTAPyGGBfNZBP6qdkFEStepbnVWFGzALCREheWubpump": {
-  "market_logged": 1792902198.8774364,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "3KMHtbaxxMwp1EWWE5yFvLbJA9eLLiy11RucstArXwy7": {
   "market_logged": 1792903099.1437788,
@@ -9875,8 +9855,8 @@
   "judged": 1793468167.4204805
  },
  "7y3u3a7M29PdrSz4cTHn5v1w2CQJNFtAGWxc3kgzpump": {
-  "market_logged": 1793502762.7640033,
-  "market_reason": "volume_h1_low"
+  "market_logged": 1793507387.8337488,
+  "market_reason": "mcap_too_low"
  },
  "Dqwrb1YVyL9Ewf5C8eWFhjnqMzZocMC8bbwt2tetpump": {
   "market_logged": 1793465619.8526866,
@@ -10453,8 +10433,8 @@
   "market_reason": "too_new"
  },
  "J73efZvH6rkrJbFJdP2rqe473YJW7tyWmrNARUSzpump": {
-  "market_logged": 1793504486.4271998,
-  "market_reason": "too_new"
+  "market_logged": 1793507387.8337488,
+  "market_reason": "mcap_too_low"
  },
  "FSdaAXk12mqAR15fbfGxRE2v6SW3oeobb7LdaRf4DSYA": {
   "market_logged": 1793506286.397969,
@@ -10479,5 +10459,9 @@
  "x94ouReAXGWHfNnGokusmmfNttSNEXyfY4ZCQq9pump": {
   "symbol": "iTech",
   "judged": 1793506586.7899823
+ },
+ "5u8mRy6L3pAxjWL9wG61fsXpTgzMDMSNKYySgKBypump": {
+  "market_logged": 1793507387.8337488,
+  "market_reason": "mcap_too_low"
  }
 }
