@@ -1,36 +1,5 @@
 {
  "entries": {
-  "E6exteuDy1u6u3FfQV7SvPyU4XPdcBGi4cBnqrusocat": {
-   "mint": "E6exteuDy1u6u3FfQV7SvPyU4XPdcBGi4cBnqrusocat",
-   "symbol": "CAT",
-   "pair": "5sPzRxRMyaX85fAwNC61kvifvH63JUwt4viZkUNno4wd",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T05:30:31+00:00",
-   "rejected_ts": 1793079031,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 6.77e-05,
-   "mcap_usd": 65436,
-   "liquidity_usd": 20923.03,
-   "age_hours": 1.08,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T05:33:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T05:34:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6GaNPFwUv3P7K8nzFRXLba4hnabdmrjiKofmr5Qkpump": {
    "mint": "6GaNPFwUv3P7K8nzFRXLba4hnabdmrjiKofmr5Qkpump",
    "symbol": "GTAELON",
@@ -5734,7 +5703,14 @@
    "mcap_usd": 74021,
    "liquidity_usd": 21525.72,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-01T05:42:00+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "HPPspGtHi9kP9RoC2x4qDYbSmrxv7gY1ZRpeEQXqpump": {
