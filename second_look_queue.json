@@ -6637,6 +6637,24 @@
    "age_hours": 25.08,
    "checks": {},
    "done": false
+  },
+  "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump": {
+   "mint": "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump",
+   "symbol": "BOUNCER",
+   "pair": "2TqhG2GzbfjhVvPWHT4DomRtNyRpbyx7xeprRswpjdnT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-01T15:44:09+00:00",
+   "rejected_ts": 1793547849,
+   "stage": "grok",
+   "reason": "654% h6 gain after only 2h age screams blow-off top; buying the exit on fading momentum.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003184,
+   "mcap_usd": 313776,
+   "liquidity_usd": 45410.16,
+   "age_hours": 2.19,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7186,7 +7204,7 @@
    }
   },
   "2026-11-01": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7231,7 +7249,7 @@
     "market:liquidity_low": 6,
     "rugcheck:top10": 4,
     "market:too_new": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:insiders": 1
    }
   }
