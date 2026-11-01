@@ -211,12 +211,6 @@
   "market_logged": 1793038703.4922807,
   "market_reason": "pumpfun_bonding_curve"
  },
- "H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump": {
-  "market_logged": 1792966753.6117997,
-  "market_reason": "liquidity_low",
-  "judged": 1792967053.8414218,
-  "symbol": "TCC"
- },
  "9rjHzQPpVL4XuYZ3S2bRk4CPYTubpAYpRvpY5pwzpump": {
   "market_logged": 1792967653.8739676,
   "market_reason": "mcap_too_low"
@@ -240,18 +234,6 @@
  "5mwvdzB1CoYDoLTAKBUX9kSxxUALgU5YHKmgm4Lhpump": {
   "market_logged": 1792967685.5478554,
   "market_reason": "mcap_too_low"
- },
- "6eMCQrYH24YEMVwMg3oZ9nspep1joVsB4nCHnDSupump": {
-  "market_logged": 1792967053.8414218,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "83WuTBUf1vMDShCZyMD2PrDbd5ZY9DZVQd6vpfy1pump": {
-  "market_logged": 1792967053.8414218,
-  "market_reason": "too_old"
- },
- "CTzTa1wbvNEmYDsxj7pCGt8HVfrnt6hVStjjKg7Rpump": {
-  "market_logged": 1792967053.8414218,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "ERXyWGqsEhfxSCuZrpgH3tm16moY47uXtcBknS29kmch": {
   "market_logged": 1792967053.8414218,
@@ -10279,7 +10261,9 @@
  },
  "6g16UK4wHoFhC7PCmw8LYYCdt9q8m99fyoAwxeCrpump": {
   "market_logged": 1793570725.1598911,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "VETOTRUMP",
+  "judged": 1793572049.087667
  },
  "DzgRj1oJZSbdgQJsoaFfQTaV2YhiiWkgnpfhwr2Ppump": {
   "market_logged": 1793570725.1598911,
@@ -10307,6 +10291,10 @@
  },
  "7dnVH3aC95d55BMr1pH29bAz4Qi4FYu3Nc6pQsEqpump": {
   "market_logged": 1793571749.209908,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "DzqEHpkePctbBqTc8uuPVTdsKnGSZ1GyXrBZ3xWcpump": {
+  "market_logged": 1793572049.087667,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
