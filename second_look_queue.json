@@ -1,36 +1,5 @@
 {
  "entries": {
-  "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V": {
-   "mint": "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V",
-   "symbol": "Leverage",
-   "pair": "Gsga8icyrVNiKGsiSgWuVCVUF2QXmtT2dt2WNekcsAWX",
-   "dex": "raydium",
-   "rejected_at": "2026-10-27T04:14:37+00:00",
-   "rejected_ts": 1793074477,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 9.21e-05,
-   "mcap_usd": 90247,
-   "liquidity_usd": 26140.03,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T04:16:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T04:16:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Bz3eShog72STPB9ZJbQekvSKTjyGMQNMQkjYAN6opump": {
    "mint": "Bz3eShog72STPB9ZJbQekvSKTjyGMQNMQkjYAN6opump",
    "symbol": "ASCEND",
@@ -6635,6 +6604,24 @@
    "age_hours": 0.54,
    "checks": {},
    "done": false
+  },
+  "x94ouReAXGWHfNnGokusmmfNttSNEXyfY4ZCQq9pump": {
+   "mint": "x94ouReAXGWHfNnGokusmmfNttSNEXyfY4ZCQq9pump",
+   "symbol": "iTech",
+   "pair": "DR6ufMYXncJzmpQHXYyR75Pqyi4EtE6osBd8RBr8g9zW",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-01T04:16:43+00:00",
+   "rejected_ts": 1793506603,
+   "stage": "grok",
+   "reason": "441% h6 gain with 40% h1 follow-through signals blow-off top. Buys still outpace sells but volume and price action already peaked.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002273,
+   "mcap_usd": 224385,
+   "liquidity_usd": 38225.32,
+   "age_hours": 1.64,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7184,7 +7171,7 @@
    }
   },
   "2026-11-01": {
-   "total": 19,
+   "total": 20,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7213,7 +7200,7 @@
     "market:liquidity_low": 2,
     "rugcheck:top10": 2,
     "market:too_new": 3,
-    "grok:skip": 2
+    "grok:skip": 3
    }
   }
  }
