@@ -223,10 +223,6 @@
   "judged": 1792943636.7411294,
   "symbol": "ZGAP"
  },
- "DdXGjFY4eAviKYktQ3BoDSem6vRzTasDwiPRg6uWvibN": {
-  "market_logged": 1792940610.0910082,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "A2ikq3dUjzddZQ7np6H9xhbm6bJ6BB8Dyt7VHduspump": {
   "market_logged": 1792940909.3815005,
   "market_reason": "pumpfun_bonding_curve"
@@ -10425,8 +10421,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "DoPuTpyJnKEvZeQpDTr5cbZ1vRsTuQuJNCM4S4gPyPZA": {
-  "market_logged": 1793545299.7944791,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793545599.9883082,
+  "market_reason": "liquidity_low"
  },
  "EwofMNzRodVxmSHSACFKcNUbcz8ithzU7xfiXRg2pump": {
   "market_logged": 1793545299.7944791,
@@ -10443,5 +10439,9 @@
  "6eJVydkBQEj7ixuVAckfMiBGCy4ZTot16uvLbu1Ppump": {
   "market_logged": 1793545299.7944791,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "9SZnPDqxCjdgPKRosc1qzxTfrR9n7ZVE39SsbCRmpump": {
+  "market_logged": 1793545599.9883082,
+  "market_reason": "mcap_too_low"
  }
 }
