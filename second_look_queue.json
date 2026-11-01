@@ -6625,6 +6625,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "VtzzQCDppEzyZzZAiPjPfGi3mM3kJganthrty9Yymos": {
+   "mint": "VtzzQCDppEzyZzZAiPjPfGi3mM3kJganthrty9Yymos",
+   "symbol": "YMOS",
+   "pair": "EUFXsUuDXstC3KpzRAE7dKtzPHuaZHk314txNuNiUnGR",
+   "dex": "orca",
+   "rejected_at": "2026-11-01T18:12:29+00:00",
+   "rejected_ts": 1793556749,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001468,
+   "mcap_usd": 146800,
+   "liquidity_usd": 145385.18,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7174,7 +7192,7 @@
    }
   },
   "2026-11-01": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7223,7 +7241,8 @@
     "market:too_new": 6,
     "grok:skip": 6,
     "rugcheck:insiders": 2,
-    "market:volume_h1_low": 1
+    "market:volume_h1_low": 1,
+    "rugcheck:danger": 1
    }
   }
  }
