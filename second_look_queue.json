@@ -6635,6 +6635,24 @@
    "age_hours": 0.4,
    "checks": {},
    "done": false
+  },
+  "39tkEU5ox4BA7jKPgEoCraoVmi9jzKXzytoYwhHZpump": {
+   "mint": "39tkEU5ox4BA7jKPgEoCraoVmi9jzKXzytoYwhHZpump",
+   "symbol": "YUME",
+   "pair": "2snsNzEPpaSLwNbDSiTCvMM48jtNAbyYgSiHv4UN2PDM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-01T07:01:04+00:00",
+   "rejected_ts": 1793516464,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0001397,
+   "mcap_usd": 137659,
+   "liquidity_usd": 30086.4,
+   "age_hours": 0.68,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7184,7 +7202,7 @@
    }
   },
   "2026-11-01": {
-   "total": 25,
+   "total": 26,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7211,14 +7229,16 @@
     "05|market:liquidity_low": 1,
     "05|market:pumpfun_bonding_curve": 1,
     "06": 1,
-    "06|market:too_new": 1
+    "06|market:too_new": 1,
+    "07": 1,
+    "07|market:too_new": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 3,
     "rugcheck:top10": 2,
-    "market:too_new": 4,
+    "market:too_new": 5,
     "grok:skip": 4
    }
   }
