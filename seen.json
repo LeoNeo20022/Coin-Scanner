@@ -215,12 +215,6 @@
   "market_logged": 1793038703.4922807,
   "market_reason": "pumpfun_bonding_curve"
  },
- "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": {
-  "market_logged": 1792961597.6366994,
-  "market_reason": "too_new",
-  "symbol": "Chop",
-  "judged": 1792963098.1979718
- },
  "Pairn5qtjZqVDMGbFuxMvLF6Mf7f2ZRSE46bNjyme67": {
   "market_logged": 1792965226.3225274,
   "market_reason": "mcap_too_low"
@@ -230,18 +224,6 @@
   "market_reason": "too_new",
   "judged": 1792965853.5512056,
   "symbol": "PRESIDENT"
- },
- "5kCnFSTh2KXCxGeMmoV5Lsz7MrnJRfUNmMkBJqHUpump": {
-  "market_logged": 1792963098.1979718,
-  "market_reason": "mcap_too_low"
- },
- "7Vr9VZ7EGtCnYwRxpoUmz6x6uuc241ftJbnubigqpump": {
-  "market_logged": 1792963098.1979718,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "BTChgYshcTuHMVESWHETrjHA8MUuvAxyVCGreQrz4LTC": {
-  "market_logged": 1792963098.1979718,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump": {
   "market_logged": 1792966753.6117997,
@@ -10152,8 +10134,8 @@
   "market_reason": "mcap_too_low"
  },
  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
-  "market_logged": 1793567308.0391943,
-  "market_reason": "too_old"
+  "market_logged": 1793567906.265659,
+  "market_reason": "mcap_too_high"
  },
  "1f3soMcKyii7AFPNDCq9XWcgB8oEzCp4XMuZBzs7evo": {
   "market_logged": 1793557644.046072,
@@ -10291,8 +10273,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": {
-  "market_logged": 1793567308.0391943,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793567906.265659,
+  "market_reason": "mcap_too_low"
  },
  "DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": {
   "market_logged": 1793566706.3901818,
@@ -10327,6 +10309,10 @@
  },
  "EH1xZpqyXevoMRGxqEH6UjtP5XbZu6Mr3QbdfM3tpump": {
   "market_logged": 1793567606.1321683,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "9PuQhJDw4QneoK3bogJTftvpKHyAQQdLKTkv519pump": {
+  "market_logged": 1793567906.265659,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
