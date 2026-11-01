@@ -213,12 +213,6 @@
   "market_logged": 1793023120.0319574,
   "market_reason": "pumpfun_bonding_curve"
  },
- "5KtxmGhFfy6QaoU3Qtu2ouweqq1qfXfNZHg3CJH7y6ea": {
-  "market_logged": 1792940610.0910082,
-  "market_reason": "mcap_too_low",
-  "judged": 1792943636.7411294,
-  "symbol": "ZGAP"
- },
  "HgdBJvh8fTafnhmnWHgNHEQrYPzqBDQLu2hKZKfkpump": {
   "market_logged": 1792941209.9797995,
   "market_reason": "too_new",
@@ -229,21 +223,9 @@
   "market_logged": 1792956410.7792244,
   "market_reason": "mcap_too_low"
  },
- "7S7pvzGWyeFAorSrBdziD8fAUCr3Z1JkMcWGHL6Fpump": {
-  "market_logged": 1792943636.7411294,
-  "market_reason": "mcap_too_low"
- },
  "EyX3HYebzwqW8VT1SZi7HmaWPpbSAfatWp18bEZipump": {
   "market_logged": 1792945766.2437975,
   "market_reason": "mcap_too_low"
- },
- "3EHzZWBwoMBCkQfyqkJzcWCrnLxpuFXAM93KMRs3pump": {
-  "market_logged": 1792943636.7411294,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "HS8YQKpU3UeQ9oW77Kro3YZvS5uzCygQHUpAKp8TX81B": {
-  "market_logged": 1792943636.7411294,
-  "market_reason": "missing:liquidity_usd"
  },
  "G4QBB3JBvChm4Su3WebEx3PdcrLBcaqMUxApau4mpump": {
   "market_logged": 1792944237.3403451,
@@ -10391,8 +10373,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "5AWBTmZzYZ3twtKQLe1eziWw9yMcUyUiR6iRnCpXPv7f": {
-  "market_logged": 1793548134.9730783,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793548434.6996305,
+  "market_reason": "too_new"
  },
  "6eJVydkBQEj7ixuVAckfMiBGCy4ZTot16uvLbu1Ppump": {
   "market_logged": 1793545299.7944791,
@@ -10448,5 +10430,17 @@
  },
  "3jAHcV6ZwmA3pnrR9MrWwNSbN5gDiM7rSM1RJradQ8xK": {
   "market_logged": 1793548134.9730783
+ },
+ "3Xhb698gBSfeoVW58fBnUXtmWNyJi7zFddPDEJpXpump": {
+  "market_logged": 1793548434.6996305,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "3qZ4Abv6WJRPdqSh2i7NgtafjpzcXoEb37Z2zwwwpump": {
+  "market_logged": 1793548434.6996305,
+  "market_reason": "too_old"
+ },
+ "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
+  "market_logged": 1793548434.6996305,
+  "market_reason": "too_old"
  }
 }
