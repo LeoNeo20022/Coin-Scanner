@@ -1,67 +1,5 @@
 {
  "entries": {
-  "DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": {
-   "mint": "DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump",
-   "symbol": "STONK",
-   "pair": "Hn294sSAavUZBEiRfzyBewbNxhGQUgPryHCjYn4aU8Ru",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T00:22:18+00:00",
-   "rejected_ts": 1793060538,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001321,
-   "mcap_usd": 130459,
-   "liquidity_usd": 29203.87,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T00:26:28+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T00:22:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": {
-   "mint": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
-   "symbol": "N64",
-   "pair": "EWjia2Nk268HowctfiTp8cHQSkeC8Z6aZAhciMkPpXfi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T00:27:19+00:00",
-   "rejected_ts": 1793060839,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 8.223e-05,
-   "mcap_usd": 79722,
-   "liquidity_usd": 22709.82,
-   "age_hours": 1.32,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T00:31:30+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-10-29T00:27:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": {
    "mint": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
    "symbol": "CHICO",
@@ -5853,7 +5791,14 @@
    "mcap_usd": 250229,
    "liquidity_usd": 40281.98,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-01T00:42:21+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "6nJVg7wV1UBaWBpHuP7pEHLBd26U4cj6vXnGShobpump": {
