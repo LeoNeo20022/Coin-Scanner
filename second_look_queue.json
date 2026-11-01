@@ -6737,6 +6737,24 @@
    "age_hours": 6.5,
    "checks": {},
    "done": false
+  },
+  "66auXVTRw9ZekMeB8h5jdJS9WhMRVz8zfMyzqeinpump": {
+   "mint": "66auXVTRw9ZekMeB8h5jdJS9WhMRVz8zfMyzqeinpump",
+   "symbol": "AAPLCAT",
+   "pair": "As7yZeGi8F8yr17vu9JhvbyU3Ut4cF6x4FJugPL8Hykc",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-01T00:07:21+00:00",
+   "rejected_ts": 1793491641,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "community-takeovers",
+   "price_usd": 0.0001096,
+   "mcap_usd": 104898,
+   "liquidity_usd": 29970.97,
+   "age_hours": 25.49,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7286,7 +7304,7 @@
    }
   },
   "2026-11-01": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7296,7 +7314,8 @@
    "reasons": {
     "market:mcap_too_low": 1,
     "market:pumpfun_bonding_curve": 1,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "rugcheck:top10": 1
    }
   }
  }
