@@ -1,36 +1,5 @@
 {
  "entries": {
-  "B6CWFVEfGnjcDa5rHLG7TmEYjM83a6DbhHRC9cWSpump": {
-   "mint": "B6CWFVEfGnjcDa5rHLG7TmEYjM83a6DbhHRC9cWSpump",
-   "symbol": "OTF",
-   "pair": "2UeefnF3XBXP3hWwkfovWejs35mT88PA5Z5RF6q1JXVt",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T07:36:27+00:00",
-   "rejected_ts": 1793086587,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.577e-05,
-   "mcap_usd": 55776,
-   "liquidity_usd": 18439.37,
-   "age_hours": 0.13,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T07:41:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T07:40:09+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "5SsPcWyEuLRyiaYW5uiMP8rs3kiTq1hU35TPjNt9pump": {
    "mint": "5SsPcWyEuLRyiaYW5uiMP8rs3kiTq1hU35TPjNt9pump",
    "symbol": "Blackout",
@@ -4671,9 +4640,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-01T07:38:49+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn": {
    "mint": "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn",
