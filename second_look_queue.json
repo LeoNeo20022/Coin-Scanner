@@ -6690,6 +6690,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "EM6awuXD9bFZfbchFFioeNpHyKur9bmD5kj3svHpump": {
+   "mint": "EM6awuXD9bFZfbchFFioeNpHyKur9bmD5kj3svHpump",
+   "symbol": "VETO",
+   "pair": "Ei1qF1X8jveEKRQ3QxWANzzNExkyYyCU3S1PQsLwtdKK",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-01T16:58:23+00:00",
+   "rejected_ts": 1793552303,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 8.501e-05,
+   "mcap_usd": 82081,
+   "liquidity_usd": 22877.15,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7239,7 +7257,7 @@
    }
   },
   "2026-11-01": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7287,7 +7305,7 @@
     "rugcheck:top10": 6,
     "market:too_new": 6,
     "grok:skip": 6,
-    "rugcheck:insiders": 1,
+    "rugcheck:insiders": 2,
     "market:volume_h1_low": 1
    }
   }
