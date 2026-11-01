@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Bz5N9wrcxDw2YTf8tQkG8PJzdbUW89ZNWLWbdqA2pump": {
-   "mint": "Bz5N9wrcxDw2YTf8tQkG8PJzdbUW89ZNWLWbdqA2pump",
-   "symbol": "\uc288\ubc14\uc624",
-   "pair": "DZxMJKjR16CQueqostWujbu5faW9Av13RwhGubGWtbas",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T11:08:30+00:00",
-   "rejected_ts": 1793099310,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts",
-   "price_usd": 5.608e-05,
-   "mcap_usd": 54882,
-   "liquidity_usd": 18826.55,
-   "age_hours": 970.42,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T11:12:59+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T11:12:19+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
   "Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": {
    "mint": "Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa",
    "symbol": "MMGA",
@@ -5740,7 +5709,14 @@
    "mcap_usd": 152249,
    "liquidity_usd": 31858.07,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-01T11:16:59+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump": {
