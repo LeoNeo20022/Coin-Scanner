@@ -1,67 +1,5 @@
 {
  "entries": {
-  "AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump": {
-   "mint": "AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump",
-   "symbol": "MBAPPE",
-   "pair": "GcyDp8tck2y3y5eNDRwZtK5wG3e2N2venJJh83deU1MJ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T17:47:09+00:00",
-   "rejected_ts": 1793123229,
-   "stage": "grok",
-   "reason": "409% gain in 6h + 52% in last 5m shows classic blow-off top momentum. Buying pressure remains strong but volume and price action indicate we are late.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002329,
-   "mcap_usd": 229846,
-   "liquidity_usd": 40670,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T17:50:13+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T17:52:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": {
-   "mint": "3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump",
-   "symbol": "SI",
-   "pair": "3KgVPft91E1E3YedModfn1gwcLDSMErFDFhLGHa65LCj",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T17:52:05+00:00",
-   "rejected_ts": 1793123525,
-   "stage": "grok",
-   "reason": "Already +1568% in 6h and +373% in 1h with volume spiking then cooling; looks like late entry on a blow-off.",
-   "reason_key": "grok:skip",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 0.0009162,
-   "mcap_usd": 907948,
-   "liquidity_usd": 84000.02,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T17:55:13+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T17:52:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": {
    "mint": "GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump",
    "symbol": "SWELL",
@@ -5814,7 +5752,14 @@
    "mcap_usd": 59356,
    "liquidity_usd": 22395.61,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-01T17:57:29+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
