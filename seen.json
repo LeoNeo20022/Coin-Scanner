@@ -9293,8 +9293,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "7sgu7H7zP2xt1AXqRzjcWMrZYvip3ML1fH7vhixDpump": {
-  "market_logged": 1793546934.1408272,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793577421.39882,
+  "market_reason": "volume_h1_low"
  },
  "KVjKrtzwFKmocPVoYVswKUbxTkNuuCKeJ4r8688pump": {
   "market_logged": 1793509187.1936555,
@@ -9901,8 +9901,8 @@
   "market_reason": "mcap_too_low"
  },
  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
-  "market_logged": 1793574593.9113562,
-  "market_reason": "mcap_too_high"
+  "market_logged": 1793577421.39882,
+  "market_reason": "too_old"
  },
  "1f3soMcKyii7AFPNDCq9XWcgB8oEzCp4XMuZBzs7evo": {
   "market_logged": 1793557644.046072,
@@ -10198,7 +10198,9 @@
  },
  "2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump": {
   "market_logged": 1793574593.9113562,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "Anakinius",
+  "judged": 1793577421.39882
  },
  "FgcEkQrHw26jzt38KD33oSU95bTTGPsva8cBxb9Ppump": {
   "market_logged": 1793574893.2309954,
