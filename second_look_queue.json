@@ -5741,7 +5741,14 @@
    "mcap_usd": 76552,
    "liquidity_usd": 23476.03,
    "age_hours": 1.63,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-01T02:39:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "C7o7ucDkNEihpD8FJ1MsWQNmtFtZ3MBhWzCCoyTVpump": {
@@ -6643,6 +6650,24 @@
    "age_hours": 10.67,
    "checks": {},
    "done": false
+  },
+  "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": {
+   "mint": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
+   "symbol": "BLOB",
+   "pair": "Hr9qopJXCuak38rxDpZduUFhdAK2BfjtoXbfQZVn2EwU",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-01T02:39:35+00:00",
+   "rejected_ts": 1793500775,
+   "stage": "grok",
+   "reason": "57% m5 pump on top of 136% h1 gain looks like a late spike, not steady accumulation. Volume and buys/sells balanced but acceleration is extreme.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0006207,
+   "mcap_usd": 615300,
+   "liquidity_usd": 64444.15,
+   "age_hours": 11.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7192,7 +7217,7 @@
    }
   },
   "2026-11-01": {
-   "total": 11,
+   "total": 12,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7213,7 +7238,7 @@
     "market:liquidity_low": 2,
     "rugcheck:top10": 1,
     "market:too_new": 1,
-    "grok:skip": 1
+    "grok:skip": 2
    }
   }
  }
