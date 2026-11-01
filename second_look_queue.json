@@ -1,36 +1,5 @@
 {
  "entries": {
-  "295n8Gb5AcWCxeSCnysfyZoibxsd9yLmsJP3JXckpump": {
-   "mint": "295n8Gb5AcWCxeSCnysfyZoibxsd9yLmsJP3JXckpump",
-   "symbol": "SCSF",
-   "pair": "2ww5rf1fUe3L4eQxBJLU81uZddj3sEVDximm52sfzLie",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T17:22:11+00:00",
-   "rejected_ts": 1793121731,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001781,
-   "mcap_usd": 171546,
-   "liquidity_usd": 35634.37,
-   "age_hours": 1.08,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T17:22:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T17:25:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump": {
    "mint": "AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump",
    "symbol": "MBAPPE",
@@ -5820,7 +5789,14 @@
    "mcap_usd": 216544,
    "liquidity_usd": 40777.9,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-01T17:40:27+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "66dVRZC39nEh4AGhNsAFWKZZRXxjXJi6MaAQcNnXyZDQ": {
