@@ -6595,6 +6595,24 @@
    "age_hours": 0.21,
    "checks": {},
    "done": false
+  },
+  "DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump": {
+   "mint": "DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump",
+   "symbol": "SA",
+   "pair": "3PmNRczd8aTyNN9HV8b5KbyeUBB6ZyA3fg99x45zX6nC",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-01T14:44:22+00:00",
+   "rejected_ts": 1793544262,
+   "stage": "grok",
+   "reason": "1018% h6 gain after only 2.7h is classic blow-off; m5/h1 momentum already decelerating sharply.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0005848,
+   "mcap_usd": 581976,
+   "liquidity_usd": 63179.95,
+   "age_hours": 2.72,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7144,7 +7162,7 @@
    }
   },
   "2026-11-01": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7189,7 +7207,7 @@
     "market:liquidity_low": 6,
     "rugcheck:top10": 3,
     "market:too_new": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:insiders": 1
    }
   }
