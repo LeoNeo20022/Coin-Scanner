@@ -1,36 +1,5 @@
 {
  "entries": {
-  "91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump": {
-   "mint": "91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump",
-   "symbol": "MIYA",
-   "pair": "4dgUjYxeCnq7ZSqrNu14FWXmDiJrWmmw7wigL7VRHFsW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-27T03:17:32+00:00",
-   "rejected_ts": 1793071052,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0001659,
-   "mcap_usd": 158498,
-   "liquidity_usd": 34026.82,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-10-28T03:19:50+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-29T03:20:25+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Az5naRCqYLfMi9KT92QCzJwR74BR5X33nZtMkXyvpump": {
    "mint": "Az5naRCqYLfMi9KT92QCzJwR74BR5X33nZtMkXyvpump",
    "symbol": "CRAZYROLL",
@@ -5747,7 +5716,14 @@
    "mcap_usd": 144462,
    "liquidity_usd": 29770.06,
    "age_hours": 0.23,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-01T03:22:48+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "J559nEfpg5yrid4p5KsTiFpxpMjnSTMSNCGXHVLapump": {
