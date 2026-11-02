@@ -1,5 +1,13 @@
 {
  "watch": {
+  "EFAd2wbqPZR37EwPs1hoNvUzPFRNaLWi2gaBMgUh63r": {
+   "t": 1793630354,
+   "src": "gt:pools"
+  },
+  "G9r7CoaAEKzsFudkAhSWmuFi2huQpAqZ7w7TMfYqpump": {
+   "t": 1793630354,
+   "src": "scanner"
+  },
   "HckPgvvNVNnFRZsYRNGMbeSs362dLLhZGjzNmqpgf9gk": {
    "t": 1793629099,
    "src": "scanner"
@@ -1391,14 +1399,6 @@
   "FJeqadsGg6pe3Pm18GqMDMXRFYu7SiJwktfyG6sVpYwW": {
    "t": 1793535413,
    "src": "gt:pools"
-  },
-  "655Qc1NrNZPQCz3BUdkrL3m1UMc2Myk29nxJCwgp93au": {
-   "t": 1793535259,
-   "src": "gt:new_pools"
-  },
-  "HuyPdNZhuFTsBuBDrubERuSCYgnrfy62Jsj3sQiTpump": {
-   "t": 1793535259,
-   "src": "gt:new_pools"
   }
  },
  "evals": {
@@ -1432,7 +1432,7 @@
   "7Y6QNhQ2FxL6JEqZHooqgkXQubeQNC6N9emJxytdWp65": 1793628499,
   "8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793628205,
   "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793559876,
-  "Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793624444,
+  "Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793630354,
   "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793616723,
   "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793627899,
   "MAXXib7SQAQn4ymrwhhR9qMRUcYv8BNhbQxizJn5CCk": 1793628205,
@@ -1526,11 +1526,12 @@
   "HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump": 1793624744,
   "9JnYh2Rbww5vypYxaJm98gRRGUZn36M5UPgFY3Fkpump": 1793627002,
   "J1GK7Q4G23dM21qCrTyvRvzJgkiZ6GGrxzdPN52CfLAJ": 1793627002,
-  "G4sm3ve17Gi2ALXKEnnEL4zBpMHjFgJnQtif6DPxw79": 1793627599
+  "G4sm3ve17Gi2ALXKEnnEL4zBpMHjFgJnQtif6DPxw79": 1793627599,
+  "EFAd2wbqPZR37EwPs1hoNvUzPFRNaLWi2gaBMgUh63r": 1793630354,
+  "HckPgvvNVNnFRZsYRNGMbeSs362dLLhZGjzNmqpgf9gk": 1793630354,
+  "8cGKGiSUiwm1KDqUzqYtQnsSRCJw4WcyoyW74LHspump": 1793630354
  },
  "cool": {
-  "pool|GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793629814,
-  "pool|nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793630114,
   "pool|GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793635145,
   "pool|DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": 1793635145,
   "pool|Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793635145,
