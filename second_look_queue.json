@@ -1,36 +1,5 @@
 {
  "entries": {
-  "MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": {
-   "mint": "MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump",
-   "symbol": "OpenBot",
-   "pair": "BKRbcE4jNSxxp2GvNHUy9C3jBvzqoe8AEnV5xt74zWGs",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T08:37:12+00:00",
-   "rejected_ts": 1793176632,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.00016,
-   "mcap_usd": 155800,
-   "liquidity_usd": 34099.54,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T08:41:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T08:38:57+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV": {
    "mint": "AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV",
    "symbol": "LAUNCHOORS",
@@ -4361,9 +4330,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-02T08:40:10+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "419P2wrVug9cW5hMwsjEEdhM5aLBt7YFnwn1p7dypump": {
    "mint": "419P2wrVug9cW5hMwsjEEdhM5aLBt7YFnwn1p7dypump",
