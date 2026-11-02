@@ -6337,6 +6337,42 @@
    "age_hours": 1.52,
    "checks": {},
    "done": false
+  },
+  "HynFxFcxAH82Y6PLJghGD4XUj2TqgHfFWLckiHcHpump": {
+   "mint": "HynFxFcxAH82Y6PLJghGD4XUj2TqgHfFWLckiHcHpump",
+   "symbol": "SARP",
+   "pair": "2GQdgg9EdvUcSa8vXaBrhkiT3LCho65iBB5npnWDmi25",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T15:04:12+00:00",
+   "rejected_ts": 1793631852,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0002324,
+   "mcap_usd": 221915,
+   "liquidity_usd": 37796.18,
+   "age_hours": 14.33,
+   "checks": {},
+   "done": false
+  },
+  "8cGKGiSUiwm1KDqUzqYtQnsSRCJw4WcyoyW74LHspump": {
+   "mint": "8cGKGiSUiwm1KDqUzqYtQnsSRCJw4WcyoyW74LHspump",
+   "symbol": "VICECITY",
+   "pair": "38tBjK61Yn8TySZtKJ28Dxm6JWnkpxqcMAxx4S4iQ2mL",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T15:04:24+00:00",
+   "rejected_ts": 1793631864,
+   "stage": "grok",
+   "reason": "Massive early pump (170% h6) already reversing in m5 (-15%), high volume looks like fading spike rather than sustained broad buying.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001074,
+   "mcap_usd": 104851,
+   "liquidity_usd": 26192.14,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6880,7 +6916,7 @@
    }
   },
   "2026-11-02": {
-   "total": 36,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6922,12 +6958,12 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:volume_h1_low": 1,
-    "rugcheck:top10": 4,
+    "rugcheck:top10": 5,
     "market:too_new": 6,
     "market:liquidity_low": 6,
     "rugcheck:danger": 2,
     "rugcheck:insiders": 4,
-    "grok:skip": 1
+    "grok:skip": 2
    }
   }
  }
