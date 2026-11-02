@@ -247,18 +247,6 @@
   "symbol": "SOLYA",
   "judged": 1793039721.5942948
  },
- "4VKRhywtCDsxvPcWAhnNZU5k3QkxnVtsFVef91tbpump": {
-  "market_logged": 1793037203.5885081,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "8BYDcE9g2Deu1kdQW5JPpfAgZBqteHWHtbUwpCW7pump": {
-  "market_logged": 1793037203.5885081,
-  "market_reason": "mcap_too_low"
- },
- "7ZkskJVeNzDeCU3SZyvd78gfv6FLWG6MKudMf9Tqpump": {
-  "market_logged": 1793037203.5885081,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "HLqHprH5aHNXsMwCuLEDHc15VgJ7tHsvWx6Q9gnVpump": {
   "market_logged": 1793038103.612096,
   "market_reason": "mcap_too_low"
@@ -10132,7 +10120,9 @@
  },
  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
   "market_logged": 1793639304.9644778,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "symbol": "RICO",
+  "judged": 1793642197.422717
  },
  "chiY3EMacdP9KG1LaSCBwjdATwiU1LJmsy5EBcY2MQ7": {
   "market_logged": 1793637205.4170356,
@@ -10215,8 +10205,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8KwLDzEDYdp9hP8YNsx29Kjzp3pNHTacQHdYgjibpump": {
-  "market_logged": 1793639304.9644778,
-  "market_reason": "too_new"
+  "market_logged": 1793642197.422717,
+  "market_reason": "mcap_too_low"
  },
  "2x1DaQuT12D46Fogj6xwVzwRiG9suoXk9T8fR3gVmova": {
   "market_logged": 1793639304.9644778,
@@ -10269,5 +10259,9 @@
  "5LoukJze454D696R3nGUiUQDGvsTaaakbmC3kQTcpump": {
   "market_logged": 1793641897.0037417,
   "market_reason": "too_new"
+ },
+ "3R6C9YD2Mmmm96H4UbpwTTyC4emnBxY3QGAgVwxepump": {
+  "market_logged": 1793642197.422717,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }

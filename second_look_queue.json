@@ -4330,9 +4330,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-02T17:57:13+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
@@ -6433,6 +6439,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
+   "mint": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
+   "symbol": "RICO",
+   "pair": "Fby8NV8FRJZnZriiHUdVANBadTLJfBNT9MVkkN61FoLY",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T17:57:10+00:00",
+   "rejected_ts": 1793642230,
+   "stage": "grok",
+   "reason": "103% h6 gain with volume already dropping sharply from h6 to h1; organic_score only 39.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 7.82e-05,
+   "mcap_usd": 74610,
+   "liquidity_usd": 21144.32,
+   "age_hours": 1.5,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6976,7 +7000,7 @@
    }
   },
   "2026-11-02": {
-   "total": 48,
+   "total": 49,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7029,7 +7053,7 @@
     "market:liquidity_low": 6,
     "rugcheck:danger": 4,
     "rugcheck:insiders": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:sells_ge_buys_h1": 1
    }
   }
