@@ -1,36 +1,5 @@
 {
  "entries": {
-  "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": {
-   "mint": "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump",
-   "symbol": "HERMIT",
-   "pair": "HknqzEAg7Q78CqAGfG1LZRVcnNzbFfczEV1hjKF7ELq9",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T16:57:15+00:00",
-   "rejected_ts": 1793206635,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0003009,
-   "mcap_usd": 291660,
-   "liquidity_usd": 47786.86,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T17:09:54+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-30T16:58:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HsChU2kZ2aP8qxBP4EXX16UAR95duMoGBZhB9Zpopump": {
    "mint": "HsChU2kZ2aP8qxBP4EXX16UAR95duMoGBZhB9Zpopump",
    "symbol": "\u041c\u0415\u0414\u0412\u0415\u0414",
@@ -5562,7 +5531,14 @@
    "mcap_usd": 82081,
    "liquidity_usd": 22877.15,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-02T16:58:32+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "VtzzQCDppEzyZzZAiPjPfGi3mM3kJganthrty9Yymos": {
