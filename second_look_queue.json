@@ -1,36 +1,5 @@
 {
  "entries": {
-  "6EKmRQYzAXh5t6t1XNe2chYqmdSHgd32uA7xki9upump": {
-   "mint": "6EKmRQYzAXh5t6t1XNe2chYqmdSHgd32uA7xki9upump",
-   "symbol": "NVINU",
-   "pair": "3MSeAyD6yj7PaCzurFnbBueKN6YSTKm9gqGAbNZxFV8K",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T16:47:02+00:00",
-   "rejected_ts": 1793206022,
-   "stage": "grok",
-   "reason": "403% h6 gain + 90% h1 already priced in; m5 reversal shows momentum fading fast.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002548,
-   "mcap_usd": 250522,
-   "liquidity_usd": 42092.92,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T16:47:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T16:48:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": {
    "mint": "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump",
    "symbol": "HERMIT",
@@ -6441,6 +6410,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "6XmLjA6vMheTT4HkiXXAV1PyNPoTRjWphrVjVSFa5E5o": {
+   "mint": "6XmLjA6vMheTT4HkiXXAV1PyNPoTRjWphrVjVSFa5E5o",
+   "symbol": "OTCity",
+   "pair": "2UhQgTAZSQJ5ktmD6EYGGVSjJudFaCL3FHN7UKwZRCNy",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T16:53:31+00:00",
+   "rejected_ts": 1793638411,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 7.127e-05,
+   "mcap_usd": 67965,
+   "liquidity_usd": 20077.87,
+   "age_hours": 9.82,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6984,7 +6971,7 @@
    }
   },
   "2026-11-02": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7022,12 +7009,14 @@
     "10": 1,
     "10|market:liquidity_low": 1,
     "15": 1,
-    "15|market:sells_ge_buys_h1": 1
+    "15|market:sells_ge_buys_h1": 1,
+    "16": 1,
+    "16|market:volume_h1_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "market:volume_h1_low": 1,
+    "market:volume_h1_low": 2,
     "rugcheck:top10": 5,
     "market:too_new": 6,
     "market:liquidity_low": 6,
