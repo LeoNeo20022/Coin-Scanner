@@ -1,36 +1,5 @@
 {
  "entries": {
-  "4Kgx3bNBfdA8DgPGSfAd1tTSEc9x6Qd3bTeTtoyQpump": {
-   "mint": "4Kgx3bNBfdA8DgPGSfAd1tTSEc9x6Qd3bTeTtoyQpump",
-   "symbol": "OpenBot",
-   "pair": "3xbJcFoEpBwnp1eGHpAKkKNmN5kk381F6KETjtEyxpX3",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T10:11:53+00:00",
-   "rejected_ts": 1793182313,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001307,
-   "mcap_usd": 127236,
-   "liquidity_usd": 30373.73,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T10:12:33+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T10:14:57+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "HZccH9aPk9PpxNRZwgESbYE3BMb3zcrjtunJkdAwpump": {
    "mint": "HZccH9aPk9PpxNRZwgESbYE3BMb3zcrjtunJkdAwpump",
    "symbol": "Spain",
@@ -6314,6 +6283,24 @@
    "age_hours": 4.66,
    "checks": {},
    "done": false
+  },
+  "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump": {
+   "mint": "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump",
+   "symbol": "Bert",
+   "pair": "BW3HVgEZzScSkWJAHWCmZXQR6MhZkvF5KN6XHTMjRKxZ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T10:28:59+00:00",
+   "rejected_ts": 1793615339,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001087,
+   "mcap_usd": 107037,
+   "liquidity_usd": 26063.63,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6857,7 +6844,7 @@
    }
   },
   "2026-11-02": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6903,7 +6890,7 @@
     "market:too_new": 6,
     "market:liquidity_low": 6,
     "rugcheck:danger": 1,
-    "rugcheck:insiders": 1,
+    "rugcheck:insiders": 2,
     "grok:skip": 1
    }
   }

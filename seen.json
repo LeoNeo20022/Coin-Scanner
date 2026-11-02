@@ -203,10 +203,6 @@
   "market_logged": 1793013060.6746697,
   "market_reason": "mcap_too_low"
  },
- "7fdnNE4UoGoWFcE1TKcAt8UwrbMzVxrZuzJ9bAw3fomo": {
-  "market_logged": 1793010398.8290358,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "DJDYXux9K3tXod9gpzT5jTKRb5CdqXKkdzdiTc2TeFet": {
   "market_logged": 1793010699.3877196,
   "market_reason": "pumpfun_bonding_curve"
@@ -10080,8 +10076,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW": {
-  "market_logged": 1793614133.9275575,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793615334.170335,
+  "market_reason": "liquidity_low"
  },
  "CcFhiQsoVcsC4qEAtytSrVXP7gS3ZRecgv7K3bKFpump": {
   "market_logged": 1793590559.5997508,
@@ -10347,7 +10343,9 @@
  },
  "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump": {
   "market_logged": 1793613534.3200684,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793615334.170335,
+  "symbol": "Bert"
  },
  "F17yBcN7vhxNdWmSmoLf3FZc7Y4UdyvW2i7NdMFeSQqw": {
   "market_logged": 1793613833.9852216,
@@ -10362,6 +10360,14 @@
  },
  "Fj7xiaMe8fLGa1gMVTX8JJr54WsMyzbBJnm3Vx6fpump": {
   "market_logged": 1793615033.9668868,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GvaRQbKqsjkcgTmZbaYfuSaJRin5A27JV298MdQbpump": {
+  "market_logged": 1793615334.170335,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "ABE8eSw2UtJ7skUjpxZvZXeWQSiYRiHVhagYZBXGpump": {
+  "market_logged": 1793615334.170335,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
