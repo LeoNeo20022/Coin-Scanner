@@ -211,22 +211,6 @@
   "market_logged": 1793047297.6163843,
   "market_reason": "mcap_too_low"
  },
- "AiC6gfW7yt1eG4MWeyitemAQYHZhMToBYKMW4SkBpump": {
-  "market_logged": 1793045141.8183372,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "EyNRftF44AJFcMz8RxaTuUob8LX8zPm4dK8YfeiHpump": {
-  "market_logged": 1793045141.8183372,
-  "market_reason": "mcap_too_low"
- },
- "7934hWvP8T3ycPVqa2spEPRknYJykZshu1BCY6j9pump": {
-  "market_logged": 1793045141.8183372,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "1NrPfokNHfMcAek2nSn4jA8fBJNU47BDVBYDtXUpump": {
-  "market_logged": 1793045141.8183372,
-  "market_reason": "missing:mcap_usd"
- },
  "BbzZv5gvHdDt944Vbpx39FMTMZZn1RrEy3ChHbEiPBLm": {
   "market_logged": 1793045441.7920637,
   "market_reason": "pumpfun_bonding_curve"
@@ -10153,7 +10137,9 @@
  },
  "H4gHnZ3NCU7Z9XQwGX6YYJNyieGEW8pqwGRUcdSxpump": {
   "market_logged": 1793648302.6885731,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "Slingoor",
+  "judged": 1793650154.7761953
  },
  "BFKk1RFCz6527KbtcRKYjdvgtxaTCWZbw8dmF1txpump": {
   "market_logged": 1793648302.6885731,
@@ -10177,6 +10163,14 @@
  },
  "57oBeZa8VsB7sK9v4iiVM8uRLgpeKAbpSbfTjH2npump": {
   "market_logged": 1793649554.8800645,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "B1FxS86N8hEBTgKMpt29yPB9VzPxXUgNY7AzdjGZpump": {
+  "market_logged": 1793650154.7761953,
+  "market_reason": "mcap_too_low"
+ },
+ "9xuY1i6hLfA9JYsASFUc2khL7of2D4B18tdK2Hevpump": {
+  "market_logged": 1793650154.7761953,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
