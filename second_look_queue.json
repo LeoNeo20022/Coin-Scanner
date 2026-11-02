@@ -5555,7 +5555,14 @@
    "mcap_usd": 313776,
    "liquidity_usd": 45410.16,
    "age_hours": 2.19,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-02T15:46:36+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5AWBTmZzYZ3twtKQLe1eziWw9yMcUyUiR6iRnCpXPv7f": {
@@ -6385,6 +6392,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump": {
+   "mint": "At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump",
+   "symbol": "Marutaro",
+   "pair": "FE8VpWQmWK46cMxnXMi68d7wgXdkDRMs6nKojesxp28L",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T15:46:33+00:00",
+   "rejected_ts": 1793634393,
+   "stage": "grok",
+   "reason": "438% h6 pump already fading (m5 -1.86%) with volume still elevated; classic blow-off profile. Buys dominate but on a token that has already run hard in <2h.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002318,
+   "mcap_usd": 229882,
+   "liquidity_usd": 38653.01,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6928,7 +6953,7 @@
    }
   },
   "2026-11-02": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6975,7 +7000,7 @@
     "market:liquidity_low": 6,
     "rugcheck:danger": 2,
     "rugcheck:insiders": 4,
-    "grok:skip": 4
+    "grok:skip": 5
    }
   }
  }
