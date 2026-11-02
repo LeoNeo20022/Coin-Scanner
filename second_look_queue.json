@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Mithri1Vi1BYFekdqfPRW6Z27XNwi9veqrJ3ZYWtwos": {
-   "mint": "Mithri1Vi1BYFekdqfPRW6Z27XNwi9veqrJ3ZYWtwos",
-   "symbol": "MITH",
-   "pair": "Cq8ioYyLf46bPf3X71aWEw82tgHS9mSeeh34gpdLp4oJ",
-   "dex": "raydium",
-   "rejected_at": "2026-10-28T01:08:35+00:00",
-   "rejected_ts": 1793149715,
-   "stage": "rugcheck",
-   "reason": "danger:Top 10 holders high ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 1.301e-05,
-   "mcap_usd": 260313,
-   "liquidity_usd": 20660.14,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T01:09:46+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T01:25:06+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": {
    "mint": "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr",
    "symbol": "INVISIBLE",
@@ -5797,7 +5766,14 @@
    "mcap_usd": 53206,
    "liquidity_usd": 19117.48,
    "age_hours": 0.84,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-02T01:16:44+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "EJtBCwYqNX7kQEPU38T7bxcfwjVFaXuPBYZY7Gwtpump": {
