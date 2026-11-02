@@ -1,17 +1,3 @@
-[2026-10-31T15:25:21+00:00] scout: feed error trending_pools?page=1: 429
-[2026-10-31T15:25:21+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-10-31T15:25:21+00:00] scout: feed error new_pools?page=1: 429
-[2026-10-31T15:26:34+00:00] scout: pass end {"watch": 349, "a_qualify": 42, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=124s
-[2026-10-31T15:29:16+00:00] run start (LOG ONLY)
-[2026-10-31T15:29:27+00:00] discovered=52 fresh=42 market_pass=0
-[2026-10-31T15:29:27+00:00] grok daily budget 17/40 used, 0 no-response, $0.0506 (2026-10-31 UTC)
-[2026-10-31T15:29:27+00:00] run end {"discovered": 52, "skipped_recent": 10, "no_pair": 2, "market": {"too_new": 4, "pumpfun_bonding_curve": 15, "mcap_too_low": 9, "missing:mcap_usd": 1, "mcap_too_high": 5, "too_old": 5, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-10-31T15:29:29+00:00] second_look: 48h VI A6PM7bxy… (rejected grok:skip) -> fail: mcap_too_low [dead: no_volume_24h]
-[2026-10-31T15:29:31+00:00] second_look: pass end {"queued": 245, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
-[2026-10-31T15:29:31+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-10-31T15:30:12+00:00] scout: paper: candles unavailable HgxEGTZ1 (RuntimeError)
-[2026-10-31T15:30:12+00:00] scout: paper: [pool/tp50_sl30] Leverhedge closed stop_loss -3.16 after fees
-[2026-10-31T15:30:22+00:00] scout: feed error trending_pools?page=1: 429
 [2026-10-31T15:30:22+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-10-31T15:30:22+00:00] scout: feed error new_pools?page=1: 429
 [2026-10-31T15:31:18+00:00] scout: pass end {"watch": 349, "a_qualify": 44, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=107s
@@ -4998,3 +4984,17 @@
 [2026-11-02T03:17:15+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-02T03:17:15+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-02T03:18:09+00:00] scout: pass end {"watch": 347, "a_qualify": 54, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=120s
+[2026-11-02T03:20:51+00:00] run start (LOG ONLY)
+[2026-11-02T03:20:55+00:00] paper: [target5] ANUKOON: closed (take_profit) at +50.0% [candles_1m]
+[2026-11-02T03:21:04+00:00] discovered=61 fresh=54 market_pass=0
+[2026-11-02T03:21:04+00:00] grok daily budget 1/40 used, 0 no-response, $0.0027 (2026-11-02 UTC)
+[2026-11-02T03:21:04+00:00] run end {"discovered": 61, "skipped_recent": 7, "no_pair": 2, "market": {"pumpfun_bonding_curve": 22, "mcap_too_low": 15, "missing:liquidity_usd": 2, "liquidity_low": 2, "mcap_too_high": 4, "too_old": 7}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=13s
+[2026-11-02T03:21:06+00:00] second_look: 48h LUMI 653joYuZ… (rejected market:too_new) -> fail: mcap_too_low [dead: no_volume_24h]
+[2026-11-02T03:21:10+00:00] second_look: paper: [scalp] BLOB: closed (stop_loss)
+[2026-11-02T03:21:10+00:00] second_look: pass end {"queued": 238, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=6s
+[2026-11-02T03:21:10+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-02T03:22:05+00:00] scout: paper: candles unavailable wMHBD2B8 (RuntimeError)
+[2026-11-02T03:22:16+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-02T03:22:16+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-02T03:22:16+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-11-02T03:23:08+00:00] scout: pass end {"watch": 347, "a_qualify": 52, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=118s
