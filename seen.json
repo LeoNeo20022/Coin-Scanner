@@ -221,28 +221,12 @@
   "judged": 1793034985.2793953,
   "symbol": "XD"
  },
- "VcXBzo2EDi6tMNJa77KH4ZW9ziDNMKE747jB3YVLime": {
-  "market_logged": 1793032765.4333775,
-  "market_reason": "mcap_too_low"
- },
- "HaN5BxkS3YEVbQQftzFnqdoLvvafYit3fFNhXR3tpump": {
-  "market_logged": 1793032765.4333775,
-  "market_reason": "mcap_too_low"
- },
  "5JeRMtTBKRVUq7riSp5L2cUHrkBUisBesvvhjg5xpump": {
   "market_logged": 1793122325.4021018,
   "market_reason": "pumpfun_bonding_curve"
  },
- "HTUqvfyrkhUw8z2pyw1d4mjfajqAXRR68z3YJPPU5uju": {
-  "market_logged": 1793032765.4333775,
-  "market_reason": "mcap_too_low"
- },
  "J2rzrouHAL6mBaQddXhzV4jHmSZQLBnJivFG39Yypump": {
   "market_logged": 1793119166.3206923,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "BwNFeQfFf43eMuoXMDixFBXF8EpArkQqV5eudZTGpump": {
-  "market_logged": 1793032765.4333775,
   "market_reason": "pumpfun_bonding_curve"
  },
  "Hp8JBJg83rSGCSLvJQ6wD5peKBpy47CoeYLf78rKpump": {
@@ -10246,7 +10230,9 @@
  },
  "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": {
   "market_logged": 1793637205.4170356,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793637807.9051082,
+  "symbol": "FEAR"
  },
  "cMzxKhgHsL3HQdnjMHRt2b6FYmQAWr29fR8GUTWpump": {
   "market_logged": 1793635582.2457879,
@@ -10265,8 +10251,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
-  "market_logged": 1793637205.4170356,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793637807.9051082,
+  "market_reason": "mcap_too_low"
  },
  "chiY3EMacdP9KG1LaSCBwjdATwiU1LJmsy5EBcY2MQ7": {
   "market_logged": 1793637205.4170356,
@@ -10307,5 +10293,13 @@
  "22dUu6seBkrJufXyfvSEC2sy3fspFqB4ouJhGKSXpump": {
   "market_logged": 1793637505.7011642,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "6XmLjA6vMheTT4HkiXXAV1PyNPoTRjWphrVjVSFa5E5o": {
+  "market_logged": 1793637807.9051082,
+  "market_reason": "liquidity_low"
+ },
+ "paprbywJSpuiCTq7v8CYrSvtas7JFSYe7SiEMVdJj3t": {
+  "market_logged": 1793637807.9051082,
+  "market_reason": "mcap_too_low"
  }
 }
