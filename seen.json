@@ -201,14 +201,6 @@
   "market_logged": 1793138927.751525,
   "market_reason": "volume_h1_low"
  },
- "5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump": {
-  "market_logged": 1792978617.389324,
-  "market_reason": "too_new",
-  "symbol": "MAGA2028",
-  "grok_fail": 1,
-  "grok_retry_at": 1792985124.6110778,
-  "judged": 1792985177.7496483
- },
  "5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": {
   "market_logged": 1792986377.6057785,
   "market_reason": "sells_ge_buys_h1",
@@ -10311,11 +10303,19 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "2VsMRCfPZJgnGAtRQ7HGzLPpmz67EmRcUXmXYqtJpump": {
-  "market_logged": 1793589959.254412,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793590259.898988,
+  "market_reason": "mcap_too_low"
  },
  "27TfaXZ2LwzxVVbcJqzV89Hof7UystgJ5Yuh8evGpump": {
   "market_logged": 1793589959.254412,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "FxSpoeRfVWhGDMp4tYNRgcPGLcTTj3Vf7u61bYCCpump": {
+  "market_logged": 1793590259.898988,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW": {
+  "market_logged": 1793590259.898988,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
