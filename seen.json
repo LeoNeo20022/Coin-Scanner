@@ -217,10 +217,6 @@
   "market_logged": 1793049794.4790215,
   "market_reason": "mcap_too_low"
  },
- "3QPjtfjccPHpa4zqABiwc8mFQridqnP4YT72JP92c16e": {
-  "market_logged": 1793048293.9011304,
-  "market_reason": "missing:liquidity_usd"
- },
  "FMF2Us9vCZtjzsgyNZRqkuoJKoT8786dLVwtAvZ5pump": {
   "market_logged": 1793048594.1548836,
   "market_reason": "mcap_too_low"
@@ -6521,7 +6517,7 @@
  "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": {
   "market_logged": 1793564490.9696062,
   "market_reason": "volume_h1_low",
-  "judged": 1793566290.5069683,
+  "judged": 1793653107.2476954,
   "symbol": "ARNOLD"
  },
  "E3Hn56f3avZQoMA9i1GXrKSgPD5L8NsJVQmFUv1d14ag": {
@@ -10148,5 +10144,9 @@
  "DxJUCBK3XP4VQiPkQhqb1dWdbSSSAgn1au98KHznLiFT": {
   "market_logged": 1793652806.4172387,
   "market_reason": "mcap_too_low"
+ },
+ "5pQPh2EBz3tSUcqig9jGY73u4hNrhiiiLtYQSHaqFLow": {
+  "market_logged": 1793653107.2476954,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
