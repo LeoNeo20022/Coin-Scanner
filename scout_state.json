@@ -1,5 +1,9 @@
 {
  "watch": {
+  "FT2vbWKVKvMT8Bjat7V6f2FNjerN1hbcWkYY54czvyq8": {
+   "t": 1793578760,
+   "src": "scanner"
+  },
   "HV2BJ1SZ2tQSD9cufeS7JGsiY9Z1ug8LEPp5imV6pump": {
    "t": 1793578459,
    "src": "scanner"
@@ -1395,14 +1399,10 @@
   "4RGFCEspCXydaXwH4siYcyeNduY2MABG1nWsTUAjpump": {
    "t": 1793500462,
    "src": "scanner"
-  },
-  "AqtBFXFWev1Fu7ianuqNShAydnDMvexjgTs5XaGvsEaq": {
-   "t": 1793500162,
-   "src": "gt:new_pools"
   }
  },
  "evals": {
-  "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1793576526,
+  "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1793578760,
   "4RGFCEspCXydaXwH4siYcyeNduY2MABG1nWsTUAjpump": 1793501362,
   "E1DQkydktuaJNi7y8yQCodZBHic3wnvcaDWyqFDp5p2A": 1793513871,
   "9eFdfPe6rDgcQoXKG2YjG2XPwqoo6sQoBFnbZB6zUhP": 1793502169,
@@ -1410,7 +1410,7 @@
   "x94ouReAXGWHfNnGokusmmfNttSNEXyfY4ZCQq9pump": 1793522068,
   "ApphJ9gVD4HEzN4Jnx9pkJK3BFBuauMY4hEXGhETpump": 1793504492,
   "C7zxdtMrPJkshQSnQBSGvtzJBNW9Mw9WALp236hApump": 1793576827,
-  "ADTgcwrrshcZsamrrnq7TDcP7WYTqYY7NRmJEYwWpump": 1793576526,
+  "ADTgcwrrshcZsamrrnq7TDcP7WYTqYY7NRmJEYwWpump": 1793578760,
   "J73efZvH6rkrJbFJdP2rqe473YJW7tyWmrNARUSzpump": 1793505392,
   "ED4733RH66Av1U7Qjj56crmwzNLnTeL6UNjGMeBzpump": 1793505692,
   "4AWLQqBBZxDYNJ872F9CP4t6kWF8RZ5nNuGknV6Zpump": 1793578161,
@@ -1491,11 +1491,11 @@
   "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793577438,
   "8BxKRVNTRzM7LTJ9Q6rqKQFwXtMjZjjSNYNDyjLSpump": 1793566727,
   "5w3xB93fKhh6r5QmsRJUR7MqQmPhF9rLALzRGYEGMzWk": 1793567013,
-  "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": 1793576827,
+  "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": 1793578760,
   "8Wi25nQhEay9KwAsoguEs3y1uxaJmCRQxRYnSY9dpump": 1793578459,
-  "DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793576827,
+  "DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793578760,
   "6pGyajBJsvKWLvgDZPNebH5uZcHXc7hVQAJ3y1uuVXNd": 1793578459,
-  "jM9r9PJFyPaMEbhGZPbDeZJiysn2pfyz5TzdDs5pump": 1793576827,
+  "jM9r9PJFyPaMEbhGZPbDeZJiysn2pfyz5TzdDs5pump": 1793578760,
   "EaYd9uBdkMpgDB6JAu2igUAXKmNrJGB1hiL22PeMpump": 1793569830,
   "6g16UK4wHoFhC7PCmw8LYYCdt9q8m99fyoAwxeCrpump": 1793578161,
   "EZZ4WS7XXKgWP2btL2iTjHz4of9PT16tCDMd1LTCpump": 1793578459,
@@ -1505,12 +1505,10 @@
   "2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump": 1793577127,
   "GCM6bnuh6KiN696Wk8tu7QTfrpLmXUEWEW7rDwcEpump": 1793577438,
   "7Ypg1rKLu8q32E1AQEDjaPCg8dfGeCSsMkFnK98zcash": 1793577729,
-  "74Np8Ga5DomwZVx5bZBGFcHgFavPhgkvkJ2LPdWdpump": 1793577729
+  "74Np8Ga5DomwZVx5bZBGFcHgFavPhgkvkJ2LPdWdpump": 1793577729,
+  "FT2vbWKVKvMT8Bjat7V6f2FNjerN1hbcWkYY54czvyq8": 1793578760
  },
  "cool": {
-  "pool|CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793578651,
-  "pool|2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": 1793578651,
-  "pool|NKEda5nHhNGgjrE9nDdMvaEmkmJ96qqxzBVZEcKmjSg": 1793578651,
   "pool|EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793578951,
   "pool|6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793578951,
   "pool|5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793578951,
