@@ -201,12 +201,6 @@
   "market_logged": 1793138927.751525,
   "market_reason": "volume_h1_low"
  },
- "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": {
-  "market_logged": 1792977993.542818,
-  "market_reason": "too_new",
-  "judged": 1792981224.8464603,
-  "symbol": "Bow"
- },
  "6iaMAnGphKAiXN7q1VkhL8YJsp7Qbg9r9j4ismC8pump": {
   "market_logged": 1792983052.2916749,
   "market_reason": "liquidity_low",
@@ -226,10 +220,6 @@
   "market_reason": "sells_ge_buys_h1",
   "judged": 1792989433.0576878,
   "symbol": "RAYPAD"
- },
- "3k44GEL1BRGEWG1bYjYjVfM2a8eHSqPUnkdqDC7Fpump": {
-  "market_logged": 1792980624.5798752,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": {
   "judged": 1792981524.6110778,
@@ -10287,7 +10277,15 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8Jz7NgcjEMsWNPAXF3AvUHuHfN1bJ9nYZFHKiKkZUBeV": {
-  "market_logged": 1793584947.605266,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793586082.2274666,
+  "market_reason": "too_new"
+ },
+ "CCq2wyPifiDYaABfyrV8f6se4znvVqVu2TX6dByrpump": {
+  "market_logged": 1793586082.2274666,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "6w12CQQFkw2fRWhRxHuKULVE6QEuMzjyrcASq6NQpump": {
+  "judged": 1793586082.2274666,
+  "symbol": "BABYPUMP"
  }
 }
