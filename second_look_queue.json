@@ -1,36 +1,5 @@
 {
  "entries": {
-  "D9NXzZxiJxgp2U69EDWJ1tJDMtGcEiWh2xGGY58Gpump": {
-   "mint": "D9NXzZxiJxgp2U69EDWJ1tJDMtGcEiWh2xGGY58Gpump",
-   "symbol": "Potpot",
-   "pair": "gEAeFNaUVjjYLmcCdk7y4fWCbiEvKmo7bEWq9zxYW3g",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T15:27:17+00:00",
-   "rejected_ts": 1793201237,
-   "stage": "grok",
-   "reason": "276% h6 and 134% h1 gains on a 1-hour-old token scream blow-off top. Strong buy/sell ratio cannot offset the parabolic exit risk.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001614,
-   "mcap_usd": 156658,
-   "liquidity_usd": 33268.22,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T15:30:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T15:28:24+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": {
    "mint": "FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump",
    "symbol": "DUBBLE",
@@ -5561,7 +5530,14 @@
    "mcap_usd": 73667,
    "liquidity_usd": 23580.24,
    "age_hours": 25.08,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-02T15:31:44+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump": {
@@ -6391,6 +6367,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "57eJSmN1ecANrnZjGPrXzWUMyGhQsQgMS9eHdxM3pump": {
+   "mint": "57eJSmN1ecANrnZjGPrXzWUMyGhQsQgMS9eHdxM3pump",
+   "symbol": "MameStonk",
+   "pair": "AZoM3GT1JvjSR3edKiAXb7ffReMCecoxoK4wS2DMUFhq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T15:31:41+00:00",
+   "rejected_ts": 1793633501,
+   "stage": "grok",
+   "reason": "280% h6 run-up with m5 reversal signals blow-off top; buys still heavy but fading momentum typical at this stage.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001764,
+   "mcap_usd": 174127,
+   "liquidity_usd": 33213.06,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6934,7 +6928,7 @@
    }
   },
   "2026-11-02": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6981,7 +6975,7 @@
     "market:liquidity_low": 6,
     "rugcheck:danger": 2,
     "rugcheck:insiders": 4,
-    "grok:skip": 3
+    "grok:skip": 4
    }
   }
  }
