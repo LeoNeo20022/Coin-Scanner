@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea": {
-   "mint": "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea",
-   "symbol": "PVE",
-   "pair": "9CzQZsHHHTBjYZkdvJER3BdBuMPooEk4qqP9aw22tZeo",
-   "dex": "meteora",
-   "rejected_at": "2026-10-28T09:31:34+00:00",
-   "rejected_ts": 1793179894,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "community-takeovers",
-   "price_usd": 4.39e-05,
-   "mcap_usd": 130313,
-   "liquidity_usd": 19752.15,
-   "age_hours": 160.38,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T09:32:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    },
-    "48h": {
-     "time": "2026-10-30T09:34:48+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "4Kgx3bNBfdA8DgPGSfAd1tTSEc9x6Qd3bTeTtoyQpump": {
    "mint": "4Kgx3bNBfdA8DgPGSfAd1tTSEc9x6Qd3bTeTtoyQpump",
    "symbol": "OpenBot",
@@ -4299,9 +4268,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-02T09:58:59+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump": {
    "mint": "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump",
@@ -4324,9 +4299,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-02T09:58:59+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "FDSG65a94jA3mdC47VPikD5WARCJN5ffSgot3TfHpump": {
    "mint": "FDSG65a94jA3mdC47VPikD5WARCJN5ffSgot3TfHpump",
@@ -5568,7 +5549,14 @@
    "mcap_usd": 56761,
    "liquidity_usd": 17972.9,
    "age_hours": 0.25,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-02T09:58:59+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "6jFcYpa95qnzX3Kui4TTyPCEzQorHRCHXhoCAg5tpump": {
