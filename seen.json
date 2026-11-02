@@ -201,12 +201,6 @@
   "market_logged": 1793138927.751525,
   "market_reason": "volume_h1_low"
  },
- "FC8NVR6yg4kc1jP48QR6rePRbfqv58zRRSxmTMbkpump": {
-  "market_logged": 1792990333.3789332,
-  "market_reason": "sells_ge_buys_h1",
-  "symbol": "Shinagami",
-  "judged": 1792995189.7807715
- },
  "3Vkkvo8jxHy6B4pxRLLV3F9EBYRS1NE8mKCxhi1Mpump": {
   "market_logged": 1792994290.2500525,
   "market_reason": "too_new",
@@ -10336,11 +10330,13 @@
  },
  "En5icDhYYCuGXTtCLmfWiGR4C9nMiYMKojLdBRfVpump": {
   "market_logged": 1793598314.8217225,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793600114.5553887,
+  "symbol": "TRUMP"
  },
  "5GNDhmKmNks2ELBCmLHPZYBeYu2NCDqnrhKnBBr99xmr": {
-  "market_logged": 1793599814.3131816,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793600114.5553887,
+  "market_reason": "too_new"
  },
  "aCTVSzP5ab9hSewSc8M9Ltfq9uT2YJcjSq4Feuopump": {
   "market_logged": 1793598314.8217225,
@@ -10353,5 +10349,13 @@
  "G6KTcxD7nJT4poBZsGiANHZHcUvPoDLjaVVZhBPdpump": {
   "market_logged": 1793599514.761341,
   "market_reason": "mcap_too_low"
+ },
+ "7FRnPLiMZkhLrPLCGmDbgd8w82gcWL9hDKvjM2NLpump": {
+  "market_logged": 1793600114.5553887,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2vXe8gcfo5ix4CEjHmi19zfnjKv6zCvkoJeP7qhVpump": {
+  "market_logged": 1793600114.5553887,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
