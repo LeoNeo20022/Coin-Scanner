@@ -1,36 +1,5 @@
 {
  "entries": {
-  "H4EED2vHcHTdgJQ8VBcHXXGL4SALvGjurSzdFETfpump": {
-   "mint": "H4EED2vHcHTdgJQ8VBcHXXGL4SALvGjurSzdFETfpump",
-   "symbol": "Ryker",
-   "pair": "Eawk7J87eLhDsLFdttJR8tSM35uaVdf3Q9GvEqCuNgRh",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T08:06:33+00:00",
-   "rejected_ts": 1793174793,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.625e-05,
-   "mcap_usd": 56252,
-   "liquidity_usd": 18366,
-   "age_hours": 0.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T08:21:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T08:18:57+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": {
    "mint": "MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump",
    "symbol": "OpenBot",
@@ -4361,9 +4330,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-02T08:25:11+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "CcSRXUReR3VVG92C4rE8FqsLomzwmH6Dn1WhTGebpump": {
    "mint": "CcSRXUReR3VVG92C4rE8FqsLomzwmH6Dn1WhTGebpump",
