@@ -6270,6 +6270,42 @@
    "age_hours": 1.08,
    "checks": {},
    "done": false
+  },
+  "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump": {
+   "mint": "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump",
+   "symbol": "wen",
+   "pair": "12SzKCF7zECUeM9z87DijGLuppPrtTErKN82w7YuP3KD",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T12:35:41+00:00",
+   "rejected_ts": 1793622941,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 8.345e-05,
+   "mcap_usd": 81844,
+   "liquidity_usd": 23222.29,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
+  },
+  "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": {
+   "mint": "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK",
+   "symbol": "MAMESUKE",
+   "pair": "HPeXruE5Msv7paz5WPViwScLeSYWgZr8vhDakuiEp5ku",
+   "dex": "raydium",
+   "rejected_at": "2026-11-02T12:35:42+00:00",
+   "rejected_ts": 1793622942,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0007097,
+   "mcap_usd": 709772,
+   "liquidity_usd": 71450.25,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6813,7 +6849,7 @@
    }
   },
   "2026-11-02": {
-   "total": 32,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6858,8 +6894,8 @@
     "rugcheck:top10": 3,
     "market:too_new": 6,
     "market:liquidity_low": 6,
-    "rugcheck:danger": 1,
-    "rugcheck:insiders": 2,
+    "rugcheck:danger": 2,
+    "rugcheck:insiders": 3,
     "grok:skip": 1
    }
   }
