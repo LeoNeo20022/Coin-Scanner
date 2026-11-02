@@ -1,98 +1,5 @@
 {
  "entries": {
-  "BtM6yvMeqZ9ZHdeEJRcep9EnaZm6qGWCEwz9t8hapump": {
-   "mint": "BtM6yvMeqZ9ZHdeEJRcep9EnaZm6qGWCEwz9t8hapump",
-   "symbol": "MOTHADO",
-   "pair": "27v9YuHL5YLF6bCpQhsBmZGMBAyahhLoPkCFZH2oS9xR",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T00:11:28+00:00",
-   "rejected_ts": 1793146288,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0003924,
-   "mcap_usd": 390032,
-   "liquidity_usd": 53589.04,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T00:12:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T00:13:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "FfR4XdDPVrRmq7SFhkaH4srv54uFnNW2wfi83eNPpump": {
-   "mint": "FfR4XdDPVrRmq7SFhkaH4srv54uFnNW2wfi83eNPpump",
-   "symbol": "THINKGUY",
-   "pair": "6AbnoC7dqqoZ5v3EvoRHHsRYVmBVS3NZjNLdLcSv8CgG",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T00:21:28+00:00",
-   "rejected_ts": 1793146888,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 7.007e-05,
-   "mcap_usd": 66524,
-   "liquidity_usd": 20895.3,
-   "age_hours": 1.15,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T00:22:32+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T00:23:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump": {
-   "mint": "B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump",
-   "symbol": "CATUS",
-   "pair": "rgYVAM22WjBfMszK2jTb3rx1Sab9B7uxtSgr6y4NfWM",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T00:36:33+00:00",
-   "rejected_ts": 1793147793,
-   "stage": "grok",
-   "reason": "Sharp -49% h1 drop after +78% h6 pump shows fading momentum despite buy volume. Recent m5 buys strong but overall pattern typical of early exit.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 8.92e-05,
-   "mcap_usd": 88246,
-   "liquidity_usd": 24034.39,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T00:37:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T00:40:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "DrrfaXhRyzWUVUhzds1ZRdQ2NmPvjDzgMDdEsEzmpump": {
    "mint": "DrrfaXhRyzWUVUhzds1ZRdQ2NmPvjDzgMDdEsEzmpump",
    "symbol": "SCARY",
@@ -4640,9 +4547,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-02T00:41:43+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "6nJVg7wV1UBaWBpHuP7pEHLBd26U4cj6vXnGShobpump": {
    "mint": "6nJVg7wV1UBaWBpHuP7pEHLBd26U4cj6vXnGShobpump",
