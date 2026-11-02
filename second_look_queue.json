@@ -1,98 +1,5 @@
 {
  "entries": {
-  "Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump": {
-   "mint": "Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump",
-   "symbol": "STFD",
-   "pair": "DS83fGxDTfGRKeZp4mW7tMVrzxgKGC8CLZJgNzyRqznB",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T03:23:21+00:00",
-   "rejected_ts": 1793157801,
-   "stage": "grok",
-   "reason": "Massive 480% run in <2h with still-hot m5 buying; looks like late-stage momentum rather than early accumulation.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002928,
-   "mcap_usd": 289509,
-   "liquidity_usd": 44774.86,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T03:25:25+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T03:26:09+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk": {
-   "mint": "J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk",
-   "symbol": "PRIVACY",
-   "pair": "CSG3TCtdTrACNqU6i3i1QNRHi67eLHB3eFCexNRYxcbZ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T03:28:05+00:00",
-   "rejected_ts": 1793158085,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 7.988e-05,
-   "mcap_usd": 76278,
-   "liquidity_usd": 24221.8,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T03:30:27+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T03:31:24+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": {
-   "mint": "4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump",
-   "symbol": "Robotaxi",
-   "pair": "5URKrFAQb4g6Dqj6BDNjKnHrtzcydYrnLoJrrQWvC3HN",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T03:43:04+00:00",
-   "rejected_ts": 1793158984,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0002844,
-   "mcap_usd": 278250,
-   "liquidity_usd": 48620.83,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T03:46:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T03:43:43+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "eUX51Uc2So5Niq3jpXNPses4aXrHQ1hd27byG8Wpump": {
    "mint": "eUX51Uc2So5Niq3jpXNPses4aXrHQ1hd27byG8Wpump",
    "symbol": "Trinity",
@@ -5816,7 +5723,14 @@
    "mcap_usd": 99782,
    "liquidity_usd": 25699.58,
    "age_hours": 1.07,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-02T03:59:02+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "EddrjeVVAor8uvMbwRKyB9N4Kx8WVVeFJxLTcUVDpump": {
