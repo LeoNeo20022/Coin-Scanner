@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HsChU2kZ2aP8qxBP4EXX16UAR95duMoGBZhB9Zpopump": {
-   "mint": "HsChU2kZ2aP8qxBP4EXX16UAR95duMoGBZhB9Zpopump",
-   "symbol": "\u041c\u0415\u0414\u0412\u0415\u0414",
-   "pair": "Bs9vxFK1LA5bbYY4WqWgaEMnR1A1W92FB3s3EbEyQX4D",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T17:12:13+00:00",
-   "rejected_ts": 1793207533,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 7.585e-05,
-   "mcap_usd": 74525,
-   "liquidity_usd": 21837.87,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T17:14:54+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T17:13:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DaH8xonEzAENHYA9i8dYS8qTofMMPdvUVTvtnPbWpump": {
    "mint": "DaH8xonEzAENHYA9i8dYS8qTofMMPdvUVTvtnPbWpump",
    "symbol": "DOP",
@@ -4299,9 +4268,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-02T17:26:42+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "7ku3pcgXiGBqCCd6VZ8AyGe7t89BXtVpe6cVXwCLpump": {
    "mint": "7ku3pcgXiGBqCCd6VZ8AyGe7t89BXtVpe6cVXwCLpump",
