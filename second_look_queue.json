@@ -6373,6 +6373,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": {
+   "mint": "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump",
+   "symbol": "Ahsoka",
+   "pair": "HpyMxw5BZvks2LPhUzLjXwemyrPU7uU3vFqQ3o5ABZdJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T15:09:20+00:00",
+   "rejected_ts": 1793632160,
+   "stage": "grok",
+   "reason": "Huge 298% h1 / 1111% h6 gains on a 1h-old token signal blow-off top. Volume concentrated in first hour with fading momentum.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0004937,
+   "mcap_usd": 488049,
+   "liquidity_usd": 56504.84,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6916,7 +6934,7 @@
    }
   },
   "2026-11-02": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6963,7 +6981,7 @@
     "market:liquidity_low": 6,
     "rugcheck:danger": 2,
     "rugcheck:insiders": 4,
-    "grok:skip": 2
+    "grok:skip": 3
    }
   }
  }
