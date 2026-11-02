@@ -1,98 +1,5 @@
 {
  "entries": {
-  "eUX51Uc2So5Niq3jpXNPses4aXrHQ1hd27byG8Wpump": {
-   "mint": "eUX51Uc2So5Niq3jpXNPses4aXrHQ1hd27byG8Wpump",
-   "symbol": "Trinity",
-   "pair": "ARsHC2YMErFW63c5BSGYaSXCp2Jj5K1kn8CVhgVpUjX",
-   "dex": "pumpfun",
-   "rejected_at": "2026-10-28T04:06:54+00:00",
-   "rejected_ts": 1793160414,
-   "stage": "market",
-   "reason": "pumpfun_bonding_curve",
-   "reason_key": "market:pumpfun_bonding_curve",
-   "sources": "token-profiles",
-   "price_usd": 3.08e-05,
-   "mcap_usd": 30807.89,
-   "liquidity_usd": null,
-   "age_hours": 0.12,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T04:11:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "pumpfun_bonding_curve"
-    },
-    "48h": {
-     "time": "2026-10-30T04:08:43+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "BpRPVFVhGN5Pf1HpXpqYuESGwAj52ETreJbmkpLFpump": {
-   "mint": "BpRPVFVhGN5Pf1HpXpqYuESGwAj52ETreJbmkpLFpump",
-   "symbol": "INVISIBLE",
-   "pair": "826bZTVcVFeV9vLLu4qaiXjZEdBgkkEKewgSm6kAQYFg",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T04:06:54+00:00",
-   "rejected_ts": 1793160414,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.000107,
-   "mcap_usd": 107048,
-   "liquidity_usd": 27686.17,
-   "age_hours": 0.43,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T04:11:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T04:08:43+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "GNt7xeKjjM699z2jJjuUZYsnrWqLK5P5dtvUKKRkpump": {
-   "mint": "GNt7xeKjjM699z2jJjuUZYsnrWqLK5P5dtvUKKRkpump",
-   "symbol": "John",
-   "pair": "6axqxW3qPteYWNy1TzmvEmqtJFVarSf7cosfghADy39Z",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T04:06:54+00:00",
-   "rejected_ts": 1793160414,
-   "stage": "market",
-   "reason": "mcap_too_low",
-   "reason_key": "market:mcap_too_low",
-   "sources": "token-profiles",
-   "price_usd": 5.273e-06,
-   "mcap_usd": 5274,
-   "liquidity_usd": 4526.77,
-   "age_hours": 0.35,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T04:11:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T04:08:43+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea": {
    "mint": "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea",
    "symbol": "ONECOIN",
@@ -5835,7 +5742,14 @@
    "mcap_usd": 224385,
    "liquidity_usd": 38225.32,
    "age_hours": 1.64,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-02T04:19:03+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump": {
