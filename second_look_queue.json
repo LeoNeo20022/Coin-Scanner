@@ -6306,6 +6306,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump": {
+   "mint": "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump",
+   "symbol": "BC",
+   "pair": "DEXML3yJzG5H2n7gjJqrXh17qqfPgtsBfaQbyntRswYv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T12:40:41+00:00",
+   "rejected_ts": 1793623241,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 8.748e-05,
+   "mcap_usd": 85621,
+   "liquidity_usd": 23278.09,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6849,7 +6867,7 @@
    }
   },
   "2026-11-02": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6895,7 +6913,7 @@
     "market:too_new": 6,
     "market:liquidity_low": 6,
     "rugcheck:danger": 2,
-    "rugcheck:insiders": 3,
+    "rugcheck:insiders": 4,
     "grok:skip": 1
    }
   }
