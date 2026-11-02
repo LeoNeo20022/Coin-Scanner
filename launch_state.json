@@ -1,43 +1,6 @@
 {
  "mints": {},
  "days": {
-  "2026-10-23": {
-   "buys": 24,
-   "hours": {
-    "2026-10-23T00": 2,
-    "2026-10-23T01": 2,
-    "2026-10-23T02": 2,
-    "2026-10-23T03": 3,
-    "2026-10-23T04": 3,
-    "2026-10-23T05": 1,
-    "2026-10-23T06": 2,
-    "2026-10-23T07": 2,
-    "2026-10-23T08": 2,
-    "2026-10-23T09": 2,
-    "2026-10-23T10": 2,
-    "2026-10-23T11": 1
-   },
-   "evals": 65,
-   "fails": {
-    "dumping_m5": 53,
-    "mcap_low": 343,
-    "missing:price_usd": 68,
-    "top_holder": 10,
-    "too_old": 9,
-    "danger:Creator": 6,
-    "sells_gt_buys_h1": 11,
-    "no_curve_market": 7,
-    "danger:Low": 2,
-    "too_new": 13,
-    "far_below_ath": 6,
-    "insiders": 9,
-    "top10": 1,
-    "volume_h1_low": 26,
-    "graduated_or_not_curve": 1,
-    "buys_h1_low": 11,
-    "missing:age_min": 4
-   }
-  },
   "2026-10-24": {
    "buys": 0,
    "hours": {},
@@ -87,6 +50,12 @@
    "fails": {}
   },
   "2026-11-01": {
+   "buys": 0,
+   "hours": {},
+   "evals": 0,
+   "fails": {}
+  },
+  "2026-11-02": {
    "buys": 0,
    "hours": {},
    "evals": 0,

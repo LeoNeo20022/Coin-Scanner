@@ -1,98 +1,5 @@
 {
  "entries": {
-  "6By4iwLRAj2QfufgxgFBo6JPU448Jrd1E9JFuP6Spump": {
-   "mint": "6By4iwLRAj2QfufgxgFBo6JPU448Jrd1E9JFuP6Spump",
-   "symbol": "zPepe",
-   "pair": "3en3z5GaHQKqBDPVD4uaeDNfQRfoxRD81zEniNPR2it4",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T00:01:26+00:00",
-   "rejected_ts": 1793145686,
-   "stage": "market",
-   "reason": "mcap_too_low",
-   "reason_key": "market:mcap_too_low",
-   "sources": "token-profiles",
-   "price_usd": 4.928e-05,
-   "mcap_usd": 47326,
-   "liquidity_usd": 17940.35,
-   "age_hours": 8.55,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T00:05:16+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T00:03:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "4UUarK6kUzcA3mWzrrswrd7amtbcUkY3eSe8HRmapump": {
-   "mint": "4UUarK6kUzcA3mWzrrswrd7amtbcUkY3eSe8HRmapump",
-   "symbol": "FATCOIN",
-   "pair": "k3gRVFEswJtbPkDZQ9WxB4LeooE4gXgk6ZmHCc8cy8N",
-   "dex": "pumpfun",
-   "rejected_at": "2026-10-28T00:01:26+00:00",
-   "rejected_ts": 1793145686,
-   "stage": "market",
-   "reason": "pumpfun_bonding_curve",
-   "reason_key": "market:pumpfun_bonding_curve",
-   "sources": "token-profiles",
-   "price_usd": 3.962e-06,
-   "mcap_usd": 3962.82,
-   "liquidity_usd": null,
-   "age_hours": 0.44,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T00:05:16+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "pumpfun_bonding_curve"
-    },
-    "48h": {
-     "time": "2026-10-30T00:03:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "pumpfun_bonding_curve"
-    }
-   },
-   "done": true
-  },
-  "9XzZ5PEn1rEG8xX3peCzMyYMsppT9ud78kYZZAvdjRPc": {
-   "mint": "9XzZ5PEn1rEG8xX3peCzMyYMsppT9ud78kYZZAvdjRPc",
-   "symbol": "DISCLOSED",
-   "pair": "2YNmbEo6fz56sS425L5Bz4ycYCSmX9yDMAMAibSqXYuw",
-   "dex": "raydium",
-   "rejected_at": "2026-10-28T00:01:26+00:00",
-   "rejected_ts": 1793145686,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 6.827e-05,
-   "mcap_usd": 67592,
-   "liquidity_usd": 22644.76,
-   "age_hours": 0.08,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T00:05:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T00:03:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "BtM6yvMeqZ9ZHdeEJRcep9EnaZm6qGWCEwz9t8hapump": {
    "mint": "BtM6yvMeqZ9ZHdeEJRcep9EnaZm6qGWCEwz9t8hapump",
    "symbol": "MOTHADO",
@@ -6606,71 +6513,81 @@
    "age_hours": 46.27,
    "checks": {},
    "done": false
+  },
+  "5bVj1AmdRcB3J9vvCzZ51i4o5zdtfMAUxXBi81Hdpump": {
+   "mint": "5bVj1AmdRcB3J9vvCzZ51i4o5zdtfMAUxXBi81Hdpump",
+   "symbol": "TikTok",
+   "pair": "3KninER2qnVaXyXFAef39JamHr6wdMYJCRknLLJPh8sk",
+   "dex": "pumpfun",
+   "rejected_at": "2026-11-02T00:02:04+00:00",
+   "rejected_ts": 1793577724,
+   "stage": "market",
+   "reason": "pumpfun_bonding_curve",
+   "reason_key": "market:pumpfun_bonding_curve",
+   "sources": "token-profiles",
+   "price_usd": 1.537e-05,
+   "mcap_usd": 15374.44,
+   "liquidity_usd": null,
+   "age_hours": 0.18,
+   "checks": {},
+   "done": false
+  },
+  "4mTR4pBnoAPWxzvbK7L6HtRm1XXsxtaSUBUzEqSPEv1x": {
+   "mint": "4mTR4pBnoAPWxzvbK7L6HtRm1XXsxtaSUBUzEqSPEv1x",
+   "symbol": "WASTED",
+   "pair": "9rL2Dx5ApKFL9RJLuerW2nbNBzC737TmiAgrhij3aojT",
+   "dex": "raydium",
+   "rejected_at": "2026-11-02T00:02:04+00:00",
+   "rejected_ts": 1793577724,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 2.886e-05,
+   "mcap_usd": 28864,
+   "liquidity_usd": 13977.58,
+   "age_hours": 0.04,
+   "checks": {},
+   "done": false
+  },
+  "7Ypg1rKLu8q32E1AQEDjaPCg8dfGeCSsMkFnK98zcash": {
+   "mint": "7Ypg1rKLu8q32E1AQEDjaPCg8dfGeCSsMkFnK98zcash",
+   "symbol": "1993",
+   "pair": "AnHkAUnHR84zHkgbfHaLsRvGtzev5uDcN4jiU82w5GAP",
+   "dex": "raydium",
+   "rejected_at": "2026-11-02T00:02:04+00:00",
+   "rejected_ts": 1793577724,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 9.996e-05,
+   "mcap_usd": 99968,
+   "liquidity_usd": 26872.73,
+   "age_hours": 26.36,
+   "checks": {},
+   "done": false
+  },
+  "GCM6bnuh6KiN696Wk8tu7QTfrpLmXUEWEW7rDwcEpump": {
+   "mint": "GCM6bnuh6KiN696Wk8tu7QTfrpLmXUEWEW7rDwcEpump",
+   "symbol": "NNN",
+   "pair": "3tiE8tJjWUHpjPn4HfvJhX1KyCpHw6Kwo3TG6SL6yRaZ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T00:02:06+00:00",
+   "rejected_ts": 1793577726,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 7.705e-05,
+   "mcap_usd": 73959,
+   "liquidity_usd": 21067.73,
+   "age_hours": 1.18,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
-  "2026-10-23": {
-   "total": 50,
-   "hours": {
-    "00": 3,
-    "00|market:pumpfun_bonding_curve": 1,
-    "00|market:mcap_too_low": 1,
-    "00|market:too_new": 1,
-    "01": 3,
-    "01|market:pumpfun_bonding_curve": 1,
-    "01|market:mcap_too_low": 1,
-    "01|market:liquidity_low": 1,
-    "02": 3,
-    "02|market:pumpfun_bonding_curve": 1,
-    "02|market:mcap_too_low": 1,
-    "02|market:volume_h1_low": 1,
-    "03": 3,
-    "03|market:pumpfun_bonding_curve": 1,
-    "03|market:too_new": 1,
-    "03|market:mcap_too_low": 1,
-    "04": 3,
-    "04|market:pumpfun_bonding_curve": 1,
-    "04|market:too_new": 1,
-    "04|market:mcap_too_low": 1,
-    "05": 3,
-    "05|market:pumpfun_bonding_curve": 1,
-    "05|market:mcap_too_low": 1,
-    "05|market:liquidity_low": 1,
-    "06": 1,
-    "06|market:too_new": 1,
-    "07": 1,
-    "07|market:too_new": 1,
-    "08": 3,
-    "08|market:too_new": 1,
-    "08|market:volume_h1_low": 1,
-    "08|market:liquidity_low": 1,
-    "09": 1,
-    "09|market:liquidity_low": 1,
-    "10": 1,
-    "10|market:liquidity_low": 1,
-    "11": 3,
-    "11|market:liquidity_low": 1,
-    "11|market:sells_ge_buys_h1": 1,
-    "11|market:volume_h1_low": 1,
-    "15": 1,
-    "15|market:volume_h1_low": 1,
-    "19": 1,
-    "19|market:sells_ge_buys_h1": 1
-   },
-   "reasons": {
-    "market:pumpfun_bonding_curve": 6,
-    "market:mcap_too_low": 6,
-    "market:too_new": 6,
-    "grok:skip": 6,
-    "market:liquidity_low": 6,
-    "market:volume_h1_low": 4,
-    "rugcheck:top10": 5,
-    "rugcheck:lp_unlocked": 2,
-    "rugcheck:insiders": 6,
-    "market:sells_ge_buys_h1": 2,
-    "rugcheck:danger": 1
-   }
-  },
   "2026-10-24": {
    "total": 47,
    "hours": {
@@ -7208,6 +7125,21 @@
     "rugcheck:insiders": 2,
     "market:volume_h1_low": 2,
     "rugcheck:danger": 1
+   }
+  },
+  "2026-11-02": {
+   "total": 4,
+   "hours": {
+    "00": 3,
+    "00|market:pumpfun_bonding_curve": 1,
+    "00|market:mcap_too_low": 1,
+    "00|market:volume_h1_low": 1
+   },
+   "reasons": {
+    "market:pumpfun_bonding_curve": 1,
+    "market:mcap_too_low": 1,
+    "market:volume_h1_low": 1,
+    "rugcheck:top10": 1
    }
   }
  }
