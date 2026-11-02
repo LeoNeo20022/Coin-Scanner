@@ -6296,6 +6296,24 @@
    "age_hours": 0.28,
    "checks": {},
    "done": false
+  },
+  "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW": {
+   "mint": "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW",
+   "symbol": "OKCAT",
+   "pair": "3Zuod2ARDnnuZAyux8CtZWCNbw9LYAEk1XBhCqd7XeK1",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-02T10:03:57+00:00",
+   "rejected_ts": 1793613837,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.202e-05,
+   "mcap_usd": 50825,
+   "liquidity_usd": 18749.88,
+   "age_hours": 4.66,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6839,7 +6857,7 @@
    }
   },
   "2026-11-02": {
-   "total": 30,
+   "total": 31,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6873,7 +6891,9 @@
     "08|market:too_new": 1,
     "09": 2,
     "09|market:liquidity_low": 1,
-    "09|market:too_new": 1
+    "09|market:too_new": 1,
+    "10": 1,
+    "10|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -6881,7 +6901,7 @@
     "market:volume_h1_low": 1,
     "rugcheck:top10": 3,
     "market:too_new": 6,
-    "market:liquidity_low": 5,
+    "market:liquidity_low": 6,
     "rugcheck:danger": 1,
     "rugcheck:insiders": 1,
     "grok:skip": 1
