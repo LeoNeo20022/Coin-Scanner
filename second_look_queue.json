@@ -1,67 +1,5 @@
 {
  "entries": {
-  "DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump": {
-   "mint": "DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump",
-   "symbol": "DORA",
-   "pair": "5dPxJsNxo5RpiUBnS4pFKGhKYfAgarzXpTvu9tWhxcdv",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T06:37:06+00:00",
-   "rejected_ts": 1793169426,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 7.591e-05,
-   "mcap_usd": 72069,
-   "liquidity_usd": 21866.54,
-   "age_hours": 1.25,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T06:40:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T06:37:28+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": {
-   "mint": "PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV",
-   "symbol": "PAIR",
-   "pair": "9i7SZrZCDM1wAqNVAtyDUfg5hd7G31jhsWBg7D2J2p2N",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-28T07:02:01+00:00",
-   "rejected_ts": 1793170921,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts",
-   "price_usd": 5.278e-05,
-   "mcap_usd": 51021,
-   "liquidity_usd": 19656.83,
-   "age_hours": 113.26,
-   "checks": {
-    "24h": {
-     "time": "2026-10-29T07:30:09+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-30T07:26:01+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "835qApBwFrEAVkEoUW6D57oW8n2mW2btvfGKib8qV7XY": {
    "mint": "835qApBwFrEAVkEoUW6D57oW8n2mW2btvfGKib8qV7XY",
    "symbol": "IMAGINE",
@@ -5686,7 +5624,14 @@
    "mcap_usd": 137659,
    "liquidity_usd": 30086.4,
    "age_hours": 0.68,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-02T07:05:28+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "71BRzdkExamfxDZnvHtGnvYuTAjVBzRiHCcNLTZEpump": {
