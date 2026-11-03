@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
-   "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
-   "symbol": "PODCAT",
-   "pair": "4zyGG3NZ4td2dxSPoeY2rqfiU5MDbFeeSVeVR2KR1PwP",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T03:30:25+00:00",
-   "rejected_ts": 1793244625,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.501e-05,
-   "mcap_usd": 81708,
-   "liquidity_usd": 23851.49,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T03:31:24+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-10-31T03:34:06+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    }
-   },
-   "done": true
-  },
   "3qyPwRwSGkE8y9J12JKZeNAXPzmKE4KfGoWQor5vpump": {
    "mint": "3qyPwRwSGkE8y9J12JKZeNAXPzmKE4KfGoWQor5vpump",
    "symbol": "url",
@@ -4578,9 +4547,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-03T03:54:54+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "EddrjeVVAor8uvMbwRKyB9N4Kx8WVVeFJxLTcUVDpump": {
    "mint": "EddrjeVVAor8uvMbwRKyB9N4Kx8WVVeFJxLTcUVDpump",
