@@ -6533,6 +6533,24 @@
    "age_hours": 4.9,
    "checks": {},
    "done": false
+  },
+  "ChatbxK32pGJ3Gm6ga36aHzXiJ1w2EmhJ3m8jA5UCoiN": {
+   "mint": "ChatbxK32pGJ3Gm6ga36aHzXiJ1w2EmhJ3m8jA5UCoiN",
+   "symbol": "CHATCOIN",
+   "pair": "58qPRtZSxoTFpwq5zvTUm2tgMarfMxM8QuwRPtKudrZx",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T21:45:02+00:00",
+   "rejected_ts": 1793742302,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 7.611e-05,
+   "mcap_usd": 72969,
+   "liquidity_usd": 21692.82,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7079,7 +7097,7 @@
    }
   },
   "2026-11-03": {
-   "total": 49,
+   "total": 50,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7132,7 +7150,8 @@
     "rugcheck:top10": 6,
     "grok:skip": 6,
     "rugcheck:insiders": 6,
-    "rugcheck:lp_unlocked": 3
+    "rugcheck:lp_unlocked": 3,
+    "rugcheck:danger": 1
    }
   }
  }
