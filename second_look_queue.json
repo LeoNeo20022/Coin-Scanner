@@ -1,67 +1,5 @@
 {
  "entries": {
-  "6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump": {
-   "mint": "6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump",
-   "symbol": "CHLOE",
-   "pair": "D5tXS5Yauwk9ny2vGjs85WynMbf5PfuPiA4GxaQGrk6s",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T14:58:58+00:00",
-   "rejected_ts": 1793285938,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001425,
-   "mcap_usd": 139821,
-   "liquidity_usd": 31821.29,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T15:13:38+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-31T15:02:49+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
-   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-   "symbol": "STANK",
-   "pair": "6hYFMyE2BYYScTErqUeCKhihQ5X9j2WD2z9waTdwy38N",
-   "dex": "raydium",
-   "rejected_at": "2026-10-29T14:59:08+00:00",
-   "rejected_ts": 1793285948,
-   "stage": "grok",
-   "reason": "Big 69% h6 run already fading (m5 -4.7%, buys/sells near parity). High early volume but momentum clearly cooling on a 1h-old token.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 7.226e-05,
-   "mcap_usd": 72261,
-   "liquidity_usd": 23594.21,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T15:13:38+00:00",
-     "would_pass": "1",
-     "dead": "0",
-     "result": "pass"
-    },
-    "48h": {
-     "time": "2026-10-31T15:02:49+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": {
    "mint": "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump",
    "symbol": "VI",
@@ -5517,7 +5455,14 @@
    "mcap_usd": 221915,
    "liquidity_usd": 37796.18,
    "age_hours": 14.33,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T15:08:37+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "8cGKGiSUiwm1KDqUzqYtQnsSRCJw4WcyoyW74LHspump": {
@@ -5535,7 +5480,14 @@
    "mcap_usd": 104851,
    "liquidity_usd": 26192.14,
    "age_hours": 1.07,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T15:08:37+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": {
