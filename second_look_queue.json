@@ -6624,6 +6624,24 @@
    "age_hours": 2.05,
    "checks": {},
    "done": false
+  },
+  "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": {
+   "mint": "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump",
+   "symbol": "OMBRO",
+   "pair": "DFLvcLcX2MYWNb5YwmNPVSzP9VPbK285s8QouYeBQGNo",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T09:30:44+00:00",
+   "rejected_ts": 1793698244,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0002681,
+   "mcap_usd": 260211,
+   "liquidity_usd": 46078.55,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7170,7 +7188,7 @@
    }
   },
   "2026-11-03": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7216,7 +7234,8 @@
     "market:volume_h1_low": 2,
     "rugcheck:top10": 6,
     "grok:skip": 5,
-    "rugcheck:insiders": 4
+    "rugcheck:insiders": 4,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
