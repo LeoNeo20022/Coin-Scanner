@@ -6504,6 +6504,24 @@
    "age_hours": 29.15,
    "checks": {},
    "done": false
+  },
+  "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": {
+   "mint": "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K",
+   "symbol": "STONKS",
+   "pair": "4KHfHnqxV4BRGvwoRtuFj2P8P6JesY65sWecVpxfHdpn",
+   "dex": "raydium",
+   "rejected_at": "2026-11-03T19:00:15+00:00",
+   "rejected_ts": 1793732415,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0009893,
+   "mcap_usd": 989339,
+   "liquidity_usd": 220313.68,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7050,7 +7068,7 @@
    }
   },
   "2026-11-03": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7101,7 +7119,7 @@
     "rugcheck:top10": 6,
     "grok:skip": 6,
     "rugcheck:insiders": 6,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 2
    }
   }
  }
