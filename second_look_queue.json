@@ -6558,6 +6558,24 @@
    "age_hours": 0.86,
    "checks": {},
    "done": false
+  },
+  "67RBmGztx8ciVyWr8yi6R8fwrc3EG86XejYT7mespump": {
+   "mint": "67RBmGztx8ciVyWr8yi6R8fwrc3EG86XejYT7mespump",
+   "symbol": "METEORITE",
+   "pair": "8qfdKTa5Mub2DxLVyXkAq6c3skV6sdba5WGNChmQRVk4",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T04:59:13+00:00",
+   "rejected_ts": 1793681953,
+   "stage": "grok",
+   "reason": "348% h6 pump with volume concentrated early and m5 now showing more sells + -6% dip.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001711,
+   "mcap_usd": 166370,
+   "liquidity_usd": 32556.42,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7104,7 +7122,7 @@
    }
   },
   "2026-11-03": {
-   "total": 23,
+   "total": 24,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7134,7 +7152,7 @@
     "market:too_new": 3,
     "market:volume_h1_low": 2,
     "rugcheck:top10": 4,
-    "grok:skip": 4
+    "grok:skip": 5
    }
   }
  }
