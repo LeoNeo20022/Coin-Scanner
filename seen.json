@@ -279,32 +279,12 @@
   "symbol": "MBAPPE",
   "judged": 1793123215.822773
  },
- "GD8N3rc9bTkFatqeMhNAj1utcWJXpoGHgCLqRknSpump": {
-  "market_logged": 1793122925.3031075,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "GHUNWEpj1CTS81SZ9ox6iqV3Kpn4ePayvpG1oGnqsw2Q": {
-  "market_logged": 1793122925.3031075,
-  "market_reason": "missing:liquidity_usd"
- },
  "92zZ43MQcq44ofBZkxDirLG38wiyMEpszkLwXpjj2wy2": {
   "market_logged": 1793126354.473679,
   "market_reason": "mcap_too_low"
  },
- "2t7jxd6t3JuzLkhuBhHnW7qayuJ8gjt2kgWMKyLRJUz8": {
-  "market_logged": 1793122925.3031075,
-  "market_reason": "missing:liquidity_usd"
- },
- "G32JoXmjBhnC88JeFbr9cWTRXCC7N427QxCSShXDpump": {
-  "market_logged": 1793122925.3031075,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": {
   "market_logged": 1793126354.473679,
-  "market_reason": "mcap_too_low"
- },
- "9xe8DXZ5AkqJwYy34P2yKw34yVSGGepSAHQLWdJFpump": {
-  "market_logged": 1793122925.3031075,
   "market_reason": "mcap_too_low"
  },
  "5ESBuMNXQhWRVyatm45r2mLuRg3GLPX6HoPZ7ceGZmrZ": {
@@ -10063,7 +10043,9 @@
  },
  "FK5tP4Zw7ujWzaz3TgeJ5NcqGe5LFufo7m6zH6YQpump": {
   "market_logged": 1793724581.116322,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793727731.4482076,
+  "symbol": "5STAR"
  },
  "ECiKD6Gna9Rp1bU36L7mfdrpjtHwoMqJMAuVCXV8SM39": {
   "market_logged": 1793725631.4744627,
@@ -10081,8 +10063,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "HekahVohmeokPUhscg5taNme3Qs2fcSQoNgEeUPMpump": {
-  "market_logged": 1793725931.7110293,
-  "market_reason": "too_new"
+  "market_logged": 1793727731.4482076,
+  "market_reason": "mcap_too_low"
  },
  "GMvusXXQaNzV6AzSzvoKzjeZmnQ4j8jWVSCk53supump": {
   "market_logged": 1793726532.0963922,
@@ -10122,5 +10104,9 @@
  "6gnB2H2hbTVvKUWCzNuqjWY8Rod6EVBmfHi7YxZpTWa7": {
   "judged": 1793727431.7470033,
   "symbol": "MEOWNERO"
+ },
+ "BgjcKydCH6nvHy2DNNAQ8UgmDs42vMkrm1FwRdaKxXT6": {
+  "market_logged": 1793727731.4482076,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
