@@ -1,67 +1,5 @@
 {
  "entries": {
-  "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": {
-   "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
-   "symbol": "OREN",
-   "pair": "FptqM7Ev2nWFNT2v4QW5e1cHH6TAkgYtQd2NcJeKWebx",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T12:59:20+00:00",
-   "rejected_ts": 1793278760,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0001693,
-   "mcap_usd": 162255,
-   "liquidity_usd": 34742.45,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T12:59:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-10-31T13:00:19+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "GwaFUDzWgmG3WYNP8raitkosYtBrnFKe9DRTsVMMrush": {
-   "mint": "GwaFUDzWgmG3WYNP8raitkosYtBrnFKe9DRTsVMMrush",
-   "symbol": "MMRUSH",
-   "pair": "71NgQqstSZgtT6r6ZkdcA94AKL5j2QopxVt9dMHRwxSR",
-   "dex": "raydium",
-   "rejected_at": "2026-10-29T13:43:08+00:00",
-   "rejected_ts": 1793281388,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles",
-   "price_usd": 0.000474,
-   "mcap_usd": 474030,
-   "liquidity_usd": 54746.86,
-   "age_hours": 47.22,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T13:46:00+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-31T13:47:40+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "fb:transfer_restricted:transfer_fee"
-    }
-   },
-   "done": true
-  },
   "6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump": {
    "mint": "6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump",
    "symbol": "CHLOE",
@@ -5548,7 +5486,14 @@
    "mcap_usd": 71544,
    "liquidity_usd": 21237.73,
    "age_hours": 1.52,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T14:03:27+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "HynFxFcxAH82Y6PLJghGD4XUj2TqgHfFWLckiHcHpump": {
