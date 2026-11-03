@@ -253,10 +253,6 @@
   "market_logged": 1793093251.4193916,
   "market_reason": "mcap_too_low"
  },
- "C8w6H7tKnjFEPNFCzvKBNN1VXadMz21eHSnkLQinpump": {
-  "market_logged": 1793090430.677091,
-  "market_reason": "mcap_too_low"
- },
  "CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": {
   "market_logged": 1793087911.209847,
   "market_reason": "too_new",
@@ -267,19 +263,11 @@
   "market_logged": 1793094151.8198361,
   "market_reason": "mcap_too_low"
  },
- "AkeAFeFKgyN687khQZfSUth7qNCnVoQJQu4uLRrQpump": {
-  "market_logged": 1793090430.677091,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "GrtE7xGn3iBk93hhf1zz6i3Wbfv1uDd9unStGVhGpump": {
   "market_logged": 1793097988.4013195,
   "market_reason": "liquidity_low",
   "judged": 1793098589.1084168,
   "symbol": "GAMBIT"
- },
- "47vRjmHm6jrcxb7YWk1NSyx3qAPyXeA6miS1oFPHpump": {
-  "market_logged": 1793090430.677091,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "5G3pzMiNQxiFctE1aZRTctYJLz5zGdfA1S65QMT5pump": {
   "market_logged": 1793399904.909436,
@@ -9699,8 +9687,8 @@
   "symbol": "Ansum"
  },
  "8VdrHbx444YZJZp1vNb9pXAv5aW4Kv7E7bk7Zwaapump": {
-  "market_logged": 1793694873.036982,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793695473.0995438,
+  "market_reason": "liquidity_low"
  },
  "9YjjmTq6vgUfuur2hQai9DazVEVA5t8gUyNfNebYpump": {
   "market_logged": 1793664155.01123,
@@ -10155,5 +10143,9 @@
  "EAqmgSTREypN7rgsPinZzzzG8NwtqwZAvbgMhnxmpump": {
   "market_logged": 1793695172.5078418,
   "market_reason": "too_new"
+ },
+ "52d42jMPHrEAWD2NpGSz46WgTFpCpE4npqRxkHgLpump": {
+  "market_logged": 1793695473.0995438,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
