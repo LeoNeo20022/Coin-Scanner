@@ -4454,9 +4454,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-03T16:35:00+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "EM6awuXD9bFZfbchFFioeNpHyKur9bmD5kj3svHpump": {
    "mint": "EM6awuXD9bFZfbchFFioeNpHyKur9bmD5kj3svHpump",
@@ -5598,7 +5604,14 @@
    "mcap_usd": 837137,
    "liquidity_usd": 75693.88,
    "age_hours": 1.39,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T16:35:00+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "GWJ96ggVUfZPX5ghcD5sUaAWWwqcT1cdntNGew8Jpump": {
@@ -5616,7 +5629,14 @@
    "mcap_usd": 73004,
    "liquidity_usd": 21248.1,
    "age_hours": 1.14,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T16:35:02+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": {
@@ -6518,6 +6538,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump": {
+   "mint": "Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump",
+   "symbol": "NALA",
+   "pair": "Em7Df7NddnA3GE5TETidWUtRKrtqPuSMCf2EFHJ1ZFda",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T16:34:55+00:00",
+   "rejected_ts": 1793723695,
+   "stage": "grok",
+   "reason": "Extreme parabolic gains (352% h6, 149% h1) with still-elevated m5 momentum point to blow-off top rather than sustainable organic flow.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002105,
+   "mcap_usd": 207355,
+   "liquidity_usd": 36592.09,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7064,7 +7102,7 @@
    }
   },
   "2026-11-03": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7111,7 +7149,7 @@
     "market:too_new": 6,
     "market:volume_h1_low": 2,
     "rugcheck:top10": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:insiders": 6,
     "rugcheck:lp_unlocked": 1
    }
