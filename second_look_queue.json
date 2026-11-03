@@ -6506,6 +6506,42 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "E7ayy5Se6gjwCNtw9NP629AucnTgqab4SSmSxDpUpump": {
+   "mint": "E7ayy5Se6gjwCNtw9NP629AucnTgqab4SSmSxDpUpump",
+   "symbol": "WIF",
+   "pair": "JTsSu7MiYCFAoMGNL9zwR2UzLCCJKNA6KpQJFQzppEx",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T01:53:20+00:00",
+   "rejected_ts": 1793670800,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 7.919e-05,
+   "mcap_usd": 74804,
+   "liquidity_usd": 21240.97,
+   "age_hours": 47.33,
+   "checks": {},
+   "done": false
+  },
+  "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump": {
+   "mint": "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump",
+   "symbol": "Wanted",
+   "pair": "46jo5tmE2ZpvqQ3ndHCNEwWTbdtQvqFmcSYxGgB9262M",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T01:53:32+00:00",
+   "rejected_ts": 1793670812,
+   "stage": "grok",
+   "reason": "Huge 578% h6 / 76% h1 gains already reversing with m5 sells > buys and -10.5% price drop. Volume peaked early and activity is fading.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002898,
+   "mcap_usd": 286971,
+   "liquidity_usd": 42762.94,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7052,7 +7088,7 @@
    }
   },
   "2026-11-03": {
-   "total": 8,
+   "total": 10,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7069,8 +7105,8 @@
     "market:mcap_too_low": 1,
     "market:too_new": 1,
     "market:volume_h1_low": 1,
-    "rugcheck:top10": 1,
-    "grok:skip": 1
+    "rugcheck:top10": 2,
+    "grok:skip": 2
    }
   }
  }
