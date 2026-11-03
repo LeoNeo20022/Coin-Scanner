@@ -241,10 +241,6 @@
   "symbol": "TGC",
   "judged": 1793078301.1799634
  },
- "B6CWFVEfGnjcDa5rHLG7TmEYjM83a6DbhHRC9cWSpump": {
-  "market_logged": 1793086885.149141,
-  "market_reason": "mcap_too_low"
- },
  "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump": {
   "market_logged": 1793086284.6196587,
   "market_reason": "too_new",
@@ -10121,8 +10117,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump": {
-  "market_logged": 1793691546.7856688,
-  "market_reason": "too_new"
+  "market_logged": 1793691846.803884,
+  "market_reason": "liquidity_low"
  },
  "DV6hTfn4pEJkB9K16TX8mvqZzNbjfBxEZt4Q4vBypump": {
   "market_logged": 1793691546.7856688,
@@ -10154,6 +10150,8 @@
  },
  "FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": {
   "market_logged": 1793691546.7856688,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793691846.803884,
+  "symbol": "UNPOOLED"
  }
 }
