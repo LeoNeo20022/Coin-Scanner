@@ -1,67 +1,5 @@
 {
  "entries": {
-  "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": {
-   "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
-   "symbol": "CPU",
-   "pair": "APKy43xkxRZ4iJQB7aQAr6u82cRpk8tCg13TKsmUKcAD",
-   "dex": "raydium",
-   "rejected_at": "2026-10-29T01:24:47+00:00",
-   "rejected_ts": 1793237087,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001767,
-   "mcap_usd": 176785,
-   "liquidity_usd": 87374.77,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T01:25:06+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-31T01:28:16+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "9QT2ue258kE1NYr7U9f3uGpcRNQHPB45ikxmmCdGpump": {
-   "mint": "9QT2ue258kE1NYr7U9f3uGpcRNQHPB45ikxmmCdGpump",
-   "symbol": "RSTR",
-   "pair": "EFNsWcAXxLTLLGB8Jkr6WkodiZavSyWkSdzypXAJgHhb",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T01:28:15+00:00",
-   "rejected_ts": 1793237295,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 9.382e-05,
-   "mcap_usd": 90143,
-   "liquidity_usd": 24358.61,
-   "age_hours": 1.12,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T01:29:53+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-31T01:33:14+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "7wjapUkhKcwx8ZEbSkvePusbh4UwKmhiUszwaR5Lpump": {
    "mint": "7wjapUkhKcwx8ZEbSkvePusbh4UwKmhiUszwaR5Lpump",
    "symbol": "Pumpkinu",
@@ -4609,9 +4547,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-03T01:28:20+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "EJtBCwYqNX7kQEPU38T7bxcfwjVFaXuPBYZY7Gwtpump": {
    "mint": "EJtBCwYqNX7kQEPU38T7bxcfwjVFaXuPBYZY7Gwtpump",
