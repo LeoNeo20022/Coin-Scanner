@@ -249,10 +249,6 @@
   "symbol": "TRUMP2028",
   "judged": 1793065702.8545702
  },
- "4qprYozXaoUaXiEVTMKU8y33Kmik5dREMjKEHZNFpkCH": {
-  "market_logged": 1793064990.1896267,
-  "market_reason": "volume_h1_low"
- },
  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
   "market_logged": 1793080227.105914,
   "market_reason": "mcap_too_low"
@@ -9994,8 +9990,8 @@
   "symbol": "Ansum"
  },
  "8VdrHbx444YZJZp1vNb9pXAv5aW4Kv7E7bk7Zwaapump": {
-  "market_logged": 1793669295.7254207,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793669896.1653302,
+  "market_reason": "liquidity_low"
  },
  "9YjjmTq6vgUfuur2hQai9DazVEVA5t8gUyNfNebYpump": {
   "market_logged": 1793664155.01123,
@@ -10074,5 +10070,13 @@
  },
  "4uaLgPQmoEdfCm9xe4HF7h6vKib3xnLLdioaAYX3hubD": {
   "market_logged": 1793669596.1867898
+ },
+ "6YBtjnNbmHVMsu7CB3ugvCadmbPXjDY6hf14YP2apump": {
+  "market_logged": 1793669896.1653302,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump": {
+  "market_logged": 1793669896.1653302,
+  "market_reason": "too_new"
  }
 }
