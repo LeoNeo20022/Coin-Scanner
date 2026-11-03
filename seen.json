@@ -257,14 +257,6 @@
   "symbol": "GTAELON",
   "judged": 1793083049.3616734
  },
- "8LQ5DQUrKqvmithWcNkKj41HYu1wsUVR3ZvUikhvpump": {
-  "market_logged": 1793081126.5869753,
-  "market_reason": "mcap_too_low"
- },
- "5bSE9bfaZWLnHVeMKsmvbWMvC7WpmFhh4j5nVSmmX8k8": {
-  "market_logged": 1793081126.5869753,
-  "market_reason": "mcap_too_low"
- },
  "9vphGHJXi6LSwRYGxvLSaenLK4J3DYjpGrmpqRLkpump": {
   "market_logged": 1793084061.440306,
   "market_reason": "mcap_too_low"
@@ -1623,7 +1615,7 @@
   "judged": 1793147779.8681
  },
  "8gMWXHfSwBRSLc2wKtLv24JYboCAsKaEqfC5cXLeZJXL": {
-  "market_logged": 1793147183.4218779,
+  "market_logged": 1793687049.8179443,
   "market_reason": "mcap_too_low"
  },
  "AgdYvgwrNorSmZV6vRP2X91voEpRj4dSvHm2p3xpump": {
@@ -2431,8 +2423,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": {
-  "market_logged": 1793685908.756991,
-  "market_reason": "too_old"
+  "market_logged": 1793687049.8179443,
+  "market_reason": "liquidity_low"
  },
  "5C5K1ZetdvGoF5QRcyRbVMiVLhkJzS8RkH8UL2pwpump": {
   "market_logged": 1793301826.3701444,
@@ -10072,8 +10064,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8YbjB38by48i9bLEJjnGNqjF19PszHawPixmrtBZYVkQ": {
-  "market_logged": 1793684708.4052444,
-  "market_reason": "sells_ge_buys_h1"
+  "market_logged": 1793687049.8179443,
+  "market_reason": "volume_h1_low"
  },
  "BE5AZJDh5CzZjQaw8MJtyUfmW8zpJ3sV7h1YUoBpAsaq": {
   "market_logged": 1793682535.3398228,
@@ -10115,10 +10107,19 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ": {
-  "market_logged": 1793685308.6141784
+  "market_logged": 1793687049.8179443,
+  "market_reason": "too_new"
  },
  "FcUaJ6SN1pfCzJJxU5mzeBh8zhLn5EPYXA1rjVjVpump": {
   "market_logged": 1793685608.6433866,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "5Zn8AUV1QSVYYSzfQ5sY7i7AaxQRvsZK4JEb5p8Tpump": {
+  "market_logged": 1793687049.8179443,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": {
+  "market_logged": 1793687049.8179443,
+  "market_reason": "too_new"
  }
 }

@@ -5522,7 +5522,14 @@
    "mcap_usd": 61079,
    "liquidity_usd": 18704.8,
    "age_hours": 0.11,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T06:24:14+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5GNDhmKmNks2ELBCmLHPZYBeYu2NCDqnrhKnBBr99xmr": {
@@ -5540,7 +5547,14 @@
    "mcap_usd": 67671,
    "liquidity_usd": 22492.44,
    "age_hours": 1.08,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T06:24:14+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "E84psoV4rJQYBoyTkzTrh1hzjZJv81VGFRX9gMLHpump": {
@@ -6568,6 +6582,24 @@
    "age_hours": 48.07,
    "checks": {},
    "done": false
+  },
+  "9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": {
+   "mint": "9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump",
+   "symbol": "PumpFun",
+   "pair": "333wjUD7rmkRtwwtXqDZEdrobhJ8DGjQ8ANbsg3PQakq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T06:24:13+00:00",
+   "rejected_ts": 1793687053,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0001757,
+   "mcap_usd": 169920,
+   "liquidity_usd": 33277.13,
+   "age_hours": 0.74,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7114,7 +7146,7 @@
    }
   },
   "2026-11-03": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7140,15 +7172,16 @@
     "05|market:pumpfun_bonding_curve": 1,
     "05|market:too_new": 1,
     "05|market:mcap_too_low": 1,
-    "06": 2,
+    "06": 3,
     "06|market:mcap_too_low": 1,
-    "06|market:liquidity_low": 1
+    "06|market:liquidity_low": 1,
+    "06|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 2,
     "market:mcap_too_low": 6,
-    "market:too_new": 4,
+    "market:too_new": 5,
     "market:volume_h1_low": 2,
     "rugcheck:top10": 4,
     "grok:skip": 5,
