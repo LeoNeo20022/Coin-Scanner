@@ -1,36 +1,5 @@
 {
  "entries": {
-  "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump": {
-   "mint": "4GgEwQvdSMbMnuw2xqVegZvp4FTt5gVmLSE6jVZApump",
-   "symbol": "HASHTAG",
-   "pair": "CWpXy5ddYCbPoNAQ5qZQyJQmtnLMNy4PyRuZEYyoUqim",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T08:05:18+00:00",
-   "rejected_ts": 1793261118,
-   "stage": "grok",
-   "reason": "91% h1 and 137% h6 gains on a 1h-old token signal a blow-off top; buying the exit after the spike.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001263,
-   "mcap_usd": 123098,
-   "liquidity_usd": 30410.9,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T08:18:57+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-31T08:06:49+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "Hdee3uRCvxm5mWWinrYNCR9S2uVXf54YCGvHSkvpump": {
    "mint": "Hdee3uRCvxm5mWWinrYNCR9S2uVXf54YCGvHSkvpump",
    "symbol": "POKERFACE",
@@ -5497,7 +5466,14 @@
    "mcap_usd": 62826,
    "liquidity_usd": 19026.89,
    "age_hours": 0.31,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T08:09:11+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": {
@@ -5515,7 +5491,14 @@
    "mcap_usd": 96052,
    "liquidity_usd": 25520.75,
    "age_hours": 0.8,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T08:09:11+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": {
@@ -5533,7 +5516,14 @@
    "mcap_usd": 170118,
    "liquidity_usd": 34746.01,
    "age_hours": 1.08,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T08:09:11+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": {
