@@ -5536,7 +5536,14 @@
    "mcap_usd": 229882,
    "liquidity_usd": 38653.01,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T15:51:17+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "EhQjoRsCsjnSk3uzyVjjNcHoBC5Bd1Awa89uzaPCpump": {
