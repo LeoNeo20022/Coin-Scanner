@@ -277,17 +277,6 @@
   "market_logged": 1793117966.3389955,
   "market_reason": "mcap_too_low"
  },
- "23wm1BzzW9pE3SyzBrD1z4v7Fq69cqoNjbCgaV4Cpump": {
-  "market_logged": 1793116358.3660028,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "9FgHxRNSocoEAgWpFS99GnZmDdpFuV25Chtj3zKgVq37": {
-  "market_logged": 1793116358.3660028
- },
- "6GG4v1zkuN7qcj7vo32W4TDvoneh3jdHxcML3PUQpump": {
-  "market_logged": 1793116358.3660028,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "5MLP8C9gWiLt1q46VJ5PSEUiQM1ovdcqmnk7hzM5pump": {
   "market_logged": 1793116658.2488387,
   "market_reason": "pumpfun_bonding_curve"
@@ -10093,7 +10082,9 @@
  },
  "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": {
   "market_logged": 1793718213.3208022,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793721369.8540156,
+  "symbol": "BINGUS"
  },
  "5FZG9KibRk5m6UFpfLYCyPyfiDjZju5SDmJodwTZpump": {
   "market_logged": 1793718213.3208022,
@@ -10175,11 +10166,15 @@
   "market_reason": "missing:liquidity_usd"
  },
  "4LT4uDp694w7soJerjRjSEVr2884J33EjLNG1WGzcash": {
-  "market_logged": 1793721070.2779632,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793721369.8540156,
+  "market_reason": "too_new"
  },
  "HuNvBLyLx2CTyGpYcm7f1xSNnzWQVsy6hU9N7NY4pump": {
   "market_logged": 1793721070.2779632,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8EHCocWZ8sasercWBqdgSN9BYA6hisTHr12PWgmYpump": {
+  "market_logged": 1793721369.8540156,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
