@@ -6642,6 +6642,24 @@
    "age_hours": 45.44,
    "checks": {},
    "done": false
+  },
+  "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": {
+   "mint": "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump",
+   "symbol": "ABDUL",
+   "pair": "4guMDJjJ24jm2hewNj1rJGsE5GUxb7pDvjZXy8znbtid",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T10:22:35+00:00",
+   "rejected_ts": 1793701355,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.000166,
+   "mcap_usd": 162665,
+   "liquidity_usd": 32959.51,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7188,7 +7206,7 @@
    }
   },
   "2026-11-03": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7236,7 +7254,7 @@
     "market:volume_h1_low": 2,
     "rugcheck:top10": 6,
     "grok:skip": 5,
-    "rugcheck:insiders": 4,
+    "rugcheck:insiders": 5,
     "rugcheck:lp_unlocked": 1
    }
   }
