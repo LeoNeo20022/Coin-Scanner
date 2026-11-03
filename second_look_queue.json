@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump": {
-   "mint": "Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump",
-   "symbol": "\ub9ac\ud540",
-   "pair": "HpU4YTFyBCwUzL32mzYbJMhfNHZdzXc1o4BUfHBadbHG",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T10:42:19+00:00",
-   "rejected_ts": 1793270539,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001045,
-   "mcap_usd": 102788,
-   "liquidity_usd": 26058.28,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T10:43:23+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-31T10:45:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": {
    "mint": "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt",
    "symbol": "WALT",
@@ -4516,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "liquidity_low"
+    },
+    "48h": {
+     "time": "2026-11-03T10:47:34+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "EfB1tdCYLcseZBywfojYyo3sJwuUGxa26LGzCLvFpump": {
    "mint": "EfB1tdCYLcseZBywfojYyo3sJwuUGxa26LGzCLvFpump",
