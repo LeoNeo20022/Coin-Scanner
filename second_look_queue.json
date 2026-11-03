@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": {
-   "mint": "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump",
-   "symbol": "SLEGO",
-   "pair": "DSCVy8umUzka8C2jdnsf2HaRHfhMJT8QMauL3Um8yyqT",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T02:32:39+00:00",
-   "rejected_ts": 1793241159,
-   "stage": "grok",
-   "reason": "566% h1 gain on a 1-hour-old token with volume almost entirely front-loaded signals a blow-off top already in progress.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0003387,
-   "mcap_usd": 327276,
-   "liquidity_usd": 47875.73,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T02:33:05+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-31T02:36:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "93U1sARLngyTbdpEY6kCpyrLCa7sHSBiUuYT2o2Jpump": {
    "mint": "93U1sARLngyTbdpEY6kCpyrLCa7sHSBiUuYT2o2Jpump",
    "symbol": "CYBER",
@@ -6542,6 +6511,24 @@
    "age_hours": 12.35,
    "checks": {},
    "done": false
+  },
+  "HAp8U1SB7bDGMa81AQom1ee6AR5iSFFTi57MEbTzcash": {
+   "mint": "HAp8U1SB7bDGMa81AQom1ee6AR5iSFFTi57MEbTzcash",
+   "symbol": "\u1453\u0b39\ua6a1\u0908",
+   "pair": "3VyUqtiHUZudLBgNctUawYtvpsv2Qs7yCe3ePyzQEcRu",
+   "dex": "raydium",
+   "rejected_at": "2026-11-03T02:39:33+00:00",
+   "rejected_ts": 1793673573,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 6.924e-05,
+   "mcap_usd": 68935,
+   "liquidity_usd": 21018.91,
+   "age_hours": 1.1,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7088,7 +7075,7 @@
    }
   },
   "2026-11-03": {
-   "total": 14,
+   "total": 15,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7109,7 +7096,7 @@
     "market:mcap_too_low": 2,
     "market:too_new": 1,
     "market:volume_h1_low": 2,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "grok:skip": 2
    }
   }
