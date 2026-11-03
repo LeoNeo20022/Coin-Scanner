@@ -1,98 +1,5 @@
 {
  "entries": {
-  "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": {
-   "mint": "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt",
-   "symbol": "WALT",
-   "pair": "76TD5fVVqUBv9HLGLMdbhbCHgdaLe1XeT4wSeaAf9Xm4",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T10:52:18+00:00",
-   "rejected_ts": 1793271138,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.717e-05,
-   "mcap_usd": 84207,
-   "liquidity_usd": 23975.41,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T10:53:23+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-10-31T10:55:17+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    }
-   },
-   "done": true
-  },
-  "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": {
-   "mint": "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
-   "symbol": "Blackout",
-   "pair": "8johbCaTTKXLD1vSb8vvEpT7ywXv643CpCd29Uarh32n",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T11:02:16+00:00",
-   "rejected_ts": 1793271736,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "community-takeovers",
-   "price_usd": 5.494e-05,
-   "mcap_usd": 52475,
-   "liquidity_usd": 18113.28,
-   "age_hours": 50.64,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T11:03:23+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-31T11:02:48+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": {
-   "mint": "9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi",
-   "symbol": "MULTI",
-   "pair": "JCA7j5pcdJyxjVyqcmfQKHJaQ2jfnrNRUiLq3fJLj57X",
-   "dex": "raydium",
-   "rejected_at": "2026-10-29T11:35:08+00:00",
-   "rejected_ts": 1793273708,
-   "stage": "grok",
-   "reason": "340% pump in first hour with volume almost entirely front-loaded; m5 activity slowing after initial spike.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001727,
-   "mcap_usd": 169790,
-   "liquidity_usd": 35229.48,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T11:38:44+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-31T11:38:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": {
    "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
    "symbol": "OREN",
@@ -5560,7 +5467,14 @@
    "mcap_usd": 81844,
    "liquidity_usd": 23222.29,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T12:40:36+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": {
@@ -5578,7 +5492,14 @@
    "mcap_usd": 709772,
    "liquidity_usd": 71450.25,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T12:40:36+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "lp_unlocked"
+    }
+   },
    "done": false
   },
   "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump": {
