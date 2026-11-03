@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump": {
-   "mint": "2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump",
-   "symbol": "ELOOONG",
-   "pair": "8ghRxLg3PgMf5vQXrUgVTcwuegjk3Hc7onnkc3NrQe5q",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T16:42:56+00:00",
-   "rejected_ts": 1793292176,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.000156,
-   "mcap_usd": 153659,
-   "liquidity_usd": 33019.8,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T16:43:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-31T16:43:44+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": {
    "mint": "9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump",
    "symbol": "HOUSEWORM",
@@ -5654,7 +5623,14 @@
    "mcap_usd": 117780,
    "liquidity_usd": 28095.23,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T16:44:45+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "6XmLjA6vMheTT4HkiXXAV1PyNPoTRjWphrVjVSFa5E5o": {
