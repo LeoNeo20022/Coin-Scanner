@@ -253,12 +253,6 @@
   "market_logged": 1793259004.4142394,
   "market_reason": "too_old"
  },
- "7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": {
-  "market_logged": 1793110128.7163923,
-  "market_reason": "liquidity_low",
-  "judged": 1793110429.3211176,
-  "symbol": "Darla"
- },
  "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump": {
   "market_logged": 1793284432.97557,
   "market_reason": "too_old"
@@ -270,18 +264,6 @@
  "26cfppyAgj7e1XHkgPwaYv4L8QuDTwrVyD1mAquhpump": {
   "market_logged": 1793111028.369404,
   "market_reason": "mcap_too_low"
- },
- "FCpZ8JQFeQCVDuZQGx1wKb6SDcFpfNJa592pkFJEpump": {
-  "market_logged": 1793110429.3211176,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "4D47qD4MwNG4bdjL9nswPVhsKoA6nKSdJ2wGdZLFpump": {
-  "market_logged": 1793110429.3211176,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "FPY4iaZcGQJb6nn7KhGuXAGnpBVqdiWAbG1rUe9bpump": {
-  "market_logged": 1793110429.3211176,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "7zdiuccYYtK9KNves7hiKksM98pWawemjCVCEqbbpump": {
   "market_logged": 1793111329.3027942,
@@ -10156,5 +10138,9 @@
  "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": {
   "market_logged": 1793715202.104485,
   "market_reason": "too_new"
+ },
+ "3So9LeitZ3unDu9fC1mQaG3wkvSFvc7KEpQvsvth3Jv7": {
+  "market_logged": 1793715501.539309,
+  "market_reason": "missing:liquidity_usd"
  }
 }
