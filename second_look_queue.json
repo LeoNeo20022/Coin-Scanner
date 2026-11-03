@@ -1,36 +1,5 @@
 {
  "entries": {
-  "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": {
-   "mint": "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump",
-   "symbol": "VI",
-   "pair": "G8vQy7Bo6MrfKQH6CxsUiE9KSh7fGBY4NhSpj4GKLfhU",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-29T15:25:32+00:00",
-   "rejected_ts": 1793287532,
-   "stage": "grok",
-   "reason": "264% h6 pump already done, m5 activity collapsed to near-zero while h1 still shows residual volume.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001782,
-   "mcap_usd": 176456,
-   "liquidity_usd": 34652.7,
-   "age_hours": 1.22,
-   "checks": {
-    "24h": {
-     "time": "2026-10-30T15:28:24+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-10-31T15:29:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump": {
    "mint": "2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump",
    "symbol": "ELOOONG",
@@ -4361,9 +4330,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-03T15:26:15+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump": {
    "mint": "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump",
