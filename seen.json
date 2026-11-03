@@ -297,30 +297,6 @@
   "market_logged": 1793138327.5383403,
   "market_reason": "mcap_too_low"
  },
- "C2eyoBnczVFgFK6ExmFZYuffAvQyvrjGL3qNLcmUpump": {
-  "market_logged": 1793136747.399794,
-  "market_reason": "mcap_too_low"
- },
- "4vKTEZuAnkejcd1YwSFvAVNXdSJx1jRhCPN8khpbDior": {
-  "market_logged": 1793136747.399794,
-  "market_reason": "volume_h1_low"
- },
- "BcrmziUoT3CdCn6Y7SXjxgVEu4zhQmYWDHyWsPSgpump": {
-  "market_logged": 1793136747.399794,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "DRWVgsA24hK1WE9Xh9j6wPgpaBZsL34FvPxCkagfpump": {
-  "market_logged": 1793136747.399794,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "6UEAPtiRBg7gy6Gf3dKGCgQN6PwZr4r8zShGpQw7pump": {
-  "market_logged": 1793136747.399794,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "2ET4odmYjebBftQ6sGFKvPygxtDUA3PBLRwSv1zSpump": {
-  "market_logged": 1793136747.399794,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "4SUbJv15ASxQ2s74iSS4HHoMEtu57H7ajcNWncuBpump": {
   "market_logged": 1793138327.5383403,
   "market_reason": "mcap_too_low"
@@ -9971,7 +9947,9 @@
  },
  "6Na6huTtPekKeeJpmtpq8mw2ZVAC2qCaRBj8KeB4pump": {
   "market_logged": 1793740930.4675617,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793741529.770619,
+  "symbol": "Sexbot"
  },
  "2yUz9MAAEdtdEoGdiyaAT5dEQ1CRVoFX4UvPHthypump": {
   "market_logged": 1793739729.7317684,
@@ -10019,5 +9997,9 @@
  "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": {
   "market_logged": 1793741230.317433,
   "market_reason": "mcap_too_low"
+ },
+ "3rgFUpCG4Vs2twJordBqLgUtuzdr7yckJNP33fQypump": {
+  "symbol": "SA",
+  "judged": 1793741529.770619
  }
 }
