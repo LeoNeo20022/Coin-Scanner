@@ -6488,6 +6488,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "DLsvm8VGQMucYFjagmv6j7WAr1NZiX2qMFVtGz8pump": {
+   "mint": "DLsvm8VGQMucYFjagmv6j7WAr1NZiX2qMFVtGz8pump",
+   "symbol": "USDC",
+   "pair": "ASisU1HquSbs6ad2cP3eMejDxLUdL3VBmgxkTtRfvMXg",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T01:43:27+00:00",
+   "rejected_ts": 1793670207,
+   "stage": "grok",
+   "reason": "269% h6 and 87% h1 gains after only 1h age point to blow-off top; copycat name adds red flag.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.000236,
+   "mcap_usd": 230950,
+   "liquidity_usd": 46904.58,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7034,7 +7052,7 @@
    }
   },
   "2026-11-03": {
-   "total": 7,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7051,7 +7069,8 @@
     "market:mcap_too_low": 1,
     "market:too_new": 1,
     "market:volume_h1_low": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "grok:skip": 1
    }
   }
  }
