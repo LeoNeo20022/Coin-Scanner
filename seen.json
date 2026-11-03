@@ -241,12 +241,6 @@
   "symbol": "DMAGA2028",
   "judged": 1793071348.172141
  },
- "91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump": {
-  "market_logged": 1793069129.8210053,
-  "market_reason": "too_new",
-  "judged": 1793071047.5152147,
-  "symbol": "MIYA"
- },
  "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V": {
   "market_logged": 1793070748.1385431,
   "market_reason": "too_new",
@@ -10017,8 +10011,8 @@
   "market_reason": "mcap_too_low"
  },
  "Egarx4TpHajwcCSQi5u5qiv1kVac2ei5HMhoiXszpump": {
-  "market_logged": 1793675648.0890756,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793675948.3521528,
+  "market_reason": "mcap_too_low"
  },
  "CwYHf2VMMgdRUwSJdaA4ocrLq6zcjDNzbkHuGQ62pump": {
   "market_logged": 1793671095.976515,
@@ -10046,7 +10040,9 @@
  },
  "31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": {
   "market_logged": 1793672968.9637527,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "SPHERE",
+  "judged": 1793675948.3521528
  },
  "HAp8U1SB7bDGMa81AQom1ee6AR5iSFFTi57MEbTzcash": {
   "market_logged": 1793673269.116556,
@@ -10103,10 +10099,19 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "3AATisbEvs3xSzJoE8wgGEVvwKnig5pn4bvXTsYKnb1g": {
-  "market_logged": 1793675348.4513452
+  "market_logged": 1793675948.3521528,
+  "market_reason": "mcap_too_low"
  },
  "EQQiSGzVSAJ8wBNqrEBgA3GMszcdLGoiJ5nosZR7pump": {
   "market_logged": 1793675648.0890756,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "Grjz7BTUa76xMYosBYvL9dy3LE1f2qzXYQ35LWxppump": {
+  "market_logged": 1793675948.3521528,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8UdrZzuCPbZAY2tiSErRED2KUrggJaRxEsHrzgWLpump": {
+  "market_logged": 1793675948.3521528,
+  "market_reason": "liquidity_low"
  }
 }

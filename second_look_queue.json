@@ -6546,6 +6546,24 @@
    "age_hours": 1.3,
    "checks": {},
    "done": false
+  },
+  "31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": {
+   "mint": "31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump",
+   "symbol": "SPHERE",
+   "pair": "HmcVp73ePenjn2JDHQBws6sYN56aBCmPuGDGouqzNUok",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T03:19:30+00:00",
+   "rejected_ts": 1793675970,
+   "stage": "grok",
+   "reason": "2413% 6h / 221% 1h gains with -9% m5 pullback after extreme volume looks like blow-off top. Buys still outpace sells but momentum clearly fading.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.001267,
+   "mcap_usd": 1262272,
+   "liquidity_usd": 92788.19,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7092,7 +7110,7 @@
    }
   },
   "2026-11-03": {
-   "total": 19,
+   "total": 20,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7118,7 +7136,7 @@
     "market:too_new": 2,
     "market:volume_h1_low": 2,
     "rugcheck:top10": 4,
-    "grok:skip": 3
+    "grok:skip": 4
    }
   }
  }
