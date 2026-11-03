@@ -5485,7 +5485,14 @@
    "mcap_usd": 50613,
    "liquidity_usd": 17656.99,
    "age_hours": 0.83,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T09:04:38+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "FAqiaGmrSdx2Z5qZmSRUkbyYCF2dFCUTfYVwP4Mypump": {
@@ -5503,7 +5510,14 @@
    "mcap_usd": 179558,
    "liquidity_usd": 33980.51,
    "age_hours": 2.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-03T09:04:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "zttJSZyD67hzNrJ1RKKUsZ1Hya4vfxYRjdQABvppump": {
@@ -6585,6 +6599,24 @@
    "age_hours": 139.52,
    "checks": {},
    "done": false
+  },
+  "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": {
+   "mint": "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump",
+   "symbol": "GTAFY",
+   "pair": "6TS4LyZUUuC59MJjiSKZdHA4BEwdEcaMpaa547YLG3fu",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-03T09:04:36+00:00",
+   "rejected_ts": 1793696676,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-boosts",
+   "price_usd": 5.547e-05,
+   "mcap_usd": 52891,
+   "liquidity_usd": 18821.7,
+   "age_hours": 2.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7131,7 +7163,7 @@
    }
   },
   "2026-11-03": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7165,11 +7197,13 @@
     "07|market:too_new": 1,
     "07|market:liquidity_low": 1,
     "08": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
-    "market:liquidity_low": 4,
+    "market:liquidity_low": 5,
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "market:volume_h1_low": 2,
