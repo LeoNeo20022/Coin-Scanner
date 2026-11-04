@@ -53,10 +53,6 @@
   "market_logged": 1793270233.570239,
   "market_reason": "too_old"
  },
- "4ec7Lf7JuCYQVQnUJCzpW5YvaPMNEAeqDRwGcU5n9GGJ": {
-  "market_logged": 1793216557.2322834,
-  "market_reason": "too_old"
- },
  "pxxVrsrLYcs3G8ejxfvX8sekVuH4Q91HLXQLHqQpump": {
   "market_logged": 1793368852.4389906,
   "market_reason": "mcap_too_low"
@@ -324,10 +320,6 @@
   "market_reason": "too_new",
   "symbol": "GTA",
   "judged": 1793218537.5847619
- },
- "7rkqDbQgTtvqJg4Q5z3BS4pDZgZdXx7gysENetRppump": {
-  "market_logged": 1793216557.2322834,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "2RyCCRenDtquADusNUfwFpvTaDkam82imh46SL2mpump": {
   "market_logged": 1793217936.9976487,
@@ -9869,7 +9861,9 @@
  },
  "9VHCDisE9pybDt5eCuKv1AyddCx8gksuxpoWi6vjpump": {
   "market_logged": 1793818466.953766,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "AMD",
+  "judged": 1793821412.2623315
  },
  "BxsNVvPuvCmHJRE6LyzqFAVoiTNhdHUVAgKNZhvApump": {
   "judged": 1793818466.953766,
@@ -9957,6 +9951,10 @@
  },
  "7cbYn6g9vNQvFJ1igrrFiRHDkzBJT3LSmzfP9JL6pump": {
   "market_logged": 1793821112.9642527,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4W9nejfSpTPtLHKbx4GhWGZ1e7YBA1FsKBcgrQRkpump": {
+  "market_logged": 1793821412.2623315,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
