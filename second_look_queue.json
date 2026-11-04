@@ -1,67 +1,5 @@
 {
  "entries": {
-  "C6NniJqUMTMhGGgr1RNyDsUgbLQwrLfrxhm8kG3opump": {
-   "mint": "C6NniJqUMTMhGGgr1RNyDsUgbLQwrLfrxhm8kG3opump",
-   "symbol": "WENLAMBO",
-   "pair": "G5kuewQZ8A96KdxA54X7YLEdM8wjMgXLFiEZBPXN11vE",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T09:39:46+00:00",
-   "rejected_ts": 1793353186,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0001906,
-   "mcap_usd": 186422,
-   "liquidity_usd": 39319.13,
-   "age_hours": 6.67,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T09:41:06+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-01T09:43:23+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": {
-   "mint": "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump",
-   "symbol": "ZERODAY",
-   "pair": "6LovbxuN4oj6q2QvzwGmYkjZYEd8C7x8umUg4pQ3PgEQ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T10:04:58+00:00",
-   "rejected_ts": 1793354698,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001492,
-   "mcap_usd": 145785,
-   "liquidity_usd": 32980.25,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T10:08:03+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-01T10:07:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": {
    "mint": "9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump",
    "symbol": "CTO",
@@ -4206,9 +4144,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-04T10:05:24+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump": {
    "mint": "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump",
