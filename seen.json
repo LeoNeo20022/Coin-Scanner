@@ -63,10 +63,6 @@
   "symbol": "REMUS",
   "judged": 1792974038.2104871
  },
- "EqRZn9nH4UPb36AVLuigzRfufa1z8b744vWpt5tjpump": {
-  "market_logged": 1793225293.6808143,
-  "market_reason": "mcap_too_low"
- },
  "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": {
   "market_logged": 1793345157.0788522,
   "market_reason": "too_old",
@@ -294,9 +290,6 @@
   "market_reason": "too_new",
   "judged": 1793226651.4008276,
   "symbol": "CATCULUS"
- },
- "4V4KMWcVexcSeWfNQod1Mm2ri2KK3nvXPinor12sojJk": {
-  "market_logged": 1793225293.6808143
  },
  "GDjMaqqV7h6kS2TKUU8tYzydGyyu9QTijnBxJRBUyLbs": {
   "market_logged": 1793225593.3497295
@@ -9901,11 +9894,15 @@
   "market_reason": "too_new"
  },
  "A4U3vQSiF6cG7uEgKViYk2KVBsfJAHM4kqD9Us5fpump": {
-  "market_logged": 1793829804.9693253,
-  "market_reason": "too_new"
+  "market_logged": 1793830104.9235387,
+  "market_reason": "mcap_too_low"
  },
  "EpRC8Wj3WE8et2PA5aVrLB6WcUdoaWnTg4PHFYafpump": {
   "market_logged": 1793829804.9693253,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "7Mzts4ygtDtkjSYpkqj3pLkys2Gy8HudteibFmeputer": {
+  "market_logged": 1793830104.9235387,
+  "market_reason": "missing:liquidity_usd"
  }
 }
