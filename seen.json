@@ -71,10 +71,6 @@
   "market_logged": 1793368852.4389906,
   "market_reason": "mcap_too_low"
  },
- "3X2xbBx6ShSVkhP2RoHGZbrQWZpxx5mdjG2PaAXzpump": {
-  "market_logged": 1793158379.621805,
-  "market_reason": "mcap_too_low"
- },
  "Aov3BtQvrGXM5V9oiHu8PKJWeV8a2rFnr24fwWcNpump": {
   "market_logged": 1793488934.2328596,
   "market_reason": "too_old"
@@ -308,10 +304,6 @@
  "4BSzhcmBYRCdVykTGZ9f4Kbp4P49Q4BNuGmfDs2Upump": {
   "market_logged": 1793158679.7820868,
   "market_reason": "mcap_too_low"
- },
- "2fcxXbVAKK9iYE1exo5a4VwZQbQTDtZNBjcqt8Z3pump": {
-  "market_logged": 1793158379.621805,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "8s2yPkWeiZFDKFGd7nHCk96SB3VWSTou9HjNu7zWpump": {
   "market_logged": 1793158679.7820868,
@@ -9804,8 +9796,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "5uY4RXyTkkHBkhatNzCmTphAhBS3LU6yaLd9b9uAhQAb": {
-  "market_logged": 1793762269.221391,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793763238.7468908,
+  "market_reason": "mcap_too_low"
  },
  "CqtohE9UjVtVgt58PYHUTK3T2jtynKo23TUesSRupump": {
   "market_logged": 1793757602.7143614,
@@ -9859,7 +9851,9 @@
  },
  "FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": {
   "market_logged": 1793760468.5057828,
-  "market_reason": "sells_ge_buys_h1"
+  "market_reason": "sells_ge_buys_h1",
+  "symbol": "VI",
+  "judged": 1793763238.7468908
  },
  "HBJRJM1B69o8m9MujokKqJCUPnBcrcRPzUsM91Rtpump": {
   "market_logged": 1793760769.1475835,
@@ -9890,8 +9884,8 @@
   "market_reason": "mcap_too_low"
  },
  "DYgjAqwkr2EDkGYstsLEEpDdb7SHYjrSJyzu9RQ8pump": {
-  "market_logged": 1793762939.1766105,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793763238.7468908,
+  "market_reason": "mcap_too_low"
  },
  "KxwAdKe6GKv6BExpP3HAnBd5k22d2jbqNXebgD5pump": {
   "market_logged": 1793762939.1766105,
@@ -9899,6 +9893,10 @@
  },
  "D6wTxLMeKgn5d8MdHqXSS3dgcSHzGr2sNrfwfg74pump": {
   "market_logged": 1793762939.1766105,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "DZWStxKxumy4L5ZqUijYoMRWZzwq5gBqqc61Km42pump": {
+  "market_logged": 1793763238.7468908,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
