@@ -6452,6 +6452,42 @@
    "age_hours": 1.18,
    "checks": {},
    "done": false
+  },
+  "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": {
+   "mint": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
+   "symbol": "RAMBO",
+   "pair": "Gz15vwSPY9KFYNkrMPkoKp2h9yygVBovoXJsGwSJcvFk",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T14:41:05+00:00",
+   "rejected_ts": 1793803265,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0009387,
+   "mcap_usd": 925398,
+   "liquidity_usd": 80176.07,
+   "age_hours": 23.86,
+   "checks": {},
+   "done": false
+  },
+  "CPZguakzrJSPZDvyB2BY7wdk25eKFwuwtYxSPYHmpump": {
+   "mint": "CPZguakzrJSPZDvyB2BY7wdk25eKFwuwtYxSPYHmpump",
+   "symbol": "LEOMAN",
+   "pair": "4d6z9aPYpX8iVJ7msRirpwLhfVbStcCQY6c8tprEdg2R",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T14:41:11+00:00",
+   "rejected_ts": 1793803271,
+   "stage": "grok",
+   "reason": "Steady buys/sells and clean facts, but 235% h6 gain on 2.35h token signals blow-off top risk.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001354,
+   "mcap_usd": 133575,
+   "liquidity_usd": 28916,
+   "age_hours": 2.35,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6998,7 +7034,7 @@
    }
   },
   "2026-11-04": {
-   "total": 45,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7038,7 +7074,9 @@
     "10": 1,
     "10|market:liquidity_low": 1,
     "11": 1,
-    "11|market:liquidity_low": 1
+    "11|market:liquidity_low": 1,
+    "14": 1,
+    "14|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7048,9 +7086,9 @@
     "market:too_new": 6,
     "rugcheck:danger": 3,
     "rugcheck:top10": 4,
-    "market:sells_ge_buys_h1": 2,
+    "market:sells_ge_buys_h1": 3,
     "rugcheck:insiders": 4,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:liquidity_low": 6
    }
   }
