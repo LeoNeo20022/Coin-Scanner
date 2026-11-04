@@ -6862,7 +6862,7 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "J34sjwqUYsicH2A6aNoMn91MAPYkUUdXsyfFBLBNDoLL": {
-  "market_logged": 1793632146.417146,
+  "market_logged": 1793809790.9382005,
   "market_reason": "too_old"
  },
  "E81aPVEzbchnxgJwYqxu4ehXZZredAyS1vAvAmq6pump": {
@@ -9798,8 +9798,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "HdfVpYDxAUH1Lo5YJep1tUdPJ3xaJEhSRnGfomcEe2HU": {
-  "market_logged": 1793803561.5976532,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793809790.9382005,
+  "market_reason": "missing:mcap_usd"
  },
  "6stjnUP381DUiCGcdH4Da7sp5deDy21BJ2K8PZJKpump": {
   "market_logged": 1793803861.7235072,
@@ -9849,7 +9849,9 @@
  },
  "EwHV6XfuMmBirGSiDVSypVkHcw7jD7Mho1s5xGwjpump": {
   "market_logged": 1793806851.0710394,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793809790.9382005,
+  "symbol": "AIB"
  },
  "9YZ8c8v91Dn6GnS8Lxd2gBjCCoBxyyeq29CnzcPxpump": {
   "market_logged": 1793807450.859742,
@@ -9911,5 +9913,17 @@
  },
  "EB46QS4PVZcbv2RCuZSm82RHH33sWky6ThpBhXHn9jEu": {
   "market_logged": 1793809491.36505
+ },
+ "GtcTZaFGTeF5rAyhpJYDcqjFXWaqyTsRKWSg9tMSpump": {
+  "market_logged": 1793809790.9382005,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "ARj9uK3E4hJ7KcwcmkDxeuqYoRAdnCa1fG37iFEApump": {
+  "market_logged": 1793809790.9382005,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "CpSGxv7oGdY7xNbzDBKafwTLHNx4Qyc3fxMtG4Qppump": {
+  "market_logged": 1793809790.9382005,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
