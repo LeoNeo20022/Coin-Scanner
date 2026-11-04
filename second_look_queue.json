@@ -5686,7 +5686,14 @@
    "mcap_usd": 68935,
    "liquidity_usd": 21018.91,
    "age_hours": 1.1,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-04T02:42:55+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "3kqMzEobWMNfRWG38oXcv1SqhhqWKr1yAxLB6Bchpump": {
@@ -6516,6 +6523,24 @@
    "age_hours": 0.44,
    "checks": {},
    "done": false
+  },
+  "JCdE6KcCEUcgmhiCQfXTL11524wSgqJCnGtYDA757q4a": {
+   "mint": "JCdE6KcCEUcgmhiCQfXTL11524wSgqJCnGtYDA757q4a",
+   "symbol": "MIDTURDS",
+   "pair": "DHpFy3CM4cxQmoR14cMA3wA2V5SB9yHfVPiLZCYrfakt",
+   "dex": "raydium",
+   "rejected_at": "2026-11-04T02:42:54+00:00",
+   "rejected_ts": 1793760174,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 6.146e-05,
+   "mcap_usd": 61468,
+   "liquidity_usd": 20084.13,
+   "age_hours": 11.61,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7062,7 +7087,7 @@
    }
   },
   "2026-11-04": {
-   "total": 11,
+   "total": 12,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7083,7 +7108,8 @@
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1,
     "market:too_new": 2,
-    "rugcheck:danger": 1
+    "rugcheck:danger": 1,
+    "rugcheck:top10": 1
    }
   }
  }
