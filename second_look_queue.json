@@ -6542,6 +6542,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump": {
+   "mint": "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump",
+   "symbol": "PerpScape",
+   "pair": "6t9Tk3ygSxbCAQFdJLGvYFYSMqHQSrd1YK768k4AZagE",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T10:51:39+00:00",
+   "rejected_ts": 1793789499,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.164e-05,
+   "mcap_usd": 51649,
+   "liquidity_usd": 18914.87,
+   "age_hours": 0.41,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7088,7 +7106,7 @@
    }
   },
   "2026-11-04": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7124,7 +7142,9 @@
     "08|market:sells_ge_buys_h1": 1,
     "08|market:liquidity_low": 1,
     "09": 1,
-    "09|market:liquidity_low": 1
+    "09|market:liquidity_low": 1,
+    "10": 1,
+    "10|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7137,7 +7157,7 @@
     "market:sells_ge_buys_h1": 2,
     "rugcheck:insiders": 4,
     "grok:skip": 4,
-    "market:liquidity_low": 4
+    "market:liquidity_low": 5
    }
   }
  }
