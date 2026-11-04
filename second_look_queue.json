@@ -6471,6 +6471,24 @@
    "age_hours": 2.54,
    "checks": {},
    "done": false
+  },
+  "GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": {
+   "mint": "GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump",
+   "symbol": "Pooliticians",
+   "pair": "Ez3PM1rwG7zwjRZirYKMuuuDLpsmLKoPzzawohziPTsM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T03:07:53+00:00",
+   "rejected_ts": 1793761673,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001584,
+   "mcap_usd": 154596,
+   "liquidity_usd": 32035.83,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7017,7 +7035,7 @@
    }
   },
   "2026-11-04": {
-   "total": 15,
+   "total": 16,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7044,7 +7062,8 @@
     "market:too_new": 3,
     "rugcheck:danger": 1,
     "rugcheck:top10": 1,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
