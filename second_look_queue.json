@@ -1,36 +1,5 @@
 {
  "entries": {
-  "3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb": {
-   "mint": "3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb",
-   "symbol": "TraderTraitor",
-   "pair": "9SUbfwYYnMTJx2YM7ZCR9ERLYdGSmyeZGCQjmpZCPETi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T06:27:28+00:00",
-   "rejected_ts": 1793341648,
-   "stage": "rugcheck",
-   "reason": "danger:Symbol Mismatch",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0002203,
-   "mcap_usd": 211693,
-   "liquidity_usd": 38540.51,
-   "age_hours": 1.73,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T06:31:48+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-01T06:27:51+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AABM3NrYSwKMsEDyanuskY43EH6ySbPpdPZNG1u7pump": {
    "mint": "AABM3NrYSwKMsEDyanuskY43EH6ySbPpdPZNG1u7pump",
    "symbol": "STABLEPAD",
@@ -6583,6 +6552,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": {
+   "mint": "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump",
+   "symbol": "AMD",
+   "pair": "7RD5YALHcMLUFKJ8FRePGd6ei11F15uXZF1rc7mPKeCv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T06:30:30+00:00",
+   "rejected_ts": 1793773830,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.001113,
+   "mcap_usd": 1070569,
+   "liquidity_usd": 111467.96,
+   "age_hours": 9.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7129,7 +7116,7 @@
    }
   },
   "2026-11-04": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7163,7 +7150,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 5,
     "market:volume_h1_low": 1,
-    "rugcheck:lp_unlocked": 1,
+    "rugcheck:lp_unlocked": 2,
     "market:too_new": 5,
     "rugcheck:danger": 3,
     "rugcheck:top10": 3,
