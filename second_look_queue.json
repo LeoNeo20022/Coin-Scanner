@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HftEwseBtcbgxj9j7AfgsA5ZiTEhSK9qWXZs8rzfpump": {
-   "mint": "HftEwseBtcbgxj9j7AfgsA5ZiTEhSK9qWXZs8rzfpump",
-   "symbol": "CTO",
-   "pair": "2akYCGAeWjQYjqGgTAzuYtY4MFf8pGHT6eSUa2kGwLYG",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T11:43:44+00:00",
-   "rejected_ts": 1793360624,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001864,
-   "mcap_usd": 181712,
-   "liquidity_usd": 35691.54,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T11:45:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-01T11:44:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump": {
    "mint": "A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump",
    "symbol": "KIM",
@@ -4175,9 +4144,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-04T12:38:01+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": {
    "mint": "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK",
@@ -4200,9 +4175,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "lp_unlocked"
+    },
+    "48h": {
+     "time": "2026-11-04T12:38:01+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "sells_ge_buys_h1"
     }
    },
-   "done": false
+   "done": true
   },
   "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump": {
    "mint": "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump",
