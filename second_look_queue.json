@@ -1,36 +1,5 @@
 {
  "entries": {
-  "51H7AzyyUAy6AkTPa2g1AMyfkoEoVXZjAKkqyHTopump": {
-   "mint": "51H7AzyyUAy6AkTPa2g1AMyfkoEoVXZjAKkqyHTopump",
-   "symbol": "PERPS",
-   "pair": "Ex7py8GH5UgcPDhd5KSGHHR7eTWbAt44p2WWor8MZxPF",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T09:14:48+00:00",
-   "rejected_ts": 1793351688,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.68e-05,
-   "mcap_usd": 83124,
-   "liquidity_usd": 23356.86,
-   "age_hours": 19.56,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T09:15:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-01T09:18:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "C6NniJqUMTMhGGgr1RNyDsUgbLQwrLfrxhm8kG3opump": {
    "mint": "C6NniJqUMTMhGGgr1RNyDsUgbLQwrLfrxhm8kG3opump",
    "symbol": "WENLAMBO",
@@ -4206,9 +4175,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-04T09:30:24+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW": {
    "mint": "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW",
