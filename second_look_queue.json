@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": {
-   "mint": "EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump",
-   "symbol": "PURPS",
-   "pair": "Cdej9SCSKERXgTd35dyhF5gE64YagvVwwwcWam3eT1vE",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T13:25:57+00:00",
-   "rejected_ts": 1793366757,
-   "stage": "rugcheck",
-   "reason": "danger:Creator history of rugged tokens",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001129,
-   "mcap_usd": 109135,
-   "liquidity_usd": 28497.63,
-   "age_hours": 1.15,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T13:30:19+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-01T13:29:22+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump": {
    "mint": "etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump",
    "symbol": "SAFU",
@@ -6534,6 +6503,24 @@
    "age_hours": 0.24,
    "checks": {},
    "done": false
+  },
+  "B93V9uyYRaQDKSG8iCQyyP61j3NCqCRRXPCgU3gpump": {
+   "mint": "B93V9uyYRaQDKSG8iCQyyP61j3NCqCRRXPCgU3gpump",
+   "symbol": "VETO",
+   "pair": "25dHpdnL9axRGxtvm7YwAa2hp7tvgqLznJvBYa1FXXgn",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T13:28:11+00:00",
+   "rejected_ts": 1793798891,
+   "stage": "grok",
+   "reason": "Sharp +47% h1 pump with buys_m5 now trailing sells_m5; momentum looks like it is already fading after the initial spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0005395,
+   "mcap_usd": 534365,
+   "liquidity_usd": 59403.12,
+   "age_hours": 9.89,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7080,7 +7067,7 @@
    }
   },
   "2026-11-04": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7132,7 +7119,7 @@
     "rugcheck:top10": 3,
     "market:sells_ge_buys_h1": 2,
     "rugcheck:insiders": 4,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "market:liquidity_low": 6
    }
   }
