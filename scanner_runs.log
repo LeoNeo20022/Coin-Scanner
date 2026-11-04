@@ -1,25 +1,3 @@
-[2026-11-02T03:11:14+00:00] second_look: 48h LUMI C7o7ucDk… (rejected market:mcap_too_low) -> fail: mcap_too_low [dead: no_volume_24h]
-[2026-11-02T03:11:14+00:00] second_look: 48h CHONK gJqv8ioL… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_volume_24h]
-[2026-11-02T03:11:14+00:00] second_look: 24h BPEPE BPVBLVy5… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_price]
-[2026-11-02T03:11:14+00:00] second_look: 24h NNN 4RGFCEsp… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
-[2026-11-02T03:11:14+00:00] second_look: 24h BLUE 49VrHCzm… (rejected market:mcap_too_low) -> fail: mcap_too_low
-[2026-11-02T03:11:18+00:00] second_look: pass end {"queued": 237, "due": 5, "rechecked": 5, "pass": 0, "opened": 0} elapsed=6s
-[2026-11-02T03:11:18+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-02T03:12:12+00:00] scout: paper: candles unavailable wMHBD2B8 (RuntimeError)
-[2026-11-02T03:12:22+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-02T03:12:22+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-02T03:12:22+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-02T03:13:10+00:00] scout: pass end {"watch": 347, "a_qualify": 54, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=112s
-[2026-11-02T03:15:52+00:00] run start (LOG ONLY)
-[2026-11-02T03:15:55+00:00] paper: [scalp] ANUKOON: closed (stop_loss) at -10.0% [candles_1m]
-[2026-11-02T03:16:04+00:00] discovered=61 fresh=54 market_pass=0
-[2026-11-02T03:16:04+00:00] grok daily budget 1/40 used, 0 no-response, $0.0027 (2026-11-02 UTC)
-[2026-11-02T03:16:04+00:00] run end {"discovered": 61, "skipped_recent": 7, "no_pair": 2, "market": {"pumpfun_bonding_curve": 21, "mcap_too_low": 17, "missing:liquidity_usd": 2, "mcap_too_high": 4, "liquidity_low": 1, "too_old": 7}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
-[2026-11-02T03:16:09+00:00] second_look: pass end {"queued": 237, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
-[2026-11-02T03:16:09+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-02T03:17:03+00:00] scout: paper: candles unavailable 8s11PkgQ (RuntimeError)
-[2026-11-02T03:17:15+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-02T03:17:15+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-11-02T03:17:15+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-02T03:17:15+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-02T03:18:09+00:00] scout: pass end {"watch": 347, "a_qualify": 54, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=120s
@@ -4998,3 +4976,25 @@
 [2026-11-04T00:50:10+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-04T00:50:10+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-04T00:50:57+00:00] scout: pass end {"watch": 332, "a_qualify": 26, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=99s
+[2026-11-04T01:07:11+00:00] run start (LOG ONLY)
+[2026-11-04T01:07:20+00:00] discovered=63 fresh=54 market_pass=1
+[2026-11-04T01:07:20+00:00] grok daily budget 0/40 used, 0 no-response, $0.0000 (2026-11-04 UTC)
+[2026-11-04T01:07:32+00:00] grok call 10.2s model=grok-4.3 tokens=995+83 reasoning=735
+[2026-11-04T01:07:32+00:00] grok [rugcheck] AMC YUduqrb8… -> BUY (0.72) Buy pressure extreme (15k buys vs 2k sells h1, still strong m5) with clean risk profile, 100% LP locked and top-10 at 21%. | risk: 240% h6 run followed by -33% h1 correction signals possible fading momentum
+[2026-11-04T01:07:32+00:00] paper BUY $10 AMC @ 0.0001423
+[2026-11-04T01:07:32+00:00] paper SHADOW BUY [target5] $10 AMC @ 0.0001423
+[2026-11-04T01:07:32+00:00] paper SHADOW BUY [scalp] $10 AMC @ 0.0001423
+[2026-11-04T01:07:34+00:00] run end {"discovered": 63, "skipped_recent": 9, "no_pair": 0, "market": {"missing:mcap_usd": 2, "too_new": 1, "pumpfun_bonding_curve": 23, "mcap_too_low": 15, "liquidity_low": 1, "too_old": 5, "volume_h1_low": 2, "mcap_too_high": 4}, "rug": {}, "grok": 1, "BUY": 1, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 3} elapsed=23s
+[2026-11-04T01:07:35+00:00] second_look: 48h flow DWhb5BtL… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve
+[2026-11-04T01:07:35+00:00] second_look: 48h Learjet DaG1X248… (rejected market:too_new) -> fail: mcap_too_low [dead: no_volume_24h]
+[2026-11-04T01:07:35+00:00] second_look: 48h KUIP G6xkhEG1… (rejected market:mcap_too_low) -> fail: mcap_too_low
+[2026-11-04T01:07:35+00:00] second_look: 24h PerpScape 2aEFMMGa… (rejected market:too_new) -> fail: mcap_too_low
+[2026-11-04T01:07:35+00:00] second_look: 24h Pando 3EGAF9NL… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_price]
+[2026-11-04T01:07:35+00:00] second_look: 24h LosL 5MVP56Cy… (rejected market:volume_h1_low) -> fail: volume_h1_low
+[2026-11-04T01:07:35+00:00] second_look: pass end {"queued": 241, "due": 6, "rechecked": 6, "pass": 0, "opened": 0} elapsed=2s
+[2026-11-04T01:07:36+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-04T01:08:20+00:00] scout: paper: candles unavailable 8PzFWyLp (RuntimeError)
+[2026-11-04T01:08:30+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-04T01:08:30+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-04T01:08:30+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-04T01:09:29+00:00] scout: pass end {"watch": 332, "a_qualify": 27, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=114s

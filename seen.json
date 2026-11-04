@@ -283,10 +283,6 @@
   "market_logged": 1793248482.347405,
   "market_reason": "missing:liquidity_usd"
  },
- "7AWjpXsruTPDgPqJoPKLTu6hscmMGwbH2bMwBHfgMA1d": {
-  "market_logged": 1793149109.6882906,
-  "market_reason": "mcap_too_low"
- },
  "Mithri1Vi1BYFekdqfPRW6Z27XNwi9veqrJ3ZYWtwos": {
   "market_logged": 1793149409.4758444,
   "market_reason": "too_new",
@@ -310,10 +306,6 @@
  "DPLQuynGA5FsUTLcLq9d2a4JmeykXCVwbJT1mhYZpump": {
   "market_logged": 1793150127.243222,
   "market_reason": "mcap_too_low"
- },
- "DrrfaXhRyzWUVUhzds1ZRdQ2NmPvjDzgMDdEsEzmpump": {
-  "market_logged": 1793148810.0374448,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "CSCHUuqXBXgk2QJVcwV95WNrVGpRdPEb1owGAT13pump": {
   "market_logged": 1793149710.3774073,
@@ -9912,7 +9904,9 @@
  },
  "YUduqrb8kK4p9VfV2JXyHnV4yCXBiUoKgH7znLNpump": {
   "market_logged": 1793750818.34979,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "AMC",
+  "judged": 1793754437.5382836
  },
  "2fi3zbz1rY4PxfhBuPMVpizeHTWCyBRZqFPbBrnQpump": {
   "market_logged": 1793751552.408367,
@@ -9941,5 +9935,33 @@
  "DyUR3ZpJj5iu8WBG7zk1YbamJE5k9afZhoM7xYCbpump": {
   "market_logged": 1793753354.249395,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "6i3oFRo48Xbnu7B9YH5DgypHRvsr47GagoJhSvs4pump": {
+  "market_logged": 1793754437.5382836,
+  "market_reason": "missing:mcap_usd"
+ },
+ "GT7kQdT3JvZ8vFBW4jjYGYBsrNrE9U4UFspJJAXapump": {
+  "market_logged": 1793754437.5382836,
+  "market_reason": "too_new"
+ },
+ "HZWx1WGSygHc4MUu1dsDpC91LKNwzFyrRu3D6FvKpump": {
+  "market_logged": 1793754437.5382836,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "69GXjuoQGxNb75BgQ54qUf6j2aDgXHVSkAcefuiqe58u": {
+  "market_logged": 1793754437.5382836,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "Cc7vK7iSDtxCKY5tGMdwBKMSR44BQYh8pNHskpKs9Qs1": {
+  "market_logged": 1793754437.5382836,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8W5rPypoX9bGvzUsziDEq2ZtjzPhGBVboPhUAXuZpump": {
+  "market_logged": 1793754437.5382836,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2Nhb9M58caMHufHzEa2DhNA1FEsVVL8axXu6iidvQfDe": {
+  "market_logged": 1793754437.5382836,
+  "market_reason": "mcap_too_low"
  }
 }
