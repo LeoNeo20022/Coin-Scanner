@@ -279,10 +279,6 @@
   "market_logged": 1793205408.540464,
   "market_reason": "mcap_too_low"
  },
- "3fK54p5SzHiPKB9JqPw893i1FNU5Xahf1QQbt4iPpump": {
-  "market_logged": 1793205108.4052231,
-  "market_reason": "mcap_too_low"
- },
  "6EKmRQYzAXh5t6t1XNe2chYqmdSHgd32uA7xki9upump": {
   "market_logged": 1793203909.239652,
   "market_reason": "too_new",
@@ -302,14 +298,6 @@
  "HsChU2kZ2aP8qxBP4EXX16UAR95duMoGBZhB9Zpopump": {
   "market_logged": 1793207530.718335,
   "market_reason": "sells_ge_buys_h1"
- },
- "CXbbFSvefwQsfZhxCTJsHvZtNminem5fgZMH88gBpump": {
-  "market_logged": 1793205108.4052231,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "2afsrTXPJmiUWLMmGY9QiNQJrKDBSWY8BFsMaprR87TQ": {
-  "market_logged": 1793205108.4052231,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "4Ytm5FuiPrqPGZcn7BkWTQLDTWH9gLtftdzkxpEcdar5": {
   "market_logged": 1793205708.088601,
@@ -9740,7 +9728,9 @@
  },
  "3vajh3wXe3EuLSXfSaCikyoCnzyhUJ3KPSoFhyAgpump": {
   "market_logged": 1793809190.9582262,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793810090.522783,
+  "symbol": "PREFIRE"
  },
  "2f6TQQHxce6DuaoRD5U4V621KAFjMaWCvgAJ363bpump": {
   "market_logged": 1793802661.9264069,
@@ -9873,7 +9863,9 @@
  },
  "82BH9WFmtsJGRCdW147cM24K6X8kAkUx2jSd2NyRLfv6": {
   "market_logged": 1793807750.7616723,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793810090.522783,
+  "symbol": "tremp"
  },
  "95kvFsVDJ5Lr4GH9Uau4dUgstft6gwnVagpKwYt2pump": {
   "judged": 1793807750.7616723,
@@ -9925,5 +9917,16 @@
  "CpSGxv7oGdY7xNbzDBKafwTLHNx4Qyc3fxMtG4Qppump": {
   "market_logged": 1793809790.9382005,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "GrRnQfh31npKQrvHhN6TULXVkWbzTHHreS3PZB88pump": {
+  "market_logged": 1793810090.522783,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4p6r56BxuEDzWVschNeXVTuDvxyGdZgHBGbZ1fp5pump": {
+  "market_logged": 1793810090.522783,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GXiE8EhkUs3EbiTqNmj1CqxDroSRhcv6wKY355xEJ7zW": {
+  "market_logged": 1793810090.522783
  }
 }

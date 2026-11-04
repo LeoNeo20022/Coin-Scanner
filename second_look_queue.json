@@ -1,36 +1,5 @@
 {
  "entries": {
-  "BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": {
-   "mint": "BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump",
-   "symbol": "SPACECAT",
-   "pair": "8tCfyhnF3A4CZJkXhvK1oXWjXJyNhL7kMsaFGbdVGyzr",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T16:28:01+00:00",
-   "rejected_ts": 1793377681,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0001871,
-   "mcap_usd": 181810,
-   "liquidity_usd": 35726.42,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T16:31:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-01T16:31:17+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AobUjTvWqxjncsSLqeNBewqNCzbqJre4tS9X2dtepump": {
    "mint": "AobUjTvWqxjncsSLqeNBewqNCzbqJre4tS9X2dtepump",
    "symbol": "SAYLUR",
@@ -4237,9 +4206,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "top10"
+    },
+    "48h": {
+     "time": "2026-11-04T16:35:00+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "GWJ96ggVUfZPX5ghcD5sUaAWWwqcT1cdntNGew8Jpump": {
    "mint": "GWJ96ggVUfZPX5ghcD5sUaAWWwqcT1cdntNGew8Jpump",
@@ -4262,9 +4237,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-04T16:35:00+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": {
    "mint": "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump",
@@ -5531,7 +5512,14 @@
    "mcap_usd": 207355,
    "liquidity_usd": 36592.09,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-04T16:35:00+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "2724239D1JhWQGV5WZ7tdBTN5Jz4FZ3pdmvj3iD4LsVE": {
