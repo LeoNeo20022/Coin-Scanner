@@ -5707,7 +5707,14 @@
    "mcap_usd": 58641,
    "liquidity_usd": 19385.18,
    "age_hours": 139.52,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-04T08:04:58+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "liquidity_low"
+    }
+   },
    "done": false
   },
   "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": {
@@ -6555,6 +6562,24 @@
    "age_hours": 0.01,
    "checks": {},
    "done": false
+  },
+  "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": {
+   "mint": "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump",
+   "symbol": "SLINGTOSHI",
+   "pair": "8pGEZ9DvefXyZ2oGiSX588Y4KGxk7YufydGAN7wiwHAh",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T08:04:56+00:00",
+   "rejected_ts": 1793779496,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0004676,
+   "mcap_usd": 461072,
+   "liquidity_usd": 67978.12,
+   "age_hours": 2.83,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7101,7 +7126,7 @@
    }
   },
   "2026-11-04": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7132,7 +7157,9 @@
     "06|market:mcap_too_low": 1,
     "06|market:too_new": 1,
     "07": 1,
-    "07|market:mcap_too_low": 1
+    "07|market:mcap_too_low": 1,
+    "08": 1,
+    "08|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7142,7 +7169,7 @@
     "market:too_new": 6,
     "rugcheck:danger": 3,
     "rugcheck:top10": 3,
-    "market:sells_ge_buys_h1": 1,
+    "market:sells_ge_buys_h1": 2,
     "rugcheck:insiders": 2,
     "grok:skip": 4,
     "market:liquidity_low": 2
