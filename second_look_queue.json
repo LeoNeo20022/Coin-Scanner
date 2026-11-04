@@ -1,36 +1,5 @@
 {
  "entries": {
-  "E5pZM5GH1WaCWxNnDvhtWVjvzR7P5iUqXU8epki2pump": {
-   "mint": "E5pZM5GH1WaCWxNnDvhtWVjvzR7P5iUqXU8epki2pump",
-   "symbol": "SI",
-   "pair": "EPXQstLsVRnHm86LDhT6AtacazhRPXGVenNSW4nAHchF",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T07:26:00+00:00",
-   "rejected_ts": 1793345160,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001398,
-   "mcap_usd": 139820,
-   "liquidity_usd": 30103.9,
-   "age_hours": 0.56,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T07:29:14+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-01T07:38:49+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn": {
    "mint": "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn",
    "symbol": "EGGU",
@@ -5619,7 +5588,14 @@
    "mcap_usd": 86354,
    "liquidity_usd": 22280.88,
    "age_hours": 0.25,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-04T07:39:58+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "8VdrHbx444YZJZp1vNb9pXAv5aW4Kv7E7bk7Zwaapump": {
@@ -5637,7 +5613,14 @@
    "mcap_usd": 53038,
    "liquidity_usd": 17342.91,
    "age_hours": 7.73,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-04T07:39:58+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump": {
@@ -5655,7 +5638,14 @@
    "mcap_usd": 143902,
    "liquidity_usd": 30713.28,
    "age_hours": 1.25,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-04T07:39:58+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ": {
@@ -5673,7 +5663,14 @@
    "mcap_usd": 100426,
    "liquidity_usd": 67737.93,
    "age_hours": 1.32,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-04T07:39:58+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": {
@@ -6557,6 +6554,24 @@
    "age_hours": 0.08,
    "checks": {},
    "done": false
+  },
+  "FQE9h4fL65oDHMsR2MHcSe6d6DF4hFrFarsQQkVJpump": {
+   "mint": "FQE9h4fL65oDHMsR2MHcSe6d6DF4hFrFarsQQkVJpump",
+   "symbol": "X",
+   "pair": "36rSkqG7sz5oSAhsgsv8iVQr8wM1Wui5cPehgeY56QQe",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T07:39:57+00:00",
+   "rejected_ts": 1793777997,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 3.767e-05,
+   "mcap_usd": 37677,
+   "liquidity_usd": 14071.67,
+   "age_hours": 0.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7103,7 +7118,7 @@
    }
   },
   "2026-11-04": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7132,11 +7147,13 @@
     "06": 3,
     "06|market:liquidity_low": 1,
     "06|market:mcap_too_low": 1,
-    "06|market:too_new": 1
+    "06|market:too_new": 1,
+    "07": 1,
+    "07|market:mcap_too_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
-    "market:mcap_too_low": 5,
+    "market:mcap_too_low": 6,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 2,
     "market:too_new": 6,
