@@ -1,36 +1,5 @@
 {
  "entries": {
-  "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn": {
-   "mint": "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn",
-   "symbol": "EGGU",
-   "pair": "H8S3Xm93y6ufMjHJue7XQHh6sAQ8SzQvJGwwNYdRpeCq",
-   "dex": "raydium",
-   "rejected_at": "2026-10-30T07:51:00+00:00",
-   "rejected_ts": 1793346660,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts",
-   "price_usd": 5.798e-05,
-   "mcap_usd": 57986,
-   "liquidity_usd": 19981.11,
-   "age_hours": 1082.38,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T07:52:03+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    },
-    "48h": {
-     "time": "2026-11-01T07:53:49+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
   "AtKvRVDF738YA925jmxNeh4iV2qCVBBJeMxQNyrupump": {
    "mint": "AtKvRVDF738YA925jmxNeh4iV2qCVBBJeMxQNyrupump",
    "symbol": "DUOTIDE",
@@ -5713,7 +5682,14 @@
    "mcap_usd": 156898,
    "liquidity_usd": 32869.8,
    "age_hours": 1.07,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-04T07:59:58+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": {
