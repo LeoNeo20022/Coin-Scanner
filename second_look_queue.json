@@ -1,36 +1,5 @@
 {
  "entries": {
-  "kziXxCJLQMpkiuoyAkgHELxGcKDs4hNoeWdnpgkpump": {
-   "mint": "kziXxCJLQMpkiuoyAkgHELxGcKDs4hNoeWdnpgkpump",
-   "symbol": "SAFU",
-   "pair": "ETemNCpLeoeV3ZQdkiTXp9JEa1mJ3AyaK36ScHy9LYgZ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T15:33:31+00:00",
-   "rejected_ts": 1793374411,
-   "stage": "grok",
-   "reason": "Huge gains (262% h6, 113% h1, 54% m5) with still-dominant buys point to blow-off top risk. Liquidity ratio is fine but momentum looks exhausted.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001699,
-   "mcap_usd": 167797,
-   "liquidity_usd": 32458.68,
-   "age_hours": 1.16,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T15:34:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-01T15:33:59+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": {
    "mint": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
    "symbol": "SENSE",
@@ -4206,9 +4175,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-04T15:35:55+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump": {
    "mint": "At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump",
