@@ -301,19 +301,11 @@
   "market_logged": 1793166206.1234026,
   "market_reason": "mcap_too_low"
  },
- "AuwrksVpKiMKURa4NasQd8NCFs4Qju8aZyzHY829pump": {
-  "market_logged": 1793162210.4324424,
-  "market_reason": "mcap_too_low"
- },
  "CbFQMeEFCtRPGoEMHWjKGKH5AM3eGEH7mfKtAnNpump": {
   "market_logged": 1793162210.4324424,
   "market_reason": "sells_ge_buys_h1",
   "symbol": "ETH",
   "judged": 1793162773.4454684
- },
- "FjxhmwHc3LoeTJw6iSCuoFwiAjrY21Wk8JLKmAFt1p8H": {
-  "market_logged": 1793162210.4324424,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "J46qG9nF2nF6ei7nyJCBgv455DUk8QgbXE6XZZ24pump": {
   "market_logged": 1793162510.6720836,
@@ -9920,11 +9912,15 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "F4Um7uHXRoXZ92DXVZ6FoDUstnubJgaSzwEZuBZcpump": {
-  "market_logged": 1793766899.4639013,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793767200.265619,
+  "market_reason": "liquidity_low"
  },
  "FPVTSyvs8tLQr39oEaxbw1gqaVHV9AxK2mhGdVWTpump": {
   "market_logged": 1793766899.4639013,
+  "market_reason": "missing:mcap_usd"
+ },
+ "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": {
+  "market_logged": 1793767200.265619,
   "market_reason": "missing:mcap_usd"
  }
 }
