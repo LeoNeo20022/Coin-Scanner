@@ -6534,6 +6534,24 @@
    "age_hours": 61.55,
    "checks": {},
    "done": false
+  },
+  "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": {
+   "mint": "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump",
+   "symbol": "CHILLCATS",
+   "pair": "HGtEcXHf7ULWf2gvxkH6E6omQXA6Yvy1tqQwv6J3AYFw",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-04T05:33:14+00:00",
+   "rejected_ts": 1793770394,
+   "stage": "grok",
+   "reason": "135% h1 pump followed by -20% m5 drop shows classic fading spike; volume almost entirely front-loaded in first hour.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 9.837e-05,
+   "mcap_usd": 94257,
+   "liquidity_usd": 24082.88,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7080,7 +7098,7 @@
    }
   },
   "2026-11-04": {
-   "total": 29,
+   "total": 30,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7117,7 +7135,7 @@
     "rugcheck:top10": 3,
     "market:sells_ge_buys_h1": 1,
     "rugcheck:insiders": 2,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "market:liquidity_low": 1
    }
   }
