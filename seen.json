@@ -287,10 +287,6 @@
   "market_logged": 1793687049.8179443,
   "market_reason": "mcap_too_low"
  },
- "5UacnLntJtiuee3i2QtEyLuFgrgFrozXgxQMEVkpG4mz": {
-  "market_logged": 1793151327.0329828,
-  "market_reason": "mcap_too_low"
- },
  "4V6xZ5UdRtBX8xqhKfVPPNk7CuGftCFsfDftUZiJpump": {
   "market_logged": 1793152226.998825,
   "market_reason": "mcap_too_low"
@@ -306,10 +302,6 @@
   "market_reason": "too_old",
   "judged": 1793165306.2736554,
   "symbol": "Bitcoin"
- },
- "3ZJuSrhFygsAS68WdHezRYsXkGiWwQBTjMGG7HpEpump": {
-  "market_logged": 1793151327.0329828,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "Ew2Wgzc6UvBoA7tK3UWnjmXEmzwbARWGtDWXej16STNK": {
   "market_logged": 1793151626.4347095
@@ -9927,5 +9919,13 @@
  },
  "37gLowuHZZ6tF44gXqsnS6VBw9kGdfnqffxdTjmfLoat": {
   "market_logged": 1793755938.2798512
+ },
+ "HjiBij1BcEwjcgPEb22K8y7imdgaf1kHGMHuEgcDpump": {
+  "judged": 1793756237.9614308,
+  "symbol": "AMD"
+ },
+ "8VNh5MPTg5FJ5Fvo3KAH84vuXF1jozCN1mnZTX8Hpump": {
+  "market_logged": 1793756237.9614308,
+  "market_reason": "missing:mcap_usd"
  }
 }
