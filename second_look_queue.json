@@ -1,36 +1,5 @@
 {
  "entries": {
-  "A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump": {
-   "mint": "A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump",
-   "symbol": "KIM",
-   "pair": "DXq27HLjYYMGd2BUKb4CkPx3N3JR4bCDnPcurLKCsVzC",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-30T12:39:29+00:00",
-   "rejected_ts": 1793363969,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 8.737e-05,
-   "mcap_usd": 85348,
-   "liquidity_usd": 23941.56,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-10-31T12:43:01+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-01T12:41:52+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": {
    "mint": "EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump",
    "symbol": "PURPS",
@@ -4206,9 +4175,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-04T12:43:01+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "B7Cj19ke2F8S6fazbBvGMxHYNNMYuDaAn3Sn2Zikpump": {
    "mint": "B7Cj19ke2F8S6fazbBvGMxHYNNMYuDaAn3Sn2Zikpump",
