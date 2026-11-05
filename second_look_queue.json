@@ -1,36 +1,5 @@
 {
  "entries": {
-  "5Afz2mwDXjasvHXZHTT8anNxpec2QYdCiHHhubAWpump": {
-   "mint": "5Afz2mwDXjasvHXZHTT8anNxpec2QYdCiHHhubAWpump",
-   "symbol": "AAPL",
-   "pair": "31bUMZx7Y9N9G2iQNvYNvzbSova6ft7LrAKyeRY1V4HX",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T00:40:46+00:00",
-   "rejected_ts": 1793407246,
-   "stage": "grok",
-   "reason": "432% h6 and 91% h1 gains with -12% m5 reversal signal blow-off top. Buy/sell ratio strong but volume spike already fading after 1h age.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002533,
-   "mcap_usd": 250229,
-   "liquidity_usd": 40281.98,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T00:42:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T00:41:43+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6nJVg7wV1UBaWBpHuP7pEHLBd26U4cj6vXnGShobpump": {
    "mint": "6nJVg7wV1UBaWBpHuP7pEHLBd26U4cj6vXnGShobpump",
    "symbol": "Apple",
@@ -6545,6 +6514,78 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "97GCuS8PAMdoXcrsmjjLEjcgt5cKPhSZW382y4G9pump": {
+   "mint": "97GCuS8PAMdoXcrsmjjLEjcgt5cKPhSZW382y4G9pump",
+   "symbol": "a/acc",
+   "pair": "97fsQSJ4HyHkHJnzAUBQUghvZzE9E9tzQSLa41XFYLNb",
+   "dex": "pumpfun",
+   "rejected_at": "2026-11-05T01:00:13+00:00",
+   "rejected_ts": 1793840413,
+   "stage": "market",
+   "reason": "pumpfun_bonding_curve",
+   "reason_key": "market:pumpfun_bonding_curve",
+   "sources": "token-profiles",
+   "price_usd": 5.463e-06,
+   "mcap_usd": 5463.02,
+   "liquidity_usd": null,
+   "age_hours": 0.11,
+   "checks": {},
+   "done": false
+  },
+  "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump": {
+   "mint": "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump",
+   "symbol": "Tanisha",
+   "pair": "fTh1L8tA6eksXbQwqzwurLXMJNsh5vrXuqSfP96BnAT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T01:00:13+00:00",
+   "rejected_ts": 1793840413,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0001497,
+   "mcap_usd": 149702,
+   "liquidity_usd": 30440.63,
+   "age_hours": 0.29,
+   "checks": {},
+   "done": false
+  },
+  "7AnTcyCc5p3GhLxxKqV15tHAhDRmQwAJ7YqTvoLGBaU1": {
+   "mint": "7AnTcyCc5p3GhLxxKqV15tHAhDRmQwAJ7YqTvoLGBaU1",
+   "symbol": "PENNY",
+   "pair": "UisFnQYi9p7ozP3P1De63ueY8ozLrwHEepHDHUWTAUs",
+   "dex": "raydium",
+   "rejected_at": "2026-11-05T01:00:13+00:00",
+   "rejected_ts": 1793840413,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 1.789e-05,
+   "mcap_usd": 17893,
+   "liquidity_usd": 11646.96,
+   "age_hours": 0.59,
+   "checks": {},
+   "done": false
+  },
+  "6GjZvj8aT5t4jEi7xiMkK3nqqKNiYVes1n5Va8Zfpump": {
+   "mint": "6GjZvj8aT5t4jEi7xiMkK3nqqKNiYVes1n5Va8Zfpump",
+   "symbol": "NUTS",
+   "pair": "tHi77YKtAKfMSXLEKE3aWCWJxSFpf8Zmxyy4LMmSFcV",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T01:00:15+00:00",
+   "rejected_ts": 1793840415,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 6.18e-05,
+   "mcap_usd": 57802,
+   "liquidity_usd": 20411.4,
+   "age_hours": 1.29,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7086,18 +7127,22 @@
    }
   },
   "2026-11-05": {
-   "total": 4,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
     "00|market:mcap_too_low": 1,
-    "00|market:pumpfun_bonding_curve": 1
+    "00|market:pumpfun_bonding_curve": 1,
+    "01": 3,
+    "01|market:pumpfun_bonding_curve": 1,
+    "01|market:too_new": 1,
+    "01|market:mcap_too_low": 1
    },
    "reasons": {
-    "market:too_new": 1,
-    "market:mcap_too_low": 1,
-    "market:pumpfun_bonding_curve": 1,
-    "rugcheck:top10": 1
+    "market:too_new": 2,
+    "market:mcap_too_low": 2,
+    "market:pumpfun_bonding_curve": 2,
+    "rugcheck:top10": 2
    }
   }
  }
