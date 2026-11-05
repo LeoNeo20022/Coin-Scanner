@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9t4JYVrNW8pyjhSqAdSM57svukMFYmnrXziHtjaxpump": {
-   "mint": "9t4JYVrNW8pyjhSqAdSM57svukMFYmnrXziHtjaxpump",
-   "symbol": "iApe",
-   "pair": "DK6HVJY8DrmffiwNNoo3tr2sKzkDwYBfEMTTEc8Md6tv",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T02:36:06+00:00",
-   "rejected_ts": 1793414166,
-   "stage": "rugcheck",
-   "reason": "fb:top10(holders_unknown)",
-   "reason_key": "rugcheck:top10(holders_unknown)",
-   "sources": "token-boosts",
-   "price_usd": 8.012e-05,
-   "mcap_usd": 76552,
-   "liquidity_usd": 23476.03,
-   "age_hours": 1.63,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T02:39:38+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T02:36:26+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "C7o7ucDkNEihpD8FJ1MsWQNmtFtZ3MBhWzCCoyTVpump": {
    "mint": "C7o7ucDkNEihpD8FJ1MsWQNmtFtZ3MBhWzCCoyTVpump",
    "symbol": "LUMI",
@@ -4516,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-05T02:41:39+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3kqMzEobWMNfRWG38oXcv1SqhhqWKr1yAxLB6Bchpump": {
    "mint": "3kqMzEobWMNfRWG38oXcv1SqhhqWKr1yAxLB6Bchpump",
