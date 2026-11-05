@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FDSG65a94jA3mdC47VPikD5WARCJN5ffSgot3TfHpump": {
-   "mint": "FDSG65a94jA3mdC47VPikD5WARCJN5ffSgot3TfHpump",
-   "symbol": "FUN",
-   "pair": "F8AvZ2MQ1dff2t2kgsWSin3CwbQ2eYwWoErZ4fABWXQM",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T10:30:16+00:00",
-   "rejected_ts": 1793442616,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 6.084e-05,
-   "mcap_usd": 57911,
-   "liquidity_usd": 19283.87,
-   "age_hours": 0.63,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T10:34:35+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T10:33:59+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump": {
    "mint": "4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump",
    "symbol": "VAMPCAT",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-05T10:37:23+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": {
    "mint": "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump",
@@ -4758,9 +4733,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-05T10:37:23+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": {
    "mint": "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump",
