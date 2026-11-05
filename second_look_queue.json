@@ -1,36 +1,5 @@
 {
  "entries": {
-  "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": {
-   "mint": "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump",
-   "symbol": "RAM",
-   "pair": "A5FpVH5c4Zya6EwbBWGzLsFDoUGCX5BjSXK4FXKUwHMW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T13:25:20+00:00",
-   "rejected_ts": 1793453120,
-   "stage": "rugcheck",
-   "reason": "fb:top10(holders_unknown)",
-   "reason_key": "rugcheck:top10(holders_unknown)",
-   "sources": "token-profiles",
-   "price_usd": 8.019e-05,
-   "mcap_usd": 77038,
-   "liquidity_usd": 22506.05,
-   "age_hours": 9.49,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T13:29:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-02T13:43:17+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "4eq4JfnpdgqZTzeyR3GnRGHJQ3QhQT6Lp7nKnQ2nS7Rv": {
    "mint": "4eq4JfnpdgqZTzeyR3GnRGHJQ3QhQT6Lp7nKnQ2nS7Rv",
    "symbol": "UNSAFU",
@@ -5915,7 +5884,14 @@
    "mcap_usd": 534365,
    "liquidity_usd": 59403.12,
    "age_hours": 9.89,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-05T13:39:43+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "3jXeQDkmM1N7gAS3iubWwmZTaAS4hdMDJ5e5B2uswWaK": {
