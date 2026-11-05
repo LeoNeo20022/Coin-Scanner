@@ -6645,6 +6645,24 @@
    "age_hours": 0.02,
    "checks": {},
    "done": false
+  },
+  "Eq8UZ5oadKvLtiDnPrb41dwDwU4BuB2tFXRT8rw8pump": {
+   "mint": "Eq8UZ5oadKvLtiDnPrb41dwDwU4BuB2tFXRT8rw8pump",
+   "symbol": "AMD",
+   "pair": "ErQ7k7g7MAtN5VosnDQ1Cxp9kuPvRs3R1P23AKAWmNyT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T15:40:32+00:00",
+   "rejected_ts": 1793893232,
+   "stage": "grok",
+   "reason": "550% h1 pump on 1h-old token is classic blow-off top. Copycat warning plus thin liquidity relative to volume.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003082,
+   "mcap_usd": 305509,
+   "liquidity_usd": 44408.57,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7186,7 +7204,7 @@
    }
   },
   "2026-11-05": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7232,7 +7250,7 @@
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "rugcheck:top10": 6,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:insiders": 2,
     "market:sells_ge_buys_h1": 1,
