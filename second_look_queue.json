@@ -1,36 +1,5 @@
 {
  "entries": {
-  "4eq4JfnpdgqZTzeyR3GnRGHJQ3QhQT6Lp7nKnQ2nS7Rv": {
-   "mint": "4eq4JfnpdgqZTzeyR3GnRGHJQ3QhQT6Lp7nKnQ2nS7Rv",
-   "symbol": "UNSAFU",
-   "pair": "ArYtLAprgHtsPXSJGS8q9Mw7om8MF5Xdh8QFzLQkUHLi",
-   "dex": "raydium",
-   "rejected_at": "2026-10-31T14:02:39+00:00",
-   "rejected_ts": 1793455359,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 0.0002103,
-   "mcap_usd": 210371,
-   "liquidity_usd": 37623.29,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T14:06:46+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-02T14:03:18+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
   "7y3u3a7M29PdrSz4cTHn5v1w2CQJNFtAGWxc3kgzpump": {
    "mint": "7y3u3a7M29PdrSz4cTHn5v1w2CQJNFtAGWxc3kgzpump",
    "symbol": "AAPL",
@@ -5909,7 +5878,14 @@
    "mcap_usd": 83987,
    "liquidity_usd": 22479.06,
    "age_hours": 1.18,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-05T14:37:28+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": {
