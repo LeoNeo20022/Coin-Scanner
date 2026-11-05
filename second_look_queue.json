@@ -6688,6 +6688,24 @@
    "age_hours": 26.62,
    "checks": {},
    "done": false
+  },
+  "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": {
+   "mint": "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump",
+   "symbol": "WEALTH",
+   "pair": "5n8V68fCaNTRQvaXzrmBryDe5jFLrgm65pFfsmia6Nro",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T16:05:33+00:00",
+   "rejected_ts": 1793894733,
+   "stage": "grok",
+   "reason": "164% h6 gain followed by -54% h1 and -17% m5 reversal shows classic fading spike. Buys still outnumber sells but activity and momentum clearly dropping.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.000122,
+   "mcap_usd": 121180,
+   "liquidity_usd": 27333.81,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7229,7 +7247,7 @@
    }
   },
   "2026-11-05": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7277,7 +7295,7 @@
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "rugcheck:top10": 6,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:insiders": 2,
     "market:sells_ge_buys_h1": 1,
