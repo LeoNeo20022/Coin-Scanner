@@ -5984,7 +5984,14 @@
    "mcap_usd": 76616,
    "liquidity_usd": 23570.69,
    "age_hours": 20.39,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-05T16:34:11+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "APj59xtb4dRp49bXwKSq5E1XWKLrFbtaYfoQZ9Arpump": {
@@ -6002,7 +6009,14 @@
    "mcap_usd": 133425,
    "liquidity_usd": 29762.46,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-05T16:34:11+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "AcagiqgcXvTtE6aUUF5w7bySxj8p277B1EQsTG82pump": {
@@ -6706,6 +6720,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "ECNQSQA7Y5bnXzbotgv6XcG15c6jpJ6V2BFbYzJrpump": {
+   "mint": "ECNQSQA7Y5bnXzbotgv6XcG15c6jpJ6V2BFbYzJrpump",
+   "symbol": "PAWKET",
+   "pair": "9icJRrZeVFLonFyC5XJ9CJekdyirt2KvLSzQ9GMtahFD",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T16:34:07+00:00",
+   "rejected_ts": 1793896447,
+   "stage": "grok",
+   "reason": "2110% h6 gain screams blow-off top after massive early pump. m5 buys strong but fading volume and thin liq relative to run-up.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0009653,
+   "mcap_usd": 962314,
+   "liquidity_usd": 81249.31,
+   "age_hours": 1.41,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7247,7 +7279,7 @@
    }
   },
   "2026-11-05": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7295,7 +7327,7 @@
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "rugcheck:top10": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:insiders": 2,
     "market:sells_ge_buys_h1": 1,
