@@ -1,36 +1,5 @@
 {
  "entries": {
-  "F7ZQtqwJjwQs4VRUAnxg6KRZWPzMvLpKKmUsx4x9pump": {
-   "mint": "F7ZQtqwJjwQs4VRUAnxg6KRZWPzMvLpKKmUsx4x9pump",
-   "symbol": "offline",
-   "pair": "Azh5HmxEHvbxdk27e7B9x4nPZkqeStcBVvo91jbn3rHi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T05:39:17+00:00",
-   "rejected_ts": 1793425157,
-   "stage": "rugcheck",
-   "reason": "fb:top10(holders_unknown)",
-   "reason_key": "rugcheck:top10(holders_unknown)",
-   "sources": "token-profiles",
-   "price_usd": 7.692e-05,
-   "mcap_usd": 74021,
-   "liquidity_usd": 21525.72,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T05:42:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T05:45:19+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HPPspGtHi9kP9RoC2x4qDYbSmrxv7gY1ZRpeEQXqpump": {
    "mint": "HPPspGtHi9kP9RoC2x4qDYbSmrxv7gY1ZRpeEQXqpump",
    "symbol": "LUMI",
@@ -4640,9 +4609,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-05T06:01:10+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "CjQ494q5yYfbHMoEpXdbi6mrS5sd3Norx8VEDUwgkXZR": {
    "mint": "CjQ494q5yYfbHMoEpXdbi6mrS5sd3Norx8VEDUwgkXZR",
@@ -4665,9 +4640,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "liquidity_low"
+    },
+    "48h": {
+     "time": "2026-11-05T06:01:10+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "liquidity_low"
     }
    },
-   "done": false
+   "done": true
   },
   "9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": {
    "mint": "9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump",
@@ -6739,6 +6720,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": {
+   "mint": "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At",
+   "symbol": "SOUVENIR",
+   "pair": "3k5sSodRuZ8qgzNfHmpckaPuE472JWngeXrMeMGsmYYE",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T06:01:08+00:00",
+   "rejected_ts": 1793858468,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0004562,
+   "mcap_usd": 450573,
+   "liquidity_usd": 57790.89,
+   "age_hours": 1.33,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7280,7 +7279,7 @@
    }
   },
   "2026-11-05": {
-   "total": 27,
+   "total": 28,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7305,7 +7304,9 @@
     "05": 3,
     "05|market:pumpfun_bonding_curve": 1,
     "05|market:too_new": 1,
-    "05|market:mcap_too_low": 1
+    "05|market:mcap_too_low": 1,
+    "06": 1,
+    "06|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7314,7 +7315,8 @@
     "rugcheck:top10": 6,
     "grok:skip": 1,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
