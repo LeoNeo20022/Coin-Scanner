@@ -6605,6 +6605,24 @@
    "age_hours": 0.18,
    "checks": {},
    "done": false
+  },
+  "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": {
+   "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+   "symbol": "PIRATE",
+   "pair": "2ouNPACQVBoDqWJ7Ft6EGhmCGScKpmRzaQn6a9vhKp6D",
+   "dex": "raydium",
+   "rejected_at": "2026-11-05T02:19:15+00:00",
+   "rejected_ts": 1793845155,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0003901,
+   "mcap_usd": 390108,
+   "liquidity_usd": 126309.47,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7146,7 +7164,7 @@
    }
   },
   "2026-11-05": {
-   "total": 13,
+   "total": 14,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7165,7 +7183,7 @@
     "market:too_new": 3,
     "market:mcap_too_low": 3,
     "market:pumpfun_bonding_curve": 3,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "grok:skip": 1
    }
   }
