@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump": {
-   "mint": "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump",
-   "symbol": "AMAZON",
-   "pair": "4dh9bKP5FgvR6oeL7Rj2FemJpbSHtig8zr4YpVBRbFKD",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T12:23:04+00:00",
-   "rejected_ts": 1793449384,
-   "stage": "rugcheck",
-   "reason": "fb:single_holder(dev)",
-   "reason_key": "rugcheck:single_holder(dev)",
-   "sources": "token-profiles",
-   "price_usd": 0.000545,
-   "mcap_usd": 537341,
-   "liquidity_usd": 59375.49,
-   "age_hours": 2.13,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T12:26:52+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T12:30:40+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": {
    "mint": "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump",
    "symbol": "RAM",
@@ -6686,6 +6655,24 @@
    "age_hours": 0.77,
    "checks": {},
    "done": false
+  },
+  "CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9": {
+   "mint": "CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9",
+   "symbol": "TOPLESS",
+   "pair": "9e2YFW8XJWdnAHpoZaHysGiJcXmsLSew4jmMxVwzbSz8",
+   "dex": "raydium",
+   "rejected_at": "2026-11-05T12:34:02+00:00",
+   "rejected_ts": 1793882042,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.172e-05,
+   "mcap_usd": 51724,
+   "liquidity_usd": 18213.89,
+   "age_hours": 0.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7227,7 +7214,7 @@
    }
   },
   "2026-11-05": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7264,7 +7251,9 @@
     "10": 1,
     "10|market:liquidity_low": 1,
     "11": 1,
-    "11|market:liquidity_low": 1
+    "11|market:liquidity_low": 1,
+    "12": 1,
+    "12|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7275,7 +7264,7 @@
     "rugcheck:lp_unlocked": 2,
     "rugcheck:insiders": 2,
     "market:sells_ge_buys_h1": 1,
-    "market:liquidity_low": 5
+    "market:liquidity_low": 6
    }
   }
  }
