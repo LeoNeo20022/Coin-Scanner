@@ -6468,6 +6468,24 @@
    "age_hours": 1.19,
    "checks": {},
    "done": false
+  },
+  "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": {
+   "mint": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+   "symbol": "COGE",
+   "pair": "8GjMy6ipYsXfMWwRPu9C7ATssorjg6AL88d9xtTZsLqe",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T20:49:52+00:00",
+   "rejected_ts": 1793911792,
+   "stage": "grok",
+   "reason": "2438% gain in ~1h with age 1h is classic blow-off top. Volume strong but price action already parabolic.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.001257,
+   "mcap_usd": 1252238,
+   "liquidity_usd": 90830.84,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7009,7 +7027,7 @@
    }
   },
   "2026-11-05": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7059,7 +7077,7 @@
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "rugcheck:top10": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:insiders": 4,
     "market:sells_ge_buys_h1": 1,
