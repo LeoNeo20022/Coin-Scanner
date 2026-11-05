@@ -6663,6 +6663,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "2UxjHoidyefQxJrCS8qT23JsbqKFcpPCa8ywBYZupump": {
+   "mint": "2UxjHoidyefQxJrCS8qT23JsbqKFcpPCa8ywBYZupump",
+   "symbol": "$LIBCOIN",
+   "pair": "3qz27W5Pp7h8FDNwNvr89jhQsQxPRASZdnUKKGJKFH9r",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T15:50:20+00:00",
+   "rejected_ts": 1793893820,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-boosts",
+   "price_usd": 8.388e-05,
+   "mcap_usd": 80327,
+   "liquidity_usd": 21617.6,
+   "age_hours": 26.62,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7204,7 +7222,7 @@
    }
   },
   "2026-11-05": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7243,7 +7261,9 @@
     "11": 1,
     "11|market:liquidity_low": 1,
     "12": 1,
-    "12|market:liquidity_low": 1
+    "12|market:liquidity_low": 1,
+    "15": 1,
+    "15|market:volume_h1_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7254,7 +7274,8 @@
     "rugcheck:lp_unlocked": 2,
     "rugcheck:insiders": 2,
     "market:sells_ge_buys_h1": 1,
-    "market:liquidity_low": 6
+    "market:liquidity_low": 6,
+    "market:volume_h1_low": 1
    }
   }
  }
