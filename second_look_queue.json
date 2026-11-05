@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": {
-   "mint": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
-   "symbol": "AgenC",
-   "pair": "ABF43sbqjwKF1GzY8MkHNHR8EJLZgf6V9ASR8LRmbuCj",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T20:00:14+00:00",
-   "rejected_ts": 1793476814,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-boosts/top",
-   "price_usd": 0.001125,
-   "mcap_usd": 1119083,
-   "liquidity_usd": 1009552.43,
-   "age_hours": 25.66,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T20:04:24+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T20:04:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "57YQJbgdE32ZMCQzBivhjcXmnMLY5iw2MwrtcPYWpump": {
    "mint": "57YQJbgdE32ZMCQzBivhjcXmnMLY5iw2MwrtcPYWpump",
    "symbol": "NNN",
@@ -4392,9 +4361,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "top10"
+    },
+    "48h": {
+     "time": "2026-11-05T20:15:05+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HAjc6B1MfdjnYPiB2xcETPb25kb85Pxg9nq9i4D5pump": {
    "mint": "HAjc6B1MfdjnYPiB2xcETPb25kb85Pxg9nq9i4D5pump",
