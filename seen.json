@@ -263,9 +263,6 @@
   "market_logged": 1793312531.9516957,
   "market_reason": "too_new"
  },
- "HreU5rGjst3P6ZXv6VuMKGRrZd6W3PvxE4UBJ5DLuFcW": {
-  "market_logged": 1793307963.6941793
- },
  "5d3BgrBRzYMhswg1QNveWvDUvQAKpVAUEiidBT2earny": {
   "market_logged": 1793308563.3359685,
   "market_reason": "pumpfun_bonding_curve"
@@ -9656,7 +9653,9 @@
  },
  "D4CzGsZgusVj2K8R1its5H8WWdo9mazbDwBc6qvsmfun": {
   "market_logged": 1793911475.9918597,
-  "market_reason": "mcap_too_low"
+  "market_reason": "mcap_too_low",
+  "judged": 1793912976.734252,
+  "symbol": "LAMPORT"
  },
  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
   "market_logged": 1793908500.1246047,
@@ -9739,5 +9738,9 @@
  "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump": {
   "market_logged": 1793912676.764093,
   "market_reason": "too_new"
+ },
+ "8GpeEJZ7ubtVjR4cNLFChbtAENtxGHkMeYt39tN1xJiG": {
+  "market_logged": 1793912976.734252,
+  "market_reason": "mcap_too_low"
  }
 }
