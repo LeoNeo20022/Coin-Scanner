@@ -1,13 +1,3 @@
-[2026-11-03T17:57:38+00:00] second_look: 24h RICO 8kuQg3Wi… (rejected grok:skip) -> fail: insiders
-[2026-11-03T17:57:38+00:00] second_look: pass end {"queued": 241, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
-[2026-11-03T17:57:38+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-03T17:58:39+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-03T17:58:39+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-11-03T17:58:39+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-03T17:59:25+00:00] scout: wait3 candles error ExoA74hE RuntimeError
-[2026-11-03T17:59:29+00:00] scout: pass end {"watch": 333, "a_qualify": 28, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=112s
-[2026-11-03T18:02:22+00:00] run start (LOG ONLY)
-[2026-11-03T18:02:32+00:00] discovered=65 fresh=56 market_pass=1
 [2026-11-03T18:02:32+00:00] grok daily budget 6/40 used, 0 no-response, $0.0160 (2026-11-03 UTC)
 [2026-11-03T18:02:34+00:00] grok [rugcheck] ElunMesk ByaRBuSE… -> no response after 0s: grok_no_response (retry in 60m): HTTP 429: {"code":"resource-exhausted","error":"The model is currently at capacity due to high demand. Please try again in a few m
 [2026-11-03T18:02:36+00:00] run end {"discovered": 65, "skipped_recent": 9, "no_pair": 3, "market": {"missing:liquidity_usd": 4, "pumpfun_bonding_curve": 9, "too_new": 3, "mcap_too_low": 15, "mcap_too_high": 7, "liquidity_low": 3, "volume_h1_low": 1, "too_old": 9, "sells_ge_buys_h1": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "grok_no_response": 1, "second_look_queued": 0} elapsed=14s
@@ -4998,3 +4988,13 @@
 [2026-11-05T16:54:39+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-11-05T16:54:39+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-05T16:55:39+00:00] scout: pass end {"watch": 347, "a_qualify": 28, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=111s
+[2026-11-05T16:58:36+00:00] run start (LOG ONLY)
+[2026-11-05T16:58:47+00:00] discovered=61 fresh=53 market_pass=0
+[2026-11-05T16:58:47+00:00] grok daily budget 6/40 used, 0 no-response, $0.0162 (2026-11-05 UTC)
+[2026-11-05T16:58:47+00:00] run end {"discovered": 61, "skipped_recent": 8, "no_pair": 1, "market": {"pumpfun_bonding_curve": 17, "missing:mcap_usd": 3, "mcap_too_low": 14, "liquidity_low": 1, "mcap_too_high": 6, "volume_h1_low": 1, "too_old": 9, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-11-05T16:58:47+00:00] second_look: pass end {"queued": 245, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-11-05T16:58:47+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-05T16:59:53+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-05T16:59:53+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-05T16:59:53+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-05T17:00:47+00:00] scout: pass end {"watch": 347, "a_qualify": 28, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=120s
