@@ -233,16 +233,6 @@
   "judged": 1793377674.4714746,
   "symbol": "PODCAT"
  },
- "9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": {
-  "market_logged": 1793270833.3324134,
-  "market_reason": "too_new",
-  "symbol": "MULTI",
-  "judged": 1793273695.0156784
- },
- "U7PMTgmXcwLRijdRf14H9jU8EuXTgnyPnSbvZr25pye": {
-  "market_logged": 1793273695.0156784,
-  "market_reason": "missing:liquidity_usd"
- },
  "BX6QbxPJ1rmgwd8q3FrqoVeEQGTYVidzNQ7UjLUbpump": {
   "market_logged": 1793407533.1986043,
   "market_reason": "mcap_too_low"
@@ -9906,6 +9896,10 @@
  },
  "Af62u9MBXbAEknD2VRR6pjF8FYdk1toXP6Hg9qAopump": {
   "market_logged": 1793878201.563406,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4PSHNUHXDxAyxLBDCMQvuqyvEZnj3beTZLpRAVnvCipo": {
+  "market_logged": 1793878501.522662,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
