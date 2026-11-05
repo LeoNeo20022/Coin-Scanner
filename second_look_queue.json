@@ -4733,9 +4733,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-05T09:06:04+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": {
    "mint": "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump",
@@ -5977,7 +5983,14 @@
    "mcap_usd": 52164,
    "liquidity_usd": 15057,
    "age_hours": 1261.96,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-05T09:06:04+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BM1Q9KfjgVoERj1eipkPqueMvhz1kfkUfE835ZjJpump": {
@@ -5995,7 +6008,14 @@
    "mcap_usd": 74148,
    "liquidity_usd": 21390.95,
    "age_hours": 1.07,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-05T09:06:04+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump": {
