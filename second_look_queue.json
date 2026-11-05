@@ -1,67 +1,5 @@
 {
  "entries": {
-  "6a81PfhejwCM3bB4F3Rnbzk9ALNmg4YGeyjKd5Nxpump": {
-   "mint": "6a81PfhejwCM3bB4F3Rnbzk9ALNmg4YGeyjKd5Nxpump",
-   "symbol": "DAVID",
-   "pair": "76dpWgLDW4gh4N8bTC7HGooUzeMwUpkZuvRExjBteazG",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T17:13:46+00:00",
-   "rejected_ts": 1793466826,
-   "stage": "rugcheck",
-   "reason": "danger:Top 10 holders high ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0006138,
-   "mcap_usd": 609251,
-   "liquidity_usd": 66387.53,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T17:15:26+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-02T17:26:42+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "7ku3pcgXiGBqCCd6VZ8AyGe7t89BXtVpe6cVXwCLpump": {
-   "mint": "7ku3pcgXiGBqCCd6VZ8AyGe7t89BXtVpe6cVXwCLpump",
-   "symbol": "DAVID",
-   "pair": "9Rs4GBAFoxuGTSX6GecZozNcQU9U7PutN1cj3zkbCv77",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T17:36:12+00:00",
-   "rejected_ts": 1793468172,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0002204,
-   "mcap_usd": 216544,
-   "liquidity_usd": 40777.9,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T17:40:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T17:36:42+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "66dVRZC39nEh4AGhNsAFWKZZRXxjXJi6MaAQcNnXyZDQ": {
    "mint": "66dVRZC39nEh4AGhNsAFWKZZRXxjXJi6MaAQcNnXyZDQ",
    "symbol": "VAL",
@@ -6688,6 +6626,24 @@
    "age_hours": 1.41,
    "checks": {},
    "done": false
+  },
+  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "symbol": "Rocco",
+   "pair": "3jW1ykKqUTNgNUDGbrwXpvZKtMFf4pWytoTP3TeXhKBQ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-05T17:39:16+00:00",
+   "rejected_ts": 1793900356,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0002565,
+   "mcap_usd": 250097,
+   "liquidity_usd": 45083.81,
+   "age_hours": 2.56,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7229,7 +7185,7 @@
    }
   },
   "2026-11-05": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7279,7 +7235,7 @@
     "rugcheck:top10": 6,
     "grok:skip": 4,
     "rugcheck:lp_unlocked": 2,
-    "rugcheck:insiders": 2,
+    "rugcheck:insiders": 3,
     "market:sells_ge_buys_h1": 1,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 1
