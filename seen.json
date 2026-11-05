@@ -251,27 +251,11 @@
   "market_logged": 1793784919.7524948,
   "market_reason": "too_old"
  },
- "6stDtsPuZszhswCrsNyxbVQFWkVL6WdzpH5rTrZMpump": {
-  "market_logged": 1793244620.31792,
-  "market_reason": "mcap_too_low"
- },
  "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
   "market_logged": 1793242004.7392304,
   "market_reason": "too_new",
   "judged": 1793377674.4714746,
   "symbol": "PODCAT"
- },
- "HYkujGCJmi2BgkpxD9CMAyUrjXnur9Egi4VViPZc6one": {
-  "market_logged": 1793244620.31792,
-  "market_reason": "mcap_too_low"
- },
- "93U1sARLngyTbdpEY6kCpyrLCa7sHSBiUuYT2o2Jpump": {
-  "market_logged": 1793244620.31792,
-  "market_reason": "mcap_too_low"
- },
- "8bACbj9AZHdV9VLzzcoS3pzC597fvGQMJ2wpzppipump": {
-  "market_logged": 1793244020.785321,
-  "market_reason": "mcap_too_low"
  },
  "DkND6CmPqUuTVC5rCkKB137P1rFW8NqjUS3mcpoEpump": {
   "market_logged": 1793245886.4604666,
@@ -280,10 +264,6 @@
  "4DRCn24HmGms5YVMtUMoMJXJ3KdJnye3QuSnjB1dpump": {
   "market_logged": 1793245286.8869495,
   "market_reason": "mcap_too_low"
- },
- "EvbuYuYkzzd7cosiczGHe6dBGHY2b2T1ixZ2kqgvpump": {
-  "market_logged": 1793244620.31792,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "4SiuAiB3xbE1Se9qxPfmGDZY812SxaeLRg4gwgNLpump": {
   "market_logged": 1793245286.8869495,
@@ -9896,7 +9876,9 @@
  },
  "6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump": {
   "market_logged": 1793847093.9195037,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "AMC",
+  "judged": 1793849402.3542569
  },
  "3BeJLbpE9te1VW1PEEzDb6Q9jP6DibqijwQQnux1pump": {
   "market_logged": 1793847693.555601,
@@ -9909,5 +9891,17 @@
  "5w9ZP4hRRX73oPiFXKKVu3gNxY9qm8zJhYFN8SMApump": {
   "market_logged": 1793848294.1167192,
   "market_reason": "mcap_too_low"
+ },
+ "9FCjRfsuH4ziTqE39dH2wjcpRF5necYUKYpoNtCFdwKE": {
+  "market_logged": 1793849402.3542569,
+  "market_reason": "too_new"
+ },
+ "98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump": {
+  "judged": 1793849402.3542569,
+  "symbol": "LEEROY"
+ },
+ "2z1XKwy3yBujFujGAztZubTEtayhYSaGfjM39uVMpump": {
+  "market_logged": 1793849402.3542569,
+  "market_reason": "too_new"
  }
 }
