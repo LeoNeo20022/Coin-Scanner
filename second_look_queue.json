@@ -1,67 +1,5 @@
 {
  "entries": {
-  "AhyWCaBF1U1ssTWgjFRrEvqNQdy4NsFCvLYRSJKppump": {
-   "mint": "AhyWCaBF1U1ssTWgjFRrEvqNQdy4NsFCvLYRSJKppump",
-   "symbol": "CRAMERSAN",
-   "pair": "Dt8efo2CFoXELeeF6VE9FTpicQzAAbWPiX3okwszJ3jc",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T08:21:58+00:00",
-   "rejected_ts": 1793434918,
-   "stage": "grok",
-   "reason": "282% h6 gain with still-rising m5 price signals blow-off top; buying the exit. Organic score 0 and fallback data increase uncertainty.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001538,
-   "mcap_usd": 151232,
-   "liquidity_usd": 31925.28,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T08:24:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T08:25:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "CcSRXUReR3VVG92C4rE8FqsLomzwmH6Dn1WhTGebpump": {
-   "mint": "CcSRXUReR3VVG92C4rE8FqsLomzwmH6Dn1WhTGebpump",
-   "symbol": "\u53d1\u53d1",
-   "pair": "3rHxNXeg6SEdkdWFFWQD9bZjELWm8xynWWeYoEE5fmqy",
-   "dex": "pumpswap",
-   "rejected_at": "2026-10-31T08:39:02+00:00",
-   "rejected_ts": 1793435942,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.54e-05,
-   "mcap_usd": 55392,
-   "liquidity_usd": 18857.25,
-   "age_hours": 0.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-01T08:39:27+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-02T08:40:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "419P2wrVug9cW5hMwsjEEdhM5aLBt7YFnwn1p7dypump": {
    "mint": "419P2wrVug9cW5hMwsjEEdhM5aLBt7YFnwn1p7dypump",
    "symbol": "ATI",
@@ -5989,7 +5927,14 @@
    "mcap_usd": 66303,
    "liquidity_usd": 19862.46,
    "age_hours": 5.34,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-05T08:41:05+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5ZndeMaC36YapnG4UpXsFg2DXDquHw6xEpBXGfmfpump": {
@@ -6007,7 +5952,14 @@
    "mcap_usd": 107793,
    "liquidity_usd": 27880.72,
    "age_hours": 1.1,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-05T08:41:05+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Adgt7dseCq71eN6GDuoUgpsNQp81ZNhq24nrF7pxpump": {
