@@ -6486,6 +6486,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "BNHAfUV21odrcFDKrqLmBDr6JREXE7c3yhuWBSNJpump": {
+   "mint": "BNHAfUV21odrcFDKrqLmBDr6JREXE7c3yhuWBSNJpump",
+   "symbol": "401kat",
+   "pair": "8Hzsw525prbkMB5GGJbBtsp1voxRk4kh9dzNch1bvhR2",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T16:31:04+00:00",
+   "rejected_ts": 1793982664,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.000138,
+   "mcap_usd": 135896,
+   "liquidity_usd": 29389.33,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7024,7 +7042,7 @@
    }
   },
   "2026-11-06": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7069,7 +7087,7 @@
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 3,
     "grok:skip": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 2
    }
   }
  }
