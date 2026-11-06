@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": {
-   "mint": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
-   "symbol": "BLOB",
-   "pair": "Hr9qopJXCuak38rxDpZduUFhdAK2BfjtoXbfQZVn2EwU",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T02:39:35+00:00",
-   "rejected_ts": 1793500775,
-   "stage": "grok",
-   "reason": "57% m5 pump on top of 136% h1 gain looks like a late spike, not steady accumulation. Volume and buys/sells balanced but acceleration is extreme.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0006207,
-   "mcap_usd": 615300,
-   "liquidity_usd": 64444.15,
-   "age_hours": 11.05,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T02:41:28+00:00",
-     "would_pass": "1",
-     "dead": "0",
-     "result": "pass"
-    },
-    "48h": {
-     "time": "2026-11-03T02:44:33+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    }
-   },
-   "done": true
-  },
   "BPVBLVy5tGRYo6qQa29RzT7RpGg4AFu6hfxQf5xCpump": {
    "mint": "BPVBLVy5tGRYo6qQa29RzT7RpGg4AFu6hfxQf5xCpump",
    "symbol": "BPEPE",
@@ -4392,9 +4361,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T02:43:08+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3XBgK7Y9Frdp4xytn4d5bT4oDye1p1afUSFhWNvPEEUk": {
    "mint": "3XBgK7Y9Frdp4xytn4d5bT4oDye1p1afUSFhWNvPEEUk",
