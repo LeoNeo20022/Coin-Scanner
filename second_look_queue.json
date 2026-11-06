@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EfB1tdCYLcseZBywfojYyo3sJwuUGxa26LGzCLvFpump": {
-   "mint": "EfB1tdCYLcseZBywfojYyo3sJwuUGxa26LGzCLvFpump",
-   "symbol": "SOLSTARS",
-   "pair": "DvTxosEdye9fnVMX2wMRGrAQhDoM378wLpZDBczQDwM",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T12:41:50+00:00",
-   "rejected_ts": 1793536910,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.875e-05,
-   "mcap_usd": 58636,
-   "liquidity_usd": 18195,
-   "age_hours": 0.21,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T12:45:41+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T12:45:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump": {
    "mint": "DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump",
    "symbol": "SA",
@@ -6555,6 +6524,24 @@
    "age_hours": 0.21,
    "checks": {},
    "done": false
+  },
+  "CkYPxSP2RT1oCQwj1g4xdCJyLmkA4gwC7xYip2B2pump": {
+   "mint": "CkYPxSP2RT1oCQwj1g4xdCJyLmkA4gwC7xYip2B2pump",
+   "symbol": "DNUT",
+   "pair": "2fKtk78GKmoq1nngVjZm7R1yrEaqdHombpVAE8ifp48b",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T13:25:38+00:00",
+   "rejected_ts": 1793971538,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 9.148e-05,
+   "mcap_usd": 87617,
+   "liquidity_usd": 25714.17,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7093,7 +7080,7 @@
    }
   },
   "2026-11-06": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7134,7 +7121,7 @@
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 2,
     "grok:skip": 1
