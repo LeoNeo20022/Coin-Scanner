@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump": {
-   "mint": "2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump",
-   "symbol": "Pikmin",
-   "pair": "Eyi8QWE7TfLhwRGAJD88KUZpxuxETf9B5HN9ZByVKxi6",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T15:21:44+00:00",
-   "rejected_ts": 1793546504,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "community-takeovers",
-   "price_usd": 7.703e-05,
-   "mcap_usd": 73667,
-   "liquidity_usd": 23580.24,
-   "age_hours": 25.08,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T15:31:44+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T15:26:15+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump": {
    "mint": "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump",
    "symbol": "BOUNCER",
@@ -5795,7 +5764,14 @@
    "mcap_usd": 305509,
    "liquidity_usd": 44408.57,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-06T15:42:17+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "2UxjHoidyefQxJrCS8qT23JsbqKFcpPCa8ywBYZupump": {
