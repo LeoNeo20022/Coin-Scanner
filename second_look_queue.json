@@ -1,67 +1,5 @@
 {
  "entries": {
-  "71BRzdkExamfxDZnvHtGnvYuTAjVBzRiHCcNLTZEpump": {
-   "mint": "71BRzdkExamfxDZnvHtGnvYuTAjVBzRiHCcNLTZEpump",
-   "symbol": "150MS",
-   "pair": "CMJFqBxhdeJu5NKadLJaUk4xVxwzYTK6LokYVC2VNgq1",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T08:03:47+00:00",
-   "rejected_ts": 1793520227,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 9.681e-05,
-   "mcap_usd": 96810,
-   "liquidity_usd": 24735.02,
-   "age_hours": 0.3,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T08:05:13+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T08:04:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "nikemwCaTqBamHqfRVqPzwtWsmuwdXb6To25xJ2znwT": {
-   "mint": "nikemwCaTqBamHqfRVqPzwtWsmuwdXb6To25xJ2znwT",
-   "symbol": "niketyson",
-   "pair": "CEQeHrfYWiXgZsSbrtkJKsRZe6eUWGWqpRAU7CdbE1ef",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T08:03:49+00:00",
-   "rejected_ts": 1793520229,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.942e-05,
-   "mcap_usd": 86554,
-   "liquidity_usd": 25091.03,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T08:05:13+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T08:04:11+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "48Uo5fMMicwgWy4BPN2smoMh4q2zvUR5MaKqZbQRpump": {
    "mint": "48Uo5fMMicwgWy4BPN2smoMh4q2zvUR5MaKqZbQRpump",
    "symbol": "BTC",
@@ -6536,6 +6474,24 @@
    "age_hours": 0.2,
    "checks": {},
    "done": false
+  },
+  "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": {
+   "mint": "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump",
+   "symbol": "RM",
+   "pair": "639HxYRwtpmBKv6qJeYFd7WGckGQ3KsRKZixB9hjcRbv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T08:04:49+00:00",
+   "rejected_ts": 1793952289,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0001646,
+   "mcap_usd": 160268,
+   "liquidity_usd": 33323.5,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7074,7 +7030,7 @@
    }
   },
   "2026-11-06": {
-   "total": 27,
+   "total": 28,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7113,7 +7069,7 @@
     "market:pumpfun_bonding_curve": 6,
     "rugcheck:top10": 3,
     "market:liquidity_low": 4,
-    "rugcheck:lp_unlocked": 1,
+    "rugcheck:lp_unlocked": 2,
     "grok:skip": 1
    }
   }
