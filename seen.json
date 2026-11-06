@@ -263,10 +263,6 @@
   "market_logged": 1793387420.3414931,
   "market_reason": "mcap_too_low"
  },
- "AuZCXzZGvcPFg558MWEFwC4tLPEVZ4BjmwSNtFVEpaid": {
-  "market_logged": 1793386520.1354253,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "8zj1qiWWY4SjpnXUFVT1biLX4aj8cVHR8hZtsMpKpump": {
   "market_logged": 1793386820.9783142,
   "market_reason": "pumpfun_bonding_curve"
@@ -4994,8 +4990,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": {
-  "market_logged": 1793706078.4185956,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793991591.3834515,
+  "market_reason": "too_old"
  },
  "5xD4rmd4Vsw3j35qnC8yQmPbxJ9HSbeiF9VTqoqride": {
   "market_logged": 1793706378.6537163,
@@ -9046,8 +9042,8 @@
   "market_reason": "mcap_too_low"
  },
  "CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump": {
-  "market_logged": 1793990263.4557207,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793991591.3834515,
+  "market_reason": "mcap_too_low"
  },
  "GfJp1CbDsaoSGf3rXqVbgmwRx3HtZ6mCtv16GzFgpump": {
   "market_logged": 1793958002.4904773,
@@ -9533,7 +9529,9 @@
  },
  "FugyvQb7hrg71eL8iWu6cpZvg9HyJBXN761dzxNFpump": {
   "market_logged": 1793988764.0808103,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793991591.3834515,
+  "symbol": "LAURA"
  },
  "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
   "market_logged": 1793988212.543645,
@@ -9572,5 +9570,20 @@
  "FYMx4oFaTwGdTzV1DBP3RHB8DGbeAd7u6b7bejY7aRg9": {
   "market_logged": 1793990863.4948695,
   "market_reason": "mcap_too_low"
+ },
+ "9doLvcTPK9wrEi8sSwXgG72ftMs6U8R9YTrgpSStqrEe": {
+  "market_logged": 1793991591.3834515,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "7Ewy4www8wH1BNuu3RdsEcCAhvAC1bEQEsCeskY9pump": {
+  "market_logged": 1793991591.3834515,
+  "market_reason": "too_new"
+ },
+ "2pE71Sdwnb3ftmXnwBehrpRvgyR9PLUg6iiDep2fLoat": {
+  "market_logged": 1793991591.3834515
+ },
+ "GT7wXqoYTgS2LycKCaB2XBoAMVjf1X4zPXd3T3zjpump": {
+  "market_logged": 1793991591.3834515,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
