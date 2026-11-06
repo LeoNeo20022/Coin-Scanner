@@ -6474,6 +6474,24 @@
    "age_hours": 0.08,
    "checks": {},
    "done": false
+  },
+  "G2apw4XQdSfTv9836JHWhRZGyqG43m93eMEF4zjnpump": {
+   "mint": "G2apw4XQdSfTv9836JHWhRZGyqG43m93eMEF4zjnpump",
+   "symbol": "HALO",
+   "pair": "BQEGbgPbo9Z2Wyv5tW8a1B3urhLh6knpCFv2r6k8UdNL",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T11:37:52+00:00",
+   "rejected_ts": 1793965072,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 6.825e-05,
+   "mcap_usd": 63276,
+   "liquidity_usd": 21928.96,
+   "age_hours": 1.23,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7012,7 +7030,7 @@
    }
   },
   "2026-11-06": {
-   "total": 29,
+   "total": 30,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7051,7 +7069,7 @@
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "market:liquidity_low": 5,
     "rugcheck:lp_unlocked": 2,
     "grok:skip": 1
