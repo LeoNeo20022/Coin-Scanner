@@ -1,36 +1,5 @@
 {
  "entries": {
-  "6Kk8M1wGrWxCZ2qJiSr2W52wXKW3spBUwg5yx6r9pump": {
-   "mint": "6Kk8M1wGrWxCZ2qJiSr2W52wXKW3spBUwg5yx6r9pump",
-   "symbol": "BTC",
-   "pair": "8ZDnDByGMJ85K7LxMcMsBTybbFRUkeP4a2M7dsmCn6Mc",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T06:02:49+00:00",
-   "rejected_ts": 1793512969,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001014,
-   "mcap_usd": 101416,
-   "liquidity_usd": 25831.24,
-   "age_hours": 0.4,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T06:05:19+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T06:05:13+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "39tkEU5ox4BA7jKPgEoCraoVmi9jzKXzytoYwhHZpump": {
    "mint": "39tkEU5ox4BA7jKPgEoCraoVmi9jzKXzytoYwhHZpump",
    "symbol": "YUME",
@@ -4578,9 +4547,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T06:35:11+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": {
    "mint": "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump",
@@ -4603,9 +4578,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T06:35:11+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "Bz7kUDwG1KWZX9m9JrZyzhveUUcw6RTXVbjHseMjpump": {
    "mint": "Bz7kUDwG1KWZX9m9JrZyzhveUUcw6RTXVbjHseMjpump",
@@ -4628,9 +4609,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T06:35:11+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": {
    "mint": "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump",
@@ -4653,9 +4640,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "lp_unlocked"
+    },
+    "48h": {
+     "time": "2026-11-06T06:35:11+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8djG15hUCgQ3x992CqDj5YKu79Xzinw83cpULvwwpump": {
    "mint": "8djG15hUCgQ3x992CqDj5YKu79Xzinw83cpULvwwpump",
