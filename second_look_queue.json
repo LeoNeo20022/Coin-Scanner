@@ -6548,6 +6548,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump": {
+   "mint": "HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump",
+   "symbol": "sexcoin",
+   "pair": "FXJKAiwb6B8yy4Q6hyHchdiQfHHquUD4PUvjoYDoHwNJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T21:37:10+00:00",
+   "rejected_ts": 1794001030,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 8.061e-05,
+   "mcap_usd": 77865,
+   "liquidity_usd": 22500.61,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7086,7 +7104,7 @@
    }
   },
   "2026-11-06": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7121,7 +7139,9 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "11": 1,
-    "11|market:liquidity_low": 1
+    "11|market:liquidity_low": 1,
+    "21": 1,
+    "21|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
@@ -7131,7 +7151,8 @@
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 4,
     "grok:skip": 6,
-    "rugcheck:insiders": 3
+    "rugcheck:insiders": 3,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
