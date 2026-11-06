@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump": {
-   "mint": "DQvRuXiZWiVzKxsEtZYCVvvYoztz22WvkXtpHpeRpump",
-   "symbol": "BOUNCER",
-   "pair": "2TqhG2GzbfjhVvPWHT4DomRtNyRpbyx7xeprRswpjdnT",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T15:44:09+00:00",
-   "rejected_ts": 1793547849,
-   "stage": "grok",
-   "reason": "654% h6 gain after only 2h age screams blow-off top; buying the exit on fading momentum.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0003184,
-   "mcap_usd": 313776,
-   "liquidity_usd": 45410.16,
-   "age_hours": 2.19,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T15:46:36+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T15:46:14+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "5AWBTmZzYZ3twtKQLe1eziWw9yMcUyUiR6iRnCpXPv7f": {
    "mint": "5AWBTmZzYZ3twtKQLe1eziWw9yMcUyUiR6iRnCpXPv7f",
    "symbol": "GOAT",
@@ -4795,9 +4764,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-06T15:55:59+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "FoqkgUtCY7pDV5YNLLcvTNxo4Vck8enDoYX7w8bPpump": {
    "mint": "FoqkgUtCY7pDV5YNLLcvTNxo4Vck8enDoYX7w8bPpump",
@@ -5789,7 +5764,14 @@
    "mcap_usd": 80327,
    "liquidity_usd": 21617.6,
    "age_hours": 26.62,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-06T15:55:59+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": {
