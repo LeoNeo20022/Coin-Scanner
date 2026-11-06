@@ -6566,6 +6566,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "H4Yco8GenmbchjBhNRinG96cXBgNJhFRPFyJYPwKpump": {
+   "mint": "H4Yco8GenmbchjBhNRinG96cXBgNJhFRPFyJYPwKpump",
+   "symbol": "VETO",
+   "pair": "2uAbu1J7P8sovvH3kQCEBLbaSdV6V8eBAqK6QesgDdwr",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T22:51:56+00:00",
+   "rejected_ts": 1794005516,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0001328,
+   "mcap_usd": 128419,
+   "liquidity_usd": 29701.48,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7104,7 +7122,7 @@
    }
   },
   "2026-11-06": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7141,7 +7159,9 @@
     "11": 1,
     "11|market:liquidity_low": 1,
     "21": 1,
-    "21|market:sells_ge_buys_h1": 1
+    "21|market:sells_ge_buys_h1": 1,
+    "22": 1,
+    "22|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
@@ -7152,7 +7172,7 @@
     "rugcheck:lp_unlocked": 4,
     "grok:skip": 6,
     "rugcheck:insiders": 3,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 2
    }
   }
  }

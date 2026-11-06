@@ -261,10 +261,6 @@
   "symbol": "BNB",
   "judged": 1793485496.1385574
  },
- "4NyRyGt5rwtLBdNQpkDaXnCyGuxHZHsRtzt4jazQpump": {
-  "market_logged": 1793400505.1373646,
-  "market_reason": "mcap_too_low"
- },
  "HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": {
   "market_logged": 1793399904.909436,
   "market_reason": "too_new",
@@ -282,10 +278,6 @@
   "market_reason": "sells_ge_buys_h1",
   "judged": 1793491636.1587355,
   "symbol": "AAPLCAT"
- },
- "CjngxwQWCAtB4sE2M97HakrFK8rcSLdfEBYpNQbWpump": {
-  "market_logged": 1793400505.1373646,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "6MYgTZd7fzGKFuTgf3K3TBphu7NEsm7At1zsHJcfvJwH": {
   "market_logged": 1793401105.5294151,
@@ -9487,7 +9479,9 @@
  },
  "Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP": {
   "market_logged": 1794002673.1522462,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794005512.8691728,
+  "symbol": "PI"
  },
  "FwouH3pvMPUN5t84SvVxYkbUXfi1W7j8ucUiGfGvpump": {
   "market_logged": 1794003873.900627,
@@ -9537,8 +9531,8 @@
   "market_reason": "too_new"
  },
  "H4Yco8GenmbchjBhNRinG96cXBgNJhFRPFyJYPwKpump": {
-  "market_logged": 1794004613.7184541,
-  "market_reason": "too_new"
+  "market_logged": 1794005512.8691728,
+  "market_reason": "sells_ge_buys_h1"
  },
  "G1ij1UjWBcUFtVHz5GVDAopPNMQcbwtdegH94LU6Jray": {
   "market_logged": 1794004613.7184541,
