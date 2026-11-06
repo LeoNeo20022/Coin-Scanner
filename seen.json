@@ -279,10 +279,6 @@
   "symbol": "PILLSEY",
   "judged": 1793398290.2183306
  },
- "3f8KDGG9hSFo35WhKyo2WPsEp2QyLWWkuWh53Lnapump": {
-  "market_logged": 1793395452.9943054,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "78TeSBqRkZb2h8RN4ncuJVA34PPNFEuFXazXr72opump": {
   "market_logged": 1793395753.5819776,
   "market_reason": "pumpfun_bonding_curve"
@@ -9450,7 +9446,9 @@
  },
  "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": {
   "market_logged": 1793997275.4708,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794000427.504654,
+  "symbol": "FUSE"
  },
  "BG8LpegfQxM9REGe8Rw3vxbiMZB1gFpGT4TtYb1vpump": {
   "market_logged": 1793997275.4708,
@@ -9526,5 +9524,9 @@
  "FHbFp67w7wwfJJapBnrXjeHaxcwfUuYEU2Wor2bPpump": {
   "market_logged": 1794000127.9274511,
   "market_reason": "missing:mcap_usd"
+ },
+ "8o6SUa4sqpR9duz9xd9PYj81Bkwzbi7N9v5ckUyqpump": {
+  "market_logged": 1794000427.504654,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
