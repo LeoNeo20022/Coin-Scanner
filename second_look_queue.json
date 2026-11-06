@@ -5783,7 +5783,14 @@
    "mcap_usd": 55734,
    "liquidity_usd": 18572.84,
    "age_hours": 0.77,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-06T11:52:51+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9": {
@@ -6523,6 +6530,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "Hs52HsnbtDFDZLnRhZhNjtVzw9rvFzD4XZqpNo7Qpump": {
+   "mint": "Hs52HsnbtDFDZLnRhZhNjtVzw9rvFzD4XZqpNo7Qpump",
+   "symbol": "NIG",
+   "pair": "FZGiUHoFxbZdgTwcDv6V2W5XvNCuqghsSkFysjbab3in",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T11:52:50+00:00",
+   "rejected_ts": 1793965970,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.067e-05,
+   "mcap_usd": 50676,
+   "liquidity_usd": 17381.14,
+   "age_hours": 0.21,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7061,7 +7086,7 @@
    }
   },
   "2026-11-06": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7094,14 +7119,16 @@
     "07": 1,
     "07|market:liquidity_low": 1,
     "09": 1,
-    "09|market:liquidity_low": 1
+    "09|market:liquidity_low": 1,
+    "11": 1,
+    "11|market:liquidity_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "rugcheck:top10": 5,
-    "market:liquidity_low": 5,
+    "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 2,
     "grok:skip": 1
    }
