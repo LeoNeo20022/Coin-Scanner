@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DoPuTpyJnKEvZeQpDTr5cbZ1vRsTuQuJNCM4S4gPyPZA": {
-   "mint": "DoPuTpyJnKEvZeQpDTr5cbZ1vRsTuQuJNCM4S4gPyPZA",
-   "symbol": "pairless",
-   "pair": "91Jcmk7qE49q4bHnFtV3nS3SsjJ2uZJc2Uq7TJaJWLMo",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T16:06:17+00:00",
-   "rejected_ts": 1793549177,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 9.472e-05,
-   "mcap_usd": 91893,
-   "liquidity_usd": 25277.39,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T16:06:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T16:14:45+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HSN4fgRP1yFXMzUjHbeXLQDEeU2m1aLyFjKgncvPLwdk": {
    "mint": "HSN4fgRP1yFXMzUjHbeXLQDEeU2m1aLyFjKgncvPLwdk",
    "symbol": "PUMPATAR",
@@ -4764,9 +4733,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-06T16:16:02+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "APj59xtb4dRp49bXwKSq5E1XWKLrFbtaYfoQZ9Arpump": {
    "mint": "APj59xtb4dRp49bXwKSq5E1XWKLrFbtaYfoQZ9Arpump",
