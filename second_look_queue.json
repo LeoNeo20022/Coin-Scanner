@@ -1,36 +1,5 @@
 {
  "entries": {
-  "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": {
-   "mint": "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump",
-   "symbol": "ARNOLD",
-   "pair": "FEJsEq9mo3myRyU6D3LHz3TXwoE8GrYhEkzkoqyGsKLP",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T20:21:34+00:00",
-   "rejected_ts": 1793564494,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 7.834e-05,
-   "mcap_usd": 76665,
-   "liquidity_usd": 22837.6,
-   "age_hours": 46.27,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T20:24:19+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-03T20:24:43+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
   "5bVj1AmdRcB3J9vvCzZ51i4o5zdtfMAUxXBi81Hdpump": {
    "mint": "5bVj1AmdRcB3J9vvCzZ51i4o5zdtfMAUxXBi81Hdpump",
    "symbol": "TikTok",
@@ -6554,6 +6523,24 @@
    "age_hours": 4.58,
    "checks": {},
    "done": false
+  },
+  "Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": {
+   "mint": "Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump",
+   "symbol": "GLITCHPEPE",
+   "pair": "BC1ZzhZqV1VPZjVSAYVhTHngSJhWAYhQ7dUcWRY95Lex",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T20:34:40+00:00",
+   "rejected_ts": 1793997280,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0005588,
+   "mcap_usd": 500762,
+   "liquidity_usd": 130379.44,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7092,7 +7079,7 @@
    }
   },
   "2026-11-06": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7135,7 +7122,7 @@
     "market:pumpfun_bonding_curve": 6,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
-    "rugcheck:lp_unlocked": 3,
+    "rugcheck:lp_unlocked": 4,
     "grok:skip": 6,
     "rugcheck:insiders": 3
    }
