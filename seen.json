@@ -263,16 +263,6 @@
   "judged": 1793730914.4887674,
   "symbol": "WOOP"
  },
- "4sYcQgiC3aMoDL935gBUGTvfrWHhoyiUDQicGYLHbibi": {
-  "market_logged": 1793399190.3350523,
-  "market_reason": "mcap_too_low"
- },
- "CEMEy7jkeytkxq3qYjaKyQnKiUdHAMJDM1B1tv2Upump": {
-  "market_logged": 1793398590.4340954,
-  "market_reason": "too_new",
-  "judged": 1793399190.3350523,
-  "symbol": "ONBOARD"
- },
  "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": {
   "symbol": "BNB",
   "judged": 1793485496.1385574
@@ -4144,8 +4134,8 @@
   "symbol": "Ansum"
  },
  "8VdrHbx444YZJZp1vNb9pXAv5aW4Kv7E7bk7Zwaapump": {
-  "market_logged": 1794003873.900627,
-  "market_reason": "too_old"
+  "market_logged": 1794004013.2697618,
+  "market_reason": "liquidity_low"
  },
  "9YjjmTq6vgUfuur2hQai9DazVEVA5t8gUyNfNebYpump": {
   "market_logged": 1793664155.01123,
@@ -9550,5 +9540,9 @@
  "Bmhp8nat7zTFu3Ct8HpQftiHHmB6dnf4B9ivvYYzpump": {
   "judged": 1794003873.900627,
   "symbol": "TIRED"
+ },
+ "GyDhpYYXPPaAgrjpDpVCxubaFrBNht4byXzS8Kv8pump": {
+  "market_logged": 1794004013.2697618,
+  "market_reason": "mcap_too_low"
  }
 }
