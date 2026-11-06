@@ -1,36 +1,5 @@
 {
  "entries": {
-  "GuvRLfGP4CMJfF9VyHv85vih9yqxhNB5R8zgRcD9pump": {
-   "mint": "GuvRLfGP4CMJfF9VyHv85vih9yqxhNB5R8zgRcD9pump",
-   "symbol": "BLACKED",
-   "pair": "2G9DicSiipKRfJrrCeZ8CD34kxYAy8KZrsJQijzd2eTM",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T09:57:09+00:00",
-   "rejected_ts": 1793527029,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.676e-05,
-   "mcap_usd": 56761,
-   "liquidity_usd": 17972.9,
-   "age_hours": 0.25,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T09:58:59+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T10:00:44+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6jFcYpa95qnzX3Kui4TTyPCEzQorHRCHXhoCAg5tpump": {
    "mint": "6jFcYpa95qnzX3Kui4TTyPCEzQorHRCHXhoCAg5tpump",
    "symbol": "\u767d\u3044\u30e4\u30af",
@@ -5783,7 +5752,14 @@
    "mcap_usd": 50275,
    "liquidity_usd": 17407.27,
    "age_hours": 16.82,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-06T10:10:06+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": {
