@@ -6528,6 +6528,24 @@
    "age_hours": 1.19,
    "checks": {},
    "done": false
+  },
+  "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump": {
+   "mint": "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump",
+   "symbol": "HODL",
+   "pair": "CwpmYBDr4Kzuv8f8zq5ZkmH8A544ekH4N4iP3Se3hEzx",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T18:03:47+00:00",
+   "rejected_ts": 1793988227,
+   "stage": "grok",
+   "reason": "318% h6 and 98% h1 gains on 1h-old token scream blow-off top. Buying the exit after parabolic move.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001876,
+   "mcap_usd": 185231,
+   "liquidity_usd": 33623.04,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7066,7 +7084,7 @@
    }
   },
   "2026-11-06": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7110,7 +7128,7 @@
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 3,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:insiders": 3
    }
   }
