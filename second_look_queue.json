@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EM6awuXD9bFZfbchFFioeNpHyKur9bmD5kj3svHpump": {
-   "mint": "EM6awuXD9bFZfbchFFioeNpHyKur9bmD5kj3svHpump",
-   "symbol": "VETO",
-   "pair": "Ei1qF1X8jveEKRQ3QxWANzzNExkyYyCU3S1PQsLwtdKK",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T16:58:23+00:00",
-   "rejected_ts": 1793552303,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 8.501e-05,
-   "mcap_usd": 82081,
-   "liquidity_usd": 22877.15,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T16:58:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T17:07:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "VtzzQCDppEzyZzZAiPjPfGi3mM3kJganthrty9Yymos": {
    "mint": "VtzzQCDppEzyZzZAiPjPfGi3mM3kJganthrty9Yymos",
    "symbol": "YMOS",
@@ -6498,6 +6467,42 @@
    "age_hours": 1.27,
    "checks": {},
    "done": false
+  },
+  "GAMiPgBnyW9RJ3TBobpzUC8UAa8CidBJ348A7uHEpump": {
+   "mint": "GAMiPgBnyW9RJ3TBobpzUC8UAa8CidBJ348A7uHEpump",
+   "symbol": "Chicxu",
+   "pair": "ABkn72Wf7FzdNo2nYeRLdouN7pxjY4QUFYMWqGTMkHYZ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T17:09:25+00:00",
+   "rejected_ts": 1793984965,
+   "stage": "grok",
+   "reason": "568% 6h / 324% 1h gains followed by -18% m5 correction point to blow-off top. Volume still elevated but momentum clearly fading.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003921,
+   "mcap_usd": 386744,
+   "liquidity_usd": 51395.98,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
+  },
+  "7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump": {
+   "mint": "7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump",
+   "symbol": "401kinu",
+   "pair": "7SqbpnyreaD2zjEgFPKDmeCe17Xmpg9ta15UukkFhzez",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T17:09:42+00:00",
+   "rejected_ts": 1793984982,
+   "stage": "grok",
+   "reason": "941% h6 gain after only 1h age shows classic post-spike exhaustion; volume and buys remain elevated but m5/h1 momentum is already decelerating from the initial ",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0005203,
+   "mcap_usd": 517665,
+   "liquidity_usd": 57579.36,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7036,7 +7041,7 @@
    }
   },
   "2026-11-06": {
-   "total": 37,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7080,7 +7085,7 @@
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 3,
-    "grok:skip": 1,
+    "grok:skip": 3,
     "rugcheck:insiders": 3
    }
   }
