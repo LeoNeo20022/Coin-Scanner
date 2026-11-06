@@ -1,36 +1,5 @@
 {
  "entries": {
-  "48Uo5fMMicwgWy4BPN2smoMh4q2zvUR5MaKqZbQRpump": {
-   "mint": "48Uo5fMMicwgWy4BPN2smoMh4q2zvUR5MaKqZbQRpump",
-   "symbol": "BTC",
-   "pair": "49rAw7fahS9kvkVqMBAC9u9H5VgZppsJ1mkGYdbQxAsf",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T08:49:28+00:00",
-   "rejected_ts": 1793522968,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 8.569e-05,
-   "mcap_usd": 84373,
-   "liquidity_usd": 23166.8,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T09:02:33+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T08:49:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GuvRLfGP4CMJfF9VyHv85vih9yqxhNB5R8zgRcD9pump": {
    "mint": "GuvRLfGP4CMJfF9VyHv85vih9yqxhNB5R8zgRcD9pump",
    "symbol": "BLACKED",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T09:05:49+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "BM1Q9KfjgVoERj1eipkPqueMvhz1kfkUfE835ZjJpump": {
    "mint": "BM1Q9KfjgVoERj1eipkPqueMvhz1kfkUfE835ZjJpump",
@@ -4758,9 +4733,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T09:05:49+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump": {
    "mint": "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump",
