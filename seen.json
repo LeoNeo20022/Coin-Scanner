@@ -269,10 +269,6 @@
   "market_logged": 1793337618.7806213,
   "market_reason": "mcap_too_low"
  },
- "6kgDiabQYZd7kJzhCXANGJttfugqwBLnFZVDBTsDpump": {
-  "market_logged": 1793337018.873416,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "13wdtUMkhFicqcPK9Gh5F2JBkV4aRULGCsLxwiJ2pump": {
   "market_logged": 1793337918.2603881,
   "market_reason": "pumpfun_bonding_curve"
@@ -4563,8 +4559,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
-  "market_logged": 1793941761.0446084,
-  "market_reason": "mcap_too_low",
+  "market_logged": 1793942061.0553195,
+  "market_reason": "too_old",
   "symbol": "RICO",
   "judged": 1793815160.1243536
  },
@@ -9674,5 +9670,9 @@
  "CjEkhWt1ifjwJh9AQat3dpWa9YTeSXmULuQyjFzUpump": {
   "market_logged": 1793941761.0446084,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "ag45Z2EKBhDNiJmh8iDvXqSQPGsKk35SsMvQi8Vpump": {
+  "market_logged": 1793942061.0553195,
+  "market_reason": "mcap_too_low"
  }
 }
