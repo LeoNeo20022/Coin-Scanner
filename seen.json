@@ -271,23 +271,9 @@
   "judged": 1793368554.9487083,
   "symbol": "NIG"
  },
- "etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump": {
-  "market_logged": 1793367955.407832,
-  "market_reason": "too_new",
-  "symbol": "SAFU",
-  "judged": 1793368254.3097806
- },
  "4qizrkdhWZBRMSm1BCs1m13Ju3YJxAu4mjbuSKjypump": {
   "market_logged": 1793373499.5027883,
   "market_reason": "mcap_too_low"
- },
- "HZk68axB7kaiUgxauBRLLY2iiadXpdxHexw9Vz1qpump": {
-  "market_logged": 1793368254.3097806,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "BsFuREtbbaPEKT4xKTPjqtj7cqnaJMLBAyHozSoXpump": {
-  "market_logged": 1793368254.3097806,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "7gZdo4hgvHib1zGgYffjo6sA7vPWpaSpc6zj55CCpump": {
   "market_logged": 1793368554.9487083,
@@ -9580,8 +9566,8 @@
   "market_reason": "too_new"
  },
  "2D88NTW3ND7gGYRXpZvsD9jkYn9yN3Qm8CVyprHLpump": {
-  "market_logged": 1793972133.9164011,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793973333.4578009,
+  "market_reason": "liquidity_low"
  },
  "4FHEBKNYy6BZ1QFMKj1xL8HDTM12rdXLRYw8DgiCUnQn": {
   "market_logged": 1793972433.4087439,
@@ -9605,6 +9591,10 @@
  },
  "GzH5ZKJmQcdAk1hA6KzMbqvUs769pt1HvfU5EDRmt85z": {
   "market_logged": 1793973033.8574455,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "7MjcRuYAvJkTRRTi3SsTRGJVVBDvDREdJm3ycYVUpump": {
+  "market_logged": 1793973333.4578009,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
