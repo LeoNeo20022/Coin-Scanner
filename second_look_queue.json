@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump": {
-   "mint": "DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump",
-   "symbol": "SA",
-   "pair": "3PmNRczd8aTyNN9HV8b5KbyeUBB6ZyA3fg99x45zX6nC",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T14:44:22+00:00",
-   "rejected_ts": 1793544262,
-   "stage": "grok",
-   "reason": "1018% h6 gain after only 2.7h is classic blow-off; m5/h1 momentum already decelerating sharply.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0005848,
-   "mcap_usd": 581976,
-   "liquidity_usd": 63179.95,
-   "age_hours": 2.72,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T14:49:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T14:48:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump": {
    "mint": "2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump",
    "symbol": "Pikmin",
@@ -6566,6 +6535,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump": {
+   "mint": "A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump",
+   "symbol": "ODDLY",
+   "pair": "2JPbBFzPqyHgaavak5nGT38Y38j5wjK75ikpv3bkq7qV",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T14:59:05+00:00",
+   "rejected_ts": 1793977145,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 6.948e-05,
+   "mcap_usd": 67515,
+   "liquidity_usd": 20890.03,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7104,7 +7091,7 @@
    }
   },
   "2026-11-06": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7148,7 +7135,8 @@
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 2,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
