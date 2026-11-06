@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HhBuvegE7Ew2stS5svkMcxL8povkaL8brwt9JUtfpump": {
-   "mint": "HhBuvegE7Ew2stS5svkMcxL8povkaL8brwt9JUtfpump",
-   "symbol": "BALLS",
-   "pair": "3H1pHTEd9JKmca6XGasWsms8r46PqL7WMVuwRkn8hsrw",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T03:46:31+00:00",
-   "rejected_ts": 1793504791,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.000104,
-   "mcap_usd": 99782,
-   "liquidity_usd": 25699.58,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T03:59:02+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T03:54:54+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "EddrjeVVAor8uvMbwRKyB9N4Kx8WVVeFJxLTcUVDpump": {
    "mint": "EddrjeVVAor8uvMbwRKyB9N4Kx8WVVeFJxLTcUVDpump",
    "symbol": "Mamesuke",
@@ -4423,9 +4392,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-06T03:53:54+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": {
    "mint": "GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump",
@@ -4448,9 +4423,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T03:53:54+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "2TnvXN4doLGs5Wa6n55Ajz5s6pQFp3PhyhgZfBsxpump": {
    "mint": "2TnvXN4doLGs5Wa6n55Ajz5s6pQFp3PhyhgZfBsxpump",
