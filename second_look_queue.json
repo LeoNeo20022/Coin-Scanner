@@ -1,36 +1,5 @@
 {
  "entries": {
-  "3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump": {
-   "mint": "3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump",
-   "symbol": "tipr",
-   "pair": "6qfkD7d8RaFVAn1FC76M5MtqAr3kHrHpxPwMQvL6Ndxt",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T04:40:01+00:00",
-   "rejected_ts": 1793508001,
-   "stage": "grok",
-   "reason": "411% h1 gain on 1h-old token screams blow-off top; volume and buys strong but already fading relative to the spike.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002138,
-   "mcap_usd": 206800,
-   "liquidity_usd": 37491.81,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T04:51:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T04:44:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "J84L4fxm3WwKvxWYzcRwV1fgLyTTUGHZomX7VurSpump": {
    "mint": "J84L4fxm3WwKvxWYzcRwV1fgLyTTUGHZomX7VurSpump",
    "symbol": "ELON",
@@ -4454,9 +4423,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T04:54:25+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "DjHKt7MrZQ1cCiBJgtD6aomQcUBsnxedrHqgdCTupump": {
    "mint": "DjHKt7MrZQ1cCiBJgtD6aomQcUBsnxedrHqgdCTupump",
@@ -4479,9 +4454,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T04:54:25+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump": {
    "mint": "FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump",
