@@ -1,36 +1,5 @@
 {
  "entries": {
-  "VtzzQCDppEzyZzZAiPjPfGi3mM3kJganthrty9Yymos": {
-   "mint": "VtzzQCDppEzyZzZAiPjPfGi3mM3kJganthrty9Yymos",
-   "symbol": "YMOS",
-   "pair": "EUFXsUuDXstC3KpzRAE7dKtzPHuaZHk314txNuNiUnGR",
-   "dex": "orca",
-   "rejected_at": "2026-11-01T18:12:29+00:00",
-   "rejected_ts": 1793556749,
-   "stage": "rugcheck",
-   "reason": "danger:Large Amount of LP Unlocked",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001468,
-   "mcap_usd": 146800,
-   "liquidity_usd": 145385.18,
-   "age_hours": 1.08,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T18:17:13+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T18:12:41+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": {
    "mint": "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump",
    "symbol": "ARNOLD",
@@ -5752,7 +5721,14 @@
    "mcap_usd": 1802834,
    "liquidity_usd": 107890.33,
    "age_hours": 18.92,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-06T18:13:03+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "FsTN7q7wVywYsCNBKfA7R1fJ97rADdvrMMtNSBWYpump": {
@@ -6546,6 +6522,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "mV9kZc5WEcsupy9KYZo1c7x52Ys1A5CDK73Ysg6pump": {
+   "mint": "mV9kZc5WEcsupy9KYZo1c7x52Ys1A5CDK73Ysg6pump",
+   "symbol": "ROCCO",
+   "pair": "6wZc2vrqZKfLCa4hSabMXTLURj5GjjmkNHQL3hiJv9Zn",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T18:12:58+00:00",
+   "rejected_ts": 1793988778,
+   "stage": "grok",
+   "reason": "409% h1 and 471% h6 gains on a 4.5h token scream blow-off top. Volume and buys look strong but likely fading exit liquidity.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0006169,
+   "mcap_usd": 608445,
+   "liquidity_usd": 62299.49,
+   "age_hours": 4.58,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7084,7 +7078,7 @@
    }
   },
   "2026-11-06": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7128,7 +7122,7 @@
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 3,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:insiders": 3
    }
   }

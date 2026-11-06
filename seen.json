@@ -9086,8 +9086,8 @@
   "market_reason": "mcap_too_low"
  },
  "CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump": {
-  "market_logged": 1793987312.66458,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793988764.0808103,
+  "market_reason": "liquidity_low"
  },
  "GfJp1CbDsaoSGf3rXqVbgmwRx3HtZ6mCtv16GzFgpump": {
   "market_logged": 1793958002.4904773,
@@ -9501,7 +9501,9 @@
  },
  "AgnsZbSP5MMiVCK8G2MJuxWEYV9X8PUUL1NtP6papump": {
   "market_logged": 1793986112.440823,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793988764.0808103,
+  "symbol": "Degen"
  },
  "9sxUuagGctf9XBZB4KwWFj9C6Mkzj1PPWpTrbzLJpump": {
   "market_logged": 1793986112.440823,
@@ -9546,16 +9548,16 @@
   "market_reason": "mcap_too_low"
  },
  "5aDjvdypu3N88vfC6ZN85CwjeR49N2Bcp7gL7C5Epump": {
-  "market_logged": 1793987912.479821,
-  "market_reason": "liquidity_low"
+  "market_logged": 1793988764.0808103,
+  "market_reason": "mcap_too_low"
  },
  "HSUVjgv7nLdnWHMp1kxFAKR8FadisPqa55LJf6M4pump": {
   "market_logged": 1793988212.543645,
   "market_reason": "mcap_too_low"
  },
  "J3icQvBVUiVTnmRuDVnyT9jad2hJB6R6gjkCoqkUpump": {
-  "market_logged": 1793988212.543645,
-  "market_reason": "too_new"
+  "market_logged": 1793988764.0808103,
+  "market_reason": "mcap_too_low"
  },
  "ANoKnrzuemscJtL8SPf3qHuQ52rnXPbab8nbw4cUpump": {
   "market_logged": 1793987912.479821,
@@ -9570,11 +9572,22 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "FugyvQb7hrg71eL8iWu6cpZvg9HyJBXN761dzxNFpump": {
-  "market_logged": 1793988212.543645,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1793988764.0808103,
+  "market_reason": "too_new"
  },
  "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
   "market_logged": 1793988212.543645,
   "market_reason": "too_old"
+ },
+ "mV9kZc5WEcsupy9KYZo1c7x52Ys1A5CDK73Ysg6pump": {
+  "symbol": "ROCCO",
+  "judged": 1793988764.0808103
+ },
+ "3rxXFMNgXgefmncUJnbmt9CWNyknbD6q7uZfZza3pump": {
+  "market_logged": 1793988764.0808103,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "J6qBwUcQU6x7hwtNp4Pwf2zMttnPdBJeNMECREYjsJ9F": {
+  "market_logged": 1793988764.0808103
  }
 }
