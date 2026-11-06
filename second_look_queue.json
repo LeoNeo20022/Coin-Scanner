@@ -1,36 +1,5 @@
 {
  "entries": {
-  "x94ouReAXGWHfNnGokusmmfNttSNEXyfY4ZCQq9pump": {
-   "mint": "x94ouReAXGWHfNnGokusmmfNttSNEXyfY4ZCQq9pump",
-   "symbol": "iTech",
-   "pair": "DR6ufMYXncJzmpQHXYyR75Pqyi4EtE6osBd8RBr8g9zW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T04:16:43+00:00",
-   "rejected_ts": 1793506603,
-   "stage": "grok",
-   "reason": "441% h6 gain with 40% h1 follow-through signals blow-off top. Buys still outpace sells but volume and price action already peaked.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002273,
-   "mcap_usd": 224385,
-   "liquidity_usd": 38225.32,
-   "age_hours": 1.64,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T04:19:03+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T04:19:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump": {
    "mint": "3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump",
    "symbol": "tipr",
@@ -6483,6 +6452,24 @@
    "age_hours": 0.65,
    "checks": {},
    "done": false
+  },
+  "GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump": {
+   "mint": "GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump",
+   "symbol": "LUNOX",
+   "pair": "Gnh9QAHHkYP3mVe8pzqkL4YHUCBbDHwfs4iBp3wkNztd",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T04:39:36+00:00",
+   "rejected_ts": 1793939976,
+   "stage": "grok",
+   "reason": "162% h6 gain with only modest h1 follow-through suggests fading spike; m5 uptick is narrow.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 9.822e-05,
+   "mcap_usd": 93441,
+   "liquidity_usd": 24134.46,
+   "age_hours": 1.76,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7021,7 +7008,7 @@
    }
   },
   "2026-11-06": {
-   "total": 19,
+   "total": 20,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7050,7 +7037,8 @@
     "market:pumpfun_bonding_curve": 4,
     "rugcheck:top10": 3,
     "market:liquidity_low": 2,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "grok:skip": 1
    }
   }
  }
