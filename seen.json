@@ -251,21 +251,9 @@
   "market_logged": 1793638707.4432132,
   "market_reason": "mcap_too_low"
  },
- "2h5v9mmUU7esUdLckTA6MfY3rYPbb2Hxem9NTo3rpump": {
-  "market_logged": 1793329562.7176287,
-  "market_reason": "mcap_too_low"
- },
- "7uhwGVD2JySv7panqZTTrdcwkpcYycUwZJ8he9m4pump": {
-  "market_logged": 1793329562.7176287,
-  "market_reason": "mcap_too_low"
- },
  "EnPkecBXCGJAHLcHKg9Tb3C4HV2CLcrGXXW6CJYEpump": {
   "market_logged": 1793500756.0244472,
   "market_reason": "pumpfun_bonding_curve"
- },
- "ZErovZEujap4rZq3sadCvcK9T7sCPaS9ESNj79bPday": {
-  "market_logged": 1793329562.7176287,
-  "market_reason": "mcap_too_low"
  },
  "C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": {
   "market_logged": 1793330462.7295294,
@@ -9673,7 +9661,9 @@
  },
  "Dk2iHPgeStfACECMbmigRRcDtP8yzfTjdHnMq7hqpump": {
   "market_logged": 1793933283.9486377,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793934455.930711,
+  "symbol": "DEGEN"
  },
  "CTBLN2kx2Lmn2UhTdvAuEdXRvPcRYPgdCXEjrNPKpump": {
   "market_logged": 1793931183.8649,
@@ -9722,5 +9712,9 @@
  "5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": {
   "judged": 1793933855.3878498,
   "symbol": "Diamond"
+ },
+ "98fC4J983dhAbtmAMo2HamraUGhx5MQSHFnkeSsDvbUp": {
+  "market_logged": 1793934455.930711,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
