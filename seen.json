@@ -116,7 +116,7 @@
   "judged": 1793141528.68965
  },
  "8gMWXHfSwBRSLc2wKtLv24JYboCAsKaEqfC5cXLeZJXL": {
-  "market_logged": 1793810390.6979206,
+  "market_logged": 1793936630.4796987,
   "market_reason": "mcap_too_low"
  },
  "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": {
@@ -277,10 +277,6 @@
   "symbol": "BITCAT",
   "judged": 1793334286.4027793
  },
- "4hqDzrKcbQhQ74sokT7wTMyY1rAeiVrsdZkDDmRZrbTu": {
-  "market_logged": 1793331518.5476274,
-  "market_reason": "mcap_too_low"
- },
  "J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": {
   "symbol": "Foxii",
   "judged": 1793331062.7103934,
@@ -292,10 +288,6 @@
   "market_reason": "mcap_too_low",
   "symbol": "HYPERCHAN",
   "judged": 1793334286.4027793
- },
- "5hF28Mf6oWc9QJMWWJHFk59e3V1jTihd7QbiDC3fdecu": {
-  "market_logged": 1793331818.394181,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "Ey8EvLyHAoRPhTXJji6WFKmpPxpqmnyU1itURCWbpump": {
   "market_logged": 1793332418.1160235,
@@ -9625,7 +9617,9 @@
  },
  "CMK5SEFQw3DDs6iGTBBAHeyQyMnBgtZvFnUp6tYwabi": {
   "market_logged": 1793931183.8649,
-  "market_reason": "mcap_too_low"
+  "market_reason": "mcap_too_low",
+  "judged": 1793936630.4796987,
+  "symbol": "WABI"
  },
  "Dk2iHPgeStfACECMbmigRRcDtP8yzfTjdHnMq7hqpump": {
   "market_logged": 1793933283.9486377,
@@ -9714,5 +9708,9 @@
  "FdDM4cwd39gghgjXozi9q22jRiwydt9ffbpF1srFpump": {
   "market_logged": 1793935655.7378263,
   "market_reason": "mcap_too_low"
+ },
+ "5ve4fMHU4BsSgJvjF9NEMp5m9yNLqYkugPKbV7SZpump": {
+  "market_logged": 1793936630.4796987,
+  "market_reason": "too_new"
  }
 }
