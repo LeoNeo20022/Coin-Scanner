@@ -6503,6 +6503,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump": {
+   "mint": "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump",
+   "symbol": "KoriMu",
+   "pair": "VckNvYmiFj6fBzYvHrKeog5ADojztt8q6CPWURrXysA",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T17:28:47+00:00",
+   "rejected_ts": 1793986127,
+   "stage": "grok",
+   "reason": "437% h6 pump already reversing hard (-28% m5) after peak volume; buying looks like fading spike not sustained flow.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002061,
+   "mcap_usd": 203374,
+   "liquidity_usd": 35286.7,
+   "age_hours": 1.19,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7041,7 +7059,7 @@
    }
   },
   "2026-11-06": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7085,7 +7103,7 @@
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 3,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:insiders": 3
    }
   }
