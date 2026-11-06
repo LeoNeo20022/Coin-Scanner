@@ -6480,6 +6480,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump": {
+   "mint": "Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump",
+   "symbol": "PICASSO",
+   "pair": "3WT8ZJ2GWA379QtEKh7gzdCmtzHyo6fg9spUfVqQsdDw",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T16:49:14+00:00",
+   "rejected_ts": 1793983754,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.000164,
+   "mcap_usd": 161289,
+   "liquidity_usd": 31348.26,
+   "age_hours": 1.27,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7018,7 +7036,7 @@
    }
   },
   "2026-11-06": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7063,7 +7081,7 @@
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 3,
     "grok:skip": 1,
-    "rugcheck:insiders": 2
+    "rugcheck:insiders": 3
    }
   }
  }
