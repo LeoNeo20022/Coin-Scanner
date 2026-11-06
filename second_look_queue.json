@@ -4361,9 +4361,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-11-06T04:08:55+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "pumpfun_bonding_curve"
     }
    },
-   "done": false
+   "done": true
   },
   "9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": {
    "mint": "9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump",
@@ -4386,9 +4392,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T04:08:55+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "4M5DceVdRSz6Cxjix5uU7PXFL6vuG2hJhQrydbk1pump": {
    "mint": "4M5DceVdRSz6Cxjix5uU7PXFL6vuG2hJhQrydbk1pump",
@@ -4411,9 +4423,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "liquidity_low"
+    },
+    "48h": {
+     "time": "2026-11-06T04:08:55+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "DYgjAqwkr2EDkGYstsLEEpDdb7SHYjrSJyzu9RQ8pump": {
    "mint": "DYgjAqwkr2EDkGYstsLEEpDdb7SHYjrSJyzu9RQ8pump",
@@ -4436,9 +4454,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-06T04:08:55+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump": {
    "mint": "7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump",
@@ -5730,7 +5754,14 @@
    "mcap_usd": 223214,
    "liquidity_usd": 40044.93,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-06T04:08:55+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BHNQ7ksa218YvGoUtH6tyYatULTnocPpp2rE3LPtpump": {
