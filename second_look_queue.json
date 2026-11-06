@@ -1,129 +1,5 @@
 {
  "entries": {
-  "EJtBCwYqNX7kQEPU38T7bxcfwjVFaXuPBYZY7Gwtpump": {
-   "mint": "EJtBCwYqNX7kQEPU38T7bxcfwjVFaXuPBYZY7Gwtpump",
-   "symbol": "IF",
-   "pair": "EwVd1cPpos4ahB9JtZH8zfjCXTQetia88fxdsb3YSE8h",
-   "dex": "pumpfun",
-   "rejected_at": "2026-11-01T02:14:20+00:00",
-   "rejected_ts": 1793499260,
-   "stage": "market",
-   "reason": "pumpfun_bonding_curve",
-   "reason_key": "market:pumpfun_bonding_curve",
-   "sources": "token-profiles",
-   "price_usd": 7.474e-06,
-   "mcap_usd": 7474.74,
-   "liquidity_usd": null,
-   "age_hours": 0.3,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T02:21:29+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T02:19:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": {
-   "mint": "CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump",
-   "symbol": "BLUE",
-   "pair": "BzomHwB33RGwuyWdm8sQFi3ZDNaUWnpmHRaiQaLQNZiA",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T02:14:20+00:00",
-   "rejected_ts": 1793499260,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001902,
-   "mcap_usd": 189902,
-   "liquidity_usd": 35575.48,
-   "age_hours": 0.5,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T02:21:29+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-03T02:19:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "GBrgLVkjZ2hx32pGkZ4so31gks97cAKQiFR7fuyBpump": {
-   "mint": "GBrgLVkjZ2hx32pGkZ4so31gks97cAKQiFR7fuyBpump",
-   "symbol": "Reaper",
-   "pair": "EzTjDe4K6rGJjnmaCLWgoK7a9rCNgZuBd2hHNYr85NA8",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T02:14:20+00:00",
-   "rejected_ts": 1793499260,
-   "stage": "market",
-   "reason": "mcap_too_low",
-   "reason_key": "market:mcap_too_low",
-   "sources": "token-profiles",
-   "price_usd": 2.836e-05,
-   "mcap_usd": 26486,
-   "liquidity_usd": 12144.87,
-   "age_hours": 1.19,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T02:21:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-03T02:19:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "wMHBD2B8KbDagvXUEapginhtJdrH4QSvSezBM8Tpump": {
-   "mint": "wMHBD2B8KbDagvXUEapginhtJdrH4QSvSezBM8Tpump",
-   "symbol": "ANTS",
-   "pair": "CnGpHrpgnoeh37YakXvYipfgsvMuU2fcKKtLYEsSDQqc",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-01T02:14:29+00:00",
-   "rejected_ts": 1793499269,
-   "stage": "grok",
-   "reason": "138% h1 and 63% m5 surge after already strong h6 move looks like blow-off top. Buys remain elevated but momentum is extreme and fading risk is high.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0005669,
-   "mcap_usd": 559479,
-   "liquidity_usd": 61630.67,
-   "age_hours": 10.67,
-   "checks": {
-    "24h": {
-     "time": "2026-11-02T02:21:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_high"
-    },
-    "48h": {
-     "time": "2026-11-03T02:19:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    }
-   },
-   "done": true
-  },
   "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": {
    "mint": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
    "symbol": "BLOB",
@@ -5810,7 +5686,14 @@
    "mcap_usd": 390108,
    "liquidity_usd": 126309.47,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-06T02:23:07+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "sells_ge_buys_h1"
+    }
+   },
    "done": false
   },
   "3BeJLbpE9te1VW1PEEzDb6Q9jP6DibqijwQQnux1pump": {
