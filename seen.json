@@ -285,10 +285,6 @@
   "market_logged": 1793333018.6379104,
   "market_reason": "mcap_too_low"
  },
- "BAi3oU6GCXrTkDm5S5gKP724jGdhGvNqrDwe1ZWwpump": {
-  "market_logged": 1793328962.6937451,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "4MYYrunzRVyQqFAGGMdCnxjjyz8YkGrYg9XnH1nMpump": {
   "market_logged": 1793329862.416641,
   "market_reason": "pumpfun_bonding_curve"
@@ -9675,7 +9671,9 @@
  },
  "Fyff8ZbT3omcwoqmAgLbXH25tzqQp1FoM4UYWtePpump": {
   "market_logged": 1793931183.8649,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1793933855.3878498,
+  "symbol": "Chika"
  },
  "CMK5SEFQw3DDs6iGTBBAHeyQyMnBgtZvFnUp6tYwabi": {
   "market_logged": 1793931183.8649,
@@ -9702,8 +9700,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "4cLaBCSvzcpiqECbMgchHLTK5dw5uc6AmrCjSD7Hpump": {
-  "market_logged": 1793932083.1958444,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1793933855.3878498,
+  "market_reason": "mcap_too_low"
  },
  "fyDSQ8X3csuAc9Tvnp8qbiw2JZ5mUzJ3L92J4cLpump": {
   "market_logged": 1793932083.1958444,
@@ -9720,5 +9718,17 @@
  "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": {
   "market_logged": 1793932983.6024752,
   "market_reason": "too_new"
+ },
+ "HNRwAGPtB3UGAHeuKz3oxDSZroFiFLEgyLxbX61znHL3": {
+  "market_logged": 1793933855.3878498,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "AHXc3v37ffabjPVG2sJQ3GH7MGoR4u4epTUtVdbJpump": {
+  "market_logged": 1793933855.3878498,
+  "market_reason": "mcap_too_low"
+ },
+ "5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": {
+  "judged": 1793933855.3878498,
+  "symbol": "Diamond"
  }
 }

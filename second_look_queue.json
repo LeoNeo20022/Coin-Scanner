@@ -6426,6 +6426,24 @@
    "age_hours": 0.15,
    "checks": {},
    "done": false
+  },
+  "5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": {
+   "mint": "5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump",
+   "symbol": "Diamond",
+   "pair": "GhFSaPdvu75KCpsUVk7CZ8A1tdjYeo6YvZx1QiBgwfSJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-06T02:57:40+00:00",
+   "rejected_ts": 1793933860,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0004439,
+   "mcap_usd": 424248,
+   "liquidity_usd": 63823.25,
+   "age_hours": 2.45,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6964,7 +6982,7 @@
    }
   },
   "2026-11-06": {
-   "total": 11,
+   "total": 12,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6984,7 +7002,8 @@
     "market:too_new": 2,
     "market:pumpfun_bonding_curve": 2,
     "rugcheck:top10": 2,
-    "market:liquidity_low": 2
+    "market:liquidity_low": 2,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
