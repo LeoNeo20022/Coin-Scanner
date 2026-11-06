@@ -14,7 +14,7 @@
   "market_reason": "too_old"
  },
  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
-  "market_logged": 1793910600.9970553,
+  "market_logged": 1794003273.9049342,
   "market_reason": "too_old"
  },
  "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump": {
@@ -262,12 +262,6 @@
   "market_reason": "volume_h1_low",
   "judged": 1793730914.4887674,
   "symbol": "WOOP"
- },
- "J5jxG3PFaWpj6BLEQExyC6FSqSvaTKNdQ9G3sZwBpump": {
-  "market_logged": 1793395153.7166674,
-  "market_reason": "too_new",
-  "symbol": "PILLSEY",
-  "judged": 1793398290.2183306
  },
  "4sYcQgiC3aMoDL935gBUGTvfrWHhoyiUDQicGYLHbibi": {
   "market_logged": 1793399190.3350523,
@@ -9465,7 +9459,9 @@
  },
  "HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump": {
   "market_logged": 1794002673.1522462,
-  "market_reason": "mcap_too_low"
+  "market_reason": "mcap_too_low",
+  "judged": 1794003273.9049342,
+  "symbol": "sexcoin"
  },
  "4VyS1DWXDEbu8jVyJUjqNJN3SXGgZYf2uo3YZ6QLpump": {
   "market_logged": 1794001327.2470531,
@@ -9546,5 +9542,9 @@
  "FMqWsXKaAe41Kxfji7v5cpzQmr2gKAteAi9wREmkpump": {
   "market_logged": 1794002973.6872692,
   "market_reason": "too_old"
+ },
+ "7V4U1jf2y4NScGs61tFLuGgNFq4uqtbTFKUL7EFNhxpr": {
+  "market_logged": 1794003273.9049342,
+  "market_reason": "liquidity_low"
  }
 }
