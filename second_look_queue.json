@@ -1,36 +1,5 @@
 {
  "entries": {
-  "B7Cj19ke2F8S6fazbBvGMxHYNNMYuDaAn3Sn2Zikpump": {
-   "mint": "B7Cj19ke2F8S6fazbBvGMxHYNNMYuDaAn3Sn2Zikpump",
-   "symbol": "YES",
-   "pair": "ELbGWBp7dSm8GcXdNXGfMgKJnuwyMgJxzyEJmiNaRpGB",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T14:03:16+00:00",
-   "rejected_ts": 1793628196,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 7.47e-05,
-   "mcap_usd": 71544,
-   "liquidity_usd": 21237.73,
-   "age_hours": 1.52,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T14:03:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T14:31:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HynFxFcxAH82Y6PLJghGD4XUj2TqgHfFWLckiHcHpump": {
    "mint": "HynFxFcxAH82Y6PLJghGD4XUj2TqgHfFWLckiHcHpump",
    "symbol": "SARP",
@@ -6594,6 +6563,24 @@
    "age_hours": 1.14,
    "checks": {},
    "done": false
+  },
+  "4gyubJ7sqYDySUDmVFEfSdvvC43F1eWLUXgEHDDWpump": {
+   "mint": "4gyubJ7sqYDySUDmVFEfSdvvC43F1eWLUXgEHDDWpump",
+   "symbol": "debtdog",
+   "pair": "FJSMvMR5bysnMZUkQgjadYFk4fpR3VRPCXbFbEaFXZQ1",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T14:21:36+00:00",
+   "rejected_ts": 1794061296,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 9.676e-05,
+   "mcap_usd": 93049,
+   "liquidity_usd": 24494.87,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7129,7 +7116,7 @@
    }
   },
   "2026-11-07": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7173,7 +7160,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "rugcheck:top10": 4,
-    "rugcheck:insiders": 4,
+    "rugcheck:insiders": 5,
     "grok:skip": 2,
     "rugcheck:danger": 1,
     "market:liquidity_low": 6,
