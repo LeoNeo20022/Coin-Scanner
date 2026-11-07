@@ -4640,9 +4640,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-07T00:11:59+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "97GCuS8PAMdoXcrsmjjLEjcgt5cKPhSZW382y4G9pump": {
    "mint": "97GCuS8PAMdoXcrsmjjLEjcgt5cKPhSZW382y4G9pump",
@@ -6589,6 +6595,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": {
+   "mint": "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump",
+   "symbol": "HODL",
+   "pair": "ANS69UDTbMCWbW7ZuCYXLZ4HMCQkvzPMtCW9zjPZQGKR",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T00:11:56+00:00",
+   "rejected_ts": 1794010316,
+   "stage": "grok",
+   "reason": "Massive 3056% h6 / 312% h1 gains on 1h-old token with m5 already -4% signal blow-off top. Buying volume strong but fading fast after parabolic move.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.001564,
+   "mcap_usd": 1557295,
+   "liquidity_usd": 101093.65,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7124,7 +7148,7 @@
    }
   },
   "2026-11-07": {
-   "total": 5,
+   "total": 6,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7136,7 +7160,8 @@
     "market:pumpfun_bonding_curve": 1,
     "market:mcap_too_low": 1,
     "rugcheck:top10": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "grok:skip": 1
    }
   }
  }
