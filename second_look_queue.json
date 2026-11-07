@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
-   "mint": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
-   "symbol": "RICO",
-   "pair": "Fby8NV8FRJZnZriiHUdVANBadTLJfBNT9MVkkN61FoLY",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T17:57:10+00:00",
-   "rejected_ts": 1793642230,
-   "stage": "grok",
-   "reason": "103% h6 gain with volume already dropping sharply from h6 to h1; organic_score only 39.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 7.82e-05,
-   "mcap_usd": 74610,
-   "liquidity_usd": 21144.32,
-   "age_hours": 1.5,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T17:57:36+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-11-04T17:59:29+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    }
-   },
-   "done": true
-  },
   "8KwLDzEDYdp9hP8YNsx29Kjzp3pNHTacQHdYgjibpump": {
    "mint": "8KwLDzEDYdp9hP8YNsx29Kjzp3pNHTacQHdYgjibpump",
    "symbol": "pumpcat",
@@ -5548,7 +5517,14 @@
    "mcap_usd": 185231,
    "liquidity_usd": 33623.04,
    "age_hours": 1.07,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T18:07:37+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "mV9kZc5WEcsupy9KYZo1c7x52Ys1A5CDK73Ysg6pump": {
