@@ -5727,7 +5727,14 @@
    "mcap_usd": 102035,
    "liquidity_usd": 25171.38,
    "age_hours": 0.34,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T02:15:45+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "CMK5SEFQw3DDs6iGTBBAHeyQyMnBgtZvFnUp6tYwabi": {
@@ -5745,7 +5752,14 @@
    "mcap_usd": 19263,
    "liquidity_usd": 12237.41,
    "age_hours": 0.6,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T02:15:45+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "Dk2iHPgeStfACECMbmigRRcDtP8yzfTjdHnMq7hqpump": {
@@ -5763,7 +5777,14 @@
    "mcap_usd": 55124,
    "liquidity_usd": 19516.53,
    "age_hours": 0.15,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T02:15:45+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": {
@@ -6593,6 +6614,24 @@
    "age_hours": 1.16,
    "checks": {},
    "done": false
+  },
+  "41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump": {
+   "mint": "41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump",
+   "symbol": "scamsem",
+   "pair": "7xfY46cX3iERduX2denyAM4PLxpQeCouVCaZ9N3gYh76",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T02:15:44+00:00",
+   "rejected_ts": 1794017744,
+   "stage": "rugcheck",
+   "reason": "danger:Single holder ownership",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0009507,
+   "mcap_usd": 943265,
+   "liquidity_usd": 90841.6,
+   "age_hours": 1.09,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7128,7 +7167,7 @@
    }
   },
   "2026-11-07": {
-   "total": 12,
+   "total": 13,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7149,7 +7188,8 @@
     "market:mcap_too_low": 3,
     "rugcheck:top10": 1,
     "rugcheck:insiders": 1,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "rugcheck:danger": 1
    }
   }
  }
