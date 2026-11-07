@@ -293,10 +293,6 @@
   "symbol": "iCat",
   "judged": 1793424997.2805483
  },
- "3B3SJFo8kvVoMvvkzrUCPdpDeSeCL773AJ3kNLWJpump": {
-  "market_logged": 1793423797.0671608,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "EnxDRnMz9tZ8UM8f2JNfKGdeMsPJaga6dycapGtm4CfU": {
   "market_logged": 1793424097.6357253
  },
@@ -9494,12 +9490,12 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "GsZANz2KPDJdrQgcdmmYdmCUkxRWFfhkukcYeMSvpump": {
-  "market_logged": 1794026715.0298615,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794028840.7532516,
+  "market_reason": "mcap_too_low"
  },
  "3J9aZ8aJq8c5Xz7DmBHGPi1e4v6Dw1S87tatoPXYpump": {
-  "market_logged": 1794028240.9713762,
-  "market_reason": "too_new"
+  "market_logged": 1794028840.7532516,
+  "market_reason": "liquidity_low"
  },
  "9DubmcpjdeJvJv225TjDL3uz9579dT1U8nGrWa9xpump": {
   "market_logged": 1794027641.2739253,
@@ -9511,7 +9507,9 @@
  },
  "Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump": {
   "market_logged": 1794027641.2739253,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794028840.7532516,
+  "symbol": "Twizter"
  },
  "G77jG5U6CE6iXA2oY1nvCwrvpo8TrW16BC4BmScopump": {
   "market_logged": 1794026715.0298615,
@@ -9526,10 +9524,14 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": {
-  "market_logged": 1794028540.6357267,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794028840.7532516,
+  "market_reason": "liquidity_low"
  },
  "76inp9q4HxQUsGxEvxMhhjtx9DipbMrqssLQEcWABJnp": {
   "market_logged": 1794027940.6147969
+ },
+ "999Y1nMepcsWZSd3gNXYPku6S6p4bEUNkaAaNHdgpump": {
+  "market_logged": 1794028840.7532516,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
