@@ -1,129 +1,5 @@
 {
  "entries": {
-  "HynFxFcxAH82Y6PLJghGD4XUj2TqgHfFWLckiHcHpump": {
-   "mint": "HynFxFcxAH82Y6PLJghGD4XUj2TqgHfFWLckiHcHpump",
-   "symbol": "SARP",
-   "pair": "2GQdgg9EdvUcSa8vXaBrhkiT3LCho65iBB5npnWDmi25",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T15:04:12+00:00",
-   "rejected_ts": 1793631852,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0002324,
-   "mcap_usd": 221915,
-   "liquidity_usd": 37796.18,
-   "age_hours": 14.33,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T15:08:37+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-04T15:06:06+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "8cGKGiSUiwm1KDqUzqYtQnsSRCJw4WcyoyW74LHspump": {
-   "mint": "8cGKGiSUiwm1KDqUzqYtQnsSRCJw4WcyoyW74LHspump",
-   "symbol": "VICECITY",
-   "pair": "38tBjK61Yn8TySZtKJ28Dxm6JWnkpxqcMAxx4S4iQ2mL",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T15:04:24+00:00",
-   "rejected_ts": 1793631864,
-   "stage": "grok",
-   "reason": "Massive early pump (170% h6) already reversing in m5 (-15%), high volume looks like fading spike rather than sustained broad buying.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001074,
-   "mcap_usd": 104851,
-   "liquidity_usd": 26192.14,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T15:08:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T15:06:06+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": {
-   "mint": "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump",
-   "symbol": "Ahsoka",
-   "pair": "HpyMxw5BZvks2LPhUzLjXwemyrPU7uU3vFqQ3o5ABZdJ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T15:09:20+00:00",
-   "rejected_ts": 1793632160,
-   "stage": "grok",
-   "reason": "Huge 298% h1 / 1111% h6 gains on a 1h-old token signal blow-off top. Volume concentrated in first hour with fading momentum.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0004937,
-   "mcap_usd": 488049,
-   "liquidity_usd": 56504.84,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T15:13:37+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    },
-    "48h": {
-     "time": "2026-11-04T15:20:56+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "57eJSmN1ecANrnZjGPrXzWUMyGhQsQgMS9eHdxM3pump": {
-   "mint": "57eJSmN1ecANrnZjGPrXzWUMyGhQsQgMS9eHdxM3pump",
-   "symbol": "MameStonk",
-   "pair": "AZoM3GT1JvjSR3edKiAXb7ffReMCecoxoK4wS2DMUFhq",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T15:31:41+00:00",
-   "rejected_ts": 1793633501,
-   "stage": "grok",
-   "reason": "280% h6 run-up with m5 reversal signals blow-off top; buys still heavy but fading momentum typical at this stage.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001764,
-   "mcap_usd": 174127,
-   "liquidity_usd": 33213.06,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T15:36:14+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T15:35:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump": {
    "mint": "At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump",
    "symbol": "Marutaro",
@@ -4671,9 +4547,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-07T15:42:41+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "2UxjHoidyefQxJrCS8qT23JsbqKFcpPCa8ywBYZupump": {
    "mint": "2UxjHoidyefQxJrCS8qT23JsbqKFcpPCa8ywBYZupump",
