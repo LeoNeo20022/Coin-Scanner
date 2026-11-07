@@ -1,36 +1,5 @@
 {
  "entries": {
-  "At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump": {
-   "mint": "At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump",
-   "symbol": "Marutaro",
-   "pair": "FE8VpWQmWK46cMxnXMi68d7wgXdkDRMs6nKojesxp28L",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T15:46:33+00:00",
-   "rejected_ts": 1793634393,
-   "stage": "grok",
-   "reason": "438% h6 pump already fading (m5 -1.86%) with volume still elevated; classic blow-off profile. Buys dominate but on a token that has already run hard in <2h.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002318,
-   "mcap_usd": 229882,
-   "liquidity_usd": 38653.01,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T15:51:17+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T15:50:56+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "EhQjoRsCsjnSk3uzyVjjNcHoBC5Bd1Awa89uzaPCpump": {
    "mint": "EhQjoRsCsjnSk3uzyVjjNcHoBC5Bd1Awa89uzaPCpump",
    "symbol": "BYTEGUARD",
@@ -4578,9 +4547,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-07T15:55:15+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": {
    "mint": "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump",
