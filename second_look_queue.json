@@ -1,67 +1,5 @@
 {
  "entries": {
-  "9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": {
-   "mint": "9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump",
-   "symbol": "Slingoor",
-   "pair": "Hc4R8zmxKkPvDrsAcUH1YxaSVHmykUd85CkavcTB2GJo",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T16:33:30+00:00",
-   "rejected_ts": 1793637210,
-   "stage": "rugcheck",
-   "reason": "danger:Top 10 holders high ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0008491,
-   "mcap_usd": 837137,
-   "liquidity_usd": 75693.88,
-   "age_hours": 1.39,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T16:35:00+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-04T16:35:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "GWJ96ggVUfZPX5ghcD5sUaAWWwqcT1cdntNGew8Jpump": {
-   "mint": "GWJ96ggVUfZPX5ghcD5sUaAWWwqcT1cdntNGew8Jpump",
-   "symbol": "Slingoor",
-   "pair": "4jx3FX7opNJ5DYDQ9gZvqpRJMKhLCjWtVnKK9coe8WDj",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T16:33:32+00:00",
-   "rejected_ts": 1793637212,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 7.432e-05,
-   "mcap_usd": 73004,
-   "liquidity_usd": 21248.1,
-   "age_hours": 1.14,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T16:35:02+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T16:35:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": {
    "mint": "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump",
    "symbol": "FEAR",
@@ -4578,9 +4516,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-07T16:37:51+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
