@@ -4423,9 +4423,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-07T18:12:41+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "FsTN7q7wVywYsCNBKfA7R1fJ97rADdvrMMtNSBWYpump": {
    "mint": "FsTN7q7wVywYsCNBKfA7R1fJ97rADdvrMMtNSBWYpump",
@@ -6390,6 +6396,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se": {
+   "mint": "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se",
+   "symbol": "LUCIA",
+   "pair": "EP6NqC6HbMSz56NKWq2a4ZBUnmTf7cqzhuWH8LsYmF1c",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T18:12:37+00:00",
+   "rejected_ts": 1794075157,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 9.09e-05,
+   "mcap_usd": 86934,
+   "liquidity_usd": 38837.08,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6925,7 +6949,7 @@
    }
   },
   "2026-11-07": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6973,7 +6997,7 @@
     "rugcheck:top10": 6,
     "rugcheck:insiders": 6,
     "grok:skip": 4,
-    "rugcheck:danger": 1,
+    "rugcheck:danger": 2,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 2,
     "market:volume_h1_low": 1
