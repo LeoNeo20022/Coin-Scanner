@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EhQjoRsCsjnSk3uzyVjjNcHoBC5Bd1Awa89uzaPCpump": {
-   "mint": "EhQjoRsCsjnSk3uzyVjjNcHoBC5Bd1Awa89uzaPCpump",
-   "symbol": "BYTEGUARD",
-   "pair": "F13qkk5RMdsbkmvA39zNrNzAkeXwXaFGCQbScCMWcpqz",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T15:56:25+00:00",
-   "rejected_ts": 1793634985,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 8.739e-05,
-   "mcap_usd": 85139,
-   "liquidity_usd": 22661.5,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T16:14:45+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T16:15:05+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": {
    "mint": "9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump",
    "symbol": "Slingoor",
@@ -6481,6 +6450,24 @@
    "age_hours": 1.32,
    "checks": {},
    "done": false
+  },
+  "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": {
+   "mint": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+   "symbol": "THUG",
+   "pair": "DJGcy9JUP8tzWyxLrB9GtV1RiJBdwupFSWY57qibt8oq",
+   "dex": "meteora",
+   "rejected_at": "2026-11-07T16:00:14+00:00",
+   "rejected_ts": 1794067214,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 0.0001235,
+   "mcap_usd": 123563,
+   "liquidity_usd": 34057.61,
+   "age_hours": 52.54,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7016,7 +7003,7 @@
    }
   },
   "2026-11-07": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7053,7 +7040,9 @@
     "11": 1,
     "11|market:liquidity_low": 1,
     "12": 1,
-    "12|market:liquidity_low": 1
+    "12|market:liquidity_low": 1,
+    "16": 1,
+    "16|market:volume_h1_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7064,7 +7053,8 @@
     "grok:skip": 2,
     "rugcheck:danger": 1,
     "market:liquidity_low": 6,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "market:volume_h1_low": 1
    }
   }
  }
