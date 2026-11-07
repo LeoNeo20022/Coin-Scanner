@@ -5610,7 +5610,14 @@
    "mcap_usd": 128419,
    "liquidity_usd": 29701.48,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T22:52:01+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "2rwNfv9tS82uvjZU9QCLUWcfUvPpAxsHFhiKYyBHpump": {
@@ -6458,6 +6465,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "Hb2fnvwpW6H6UymoTovRZqcDpmMNGWz2SXCRQ5LFpump": {
+   "mint": "Hb2fnvwpW6H6UymoTovRZqcDpmMNGWz2SXCRQ5LFpump",
+   "symbol": "PMURT",
+   "pair": "DzGRM4Y8zjzCT6fatT3DBR5ZGYL8iZZ1rTgrjW59TZrx",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T22:52:00+00:00",
+   "rejected_ts": 1794091920,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0005918,
+   "mcap_usd": 584032,
+   "liquidity_usd": 61393.52,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6993,7 +7018,7 @@
    }
   },
   "2026-11-07": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7032,7 +7057,9 @@
     "12": 1,
     "12|market:liquidity_low": 1,
     "16": 1,
-    "16|market:volume_h1_low": 1
+    "16|market:volume_h1_low": 1,
+    "22": 1,
+    "22|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7044,7 +7071,8 @@
     "rugcheck:danger": 2,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 3,
-    "market:volume_h1_low": 1
+    "market:volume_h1_low": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
