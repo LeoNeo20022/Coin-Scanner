@@ -6517,6 +6517,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": {
+   "mint": "CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump",
+   "symbol": "BTC",
+   "pair": "CrrYbad77F4KNUBhpnUTUufYHt8gcbGZQhfc2uZaamt7",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T16:25:22+00:00",
+   "rejected_ts": 1794068722,
+   "stage": "grok",
+   "reason": "328% h6 gain with volume already collapsing (h1 << h6) and only modest ongoing buys; classic post-spike fade.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001676,
+   "mcap_usd": 165321,
+   "liquidity_usd": 31661.54,
+   "age_hours": 3.14,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7052,7 +7070,7 @@
    }
   },
   "2026-11-07": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7099,7 +7117,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 6,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:danger": 1,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 2,
