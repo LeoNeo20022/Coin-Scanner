@@ -6607,6 +6607,24 @@
    "age_hours": 0.85,
    "checks": {},
    "done": false
+  },
+  "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": {
+   "mint": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
+   "symbol": "timmy",
+   "pair": "6H9LwRBATqsFTXtsiMmZhwncpXTezk1KLSJ4BC7jz1NU",
+   "dex": "raydium",
+   "rejected_at": "2026-11-07T10:00:56+00:00",
+   "rejected_ts": 1794045656,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 5.617e-05,
+   "mcap_usd": 56180,
+   "liquidity_usd": 12979.07,
+   "age_hours": 160.43,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7142,7 +7160,7 @@
    }
   },
   "2026-11-07": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7173,7 +7191,9 @@
     "07": 1,
     "07|market:liquidity_low": 1,
     "09": 1,
-    "09|market:liquidity_low": 1
+    "09|market:liquidity_low": 1,
+    "10": 1,
+    "10|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7183,7 +7203,7 @@
     "rugcheck:insiders": 3,
     "grok:skip": 2,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 3
+    "market:liquidity_low": 4
    }
   }
  }
