@@ -275,10 +275,6 @@
   "judged": 1793425151.5566754,
   "symbol": "offline"
  },
- "5e1SR3Do9C5hHmoA24qtBS6aQXCAsqoACgspikgnpump": {
-  "market_logged": 1793423496.9847584,
-  "market_reason": "mcap_too_low"
- },
  "49t765AnJMQAzSUutr9T7rC4QAtGxbqiL374qxsHpump": {
   "judged": 1793421327.5369298,
   "symbol": "MONEKO",
@@ -296,14 +292,6 @@
   "market_reason": "too_new",
   "symbol": "iCat",
   "judged": 1793424997.2805483
- },
- "C7kajKaL2Ff9F1ywhNZr1qucmYBRVTZzgAcrQtwCpump": {
-  "market_logged": 1793423496.9847584,
-  "market_reason": "mcap_too_low"
- },
- "4rHssmb2hR2oNmHXsdpkrWLCB5ahxJQs88HWBK88pump": {
-  "market_logged": 1793423496.9847584,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "3B3SJFo8kvVoMvvkzrUCPdpDeSeCL773AJ3kNLWJpump": {
   "market_logged": 1793423797.0671608,
@@ -9192,7 +9180,9 @@
  },
  "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump": {
   "market_logged": 1794027641.2739253,
-  "market_reason": "volume_h1_low"
+  "market_reason": "volume_h1_low",
+  "judged": 1794028540.6357267,
+  "symbol": "MEME"
  },
  "8P8BNixECEJw33Xg2WmqFX2YjcMFVa2PkvaU7Y1Spump": {
   "market_logged": 1794006255.8906531,
@@ -9536,8 +9526,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": {
-  "market_logged": 1794028240.9713762,
-  "market_reason": "too_new"
+  "market_logged": 1794028540.6357267,
+  "market_reason": "mcap_too_low"
  },
  "76inp9q4HxQUsGxEvxMhhjtx9DipbMrqssLQEcWABJnp": {
   "market_logged": 1794027940.6147969
