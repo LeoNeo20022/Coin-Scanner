@@ -6396,6 +6396,24 @@
    "age_hours": 3.14,
    "checks": {},
    "done": false
+  },
+  "B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump": {
+   "mint": "B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump",
+   "symbol": "HERO",
+   "pair": "8j25V7JxvLawQcwkboMnMkw8ESMZK2xXGMjqcAZjGoD6",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T17:52:45+00:00",
+   "rejected_ts": 1794073965,
+   "stage": "grok",
+   "reason": "10x in 1h with 500% h1 gain on 1h-old token; buying after the vertical move.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0006295,
+   "mcap_usd": 621819,
+   "liquidity_usd": 64543.95,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6931,7 +6949,7 @@
    }
   },
   "2026-11-07": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6978,7 +6996,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:danger": 1,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 2,
