@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump": {
-   "mint": "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump",
-   "symbol": "Bert",
-   "pair": "BW3HVgEZzScSkWJAHWCmZXQR6MhZkvF5KN6XHTMjRKxZ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T10:28:59+00:00",
-   "rejected_ts": 1793615339,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001087,
-   "mcap_usd": 107037,
-   "liquidity_usd": 26063.63,
-   "age_hours": 1.08,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T10:32:36+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T10:36:40+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump": {
    "mint": "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump",
    "symbol": "wen",
@@ -6600,6 +6569,24 @@
    "age_hours": 160.43,
    "checks": {},
    "done": false
+  },
+  "4LHAeHbziM2KAcdmsiaWPSgz2oMdiHAqPhpB68xbpump": {
+   "mint": "4LHAeHbziM2KAcdmsiaWPSgz2oMdiHAqPhpB68xbpump",
+   "symbol": "Burn",
+   "pair": "FQ9XgGeisFQCyPoRB6XomvoZ7crAjPx3JtsLVgbXvDyq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T11:31:50+00:00",
+   "rejected_ts": 1794051110,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 6.233e-05,
+   "mcap_usd": 61552,
+   "liquidity_usd": 18369.64,
+   "age_hours": 0.12,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7135,7 +7122,7 @@
    }
   },
   "2026-11-07": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7168,7 +7155,9 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "10": 1,
-    "10|market:liquidity_low": 1
+    "10|market:liquidity_low": 1,
+    "11": 1,
+    "11|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7178,7 +7167,7 @@
     "rugcheck:insiders": 3,
     "grok:skip": 2,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 4
+    "market:liquidity_low": 5
    }
   }
  }
