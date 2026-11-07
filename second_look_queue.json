@@ -1,67 +1,5 @@
 {
  "entries": {
-  "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump": {
-   "mint": "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump",
-   "symbol": "wen",
-   "pair": "12SzKCF7zECUeM9z87DijGLuppPrtTErKN82w7YuP3KD",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T12:35:41+00:00",
-   "rejected_ts": 1793622941,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 8.345e-05,
-   "mcap_usd": 81844,
-   "liquidity_usd": 23222.29,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T12:40:36+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T12:38:01+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": {
-   "mint": "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK",
-   "symbol": "MAMESUKE",
-   "pair": "HPeXruE5Msv7paz5WPViwScLeSYWgZr8vhDakuiEp5ku",
-   "dex": "raydium",
-   "rejected_at": "2026-11-02T12:35:42+00:00",
-   "rejected_ts": 1793622942,
-   "stage": "rugcheck",
-   "reason": "danger:Large Amount of LP Unlocked",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0007097,
-   "mcap_usd": 709772,
-   "liquidity_usd": 71450.25,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T12:40:36+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    },
-    "48h": {
-     "time": "2026-11-04T12:38:01+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    }
-   },
-   "done": true
-  },
   "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump": {
    "mint": "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump",
    "symbol": "BC",
@@ -4764,9 +4702,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-07T12:36:37+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "Eq8UZ5oadKvLtiDnPrb41dwDwU4BuB2tFXRT8rw8pump": {
    "mint": "Eq8UZ5oadKvLtiDnPrb41dwDwU4BuB2tFXRT8rw8pump",
