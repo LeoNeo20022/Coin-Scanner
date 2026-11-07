@@ -285,10 +285,6 @@
   "symbol": "BOAR",
   "judged": 1793433104.4236815
  },
- "3rkqrAeeHWNNGfgMWXW8CsAmKMUawTYMMMsTtcc6pump": {
-  "market_logged": 1793432049.7838764,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "CH4somejo6HMscqRV5JqekHC7ZPrk7eepTGRR1jvpump": {
   "market_logged": 1793433104.4236815,
   "market_reason": "pumpfun_bonding_curve"
@@ -9485,8 +9481,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "4C6LMX3q8iwShzW6j6A71NAUCgZ9G72T93hh4bKDpump": {
-  "market_logged": 1794036730.6241102,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794037031.815643,
+  "market_reason": "liquidity_low"
  },
  "95GFcjoAA2gmtiVHKEKFsTso1BenbFESLKZkyFdvpump": {
   "market_logged": 1794033504.0450954,
@@ -9494,7 +9490,9 @@
  },
  "7tSMEsYfx2vdPSmnmqBRbFuaPUMmVuiCVsmpFtfLpump": {
   "market_logged": 1794033805.1638782,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794037031.815643,
+  "symbol": "Alice"
  },
  "Cp1qJ5CMyJCPakpSNJ9C7sbSMMENzeLidtamFk5gpump": {
   "market_logged": 1794034105.3945081,
