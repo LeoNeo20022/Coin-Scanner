@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8KwLDzEDYdp9hP8YNsx29Kjzp3pNHTacQHdYgjibpump": {
-   "mint": "8KwLDzEDYdp9hP8YNsx29Kjzp3pNHTacQHdYgjibpump",
-   "symbol": "pumpcat",
-   "pair": "8ng1Co6hgCQH9PT7ojVSMMNDg2ibRG6UkdmEDxTjjQin",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T18:17:09+00:00",
-   "rejected_ts": 1793643429,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 5.954e-05,
-   "mcap_usd": 57532,
-   "liquidity_usd": 20239.23,
-   "age_hours": 1.28,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T18:17:39+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T18:19:24+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DCRQTypwii2xQNJ2Tv14hKnnQ6hqA9NDoVd8tSaZpump": {
    "mint": "DCRQTypwii2xQNJ2Tv14hKnnQ6hqA9NDoVd8tSaZpump",
    "symbol": "Bear",
@@ -5548,7 +5517,14 @@
    "mcap_usd": 608445,
    "liquidity_usd": 62299.49,
    "age_hours": 4.58,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T18:17:37+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "sells_ge_buys_h1"
+    }
+   },
    "done": false
   },
   "Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": {
