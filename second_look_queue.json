@@ -6481,6 +6481,42 @@
    "age_hours": 52.54,
    "checks": {},
    "done": false
+  },
+  "75VDY6P9kJyAp7QGYRzq7o85oKBSXpR9XmaWVHcspump": {
+   "mint": "75VDY6P9kJyAp7QGYRzq7o85oKBSXpR9XmaWVHcspump",
+   "symbol": "IMAM",
+   "pair": "C7RYNwVKJasVh8Nt4q2PKEcmHUERM1NRXobtsicuEg3U",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T16:15:15+00:00",
+   "rejected_ts": 1794068115,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0005611,
+   "mcap_usd": 546513,
+   "liquidity_usd": 120825.84,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
+  },
+  "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": {
+   "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump",
+   "symbol": "Elysion Pad",
+   "pair": "7ZH2XzczdSLrDr7AnNMZWNTgYBX5ifvmAwK3hwFouEHe",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T16:15:17+00:00",
+   "rejected_ts": 1794068117,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 8.533e-05,
+   "mcap_usd": 83686,
+   "liquidity_usd": 25240.61,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7016,7 +7052,7 @@
    }
   },
   "2026-11-07": {
-   "total": 40,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7061,12 +7097,12 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "rugcheck:insiders": 6,
     "grok:skip": 2,
     "rugcheck:danger": 1,
     "market:liquidity_low": 6,
-    "rugcheck:lp_unlocked": 1,
+    "rugcheck:lp_unlocked": 2,
     "market:volume_h1_low": 1
    }
   }
