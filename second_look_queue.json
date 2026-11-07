@@ -1,36 +1,5 @@
 {
  "entries": {
-  "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": {
-   "mint": "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump",
-   "symbol": "FEAR",
-   "pair": "BZvN52YuR6sxptrfPQR6zdxXsRKnkKz4M9wU7TB7KoiA",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T16:43:33+00:00",
-   "rejected_ts": 1793637813,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001209,
-   "mcap_usd": 117780,
-   "liquidity_usd": 28095.23,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T16:44:45+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T16:44:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6XmLjA6vMheTT4HkiXXAV1PyNPoTRjWphrVjVSFa5E5o": {
    "mint": "6XmLjA6vMheTT4HkiXXAV1PyNPoTRjWphrVjVSFa5E5o",
    "symbol": "OTCity",
@@ -5566,7 +5535,14 @@
    "mcap_usd": 161289,
    "liquidity_usd": 31348.26,
    "age_hours": 1.27,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T16:52:50+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "GAMiPgBnyW9RJ3TBobpzUC8UAa8CidBJ348A7uHEpump": {
