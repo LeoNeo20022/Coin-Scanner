@@ -1,98 +1,5 @@
 {
  "entries": {
-  "6XmLjA6vMheTT4HkiXXAV1PyNPoTRjWphrVjVSFa5E5o": {
-   "mint": "6XmLjA6vMheTT4HkiXXAV1PyNPoTRjWphrVjVSFa5E5o",
-   "symbol": "OTCity",
-   "pair": "2UhQgTAZSQJ5ktmD6EYGGVSjJudFaCL3FHN7UKwZRCNy",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T16:53:31+00:00",
-   "rejected_ts": 1793638411,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles",
-   "price_usd": 7.127e-05,
-   "mcap_usd": 67965,
-   "liquidity_usd": 20077.87,
-   "age_hours": 9.82,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T17:07:16+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-04T17:06:42+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "HkQeu1qNSFYmpidYBQeSzDVx5Lzpz58UEEwbNe4DNET1": {
-   "mint": "HkQeu1qNSFYmpidYBQeSzDVx5Lzpz58UEEwbNe4DNET1",
-   "symbol": "AFRICA",
-   "pair": "5Frbo3BCQy5t32FRUAGMhU4wEdzQRD3rVjZyNJExK6JQ",
-   "dex": "raydium",
-   "rejected_at": "2026-11-02T17:03:29+00:00",
-   "rejected_ts": 1793639009,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles",
-   "price_usd": 7.783e-05,
-   "mcap_usd": 77840,
-   "liquidity_usd": 24743.71,
-   "age_hours": 70.94,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T17:07:16+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-04T17:06:42+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
-  "4DV2FsyBjowCbFtbhFdv9u3EuUFDZK2ZEMFVodE3pump": {
-   "mint": "4DV2FsyBjowCbFtbhFdv9u3EuUFDZK2ZEMFVodE3pump",
-   "symbol": "XMOON",
-   "pair": "5qwWcNsfygRK5Evb1eZCfwrFQ1JvY3G9DfgCFc3oAVjd",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T17:03:31+00:00",
-   "rejected_ts": 1793639011,
-   "stage": "rugcheck",
-   "reason": "danger:Creator history of rugged tokens",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001095,
-   "mcap_usd": 106821,
-   "liquidity_usd": 25224,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T17:07:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-04T17:06:44+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
    "mint": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
    "symbol": "RICO",
@@ -5560,7 +5467,14 @@
    "mcap_usd": 386744,
    "liquidity_usd": 51395.98,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T17:10:08+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump": {
@@ -5578,7 +5492,14 @@
    "mcap_usd": 517665,
    "liquidity_usd": 57579.36,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T17:10:08+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump": {
