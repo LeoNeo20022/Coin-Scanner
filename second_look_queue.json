@@ -6652,6 +6652,24 @@
    "age_hours": 1.6,
    "checks": {},
    "done": false
+  },
+  "2SquPKDVfGw9rBFBBZjJ2QPzSaDYjfwBY72FGBHZpump": {
+   "mint": "2SquPKDVfGw9rBFBBZjJ2QPzSaDYjfwBY72FGBHZpump",
+   "symbol": "MUTTAPE",
+   "pair": "4Srofe2xgVd7ji81kwnR8ESvXVWXUpPipo9vTQuxFT4Q",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T04:45:33+00:00",
+   "rejected_ts": 1794026733,
+   "stage": "grok",
+   "reason": "1080%+ h1 pump already reversing (-12% m5) after extreme volume spike. Classic blow-off top on a 1h-old token.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.000519,
+   "mcap_usd": 504172,
+   "liquidity_usd": 56891.27,
+   "age_hours": 1.19,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7187,7 +7205,7 @@
    }
   },
   "2026-11-07": {
-   "total": 19,
+   "total": 20,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7216,7 +7234,7 @@
     "market:mcap_too_low": 5,
     "rugcheck:top10": 1,
     "rugcheck:insiders": 1,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:danger": 1
    }
   }
