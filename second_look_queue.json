@@ -1,67 +1,5 @@
 {
  "entries": {
-  "GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": {
-   "mint": "GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump",
-   "symbol": "WWIII",
-   "pair": "FCvbYgWDrwSL8NEY1MLp3xawPcuzQk6cjHEBsrgNJqBG",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T09:02:18+00:00",
-   "rejected_ts": 1793610138,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.24e-05,
-   "mcap_usd": 50613,
-   "liquidity_usd": 17656.99,
-   "age_hours": 0.83,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T09:04:38+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T09:07:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "FAqiaGmrSdx2Z5qZmSRUkbyYCF2dFCUTfYVwP4Mypump": {
-   "mint": "FAqiaGmrSdx2Z5qZmSRUkbyYCF2dFCUTfYVwP4Mypump",
-   "symbol": "MANDO",
-   "pair": "3yRp8qXcnwvBVcrfGPJoVMzgDUZ5VrLGCUSzBPsNVaM4",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T09:02:29+00:00",
-   "rejected_ts": 1793610149,
-   "stage": "grok",
-   "reason": "351% h6 pump with cooling m5 activity and slight dip signals fading momentum after initial spike.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0001853,
-   "mcap_usd": 179558,
-   "liquidity_usd": 33980.51,
-   "age_hours": 2.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T09:04:38+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T09:07:07+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "zttJSZyD67hzNrJ1RKKUsZ1Hya4vfxYRjdQABvppump": {
    "mint": "zttJSZyD67hzNrJ1RKKUsZ1Hya4vfxYRjdQABvppump",
    "symbol": "ww3",
@@ -5839,7 +5777,14 @@
    "mcap_usd": 52557,
    "liquidity_usd": 16811.1,
    "age_hours": 0.08,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-07T09:15:34+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "G2apw4XQdSfTv9836JHWhRZGyqG43m93eMEF4zjnpump": {
