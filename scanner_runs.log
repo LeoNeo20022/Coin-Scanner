@@ -1,13 +1,3 @@
-[2026-11-05T03:17:39+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-05T03:18:33+00:00] scout: pass end {"watch": 344, "a_qualify": 46, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=114s
-[2026-11-05T03:29:56+00:00] run start (LOG ONLY)
-[2026-11-05T03:30:05+00:00] discovered=63 fresh=48 market_pass=2
-[2026-11-05T03:30:05+00:00] grok daily budget 1/40 used, 0 no-response, $0.0026 (2026-11-05 UTC)
-[2026-11-05T03:30:35+00:00] grok call 26.2s model=grok-4.3 tokens=993+64 reasoning=582
-[2026-11-05T03:30:35+00:00] grok [rugcheck] AMC 6Mt1oHb1… -> SKIP (0.85) 365% h6 pump with momentum collapsing (h1 +39%, m5 +0.65%). High volume but fading buys suggest distribution phase. | risk: Entering after blow-off top on thin liquidity
-[2026-11-05T03:30:37+00:00] run end {"discovered": 63, "skipped_recent": 15, "no_pair": 0, "market": {"too_new": 2, "pumpfun_bonding_curve": 15, "mcap_too_low": 12, "missing:liquidity_usd": 2, "too_old": 7, "liquidity_low": 3, "volume_h1_low": 1, "mcap_too_high": 4}, "rug": {"lp_unlocked": 1}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=41s
-[2026-11-05T03:30:39+00:00] second_look: 48h SPHERE 31SYoqWF… (rejected grok:skip) -> fail: mcap_too_low [dead: price_-90%]
-[2026-11-05T03:30:41+00:00] second_look: pass end {"queued": 246, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
 [2026-11-05T03:30:41+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-11-05T03:31:39+00:00] scout: feed error trending_pools?page=1: 429
 [2026-11-05T03:31:39+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
@@ -4998,3 +4988,13 @@
 [2026-11-07T02:06:42+00:00] scout: feed error trending_pools?page=1: 429
 [2026-11-07T02:06:42+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-07T02:07:42+00:00] scout: pass end {"watch": 327, "a_qualify": 46, "a_open": 1, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=116s
+[2026-11-07T02:10:31+00:00] run start (LOG ONLY)
+[2026-11-07T02:10:42+00:00] discovered=65 fresh=59 market_pass=0
+[2026-11-07T02:10:42+00:00] grok daily budget 2/40 used, 0 no-response, $0.0058 (2026-11-07 UTC)
+[2026-11-07T02:10:42+00:00] run end {"discovered": 65, "skipped_recent": 6, "no_pair": 2, "market": {"too_new": 2, "pumpfun_bonding_curve": 15, "mcap_too_low": 22, "missing:liquidity_usd": 1, "mcap_too_high": 4, "too_old": 11, "liquidity_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-11-07T02:10:45+00:00] second_look: pass end {"queued": 241, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=3s
+[2026-11-07T02:10:45+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-07T02:11:43+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-07T02:11:43+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-07T02:11:43+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-07T02:12:48+00:00] scout: pass end {"watch": 327, "a_qualify": 44, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=123s
