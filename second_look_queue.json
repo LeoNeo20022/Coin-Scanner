@@ -6706,6 +6706,24 @@
    "age_hours": 4.98,
    "checks": {},
    "done": false
+  },
+  "GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": {
+   "mint": "GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump",
+   "symbol": "SLINGFOLIO",
+   "pair": "7G4RvLMnBuBytt2CD8uUZ6qhYbFQdZZrKnKL9633ZsqA",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T05:52:56+00:00",
+   "rejected_ts": 1794030776,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001108,
+   "mcap_usd": 105172,
+   "liquidity_usd": 26091.54,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7241,7 +7259,7 @@
    }
   },
   "2026-11-07": {
-   "total": 25,
+   "total": 26,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7272,7 +7290,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "rugcheck:insiders": 1,
     "grok:skip": 2,
     "rugcheck:danger": 1
