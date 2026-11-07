@@ -1,36 +1,5 @@
 {
  "entries": {
-  "zttJSZyD67hzNrJ1RKKUsZ1Hya4vfxYRjdQABvppump": {
-   "mint": "zttJSZyD67hzNrJ1RKKUsZ1Hya4vfxYRjdQABvppump",
-   "symbol": "ww3",
-   "pair": "7D2msj6x4Ffr2duYaqm9Mj8rR3JBsWdJCXbXKqxTWeNQ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T09:17:18+00:00",
-   "rejected_ts": 1793611038,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001128,
-   "mcap_usd": 112804,
-   "liquidity_usd": 26931.47,
-   "age_hours": 0.28,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T09:25:44+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T09:30:24+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW": {
    "mint": "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW",
    "symbol": "OKCAT",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-07T09:20:33+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "GXS1XuYuZJX7NuQvXPJPbpe4YfTsm3UyK4AmqsMcpump": {
    "mint": "GXS1XuYuZJX7NuQvXPJPbpe4YfTsm3UyK4AmqsMcpump",
@@ -6614,6 +6589,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "7jpQyywZm2KD9NTZX7DoZkcvETWCEf56wb1nmfJmpump": {
+   "mint": "7jpQyywZm2KD9NTZX7DoZkcvETWCEf56wb1nmfJmpump",
+   "symbol": "lucky",
+   "pair": "F6fig5PmCENhhnUtsNVjthPm1bYiKytVGGX8jdd6HFic",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T09:20:31+00:00",
+   "rejected_ts": 1794043231,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 6.601e-05,
+   "mcap_usd": 63764,
+   "liquidity_usd": 19601.83,
+   "age_hours": 0.85,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7149,7 +7142,7 @@
    }
   },
   "2026-11-07": {
-   "total": 30,
+   "total": 31,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7178,7 +7171,9 @@
     "06": 1,
     "06|market:liquidity_low": 1,
     "07": 1,
-    "07|market:liquidity_low": 1
+    "07|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7188,7 +7183,7 @@
     "rugcheck:insiders": 3,
     "grok:skip": 2,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 2
+    "market:liquidity_low": 3
    }
   }
  }
