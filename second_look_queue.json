@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump": {
-   "mint": "2WVN5SpEPCc43msHG9j9bpBTxcQHx3A81NyAEaXfpump",
-   "symbol": "BC",
-   "pair": "DEXML3yJzG5H2n7gjJqrXh17qqfPgtsBfaQbyntRswYv",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T12:40:41+00:00",
-   "rejected_ts": 1793623241,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 8.748e-05,
-   "mcap_usd": 85621,
-   "liquidity_usd": 23278.09,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T12:45:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T12:43:01+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "B7Cj19ke2F8S6fazbBvGMxHYNNMYuDaAn3Sn2Zikpump": {
    "mint": "B7Cj19ke2F8S6fazbBvGMxHYNNMYuDaAn3Sn2Zikpump",
    "symbol": "YES",
@@ -6600,6 +6569,24 @@
    "age_hours": 0.88,
    "checks": {},
    "done": false
+  },
+  "EphCWcWcVcG7fjtGhvk2UjCUqhRcRfpuTbCyn5xoBAGS": {
+   "mint": "EphCWcWcVcG7fjtGhvk2UjCUqhRcRfpuTbCyn5xoBAGS",
+   "symbol": "DACITY",
+   "pair": "Ab2T5DnxAJRmkUd7T636Ey4m4nvV8XWiwtS5vvPSxE2s",
+   "dex": "meteora",
+   "rejected_at": "2026-11-07T12:51:38+00:00",
+   "rejected_ts": 1794055898,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0002598,
+   "mcap_usd": 259857,
+   "liquidity_usd": 39161.43,
+   "age_hours": 1.14,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7135,7 +7122,7 @@
    }
   },
   "2026-11-07": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7182,7 +7169,8 @@
     "rugcheck:insiders": 4,
     "grok:skip": 2,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 6
+    "market:liquidity_low": 6,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
