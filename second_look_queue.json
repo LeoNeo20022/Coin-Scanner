@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW": {
-   "mint": "HBUVp1swazz2WyVgtHFWV8jfErXFpm8Nn5GSiG7VqHzW",
-   "symbol": "OKCAT",
-   "pair": "3Zuod2ARDnnuZAyux8CtZWCNbw9LYAEk1XBhCqd7XeK1",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-02T10:03:57+00:00",
-   "rejected_ts": 1793613837,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.202e-05,
-   "mcap_usd": 50825,
-   "liquidity_usd": 18749.88,
-   "age_hours": 4.66,
-   "checks": {
-    "24h": {
-     "time": "2026-11-03T10:17:35+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-04T10:05:24+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump": {
    "mint": "EPcHDXD3P23KcQsHyZYZLAx8odhgh1ELNnGL5szgpump",
    "symbol": "Bert",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-07T10:10:55+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": {
    "mint": "GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9",
