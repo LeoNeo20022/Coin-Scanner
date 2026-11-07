@@ -285,14 +285,6 @@
   "market_logged": 1793419339.0775855,
   "market_reason": "mcap_too_low"
  },
- "J559nEfpg5yrid4p5KsTiFpxpMjnSTMSNCGXHVLapump": {
-  "market_logged": 1793419039.0055447,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "Dmq4fFjsKYr7LeR1UJk6GHDfKEnPRWALrGL6mhNRpump": {
-  "market_logged": 1793419039.0055447,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "GTeraCLeFf7EetC9vGZuG5DFz9gCKp86d8xihdXzpump": {
   "market_logged": 1793419639.6347678,
   "market_reason": "mcap_too_low"
@@ -9509,7 +9501,9 @@
  },
  "C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u": {
   "market_logged": 1794021076.8234096,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794024014.8678496,
+  "symbol": "STM"
  },
  "2PDF6ADXdHQYE8BnHWCq7b7CvLTTPfWGsjZnsNgKpump": {
   "market_logged": 1794020777.5519133,
@@ -9529,6 +9523,10 @@
  },
  "GaEbreYm9pGNj1seKDQaPV98aeSMb3M6FmE4B6EApump": {
   "market_logged": 1794023714.7120926,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "Bhe7zAmLTxsV2JiiibujUX4yHJbKjPFYTLSGTQUzpump": {
+  "market_logged": 1794024014.8678496,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
