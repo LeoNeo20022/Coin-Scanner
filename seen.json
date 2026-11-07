@@ -81,12 +81,6 @@
   "judged": 1793326680.9025888,
   "symbol": "jeff"
  },
- "HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": {
-  "market_logged": 1793490593.4145398,
-  "market_reason": "too_old",
-  "judged": 1793165306.2736554,
-  "symbol": "Bitcoin"
- },
  "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea": {
   "market_logged": 1793739433.8361502,
   "market_reason": "too_old",
@@ -7021,7 +7015,7 @@
   "market_reason": "mcap_too_low"
  },
  "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": {
-  "market_logged": 1793998476.0071127,
+  "market_logged": 1794095675.7342348,
   "market_reason": "mcap_too_high",
   "symbol": "COGE",
   "judged": 1793911776.2920945
@@ -9515,7 +9509,9 @@
  },
  "CM5ZLrUH1iTqeEn3Q23P6FGYwq9DprLiHZpNY53rboob": {
   "market_logged": 1794095375.8276722,
-  "market_reason": "sells_ge_buys_h1"
+  "market_reason": "sells_ge_buys_h1",
+  "judged": 1794095675.7342348,
+  "symbol": "ABTC"
  },
  "3kQbP4tTBtUQ13TifHEon7X6ms9MhYtTr43m612owo5P": {
   "market_logged": 1794092217.5557692,
@@ -9586,5 +9582,8 @@
  "AdcN6x4M4ujrcAam1kgApn7XAssbDGtG8zX5Tgc9pump": {
   "market_logged": 1794094775.6432645,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "4pvckjr5iF6vCknppdHhyEYHbdmdqSHnErBTiTbquyum": {
+  "market_logged": 1794095675.7342348
  }
 }
