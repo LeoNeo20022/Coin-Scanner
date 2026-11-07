@@ -6415,6 +6415,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "HgRk5aPDzwDCrdcuD2KoavBHBrNYbUdmUPXusnyapump": {
+   "mint": "HgRk5aPDzwDCrdcuD2KoavBHBrNYbUdmUPXusnyapump",
+   "symbol": "Jos\u00e9",
+   "pair": "yLtbWtVT4BdEPgqokXstv78RMHjErJKUqCNYRTRkgK4",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-07T21:32:21+00:00",
+   "rejected_ts": 1794087141,
+   "stage": "grok",
+   "reason": "456% pump in first hour with $420k volume on $222k mcap screams blow-off top. Buying remains strong but we are entering the exit window.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002241,
+   "mcap_usd": 222465,
+   "liquidity_usd": 36762.2,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6950,7 +6968,7 @@
    }
   },
   "2026-11-07": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6997,7 +7015,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:danger": 2,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 2,
