@@ -6302,6 +6302,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": {
+   "mint": "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij",
+   "symbol": "invest",
+   "pair": "3fAeAQTtozUbvN3XZpcGmveaMCaM9Bh5nQadyVH4pswQ",
+   "dex": "raydium",
+   "rejected_at": "2026-11-08T14:20:21+00:00",
+   "rejected_ts": 1794147621,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001678,
+   "mcap_usd": 167849,
+   "liquidity_usd": 79635.26,
+   "age_hours": 14.48,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6840,7 +6858,7 @@
    }
   },
   "2026-11-08": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6884,7 +6902,7 @@
     "market:too_new": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 6,
-    "rugcheck:top10": 4,
+    "rugcheck:top10": 5,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 1
