@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": {
-   "mint": "9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump",
-   "symbol": "PumpFun",
-   "pair": "333wjUD7rmkRtwwtXqDZEdrobhJ8DGjQ8ANbsg3PQakq",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-03T06:24:13+00:00",
-   "rejected_ts": 1793687053,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001757,
-   "mcap_usd": 169920,
-   "liquidity_usd": 33277.13,
-   "age_hours": 0.74,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T06:25:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-05T06:25:13+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump": {
    "mint": "3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump",
    "symbol": "RATIO",
@@ -6425,6 +6394,24 @@
    "age_hours": 0.33,
    "checks": {},
    "done": false
+  },
+  "CdmzERuZnYQwqwa2rxtRjsMjDU6y6qrM5ez6n2mxpump": {
+   "mint": "CdmzERuZnYQwqwa2rxtRjsMjDU6y6qrM5ez6n2mxpump",
+   "symbol": "GATOGLITCH",
+   "pair": "2UeABe4txR5Mchey6CkZvNcYCzH4mBVyQGTwWUbTkk1o",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T07:25:23+00:00",
+   "rejected_ts": 1794122723,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0003996,
+   "mcap_usd": 390540,
+   "liquidity_usd": 102821.48,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6963,7 +6950,7 @@
    }
   },
   "2026-11-08": {
-   "total": 29,
+   "total": 30,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6999,7 +6986,8 @@
     "grok:skip": 6,
     "rugcheck:top10": 3,
     "rugcheck:insiders": 1,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
