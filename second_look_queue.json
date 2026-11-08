@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": {
-   "mint": "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump",
-   "symbol": "ANONVOYAGE",
-   "pair": "2Yx74Z677vrMWJn4QNm9AQThbxQi1DSXRYSiFk4RSMmA",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-03T14:43:38+00:00",
-   "rejected_ts": 1793717018,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0008439,
-   "mcap_usd": 839875,
-   "liquidity_usd": 75826.9,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T14:46:08+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-11-05T14:47:28+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump": {
    "mint": "Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump",
    "symbol": "NALA",
@@ -4206,9 +4175,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-08T15:02:43+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "CAMJCW5oNwSKtVbaS3GSqjwZ75MXKmgYgs7Bemui4dVq": {
    "mint": "CAMJCW5oNwSKtVbaS3GSqjwZ75MXKmgYgs7Bemui4dVq",
