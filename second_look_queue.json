@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HAp8U1SB7bDGMa81AQom1ee6AR5iSFFTi57MEbTzcash": {
-   "mint": "HAp8U1SB7bDGMa81AQom1ee6AR5iSFFTi57MEbTzcash",
-   "symbol": "\u1453\u0b39\ua6a1\u0908",
-   "pair": "3VyUqtiHUZudLBgNctUawYtvpsv2Qs7yCe3ePyzQEcRu",
-   "dex": "raydium",
-   "rejected_at": "2026-11-03T02:39:33+00:00",
-   "rejected_ts": 1793673573,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 6.924e-05,
-   "mcap_usd": 68935,
-   "liquidity_usd": 21018.91,
-   "age_hours": 1.1,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T02:42:55+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-05T02:41:39+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "3kqMzEobWMNfRWG38oXcv1SqhhqWKr1yAxLB6Bchpump": {
    "mint": "3kqMzEobWMNfRWG38oXcv1SqhhqWKr1yAxLB6Bchpump",
    "symbol": "BREW",
@@ -6530,6 +6499,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "4QmzE5EiVqGmy6UYA6gv7cQFKqZvhT8rHkbqYt5vpump": {
+   "mint": "4QmzE5EiVqGmy6UYA6gv7cQFKqZvhT8rHkbqYt5vpump",
+   "symbol": "FLOAT",
+   "pair": "DwrRkAGKVPfANzdLy6eFbNbi9PCB7HgxJo284o7iYtTd",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T02:45:14+00:00",
+   "rejected_ts": 1794105914,
+   "stage": "grok",
+   "reason": "927% h6 run already reversing with -24% m5 drop despite buy count edge; copycat warning adds risk.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0004584,
+   "mcap_usd": 455906,
+   "liquidity_usd": 53010.55,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7068,7 +7055,7 @@
    }
   },
   "2026-11-08": {
-   "total": 16,
+   "total": 17,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7087,7 +7074,7 @@
     "market:pumpfun_bonding_curve": 3,
     "market:too_new": 3,
     "market:mcap_too_low": 3,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:top10": 3,
     "rugcheck:insiders": 1
    }
