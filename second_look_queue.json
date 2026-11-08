@@ -6284,6 +6284,24 @@
    "age_hours": 0.46,
    "checks": {},
    "done": false
+  },
+  "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": {
+   "mint": "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump",
+   "symbol": "MELT",
+   "pair": "5jEVhevhaq8bPSiPmLCULLYRJ5XcaCXhJuBswcFaPFmC",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T14:05:21+00:00",
+   "rejected_ts": 1794146721,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.000177,
+   "mcap_usd": 171497,
+   "liquidity_usd": 54799.04,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6822,7 +6840,7 @@
    }
   },
   "2026-11-08": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6866,7 +6884,7 @@
     "market:too_new": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 6,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 1
