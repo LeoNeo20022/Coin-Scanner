@@ -6407,6 +6407,24 @@
    "age_hours": 10.66,
    "checks": {},
    "done": false
+  },
+  "8N6Xy7SAh7gW4bZDT7kwyYUMANKCwAVEooXC96Lipump": {
+   "mint": "8N6Xy7SAh7gW4bZDT7kwyYUMANKCwAVEooXC96Lipump",
+   "symbol": "MARS",
+   "pair": "65ANsceHMfQvcYoP8m8Ksm9bXVijr5xsoted2wXRueaA",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T06:09:00+00:00",
+   "rejected_ts": 1794118140,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0003227,
+   "mcap_usd": 322123,
+   "liquidity_usd": 45922.83,
+   "age_hours": 0.33,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6945,7 +6963,7 @@
    }
   },
   "2026-11-08": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6970,11 +6988,13 @@
     "05": 3,
     "05|market:pumpfun_bonding_curve": 1,
     "05|market:mcap_too_low": 1,
-    "05|market:liquidity_low": 1
+    "05|market:liquidity_low": 1,
+    "06": 1,
+    "06|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
-    "market:too_new": 5,
+    "market:too_new": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 6,
     "rugcheck:top10": 3,
