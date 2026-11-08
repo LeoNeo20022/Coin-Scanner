@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": {
-   "mint": "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump",
-   "symbol": "GTAFY",
-   "pair": "6TS4LyZUUuC59MJjiSKZdHA4BEwdEcaMpaa547YLG3fu",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-03T09:04:36+00:00",
-   "rejected_ts": 1793696676,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts",
-   "price_usd": 5.547e-05,
-   "mcap_usd": 52891,
-   "liquidity_usd": 18821.7,
-   "age_hours": 2.05,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T09:07:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-05T09:06:04+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": {
    "mint": "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump",
    "symbol": "OMBRO",
@@ -4175,9 +4144,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-08T09:19:36+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "G2apw4XQdSfTv9836JHWhRZGyqG43m93eMEF4zjnpump": {
    "mint": "G2apw4XQdSfTv9836JHWhRZGyqG43m93eMEF4zjnpump",
@@ -6246,6 +6221,42 @@
    "age_hours": 0.03,
    "checks": {},
    "done": false
+  },
+  "AFv7Xu3NnxV1k2rTU3mKAm7QRATBTkp6FxVZ5CQppump": {
+   "mint": "AFv7Xu3NnxV1k2rTU3mKAm7QRATBTkp6FxVZ5CQppump",
+   "symbol": "Puddgy",
+   "pair": "A3fhWV6SPymErGADebYr3BTHRkrRys6FbFQ9HGapVrVu",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T09:19:32+00:00",
+   "rejected_ts": 1794129572,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 6.687e-05,
+   "mcap_usd": 66874,
+   "liquidity_usd": 19142.33,
+   "age_hours": 0.13,
+   "checks": {},
+   "done": false
+  },
+  "2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": {
+   "mint": "2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump",
+   "symbol": "yarl",
+   "pair": "24E7iDJ3W1qYzhrZSet9ELf6Dak3pRzAPjG89NULRWLc",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T09:19:34+00:00",
+   "rejected_ts": 1794129574,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 9.866e-05,
+   "mcap_usd": 94447,
+   "liquidity_usd": 24062.51,
+   "age_hours": 1.14,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6784,7 +6795,7 @@
    }
   },
   "2026-11-08": {
-   "total": 31,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6813,7 +6824,9 @@
     "06": 1,
     "06|market:too_new": 1,
     "08": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -6821,8 +6834,8 @@
     "market:mcap_too_low": 6,
     "grok:skip": 6,
     "rugcheck:top10": 3,
-    "rugcheck:insiders": 1,
-    "market:liquidity_low": 2,
+    "rugcheck:insiders": 2,
+    "market:liquidity_low": 3,
     "rugcheck:lp_unlocked": 1
    }
   }
