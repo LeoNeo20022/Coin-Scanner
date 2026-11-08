@@ -261,12 +261,6 @@
   "judged": 1793549172.3755436,
   "symbol": "pairless"
  },
- "5AWBTmZzYZ3twtKQLe1eziWw9yMcUyUiR6iRnCpXPv7f": {
-  "market_logged": 1793548434.6996305,
-  "market_reason": "too_new",
-  "judged": 1793548734.5383706,
-  "symbol": "GOAT"
- },
  "HSN4fgRP1yFXMzUjHbeXLQDEeU2m1aLyFjKgncvPLwdk": {
   "market_logged": 1793552298.6472428,
   "market_reason": "mcap_too_low"
@@ -284,10 +278,6 @@
  "2EQxezWgXPRU6V3UD7DKr5m12mxqeFGPWNRx9wbqy9fC": {
   "market_logged": 1793549772.8645713,
   "market_reason": "mcap_too_low"
- },
- "4UgDYkoXoeo9Uez9hL7QjchzXYbYR3SXeTiFbQY6oBQ3": {
-  "market_logged": 1793548734.5383706,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "Gta6cYdZXfkgRqVSxJqtSAfF6xr3hGYdCGcVWwRqNews": {
   "market_logged": 1793549172.3755436,
@@ -9419,7 +9409,9 @@
  },
  "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": {
   "market_logged": 1794152700.7355103,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "ELYSION",
+  "judged": 1794153751.4046407
  },
  "2wkETQd4ixLKBe8GUF6uuU5iUJwZD63vTnVEUV8Apump": {
   "market_logged": 1794151200.7990305,
@@ -9442,8 +9434,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "VjKCt9XXKQ5zjR2xf8hNyXc6VRJHMqrGaK7p7NtPLUS": {
-  "market_logged": 1794153300.04303,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794153751.4046407,
+  "market_reason": "too_new"
  },
  "5ZqaR5kgfjYwX3WDvnzEmzVfoSniuo1FJB8hJCQ3pump": {
   "market_logged": 1794153000.2958796,
@@ -9456,5 +9448,9 @@
  "ErvM3kEjJeCJZ24RSs4H75nSHGxkNxZaDyDKb2odpump": {
   "market_logged": 1794153451.2113125,
   "market_reason": "too_new"
+ },
+ "8cp81oMoFSxxexj4WHorAq4XJ5RhAo9AFzAUdZtapump": {
+  "market_logged": 1794153751.4046407,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
