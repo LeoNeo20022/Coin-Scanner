@@ -1,98 +1,5 @@
 {
  "entries": {
-  "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": {
-   "mint": "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K",
-   "symbol": "STONKS",
-   "pair": "4KHfHnqxV4BRGvwoRtuFj2P8P6JesY65sWecVpxfHdpn",
-   "dex": "raydium",
-   "rejected_at": "2026-11-03T19:00:15+00:00",
-   "rejected_ts": 1793732415,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0009893,
-   "mcap_usd": 989339,
-   "liquidity_usd": 220313.68,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T19:04:35+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-05T19:06:10+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
-  "AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": {
-   "mint": "AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M",
-   "symbol": "Mag",
-   "pair": "54m3ACZLA7hK76HsbgRhYySVecaabP7T4J75uXe2ESNe",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-03T20:14:46+00:00",
-   "rejected_ts": 1793736886,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.000479,
-   "mcap_usd": 470428,
-   "liquidity_usd": 63224.67,
-   "age_hours": 1.1,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T20:27:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-05T20:15:05+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "HAjc6B1MfdjnYPiB2xcETPb25kb85Pxg9nq9i4D5pump": {
-   "mint": "HAjc6B1MfdjnYPiB2xcETPb25kb85Pxg9nq9i4D5pump",
-   "symbol": "HUND",
-   "pair": "3zdfur6tVbjHfZVrzDkGHDPy1JwcJMTMn69BivaQs3fQ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-03T20:29:41+00:00",
-   "rejected_ts": 1793737781,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 7.202e-05,
-   "mcap_usd": 68884,
-   "liquidity_usd": 20161.3,
-   "age_hours": 4.9,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T20:32:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    },
-    "48h": {
-     "time": "2026-11-05T20:30:06+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "ChatbxK32pGJ3Gm6ga36aHzXiJ1w2EmhJ3m8jA5UCoiN": {
    "mint": "ChatbxK32pGJ3Gm6ga36aHzXiJ1w2EmhJ3m8jA5UCoiN",
    "symbol": "CHATCOIN",
@@ -6434,6 +6341,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump": {
+   "mint": "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump",
+   "symbol": "GROKIA",
+   "pair": "ABra53jJhihzwC9xVA4Hwo5gRn7LvgQaHCaRxg3ZtPCW",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T20:30:10+00:00",
+   "rejected_ts": 1794169810,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001253,
+   "mcap_usd": 120032,
+   "liquidity_usd": 31462.82,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6972,7 +6897,7 @@
    }
   },
   "2026-11-08": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7019,7 +6944,7 @@
     "market:mcap_too_low": 6,
     "grok:skip": 6,
     "rugcheck:top10": 6,
-    "rugcheck:insiders": 3,
+    "rugcheck:insiders": 4,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 1,
     "rugcheck:danger": 2,
