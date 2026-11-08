@@ -6228,6 +6228,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "FCjUiz4euLwZ99Dp83g6JVjpBiCt9adYyoHgJyeMpump": {
+   "mint": "FCjUiz4euLwZ99Dp83g6JVjpBiCt9adYyoHgJyeMpump",
+   "symbol": "MI",
+   "pair": "HXJZZNo3QZRmLBZnWZGYaptyUQJ8wKpLUXGqWjotmyXi",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T08:12:57+00:00",
+   "rejected_ts": 1794125577,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.136e-05,
+   "mcap_usd": 51271,
+   "liquidity_usd": 17956.2,
+   "age_hours": 0.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6766,7 +6784,7 @@
    }
   },
   "2026-11-08": {
-   "total": 30,
+   "total": 31,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6793,7 +6811,9 @@
     "05|market:mcap_too_low": 1,
     "05|market:liquidity_low": 1,
     "06": 1,
-    "06|market:too_new": 1
+    "06|market:too_new": 1,
+    "08": 1,
+    "08|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -6802,7 +6822,7 @@
     "grok:skip": 6,
     "rugcheck:top10": 3,
     "rugcheck:insiders": 1,
-    "market:liquidity_low": 1,
+    "market:liquidity_low": 2,
     "rugcheck:lp_unlocked": 1
    }
   }
