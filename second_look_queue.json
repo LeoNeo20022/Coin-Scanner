@@ -5481,7 +5481,14 @@
    "mcap_usd": 546513,
    "liquidity_usd": 120825.84,
    "age_hours": 1.06,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-08T16:17:36+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": {
@@ -5499,7 +5506,14 @@
    "mcap_usd": 83686,
    "liquidity_usd": 25240.61,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-08T16:17:36+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "lp_unlocked"
+    }
+   },
    "done": false
   },
   "CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": {
@@ -6365,6 +6379,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "3JmVNVLfvSpcoVx5VEUXfejdYrok81GqenpZSqFbpump": {
+   "mint": "3JmVNVLfvSpcoVx5VEUXfejdYrok81GqenpZSqFbpump",
+   "symbol": "Hobbes",
+   "pair": "DHQ4iSTmh5WHyq6zyHx93Pjc519A8T3fpLAs1SCxs46v",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T16:17:34+00:00",
+   "rejected_ts": 1794154654,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0002041,
+   "mcap_usd": 201013,
+   "liquidity_usd": 43008.86,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6903,7 +6935,7 @@
    }
   },
   "2026-11-08": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6940,7 +6972,9 @@
     "11": 1,
     "11|market:liquidity_low": 1,
     "12": 1,
-    "12|market:liquidity_low": 1
+    "12|market:liquidity_low": 1,
+    "16": 1,
+    "16|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -6951,7 +6985,8 @@
     "rugcheck:insiders": 3,
     "market:liquidity_low": 6,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:danger": 1
+    "rugcheck:danger": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
