@@ -4491,8 +4491,8 @@
   "market_reason": "mcap_too_low"
  },
  "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": {
-  "market_logged": 1793815759.5654225,
-  "market_reason": "too_new",
+  "market_logged": 1794167865.145382,
+  "market_reason": "too_old",
   "judged": 1793819066.9008026,
   "symbol": "george"
  },
@@ -9473,7 +9473,11 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "HMKBqmMXLe4Nt2mmFZEWdWY2dbgrcTuopBmi6xVfpump": {
-  "market_logged": 1794167333.7901194,
+  "market_logged": 1794167865.145382,
+  "market_reason": "too_new"
+ },
+ "EKK2FyuMt51t5Ksquga8boam6p8LQ2S686vj9ayupump": {
+  "market_logged": 1794167865.145382,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
