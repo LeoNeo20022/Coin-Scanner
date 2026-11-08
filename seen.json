@@ -9523,7 +9523,9 @@
  },
  "4xgXNdix6AUbuq6wkWtXhyK362ZUnPyZxAk1Y3dEpump": {
   "market_logged": 1794103189.6520677,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "judged": 1794103489.3929255,
+  "symbol": "Tungmas"
  },
  "AxRxxogfGb51aSsfs9EA6LRV4gsQ5KcyhQSMyzapkwUx": {
   "market_logged": 1794100187.5752714
@@ -9557,8 +9559,8 @@
   "market_reason": "too_new"
  },
  "9GpJDZrgXvGXxGjffCZhhYfyLyZ94QTezQoipn74pump": {
-  "market_logged": 1794103189.6520677,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794103489.3929255,
+  "market_reason": "mcap_too_low"
  },
  "8H7mEY1MYwFtdxE3tXfHsGnJMkPPWXHwyKKuwMcFpump": {
   "market_logged": 1794103189.6520677,
@@ -9567,5 +9569,9 @@
  "HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": {
   "symbol": "Respect",
   "judged": 1794103189.6520677
+ },
+ "984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump": {
+  "market_logged": 1794103489.3929255,
+  "market_reason": "too_new"
  }
 }
