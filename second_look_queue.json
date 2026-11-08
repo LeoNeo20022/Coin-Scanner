@@ -5567,7 +5567,14 @@
    "mcap_usd": 943265,
    "liquidity_usd": 90841.6,
    "age_hours": 1.09,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-08T02:19:57+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "danger:Single holder ownership"
+    }
+   },
    "done": false
   },
   "C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u": {
@@ -6487,6 +6494,42 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "H8pqscWCqPZn7rUT1ozuA4yMny4jFvFwD8fqL8Dipump": {
+   "mint": "H8pqscWCqPZn7rUT1ozuA4yMny4jFvFwD8fqL8Dipump",
+   "symbol": "invest",
+   "pair": "87KR7x1VuC8NmEopB3iytGtZ2EPWQi2oe6P8Vgr5yVg6",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T02:19:54+00:00",
+   "rejected_ts": 1794104394,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001427,
+   "mcap_usd": 140289,
+   "liquidity_usd": 30372.01,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
+  },
+  "HGE5K8mQtD7zYGfTCimkPRQ7HLKuefS26Z58XNxzuWuf": {
+   "mint": "HGE5K8mQtD7zYGfTCimkPRQ7HLKuefS26Z58XNxzuWuf",
+   "symbol": "EVE",
+   "pair": "H6qen6DPxn4jHARSrMaopkvs7Lhk4urXKWPAPD35Bvff",
+   "dex": "raydium",
+   "rejected_at": "2026-11-08T02:19:55+00:00",
+   "rejected_ts": 1794104395,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0002108,
+   "mcap_usd": 210864,
+   "liquidity_usd": 43551.94,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7025,7 +7068,7 @@
    }
   },
   "2026-11-08": {
-   "total": 14,
+   "total": 16,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7045,7 +7088,8 @@
     "market:too_new": 3,
     "market:mcap_too_low": 3,
     "grok:skip": 3,
-    "rugcheck:top10": 2
+    "rugcheck:top10": 3,
+    "rugcheck:insiders": 1
    }
   }
  }
