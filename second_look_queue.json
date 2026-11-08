@@ -1,67 +1,5 @@
 {
  "entries": {
-  "Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": {
-   "mint": "Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT",
-   "symbol": "REGRETAMINE",
-   "pair": "8yDJL2EHeNuLTqZUs1WBHdqM2TW1JcdiwaZttokq7pq8",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-03T10:17:33+00:00",
-   "rejected_ts": 1793701053,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "community-takeovers",
-   "price_usd": 5.377e-05,
-   "mcap_usd": 52621,
-   "liquidity_usd": 19707.55,
-   "age_hours": 45.44,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T10:36:40+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-05T10:37:23+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": {
-   "mint": "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump",
-   "symbol": "ABDUL",
-   "pair": "4guMDJjJ24jm2hewNj1rJGsE5GUxb7pDvjZXy8znbtid",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-03T10:22:35+00:00",
-   "rejected_ts": 1793701355,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.000166,
-   "mcap_usd": 162665,
-   "liquidity_usd": 32959.51,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-04T10:36:40+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-05T10:37:23+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": {
    "mint": "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump",
    "symbol": "ANONVOYAGE",
@@ -6240,6 +6178,24 @@
    "age_hours": 1.14,
    "checks": {},
    "done": false
+  },
+  "7pVL46MuwmQn3bYM3DBKSS1ddNtRur6wEyS54pGPrAiJ": {
+   "mint": "7pVL46MuwmQn3bYM3DBKSS1ddNtRur6wEyS54pGPrAiJ",
+   "symbol": "StonksPair",
+   "pair": "3JdLhHbGzeE1jEXEVo4aKNyPZoNtpUjMYfiVtBk7aLJq",
+   "dex": "raydium",
+   "rejected_at": "2026-11-08T10:24:20+00:00",
+   "rejected_ts": 1794133460,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.485e-05,
+   "mcap_usd": 54850,
+   "liquidity_usd": 18990.54,
+   "age_hours": 0.52,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6778,7 +6734,7 @@
    }
   },
   "2026-11-08": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6809,7 +6765,9 @@
     "08": 1,
     "08|market:liquidity_low": 1,
     "09": 1,
-    "09|market:liquidity_low": 1
+    "09|market:liquidity_low": 1,
+    "10": 1,
+    "10|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -6818,7 +6776,7 @@
     "grok:skip": 6,
     "rugcheck:top10": 3,
     "rugcheck:insiders": 2,
-    "market:liquidity_low": 3,
+    "market:liquidity_low": 4,
     "rugcheck:lp_unlocked": 1
    }
   }
