@@ -6588,6 +6588,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": {
+   "mint": "DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump",
+   "symbol": "ORBIT",
+   "pair": "Ajt7zptZTFeo9cQu8yuwDDTmoAh7BMyT7kMKMHoMBCNE",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T01:32:32+00:00",
+   "rejected_ts": 1794101552,
+   "stage": "grok",
+   "reason": "840% h6 and 92% h1 gains with m5 already -5.8% signal blow-off top; volume spike looks exhausted rather than sustained organic flow.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0005599,
+   "mcap_usd": 557043,
+   "liquidity_usd": 59558.01,
+   "age_hours": 1.12,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7126,7 +7144,7 @@
    }
   },
   "2026-11-08": {
-   "total": 8,
+   "total": 9,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7141,7 +7159,7 @@
     "market:pumpfun_bonding_curve": 2,
     "market:too_new": 2,
     "market:mcap_too_low": 2,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:top10": 1
    }
   }
