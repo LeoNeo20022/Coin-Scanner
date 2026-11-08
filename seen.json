@@ -206,8 +206,8 @@
   "symbol": "1993"
  },
  "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": {
-  "market_logged": 1794166733.8553874,
-  "market_reason": "too_old"
+  "market_logged": 1794175493.603929,
+  "market_reason": "liquidity_low"
  },
  "7gu7qzhuNL28eTyCVS1hisqUepLfphsvDgYHyYw6pump": {
   "market_logged": 1793575921.02937,
@@ -2360,7 +2360,7 @@
   "market_reason": "mcap_too_low"
  },
  "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq": {
-  "market_logged": 1793731214.1941218,
+  "market_logged": 1794175493.603929,
   "market_reason": "too_old"
  },
  "EaxPSG1bLcRJM47AbLjQQUZ1cQj1TwUoqSvK4VPipump": {
@@ -9389,7 +9389,9 @@
  },
  "7xWZSw8KfLbPRiLiyPPMNboCq81j3oc53DpAYiXfLoat": {
   "market_logged": 1794171904.2221582,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794175493.603929,
+  "symbol": "chud"
  },
  "9DL3ybGDHqe18JyMLHBkZ6PwkbCUtdypfzqCf3QLWmLn": {
   "market_logged": 1794171604.7097933,
