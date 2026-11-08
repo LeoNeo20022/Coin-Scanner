@@ -9531,11 +9531,13 @@
  },
  "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": {
   "market_logged": 1794097632.5996103,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794099887.03196,
+  "symbol": "MAGGIE"
  },
  "FevRmdX2AdU5227ihMKCi8YLQgeaEEmyrcUk3FUEpump": {
-  "market_logged": 1794099587.060526,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794099887.03196,
+  "market_reason": "too_new"
  },
  "dA7m2DnqW6YM8stnpdgQbCu9tHRYcDEy1JVfmDBpump": {
   "market_logged": 1794097932.3230896,
@@ -9546,8 +9548,8 @@
   "market_reason": "mcap_too_low"
  },
  "8SQXVMEfccBmErcbFsdvk3iMjyTYbFt2vUHGKyLYpump": {
-  "market_logged": 1794098387.832774,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1794099887.03196,
+  "market_reason": "mcap_too_low"
  },
  "4iyFQE3TxWGYuuvm89E8kMQBY4KxaGBP4cLSy9Kepump": {
   "market_logged": 1794098987.4245896,
@@ -9562,6 +9564,10 @@
  },
  "oopsiaJxr31WYm1kzFjCk81Q9asgPTUTrxqPJJzmKWa": {
   "market_logged": 1794099587.060526,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4otPjM3mtiVrZmRmCUbahgFpcEcDaj5wUFcCAPFnpump": {
+  "market_logged": 1794099887.03196,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
