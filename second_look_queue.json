@@ -5400,7 +5400,14 @@
    "mcap_usd": 93049,
    "liquidity_usd": 24494.87,
    "age_hours": 1.05,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-08T14:25:21+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "6JmDY4eYXiBJhKFjLhM2oG95UiwkEoAN2daqq6tUpump": {
@@ -6320,6 +6327,24 @@
    "age_hours": 14.48,
    "checks": {},
    "done": false
+  },
+  "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": {
+   "mint": "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump",
+   "symbol": "JASON",
+   "pair": "ALUywhhvV5DaJncyru5HzzB7oMyhq9jE52n5yRAuBTEk",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-08T14:25:20+00:00",
+   "rejected_ts": 1794147920,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0001629,
+   "mcap_usd": 154728,
+   "liquidity_usd": 30856.13,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6858,7 +6883,7 @@
    }
   },
   "2026-11-08": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -6905,7 +6930,8 @@
     "rugcheck:top10": 5,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "rugcheck:danger": 1
    }
   }
  }
