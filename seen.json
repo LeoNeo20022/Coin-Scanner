@@ -8041,8 +8041,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump": {
-  "market_logged": 1794089972.6729617,
-  "market_reason": "volume_h1_low",
+  "market_logged": 1794106199.318859,
+  "market_reason": "liquidity_low",
   "judged": 1794003273.9049342,
   "symbol": "sexcoin"
  },
@@ -9544,7 +9544,9 @@
  },
  "984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump": {
   "market_logged": 1794103489.3929255,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794106199.318859,
+  "symbol": "SINK"
  },
  "A2BE2nUe32d21rpPPYmk1DF9DhTVX7c2ofyMrffcpump": {
   "market_logged": 1794104089.2954643,
@@ -9585,6 +9587,10 @@
  },
  "4e9pBdimFH1Ka15ZahpKLRvqS2XzmSeAF9iegKMJpump": {
   "market_logged": 1794105899.788014,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "EgMw8xk4f9aUsAj2sw54dFHeNCyFwoxWvpYqxCZepump": {
+  "market_logged": 1794106199.318859,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
