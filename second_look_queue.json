@@ -6327,6 +6327,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump": {
+   "mint": "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump",
+   "symbol": "MAYA",
+   "pair": "DJV5DS8c4uqAaX36kRFA1L8hytJ89CD8zb5utjSo284Z",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T21:26:38+00:00",
+   "rejected_ts": 1794259598,
+   "stage": "grok",
+   "reason": "1300% h6 gain on 1h-old token screams blow-off top; m5 price already rolling over despite buy pressure.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0006092,
+   "mcap_usd": 604769,
+   "liquidity_usd": 60679.28,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6866,7 +6884,7 @@
    }
   },
   "2026-11-09": {
-   "total": 48,
+   "total": 49,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6915,7 +6933,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:volume_h1_low": 4,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:danger": 4,
