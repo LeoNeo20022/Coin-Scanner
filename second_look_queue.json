@@ -6356,6 +6356,24 @@
    "age_hours": 6.66,
    "checks": {},
    "done": false
+  },
+  "8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": {
+   "mint": "8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2",
+   "symbol": "BUIDL",
+   "pair": "5HofHb5Sn1TgoXwre7HC17dKpuzeXPFbMCEFL44nX5rV",
+   "dex": "raydium",
+   "rejected_at": "2026-11-09T06:16:04+00:00",
+   "rejected_ts": 1794204964,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001299,
+   "mcap_usd": 129998,
+   "liquidity_usd": 32717.61,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6895,7 +6913,7 @@
    }
   },
   "2026-11-09": {
-   "total": 27,
+   "total": 28,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6932,7 +6950,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:volume_h1_low": 2,
     "grok:skip": 3,
-    "rugcheck:top10": 2,
+    "rugcheck:top10": 3,
     "market:liquidity_low": 3,
     "rugcheck:danger": 1
    }
