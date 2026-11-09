@@ -1,36 +1,5 @@
 {
  "entries": {
-  "APj59xtb4dRp49bXwKSq5E1XWKLrFbtaYfoQZ9Arpump": {
-   "mint": "APj59xtb4dRp49bXwKSq5E1XWKLrFbtaYfoQZ9Arpump",
-   "symbol": "Donkey",
-   "pair": "5yabcmxNn5Gsmj6NPZ5wgVSScC1iMd5tN5F9DetR1GJb",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T16:24:56+00:00",
-   "rejected_ts": 1793809496,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001358,
-   "mcap_usd": 133425,
-   "liquidity_usd": 29762.46,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T16:34:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-06T16:26:02+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "AcagiqgcXvTtE6aUUF5w7bySxj8p277B1EQsTG82pump": {
    "mint": "AcagiqgcXvTtE6aUUF5w7bySxj8p277B1EQsTG82pump",
    "symbol": "DAVID",
@@ -4144,9 +4113,15 @@
      "would_pass": "1",
      "dead": "0",
      "result": "pass"
+    },
+    "48h": {
+     "time": "2026-11-09T16:44:46+00:00",
+     "would_pass": "1",
+     "dead": "0",
+     "result": "pass"
     }
    },
-   "done": false
+   "done": true
   },
   "B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump": {
    "mint": "B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump",
@@ -5338,7 +5313,14 @@
    "mcap_usd": 201013,
    "liquidity_usd": 43008.86,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-09T16:44:48+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "VjKCt9XXKQ5zjR2xf8hNyXc6VRJHMqrGaK7p7NtPLUS": {
@@ -5356,7 +5338,14 @@
    "mcap_usd": 60420,
    "liquidity_usd": 21769.83,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-09T16:44:48+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "ErvM3kEjJeCJZ24RSs4H75nSHGxkNxZaDyDKb2odpump": {
