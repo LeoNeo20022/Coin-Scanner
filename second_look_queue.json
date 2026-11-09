@@ -6224,6 +6224,24 @@
    "age_hours": 1.08,
    "checks": {},
    "done": false
+  },
+  "8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump": {
+   "mint": "8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump",
+   "symbol": "HODLER",
+   "pair": "8yTKqSeMD5URtfUSWbE59iBnwfNkbQmkStJ8XApDhoos",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T10:41:25+00:00",
+   "rejected_ts": 1794220885,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0003794,
+   "mcap_usd": 366577,
+   "liquidity_usd": 65205.55,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6763,7 +6781,7 @@
    }
   },
   "2026-11-09": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6799,14 +6817,15 @@
     "08": 2,
     "08|market:mcap_too_low": 1,
     "08|market:liquidity_low": 1,
-    "10": 1,
-    "10|market:liquidity_low": 1
+    "10": 2,
+    "10|market:liquidity_low": 1,
+    "10|market:volume_h1_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
-    "market:volume_h1_low": 2,
+    "market:volume_h1_low": 3,
     "grok:skip": 3,
     "rugcheck:top10": 4,
     "market:liquidity_low": 6,
