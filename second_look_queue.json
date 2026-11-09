@@ -6181,6 +6181,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "Ewhy4f2tPLfHuaBdvsAK1DWB7SbD2aGEDuhz7nc7pump": {
+   "mint": "Ewhy4f2tPLfHuaBdvsAK1DWB7SbD2aGEDuhz7nc7pump",
+   "symbol": "BRUNO",
+   "pair": "9fopD34WkwwybtKtnWv8oKXiV8Vh1tMVdwRbtT95vYZu",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T10:16:25+00:00",
+   "rejected_ts": 1794219385,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.133e-05,
+   "mcap_usd": 51335,
+   "liquidity_usd": 16977.3,
+   "age_hours": 0.1,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6720,7 +6738,7 @@
    }
   },
   "2026-11-09": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6755,7 +6773,9 @@
     "07|market:liquidity_low": 1,
     "08": 2,
     "08|market:mcap_too_low": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "10": 1,
+    "10|market:liquidity_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
@@ -6764,7 +6784,7 @@
     "market:volume_h1_low": 2,
     "grok:skip": 3,
     "rugcheck:top10": 4,
-    "market:liquidity_low": 5,
+    "market:liquidity_low": 6,
     "rugcheck:danger": 1
    }
   }
