@@ -5413,7 +5413,14 @@
    "mcap_usd": 154728,
    "liquidity_usd": 30856.13,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-09T14:28:25+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": {
@@ -6261,6 +6268,24 @@
    "age_hours": 2.29,
    "checks": {},
    "done": false
+  },
+  "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump": {
+   "mint": "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump",
+   "symbol": "GINGATO",
+   "pair": "6qrD6wq8LqD3D8rmZpMmR2nCb1KeTr6CbkWkgtyr1CcM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T14:28:23+00:00",
+   "rejected_ts": 1794234503,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0003814,
+   "mcap_usd": 372990,
+   "liquidity_usd": 73316.87,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6800,7 +6825,7 @@
    }
   },
   "2026-11-09": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6851,7 +6876,8 @@
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:danger": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
