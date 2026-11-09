@@ -6512,6 +6512,24 @@
    "age_hours": 1.08,
    "checks": {},
    "done": false
+  },
+  "Ca1tVaqW2MzXkqcseHB7P7b6q1xo1XeJLmiTGqkVpump": {
+   "mint": "Ca1tVaqW2MzXkqcseHB7P7b6q1xo1XeJLmiTGqkVpump",
+   "symbol": "Nvidiass",
+   "pair": "4jnMX8NRS2JtY4vTXupXrVWmBzWt9LcFcYikUUbDJshj",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T02:52:03+00:00",
+   "rejected_ts": 1794192723,
+   "stage": "grok",
+   "reason": "350% h6 pump + 50% h1 then -25% m5 shows classic blow-off; buy/sell counts strong but price action already reversing.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.000198,
+   "mcap_usd": 195176,
+   "liquidity_usd": 34245.12,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7051,7 +7069,7 @@
    }
   },
   "2026-11-09": {
-   "total": 14,
+   "total": 15,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7071,7 +7089,7 @@
     "market:too_new": 3,
     "market:pumpfun_bonding_curve": 3,
     "market:volume_h1_low": 1,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:top10": 2,
     "market:liquidity_low": 1,
     "rugcheck:danger": 1

@@ -265,10 +265,6 @@
   "symbol": "ANUKOON",
   "judged": 1793589059.2014666
  },
- "CRuDxhH4e7GDBkCsHUCZEn9mkeMnp71pKCPZgssipump": {
-  "market_logged": 1793587881.9620168,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "Au3aa3odn3u4iJK6AAnEJbn1Hbt3fKB8yjhBErqEEVbH": {
   "market_logged": 1793588181.4053044,
   "market_reason": "missing:liquidity_usd"
@@ -9401,7 +9397,9 @@
  },
  "Ca1tVaqW2MzXkqcseHB7P7b6q1xo1XeJLmiTGqkVpump": {
   "market_logged": 1794190911.1247225,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "Nvidiass",
+  "judged": 1794192710.6970036
  },
  "7ty5fJR6Ywwv17DxE14Xbq5EFiy8c5u4dSxDujyLpump": {
   "market_logged": 1794190911.1247225,
@@ -9418,5 +9416,9 @@
  "GgN3jfbg75SiW4qJKmak4VJrnWQvQdnUmN4NLHW5pump": {
   "market_logged": 1794192411.0063574,
   "market_reason": "too_new"
+ },
+ "repsar1EuYNfdzc3ekLJiLGhUbtjBZLhGxtAR4SccHZ": {
+  "market_logged": 1794192710.6970036,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
