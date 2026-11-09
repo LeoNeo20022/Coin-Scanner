@@ -6241,6 +6241,24 @@
    "age_hours": 24.07,
    "checks": {},
    "done": false
+  },
+  "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": {
+   "mint": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
+   "symbol": "ELYSION",
+   "pair": "HjxaEDvdje644vhUmE3VpjpteWLBmWgSsgvYhf6LVw2L",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T16:07:39+00:00",
+   "rejected_ts": 1794240459,
+   "stage": "grok",
+   "reason": "Price -90% in 6h and -18% in 1h despite heavy volume; classic post-pump dump.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts/top",
+   "price_usd": 0.0001237,
+   "mcap_usd": 123269,
+   "liquidity_usd": 28728.86,
+   "age_hours": 25.15,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6780,7 +6798,7 @@
    }
   },
   "2026-11-09": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6829,7 +6847,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:volume_h1_low": 4,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:danger": 2,

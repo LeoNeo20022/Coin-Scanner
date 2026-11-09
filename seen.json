@@ -289,10 +289,6 @@
   "judged": 1793637807.9051082,
   "symbol": "FEAR"
  },
- "cMzxKhgHsL3HQdnjMHRt2b6FYmQAWr29fR8GUTWpump": {
-  "market_logged": 1793635582.2457879,
-  "market_reason": "mcap_too_low"
- },
  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
   "market_logged": 1793961345.981132,
   "market_reason": "mcap_too_low",
@@ -8057,8 +8053,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": {
-  "market_logged": 1794240142.66992,
-  "market_reason": "liquidity_low",
+  "market_logged": 1794240443.0404649,
+  "market_reason": "volume_h1_low",
   "judged": 1794147916.6994328,
   "symbol": "JASON"
  },
@@ -8137,7 +8133,7 @@
   "market_logged": 1794152700.7355103,
   "market_reason": "too_new",
   "symbol": "ELYSION",
-  "judged": 1794153751.4046407
+  "judged": 1794240443.0404649
  },
  "2wkETQd4ixLKBe8GUF6uuU5iUJwZD63vTnVEUV8Apump": {
   "market_logged": 1794151200.7990305,
@@ -9262,15 +9258,31 @@
   "market_reason": "mcap_too_low"
  },
  "2WznTTxHejRYZWMfUBv349StrMiwaTZeaEPmtzXfLoat": {
-  "market_logged": 1794239242.346662,
-  "market_reason": "too_new"
+  "market_logged": 1794240443.0404649,
+  "market_reason": "mcap_too_low"
  },
  "HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z": {
-  "market_logged": 1794239242.346662,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794240443.0404649,
+  "market_reason": "too_new"
  },
  "89X3ncKEjkdhkZfMQeogYYQ8D6d5Jie2Vtt84tFiB3Xm": {
   "market_logged": 1794240142.66992,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "DBCypwDcGPPXo4t592P8XF1mJU51cyxfPoaobK8Zpump": {
+  "market_logged": 1794240443.0404649,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "BFqne8udtNQxTFgbq6zf51ijYcgZaBQM1kRjTg2Hpump": {
+  "market_logged": 1794240443.0404649,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "5uLt4cZYc7WbdCZH8r3z1CQUrfHHMks8YVc1gcHzpump": {
+  "market_logged": 1794240443.0404649,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8MzXoMcRjUkScnk3FvorCH9ZbXz8G6hWhyrQEb3iwoov": {
+  "market_logged": 1794240443.0404649,
+  "market_reason": "liquidity_low"
  }
 }
