@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HjiBij1BcEwjcgPEb22K8y7imdgaf1kHGMHuEgcDpump": {
-   "mint": "HjiBij1BcEwjcgPEb22K8y7imdgaf1kHGMHuEgcDpump",
-   "symbol": "AMD",
-   "pair": "5xnNEo9rHcdS4MRBtXkqDfjqhnD7oeMhTgWA2Jx7zBJB",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T01:37:22+00:00",
-   "rejected_ts": 1793756242,
-   "stage": "rugcheck",
-   "reason": "danger:Large Amount of LP Unlocked",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.00034,
-   "mcap_usd": 329009,
-   "liquidity_usd": 58809.21,
-   "age_hours": 1.2,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T01:54:27+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-06T01:41:08+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "5uY4RXyTkkHBkhatNzCmTphAhBS3LU6yaLd9b9uAhQAb": {
    "mint": "5uY4RXyTkkHBkhatNzCmTphAhBS3LU6yaLd9b9uAhQAb",
    "symbol": "DELUSIONAL",
@@ -6479,6 +6448,24 @@
    "age_hours": 1.18,
    "checks": {},
    "done": false
+  },
+  "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": {
+   "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
+   "symbol": "NVIDIH",
+   "pair": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T01:47:41+00:00",
+   "rejected_ts": 1794188861,
+   "stage": "grok",
+   "reason": "708% h6 and 81% h1 gains with only 1h age scream blow-off top; m5 already -7% while volume spikes fade.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003523,
+   "mcap_usd": 349537,
+   "liquidity_usd": 46052.59,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7018,7 +7005,7 @@
    }
   },
   "2026-11-09": {
-   "total": 8,
+   "total": 9,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7034,7 +7021,7 @@
     "market:too_new": 2,
     "market:pumpfun_bonding_curve": 2,
     "market:volume_h1_low": 1,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:top10": 1
    }
   }
