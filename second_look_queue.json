@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FoqkgUtCY7pDV5YNLLcvTNxo4Vck8enDoYX7w8bPpump": {
-   "mint": "FoqkgUtCY7pDV5YNLLcvTNxo4Vck8enDoYX7w8bPpump",
-   "symbol": "MONEKO",
-   "pair": "2uSKS1W5PNRtAttPZvASF3kVZdmpBGAY37eJKUW9k24M",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T16:14:56+00:00",
-   "rejected_ts": 1793808896,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.002e-05,
-   "mcap_usd": 76616,
-   "liquidity_usd": 23570.69,
-   "age_hours": 20.39,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T16:34:11+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-06T16:16:02+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "APj59xtb4dRp49bXwKSq5E1XWKLrFbtaYfoQZ9Arpump": {
    "mint": "APj59xtb4dRp49bXwKSq5E1XWKLrFbtaYfoQZ9Arpump",
    "symbol": "Donkey",
@@ -4113,9 +4082,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-09T16:17:29+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": {
    "mint": "HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump",
@@ -4138,9 +4113,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "lp_unlocked"
+    },
+    "48h": {
+     "time": "2026-11-09T16:17:29+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
     }
    },
-   "done": false
+   "done": true
   },
   "CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": {
    "mint": "CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump",
