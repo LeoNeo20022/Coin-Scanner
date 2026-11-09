@@ -6266,6 +6266,24 @@
    "age_hours": 1.28,
    "checks": {},
    "done": false
+  },
+  "Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q": {
+   "mint": "Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q",
+   "symbol": "TJR",
+   "pair": "EG9xcjB8fp967SiMKRBRfXt1WqBgRpf7bnTk6n5T8jh9",
+   "dex": "raydium",
+   "rejected_at": "2026-11-09T20:16:53+00:00",
+   "rejected_ts": 1794255413,
+   "stage": "rugcheck",
+   "reason": "danger:Single holder ownership",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001582,
+   "mcap_usd": 158294,
+   "liquidity_usd": 77774.12,
+   "age_hours": 1.25,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6805,7 +6823,7 @@
    }
   },
   "2026-11-09": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6857,7 +6875,7 @@
     "grok:skip": 4,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
-    "rugcheck:danger": 3,
+    "rugcheck:danger": 4,
     "rugcheck:insiders": 2,
     "rugcheck:lp_unlocked": 1,
     "market:sells_ge_buys_h1": 1
