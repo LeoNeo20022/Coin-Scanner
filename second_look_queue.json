@@ -5400,7 +5400,14 @@
    "mcap_usd": 120032,
    "liquidity_usd": 31462.82,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-09T20:32:15+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
@@ -6284,6 +6291,42 @@
    "age_hours": 1.25,
    "checks": {},
    "done": false
+  },
+  "BSwp4GjLnejXKqvmjueJmPXC7UZhNoF6RuMQJRpSmeta": {
+   "mint": "BSwp4GjLnejXKqvmjueJmPXC7UZhNoF6RuMQJRpSmeta",
+   "symbol": "SAT",
+   "pair": "A9fveG4YW2ZGwqkq6tDdcJcJsPwTziY4V3zxSNimL2ve",
+   "dex": "metadao",
+   "rejected_at": "2026-11-09T20:31:53+00:00",
+   "rejected_ts": 1794256313,
+   "stage": "rugcheck",
+   "reason": "authority_open",
+   "reason_key": "rugcheck:authority_open",
+   "sources": "token-profiles",
+   "price_usd": 0.008629,
+   "mcap_usd": 862949,
+   "liquidity_usd": 37158.01,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
+  },
+  "6USthxiSZFoCJWhd5bUTcStagAJ2rFd8q8SiF2kupump": {
+   "mint": "6USthxiSZFoCJWhd5bUTcStagAJ2rFd8q8SiF2kupump",
+   "symbol": "ORBIT",
+   "pair": "9jXtNZwzuk3Z2ieQoexeL39MLCQn8FecDqcyGMGHW97o",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T20:32:12+00:00",
+   "rejected_ts": 1794256332,
+   "stage": "grok",
+   "reason": "688% h6 gain after only 1h age screams blow-off top; m5 already turning negative while volume spikes.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0004515,
+   "mcap_usd": 449264,
+   "liquidity_usd": 52545.29,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6823,7 +6866,7 @@
    }
   },
   "2026-11-09": {
-   "total": 46,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6872,13 +6915,14 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:volume_h1_low": 4,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:danger": 4,
     "rugcheck:insiders": 2,
     "rugcheck:lp_unlocked": 1,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 1,
+    "rugcheck:authority_open": 1
    }
   }
  }
