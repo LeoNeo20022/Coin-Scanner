@@ -4237,9 +4237,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-09T05:10:15+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump": {
    "mint": "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump",
@@ -6346,6 +6352,24 @@
    "age_hours": 1.45,
    "checks": {},
    "done": false
+  },
+  "JD1i2iDxqeMQZUUmwzrK5bi8PnjsmjNTKbh97oxFpump": {
+   "mint": "JD1i2iDxqeMQZUUmwzrK5bi8PnjsmjNTKbh97oxFpump",
+   "symbol": "LIMEKUMA",
+   "pair": "JAhYCk84fnMzZdyB3pZSVt5eAAioSpgNw98JVBVTpb4g",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T05:10:14+00:00",
+   "rejected_ts": 1794201014,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 7.257e-05,
+   "mcap_usd": 72573,
+   "liquidity_usd": 19633.09,
+   "age_hours": 0.53,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6885,7 +6909,7 @@
    }
   },
   "2026-11-09": {
-   "total": 23,
+   "total": 24,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6907,9 +6931,10 @@
     "04|market:pumpfun_bonding_curve": 1,
     "04|market:mcap_too_low": 1,
     "04|market:too_new": 1,
-    "05": 2,
+    "05": 3,
     "05|market:mcap_too_low": 1,
-    "05|market:pumpfun_bonding_curve": 1
+    "05|market:pumpfun_bonding_curve": 1,
+    "05|market:liquidity_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 3,
@@ -6918,7 +6943,7 @@
     "market:volume_h1_low": 2,
     "grok:skip": 3,
     "rugcheck:top10": 2,
-    "market:liquidity_low": 1,
+    "market:liquidity_low": 2,
     "rugcheck:danger": 1
    }
   }
