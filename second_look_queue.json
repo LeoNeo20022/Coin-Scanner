@@ -1,67 +1,5 @@
 {
  "entries": {
-  "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": {
-   "mint": "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump",
-   "symbol": "BOTTOM",
-   "pair": "2UUmGShnvxBMz4s4e6gNhk2DntoaJgGdHJE5bH2VQotF",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T08:37:05+00:00",
-   "rejected_ts": 1793781425,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 6.682e-05,
-   "mcap_usd": 66303,
-   "liquidity_usd": 19862.46,
-   "age_hours": 5.34,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T08:41:05+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-06T08:40:49+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "5ZndeMaC36YapnG4UpXsFg2DXDquHw6xEpBXGfmfpump": {
-   "mint": "5ZndeMaC36YapnG4UpXsFg2DXDquHw6xEpBXGfmfpump",
-   "symbol": "Transinu",
-   "pair": "sKmrh3qsXomciGKFnevXjyKme7V1tKJmAu4MQbPG5gm",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T08:37:09+00:00",
-   "rejected_ts": 1793781429,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001099,
-   "mcap_usd": 107793,
-   "liquidity_usd": 27880.72,
-   "age_hours": 1.1,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T08:41:05+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-06T08:40:49+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "Adgt7dseCq71eN6GDuoUgpsNQp81ZNhq24nrF7pxpump": {
    "mint": "Adgt7dseCq71eN6GDuoUgpsNQp81ZNhq24nrF7pxpump",
    "symbol": "Noiz",
@@ -6243,6 +6181,24 @@
    "age_hours": 0.05,
    "checks": {},
    "done": false
+  },
+  "5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump": {
+   "mint": "5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump",
+   "symbol": "Steve",
+   "pair": "8j1kh1iYRaTkbTvgdLhs6aNKnMhzFj7Ym6MveqpPAYZv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T08:39:44+00:00",
+   "rejected_ts": 1794213584,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 6.183e-05,
+   "mcap_usd": 61749,
+   "liquidity_usd": 18202.19,
+   "age_hours": 0.24,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6782,7 +6738,7 @@
    }
   },
   "2026-11-09": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6815,8 +6771,9 @@
     "07": 2,
     "07|market:mcap_too_low": 1,
     "07|market:liquidity_low": 1,
-    "08": 1,
-    "08|market:mcap_too_low": 1
+    "08": 2,
+    "08|market:mcap_too_low": 1,
+    "08|market:liquidity_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
@@ -6825,7 +6782,7 @@
     "market:volume_h1_low": 2,
     "grok:skip": 3,
     "rugcheck:top10": 3,
-    "market:liquidity_low": 4,
+    "market:liquidity_low": 5,
     "rugcheck:danger": 1
    }
   }
