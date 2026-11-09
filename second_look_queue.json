@@ -4082,9 +4082,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-09T15:08:17+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": {
    "mint": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
