@@ -6254,6 +6254,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf": {
+   "mint": "AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf",
+   "symbol": "CURVD",
+   "pair": "5SS4TwF7Y3hkgDs3FyVYkPPDFZ3njPJ1FzncStTgfoXA",
+   "dex": "raydium",
+   "rejected_at": "2026-11-09T13:01:25+00:00",
+   "rejected_ts": 1794229285,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 5.472e-05,
+   "mcap_usd": 54727,
+   "liquidity_usd": 20753.95,
+   "age_hours": 2.29,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6793,7 +6811,7 @@
    }
   },
   "2026-11-09": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6841,7 +6859,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:volume_h1_low": 4,
     "grok:skip": 3,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "market:liquidity_low": 6,
     "rugcheck:danger": 1,
     "rugcheck:insiders": 1
