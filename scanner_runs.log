@@ -1,13 +1,3 @@
-[2026-11-08T03:22:10+00:00] scout: pass end {"watch": 331, "a_qualify": 47, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=126s
-[2026-11-08T03:33:12+00:00] run start (LOG ONLY)
-[2026-11-08T03:33:26+00:00] discovered=58 fresh=45 market_pass=1
-[2026-11-08T03:33:26+00:00] grok daily budget 7/40 used, 0 no-response, $0.0192 (2026-11-08 UTC)
-[2026-11-08T03:33:35+00:00] grok call 7.3s model=grok-4.3 tokens=994+69 reasoning=556
-[2026-11-08T03:33:35+00:00] grok [rugcheck] HABIBI GDRSWpEe… -> BUY (0.85) Insane buy/sell ratio sustained across h1 and m5 with top-10 at only 10.76% and zero warnings. | risk: 473% h6 gain means heavy profit-taking pressure possible despite current momentum
-[2026-11-08T03:33:35+00:00] paper BUY $10 HABIBI @ 0.0002521
-[2026-11-08T03:33:35+00:00] paper SHADOW BUY [target5] $10 HABIBI @ 0.0002521
-[2026-11-08T03:33:35+00:00] paper SHADOW BUY [scalp] $10 HABIBI @ 0.0002521
-[2026-11-08T03:33:36+00:00] run end {"discovered": 58, "skipped_recent": 13, "no_pair": 3, "market": {"mcap_too_low": 14, "pumpfun_bonding_curve": 16, "mcap_too_high": 6, "too_old": 3, "liquidity_low": 2}, "rug": {}, "grok": 1, "BUY": 1, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=24s
 [2026-11-08T03:33:38+00:00] second_look: 48h RETIRE 519AMDtB… (rejected rugcheck:top10) -> fail: mcap_too_low [dead: price_-90%]
 [2026-11-08T03:33:40+00:00] second_look: pass end {"queued": 247, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=4s
 [2026-11-08T03:33:40+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
@@ -4998,3 +4988,13 @@
 [2026-11-09T23:24:46+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-09T23:24:46+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-09T23:25:34+00:00] scout: pass end {"watch": 311, "a_qualify": 22, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=113s
+[2026-11-09T23:28:25+00:00] run start (LOG ONLY)
+[2026-11-09T23:28:36+00:00] discovered=54 fresh=46 market_pass=0
+[2026-11-09T23:28:36+00:00] grok daily budget 9/40 used, 0 no-response, $0.0253 (2026-11-09 UTC)
+[2026-11-09T23:28:36+00:00] run end {"discovered": 54, "skipped_recent": 8, "no_pair": 0, "market": {"pumpfun_bonding_curve": 13, "too_new": 2, "missing:liquidity_usd": 2, "mcap_too_low": 13, "liquidity_low": 3, "too_old": 7, "mcap_too_high": 6}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-11-09T23:28:41+00:00] second_look: pass end {"queued": 236, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
+[2026-11-09T23:28:41+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-09T23:29:46+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-09T23:29:46+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-11-09T23:29:46+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-09T23:30:34+00:00] scout: pass end {"watch": 311, "a_qualify": 22, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=113s
