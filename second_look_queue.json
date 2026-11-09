@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump": {
-   "mint": "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump",
-   "symbol": "PerpScape",
-   "pair": "6t9Tk3ygSxbCAQFdJLGvYFYSMqHQSrd1YK768k4AZagE",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T10:51:39+00:00",
-   "rejected_ts": 1793789499,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.164e-05,
-   "mcap_usd": 51649,
-   "liquidity_usd": 18914.87,
-   "age_hours": 0.41,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T10:52:24+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-06T10:55:50+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6KphvjhrxCUyQAtcAYg4HDoSwsj4qfn1uP2KDEg8qPrJ": {
    "mint": "6KphvjhrxCUyQAtcAYg4HDoSwsj4qfn1uP2KDEg8qPrJ",
    "symbol": "higher",
@@ -6242,6 +6211,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "Ao6rgPZBa12yHaT6Eaa7W35qDq1Zx3xuvKiNXmppump": {
+   "mint": "Ao6rgPZBa12yHaT6Eaa7W35qDq1Zx3xuvKiNXmppump",
+   "symbol": "PTY",
+   "pair": "741pLqu2h287t5GtbocQ1igzTKW6UByRuFFLLXNFWxvw",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T11:02:28+00:00",
+   "rejected_ts": 1794222148,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 8.523e-05,
+   "mcap_usd": 81634,
+   "liquidity_usd": 26800.02,
+   "age_hours": 12.36,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6781,7 +6768,7 @@
    }
   },
   "2026-11-09": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6819,13 +6806,15 @@
     "08|market:liquidity_low": 1,
     "10": 2,
     "10|market:liquidity_low": 1,
-    "10|market:volume_h1_low": 1
+    "10|market:volume_h1_low": 1,
+    "11": 1,
+    "11|market:volume_h1_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
-    "market:volume_h1_low": 3,
+    "market:volume_h1_low": 4,
     "grok:skip": 3,
     "rugcheck:top10": 4,
     "market:liquidity_low": 6,
