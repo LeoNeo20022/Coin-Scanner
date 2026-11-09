@@ -1,36 +1,5 @@
 {
  "entries": {
-  "95kvFsVDJ5Lr4GH9Uau4dUgstft6gwnVagpKwYt2pump": {
-   "mint": "95kvFsVDJ5Lr4GH9Uau4dUgstft6gwnVagpKwYt2pump",
-   "symbol": "UAV",
-   "pair": "FwaqynQgEHZ58RwKyRr6BCP4c4RuNhPCq8DxyTfRzVCR",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T15:55:55+00:00",
-   "rejected_ts": 1793807755,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0006488,
-   "mcap_usd": 647888,
-   "liquidity_usd": 66652.18,
-   "age_hours": 1.17,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T16:00:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-06T15:55:59+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "FoqkgUtCY7pDV5YNLLcvTNxo4Vck8enDoYX7w8bPpump": {
    "mint": "FoqkgUtCY7pDV5YNLLcvTNxo4Vck8enDoYX7w8bPpump",
    "symbol": "MONEKO",
@@ -4113,9 +4082,15 @@
      "would_pass": "1",
      "dead": "0",
      "result": "pass"
+    },
+    "48h": {
+     "time": "2026-11-09T16:02:27+00:00",
+     "would_pass": "1",
+     "dead": "0",
+     "result": "pass"
     }
    },
-   "done": false
+   "done": true
   },
   "75VDY6P9kJyAp7QGYRzq7o85oKBSXpR9XmaWVHcspump": {
    "mint": "75VDY6P9kJyAp7QGYRzq7o85oKBSXpR9XmaWVHcspump",
