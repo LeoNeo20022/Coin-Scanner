@@ -1,67 +1,5 @@
 {
  "entries": {
-  "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": {
-   "mint": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
-   "symbol": "RAMBO",
-   "pair": "Gz15vwSPY9KFYNkrMPkoKp2h9yygVBovoXJsGwSJcvFk",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T14:41:05+00:00",
-   "rejected_ts": 1793803265,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 0.0009387,
-   "mcap_usd": 925398,
-   "liquidity_usd": 80176.07,
-   "age_hours": 23.86,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T14:42:28+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_high"
-    },
-    "48h": {
-     "time": "2026-11-06T14:44:05+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_high"
-    }
-   },
-   "done": true
-  },
-  "CPZguakzrJSPZDvyB2BY7wdk25eKFwuwtYxSPYHmpump": {
-   "mint": "CPZguakzrJSPZDvyB2BY7wdk25eKFwuwtYxSPYHmpump",
-   "symbol": "LEOMAN",
-   "pair": "4d6z9aPYpX8iVJ7msRirpwLhfVbStcCQY6c8tprEdg2R",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T14:41:11+00:00",
-   "rejected_ts": 1793803271,
-   "stage": "grok",
-   "reason": "Steady buys/sells and clean facts, but 235% h6 gain on 2.35h token signals blow-off top risk.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001354,
-   "mcap_usd": 133575,
-   "liquidity_usd": 28916,
-   "age_hours": 2.35,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T14:42:28+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-06T14:44:05+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "95kvFsVDJ5Lr4GH9Uau4dUgstft6gwnVagpKwYt2pump": {
    "mint": "95kvFsVDJ5Lr4GH9Uau4dUgstft6gwnVagpKwYt2pump",
    "symbol": "UAV",
@@ -6297,6 +6235,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump": {
+   "mint": "tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump",
+   "symbol": "MYWAY",
+   "pair": "CV3MT2sZ4kfzc6GpBhw9esoz2dCfKkz5ZGS8uZP85p32",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T14:48:04+00:00",
+   "rejected_ts": 1794235684,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.000643,
+   "mcap_usd": 634743,
+   "liquidity_usd": 64055.24,
+   "age_hours": 24.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6836,7 +6792,7 @@
    }
   },
   "2026-11-09": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6876,7 +6832,9 @@
     "10|market:liquidity_low": 1,
     "10|market:volume_h1_low": 1,
     "11": 1,
-    "11|market:volume_h1_low": 1
+    "11|market:volume_h1_low": 1,
+    "14": 1,
+    "14|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
@@ -6888,7 +6846,8 @@
     "market:liquidity_low": 6,
     "rugcheck:danger": 2,
     "rugcheck:insiders": 2,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
