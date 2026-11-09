@@ -1,36 +1,5 @@
 {
  "entries": {
-  "3jXeQDkmM1N7gAS3iubWwmZTaAS4hdMDJ5e5B2uswWaK": {
-   "mint": "3jXeQDkmM1N7gAS3iubWwmZTaAS4hdMDJ5e5B2uswWaK",
-   "symbol": "MONKAI",
-   "pair": "RoqUpdwiHiX5dmQKxzuqRZ6sNYVa6hJ8rKRHwuW2jb3",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T14:31:07+00:00",
-   "rejected_ts": 1793802667,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.825e-05,
-   "mcap_usd": 83987,
-   "liquidity_usd": 22479.06,
-   "age_hours": 1.18,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T14:37:28+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-06T14:34:05+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": {
    "mint": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
    "symbol": "RAMBO",
@@ -4144,9 +4113,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-09T14:33:28+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "4HqpRjsRS8pjdWa2B3mBAmNNxTXUeJ9L6AfFnRgipump": {
    "mint": "4HqpRjsRS8pjdWa2B3mBAmNNxTXUeJ9L6AfFnRgipump",
@@ -6286,6 +6261,42 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "7v8LoULtAhg3hT43YYQvKdF3LD3stdudBZAv5oTqpump": {
+   "mint": "7v8LoULtAhg3hT43YYQvKdF3LD3stdudBZAv5oTqpump",
+   "symbol": "MILES",
+   "pair": "WrQ9LCrjo4Zi8LodweMCsvsBcqBeyHLoVgYeUhZGS1w",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T14:33:24+00:00",
+   "rejected_ts": 1794234804,
+   "stage": "rugcheck",
+   "reason": "danger:Single holder ownership",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.000141,
+   "mcap_usd": 135881,
+   "liquidity_usd": 51336.29,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
+  },
+  "1RLp87BUsakyXMuWbDx5pd8iMHtypw1o58VDMmtpump": {
+   "mint": "1RLp87BUsakyXMuWbDx5pd8iMHtypw1o58VDMmtpump",
+   "symbol": "Elysium",
+   "pair": "DWx6iczPUjFCiV4X6bYdWpdS1dFn1rUPD2PbK5wpTjVr",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-09T14:33:26+00:00",
+   "rejected_ts": 1794234806,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 8.186e-05,
+   "mcap_usd": 80334,
+   "liquidity_usd": 21391.01,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6825,7 +6836,7 @@
    }
   },
   "2026-11-09": {
-   "total": 40,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -6875,8 +6886,8 @@
     "grok:skip": 3,
     "rugcheck:top10": 6,
     "market:liquidity_low": 6,
-    "rugcheck:danger": 1,
-    "rugcheck:insiders": 1,
+    "rugcheck:danger": 2,
+    "rugcheck:insiders": 2,
     "rugcheck:lp_unlocked": 1
    }
   }
