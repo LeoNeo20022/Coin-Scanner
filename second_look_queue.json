@@ -1,98 +1,5 @@
 {
  "entries": {
-  "8B6ZZAC2FQ7AJrZPz7veXJrod5t2MG1C5MZBLNbUpump": {
-   "mint": "8B6ZZAC2FQ7AJrZPz7veXJrod5t2MG1C5MZBLNbUpump",
-   "symbol": "CHICKPOT",
-   "pair": "4jAPU7rXQ26g4A56uQY73n3FAef5UZYpV7nx28HWuCkv",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T05:23:13+00:00",
-   "rejected_ts": 1793769793,
-   "stage": "grok",
-   "reason": "1327% h1 pump with volume almost entirely in that hour and m5 already -5.5%; classic blow-off top on a 1h-old token.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0008344,
-   "mcap_usd": 811974,
-   "liquidity_usd": 73570.7,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T05:26:11+00:00",
-     "would_pass": "1",
-     "dead": "0",
-     "result": "pass"
-    },
-    "48h": {
-     "time": "2026-11-06T05:36:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": {
-   "mint": "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump",
-   "symbol": "VETO",
-   "pair": "Dok34bZDNVEaijtsEoNXWcQWamEzp5iFN9ZsjjvtjQZq",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T05:23:16+00:00",
-   "rejected_ts": 1793769796,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0002894,
-   "mcap_usd": 279025,
-   "liquidity_usd": 50846.08,
-   "age_hours": 61.55,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T05:26:12+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-06T05:36:32+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
-  "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": {
-   "mint": "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump",
-   "symbol": "CHILLCATS",
-   "pair": "HGtEcXHf7ULWf2gvxkH6E6omQXA6Yvy1tqQwv6J3AYFw",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-04T05:33:14+00:00",
-   "rejected_ts": 1793770394,
-   "stage": "grok",
-   "reason": "135% h1 pump followed by -20% m5 drop shows classic fading spike; volume almost entirely front-loaded in first hour.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 9.837e-05,
-   "mcap_usd": 94257,
-   "liquidity_usd": 24082.88,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-05T05:36:14+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-06T05:36:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AJJjNsEfEKRtTfoGBVzwZh7j2PBYwtNpRWFFDjCwpump": {
    "mint": "AJJjNsEfEKRtTfoGBVzwZh7j2PBYwtNpRWFFDjCwpump",
    "symbol": "COIN",
@@ -4299,9 +4206,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-09T05:56:06+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3J9aZ8aJq8c5Xz7DmBHGPi1e4v6Dw1S87tatoPXYpump": {
    "mint": "3J9aZ8aJq8c5Xz7DmBHGPi1e4v6Dw1S87tatoPXYpump",
