@@ -6436,6 +6436,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "HQNJhJyL1QJggnBSN434QVK1RsvcUMNNfkt1dskzpump": {
+   "mint": "HQNJhJyL1QJggnBSN434QVK1RsvcUMNNfkt1dskzpump",
+   "symbol": "HODL",
+   "pair": "GaC2sbqLbbzLabgpegUAxoZ8gCCit4kNbAGWDp2S7Jhy",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T17:44:38+00:00",
+   "rejected_ts": 1794332678,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 0.0006167,
+   "mcap_usd": 594971,
+   "liquidity_usd": 198343.22,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6965,7 +6983,7 @@
    }
   },
   "2026-11-10": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7006,7 +7024,9 @@
     "13": 1,
     "13|market:volume_h1_low": 1,
     "16": 1,
-    "16|market:sells_ge_buys_h1": 1
+    "16|market:sells_ge_buys_h1": 1,
+    "17": 1,
+    "17|market:volume_h1_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7015,7 +7035,7 @@
     "market:liquidity_low": 6,
     "grok:skip": 6,
     "rugcheck:top10": 6,
-    "market:volume_h1_low": 2,
+    "market:volume_h1_low": 3,
     "rugcheck:insiders": 2,
     "market:sells_ge_buys_h1": 1
    }
