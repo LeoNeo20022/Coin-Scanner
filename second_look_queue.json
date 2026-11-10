@@ -4237,9 +4237,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-11-10T01:28:15+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "pumpfun_bonding_curve"
     }
    },
-   "done": false
+   "done": true
   },
   "DvwumkvsRimEE32eN3FAGqN8NRR1Lk5s4Pi5GWqZ7gKY": {
    "mint": "DvwumkvsRimEE32eN3FAGqN8NRR1Lk5s4Pi5GWqZ7gKY",
@@ -4262,9 +4268,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-10T01:28:15+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "FevRmdX2AdU5227ihMKCi8YLQgeaEEmyrcUk3FUEpump": {
    "mint": "FevRmdX2AdU5227ihMKCi8YLQgeaEEmyrcUk3FUEpump",
@@ -4287,9 +4299,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-10T01:28:15+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": {
    "mint": "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV",
@@ -4312,9 +4330,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "lp_unlocked"
+    },
+    "48h": {
+     "time": "2026-11-10T01:28:15+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": {
    "mint": "DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump",
@@ -5381,7 +5405,14 @@
    "mcap_usd": 114786,
    "liquidity_usd": 25307.3,
    "age_hours": 0.49,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T01:28:15+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "HS8D7Tojxn7zJbRQ838gnjFrhX3fAXjURGKJ2Es2pump": {
@@ -5399,7 +5430,14 @@
    "mcap_usd": 10204.33,
    "liquidity_usd": null,
    "age_hours": 0.29,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T01:28:15+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "pumpfun_bonding_curve"
+    }
+   },
    "done": false
   },
   "3JPqzDf4wqF8wkVR3yErsQJ9ma1wNFBC8zMR7ctCgVzi": {
@@ -5417,7 +5455,14 @@
    "mcap_usd": 113059,
    "liquidity_usd": 66413.6,
    "age_hours": 1.33,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T01:28:15+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": {
@@ -5435,7 +5480,14 @@
    "mcap_usd": 297413,
    "liquidity_usd": 42449.87,
    "age_hours": 1.12,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T01:28:15+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "E28Q8PGpUrKkuq18cWsX8viGkx692sKGyhfyJoz8pump": {
@@ -6301,6 +6353,24 @@
    "age_hours": 0.03,
    "checks": {},
    "done": false
+  },
+  "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": {
+   "mint": "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump",
+   "symbol": "OnlyCats",
+   "pair": "TC3DBFimQpxjs92NaqDMcRHyb9zuR1MPt8KKWfQRZBK",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T01:28:11+00:00",
+   "rejected_ts": 1794274091,
+   "stage": "grok",
+   "reason": "2500% H6 gain on 1.37h token is classic blow-off top; buying after the exit ramp.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.001133,
+   "mcap_usd": 1127704,
+   "liquidity_usd": 83579.19,
+   "age_hours": 1.37,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6830,7 +6900,7 @@
    }
   },
   "2026-11-10": {
-   "total": 6,
+   "total": 7,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6845,7 +6915,8 @@
     "market:too_new": 1,
     "market:pumpfun_bonding_curve": 2,
     "market:mcap_too_low": 2,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "grok:skip": 1
    }
   }
  }
