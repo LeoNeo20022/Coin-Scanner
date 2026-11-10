@@ -267,10 +267,6 @@
   "judged": 1793741529.770619,
   "symbol": "Sexbot"
  },
- "2yUz9MAAEdtdEoGdiyaAT5dEQ1CRVoFX4UvPHthypump": {
-  "market_logged": 1793739729.7317684,
-  "market_reason": "mcap_too_low"
- },
  "7B85zY7xFXypiEZ2W4YsPQ8AP9V5TYV8Na9aoB16pump": {
   "market_logged": 1793742597.9773333,
   "market_reason": "mcap_too_low"
@@ -8701,8 +8697,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "32Bah3tcUJysomnCgXqEkFHVXwXYmNaVAgqY5oFxpump": {
-  "market_logged": 1794343517.9719687,
-  "market_reason": "too_new"
+  "market_logged": 1794344713.3735409,
+  "market_reason": "liquidity_low"
  },
  "BK8ZXzXsVLJzsDdy1paM8Dbcd3qAhMQWcSWq3M6Ypump": {
   "market_logged": 1794342618.0142508,
@@ -8714,7 +8710,9 @@
  },
  "BYCNogKA4DjbhBa2LaVWLPyszFDzDsUNSYdLqdNnpump": {
   "market_logged": 1794342618.0142508,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "GTAX",
+  "judged": 1794344713.3735409
  },
  "E2HPtLCsgb5fK3fxWBAJ4djqAejepWK6ZTqFazf5kgR6": {
   "market_logged": 1794342917.929237,
@@ -8755,5 +8753,12 @@
  "GdiMHnL4FcE8GHz8B2TYqfQTfXpG34ntGt3eawtXpump": {
   "market_logged": 1794344413.6169593,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump": {
+  "market_logged": 1794344713.3735409,
+  "market_reason": "liquidity_low"
+ },
+ "3HYJ2juXWMRRJ89FKX2ATfmud9Ys3FWdGAE7171jC8b2": {
+  "market_logged": 1794344713.3735409
  }
 }
