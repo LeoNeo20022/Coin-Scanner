@@ -6445,6 +6445,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "76indaHnwAuKrK2oBpBcPsVe1jRbYHCRYDsYuJ1MVys4": {
+   "mint": "76indaHnwAuKrK2oBpBcPsVe1jRbYHCRYDsYuJ1MVys4",
+   "symbol": "DACITYCOIN",
+   "pair": "8ifMdAUcChgbBJLb6Qyrj3Z9ztWafzMM13NUmg8jWDzE",
+   "dex": "raydium",
+   "rejected_at": "2026-11-10T15:11:31+00:00",
+   "rejected_ts": 1794323491,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 8.862e-05,
+   "mcap_usd": 88624,
+   "liquidity_usd": 70053.58,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6974,7 +6992,7 @@
    }
   },
   "2026-11-10": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7021,7 +7039,7 @@
     "market:mcap_too_low": 6,
     "market:liquidity_low": 6,
     "grok:skip": 3,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "rugcheck:insiders": 1
    }

@@ -281,10 +281,6 @@
   "market_logged": 1793719269.4871705,
   "market_reason": "mcap_too_low"
  },
- "GUcbg5BnuN42iSGtMKRkZkaLWBPgKLYP6cBXV7NpZMmg": {
-  "market_logged": 1793718512.8679748,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "96dzMNxHP2eJdpBr8VfR719PnQyStE31pMVTgXc6pump": {
   "market_logged": 1793719570.163755,
   "market_reason": "mcap_too_low"
@@ -8726,8 +8722,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8QCqrCmjCTmFarmq8SxCryuxzMBLVEWasbFaZQgXpump": {
-  "market_logged": 1794323186.748185,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794323486.151622,
+  "market_reason": "mcap_too_high"
  },
  "A8oG7Zq3tEgquTKYnXUu2jjDRc2ooRJLN8DxHsnpump": {
   "market_logged": 1794318485.6268282,
@@ -8740,7 +8736,8 @@
   "symbol": "Pok\u00e9Meal"
  },
  "8ETPDhk262rJvF6rNCpRkLLsDsZKjf88tReMT9woPM2Z": {
-  "market_logged": 1794318785.6307135
+  "market_logged": 1794323486.151622,
+  "market_reason": "mcap_too_low"
  },
  "EZBcgdXxfWCscEMjehuFvsvYzdkG2T9z7PWi8nr9Mo46": {
   "market_logged": 1794322586.099281,
@@ -8752,7 +8749,9 @@
  },
  "76indaHnwAuKrK2oBpBcPsVe1jRbYHCRYDsYuJ1MVys4": {
   "market_logged": 1794319985.36721,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794323486.151622,
+  "symbol": "DACITYCOIN"
  },
  "5NmhSUzikDT8QUiAX2oSNR7RSFD1i1krmnFXwheEpump": {
   "market_logged": 1794319985.36721,
@@ -8798,7 +8797,7 @@
   "market_reason": "missing:mcap_usd"
  },
  "DFNnZi7mLegSKFhipUa964Z1DdLRKmggTr1vUhtwH6Bi": {
-  "market_logged": 1794323186.748185,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794323486.151622,
+  "market_reason": "mcap_too_low"
  }
 }
