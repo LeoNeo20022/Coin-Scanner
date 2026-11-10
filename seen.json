@@ -199,12 +199,6 @@
   "market_logged": 1793809790.9382005,
   "market_reason": "too_old"
  },
- "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": {
-  "market_logged": 1793724280.403323,
-  "market_reason": "mcap_too_low",
-  "judged": 1793637807.9051082,
-  "symbol": "FEAR"
- },
  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
   "market_logged": 1793961345.981132,
   "market_reason": "mcap_too_low",
@@ -275,19 +269,11 @@
   "judged": 1793725931.7110293,
   "symbol": "CYBRLK"
  },
- "44YW7os9MRbpU7WJXgT4aN5KjURLL1g5Nc7Tjbntpump": {
-  "market_logged": 1793724280.403323,
-  "market_reason": "mcap_too_low"
- },
  "DaBhddL4WRF1JKiZAruSBYdDmVCH3ocaajFoon89pump": {
   "market_logged": 1793724280.403323,
   "market_reason": "too_new",
   "judged": 1793727131.9090478,
   "symbol": "2500"
- },
- "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
-  "market_logged": 1793724280.403323,
-  "market_reason": "mcap_too_high"
  },
  "5W8eXgJfBa8UnNsf2AsgiRSqyCi7b6dEvCRMAyNbpump": {
   "market_logged": 1793724581.116322,
@@ -8617,8 +8603,8 @@
   "market_reason": "mcap_too_low"
  },
  "EZBcgdXxfWCscEMjehuFvsvYzdkG2T9z7PWi8nr9Mo46": {
-  "market_logged": 1794328265.7028582,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794329169.0460396,
+  "market_reason": "liquidity_low"
  },
  "9S1DYY1wKRuETUfQ88pDtpxrKf5CsEJcYompw2CRApad": {
   "judged": 1794319685.701192,
@@ -8784,5 +8770,21 @@
  "FjiLS1HijWU7CpYNrFMC7RFZmfq1VztmrahJLHQ5pump": {
   "market_logged": 1794328869.8428693,
   "market_reason": "mcap_too_low"
+ },
+ "Ereedz94JPD19GHJpe3uPYsKYE4qBspNYeyHtUetpump": {
+  "market_logged": 1794329169.0460396,
+  "market_reason": "too_new"
+ },
+ "4HLzQoz5KkhXFrwKfX1Jb2iEFBd9QseFAEJvjqDdpump": {
+  "market_logged": 1794329169.0460396,
+  "market_reason": "too_new"
+ },
+ "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump": {
+  "market_logged": 1794329169.0460396,
+  "market_reason": "too_new"
+ },
+ "NCwA7tiyCu5HhierYoiY2x5vqPBJpoPKFqSuAxgpump": {
+  "market_logged": 1794329169.0460396,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
