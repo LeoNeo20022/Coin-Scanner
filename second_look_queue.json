@@ -1,36 +1,5 @@
 {
  "entries": {
-  "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": {
-   "mint": "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At",
-   "symbol": "SOUVENIR",
-   "pair": "3k5sSodRuZ8qgzNfHmpckaPuE472JWngeXrMeMGsmYYE",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-05T06:01:08+00:00",
-   "rejected_ts": 1793858468,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 0.0004562,
-   "mcap_usd": 450573,
-   "liquidity_usd": 57790.89,
-   "age_hours": 1.33,
-   "checks": {
-    "24h": {
-     "time": "2026-11-06T06:01:27+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-07T06:02:55+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "7THX6dQXVCvchYpyRdZ2JBW4eCq9ZYpwkXty99Rmpump": {
    "mint": "7THX6dQXVCvchYpyRdZ2JBW4eCq9ZYpwkXty99Rmpump",
    "symbol": "JACOBITA",
@@ -5461,7 +5430,14 @@
    "mcap_usd": 78636,
    "liquidity_usd": 22307.33,
    "age_hours": 0.5,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T06:05:20+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump": {
@@ -5479,7 +5455,14 @@
    "mcap_usd": 17890,
    "liquidity_usd": 9047.67,
    "age_hours": 0.47,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T06:05:20+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "CXz596uKfWb5tkyz5Vh5a9QCKKh38io6hdgGrKKcpump": {
@@ -5497,7 +5480,14 @@
    "mcap_usd": 51874,
    "liquidity_usd": 16761.34,
    "age_hours": 6.66,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T06:05:20+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": {
