@@ -1,36 +1,5 @@
 {
  "entries": {
-  "6owbUThBCH6UhgrgW69jYM2Q1yCWocxQD8C4p1Dppump": {
-   "mint": "6owbUThBCH6UhgrgW69jYM2Q1yCWocxQD8C4p1Dppump",
-   "symbol": "d/acc",
-   "pair": "9H1aadNY86H6YNEF68LtPhkfp7KhuLue289JgtER8bQ2",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-05T08:10:11+00:00",
-   "rejected_ts": 1793866211,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.794e-05,
-   "mcap_usd": 57945,
-   "liquidity_usd": 18512.89,
-   "age_hours": 0.1,
-   "checks": {
-    "24h": {
-     "time": "2026-11-06T08:14:49+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-07T08:22:45+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DgoVJ1Up6gi9uZM2cLjTeENZ3GdefXVVnKHtidokpump": {
    "mint": "DgoVJ1Up6gi9uZM2cLjTeENZ3GdefXVVnKHtidokpump",
    "symbol": "Retail",
@@ -4361,9 +4330,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-10T08:14:27+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "AFv7Xu3NnxV1k2rTU3mKAm7QRATBTkp6FxVZ5CQppump": {
    "mint": "AFv7Xu3NnxV1k2rTU3mKAm7QRATBTkp6FxVZ5CQppump",
@@ -5530,7 +5505,14 @@
    "mcap_usd": 21524,
    "liquidity_usd": 10012.24,
    "age_hours": 0.05,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T08:14:27+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump": {
