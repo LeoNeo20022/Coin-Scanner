@@ -1,36 +1,5 @@
 {
  "entries": {
-  "ECNQSQA7Y5bnXzbotgv6XcG15c6jpJ6V2BFbYzJrpump": {
-   "mint": "ECNQSQA7Y5bnXzbotgv6XcG15c6jpJ6V2BFbYzJrpump",
-   "symbol": "PAWKET",
-   "pair": "9icJRrZeVFLonFyC5XJ9CJekdyirt2KvLSzQ9GMtahFD",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-05T16:34:07+00:00",
-   "rejected_ts": 1793896447,
-   "stage": "grok",
-   "reason": "2110% h6 gain screams blow-off top after massive early pump. m5 buys strong but fading volume and thin liq relative to run-up.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0009653,
-   "mcap_usd": 962314,
-   "liquidity_usd": 81249.31,
-   "age_hours": 1.41,
-   "checks": {
-    "24h": {
-     "time": "2026-11-06T16:39:14+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-07T16:37:51+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
    "symbol": "Rocco",
@@ -4423,9 +4392,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-10T16:36:26+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "ErvM3kEjJeCJZ24RSs4H75nSHGxkNxZaDyDKb2odpump": {
    "mint": "ErvM3kEjJeCJZ24RSs4H75nSHGxkNxZaDyDKb2odpump",
