@@ -6441,6 +6441,24 @@
    "age_hours": 5.09,
    "checks": {},
    "done": false
+  },
+  "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": {
+   "mint": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
+   "symbol": "BIG",
+   "pair": "5TecgcpFLdBnJvBrpjvk32UAYABPRA1HgeFPEUjQQkYK",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T19:27:23+00:00",
+   "rejected_ts": 1794338843,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.001021,
+   "mcap_usd": 970428,
+   "liquidity_usd": 89709.18,
+   "age_hours": 51.26,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6970,7 +6988,7 @@
    }
   },
   "2026-11-10": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7015,7 +7033,9 @@
     "17": 1,
     "17|market:volume_h1_low": 1,
     "18": 1,
-    "18|market:volume_h1_low": 1
+    "18|market:volume_h1_low": 1,
+    "19": 1,
+    "19|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7026,7 +7046,7 @@
     "rugcheck:top10": 6,
     "market:volume_h1_low": 4,
     "rugcheck:insiders": 2,
-    "market:sells_ge_buys_h1": 1
+    "market:sells_ge_buys_h1": 2
    }
   }
  }
