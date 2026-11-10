@@ -6273,6 +6273,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd": {
+   "mint": "52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd",
+   "symbol": "BREW",
+   "pair": "YJnkgJnV7s5tJiU2zSPgGYxf69igeQQ4yB6nMky5fPE",
+   "dex": "raydium",
+   "rejected_at": "2026-11-10T05:30:21+00:00",
+   "rejected_ts": 1794288621,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001555,
+   "mcap_usd": 155584,
+   "liquidity_usd": 29250.94,
+   "age_hours": 1.31,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6802,7 +6820,7 @@
    }
   },
   "2026-11-10": {
-   "total": 21,
+   "total": 22,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6834,7 +6852,8 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:liquidity_low": 4,
-    "grok:skip": 3
+    "grok:skip": 3,
+    "rugcheck:top10": 1
    }
   }
  }
