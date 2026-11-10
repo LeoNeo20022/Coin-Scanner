@@ -18,8 +18,8 @@
   "market_reason": "mcap_too_high"
  },
  "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": {
-  "market_logged": 1794274981.7286556,
-  "market_reason": "too_old"
+  "market_logged": 1794275281.3971279,
+  "market_reason": "mcap_too_high"
  },
  "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": {
   "market_logged": 1793879401.266472,
@@ -275,25 +275,11 @@
   "market_logged": 1793670495.864481,
   "market_reason": "mcap_too_low"
  },
- "DLsvm8VGQMucYFjagmv6j7WAr1NZiX2qMFVtGz8pump": {
-  "market_logged": 1793669295.7254207,
-  "market_reason": "too_new",
-  "symbol": "USDC",
-  "judged": 1793670195.8927333
- },
  "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump": {
   "market_logged": 1793757602.7143614,
   "market_reason": "mcap_too_low",
   "symbol": "Wanted",
   "judged": 1793670795.847818
- },
- "4gMXHewBS7B4qbUuNw9LLeq1DjBCuuZy3B76VJq6pump": {
-  "market_logged": 1793670195.8927333,
-  "market_reason": "volume_h1_low"
- },
- "Hhcck7SDvK3aQri5FAZpBCU9vQe2xWQxZx32FLfgpump": {
-  "market_logged": 1793670195.8927333,
-  "market_reason": "mcap_too_low"
  },
  "E7ayy5Se6gjwCNtw9NP629AucnTgqab4SSmSxDpUpump": {
   "market_logged": 1793670495.864481,
@@ -8559,8 +8545,8 @@
   "market_reason": "mcap_too_low"
  },
  "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": {
-  "market_logged": 1794274681.2430851,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794275281.3971279,
+  "market_reason": "liquidity_low"
  },
  "524Uf5ui9NQvtMcxFL29No3Gz5e4Ne2iGdWR5Aympump": {
   "market_logged": 1794237482.5664454,
@@ -9082,7 +9068,9 @@
  },
  "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump": {
   "market_logged": 1794274082.0077784,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "HABIBI",
+  "judged": 1794275281.3971279
  },
  "B23ELE1bHv2cjSFy1UtatNBJfUHdvAtFLq6d4SPtpump": {
   "market_logged": 1794274381.1827636,
@@ -9090,6 +9078,13 @@
  },
  "6ZNpznjHug8EkcmNqtyfEkeax5Ma4Za6NqfmBFBYpump": {
   "market_logged": 1794274681.2430851,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "C783y9Z5AfcnJsnGTBheerFLwiC1A4kBHWzf3pUfLoat": {
+  "market_logged": 1794275281.3971279
+ },
+ "A6CK4PukTpJdnZeTv8PuUT9LLnTnc2AGyuF8PE4cpump": {
+  "market_logged": 1794275281.3971279,
   "market_reason": "pumpfun_bonding_curve"
  }
 }

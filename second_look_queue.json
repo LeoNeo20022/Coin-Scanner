@@ -5536,7 +5536,14 @@
    "mcap_usd": 349537,
    "liquidity_usd": 46052.59,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T01:48:15+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "8q8SwRVni2hRE3LiitdToMYLs1LpmX6YiYm7Y6QXW2DW": {
@@ -6384,6 +6391,24 @@
    "age_hours": 1.37,
    "checks": {},
    "done": false
+  },
+  "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump": {
+   "mint": "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump",
+   "symbol": "HABIBI",
+   "pair": "3w1x2v9jQzeVfUspV98uV81uzGGtJWGRgya1JMKcmnGv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T01:48:12+00:00",
+   "rejected_ts": 1794275292,
+   "stage": "grok",
+   "reason": "Sharp -22% m5 correction after 168% h6 pump; high holder correlation warning present despite strong buy/sell ratio.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001147,
+   "mcap_usd": 113254,
+   "liquidity_usd": 25557.64,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6913,7 +6938,7 @@
    }
   },
   "2026-11-10": {
-   "total": 7,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6929,7 +6954,7 @@
     "market:pumpfun_bonding_curve": 2,
     "market:mcap_too_low": 2,
     "market:liquidity_low": 1,
-    "grok:skip": 1
+    "grok:skip": 2
    }
   }
  }
