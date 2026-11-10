@@ -1,36 +1,5 @@
 {
  "entries": {
-  "4GMG7T7HvXhsYYTDHP9n1qT7jWiyaZky4jxSSwH7pump": {
-   "mint": "4GMG7T7HvXhsYYTDHP9n1qT7jWiyaZky4jxSSwH7pump",
-   "symbol": "CASSO",
-   "pair": "CHxsx87tCY8y2brpUJQG8ChgxS33YtKDdwgcpKdF5Dai",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-05T00:07:11+00:00",
-   "rejected_ts": 1793837231,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0002202,
-   "mcap_usd": 212543,
-   "liquidity_usd": 37538.91,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-11-06T00:11:41+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-07T00:11:59+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "97GCuS8PAMdoXcrsmjjLEjcgt5cKPhSZW382y4G9pump": {
    "mint": "97GCuS8PAMdoXcrsmjjLEjcgt5cKPhSZW382y4G9pump",
    "symbol": "a/acc",
@@ -4361,9 +4330,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-10T00:10:56+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "4otPjM3mtiVrZmRmCUbahgFpcEcDaj5wUFcCAPFnpump": {
    "mint": "4otPjM3mtiVrZmRmCUbahgFpcEcDaj5wUFcCAPFnpump",
