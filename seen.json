@@ -54,7 +54,7 @@
   "market_reason": "mcap_too_low"
  },
  "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": {
-  "market_logged": 1794247439.9582815,
+  "market_logged": 1794333872.2919483,
   "market_reason": "too_old",
   "judged": 1793326680.9025888,
   "symbol": "jeff"
@@ -278,14 +278,6 @@
   "symbol": "MEOWNERO",
   "market_logged": 1793814096.969444,
   "market_reason": "volume_h1_low"
- },
- "CQXSMUZL2inTt6Wm3aHpYbks8SQjuEajezmTYtpcoVRc": {
-  "market_logged": 1793728948.9050312,
-  "market_reason": "missing:liquidity_usd"
- },
- "FqBVbBeoxJfLi5corNFsrDG54SFfBfFwjqtjgZK8pump": {
-  "market_logged": 1793728948.9050312,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "6Mf55c5qvmf4xFwCUqWRNPp2T3J3J973hhJZckWxpump": {
   "market_logged": 1793729852.9699311,
@@ -8770,5 +8762,13 @@
  "D6CWSeSMgdy47nsZLqxYbHWoVgHCgfNgKd2FqmP1pump": {
   "market_logged": 1794333276.2005155,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "HRifw4Rm5jPQv8iDVUgeQorUGe5aP6AMeizXUdXqpump": {
+  "market_logged": 1794333872.2919483,
+  "market_reason": "too_new"
+ },
+ "Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": {
+  "market_logged": 1794333872.2919483,
+  "market_reason": "too_new"
  }
 }
