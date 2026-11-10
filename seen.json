@@ -263,12 +263,6 @@
   "market_logged": 1793727131.9090478,
   "market_reason": "liquidity_low"
  },
- "Farisr1LVuzWrHBhLmcRwjdAaZAstTnXtRfifFbwLEEK": {
-  "market_logged": 1793723080.7034748,
-  "market_reason": "too_new",
-  "judged": 1793725931.7110293,
-  "symbol": "CYBRLK"
- },
  "DaBhddL4WRF1JKiZAruSBYdDmVCH3ocaajFoon89pump": {
   "market_logged": 1793724280.403323,
   "market_reason": "too_new",
@@ -280,10 +274,6 @@
   "market_reason": "volume_h1_low",
   "judged": 1793815160.1243536,
   "symbol": "5STAR"
- },
- "5ujHUM9S9k324KnB4xoLZykBsW4s25VcqsRuBcsFY1MM": {
-  "market_logged": 1793725931.7110293,
-  "market_reason": "missing:liquidity_usd"
  },
  "HekahVohmeokPUhscg5taNme3Qs2fcSQoNgEeUPMpump": {
   "market_logged": 1793727731.4482076,
@@ -8757,8 +8747,8 @@
   "market_reason": "mcap_too_low"
  },
  "Ereedz94JPD19GHJpe3uPYsKYE4qBspNYeyHtUetpump": {
-  "market_logged": 1794330155.7141345,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794330753.5193887,
+  "market_reason": "mcap_too_low"
  },
  "4HLzQoz5KkhXFrwKfX1Jb2iEFBd9QseFAEJvjqDdpump": {
   "market_logged": 1794329169.0460396,
@@ -8785,5 +8775,13 @@
  "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": {
   "market_logged": 1794329853.3013403,
   "market_reason": "too_old"
+ },
+ "Fxg8YJZwobR55YKN6nK9PQTFMxbwdetZi27m1xJWpump": {
+  "market_logged": 1794330753.5193887,
+  "market_reason": "too_new"
+ },
+ "BTJTo1ESLNmWZ3RpiG1yhkBWxNnj2MypvbBu8v2Qpump": {
+  "symbol": "DAINU",
+  "judged": 1794330753.5193887
  }
 }

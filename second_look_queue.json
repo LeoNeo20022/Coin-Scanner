@@ -6424,6 +6424,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "BTJTo1ESLNmWZ3RpiG1yhkBWxNnj2MypvbBu8v2Qpump": {
+   "mint": "BTJTo1ESLNmWZ3RpiG1yhkBWxNnj2MypvbBu8v2Qpump",
+   "symbol": "DAINU",
+   "pair": "7Nx8SoW2a4RvKTpjYQhCKcFcD6bS8DPZfpw18sg19DFV",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T17:12:47+00:00",
+   "rejected_ts": 1794330767,
+   "stage": "grok",
+   "reason": "751% h6 and 160% h1 gains with fading m5 momentum signal blow-off top. Buys/sells near parity in last 5m after massive volume spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003472,
+   "mcap_usd": 343843,
+   "liquidity_usd": 44236.42,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6953,7 +6971,7 @@
    }
   },
   "2026-11-10": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7001,7 +7019,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "rugcheck:insiders": 2,
