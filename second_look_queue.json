@@ -4330,9 +4330,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-10T20:30:24+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
    "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
@@ -6404,6 +6410,24 @@
    "age_hours": 51.26,
    "checks": {},
    "done": false
+  },
+  "2uQw2gvnhYYQ5T5jJf3MvLPyUquQ54VFHbMHBTtCpump": {
+   "mint": "2uQw2gvnhYYQ5T5jJf3MvLPyUquQ54VFHbMHBTtCpump",
+   "symbol": "LEONIDA",
+   "pair": "FeBNtxMdn6iaSFQh9QX2Fbd7e1KqdSzJJMQFeYb9peP7",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T20:30:23+00:00",
+   "rejected_ts": 1794342623,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0009453,
+   "mcap_usd": 940964,
+   "liquidity_usd": 76079.83,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6933,7 +6957,7 @@
    }
   },
   "2026-11-10": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6990,7 +7014,7 @@
     "grok:skip": 6,
     "rugcheck:top10": 6,
     "market:volume_h1_low": 4,
-    "rugcheck:insiders": 2,
+    "rugcheck:insiders": 3,
     "market:sells_ge_buys_h1": 2
    }
   }
