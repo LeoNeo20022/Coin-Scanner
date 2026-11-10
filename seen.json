@@ -271,12 +271,6 @@
   "judged": 1793721369.8540156,
   "symbol": "BINGUS"
  },
- "2Csio9ZpB2U526YD8xusoFrTBk7y4Yu9gLtVitYcpump": {
-  "market_logged": 1793718812.8396993,
-  "market_reason": "too_new",
-  "judged": 1793721070.2779632,
-  "symbol": "DJT"
- },
  "Cx3onEtJqfzfqbVG1mnveskpvA7uMWpq31hhZx2jpump": {
   "market_logged": 1794300293.5210931,
   "market_reason": "too_old"
@@ -287,19 +281,11 @@
   "symbol": "NALA",
   "judged": 1793723681.3086555
  },
- "nE1nbYV8xFuJPafuh3Ywctc8tWk5x33p9fTtJWaZPKk": {
-  "market_logged": 1793721070.2779632,
-  "market_reason": "mcap_too_low"
- },
  "4LT4uDp694w7soJerjRjSEVr2884J33EjLNG1WGzcash": {
   "market_logged": 1793721369.8540156,
   "market_reason": "too_new",
   "judged": 1793723980.739688,
   "symbol": "SARAH"
- },
- "HuNvBLyLx2CTyGpYcm7f1xSNnzWQVsy6hU9N7NY4pump": {
-  "market_logged": 1793721070.2779632,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "8EHCocWZ8sasercWBqdgSN9BYA6hisTHr12PWgmYpump": {
   "market_logged": 1793721369.8540156,
@@ -8759,15 +8745,17 @@
  },
  "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": {
   "market_logged": 1794325805.3804905,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "judged": 1794326105.2340388,
+  "symbol": "If"
  },
  "2hyMwC4c11L32VsJwWznCmvfERBhaz19CFpGQyHMpump": {
   "market_logged": 1794325204.593266,
   "market_reason": "pumpfun_bonding_curve"
  },
  "x9TW2UPX9rAPCkXVdy6Zv5E3H2Cc3Bek7uUyFoQpump": {
-  "market_logged": 1794325504.7796314,
-  "market_reason": "too_new"
+  "market_logged": 1794326105.2340388,
+  "market_reason": "liquidity_low"
  },
  "ZuRwiAPkpCKAdscscbcXMEZUtTwBeBNbMpwbUPapump": {
   "market_logged": 1794325805.3804905,
@@ -8775,5 +8763,13 @@
  },
  "AZfodxuZRQU34RXxMtTnmP4Cxeuq1SRHkehXbJiNgiwa": {
   "market_logged": 1794325504.7796314
+ },
+ "HiY945Q3QcFTipjzAySpSBgxvr6X1AMSXzqmmo5Epump": {
+  "market_logged": 1794326105.2340388,
+  "market_reason": "too_new"
+ },
+ "DsR5xy3vip9sAukoW8JU63woN3nJ2RqtdLvsVrMride": {
+  "market_logged": 1794326105.2340388,
+  "market_reason": "missing:liquidity_usd"
  }
 }
