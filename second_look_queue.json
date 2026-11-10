@@ -6342,6 +6342,24 @@
    "age_hours": 0.29,
    "checks": {},
    "done": false
+  },
+  "yjF8ynR8zcF4umGmFpX2kjG63xBBrXe7rUQjAYBpump": {
+   "mint": "yjF8ynR8zcF4umGmFpX2kjG63xBBrXe7rUQjAYBpump",
+   "symbol": "AMPED",
+   "pair": "3jXXT7PTWyhk6YV8KBwU7fcoVx3QCqrQBaVYAYAhFAzB",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T08:04:25+00:00",
+   "rejected_ts": 1794297865,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 0.0001312,
+   "mcap_usd": 131201,
+   "liquidity_usd": 26683.13,
+   "age_hours": 0.11,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6871,7 +6889,7 @@
    }
   },
   "2026-11-10": {
-   "total": 27,
+   "total": 28,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6902,10 +6920,12 @@
     "06|market:liquidity_low": 1,
     "07": 2,
     "07|market:liquidity_low": 1,
-    "07|market:too_new": 1
+    "07|market:too_new": 1,
+    "08": 1,
+    "08|market:too_new": 1
    },
    "reasons": {
-    "market:too_new": 4,
+    "market:too_new": 5,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:liquidity_low": 6,
