@@ -6463,6 +6463,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "C7JpvPbaQZTYuWnCsKyPtTCnRSmmESWgZwxZrmthpump": {
+   "mint": "C7JpvPbaQZTYuWnCsKyPtTCnRSmmESWgZwxZrmthpump",
+   "symbol": "Bunzo",
+   "pair": "AtSKt2TmCiHa4dtjMSvnyq5vdmQ6SKcp1EfY6t2oZwRU",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T15:25:24+00:00",
+   "rejected_ts": 1794324324,
+   "stage": "grok",
+   "reason": "371% h6 gain on 1h-old token screams blow-off top; buying the exit. Steady buys but price action already extreme.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001724,
+   "mcap_usd": 170237,
+   "liquidity_usd": 30984.08,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6992,7 +7010,7 @@
    }
   },
   "2026-11-10": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7038,7 +7056,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "rugcheck:insiders": 1
