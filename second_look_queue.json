@@ -1,36 +1,5 @@
 {
  "entries": {
-  "CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9": {
-   "mint": "CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9",
-   "symbol": "TOPLESS",
-   "pair": "9e2YFW8XJWdnAHpoZaHysGiJcXmsLSew4jmMxVwzbSz8",
-   "dex": "raydium",
-   "rejected_at": "2026-11-05T12:34:02+00:00",
-   "rejected_ts": 1793882042,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.172e-05,
-   "mcap_usd": 51724,
-   "liquidity_usd": 18213.89,
-   "age_hours": 0.02,
-   "checks": {
-    "24h": {
-     "time": "2026-11-06T12:37:14+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-07T12:36:37+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Eq8UZ5oadKvLtiDnPrb41dwDwU4BuB2tFXRT8rw8pump": {
    "mint": "Eq8UZ5oadKvLtiDnPrb41dwDwU4BuB2tFXRT8rw8pump",
    "symbol": "AMD",
@@ -4361,9 +4330,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-10T12:41:21+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": {
    "mint": "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump",
