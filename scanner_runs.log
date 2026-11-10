@@ -1,18 +1,3 @@
-[2026-11-08T11:59:11+00:00] scout: paper: candles unavailable ejrz94zR (RuntimeError)
-[2026-11-08T11:59:11+00:00] scout: paper: candles unavailable CZRtwCDJ (RuntimeError)
-[2026-11-08T11:59:20+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-08T11:59:20+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-08T11:59:53+00:00] scout: pass end {"watch": 333, "a_qualify": 1, "a_open": 0, "b_eval": 3, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=113s
-[2026-11-08T12:02:47+00:00] run start (LOG ONLY)
-[2026-11-08T12:02:48+00:00] paper: CALYPSO: closed (stop_loss) at -98.6%
-[2026-11-08T12:02:56+00:00] discovered=35 fresh=30 market_pass=0
-[2026-11-08T12:02:56+00:00] grok daily budget 11/40 used, 0 no-response, $0.0298 (2026-11-08 UTC)
-[2026-11-08T12:02:56+00:00] run end {"discovered": 35, "skipped_recent": 5, "no_pair": 1, "market": {"pumpfun_bonding_curve": 12, "liquidity_low": 1, "mcap_too_low": 11, "mcap_too_high": 3, "too_old": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-11-08T12:02:58+00:00] second_look: pass end {"queued": 232, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=2s
-[2026-11-08T12:02:58+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-08T12:04:13+00:00] scout: paper: candles unavailable ECNQSQA7 (RuntimeError)
-[2026-11-08T12:04:13+00:00] scout: paper: candles unavailable H4Yco8Ge (RuntimeError)
-[2026-11-08T12:04:13+00:00] scout: paper: [pool/target5] CALYPSO closed stop_loss -5.11 after fees
 [2026-11-08T12:04:13+00:00] scout: paper: [pool/hold] CALYPSO closed stop_loss -5.11 after fees
 [2026-11-08T12:04:21+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-08T12:04:21+00:00] scout: feed error new_pools?page=1: 429
@@ -4998,3 +4983,18 @@
 [2026-11-10T08:46:22+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-10T08:46:22+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-10T08:46:59+00:00] scout: pass end {"watch": 307, "a_qualify": 21, "a_open": 0, "b_eval": 3, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=117s
+[2026-11-10T08:49:45+00:00] run start (LOG ONLY)
+[2026-11-10T08:49:56+00:00] discovered=53 fresh=44 market_pass=0
+[2026-11-10T08:49:56+00:00] grok daily budget 5/40 used, 0 no-response, $0.0144 (2026-11-10 UTC)
+[2026-11-10T08:49:56+00:00] run end {"discovered": 53, "skipped_recent": 9, "no_pair": 0, "market": {"mcap_too_low": 15, "liquidity_low": 5, "pumpfun_bonding_curve": 12, "too_new": 1, "missing:mcap_usd": 2, "too_old": 6, "mcap_too_high": 2, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
+[2026-11-10T08:50:00+00:00] second_look: pass end {"queued": 233, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
+[2026-11-10T08:50:00+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-10T08:50:41+00:00] scout: paper: candles unavailable PgFtGGqu (RuntimeError)
+[2026-11-10T08:50:41+00:00] scout: paper: [pool/tp50_sl30] VETO closed time_exit -0.22 after fees
+[2026-11-10T08:50:41+00:00] scout: paper: [pool/target5] VETO closed time_exit -0.22 after fees
+[2026-11-10T08:50:41+00:00] scout: paper: [pool/hold] VETO closed time_exit -0.22 after fees
+[2026-11-10T08:50:53+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-10T08:50:53+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-10T08:50:53+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-11-10T08:50:53+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-10T08:51:54+00:00] scout: pass end {"watch": 307, "a_qualify": 19, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=114s
