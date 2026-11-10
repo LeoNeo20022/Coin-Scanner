@@ -281,10 +281,6 @@
   "judged": 1793729852.9699311,
   "symbol": "HIGH"
  },
- "EXr5b9ZReg4Rs3Y7wnUGEEvNWbj3gJrqBzKK2enEpump": {
-  "market_logged": 1793727431.7470033,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "6gnB2H2hbTVvKUWCzNuqjWY8Rod6EVBmfHi7YxZpTWa7": {
   "judged": 1793818766.8529453,
   "symbol": "MEOWNERO",
@@ -8722,7 +8718,9 @@
  },
  "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump": {
   "market_logged": 1794329169.0460396,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "DacityCoin",
+  "judged": 1794332378.180356
  },
  "NCwA7tiyCu5HhierYoiY2x5vqPBJpoPKFqSuAxgpump": {
   "market_logged": 1794329853.3013403,
@@ -8774,6 +8772,14 @@
  },
  "mVAi21hm1FeBgH3mXNKidKznj8bsMZMhSjNQK7Zpump": {
   "market_logged": 1794331953.6978214,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8z38aEizgpsECAk3u8HkTSG1oUicFrSH4Egjt2Mfmi1m": {
+  "market_logged": 1794332378.180356,
+  "market_reason": "mcap_too_high"
+ },
+ "2a9cwQqKrYvVzWtHc9cy5rrk9hT9BrLdevZeJaKzpump": {
+  "market_logged": 1794332378.180356,
   "market_reason": "pumpfun_bonding_curve"
  }
 }

@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
-   "symbol": "Rocco",
-   "pair": "3jW1ykKqUTNgNUDGbrwXpvZKtMFf4pWytoTP3TeXhKBQ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-05T17:39:16+00:00",
-   "rejected_ts": 1793900356,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0002565,
-   "mcap_usd": 250097,
-   "liquidity_usd": 45083.81,
-   "age_hours": 2.56,
-   "checks": {
-    "24h": {
-     "time": "2026-11-06T17:43:37+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    },
-    "48h": {
-     "time": "2026-11-07T17:40:08+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    }
-   },
-   "done": true
-  },
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "mint": "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump",
    "symbol": "UHI",
@@ -5648,7 +5617,14 @@
    "mcap_usd": 260958,
    "liquidity_usd": 72880.73,
    "age_hours": 1.28,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T17:39:56+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_high"
+    }
+   },
    "done": false
   },
   "Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q": {
@@ -6442,6 +6418,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump": {
+   "mint": "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump",
+   "symbol": "DacityCoin",
+   "pair": "FXVuHQxierueRFDYWMRACFzBeTHWw3MrM3NCLJZEq4TB",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T17:39:53+00:00",
+   "rejected_ts": 1794332393,
+   "stage": "grok",
+   "reason": "Massive 345% h1 and 1539% h6 gains point to blow-off top already in progress. High holder correlation warning overrides low top-10 and strong buy counts.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0005578,
+   "mcap_usd": 550454,
+   "liquidity_usd": 55515.51,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6971,7 +6965,7 @@
    }
   },
   "2026-11-10": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7019,7 +7013,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "market:liquidity_low": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:top10": 6,
     "market:volume_h1_low": 2,
     "rugcheck:insiders": 2,
