@@ -4392,9 +4392,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-10T14:23:12+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": {
    "mint": "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump",
@@ -6387,6 +6393,24 @@
    "age_hours": 12.64,
    "checks": {},
    "done": false
+  },
+  "X7Fk2APb7rjMnPDNjHhYvb2L8tWbNfVxXzr7RWspump": {
+   "mint": "X7Fk2APb7rjMnPDNjHhYvb2L8tWbNfVxXzr7RWspump",
+   "symbol": "Pok\u00e9Meal",
+   "pair": "Fx7ut9LFZ3gm4RxcJzpG8ZoBWK7Am8LXtvCkWF59QEBx",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T14:23:10+00:00",
+   "rejected_ts": 1794320590,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001133,
+   "mcap_usd": 111794,
+   "liquidity_usd": 24490.52,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6916,7 +6940,7 @@
    }
   },
   "2026-11-10": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6964,7 +6988,8 @@
     "market:liquidity_low": 6,
     "grok:skip": 3,
     "rugcheck:top10": 5,
-    "market:volume_h1_low": 2
+    "market:volume_h1_low": 2,
+    "rugcheck:insiders": 1
    }
   }
  }

@@ -263,10 +263,6 @@
   "judged": 1793803561.5976532,
   "symbol": "ANONVOYAGE"
  },
- "3So9LeitZ3unDu9fC1mQaG3wkvSFvc7KEpQvsvth3Jv7": {
-  "market_logged": 1793715501.539309,
-  "market_reason": "missing:liquidity_usd"
- },
  "DvVru1oZTnwxakgyhw71Gj678QVi56L5B22oDmWSpump": {
   "market_logged": 1793717012.9651892,
   "market_reason": "mcap_too_low"
@@ -8793,7 +8789,9 @@
  },
  "X7Fk2APb7rjMnPDNjHhYvb2L8tWbNfVxXzr7RWspump": {
   "market_logged": 1794319985.36721,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794320585.4429026,
+  "symbol": "Pok\u00e9Meal"
  },
  "8ETPDhk262rJvF6rNCpRkLLsDsZKjf88tReMT9woPM2Z": {
   "market_logged": 1794318785.6307135
@@ -8813,5 +8811,9 @@
  "5NmhSUzikDT8QUiAX2oSNR7RSFD1i1krmnFXwheEpump": {
   "market_logged": 1794319985.36721,
   "market_reason": "mcap_too_low"
+ },
+ "Au9qrs4fgSPmJz5SokRzMRu6SbM4TkDXnCHAV9BAvcR4": {
+  "market_logged": 1794320585.4429026,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
