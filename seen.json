@@ -8455,8 +8455,8 @@
   "market_reason": "mcap_too_low"
  },
  "EZBcgdXxfWCscEMjehuFvsvYzdkG2T9z7PWi8nr9Mo46": {
-  "market_logged": 1794329169.0460396,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794336387.5325148,
+  "market_reason": "volume_h1_low"
  },
  "9S1DYY1wKRuETUfQ88pDtpxrKf5CsEJcYompw2CRApad": {
   "judged": 1794319685.701192,
@@ -8716,8 +8716,8 @@
   "market_reason": "mcap_too_low"
  },
  "Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": {
-  "market_logged": 1794336087.6250722,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794336387.5325148,
+  "market_reason": "too_new"
  },
  "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
   "market_logged": 1794335488.2221315,
@@ -8730,5 +8730,9 @@
  "CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": {
   "market_logged": 1794336087.6250722,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "AQ2gmhnqAiPDd2P6jgYrrVvVh8X1de2pBKPLKQbKpump": {
+  "judged": 1794336387.5325148,
+  "symbol": "VC"
  }
 }

@@ -1,36 +1,5 @@
 {
  "entries": {
-  "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
-   "mint": "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump",
-   "symbol": "UHI",
-   "pair": "9tgif1sJTBM7AGRax1FzbtZcWFrsn84FSfPgZM3JAkuk",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-05T18:09:14+00:00",
-   "rejected_ts": 1793902154,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles",
-   "price_usd": 0.001842,
-   "mcap_usd": 1802834,
-   "liquidity_usd": 107890.33,
-   "age_hours": 18.92,
-   "checks": {
-    "24h": {
-     "time": "2026-11-06T18:13:03+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-07T18:12:41+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "FsTN7q7wVywYsCNBKfA7R1fJ97rADdvrMMtNSBWYpump": {
    "mint": "FsTN7q7wVywYsCNBKfA7R1fJ97rADdvrMMtNSBWYpump",
    "symbol": "COGE",
@@ -6454,6 +6423,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "EZBcgdXxfWCscEMjehuFvsvYzdkG2T9z7PWi8nr9Mo46": {
+   "mint": "EZBcgdXxfWCscEMjehuFvsvYzdkG2T9z7PWi8nr9Mo46",
+   "symbol": "CASINO",
+   "pair": "3DN97CwoDEStsPS6kJHDRekZBTywaSHsqweCicThy6Z1",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T18:46:30+00:00",
+   "rejected_ts": 1794336390,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 6.814e-05,
+   "mcap_usd": 65630,
+   "liquidity_usd": 21117.34,
+   "age_hours": 5.09,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6983,7 +6970,7 @@
    }
   },
   "2026-11-10": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7026,7 +7013,9 @@
     "16": 1,
     "16|market:sells_ge_buys_h1": 1,
     "17": 1,
-    "17|market:volume_h1_low": 1
+    "17|market:volume_h1_low": 1,
+    "18": 1,
+    "18|market:volume_h1_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7035,7 +7024,7 @@
     "market:liquidity_low": 6,
     "grok:skip": 6,
     "rugcheck:top10": 6,
-    "market:volume_h1_low": 3,
+    "market:volume_h1_low": 4,
     "rugcheck:insiders": 2,
     "market:sells_ge_buys_h1": 1
    }
