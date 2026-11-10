@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": {
-   "mint": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-   "symbol": "COGE",
-   "pair": "8GjMy6ipYsXfMWwRPu9C7ATssorjg6AL88d9xtTZsLqe",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-05T20:49:52+00:00",
-   "rejected_ts": 1793911792,
-   "stage": "grok",
-   "reason": "2438% gain in ~1h with age 1h is classic blow-off top. Volume strong but price action already parabolic.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.001257,
-   "mcap_usd": 1252238,
-   "liquidity_usd": 90830.84,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-06T20:54:41+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_high"
-    },
-    "48h": {
-     "time": "2026-11-07T20:54:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_high"
-    }
-   },
-   "done": true
-  },
   "Ex4sJY2KjgQhgwFTfyfPzPUbpUu5g53W9FxfvRVGpump": {
    "mint": "Ex4sJY2KjgQhgwFTfyfPzPUbpUu5g53W9FxfvRVGpump",
    "symbol": "LEAP",
@@ -5630,7 +5599,14 @@
    "mcap_usd": 604769,
    "liquidity_usd": 60679.28,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-10T21:27:48+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": {
