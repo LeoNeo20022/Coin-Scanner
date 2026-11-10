@@ -6345,6 +6345,24 @@
    "age_hours": 1.46,
    "checks": {},
    "done": false
+  },
+  "3yjyHCC4EzLb7J7cx3uczgTrqhpXDCBkfShK8Rf3pump": {
+   "mint": "3yjyHCC4EzLb7J7cx3uczgTrqhpXDCBkfShK8Rf3pump",
+   "symbol": "TRUMP",
+   "pair": "DmoLzHQEtUPeoeo1XMY6CqJodT2TCkFQHPV4Y4AhvYRH",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-10T13:48:08+00:00",
+   "rejected_ts": 1794318488,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 0.001296,
+   "mcap_usd": 1249970,
+   "liquidity_usd": 1135681.76,
+   "age_hours": 2.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6874,7 +6892,7 @@
    }
   },
   "2026-11-10": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6911,7 +6929,9 @@
     "09": 1,
     "09|market:too_new": 1,
     "11": 1,
-    "11|market:volume_h1_low": 1
+    "11|market:volume_h1_low": 1,
+    "13": 1,
+    "13|market:volume_h1_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -6920,7 +6940,7 @@
     "market:liquidity_low": 6,
     "grok:skip": 3,
     "rugcheck:top10": 4,
-    "market:volume_h1_low": 1
+    "market:volume_h1_low": 2
    }
   }
  }
