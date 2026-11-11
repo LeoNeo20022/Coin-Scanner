@@ -6580,6 +6580,42 @@
    "age_hours": 0.29,
    "checks": {},
    "done": false
+  },
+  "zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump": {
+   "mint": "zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump",
+   "symbol": "MOCHI",
+   "pair": "EYHGaBKcKmj671sGsrRC3zRnfxbL1oCSLhUzHUGDcFrh",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T08:20:39+00:00",
+   "rejected_ts": 1794385239,
+   "stage": "grok",
+   "reason": "307% h6 gain with 53% h1 already looks like blow-off top; buys strong but fading relative to the spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001393,
+   "mcap_usd": 137153,
+   "liquidity_usd": 27217.97,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
+  },
+  "BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": {
+   "mint": "BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash",
+   "symbol": "CASHTAG",
+   "pair": "2t1QqxZK2eooiTbibDfv6BVLxepnA7MErc24SRkkBabo",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T08:20:42+00:00",
+   "rejected_ts": 1794385242,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0003998,
+   "mcap_usd": 386070,
+   "liquidity_usd": 49886.27,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7118,7 +7154,7 @@
    }
   },
   "2026-11-11": {
-   "total": 33,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7157,11 +7193,12 @@
     "market:too_new": 6,
     "market:mcap_too_low": 6,
     "rugcheck:danger": 4,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:liquidity_low": 3,
     "rugcheck:top10": 1,
     "market:volume_h1_low": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
