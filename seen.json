@@ -137,10 +137,6 @@
   "judged": 1793622936.1223683,
   "symbol": "MAMESUKE"
  },
- "J34sjwqUYsicH2A6aNoMn91MAPYkUUdXsyfFBLBNDoLL": {
-  "market_logged": 1793809790.9382005,
-  "market_reason": "too_old"
- },
  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": {
   "market_logged": 1793961345.981132,
   "market_reason": "mcap_too_low",
@@ -255,12 +251,6 @@
   "market_logged": 1793811997.324854,
   "market_reason": "mcap_too_low"
  },
- "EwHV6XfuMmBirGSiDVSypVkHcw7jD7Mho1s5xGwjpump": {
-  "market_logged": 1793806851.0710394,
-  "market_reason": "too_new",
-  "judged": 1793809790.9382005,
-  "symbol": "AIB"
- },
  "82BH9WFmtsJGRCdW147cM24K6X8kAkUx2jSd2NyRLfv6": {
   "market_logged": 1793807750.7616723,
   "market_reason": "too_new",
@@ -270,14 +260,6 @@
  "GtcTZaFGTeF5rAyhpJYDcqjFXWaqyTsRKWSg9tMSpump": {
   "market_logged": 1793811997.324854,
   "market_reason": "mcap_too_low"
- },
- "ARj9uK3E4hJ7KcwcmkDxeuqYoRAdnCa1fG37iFEApump": {
-  "market_logged": 1793809790.9382005,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "CpSGxv7oGdY7xNbzDBKafwTLHNx4Qyc3fxMtG4Qppump": {
-  "market_logged": 1793809790.9382005,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "GrRnQfh31npKQrvHhN6TULXVkWbzTHHreS3PZB88pump": {
   "market_logged": 1793810090.522783,
@@ -4332,8 +4314,8 @@
   "market_reason": "mcap_too_low"
  },
  "AKrw6VbXiScJqZydENKhjJyJYXGsKJCVLmui95ngt1EK": {
-  "market_logged": 1794263741.3412104,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1794414855.884899,
+  "market_reason": "volume_h1_low"
  },
  "HgRk5aPDzwDCrdcuD2KoavBHBrNYbUdmUPXusnyapump": {
   "market_logged": 1794084437.9391122,
@@ -8531,8 +8513,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "EDNud65UFwMxP3TWGWvq1GTL8Qnd2aX3aU5aJtdsCuLt": {
-  "market_logged": 1794414255.5636277,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794414855.884899,
+  "market_reason": "too_new"
  },
  "ALUSmiUbEhmwMNRd9iHn6YuQ4i1D4tieTkcobrppump": {
   "market_logged": 1794411973.4057648,
@@ -8593,5 +8575,13 @@
  "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat": {
   "judged": 1794414555.4167213,
   "symbol": "AIRDROP"
+ },
+ "AToRiJBd4FfhGpi7WLLTA1Qc6zwu5DfSzYBKiR1fpump": {
+  "market_logged": 1794414855.884899,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "4BoppudVoEZVwmdMTNXFU4jo6tLrgtUQ4arMVNXopump": {
+  "market_logged": 1794414855.884899,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
