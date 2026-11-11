@@ -1,36 +1,5 @@
 {
  "entries": {
-  "CkYPxSP2RT1oCQwj1g4xdCJyLmkA4gwC7xYip2B2pump": {
-   "mint": "CkYPxSP2RT1oCQwj1g4xdCJyLmkA4gwC7xYip2B2pump",
-   "symbol": "DNUT",
-   "pair": "2fKtk78GKmoq1nngVjZm7R1yrEaqdHombpVAE8ifp48b",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T13:25:38+00:00",
-   "rejected_ts": 1793971538,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 9.148e-05,
-   "mcap_usd": 87617,
-   "liquidity_usd": 25714.17,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T13:28:07+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T13:26:26+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump": {
    "mint": "A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump",
    "symbol": "ODDLY",
@@ -5659,7 +5628,14 @@
    "mcap_usd": 79742,
    "liquidity_usd": 21551,
    "age_hours": 1.46,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T13:41:47+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "3yjyHCC4EzLb7J7cx3uczgTrqhpXDCBkfShK8Rf3pump": {
