@@ -243,10 +243,6 @@
   "judged": 1793837226.5615885,
   "symbol": "CASSO"
  },
- "695AvBKk4qUWfoqqwmDguBqUwUDK3QXaoPNhmjH2pump": {
-  "market_logged": 1793836480.9818494,
-  "market_reason": "mcap_too_low"
- },
  "AcagiqgcXvTtE6aUUF5w7bySxj8p277B1EQsTG82pump": {
   "market_logged": 1793838426.8962567,
   "market_reason": "mcap_too_low"
@@ -8219,8 +8215,8 @@
   "market_logged": 1794426083.0449612
  },
  "7r3Hcmzzko9UrCvbCAN3QhUfojs2RqpnzH8tfeyRpump": {
-  "market_logged": 1794441167.8535748,
-  "market_reason": "too_new"
+  "market_logged": 1794441468.2774198,
+  "market_reason": "liquidity_low"
  },
  "3Tkm68nyJdiB8SejbhjufSWg1Kry4yG4xhvFD6W8pump": {
   "market_logged": 1794426083.0449612,
@@ -8537,8 +8533,8 @@
   "market_reason": "missing:mcap_usd"
  },
  "8xMxrxPTCYJRwumZEpMfkRjNry4UJoRy75J4B96eJTkM": {
-  "market_logged": 1794438840.4851973,
-  "market_reason": "too_new"
+  "market_logged": 1794441468.2774198,
+  "market_reason": "mcap_too_low"
  },
  "GfxbzBhrHfTXUjbctkEcRMyPFQu4Sy5a2cSa7Ztenure": {
   "market_logged": 1794439140.7463248,
@@ -8590,6 +8586,14 @@
  },
  "87t5CF9k44Ze7turLqYNF6XyYwpjqJZJH6Zk3Z4Kpump": {
   "market_logged": 1794440868.1695948,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "92x8GUXBMq8wnjg7Eppp3ms7cq84he9KsZ9udAqSCALL": {
+  "market_logged": 1794441468.2774198,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GtVPjJU4ez3P9NUW9ayU8KwcnSk3g58z4Y3pywKwpump": {
+  "market_logged": 1794441468.2774198,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
