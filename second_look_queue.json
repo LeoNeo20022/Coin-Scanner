@@ -6501,6 +6501,24 @@
    "age_hours": 2.14,
    "checks": {},
    "done": false
+  },
+  "9oD9pi7KfiXKGt3zq6w65HpwbCdax5KcpEZZQE5ipump": {
+   "mint": "9oD9pi7KfiXKGt3zq6w65HpwbCdax5KcpEZZQE5ipump",
+   "symbol": "MISU",
+   "pair": "Rnhd2wDeT2bik5Z7oCjjpEjsNGXaH7roDPpWv4isgzW",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T03:20:57+00:00",
+   "rejected_ts": 1794367257,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "community-takeovers",
+   "price_usd": 7.86e-05,
+   "mcap_usd": 75247,
+   "liquidity_usd": 20183.27,
+   "age_hours": 3.48,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7039,7 +7057,7 @@
    }
   },
   "2026-11-11": {
-   "total": 16,
+   "total": 17,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7064,7 +7082,8 @@
     "market:mcap_too_low": 3,
     "rugcheck:danger": 2,
     "grok:skip": 2,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 1,
+    "rugcheck:top10": 1
    }
   }
  }
