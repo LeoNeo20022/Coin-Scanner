@@ -1,129 +1,5 @@
 {
  "entries": {
-  "e9Mj5rNjXSzWtuHtYwTN78Jua5z7eEpJafAd1evpump": {
-   "mint": "e9Mj5rNjXSzWtuHtYwTN78Jua5z7eEpJafAd1evpump",
-   "symbol": "CO-OP",
-   "pair": "8QrjxGrz8w9b6kEBgvQXyJQ6GSWTKddqHVVmxfsdQU1d",
-   "dex": "pumpfun",
-   "rejected_at": "2026-11-06T01:06:07+00:00",
-   "rejected_ts": 1793927167,
-   "stage": "market",
-   "reason": "pumpfun_bonding_curve",
-   "reason_key": "market:pumpfun_bonding_curve",
-   "sources": "token-profiles",
-   "price_usd": 3.899e-06,
-   "mcap_usd": 3899.87,
-   "liquidity_usd": null,
-   "age_hours": 0.17,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T01:07:17+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "pumpfun_bonding_curve"
-    },
-    "48h": {
-     "time": "2026-11-08T01:09:52+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "9q17YrKCeBtSZ6qkBTmttyZnh5ZVEapF6TwTrtX2pump": {
-   "mint": "9q17YrKCeBtSZ6qkBTmttyZnh5ZVEapF6TwTrtX2pump",
-   "symbol": "Chika",
-   "pair": "8391pFfPxDAzGjznRroDLTRMm3M9nMrAAAwRCX6hvWsS",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T01:06:07+00:00",
-   "rejected_ts": 1793927167,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.813e-05,
-   "mcap_usd": 58139,
-   "liquidity_usd": 18451.02,
-   "age_hours": 0.26,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T01:07:17+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T01:09:52+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "FPu4Lbmttj2FcMXbRdpqbrj6hzg7wSoSQGD31VWkzGPZ": {
-   "mint": "FPu4Lbmttj2FcMXbRdpqbrj6hzg7wSoSQGD31VWkzGPZ",
-   "symbol": "1000x",
-   "pair": "AsXWtMK5EsngpV6Gdd3499CgyLAMwJV7RPbpwDuRt8u8",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T01:06:07+00:00",
-   "rejected_ts": 1793927167,
-   "stage": "market",
-   "reason": "mcap_too_low",
-   "reason_key": "market:mcap_too_low",
-   "sources": "token-profiles",
-   "price_usd": 3.096e-06,
-   "mcap_usd": 3090,
-   "liquidity_usd": 3037.04,
-   "age_hours": 0.53,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T01:07:17+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T01:09:52+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": {
-   "mint": "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump",
-   "symbol": "coin",
-   "pair": "GaCmBdqtW7HbUEv6BWe583Yxw5gS9gjGr59GYmvygTRi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T01:06:09+00:00",
-   "rejected_ts": 1793927169,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 9.365e-05,
-   "mcap_usd": 90856,
-   "liquidity_usd": 24720.33,
-   "age_hours": 1.28,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T01:07:17+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "danger:Large Amount of LP Unlocked"
-    },
-    "48h": {
-     "time": "2026-11-08T01:09:52+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "Fyff8ZbT3omcwoqmAgLbXH25tzqQp1FoM4UYWtePpump": {
    "mint": "Fyff8ZbT3omcwoqmAgLbXH25tzqQp1FoM4UYWtePpump",
    "symbol": "Chika",
@@ -5611,7 +5487,14 @@
    "mcap_usd": 72222,
    "liquidity_usd": 19778.38,
    "age_hours": 0.42,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T01:06:39+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "mFxLSvw9FixnujaB8HsTdeGeorCMMwX1VCM3dYbgamp": {
@@ -5629,7 +5512,14 @@
    "mcap_usd": 17137.7,
    "liquidity_usd": null,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T01:06:39+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "pumpfun_bonding_curve"
+    }
+   },
    "done": false
   },
   "2ECeFpEh8HC8pvumAPDJKPPpEKVLvMBtbVFAmsDHpump": {
@@ -5647,7 +5537,14 @@
    "mcap_usd": 47968,
    "liquidity_usd": 17560.75,
    "age_hours": 0.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T01:06:39+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": {
