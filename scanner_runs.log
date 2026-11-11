@@ -1,19 +1,3 @@
-[2026-11-09T23:28:41+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-09T23:29:46+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-09T23:29:46+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-09T23:29:46+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-09T23:30:34+00:00] scout: pass end {"watch": 311, "a_qualify": 22, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=113s
-[2026-11-09T23:33:25+00:00] run start (LOG ONLY)
-[2026-11-09T23:33:36+00:00] discovered=55 fresh=48 market_pass=1
-[2026-11-09T23:33:36+00:00] grok daily budget 9/40 used, 0 no-response, $0.0253 (2026-11-09 UTC)
-[2026-11-09T23:33:53+00:00] grok call 14.8s model=grok-4.3 tokens=991+69 reasoning=550
-[2026-11-09T23:33:53+00:00] grok [rugcheck] GPU 8ycoXyqq… -> SKIP (0.85) 670% h6 gain after only 1h age screams blow-off top. Strong buy/sell ratio but volume and price action look like exit liquidity. | risk: Parabolic move already exhausted; thin liquidity amplifies any reversal
-[2026-11-09T23:33:55+00:00] run end {"discovered": 55, "skipped_recent": 7, "no_pair": 0, "market": {"pumpfun_bonding_curve": 14, "too_new": 1, "missing:liquidity_usd": 2, "mcap_too_low": 14, "liquidity_low": 3, "too_old": 7, "mcap_too_high": 6}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=29s
-[2026-11-09T23:33:59+00:00] second_look: pass end {"queued": 236, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
-[2026-11-09T23:33:59+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-09T23:34:45+00:00] scout: paper: candles unavailable 8s11PkgQ (RuntimeError)
-[2026-11-09T23:34:57+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-09T23:34:57+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-11-09T23:34:57+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-09T23:34:57+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-09T23:35:51+00:00] scout: pass end {"watch": 311, "a_qualify": 22, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=112s
@@ -4998,3 +4982,19 @@
 [2026-11-11T21:27:25+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-11T21:27:25+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-11T21:28:02+00:00] scout: pass end {"watch": 346, "a_qualify": 22, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=116s
+[2026-11-11T21:30:53+00:00] run start (LOG ONLY)
+[2026-11-11T21:31:04+00:00] discovered=80 fresh=65 market_pass=2
+[2026-11-11T21:31:04+00:00] grok daily budget 11/40 used, 0 no-response, $0.0306 (2026-11-11 UTC)
+[2026-11-11T21:31:16+00:00] grok call 9.8s model=grok-4.3 tokens=1000+71 reasoning=526
+[2026-11-11T21:31:16+00:00] grok [rugcheck] MIHAO VI 4Dgjitjn… -> SKIP (0.85) 195% h6 pump followed by -39% m5 reversal with volume concentrated early; buying numbers strong but momentum clearly fading on 1h-old token. | risk: Classic blow-off top exit liquidity on thin post-pump orderbook
+[2026-11-11T21:31:19+00:00] run end {"discovered": 80, "skipped_recent": 15, "no_pair": 0, "market": {"too_new": 2, "mcap_too_high": 3, "pumpfun_bonding_curve": 18, "mcap_too_low": 20, "liquidity_low": 1, "too_old": 13, "volume_h1_low": 3, "sells_ge_buys_h1": 1, "missing:mcap_usd": 2}, "rug": {"insiders": 1}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=26s
+[2026-11-11T21:31:21+00:00] second_look: 48h MAYA HqZZhbXW… (rejected grok:skip) -> fail: mcap_too_low [dead: no_volume_24h]
+[2026-11-11T21:31:24+00:00] second_look: pass end {"queued": 245, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=5s
+[2026-11-11T21:31:24+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-11T21:32:06+00:00] scout: paper: candles unavailable 6mwuYnY3 (RuntimeError)
+[2026-11-11T21:32:06+00:00] scout: paper: [pool/tp50_sl30] MIHAO VI closed stop_loss -3.16 after fees
+[2026-11-11T21:32:06+00:00] scout: paper: [pool/scalp] MIHAO VI closed stop_loss -1.20 after fees
+[2026-11-11T21:32:17+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-11T21:32:17+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-11T21:32:17+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-11-11T21:33:16+00:00] scout: pass end {"watch": 346, "a_qualify": 21, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=112s
