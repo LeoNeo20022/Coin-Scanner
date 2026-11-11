@@ -265,10 +265,6 @@
   "judged": 1793773824.6098056,
   "symbol": "AMD"
  },
- "3DYBAnkeAXQWv68nEjwxZXJGobkXZchEGi4mwW6Tu7ci": {
-  "market_logged": 1793751853.3116593,
-  "market_reason": "mcap_too_low"
- },
  "C1dNqHWwrLC6Hmtbr75BL3FmH4UCN3ztam7VDtwhpump": {
   "market_logged": 1793836780.6981318,
   "market_reason": "mcap_too_low"
@@ -8626,8 +8622,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": {
-  "market_logged": 1794356053.0847614,
-  "market_reason": "too_new"
+  "market_logged": 1794356652.4552062,
+  "market_reason": "mcap_too_high"
  },
  "DgX6Rg62FSdnj92BP7QUXc26Pbx59nebsBtWKrfypump": {
   "market_logged": 1794356353.3563626,
@@ -8636,5 +8632,9 @@
  "E5F9CDuUK81hTSYKfPPckuUpE6wdUoTygyQQtoZ4pump": {
   "market_logged": 1794356353.3563626,
   "market_reason": "liquidity_low"
+ },
+ "DLKGrLiEEd43AeeW1tQvenTdTEGR3uJq7QnoxtM9pump": {
+  "market_logged": 1794356652.4552062,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
