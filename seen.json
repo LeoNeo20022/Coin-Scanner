@@ -251,16 +251,8 @@
   "judged": 1793833507.2906053,
   "symbol": "SLOP"
  },
- "CS415D6XWfS2NWivknyLVdm8nsbsBApcbj6NjZ6RVfUH": {
-  "market_logged": 1793832906.733979,
-  "market_reason": "missing:liquidity_usd"
- },
  "33CW4Q8xLSBYKmA55rQfEWPA8DSGVwSRQfo2pSs1pump": {
   "market_logged": 1793835280.9225116,
-  "market_reason": "mcap_too_low"
- },
- "dhHDwtNVBCumJjPabxDWRz1qAZgqe4FQd8kCA2Dpump": {
-  "market_logged": 1793832906.733979,
   "market_reason": "mcap_too_low"
  },
  "jTQ5g1JdhwXAh3iZ6DVd1ZcnqEsQrxAbWV5pAJYpump": {
@@ -8534,7 +8526,9 @@
  },
  "FjFVmDDM3w7qVLS9uxLkXnDM4qCGsqXSow6d32phpump": {
   "market_logged": 1794436633.4382074,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794437940.7477028,
+  "symbol": "HAMSTER"
  },
  "3zXyZuZiqmWXMrtAh4Jh89RX36PadH4sv6diwAS9pump": {
   "market_logged": 1794436334.3960993,
