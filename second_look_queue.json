@@ -6524,6 +6524,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump": {
+   "mint": "FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump",
+   "symbol": "BLUQO",
+   "pair": "CLwZNBMdz6jGXd8YYxtBcGSZSnamDiYy8Tkrsbb13V8h",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T04:24:20+00:00",
+   "rejected_ts": 1794371060,
+   "stage": "grok",
+   "reason": "736% h1 pump with volume almost identical to h6 shows classic blow-off top. buys_m5 vs buys_h1 ratio indicates momentum already fading fast.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002378,
+   "mcap_usd": 226717,
+   "liquidity_usd": 36430.19,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7062,7 +7080,7 @@
    }
   },
   "2026-11-11": {
-   "total": 22,
+   "total": 23,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7090,7 +7108,7 @@
     "market:too_new": 5,
     "market:mcap_too_low": 3,
     "rugcheck:danger": 2,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "market:liquidity_low": 1,
     "rugcheck:top10": 1,
     "market:volume_h1_low": 1,
