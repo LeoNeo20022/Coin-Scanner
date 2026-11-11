@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump": {
-   "mint": "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump",
-   "symbol": "KoriMu",
-   "pair": "VckNvYmiFj6fBzYvHrKeog5ADojztt8q6CPWURrXysA",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T17:28:47+00:00",
-   "rejected_ts": 1793986127,
-   "stage": "grok",
-   "reason": "437% h6 pump already reversing hard (-28% m5) after peak volume; buying looks like fading spike not sustained flow.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002061,
-   "mcap_usd": 203374,
-   "liquidity_usd": 35286.7,
-   "age_hours": 1.19,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T17:30:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T17:32:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump": {
    "mint": "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump",
    "symbol": "HODL",
@@ -6653,6 +6622,24 @@
    "age_hours": 1.11,
    "checks": {},
    "done": false
+  },
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "symbol": "LuckyCoin",
+   "pair": "7YXjoiRDtVkHVJTnFoCiZkH6Ro1BTURTEZSh2HEWU1jE",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T17:31:31+00:00",
+   "rejected_ts": 1794418291,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles",
+   "price_usd": 0.0001547,
+   "mcap_usd": 151102,
+   "liquidity_usd": 28713.52,
+   "age_hours": 1.5,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7191,7 +7178,7 @@
    }
   },
   "2026-11-11": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7231,7 +7218,9 @@
     "11": 1,
     "11|market:liquidity_low": 1,
     "16": 1,
-    "16|market:volume_h1_low": 1
+    "16|market:volume_h1_low": 1,
+    "17": 1,
+    "17|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7243,7 +7232,8 @@
     "rugcheck:top10": 5,
     "market:volume_h1_low": 2,
     "rugcheck:insiders": 3,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
