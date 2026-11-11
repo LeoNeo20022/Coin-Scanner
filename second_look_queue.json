@@ -1,36 +1,5 @@
 {
  "entries": {
-  "GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump": {
-   "mint": "GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump",
-   "symbol": "LUNOX",
-   "pair": "Gnh9QAHHkYP3mVe8pzqkL4YHUCBbDHwfs4iBp3wkNztd",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T04:39:36+00:00",
-   "rejected_ts": 1793939976,
-   "stage": "grok",
-   "reason": "162% h6 gain with only modest h1 follow-through suggests fading spike; m5 uptick is narrow.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 9.822e-05,
-   "mcap_usd": 93441,
-   "liquidity_usd": 24134.46,
-   "age_hours": 1.76,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T04:40:20+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T04:42:46+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "H5onqP9LqvnBmwFb68d16HvJvhzvVwNaND6LyZ6hpump": {
    "mint": "H5onqP9LqvnBmwFb68d16HvJvhzvVwNaND6LyZ6hpump",
    "symbol": "MIL",
@@ -6542,6 +6511,24 @@
    "age_hours": 1.08,
    "checks": {},
    "done": false
+  },
+  "4f2KsphcoyUCWRh9UEFiALJ338E3ShfWXWRkqwSvpump": {
+   "mint": "4f2KsphcoyUCWRh9UEFiALJ338E3ShfWXWRkqwSvpump",
+   "symbol": "ORVIX",
+   "pair": "CRSNrvdfgHc3reJHApSumandvspHN1pdAySwQvbodCsi",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T04:51:31+00:00",
+   "rejected_ts": 1794372691,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001726,
+   "mcap_usd": 163732,
+   "liquidity_usd": 30995.63,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7080,7 +7067,7 @@
    }
   },
   "2026-11-11": {
-   "total": 23,
+   "total": 24,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7107,7 +7094,7 @@
     "market:pumpfun_bonding_curve": 5,
     "market:too_new": 5,
     "market:mcap_too_low": 3,
-    "rugcheck:danger": 2,
+    "rugcheck:danger": 3,
     "grok:skip": 4,
     "market:liquidity_low": 1,
     "rugcheck:top10": 1,
