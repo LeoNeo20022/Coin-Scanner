@@ -6561,6 +6561,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "GAV37UD3cvysYvvPSeKboFKwarG387RvznM3BBhBpump": {
+   "mint": "GAV37UD3cvysYvvPSeKboFKwarG387RvznM3BBhBpump",
+   "symbol": "mihao",
+   "pair": "8TxFUvNabmYxPDcfzCnaZN9ssUeUoUu3SVXyfzFsrS98",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T05:58:58+00:00",
+   "rejected_ts": 1794376738,
+   "stage": "grok",
+   "reason": "296% h1 pump with all volume in first hour signals blow-off top. m5 activity still positive but fading pattern typical of exit liquidity.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001452,
+   "mcap_usd": 143277,
+   "liquidity_usd": 28078.57,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7099,7 +7117,7 @@
    }
   },
   "2026-11-11": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7131,7 +7149,7 @@
     "market:too_new": 5,
     "market:mcap_too_low": 4,
     "rugcheck:danger": 4,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "market:liquidity_low": 2,
     "rugcheck:top10": 1,
     "market:volume_h1_low": 1,
