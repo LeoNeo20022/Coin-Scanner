@@ -1,36 +1,5 @@
 {
  "entries": {
-  "CAMJCW5oNwSKtVbaS3GSqjwZ75MXKmgYgs7Bemui4dVq": {
-   "mint": "CAMJCW5oNwSKtVbaS3GSqjwZ75MXKmgYgs7Bemui4dVq",
-   "symbol": "ZCATS",
-   "pair": "2K5cYxLiCHjUzQzS4Aq7T62bzZva6F21pNbQnTSRpgEv",
-   "dex": "raydium",
-   "rejected_at": "2026-11-06T16:06:10+00:00",
-   "rejected_ts": 1793981170,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0002142,
-   "mcap_usd": 214207,
-   "liquidity_usd": 38390.25,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T16:10:16+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    },
-    "48h": {
-     "time": "2026-11-08T16:07:36+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "BNHAfUV21odrcFDKrqLmBDr6JREXE7c3yhuWBSNJpump": {
    "mint": "BNHAfUV21odrcFDKrqLmBDr6JREXE7c3yhuWBSNJpump",
    "symbol": "401kat",
@@ -4702,9 +4671,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-11T16:14:22+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "4N1pRfEMnWAUE8rhyhqwnsWe6TNjuQFhgvNB3Nr9pump": {
    "mint": "4N1pRfEMnWAUE8rhyhqwnsWe6TNjuQFhgvNB3Nr9pump",
