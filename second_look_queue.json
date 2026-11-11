@@ -1,67 +1,5 @@
 {
  "entries": {
-  "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump": {
-   "mint": "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump",
-   "symbol": "HODL",
-   "pair": "CwpmYBDr4Kzuv8f8zq5ZkmH8A544ekH4N4iP3Se3hEzx",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T18:03:47+00:00",
-   "rejected_ts": 1793988227,
-   "stage": "grok",
-   "reason": "318% h6 and 98% h1 gains on 1h-old token scream blow-off top. Buying the exit after parabolic move.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001876,
-   "mcap_usd": 185231,
-   "liquidity_usd": 33623.04,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T18:07:37+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T18:04:57+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "mV9kZc5WEcsupy9KYZo1c7x52Ys1A5CDK73Ysg6pump": {
-   "mint": "mV9kZc5WEcsupy9KYZo1c7x52Ys1A5CDK73Ysg6pump",
-   "symbol": "ROCCO",
-   "pair": "6wZc2vrqZKfLCa4hSabMXTLURj5GjjmkNHQL3hiJv9Zn",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T18:12:58+00:00",
-   "rejected_ts": 1793988778,
-   "stage": "grok",
-   "reason": "409% h1 and 471% h6 gains on a 4.5h token scream blow-off top. Volume and buys look strong but likely fading exit liquidity.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0006169,
-   "mcap_usd": 608445,
-   "liquidity_usd": 62299.49,
-   "age_hours": 4.58,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T18:17:37+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    },
-    "48h": {
-     "time": "2026-11-08T18:14:55+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": {
    "mint": "Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump",
    "symbol": "GLITCHPEPE",
@@ -6678,6 +6616,24 @@
    "age_hours": 1.13,
    "checks": {},
    "done": false
+  },
+  "74xFKmxYk33yFdnWHh6VbKECnBw2cEhEa1dBqnmDHPNX": {
+   "mint": "74xFKmxYk33yFdnWHh6VbKECnBw2cEhEa1dBqnmDHPNX",
+   "symbol": "GTA$",
+   "pair": "3fBYy8s1ZbqarqpXfeEAMXLNuEbuXJNK4gsqrGBQ3NKY",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T18:16:51+00:00",
+   "rejected_ts": 1794421011,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 5.591e-05,
+   "mcap_usd": 53274,
+   "liquidity_usd": 20439.95,
+   "age_hours": 1.6,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7216,7 +7172,7 @@
    }
   },
   "2026-11-11": {
-   "total": 49,
+   "total": 50,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7258,7 +7214,9 @@
     "16": 1,
     "16|market:volume_h1_low": 1,
     "17": 1,
-    "17|market:sells_ge_buys_h1": 1
+    "17|market:sells_ge_buys_h1": 1,
+    "18": 1,
+    "18|market:volume_h1_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7268,7 +7226,7 @@
     "grok:skip": 6,
     "market:liquidity_low": 6,
     "rugcheck:top10": 5,
-    "market:volume_h1_low": 2,
+    "market:volume_h1_low": 3,
     "rugcheck:insiders": 4,
     "rugcheck:lp_unlocked": 1,
     "market:sells_ge_buys_h1": 1
