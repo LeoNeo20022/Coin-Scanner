@@ -6634,6 +6634,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "C493YhUFRt9zFgzLRm3SckCEXeouGse8iUoW3EeFpump": {
+   "mint": "C493YhUFRt9zFgzLRm3SckCEXeouGse8iUoW3EeFpump",
+   "symbol": "Allin",
+   "pair": "HCBPgX11o2aZ8CXYu2U51ycQp9kQVDwjrrETubeFbqWs",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T14:01:47+00:00",
+   "rejected_ts": 1794405707,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 8.457e-05,
+   "mcap_usd": 81637,
+   "liquidity_usd": 27010.12,
+   "age_hours": 8.47,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7172,7 +7190,7 @@
    }
   },
   "2026-11-11": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7216,7 +7234,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:danger": 4,
+    "rugcheck:danger": 5,
     "grok:skip": 6,
     "market:liquidity_low": 6,
     "rugcheck:top10": 3,

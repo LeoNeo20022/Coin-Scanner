@@ -63,12 +63,6 @@
   "market_logged": 1794007755.07099,
   "market_reason": "too_old"
  },
- "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-  "market_logged": 1793800674.79825,
-  "market_reason": "mcap_too_high",
-  "judged": 1793316089.8827965,
-  "symbol": "FLOAT"
- },
  "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": {
   "market_logged": 1793992791.4149694,
   "market_reason": "mcap_too_low",
@@ -8556,8 +8550,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "Fkc9FKhK1K8FSPtKkcjfGkpeb4waa3DspRXHmwvvpump": {
-  "market_logged": 1794404502.4050536,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794405702.208318,
+  "market_reason": "liquidity_low"
  },
  "DFG7SwUG9cFCgRSWKgQVQqHwjdTVg5FYZDLZDejQpump": {
   "market_logged": 1794404502.4050536,
@@ -8582,5 +8576,9 @@
  "2r7L9szufJRH7Ve16L9dj7pznoXmGAiiSYUnVxKGpump": {
   "market_logged": 1794405402.2761009,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "C493YhUFRt9zFgzLRm3SckCEXeouGse8iUoW3EeFpump": {
+  "judged": 1794405702.208318,
+  "symbol": "Allin"
  }
 }
