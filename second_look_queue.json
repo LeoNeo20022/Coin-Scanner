@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": {
-   "mint": "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump",
-   "symbol": "RM",
-   "pair": "639HxYRwtpmBKv6qJeYFd7WGckGQ3KsRKZixB9hjcRbv",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T08:04:49+00:00",
-   "rejected_ts": 1793952289,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0001646,
-   "mcap_usd": 160268,
-   "liquidity_usd": 33323.5,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T08:07:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T08:07:59+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GfJp1CbDsaoSGf3rXqVbgmwRx3HtZ6mCtv16GzFgpump": {
    "mint": "GfJp1CbDsaoSGf3rXqVbgmwRx3HtZ6mCtv16GzFgpump",
    "symbol": "CZ",
@@ -5660,7 +5629,14 @@
    "mcap_usd": 131201,
    "liquidity_usd": 26683.13,
    "age_hours": 0.11,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T08:05:31+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": {
