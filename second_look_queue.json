@@ -1,36 +1,5 @@
 {
  "entries": {
-  "BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": {
-   "mint": "BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump",
-   "symbol": "sssdfg",
-   "pair": "FxRniotL6h6mfm5ymKyy2UuLULEe6k9ingW3mZzjAbsZ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T00:21:42+00:00",
-   "rejected_ts": 1793924502,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001997,
-   "mcap_usd": 195651,
-   "liquidity_usd": 36882.51,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T00:24:06+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-08T00:22:17+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "e9Mj5rNjXSzWtuHtYwTN78Jua5z7eEpJafAd1evpump": {
    "mint": "e9Mj5rNjXSzWtuHtYwTN78Jua5z7eEpJafAd1evpump",
    "symbol": "CO-OP",
@@ -6472,6 +6441,24 @@
    "age_hours": 0.2,
    "checks": {},
    "done": false
+  },
+  "85gJ7HucRUpPjLZP9KVWEKyB85uBxtwMfqzm9ufNpump": {
+   "mint": "85gJ7HucRUpPjLZP9KVWEKyB85uBxtwMfqzm9ufNpump",
+   "symbol": "vibeshift",
+   "pair": "HLyTsBPTWKkj6gugfLrY11X9NBxkjFtfPWqXgZGq26We",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T00:46:52+00:00",
+   "rejected_ts": 1794358012,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 8.271e-05,
+   "mcap_usd": 80477,
+   "liquidity_usd": 23849.31,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7010,7 +6997,7 @@
    }
   },
   "2026-11-11": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7020,7 +7007,8 @@
    "reasons": {
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
-    "market:mcap_too_low": 1
+    "market:mcap_too_low": 1,
+    "rugcheck:danger": 1
    }
   }
  }
