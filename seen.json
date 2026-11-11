@@ -251,21 +251,9 @@
   "judged": 1793832307.2109191,
   "symbol": "Sasha"
  },
- "6X6E4frRadiUEcVqUKTyUVS2FhGmwN359TocEaHXtBX5": {
-  "market_logged": 1793830704.5133317,
-  "market_reason": "mcap_too_low"
- },
  "CggrqcmnVyppSAgyaVMDPrESybPHhq9dZgVV788Vpump": {
   "market_logged": 1793834981.161985,
   "market_reason": "mcap_too_low"
- },
- "DhxxDYSQk56HPom3AXyctsdsZ4rvJExZLBgx6GPXpump": {
-  "market_logged": 1793830704.5133317,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "gxX81jD9WvtXCYvYpL227w93FVAKL71ojCUm9oxpump": {
-  "market_logged": 1793830704.5133317,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "4NHomKfjdKknD19BVz7ebWMoKCQeZb1cx6DWkoxapump": {
   "market_logged": 1793831305.0765245,
@@ -5468,8 +5456,8 @@
   "market_reason": "mcap_too_low"
  },
  "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1": {
-  "market_logged": 1794435133.7757826,
-  "market_reason": "mcap_too_low",
+  "market_logged": 1794435734.1235127,
+  "market_reason": "liquidity_low",
   "judged": 1794213881.2415707,
   "symbol": "BTC"
  },
@@ -8583,8 +8571,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "BFfrW2h5CuTMHbDmXeJL5sdKAZVQDHrShwCPf2Jrpump": {
-  "market_logged": 1794435433.6346445,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794435734.1235127,
+  "market_reason": "liquidity_low"
  },
  "FjFVmDDM3w7qVLS9uxLkXnDM4qCGsqXSow6d32phpump": {
   "market_logged": 1794434834.286359,
@@ -8612,6 +8600,10 @@
  },
  "E62E76nz7iRK4hmyDW2wcd38mp1xtisAxmzg4LGZpump": {
   "market_logged": 1794435433.6346445,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "NuxMPP3ER8kJBiP3NiDTtBhzgGr2oAzZkzXHpsjzero": {
+  "market_logged": 1794435734.1235127,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
