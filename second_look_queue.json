@@ -6628,6 +6628,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "DFNnZi7mLegSKFhipUa964Z1DdLRKmggTr1vUhtwH6Bi": {
+   "mint": "DFNnZi7mLegSKFhipUa964Z1DdLRKmggTr1vUhtwH6Bi",
+   "symbol": "STONKLANA",
+   "pair": "31M8q9PWTaFqE32kwLVfGTKR1nQrtyfEWJBL9jHXsqfW",
+   "dex": "raydium",
+   "rejected_at": "2026-11-11T09:04:29+00:00",
+   "rejected_ts": 1794387869,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "community-takeovers",
+   "price_usd": 5.259e-05,
+   "mcap_usd": 52600,
+   "liquidity_usd": 11074.4,
+   "age_hours": 1334.31,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7166,7 +7184,7 @@
    }
   },
   "2026-11-11": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7198,7 +7216,9 @@
     "07": 1,
     "07|market:mcap_too_low": 1,
     "08": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7206,7 +7226,7 @@
     "market:mcap_too_low": 6,
     "rugcheck:danger": 4,
     "grok:skip": 6,
-    "market:liquidity_low": 3,
+    "market:liquidity_low": 4,
     "rugcheck:top10": 1,
     "market:volume_h1_low": 1,
     "rugcheck:insiders": 1,
