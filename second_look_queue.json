@@ -4423,9 +4423,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-11T01:49:21+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8q8SwRVni2hRE3LiitdToMYLs1LpmX6YiYm7Y6QXW2DW": {
    "mint": "8q8SwRVni2hRE3LiitdToMYLs1LpmX6YiYm7Y6QXW2DW",
@@ -5617,7 +5623,14 @@
    "mcap_usd": 113254,
    "liquidity_usd": 25557.64,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T01:49:21+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BTPKWGUnfVUeP5xH14o23C9VvL2AeK2BNYa8JJDXpump": {
@@ -6465,6 +6478,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "Bp7Lk2CfPdK7yfc15gdmqMKSFBsHFbiish1SZ9enpump": {
+   "mint": "Bp7Lk2CfPdK7yfc15gdmqMKSFBsHFbiish1SZ9enpump",
+   "symbol": "\u54c8\u57fa\u4ed9\u4eba",
+   "pair": "tUVxAbiiFJLfLXYkTnix8ZHa6FqKifyt8unnXLh6VfH",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T01:49:18+00:00",
+   "rejected_ts": 1794361758,
+   "stage": "grok",
+   "reason": "Massive 210% gain in first hour with volume concentrated in last 60min; buy pressure still strong but looks like late momentum.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001301,
+   "mcap_usd": 128214,
+   "liquidity_usd": 26682.07,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7003,7 +7034,7 @@
    }
   },
   "2026-11-11": {
-   "total": 8,
+   "total": 9,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7019,7 +7050,7 @@
     "market:too_new": 2,
     "market:mcap_too_low": 2,
     "rugcheck:danger": 1,
-    "grok:skip": 1
+    "grok:skip": 2
    }
   }
  }
