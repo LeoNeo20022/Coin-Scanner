@@ -1,98 +1,5 @@
 {
  "entries": {
-  "H5onqP9LqvnBmwFb68d16HvJvhzvVwNaND6LyZ6hpump": {
-   "mint": "H5onqP9LqvnBmwFb68d16HvJvhzvVwNaND6LyZ6hpump",
-   "symbol": "MIL",
-   "pair": "BL6XyQcRoMaCLvtYHXFiVQcbLWPYVAqEEd9A4e9XQJG7",
-   "dex": "pumpfun",
-   "rejected_at": "2026-11-06T05:04:24+00:00",
-   "rejected_ts": 1793941464,
-   "stage": "market",
-   "reason": "pumpfun_bonding_curve",
-   "reason_key": "market:pumpfun_bonding_curve",
-   "sources": "token-profiles",
-   "price_usd": 2.807e-05,
-   "mcap_usd": 28071.88,
-   "liquidity_usd": null,
-   "age_hours": 0.24,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T05:05:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "pumpfun_bonding_curve"
-    },
-    "48h": {
-     "time": "2026-11-08T05:18:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "pumpfun_bonding_curve"
-    }
-   },
-   "done": true
-  },
-  "6RDff7NwDJFX9zLg53RJNPsWpdfRs1xxDxivhL3Ypump": {
-   "mint": "6RDff7NwDJFX9zLg53RJNPsWpdfRs1xxDxivhL3Ypump",
-   "symbol": "Bill",
-   "pair": "8ro6WxGZyFY2NdbP685hBTcxL5k5EzQdfQW3HJrnEhKQ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T05:04:24+00:00",
-   "rejected_ts": 1793941464,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 6.812e-05,
-   "mcap_usd": 65258,
-   "liquidity_usd": 19988.07,
-   "age_hours": 0.73,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T05:05:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T05:18:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "EFWotn2UtV2c5QXMMHbSzmyrkU7wnfj7VpkNQGr1wk1z": {
-   "mint": "EFWotn2UtV2c5QXMMHbSzmyrkU7wnfj7VpkNQGr1wk1z",
-   "symbol": "bracket",
-   "pair": "5wDfxkkVaXL6rN9JcfzdgtGiBSZDB7QGZWQqytBc3srk",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T05:04:24+00:00",
-   "rejected_ts": 1793941464,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001464,
-   "mcap_usd": 146265,
-   "liquidity_usd": 32892.92,
-   "age_hours": 0.57,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T05:05:47+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T05:18:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "7TrU2pLuFPA1c2ptSQxuVV8dYSL3tYtWKUhNUDXkpump": {
    "mint": "7TrU2pLuFPA1c2ptSQxuVV8dYSL3tYtWKUhNUDXkpump",
    "symbol": "GIRL",
@@ -5585,7 +5492,14 @@
    "mcap_usd": 23738,
    "liquidity_usd": 10526.9,
    "age_hours": 0.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T05:06:30+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "2EhvVKz6XNSSv8DC2j7eHeMK6doYDpLkyWHGvPcNpump": {
@@ -5603,7 +5517,14 @@
    "mcap_usd": 2622.39,
    "liquidity_usd": null,
    "age_hours": 0.3,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T05:06:30+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "pumpfun_bonding_curve"
+    }
+   },
    "done": false
   },
   "6G6p82ieTBmdg6GAdUaWAQSMZLKDhorwC1M9Czntpump": {
@@ -5621,7 +5542,14 @@
    "mcap_usd": 73376,
    "liquidity_usd": 20019.79,
    "age_hours": 0.59,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T05:06:30+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump": {
@@ -5639,7 +5567,14 @@
    "mcap_usd": 183609,
    "liquidity_usd": 32491.68,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T05:06:30+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd": {
