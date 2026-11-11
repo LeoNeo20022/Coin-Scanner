@@ -243,20 +243,6 @@
   "judged": 1793836180.620515,
   "symbol": "KAIA"
  },
- "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": {
-  "market_logged": 1793835280.9225116,
-  "market_reason": "too_new",
-  "judged": 1793835880.6226308,
-  "symbol": "GAVELDROP"
- },
- "FVv8MBLrG5SyTkUjBrE5X725M3DXyB1TtMfqP2Zyspot": {
-  "market_logged": 1793835880.6226308,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "4K3tiR4fLY7K6nXAqPT4jLRicg8UG3axRxVNhfUGpump": {
-  "market_logged": 1793835880.6226308,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "4GMG7T7HvXhsYYTDHP9n1qT7jWiyaZky4jxSSwH7pump": {
   "market_logged": 1793835880.6226308,
   "market_reason": "too_new",
@@ -8591,19 +8577,23 @@
   "market_reason": "mcap_too_low"
  },
  "BxB8izREoTAQMi78y3qr4ziiLaMkajoPA2X3SP9pmup": {
-  "market_logged": 1794440567.6651766,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794440868.1695948,
+  "market_reason": "mcap_too_low"
  },
  "BFX5kajfPwZJLLBnrQ1KHm2KcK6Ga63s7NE38joiperp": {
   "market_logged": 1794439741.2087245,
   "market_reason": "missing:mcap_usd"
  },
  "55TB1G3TedWG1kdeZeBjTpGUq7C1Kk917j4cdmaDpump": {
-  "market_logged": 1794440567.6651766,
-  "market_reason": "too_new"
+  "market_logged": 1794440868.1695948,
+  "market_reason": "mcap_too_low"
  },
  "HtKSi76B481vtpE1Ssydb8gKrcL3eeaVSDeh8sbRpump": {
   "market_logged": 1794440268.3160765,
   "market_reason": "mcap_too_low"
+ },
+ "87t5CF9k44Ze7turLqYNF6XyYwpjqJZJH6Zk3Z4Kpump": {
+  "market_logged": 1794440868.1695948,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
