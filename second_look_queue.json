@@ -1,67 +1,5 @@
 {
  "entries": {
-  "GAMiPgBnyW9RJ3TBobpzUC8UAa8CidBJ348A7uHEpump": {
-   "mint": "GAMiPgBnyW9RJ3TBobpzUC8UAa8CidBJ348A7uHEpump",
-   "symbol": "Chicxu",
-   "pair": "ABkn72Wf7FzdNo2nYeRLdouN7pxjY4QUFYMWqGTMkHYZ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T17:09:25+00:00",
-   "rejected_ts": 1793984965,
-   "stage": "grok",
-   "reason": "568% 6h / 324% 1h gains followed by -18% m5 correction point to blow-off top. Volume still elevated but momentum clearly fading.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0003921,
-   "mcap_usd": 386744,
-   "liquidity_usd": 51395.98,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T17:10:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T17:09:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump": {
-   "mint": "7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump",
-   "symbol": "401kinu",
-   "pair": "7SqbpnyreaD2zjEgFPKDmeCe17Xmpg9ta15UukkFhzez",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T17:09:42+00:00",
-   "rejected_ts": 1793984982,
-   "stage": "grok",
-   "reason": "941% h6 gain after only 1h age shows classic post-spike exhaustion; volume and buys remain elevated but m5/h1 momentum is already decelerating from the initial ",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0005203,
-   "mcap_usd": 517665,
-   "liquidity_usd": 57579.36,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T17:10:08+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T17:09:58+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump": {
    "mint": "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump",
    "symbol": "KoriMu",
@@ -5734,7 +5672,14 @@
    "mcap_usd": 343843,
    "liquidity_usd": 44236.42,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-11T17:16:32+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump": {
