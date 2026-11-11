@@ -233,14 +233,6 @@
   "market_logged": 1793813197.4115527,
   "market_reason": "mcap_too_low"
  },
- "3rYWbYevtWPatfAGEmnNHTMnQ89Db5TtoWA8ZwjApump": {
-  "market_logged": 1793812596.886691,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "27XvLWXYUPn7eDa9BScTytntn4Z3EAw355Dk3MzFpump": {
-  "market_logged": 1793812596.886691,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "GXS1XuYuZJX7NuQvXPJPbpe4YfTsm3UyK4AmqsMcpump": {
   "market_logged": 1793882638.7474918,
   "market_reason": "liquidity_low"
@@ -4239,8 +4231,8 @@
   "market_reason": "mcap_too_low"
  },
  "AKrw6VbXiScJqZydENKhjJyJYXGsKJCVLmui95ngt1EK": {
-  "market_logged": 1794414855.884899,
-  "market_reason": "volume_h1_low"
+  "market_logged": 1794417687.4754615,
+  "market_reason": "liquidity_low"
  },
  "HgRk5aPDzwDCrdcuD2KoavBHBrNYbUdmUPXusnyapump": {
   "market_logged": 1794084437.9391122,
@@ -8521,7 +8513,9 @@
  },
  "8oGD1rEraxCCXd98JYdNnb38bENjfR6pGcRuqmfMpump": {
   "market_logged": 1794416788.0455441,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "MEOWLAND",
+  "judged": 1794417687.4754615
  },
  "53ta1BvDf63JjXA5nW6EAhXDcMwngEE5AN5GPNbFPMRc": {
   "market_logged": 1794416788.0455441,
@@ -8558,5 +8552,25 @@
  "B2DCRK82Bj2sHfGMrDDPnejP2PL2nYTGqTzpdexdpump": {
   "market_logged": 1794417087.8845778,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "Z5ijNneoDubKBEhzTumUgfm18m6PjUDred4gp7Xpump": {
+  "market_logged": 1794417687.4754615,
+  "market_reason": "liquidity_low"
+ },
+ "4AJrKrGwi38FFun3W8jkGTyttRvpTicB6B4zCXg5pump": {
+  "market_logged": 1794417687.4754615,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2rCBx6w79WpwuC9xSVkencWyAeS8cxB6Kj9pCzdrpump": {
+  "market_logged": 1794417687.4754615,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "9yAraWtFreAKKATh55SQLr98jNDRwAtDDNKDFnxPpump": {
+  "market_logged": 1794417687.4754615,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GGNe5pwe3pGjvmYC7QtaLpU2JzCmqcksX8dTs59mDUSD": {
+  "market_logged": 1794417687.4754615,
+  "market_reason": "missing:mcap_usd"
  }
 }
