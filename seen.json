@@ -231,10 +231,6 @@
   "market_logged": 1794353811.737069,
   "market_reason": "mcap_too_low"
  },
- "G4bjr2e9BwqkPxfjUfpsk3B8ySvNYq4rBu2RrQMJpump": {
-  "market_logged": 1793832007.35795,
-  "market_reason": "mcap_too_low"
- },
  "5ooMWLgkiCHR5tSgcU9b43ESwwY3qXXWoxLC4Q6gPmoT": {
   "market_logged": 1793831305.0765245,
   "market_reason": "too_new",
@@ -254,10 +250,6 @@
  "F1FiJdqfUzEx8BtfdSCRwGwrKBAZHJs6JkNEfVYYpump": {
   "market_logged": 1793833206.9083934,
   "market_reason": "mcap_too_low"
- },
- "8JzfEGUkCpQv16Yf7NjmzE6BBfvM4AJ1bucPcYT1pump": {
-  "market_logged": 1793832007.35795,
-  "market_reason": "missing:mcap_usd"
  },
  "6z3cf9nDuxdA9xyccx8m8SonWdZGH5s9kbqAeaV5gajt": {
   "market_logged": 1793832307.2109191,
@@ -8558,7 +8550,9 @@
  },
  "HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump": {
   "market_logged": 1794434834.286359,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794436933.3312066,
+  "symbol": "NIHAONOON"
  },
  "CgDpxjtoZoM2yWxN2FaRsZtfa9Tksep55AMbx56Apump": {
   "market_logged": 1794434834.286359,
@@ -8611,5 +8605,9 @@
  "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": {
   "market_logged": 1794436334.3960993,
   "market_reason": "mcap_too_low"
+ },
+ "ErTBzXHZ1Gqss99KEq4QwaBqHrUZt7dHzgd89t7TwU7d": {
+  "market_logged": 1794436933.3312066,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
