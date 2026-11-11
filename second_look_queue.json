@@ -1,36 +1,5 @@
 {
  "entries": {
-  "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": {
-   "mint": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
-   "symbol": "RETIRE",
-   "pair": "9xgF5yvxsjxtpHC11K8tG1b5iu7MXB7DbW9E6qKBrbzM",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T03:32:53+00:00",
-   "rejected_ts": 1793935973,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-boosts,token-boosts,token-boosts,token-boosts/top",
-   "price_usd": 9.193e-05,
-   "mcap_usd": 87472,
-   "liquidity_usd": 22762.48,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T03:35:38+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T03:33:38+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FzTKun7HZds4mnx1sgayLNjnTyM9AjG6X16KGNZepump": {
    "mint": "FzTKun7HZds4mnx1sgayLNjnTyM9AjG6X16KGNZepump",
    "symbol": "token",
@@ -6519,6 +6488,24 @@
    "age_hours": 3.48,
    "checks": {},
    "done": false
+  },
+  "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": {
+   "mint": "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump",
+   "symbol": "VEYL",
+   "pair": "GWwUAoAMBZnLe9PJqEsaXKFzmnufbWuNS9iwLBQFgVJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T03:59:20+00:00",
+   "rejected_ts": 1794369560,
+   "stage": "grok",
+   "reason": "Massive 152% h1 / 364% h6 gains after only 1.18h indicate blow-off top; buying the exit on fading momentum.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001773,
+   "mcap_usd": 171125,
+   "liquidity_usd": 31418.32,
+   "age_hours": 1.18,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7057,7 +7044,7 @@
    }
   },
   "2026-11-11": {
-   "total": 17,
+   "total": 18,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7081,7 +7068,7 @@
     "market:too_new": 4,
     "market:mcap_too_low": 3,
     "rugcheck:danger": 2,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "market:liquidity_low": 1,
     "rugcheck:top10": 1
    }
