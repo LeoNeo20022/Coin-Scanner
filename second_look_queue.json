@@ -6567,6 +6567,24 @@
    "age_hours": 0.22,
    "checks": {},
    "done": false
+  },
+  "BXwgus8w5NPgxxWxTUUHiKUz3Jezn8RB6uqowcJxpump": {
+   "mint": "BXwgus8w5NPgxxWxTUUHiKUz3Jezn8RB6uqowcJxpump",
+   "symbol": "TRENCHER",
+   "pair": "G8KjH6oMsdug8wEKPx4VGZHru8aJZKyA682D4dpqPWVN",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-11T07:00:50+00:00",
+   "rejected_ts": 1794380450,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 2.238e-05,
+   "mcap_usd": 22386,
+   "liquidity_usd": 10155.12,
+   "age_hours": 0.3,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7105,7 +7123,7 @@
    }
   },
   "2026-11-11": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7133,12 +7151,14 @@
     "05|market:liquidity_low": 1,
     "06": 2,
     "06|market:mcap_too_low": 1,
-    "06|market:too_new": 1
+    "06|market:too_new": 1,
+    "07": 1,
+    "07|market:mcap_too_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
-    "market:mcap_too_low": 5,
+    "market:mcap_too_low": 6,
     "rugcheck:danger": 4,
     "grok:skip": 5,
     "market:liquidity_low": 2,
