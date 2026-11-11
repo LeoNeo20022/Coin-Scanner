@@ -1,98 +1,5 @@
 {
  "entries": {
-  "G2apw4XQdSfTv9836JHWhRZGyqG43m93eMEF4zjnpump": {
-   "mint": "G2apw4XQdSfTv9836JHWhRZGyqG43m93eMEF4zjnpump",
-   "symbol": "HALO",
-   "pair": "BQEGbgPbo9Z2Wyv5tW8a1B3urhLh6knpCFv2r6k8UdNL",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T11:37:52+00:00",
-   "rejected_ts": 1793965072,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 6.825e-05,
-   "mcap_usd": 63276,
-   "liquidity_usd": 21928.96,
-   "age_hours": 1.23,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T11:41:52+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T11:40:36+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "APgbBfggjo79T7PdVqTQcEbVdQWBCif1kLTwjRwrxc8Z": {
-   "mint": "APgbBfggjo79T7PdVqTQcEbVdQWBCif1kLTwjRwrxc8Z",
-   "symbol": "APPLEPAID",
-   "pair": "AAGJchFovT6tQbh2rsysmzs9xNoehz3bxejEDstUvDU4",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T11:47:52+00:00",
-   "rejected_ts": 1793965672,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001114,
-   "mcap_usd": 107857,
-   "liquidity_usd": 28762.69,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T11:49:15+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T11:50:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "Hs52HsnbtDFDZLnRhZhNjtVzw9rvFzD4XZqpNo7Qpump": {
-   "mint": "Hs52HsnbtDFDZLnRhZhNjtVzw9rvFzD4XZqpNo7Qpump",
-   "symbol": "NIG",
-   "pair": "FZGiUHoFxbZdgTwcDv6V2W5XvNCuqghsSkFysjbab3in",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-06T11:52:50+00:00",
-   "rejected_ts": 1793965970,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.067e-05,
-   "mcap_usd": 50676,
-   "liquidity_usd": 17381.14,
-   "age_hours": 0.21,
-   "checks": {
-    "24h": {
-     "time": "2026-11-07T11:54:15+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-08T11:55:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "CkYPxSP2RT1oCQwj1g4xdCJyLmkA4gwC7xYip2B2pump": {
    "mint": "CkYPxSP2RT1oCQwj1g4xdCJyLmkA4gwC7xYip2B2pump",
    "symbol": "DNUT",
@@ -4671,9 +4578,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-11T12:47:11+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf": {
    "mint": "AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf",
