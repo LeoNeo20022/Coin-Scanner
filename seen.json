@@ -261,10 +261,6 @@
   "symbol": "MBG",
   "judged": 1793808890.9577258
  },
- "2qJRvd1NpdM8hCiUtZjLEBgMwpHaqVy9ZZ6wByYhHoPY": {
-  "market_logged": 1793806251.398076,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "EwHV6XfuMmBirGSiDVSypVkHcw7jD7Mho1s5xGwjpump": {
   "market_logged": 1793806851.0710394,
   "market_reason": "too_new",
@@ -8548,8 +8544,8 @@
   "market_reason": "missing:mcap_usd"
  },
  "J8wTCpixaFM3qh9wiUxAySseh8w2dMqsBMXPQB1Hpump": {
-  "market_logged": 1794410473.7144005,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1794411074.2059872,
+  "market_reason": "mcap_too_low"
  },
  "5sksjLNKYptUt1TKLJYrMT25qMnSDqtLBr8f9NSupump": {
   "market_logged": 1794410473.7144005,
@@ -8564,7 +8560,11 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "2FixbJ31HZTjd22b1ywoHrB88t8arU4V57CEvHhTpump": {
-  "market_logged": 1794410773.52234,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794411074.2059872,
+  "market_reason": "mcap_too_low"
+ },
+ "85tvKs7xk8FUu5RapbQKNT5WQkun6nzRSfwXATsTpump": {
+  "market_logged": 1794411074.2059872,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
