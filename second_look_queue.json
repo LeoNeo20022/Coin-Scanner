@@ -6573,6 +6573,24 @@
    "age_hours": 6.23,
    "checks": {},
    "done": false
+  },
+  "7z3QB6D8xge7GzKZCsajvnLt8zqT1SvFonY9vZZmpump": {
+   "mint": "7z3QB6D8xge7GzKZCsajvnLt8zqT1SvFonY9vZZmpump",
+   "symbol": "HUANG",
+   "pair": "5nXngjPFULjTH6o3qSEuPT9wXdFAHnftg3LRH8ru96KR",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T16:44:49+00:00",
+   "rejected_ts": 1794501889,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001057,
+   "mcap_usd": 103303,
+   "liquidity_usd": 24597.1,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7114,7 +7132,7 @@
    }
   },
   "2026-11-12": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7165,7 +7183,7 @@
     "rugcheck:top10": 5,
     "market:too_new": 6,
     "grok:skip": 4,
-    "rugcheck:insiders": 2,
+    "rugcheck:insiders": 3,
     "rugcheck:lp_unlocked": 2,
     "market:sells_ge_buys_h1": 2,
     "rugcheck:danger": 2,
