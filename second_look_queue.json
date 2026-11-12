@@ -5779,7 +5779,14 @@
    "mcap_usd": 137153,
    "liquidity_usd": 27217.97,
    "age_hours": 1.06,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T08:42:19+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": {
@@ -5797,7 +5804,14 @@
    "mcap_usd": 386070,
    "liquidity_usd": 49886.27,
    "age_hours": 1.05,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T08:42:19+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "DFNnZi7mLegSKFhipUa964Z1DdLRKmggTr1vUhtwH6Bi": {
