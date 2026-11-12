@@ -4423,9 +4423,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-12T17:24:01+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump": {
    "mint": "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump",
@@ -5767,7 +5773,14 @@
    "mcap_usd": 219591,
    "liquidity_usd": 35876.68,
    "age_hours": 1.11,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T17:24:01+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
@@ -6615,6 +6628,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "5ZA32FxzsxcSXZuYDbrxa9QVVvzkiLbisDb5VKmNpump": {
+   "mint": "5ZA32FxzsxcSXZuYDbrxa9QVVvzkiLbisDb5VKmNpump",
+   "symbol": "BALLS",
+   "pair": "BKuWVT66paCpS5YXowV8mcmgWbvBc53AtF3jBspCrCZa",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T17:23:57+00:00",
+   "rejected_ts": 1794504237,
+   "stage": "grok",
+   "reason": "1052% h6 and 210% h1 gains with volume concentrated in last hour signal blow-off top; buying the exit after extreme pump.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0004268,
+   "mcap_usd": 421888,
+   "liquidity_usd": 48850.36,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7156,7 +7187,7 @@
    }
   },
   "2026-11-12": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7206,7 +7237,7 @@
     "market:liquidity_low": 6,
     "rugcheck:top10": 6,
     "market:too_new": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:insiders": 3,
     "rugcheck:lp_unlocked": 2,
     "market:sells_ge_buys_h1": 2,
