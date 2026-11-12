@@ -1,36 +1,5 @@
 {
  "entries": {
-  "41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump": {
-   "mint": "41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump",
-   "symbol": "scamsem",
-   "pair": "7xfY46cX3iERduX2denyAM4PLxpQeCouVCaZ9N3gYh76",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-07T02:15:44+00:00",
-   "rejected_ts": 1794017744,
-   "stage": "rugcheck",
-   "reason": "danger:Single holder ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0009507,
-   "mcap_usd": 943265,
-   "liquidity_usd": 90841.6,
-   "age_hours": 1.09,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T02:19:57+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "danger:Single holder ownership"
-    },
-    "48h": {
-     "time": "2026-11-09T02:22:09+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u": {
    "mint": "C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u",
    "symbol": "STM",
@@ -5710,7 +5679,14 @@
    "mcap_usd": 77329,
    "liquidity_usd": 20749.47,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T02:22:01+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "6WrFRgPTkvA1U9vGX9mdbvTsne3AteJ9azvrGweUpump": {
@@ -6594,6 +6570,24 @@
    "age_hours": 0.73,
    "checks": {},
    "done": false
+  },
+  "AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": {
+   "mint": "AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump",
+   "symbol": "AIB",
+   "pair": "5jN7YxKhncGwi3njP5Z8M6YYBKkuhL7p2axLLG2DaGK3",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T02:21:59+00:00",
+   "rejected_ts": 1794450119,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0004798,
+   "mcap_usd": 477428,
+   "liquidity_usd": 53707.95,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7135,7 +7129,7 @@
    }
   },
   "2026-11-12": {
-   "total": 12,
+   "total": 13,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7157,7 +7151,7 @@
     "rugcheck:top10": 1,
     "market:too_new": 2,
     "grok:skip": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 2
    }
   }
  }
