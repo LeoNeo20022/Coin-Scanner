@@ -4485,9 +4485,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-12T01:52:08+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "BTPKWGUnfVUeP5xH14o23C9VvL2AeK2BNYa8JJDXpump": {
    "mint": "BTPKWGUnfVUeP5xH14o23C9VvL2AeK2BNYa8JJDXpump",
@@ -5679,7 +5685,14 @@
    "mcap_usd": 128214,
    "liquidity_usd": 26682.07,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T01:52:08+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4U63KuVCeMoY868CUN5Dg91cQY4FKcAqknqnmhL7pump": {
@@ -6545,6 +6558,24 @@
    "age_hours": 0.84,
    "checks": {},
    "done": false
+  },
+  "H57bUBka6sBfPQph6f58TsQvUvxugJQmqMANFV1mpump": {
+   "mint": "H57bUBka6sBfPQph6f58TsQvUvxugJQmqMANFV1mpump",
+   "symbol": "Rex",
+   "pair": "HR85C1wP8EWmrmvfCXUqyLcBnvsiEprq1NB12ckLF5zh",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T01:52:05+00:00",
+   "rejected_ts": 1794448325,
+   "stage": "grok",
+   "reason": "390% h1 and 1664% h6 gains after only 1h indicate blow-off top; buying the exit on a vertical pump.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0006563,
+   "mcap_usd": 648854,
+   "liquidity_usd": 61619.52,
+   "age_hours": 1.07,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7086,7 +7117,7 @@
    }
   },
   "2026-11-12": {
-   "total": 7,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7102,7 +7133,8 @@
     "market:pumpfun_bonding_curve": 2,
     "market:liquidity_low": 1,
     "rugcheck:top10": 1,
-    "market:too_new": 1
+    "market:too_new": 1,
+    "grok:skip": 1
    }
   }
  }
