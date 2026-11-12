@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se": {
-   "mint": "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se",
-   "symbol": "LUCIA",
-   "pair": "EP6NqC6HbMSz56NKWq2a4ZBUnmTf7cqzhuWH8LsYmF1c",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-07T18:12:37+00:00",
-   "rejected_ts": 1794075157,
-   "stage": "rugcheck",
-   "reason": "danger:Large Amount of LP Unlocked",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 9.09e-05,
-   "mcap_usd": 86934,
-   "liquidity_usd": 38837.08,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T18:14:55+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-09T18:14:05+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HgRk5aPDzwDCrdcuD2KoavBHBrNYbUdmUPXusnyapump": {
    "mint": "HgRk5aPDzwDCrdcuD2KoavBHBrNYbUdmUPXusnyapump",
    "symbol": "Jos\u00e9",
@@ -6659,6 +6628,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump": {
+   "mint": "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump",
+   "symbol": "DOGGLE",
+   "pair": "DBzwWtsvwYDEf8SG8ypHdTKWdRL3WEvH1qDtwgx9DnqX",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T18:16:36+00:00",
+   "rejected_ts": 1794507396,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0003326,
+   "mcap_usd": 330163,
+   "liquidity_usd": 42625.82,
+   "age_hours": 1.38,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7200,7 +7187,7 @@
    }
   },
   "2026-11-12": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7251,7 +7238,7 @@
     "rugcheck:top10": 6,
     "market:too_new": 6,
     "grok:skip": 6,
-    "rugcheck:insiders": 3,
+    "rugcheck:insiders": 4,
     "rugcheck:lp_unlocked": 2,
     "market:sells_ge_buys_h1": 2,
     "rugcheck:danger": 2,
