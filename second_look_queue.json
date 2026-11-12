@@ -6627,6 +6627,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": {
+   "mint": "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump",
+   "symbol": "FLC",
+   "pair": "HGgP8yXg71PdRxTvA53Q7mKdzx9zSTUW8E2roC28WtZa",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T06:33:13+00:00",
+   "rejected_ts": 1794465193,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 8.025e-05,
+   "mcap_usd": 78010,
+   "liquidity_usd": 21135.88,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7168,7 +7186,7 @@
    }
   },
   "2026-11-12": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7202,7 +7220,7 @@
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 2,
-    "rugcheck:top10": 1,
+    "rugcheck:top10": 2,
     "market:too_new": 5,
     "grok:skip": 3,
     "rugcheck:insiders": 2,
