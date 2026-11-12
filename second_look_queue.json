@@ -5854,7 +5854,14 @@
    "mcap_usd": 62749,
    "liquidity_usd": 19670.24,
    "age_hours": 1.89,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T11:04:40+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5jLj1jr2BtTBL8czd6xdpYoFkEqyG89W3bz5Jq6Mpump": {
@@ -6666,6 +6673,24 @@
    "age_hours": 3.74,
    "checks": {},
    "done": false
+  },
+  "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump": {
+   "mint": "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump",
+   "symbol": "SKUNK",
+   "pair": "AusWEfi1py2oxThRWyGh86QcUyNH9jButcqb6vSzbqaq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T11:04:39+00:00",
+   "rejected_ts": 1794481479,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 5.895e-05,
+   "mcap_usd": 56787,
+   "liquidity_usd": 19334.08,
+   "age_hours": 13.93,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7207,7 +7232,7 @@
    }
   },
   "2026-11-12": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7241,12 +7266,14 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "10": 1,
-    "10|market:liquidity_low": 1
+    "10|market:liquidity_low": 1,
+    "11": 1,
+    "11|market:liquidity_low": 1
    },
    "reasons": {
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
-    "market:liquidity_low": 4,
+    "market:liquidity_low": 5,
     "rugcheck:top10": 2,
     "market:too_new": 6,
     "grok:skip": 4,
