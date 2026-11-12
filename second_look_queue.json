@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FHCntFVzzGmbcUNmf1jBGaBsi4duboB1cwjg4yrcpump": {
-   "mint": "FHCntFVzzGmbcUNmf1jBGaBsi4duboB1cwjg4yrcpump",
-   "symbol": "trauma",
-   "pair": "Azbo2X5mvDarkp4H81gyBSP3Dd3qwrpVJshd72LqzcVu",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-07T12:19:13+00:00",
-   "rejected_ts": 1794053953,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 6.676e-05,
-   "mcap_usd": 65452,
-   "liquidity_usd": 19829.53,
-   "age_hours": 0.88,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T12:22:59+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-09T12:19:28+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "EphCWcWcVcG7fjtGhvk2UjCUqhRcRfpuTbCyn5xoBAGS": {
    "mint": "EphCWcWcVcG7fjtGhvk2UjCUqhRcRfpuTbCyn5xoBAGS",
    "symbol": "DACITY",
@@ -6653,6 +6622,24 @@
    "age_hours": 0.47,
    "checks": {},
    "done": false
+  },
+  "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": {
+   "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+   "symbol": "Shitcoin",
+   "pair": "9ovaDmtnzr164fJVBpypehiQ9a5FZMLaCaTTAprM8xxJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T12:29:00+00:00",
+   "rejected_ts": 1794486540,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 9.137e-05,
+   "mcap_usd": 85125,
+   "liquidity_usd": 21766.16,
+   "age_hours": 3.4,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7194,7 +7181,7 @@
    }
   },
   "2026-11-12": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7238,7 +7225,7 @@
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 6,
-    "rugcheck:top10": 2,
+    "rugcheck:top10": 3,
     "market:too_new": 6,
     "grok:skip": 4,
     "rugcheck:insiders": 2,
