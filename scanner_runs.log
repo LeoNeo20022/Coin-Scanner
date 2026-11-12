@@ -1,16 +1,3 @@
-[2026-11-10T02:48:02+00:00] run end {"discovered": 52, "skipped_recent": 8, "no_pair": 1, "market": {"pumpfun_bonding_curve": 15, "too_new": 1, "mcap_too_low": 13, "missing:mcap_usd": 1, "missing:liquidity_usd": 1, "liquidity_low": 3, "too_old": 8, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-11-10T02:48:03+00:00] second_look: 48h FLOAT 4QmzE5Ei… (rejected grok:skip) -> fail: no_solana_pair [dead: no_pair]
-[2026-11-10T02:48:09+00:00] second_look: pass end {"queued": 233, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=7s
-[2026-11-10T02:48:09+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-10T02:49:03+00:00] scout: paper: candles unavailable TiMSdJrk (RuntimeError)
-[2026-11-10T02:49:03+00:00] scout: paper: [pool/scalp] OnlyCats closed take_profit +1.73 after fees
-[2026-11-10T02:49:15+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-10T02:49:15+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-11-10T02:49:15+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-10T02:49:15+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-10T02:50:09+00:00] scout: pass end {"watch": 311, "a_qualify": 32, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=120s
-[2026-11-10T02:52:51+00:00] run start (LOG ONLY)
-[2026-11-10T02:53:02+00:00] discovered=52 fresh=44 market_pass=0
 [2026-11-10T02:53:02+00:00] grok daily budget 3/40 used, 0 no-response, $0.0085 (2026-11-10 UTC)
 [2026-11-10T02:53:02+00:00] run end {"discovered": 52, "skipped_recent": 8, "no_pair": 1, "market": {"pumpfun_bonding_curve": 15, "mcap_too_low": 14, "missing:mcap_usd": 1, "missing:liquidity_usd": 1, "liquidity_low": 3, "too_old": 8, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
 [2026-11-10T02:53:04+00:00] second_look: 24h Nvidiass Ca1tVaqW… (rejected grok:skip) -> fail: mcap_too_low [dead: price_-90%]
@@ -4998,3 +4985,16 @@
 [2026-11-12T01:05:15+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-12T01:06:09+00:00] scout: wait3 candles error CbmdFB7r RuntimeError
 [2026-11-12T01:06:10+00:00] scout: pass end {"watch": 348, "a_qualify": 0, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=115s
+[2026-11-12T01:46:49+00:00] run start (LOG ONLY)
+[2026-11-12T01:46:58+00:00] discovered=71 fresh=56 market_pass=0
+[2026-11-12T01:46:58+00:00] grok daily budget 0/40 used, 0 no-response, $0.0000 (2026-11-12 UTC)
+[2026-11-12T01:46:58+00:00] run end {"discovered": 71, "skipped_recent": 15, "no_pair": 0, "market": {"too_new": 4, "pumpfun_bonding_curve": 14, "liquidity_low": 1, "mcap_too_low": 22, "missing:mcap_usd": 3, "mcap_too_high": 2, "too_old": 9, "volume_h1_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-11-12T01:47:00+00:00] second_look: 48h OnlyCats BAftaSb1… (rejected grok:skip) -> fail: mcap_too_low [dead: no_volume_24h]
+[2026-11-12T01:47:02+00:00] second_look: 24h 咪好 Hg3w7GdP… (rejected grok:skip) -> fail: insiders
+[2026-11-12T01:47:06+00:00] second_look: pass end {"queued": 242, "due": 2, "rechecked": 2, "pass": 0, "opened": 0} elapsed=7s
+[2026-11-12T01:47:06+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-12T01:48:04+00:00] scout: paper: candles unavailable gFjeLxZA (RuntimeError)
+[2026-11-12T01:48:14+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-12T01:48:14+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-12T01:48:14+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-11-12T01:49:08+00:00] scout: pass end {"watch": 348, "a_qualify": 6, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=122s
