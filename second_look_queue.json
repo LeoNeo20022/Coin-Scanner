@@ -6659,6 +6659,24 @@
    "age_hours": 1.38,
    "checks": {},
    "done": false
+  },
+  "J9t2LsAZLrNHocuvoyEKoiyS7RKXLJv2u9bnFJTCpump": {
+   "mint": "J9t2LsAZLrNHocuvoyEKoiyS7RKXLJv2u9bnFJTCpump",
+   "symbol": "HENSEN",
+   "pair": "JPAeJeme2NhCYucA1h8QZgJjZzqJksHKAEaxrXENK1D",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T19:00:31+00:00",
+   "rejected_ts": 1794510031,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001665,
+   "mcap_usd": 162165,
+   "liquidity_usd": 32998.28,
+   "age_hours": 1.19,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7200,7 +7218,7 @@
    }
   },
   "2026-11-12": {
-   "total": 47,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7251,7 +7269,7 @@
     "rugcheck:top10": 6,
     "market:too_new": 6,
     "grok:skip": 6,
-    "rugcheck:insiders": 4,
+    "rugcheck:insiders": 5,
     "rugcheck:lp_unlocked": 2,
     "market:sells_ge_buys_h1": 2,
     "rugcheck:danger": 2,
