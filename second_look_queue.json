@@ -4423,9 +4423,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-12T15:29:29+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "C7JpvPbaQZTYuWnCsKyPtTCnRSmmESWgZwxZrmthpump": {
    "mint": "C7JpvPbaQZTYuWnCsKyPtTCnRSmmESWgZwxZrmthpump",
@@ -4448,9 +4454,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-12T15:29:29+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "HzLVUNuPGfx8TFAxewquK6zE22WcJ4XwzLT2jPFupump": {
    "mint": "HzLVUNuPGfx8TFAxewquK6zE22WcJ4XwzLT2jPFupump",
