@@ -6576,6 +6576,24 @@
    "age_hours": 1.07,
    "checks": {},
    "done": false
+  },
+  "9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok": {
+   "mint": "9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok",
+   "symbol": "GROKIE",
+   "pair": "8Kw8aeQ28o9PqpXYtLJssKAiKQCMJPgheAREJy4ZkCeb",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T01:56:59+00:00",
+   "rejected_ts": 1794448619,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 9.034e-05,
+   "mcap_usd": 87832,
+   "liquidity_usd": 21815.26,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7117,7 +7135,7 @@
    }
   },
   "2026-11-12": {
-   "total": 8,
+   "total": 9,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7134,7 +7152,8 @@
     "market:liquidity_low": 1,
     "rugcheck:top10": 1,
     "market:too_new": 1,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
