@@ -6597,6 +6597,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump": {
+   "mint": "2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump",
+   "symbol": "AMD",
+   "pair": "CRWCDWttGVRhm5oDFNgYF4AVaZx52HXpfXbhRRoqX7Ak",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T17:04:49+00:00",
+   "rejected_ts": 1794503089,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0002412,
+   "mcap_usd": 231177,
+   "liquidity_usd": 45059.42,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7138,7 +7156,7 @@
    }
   },
   "2026-11-12": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7186,7 +7204,7 @@
     "market:mcap_too_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:liquidity_low": 6,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "market:too_new": 6,
     "grok:skip": 4,
     "rugcheck:insiders": 3,
