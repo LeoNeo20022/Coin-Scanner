@@ -1,36 +1,5 @@
 {
  "entries": {
-  "B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump": {
-   "mint": "B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump",
-   "symbol": "HERO",
-   "pair": "8j25V7JxvLawQcwkboMnMkw8ESMZK2xXGMjqcAZjGoD6",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-07T17:52:45+00:00",
-   "rejected_ts": 1794073965,
-   "stage": "grok",
-   "reason": "10x in 1h with 500% h1 gain on 1h-old token; buying after the vertical move.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0006295,
-   "mcap_usd": 621819,
-   "liquidity_usd": 64543.95,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T17:54:53+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-09T17:54:05+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se": {
    "mint": "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se",
    "symbol": "LUCIA",
@@ -5835,7 +5804,14 @@
    "mcap_usd": 85060,
    "liquidity_usd": 21576.73,
    "age_hours": 1.13,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T17:58:48+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "74xFKmxYk33yFdnWHh6VbKECnBw2cEhEa1dBqnmDHPNX": {
