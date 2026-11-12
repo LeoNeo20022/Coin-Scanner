@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": {
-   "mint": "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump",
-   "symbol": "HODL",
-   "pair": "ANS69UDTbMCWbW7ZuCYXLZ4HMCQkvzPMtCW9zjPZQGKR",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-07T00:11:56+00:00",
-   "rejected_ts": 1794010316,
-   "stage": "grok",
-   "reason": "Massive 3056% h6 / 312% h1 gains on 1h-old token with m5 already -4% signal blow-off top. Buying volume strong but fading fast after parabolic move.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.001564,
-   "mcap_usd": 1557295,
-   "liquidity_usd": 101093.65,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T00:12:17+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-09T00:12:49+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "BFkjyPar9gFv49gvEzwFW3PcjvyWn77LNYhnBSzYpump": {
    "mint": "BFkjyPar9gFv49gvEzwFW3PcjvyWn77LNYhnBSzYpump",
    "symbol": "LUCKY",
@@ -5654,7 +5623,14 @@
    "mcap_usd": 80477,
    "liquidity_usd": 23849.31,
    "age_hours": 1.07,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T00:49:12+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "7ynko9bycSr8czpCHteQQfS6yu7MWVjbQJbrBE8Rpump": {
