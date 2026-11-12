@@ -223,12 +223,6 @@
   "market_logged": 1794309534.831607,
   "market_reason": "missing:liquidity_usd"
  },
- "ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump": {
-  "market_logged": 1793916414.0458086,
-  "market_reason": "too_new",
-  "symbol": "COGE",
-  "judged": 1793919319.9884942
- },
  "GL7H6gTz6Gk8Go5MAcuW8yzyCnXuvzY31NCfWAgaqQLb": {
   "market_logged": 1793919623.0610163,
   "market_reason": "mcap_too_high"
@@ -8608,5 +8602,9 @@
  "GxpeQpSF1tmc19JTc9hXpTogzKgCuN2BFSBmZ3FRpump": {
   "market_logged": 1794523857.3354127,
   "market_reason": "mcap_too_low"
+ },
+ "7VnyxhgC5mLsjUtUNNcp9RuuWjG3HcgyAwPFzTaFpump": {
+  "market_logged": 1794524157.448044,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
