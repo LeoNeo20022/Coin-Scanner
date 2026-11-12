@@ -1,36 +1,5 @@
 {
  "entries": {
-  "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": {
-   "mint": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
-   "symbol": "timmy",
-   "pair": "6H9LwRBATqsFTXtsiMmZhwncpXTezk1KLSJ4BC7jz1NU",
-   "dex": "raydium",
-   "rejected_at": "2026-11-07T10:00:56+00:00",
-   "rejected_ts": 1794045656,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 5.617e-05,
-   "mcap_usd": 56180,
-   "liquidity_usd": 12979.07,
-   "age_hours": 160.43,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T10:04:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    },
-    "48h": {
-     "time": "2026-11-09T10:11:28+00:00",
-     "would_pass": "1",
-     "dead": "0",
-     "result": "pass"
-    }
-   },
-   "done": true
-  },
   "4LHAeHbziM2KAcdmsiaWPSgz2oMdiHAqPhpB68xbpump": {
    "mint": "4LHAeHbziM2KAcdmsiaWPSgz2oMdiHAqPhpB68xbpump",
    "symbol": "Burn",
@@ -5829,7 +5798,14 @@
    "mcap_usd": 63469,
    "liquidity_usd": 18901.71,
    "age_hours": 0.55,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T10:10:55+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9c5JteS7LDobkcxXKdkfgrxeebxEruAQJ6x9F7Tupump": {
@@ -5847,7 +5823,14 @@
    "mcap_usd": 96467,
    "liquidity_usd": 23331.21,
    "age_hours": 2.17,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T10:10:55+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BLVpn8ofkjnAzpWGaVpspZ5bHTeXDbXFgX4vn3fkpump": {
