@@ -1,98 +1,5 @@
 {
  "entries": {
-  "FFgnd8bifG8zGBE7dij7g3HWp4gveJS4gDyjdk5epump": {
-   "mint": "FFgnd8bifG8zGBE7dij7g3HWp4gveJS4gDyjdk5epump",
-   "symbol": "trauma",
-   "pair": "61iD5kDt3LuiVCp4DPd4CaW2RqiULnD1gqjY161noCeG",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-07T07:32:13+00:00",
-   "rejected_ts": 1794036733,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.502e-05,
-   "mcap_usd": 55006,
-   "liquidity_usd": 17278.75,
-   "age_hours": 0.39,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T07:48:00+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-09T08:09:46+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "Cp1qJ5CMyJCPakpSNJ9C7sbSMMENzeLidtamFk5gpump": {
-   "mint": "Cp1qJ5CMyJCPakpSNJ9C7sbSMMENzeLidtamFk5gpump",
-   "symbol": "BRUH",
-   "pair": "CAZ5yPdZ7vrJZkG2EMERwnFDs6L7DUTjjzwXZ7inNBaW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-07T07:32:15+00:00",
-   "rejected_ts": 1794036735,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 9.355e-05,
-   "mcap_usd": 91881,
-   "liquidity_usd": 23355.7,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T07:48:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-09T08:09:46+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "7tSMEsYfx2vdPSmnmqBRbFuaPUMmVuiCVsmpFtfLpump": {
-   "mint": "7tSMEsYfx2vdPSmnmqBRbFuaPUMmVuiCVsmpFtfLpump",
-   "symbol": "Alice",
-   "pair": "7tjjmqNrGt1pySMrpKTxVknXMAutgqvXDtzLJBe7SZVE",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-07T07:37:17+00:00",
-   "rejected_ts": 1794037037,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001178,
-   "mcap_usd": 116122,
-   "liquidity_usd": 27209.64,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-08T07:48:00+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-09T08:09:46+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "7jpQyywZm2KD9NTZX7DoZkcvETWCEf56wb1nmfJmpump": {
    "mint": "7jpQyywZm2KD9NTZX7DoZkcvETWCEf56wb1nmfJmpump",
    "symbol": "lucky",
@@ -4485,9 +4392,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-12T07:43:58+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "Gg36bR4gXvN1hqDu6eoFNynhpfxoYg8oe47a2teZpump": {
    "mint": "Gg36bR4gXvN1hqDu6eoFNynhpfxoYg8oe47a2teZpump",
@@ -5804,7 +5717,14 @@
    "mcap_usd": 22386,
    "liquidity_usd": 10155.12,
    "age_hours": 0.3,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-12T07:43:58+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4qperWiuSvkn1r3T6ZZkWThzadoxttAeNbPdbDJTpump": {
@@ -6652,6 +6572,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "9j3EyQXC4ff2gZDgMWg2RUjujLUKaKkNFY5REgPFpump": {
+   "mint": "9j3EyQXC4ff2gZDgMWg2RUjujLUKaKkNFY5REgPFpump",
+   "symbol": "Madison",
+   "pair": "CayB2gpuTMoTXVuZCohWZLxZuX1sTdAvXY5KfjpA7zv8",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T07:43:54+00:00",
+   "rejected_ts": 1794469434,
+   "stage": "grok",
+   "reason": "609% h6 gain signals blow-off top already in progress; m5 buys/sells near parity with -2% price shows momentum fading.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003455,
+   "mcap_usd": 344287,
+   "liquidity_usd": 45243.63,
+   "age_hours": 1.75,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7193,7 +7131,7 @@
    }
   },
   "2026-11-12": {
-   "total": 29,
+   "total": 30,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7229,7 +7167,7 @@
     "market:liquidity_low": 2,
     "rugcheck:top10": 2,
     "market:too_new": 5,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:insiders": 2,
     "rugcheck:lp_unlocked": 1,
     "market:sells_ge_buys_h1": 1,
