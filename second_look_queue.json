@@ -4454,9 +4454,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-12T17:43:59+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HQNJhJyL1QJggnBSN434QVK1RsvcUMNNfkt1dskzpump": {
    "mint": "HQNJhJyL1QJggnBSN434QVK1RsvcUMNNfkt1dskzpump",
@@ -6653,6 +6659,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "5ba8HwNgio5t86aFdWJ81w5pNHjbqAKPKejTsVoDpump": {
+   "mint": "5ba8HwNgio5t86aFdWJ81w5pNHjbqAKPKejTsVoDpump",
+   "symbol": "MaxWif",
+   "pair": "AgXRYb1vnsKuU9GFrbyMiEjvJWZtKF38WDCBBcxgsJ4B",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-12T17:43:56+00:00",
+   "rejected_ts": 1794505436,
+   "stage": "grok",
+   "reason": "242% h1 pump after only 1h age looks like blow-off top; volume and buys strong but already fading relative to the spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001659,
+   "mcap_usd": 161800,
+   "liquidity_usd": 29815.42,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7194,7 +7218,7 @@
    }
   },
   "2026-11-12": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -7244,7 +7268,7 @@
     "market:liquidity_low": 6,
     "rugcheck:top10": 6,
     "market:too_new": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:insiders": 3,
     "rugcheck:lp_unlocked": 2,
     "market:sells_ge_buys_h1": 2,
