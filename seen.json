@@ -273,10 +273,6 @@
   "market_logged": 1794312221.044051,
   "market_reason": "too_old"
  },
- "3CfRxp3mhciTYVYaSU2okmJWscVeNQZMAh7XqkbSpump": {
-  "market_logged": 1794004913.2743092,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "46r5vJSK4vZWvU4roBXoQYoBZE8d4nmN3b6wRa6Gpump": {
   "market_logged": 1794009103.8835707,
   "market_reason": "too_new",
@@ -8744,8 +8740,8 @@
   "market_reason": "mcap_too_low"
  },
  "6DN9qkg45N7GWvS46zYvUf6ADDYLc9FWYyWim28ut49X": {
-  "market_logged": 1794606983.9724772,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794609910.7054873,
+  "market_reason": "too_new"
  },
  "2BoA4X8DzLC8m6Y2nKNakchgF6VaTAyQKwQEbDNYpump": {
   "market_logged": 1794606084.07521,
@@ -8769,7 +8765,9 @@
  },
  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
   "market_logged": 1794606983.9724772,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794609910.7054873,
+  "symbol": "WISHMAS"
  },
  "6V7c7hEoTu1FCPUeb42VBZjKUbvwBi2i5wQUBgX9pump": {
   "market_logged": 1794606684.4773676,
@@ -8836,5 +8834,9 @@
  "49VVQVn7BgEUzD8yKhSHBHa6CAQnbgaP5QVTMKrQpump": {
   "market_logged": 1794609310.7178473,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump": {
+  "market_logged": 1794609910.7054873,
+  "market_reason": "mcap_too_low"
  }
 }
