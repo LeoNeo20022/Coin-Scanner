@@ -8718,7 +8718,15 @@
   "market_reason": "missing:mcap_usd"
  },
  "2vtgUpKmwTMmiJomQPaXhoipyKvWJckDkyRNTcntwSSj": {
-  "market_logged": 1794538277.1670082,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794538577.659882,
+  "market_reason": "mcap_too_low"
+ },
+ "8TURcnoVLZrSiFdMTc2GSBpYoLspVwpZmPZ8kEREpump": {
+  "market_logged": 1794538577.659882,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "H2SQUiRy8bvAv2yARwajptdLKi9BTYDoWLvu5cbpump": {
+  "market_logged": 1794538577.659882,
+  "market_reason": "too_new"
  }
 }
