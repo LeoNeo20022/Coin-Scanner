@@ -1,36 +1,5 @@
 {
  "entries": {
-  "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": {
-   "mint": "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump",
-   "symbol": "MELT",
-   "pair": "5jEVhevhaq8bPSiPmLCULLYRJ5XcaCXhJuBswcFaPFmC",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T14:05:21+00:00",
-   "rejected_ts": 1794146721,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.000177,
-   "mcap_usd": 171497,
-   "liquidity_usd": 54799.04,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T14:08:25+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T14:08:12+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": {
    "mint": "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij",
    "symbol": "invest",
@@ -4578,9 +4547,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-13T14:05:34+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "2ExUXedCdWQJNZmkuEuEBUcUggyaMJjxFPJM4a4dpump": {
    "mint": "2ExUXedCdWQJNZmkuEuEBUcUggyaMJjxFPJM4a4dpump",
