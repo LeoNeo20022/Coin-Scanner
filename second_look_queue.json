@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": {
-   "mint": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
-   "symbol": "forg",
-   "pair": "4sHXry7sVmew899ozJaxgkprrbQLqogHZmrHYswcmRjU",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T15:40:05+00:00",
-   "rejected_ts": 1794152405,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 8.509e-05,
-   "mcap_usd": 82676,
-   "liquidity_usd": 21857.29,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T15:42:29+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-11-10T15:40:11+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    }
-   },
-   "done": true
-  },
   "3JmVNVLfvSpcoVx5VEUXfejdYrok81GqenpZSqFbpump": {
    "mint": "3JmVNVLfvSpcoVx5VEUXfejdYrok81GqenpZSqFbpump",
    "symbol": "Hobbes",
@@ -6662,6 +6631,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump": {
+   "mint": "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump",
+   "symbol": "JENSEN",
+   "pair": "7ayV2uG8EkWsLBPSsJTzTUDVStwpQ2ERvgDnkexfo4hr",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T16:05:36+00:00",
+   "rejected_ts": 1794585936,
+   "stage": "grok",
+   "reason": "615% gain in 6h on 1h-old token with 183% h1 move shows classic blow-off top. Volume and buys are strong but already fading relative to the vertical price actio",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0006578,
+   "mcap_usd": 653977,
+   "liquidity_usd": 62448.93,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7204,7 +7191,7 @@
    }
   },
   "2026-11-13": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7253,7 +7240,7 @@
     "market:too_new": 6,
     "market:mcap_too_low": 6,
     "rugcheck:insiders": 4,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "market:sells_ge_buys_h1": 3,
     "rugcheck:top10": 3,
     "rugcheck:danger": 1,
