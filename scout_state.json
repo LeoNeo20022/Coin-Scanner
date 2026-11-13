@@ -1,5 +1,17 @@
 {
  "watch": {
+  "6rWAhoBJzRzdG6q7MmcwHCRv4X2CiMDJZaB5fNWESfWA": {
+   "t": 1794580516,
+   "src": "gt:pools"
+  },
+  "13WL48Zra6SFAwae8tBzRiJSJT3RRuhtiygmKUcCFcCZ": {
+   "t": 1794580516,
+   "src": "gt:pools"
+  },
+  "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": {
+   "t": 1794580516,
+   "src": "scanner"
+  },
   "HPMha7L36iZvacktJWU32Kfft1q2sQHAXXmcL6xkpump": {
    "t": 1794580202,
    "src": "scanner"
@@ -1387,25 +1399,12 @@
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "t": 1794486239,
    "src": "gt:trending_pools"
-  },
-  "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN": {
-   "t": 1794486239,
-   "src": "gt:trending_pools"
-  },
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "t": 1794486239,
-   "src": "gt:trending_pools"
-  },
-  "HboHtoVXPncFkfoSyiVSkYsLtKwoJD2nAEYaoNZ7pump": {
-   "t": 1794483875,
-   "src": "scanner"
   }
  },
  "evals": {
   "4eiNbSrXgtbeuBSvyKLvZjZB1NTz1DsLrUrHXS3Npump": 1794580202,
   "Bd9WHu5qtbxzsCuxH5omFQb6XmSSeEVsPKn8erTCpump": 1794577534,
   "6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump": 1794578434,
-  "HboHtoVXPncFkfoSyiVSkYsLtKwoJD2nAEYaoNZ7pump": 1794492334,
   "7rtrYEBfMhMPmPqCr4BZyY3zYRSLqUa7h6WR44Z7YWWF": 1794505439,
   "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794580202,
   "6MZZGJutbeEny8KB7Lexu3qxSTe7dHe1kQL3RVwCpump": 1794497967,
@@ -1460,7 +1459,7 @@
   "GgeWgeVTyVQVCK6KA8dJYiSqxDVio8puqiuVyFfpumps": 1794526665,
   "EZyMpc1477jpZfRh8c8HrRzVFhwq7uKXxBT54cpepump": 1794542521,
   "CKgN4DaTMpEvJrgpEdmf6TmKY1v194m7i5YQSD1ejtBr": 1794532361,
-  "EsrKGvMkC2w58rHLWQ32sthXer5RHaecYhLQ2iorpump": 1794577832,
+  "EsrKGvMkC2w58rHLWQ32sthXer5RHaecYhLQ2iorpump": 1794580516,
   "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": 1794580202,
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794579032,
   "85EzCVHB16NUSPPhD2pLps8fAJ6RFcPWX2P7erPpump": 1794542521,
@@ -1503,7 +1502,11 @@
   "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": 1794579032,
   "yCZuAkfZqS15FbHXyzaRbcENFYgoqjuSW7swpUqntw5": 1794577832,
   "52jLwRnUxGrSGPu65aGMgKrWdpMDFmyR3Gyf3sivpump": 1794578734,
-  "3HNUBmfF33AkuYXB7vM9sP9UABJn3bwgZokjVeYDpump": 1794579032
+  "3HNUBmfF33AkuYXB7vM9sP9UABJn3bwgZokjVeYDpump": 1794579032,
+  "6rWAhoBJzRzdG6q7MmcwHCRv4X2CiMDJZaB5fNWESfWA": 1794580516,
+  "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794580516,
+  "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794580516,
+  "12m4AufHNA6fxGF6z5dH1quWKrGHMEmVRKiuhRLepump": 1794580516
  },
  "cool": {
   "pool|BQ1onbEAtSdwoXiMB8Png6akW4tJsKEBX9BpxfmhBDEJ": 1794585745,
@@ -1564,7 +1567,9 @@
   "pool|5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794600632,
   "pool|FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794601802,
   "pool|DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794601802,
-  "pool|4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794601802
+  "pool|4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794601802,
+  "pool|6rWAhoBJzRzdG6q7MmcwHCRv4X2CiMDJZaB5fNWESfWA": 1794602116,
+  "pool|nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794602116
  },
  "decimals": {
   "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 6,
@@ -1774,7 +1779,8 @@
   "H2SQUiRy8bvAv2yARwajptdLKi9BTYDoWLvu5cbpump": 6,
   "mBjWbrkGosa8RZopsghLZTF6KELiMUmEZh4mijqpump": 6,
   "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump": 6,
-  "3HNUBmfF33AkuYXB7vM9sP9UABJn3bwgZokjVeYDpump": 6
+  "3HNUBmfF33AkuYXB7vM9sP9UABJn3bwgZokjVeYDpump": 6,
+  "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 6
  },
  "w3_seen": {
   "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793985000.0,
@@ -1988,7 +1994,8 @@
    "EZyMpc1477jpZfRh8c8HrRzVFhwq7uKXxBT54cpepump": 1794528191,
    "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": 1794536305,
    "H2SQUiRy8bvAv2yARwajptdLKi9BTYDoWLvu5cbpump": 1794542847,
-   "mBjWbrkGosa8RZopsghLZTF6KELiMUmEZh4mijqpump": 1794550086
+   "mBjWbrkGosa8RZopsghLZTF6KELiMUmEZh4mijqpump": 1794550086,
+   "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794580579
   },
   "wait3": {
    "J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump": 1793117299,
@@ -2161,14 +2168,15 @@
    ]
   },
   "2026-11-13": {
-   "pool": 5,
+   "pool": 6,
    "wait3": 2,
    "pool_slots": [
     "0",
     "1",
     "2",
     "3",
-    "4"
+    "4",
+    "7"
    ]
   }
  }
