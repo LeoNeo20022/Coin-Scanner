@@ -1,36 +1,5 @@
 {
  "entries": {
-  "7pVL46MuwmQn3bYM3DBKSS1ddNtRur6wEyS54pGPrAiJ": {
-   "mint": "7pVL46MuwmQn3bYM3DBKSS1ddNtRur6wEyS54pGPrAiJ",
-   "symbol": "StonksPair",
-   "pair": "3JdLhHbGzeE1jEXEVo4aKNyPZoNtpUjMYfiVtBk7aLJq",
-   "dex": "raydium",
-   "rejected_at": "2026-11-08T10:24:20+00:00",
-   "rejected_ts": 1794133460,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.485e-05,
-   "mcap_usd": 54850,
-   "liquidity_usd": 18990.54,
-   "age_hours": 0.52,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T10:26:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T10:24:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HJSJ7NUXYZ8es3UZ4w35XEsw7YRJLakKetBsz1WDpump": {
    "mint": "HJSJ7NUXYZ8es3UZ4w35XEsw7YRJLakKetBsz1WDpump",
    "symbol": "UNEMPLOYED",
@@ -5728,7 +5697,14 @@
    "mcap_usd": 51314,
    "liquidity_usd": 18544.25,
    "age_hours": 3.74,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T10:35:34+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump": {
