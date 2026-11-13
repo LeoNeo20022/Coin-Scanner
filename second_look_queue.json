@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8N6Xy7SAh7gW4bZDT7kwyYUMANKCwAVEooXC96Lipump": {
-   "mint": "8N6Xy7SAh7gW4bZDT7kwyYUMANKCwAVEooXC96Lipump",
-   "symbol": "MARS",
-   "pair": "65ANsceHMfQvcYoP8m8Ksm9bXVijr5xsoted2wXRueaA",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T06:09:00+00:00",
-   "rejected_ts": 1794118140,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0003227,
-   "mcap_usd": 322123,
-   "liquidity_usd": 45922.83,
-   "age_hours": 0.33,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T06:11:04+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T06:24:49+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "CdmzERuZnYQwqwa2rxtRjsMjDU6y6qrM5ez6n2mxpump": {
    "mint": "CdmzERuZnYQwqwa2rxtRjsMjDU6y6qrM5ez6n2mxpump",
    "symbol": "GATOGLITCH",
@@ -5635,7 +5604,14 @@
    "mcap_usd": 124722,
    "liquidity_usd": 27165.83,
    "age_hours": 0.4,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T06:30:27+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "3Tkm68nyJdiB8SejbhjufSWg1Kry4yG4xhvFD6W8pump": {
@@ -5653,7 +5629,14 @@
    "mcap_usd": 53650,
    "liquidity_usd": 16653.62,
    "age_hours": 13.91,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T06:30:27+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Eh5zz6vrPK66MHzhBLrzEFHvATE7Z1SqoALzcNu4pump": {
@@ -5671,7 +5654,14 @@
    "mcap_usd": 268818,
    "liquidity_usd": 39348.71,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T06:30:27+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": {
