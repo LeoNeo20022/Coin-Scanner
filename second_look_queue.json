@@ -1,36 +1,5 @@
 {
  "entries": {
-  "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump": {
-   "mint": "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump",
-   "symbol": "GROKIA",
-   "pair": "ABra53jJhihzwC9xVA4Hwo5gRn7LvgQaHCaRxg3ZtPCW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T20:30:10+00:00",
-   "rejected_ts": 1794169810,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001253,
-   "mcap_usd": 120032,
-   "liquidity_usd": 31462.82,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T20:32:15+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T20:30:24+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
    "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
    "symbol": "PUSSY",
@@ -6774,6 +6743,24 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "MoR1whCWjcLiUqAan4GHLRcn8wK4Jktk2DyDryNmeta": {
+   "mint": "MoR1whCWjcLiUqAan4GHLRcn8wK4Jktk2DyDryNmeta",
+   "symbol": "MORI",
+   "pair": "HByWtFDYwGw45A69cg4jwZFt78kmnD9q4kvKACUSdwB8",
+   "dex": "metadao",
+   "rejected_at": "2026-11-13T20:33:26+00:00",
+   "rejected_ts": 1794602006,
+   "stage": "rugcheck",
+   "reason": "authority_open",
+   "reason_key": "rugcheck:authority_open",
+   "sources": "token-profiles",
+   "price_usd": 0.03231,
+   "mcap_usd": 833774,
+   "liquidity_usd": 113696.08,
+   "age_hours": 1.22,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7316,7 +7303,7 @@
    }
   },
   "2026-11-13": {
-   "total": 49,
+   "total": 50,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7371,7 +7358,8 @@
     "rugcheck:danger": 2,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 1,
-    "rugcheck:lp_unlocked": 2
+    "rugcheck:lp_unlocked": 2,
+    "rugcheck:authority_open": 1
    }
   }
  }
