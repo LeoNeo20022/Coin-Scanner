@@ -8740,8 +8740,8 @@
   "market_reason": "mcap_too_low"
  },
  "6DN9qkg45N7GWvS46zYvUf6ADDYLc9FWYyWim28ut49X": {
-  "market_logged": 1794609910.7054873,
-  "market_reason": "too_new"
+  "market_logged": 1794610210.0760179,
+  "market_reason": "liquidity_low"
  },
  "2BoA4X8DzLC8m6Y2nKNakchgF6VaTAyQKwQEbDNYpump": {
   "market_logged": 1794606084.07521,
@@ -8820,8 +8820,8 @@
   "symbol": "PEACEFROG"
  },
  "2Ak9SudAFSeVPR2gCwBUQMabKtz39hZMkWBiyZBxpump": {
-  "market_logged": 1794609010.406405,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794610210.0760179,
+  "market_reason": "mcap_too_low"
  },
  "EGBjhLVAwVr1axmoAGaMdzphgny6Zcj3sd5XpZfSpump": {
   "market_logged": 1794609310.7178473,
@@ -8832,11 +8832,21 @@
   "market_reason": "mcap_too_low"
  },
  "49VVQVn7BgEUzD8yKhSHBHa6CAQnbgaP5QVTMKrQpump": {
-  "market_logged": 1794609310.7178473,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1794610210.0760179,
+  "market_reason": "mcap_too_low"
  },
  "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump": {
   "market_logged": 1794609910.7054873,
-  "market_reason": "mcap_too_low"
+  "market_reason": "mcap_too_low",
+  "judged": 1794610210.0760179,
+  "symbol": "KOSMIK"
+ },
+ "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump": {
+  "market_logged": 1794610210.0760179,
+  "market_reason": "liquidity_low"
+ },
+ "CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": {
+  "market_logged": 1794610210.0760179,
+  "market_reason": "too_new"
  }
 }
