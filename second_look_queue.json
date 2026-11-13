@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FCjUiz4euLwZ99Dp83g6JVjpBiCt9adYyoHgJyeMpump": {
-   "mint": "FCjUiz4euLwZ99Dp83g6JVjpBiCt9adYyoHgJyeMpump",
-   "symbol": "MI",
-   "pair": "HXJZZNo3QZRmLBZnWZGYaptyUQJ8wKpLUXGqWjotmyXi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T08:12:57+00:00",
-   "rejected_ts": 1794125577,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.136e-05,
-   "mcap_usd": 51271,
-   "liquidity_usd": 17956.2,
-   "age_hours": 0.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T08:14:46+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T08:14:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AFv7Xu3NnxV1k2rTU3mKAm7QRATBTkp6FxVZ5CQppump": {
    "mint": "AFv7Xu3NnxV1k2rTU3mKAm7QRATBTkp6FxVZ5CQppump",
    "symbol": "Puddgy",
@@ -4547,9 +4516,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-13T08:24:07+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": {
    "mint": "BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash",
@@ -4572,9 +4547,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-13T08:24:07+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "DFNnZi7mLegSKFhipUa964Z1DdLRKmggTr1vUhtwH6Bi": {
    "mint": "DFNnZi7mLegSKFhipUa964Z1DdLRKmggTr1vUhtwH6Bi",
@@ -6564,6 +6545,24 @@
    "age_hours": 0.84,
    "checks": {},
    "done": false
+  },
+  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "symbol": "Sakura",
+   "pair": "FbR7WmU8WAAzSLsgwthiqAivzifdsW381FW3p4Vkmiru",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T08:24:05+00:00",
+   "rejected_ts": 1794558245,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 7.281e-05,
+   "mcap_usd": 72737,
+   "liquidity_usd": 20589.84,
+   "age_hours": 0.22,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7106,7 +7105,7 @@
    }
   },
   "2026-11-13": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7137,12 +7136,13 @@
     "06|market:liquidity_low": 1,
     "07": 1,
     "07|market:liquidity_low": 1,
-    "08": 1,
-    "08|market:liquidity_low": 1
+    "08": 2,
+    "08|market:liquidity_low": 1,
+    "08|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
-    "market:too_new": 5,
+    "market:too_new": 6,
     "market:mcap_too_low": 6,
     "rugcheck:insiders": 2,
     "grok:skip": 2,
