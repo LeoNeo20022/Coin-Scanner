@@ -5722,7 +5722,14 @@
    "mcap_usd": 60247,
    "liquidity_usd": 17602.42,
    "age_hours": 0.47,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T12:23:18+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": {
@@ -6570,6 +6577,24 @@
    "age_hours": 0.24,
    "checks": {},
    "done": false
+  },
+  "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump": {
+   "mint": "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
+   "symbol": "FASTMOON",
+   "pair": "91J8WtxYDWAVc6iJNFQu9igg4JBY49wPP8S2XZ3UfPXy",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T12:23:16+00:00",
+   "rejected_ts": 1794572596,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0003651,
+   "mcap_usd": 362150,
+   "liquidity_usd": 45205.07,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7112,7 +7137,7 @@
    }
   },
   "2026-11-13": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7158,7 +7183,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:insiders": 2,
+    "rugcheck:insiders": 3,
     "grok:skip": 2,
     "market:sells_ge_buys_h1": 2,
     "rugcheck:top10": 1,
