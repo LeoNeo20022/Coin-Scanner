@@ -1,17 +1,3 @@
-[2026-11-11T03:10:55+00:00] discovered=64 fresh=52 market_pass=0
-[2026-11-11T03:10:55+00:00] grok daily budget 4/40 used, 0 no-response, $0.0112 (2026-11-11 UTC)
-[2026-11-11T03:10:55+00:00] run end {"discovered": 64, "skipped_recent": 12, "no_pair": 1, "market": {"pumpfun_bonding_curve": 16, "too_new": 1, "liquidity_low": 3, "mcap_too_low": 17, "too_old": 9, "mcap_too_high": 3, "volume_h1_low": 1, "missing:mcap_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 3} elapsed=10s
-[2026-11-11T03:10:57+00:00] second_look: 48h HUNG mHAZC1sw… (rejected market:pumpfun_bonding_curve) -> fail: no_solana_pair [dead: no_pair]
-[2026-11-11T03:10:59+00:00] second_look: 48h SOLV 5wQn3vMR… (rejected market:volume_h1_low) -> fail: danger:Top 10 holders high ownership
-[2026-11-11T03:10:59+00:00] second_look: 48h JENSEN GgN3jfbg… (rejected market:too_new) -> fail: mcap_too_low
-[2026-11-11T03:10:59+00:00] second_look: 24h RWO GRwaEh6e… (rejected market:pumpfun_bonding_curve) -> fail: mcap_too_low
-[2026-11-11T03:10:59+00:00] second_look: 24h GTA4 BCG1ksWv… (rejected market:mcap_too_low) -> fail: mcap_too_low
-[2026-11-11T03:10:59+00:00] second_look: 24h AMD HjiBij1B… (rejected market:liquidity_low) -> fail: mcap_too_low
-[2026-11-11T03:11:04+00:00] second_look: pass end {"queued": 239, "due": 6, "rechecked": 6, "pass": 0, "opened": 0} elapsed=8s
-[2026-11-11T03:11:04+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-11T03:12:15+00:00] scout: paper: candles unavailable tx41eAXz (RuntimeError)
-[2026-11-11T03:12:15+00:00] scout: paper: candles unavailable TiMSdJrk (RuntimeError)
-[2026-11-11T03:12:23+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-11T03:12:23+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-11T03:12:55+00:00] scout: pass end {"watch": 338, "a_qualify": 32, "a_open": 0, "b_eval": 3, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=111s
 [2026-11-11T03:15:45+00:00] run start (LOG ONLY)
@@ -4998,3 +4984,17 @@
 [2026-11-13T05:10:23+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-13T05:10:59+00:00] scout: wait3 candles error E8qaeXz7 RuntimeError
 [2026-11-13T05:11:53+00:00] scout: pass end {"watch": 340, "a_qualify": 45, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=107s
+[2026-11-13T05:32:26+00:00] run start (LOG ONLY)
+[2026-11-13T05:32:37+00:00] discovered=66 fresh=55 market_pass=1
+[2026-11-13T05:32:37+00:00] grok daily budget 4/40 used, 0 no-response, $0.0108 (2026-11-13 UTC)
+[2026-11-13T05:32:39+00:00] run end {"discovered": 66, "skipped_recent": 11, "no_pair": 0, "market": {"mcap_too_low": 21, "pumpfun_bonding_curve": 21, "sells_ge_buys_h1": 1, "liquidity_low": 3, "too_old": 6, "mcap_too_high": 2}, "rug": {"insiders": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
+[2026-11-13T05:32:41+00:00] second_look: 24h MHI6900 Hb4PWJAG… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve
+[2026-11-13T05:32:41+00:00] second_look: 24h DihcityCoin 2PaS5mgz… (rejected market:mcap_too_low) -> fail: mcap_too_low
+[2026-11-13T05:32:41+00:00] second_look: 24h GABOON Dkp7yCs1… (rejected market:sells_ge_buys_h1) -> fail: mcap_too_low [dead: price_-90%]
+[2026-11-13T05:32:41+00:00] second_look: 24h updog 77HqxiDC… (rejected rugcheck:danger) -> fail: sells_ge_buys_h1
+[2026-11-13T05:32:41+00:00] second_look: pass end {"queued": 239, "due": 4, "rechecked": 4, "pass": 0, "opened": 0} elapsed=2s
+[2026-11-13T05:32:41+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-13T05:32:58+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-13T05:32:58+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-11-13T05:32:58+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-13T05:34:08+00:00] scout: pass end {"watch": 340, "a_qualify": 46, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=88s
