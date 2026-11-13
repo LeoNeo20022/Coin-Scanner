@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
-   "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
-   "symbol": "PUSSY",
-   "pair": "4HHcEXZvCYQjSpLrGei5GpRwaZPUmNqFs6eh1BXssfsj",
-   "dex": "raydium",
-   "rejected_at": "2026-11-08T21:54:59+00:00",
-   "rejected_ts": 1794174899,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.001854,
-   "mcap_usd": 1854210,
-   "liquidity_usd": 271967.13,
-   "age_hours": 1.48,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T21:55:42+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "lp_unlocked"
-    },
-    "48h": {
-     "time": "2026-11-10T21:57:48+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    }
-   },
-   "done": true
-  },
   "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
    "mint": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
    "symbol": "CHILL",
@@ -5859,7 +5828,14 @@
    "mcap_usd": 929544,
    "liquidity_usd": 93824.48,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T21:56:28+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "GkhLc8oKxfGS22fzfq7aUP8RE9jzFjhcgBUDQV6epump": {
