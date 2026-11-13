@@ -33,10 +33,6 @@
   "market_logged": 1794507091.8630416,
   "market_reason": "mcap_too_high"
  },
- "8gMWXHfSwBRSLc2wKtLv24JYboCAsKaEqfC5cXLeZJXL": {
-  "market_logged": 1793936630.4796987,
-  "market_reason": "mcap_too_low"
- },
  "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": {
   "market_logged": 1794521647.5569541,
   "market_reason": "too_old",
@@ -212,12 +208,6 @@
  "GH37DfLYgT9wPNzzE1TSvBKH4cCRndJwT1M2pRrPpump": {
   "market_logged": 1794515063.5497081,
   "market_reason": "too_old"
- },
- "CMK5SEFQw3DDs6iGTBBAHeyQyMnBgtZvFnUp6tYwabi": {
-  "market_logged": 1793931183.8649,
-  "market_reason": "mcap_too_low",
-  "judged": 1793936630.4796987,
-  "symbol": "WABI"
  },
  "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": {
   "market_logged": 1793932983.6024752,
@@ -8695,7 +8685,11 @@
   "market_reason": "too_new"
  },
  "9azVa2sxrvM1meRA2ixEyyYNcYMoYQYgjtjmFczUpump": {
-  "market_logged": 1794541314.7219093,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794541614.6442394,
+  "market_reason": "liquidity_low"
+ },
+ "3ZHz4gzF2AEzoyRkMe1nCbsCms5H5wg3jcphCP4opump": {
+  "market_logged": 1794541614.6442394,
+  "market_reason": "too_new"
  }
 }
