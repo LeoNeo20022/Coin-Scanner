@@ -6452,6 +6452,24 @@
    "age_hours": 0.72,
    "checks": {},
    "done": false
+  },
+  "32Zz5kvbdbg4jNvnhJ5kJCqiDLnr8XVWH7Ye93uipump": {
+   "mint": "32Zz5kvbdbg4jNvnhJ5kJCqiDLnr8XVWH7Ye93uipump",
+   "symbol": "ZEPHYRON",
+   "pair": "8SvRSPBYozLEosckAmUDU3zKhw27D31UjMtVALJ7hCfa",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T04:45:07+00:00",
+   "rejected_ts": 1794545107,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001684,
+   "mcap_usd": 159622,
+   "liquidity_usd": 29874.86,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6994,7 +7012,7 @@
    }
   },
   "2026-11-13": {
-   "total": 20,
+   "total": 21,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7024,7 +7042,8 @@
     "rugcheck:insiders": 2,
     "grok:skip": 2,
     "market:sells_ge_buys_h1": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "rugcheck:danger": 1
    }
   }
  }
