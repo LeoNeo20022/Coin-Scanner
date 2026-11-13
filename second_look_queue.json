@@ -6649,6 +6649,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "2jj2M89bjusTbdu7CAPW4tWFgmF95dXDACzaPkcNpump": {
+   "mint": "2jj2M89bjusTbdu7CAPW4tWFgmF95dXDACzaPkcNpump",
+   "symbol": "DICKBUTT",
+   "pair": "H2gYgajGZERmaWPUrHWvA3F4kKhsS9kmX92syedqiYtq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T16:15:23+00:00",
+   "rejected_ts": 1794586523,
+   "stage": "rugcheck",
+   "reason": "danger:Top 10 holders high ownership",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0002384,
+   "mcap_usd": 238048,
+   "liquidity_usd": 35681.4,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7191,7 +7209,7 @@
    }
   },
   "2026-11-13": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7243,7 +7261,7 @@
     "grok:skip": 5,
     "market:sells_ge_buys_h1": 3,
     "rugcheck:top10": 3,
-    "rugcheck:danger": 1,
+    "rugcheck:danger": 2,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 1,
     "rugcheck:lp_unlocked": 1
