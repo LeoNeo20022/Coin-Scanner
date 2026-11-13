@@ -5728,7 +5728,14 @@
    "mcap_usd": 76200,
    "liquidity_usd": 23948.56,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T15:15:25+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": {
@@ -6558,6 +6565,42 @@
    "age_hours": 1.46,
    "checks": {},
    "done": false
+  },
+  "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
+   "mint": "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+   "symbol": "Speed",
+   "pair": "3nPSVTfVxNBeCQHbPJZtjEsK7WNG3a7FCVP3Jcv43doP",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T15:15:22+00:00",
+   "rejected_ts": 1794582922,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0003169,
+   "mcap_usd": 312194,
+   "liquidity_usd": 46219.1,
+   "age_hours": 1.16,
+   "checks": {},
+   "done": false
+  },
+  "12m4AufHNA6fxGF6z5dH1quWKrGHMEmVRKiuhRLepump": {
+   "mint": "12m4AufHNA6fxGF6z5dH1quWKrGHMEmVRKiuhRLepump",
+   "symbol": "PARANOID",
+   "pair": "7P3RWLDcj3FYR2gPGQBVujPzrWrg271BQiAYTyeoGqJ4",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T15:15:24+00:00",
+   "rejected_ts": 1794582924,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001089,
+   "mcap_usd": 105261,
+   "liquidity_usd": 27041.69,
+   "age_hours": 1.16,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7100,7 +7143,7 @@
    }
   },
   "2026-11-13": {
-   "total": 36,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7149,10 +7192,11 @@
     "rugcheck:insiders": 3,
     "grok:skip": 3,
     "market:sells_ge_buys_h1": 2,
-    "rugcheck:top10": 2,
+    "rugcheck:top10": 3,
     "rugcheck:danger": 1,
     "market:liquidity_low": 6,
-    "market:volume_h1_low": 1
+    "market:volume_h1_low": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
