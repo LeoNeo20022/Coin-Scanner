@@ -6576,6 +6576,24 @@
    "age_hours": 0.22,
    "checks": {},
    "done": false
+  },
+  "BKn5Lbn8thpk4LKwBWFYfCQtDepGF1evjrro73oupump": {
+   "mint": "BKn5Lbn8thpk4LKwBWFYfCQtDepGF1evjrro73oupump",
+   "symbol": "Sakura",
+   "pair": "GXpARA4fiX9F1teFAonS6WoYPZT1N2jUFCpTiwDA9VNF",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T09:11:45+00:00",
+   "rejected_ts": 1794561105,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.274e-05,
+   "mcap_usd": 52749,
+   "liquidity_usd": 16206.21,
+   "age_hours": 0.17,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7118,7 +7136,7 @@
    }
   },
   "2026-11-13": {
-   "total": 29,
+   "total": 30,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7151,7 +7169,9 @@
     "07|market:liquidity_low": 1,
     "08": 2,
     "08|market:liquidity_low": 1,
-    "08|market:too_new": 1
+    "08|market:too_new": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7162,7 +7182,7 @@
     "market:sells_ge_buys_h1": 2,
     "rugcheck:top10": 1,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 3
+    "market:liquidity_low": 4
    }
   }
  }
