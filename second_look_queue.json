@@ -1,36 +1,5 @@
 {
  "entries": {
-  "CdmzERuZnYQwqwa2rxtRjsMjDU6y6qrM5ez6n2mxpump": {
-   "mint": "CdmzERuZnYQwqwa2rxtRjsMjDU6y6qrM5ez6n2mxpump",
-   "symbol": "GATOGLITCH",
-   "pair": "2UeABe4txR5Mchey6CkZvNcYCzH4mBVyQGTwWUbTkk1o",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T07:25:23+00:00",
-   "rejected_ts": 1794122723,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0003996,
-   "mcap_usd": 390540,
-   "liquidity_usd": 102821.48,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T07:29:01+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T07:39:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FCjUiz4euLwZ99Dp83g6JVjpBiCt9adYyoHgJyeMpump": {
    "mint": "FCjUiz4euLwZ99Dp83g6JVjpBiCt9adYyoHgJyeMpump",
    "symbol": "MI",
@@ -5716,7 +5685,14 @@
    "mcap_usd": 344287,
    "liquidity_usd": 45243.63,
    "age_hours": 1.75,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T07:49:07+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "7E9tPBRvCVJ4kn6DXvxMXuAMk4L9j1ZNcBSCAWuGpump": {
