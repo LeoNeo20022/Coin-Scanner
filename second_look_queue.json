@@ -6670,6 +6670,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "HBFXQ147s9VN62DmUvfWAkRApTPzaR8saHcCVCgrpump": {
+   "mint": "HBFXQ147s9VN62DmUvfWAkRApTPzaR8saHcCVCgrpump",
+   "symbol": "SIRIUS",
+   "pair": "3pPt2n33W9Q7D4rMX5ujEAGFYhBycrwsxdwekPoeiL3b",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T18:39:06+00:00",
+   "rejected_ts": 1794595146,
+   "stage": "grok",
+   "reason": "207% h6 pump already reversing hard (-20% m5) despite buy volume; classic blow-off pattern on 1h-old token.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001219,
+   "mcap_usd": 120550,
+   "liquidity_usd": 25333.27,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7212,7 +7230,7 @@
    }
   },
   "2026-11-13": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7261,7 +7279,7 @@
     "market:too_new": 6,
     "market:mcap_too_low": 6,
     "rugcheck:insiders": 5,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:sells_ge_buys_h1": 3,
     "rugcheck:top10": 3,
     "rugcheck:danger": 2,
