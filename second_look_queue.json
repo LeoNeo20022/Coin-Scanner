@@ -1,36 +1,5 @@
 {
  "entries": {
-  "VjKCt9XXKQ5zjR2xf8hNyXc6VRJHMqrGaK7p7NtPLUS": {
-   "mint": "VjKCt9XXKQ5zjR2xf8hNyXc6VRJHMqrGaK7p7NtPLUS",
-   "symbol": "SURPLUS",
-   "pair": "AZjrDh8XLf5CnVkUiJipEsvbxxudnVBpHgcz3ddhRTy9",
-   "dex": "raydium",
-   "rejected_at": "2026-11-08T16:35:00+00:00",
-   "rejected_ts": 1794155700,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 6.041e-05,
-   "mcap_usd": 60420,
-   "liquidity_usd": 21769.83,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T16:44:48+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T16:36:26+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "ErvM3kEjJeCJZ24RSs4H75nSHGxkNxZaDyDKb2odpump": {
    "mint": "ErvM3kEjJeCJZ24RSs4H75nSHGxkNxZaDyDKb2odpump",
    "symbol": "manlet",
@@ -4578,9 +4547,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-13T16:35:25+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "774k3J7PCQXwn7HVeiXGqwU2rAmD76fxv1LwpLfJpump": {
    "mint": "774k3J7PCQXwn7HVeiXGqwU2rAmD76fxv1LwpLfJpump",
