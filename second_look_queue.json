@@ -4516,9 +4516,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-13T08:04:07+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump": {
    "mint": "zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump",
@@ -6540,6 +6546,24 @@
    "age_hours": 7.71,
    "checks": {},
    "done": false
+  },
+  "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump": {
+   "mint": "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump",
+   "symbol": "WRENCHP",
+   "pair": "DGehLceDwaa1Q7WRzSr5df9bUDpgt2CsPRXq144sdTtc",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T08:04:05+00:00",
+   "rejected_ts": 1794557045,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.695e-05,
+   "mcap_usd": 54879,
+   "liquidity_usd": 16678.16,
+   "age_hours": 0.84,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7082,7 +7106,7 @@
    }
   },
   "2026-11-13": {
-   "total": 27,
+   "total": 28,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7112,7 +7136,9 @@
     "06|market:sells_ge_buys_h1": 1,
     "06|market:liquidity_low": 1,
     "07": 1,
-    "07|market:liquidity_low": 1
+    "07|market:liquidity_low": 1,
+    "08": 1,
+    "08|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7123,7 +7149,7 @@
     "market:sells_ge_buys_h1": 2,
     "rugcheck:top10": 1,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 2
+    "market:liquidity_low": 3
    }
   }
  }
