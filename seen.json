@@ -221,10 +221,6 @@
   "judged": 1793981154.0331805,
   "symbol": "ZCATS"
  },
- "9ZtuW8JzjCPNirmhKne2EnWknTj7wjv7k4cRaFEhpump": {
-  "market_logged": 1793980032.8316932,
-  "market_reason": "mcap_too_low"
- },
  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
   "market_logged": 1794329853.3013403,
   "market_reason": "too_old"
@@ -1568,8 +1564,8 @@
   "market_reason": "mcap_too_low"
  },
  "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
-  "market_logged": 1794177166.7482984,
-  "market_reason": "volume_h1_low",
+  "market_logged": 1794585017.62565,
+  "market_reason": "too_old",
   "judged": 1794075152.8107119,
   "symbol": "CHILL"
  },
@@ -8713,7 +8709,9 @@
  },
  "31gZHFr8SYpTUdTieUuiWD4cEcNRd9NaGyRguP76pump": {
   "market_logged": 1794583817.1015632,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "Speed",
+  "judged": 1794585017.62565
  },
  "2KbYJiBRLqWakPj5uvwnGsySA7VKxW4pSEidSkSHpump": {
   "market_logged": 1794582298.96945,
