@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HJSJ7NUXYZ8es3UZ4w35XEsw7YRJLakKetBsz1WDpump": {
-   "mint": "HJSJ7NUXYZ8es3UZ4w35XEsw7YRJLakKetBsz1WDpump",
-   "symbol": "UNEMPLOYED",
-   "pair": "BGZDNcAPjhf9sQZXSQgcdii5JKa3BkeeCENfF4oveAuR",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T11:45:34+00:00",
-   "rejected_ts": 1794138334,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.273e-05,
-   "mcap_usd": 52732,
-   "liquidity_usd": 17167.49,
-   "age_hours": 0.13,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T11:54:27+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T11:53:47+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "2tHh71KSPRWSAW3uQ9qQE8CG4EBqfKaM8SaYEATvpump": {
    "mint": "2tHh71KSPRWSAW3uQ9qQE8CG4EBqfKaM8SaYEATvpump",
    "symbol": "BTC",
@@ -6583,6 +6552,24 @@
    "age_hours": 873.57,
    "checks": {},
    "done": false
+  },
+  "AtFG76LDeX52EGzDLqFpBGkVcXfbaktr8mUtUgNfpump": {
+   "mint": "AtFG76LDeX52EGzDLqFpBGkVcXfbaktr8mUtUgNfpump",
+   "symbol": "VICE",
+   "pair": "H3E4wnEQJU6zQBuzNciFaowxmtgfRd3eCW7c83kLBbtK",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T11:54:17+00:00",
+   "rejected_ts": 1794570857,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 6.64e-05,
+   "mcap_usd": 66340,
+   "liquidity_usd": 18876.05,
+   "age_hours": 0.24,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7125,7 +7112,7 @@
    }
   },
   "2026-11-13": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7163,7 +7150,9 @@
     "09|market:liquidity_low": 1,
     "09|market:volume_h1_low": 1,
     "10": 1,
-    "10|market:liquidity_low": 1
+    "10|market:liquidity_low": 1,
+    "11": 1,
+    "11|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7174,7 +7163,7 @@
     "market:sells_ge_buys_h1": 2,
     "rugcheck:top10": 1,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 5,
+    "market:liquidity_low": 6,
     "market:volume_h1_low": 1
    }
   }
