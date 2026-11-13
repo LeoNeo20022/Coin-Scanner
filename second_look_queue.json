@@ -6688,6 +6688,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump": {
+   "mint": "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump",
+   "symbol": "Nigghao",
+   "pair": "BwG8m2KZugbJHKBcjrsxiQzFrDHhLChSth2SS3Xy9C7j",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T18:58:57+00:00",
+   "rejected_ts": 1794596337,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0001151,
+   "mcap_usd": 113560,
+   "liquidity_usd": 24492.18,
+   "age_hours": 1.06,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7230,7 +7248,7 @@
    }
   },
   "2026-11-13": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7278,7 +7296,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "rugcheck:insiders": 5,
+    "rugcheck:insiders": 6,
     "grok:skip": 6,
     "market:sells_ge_buys_h1": 3,
     "rugcheck:top10": 3,

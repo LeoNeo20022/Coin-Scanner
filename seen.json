@@ -8698,11 +8698,13 @@
  },
  "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump": {
   "market_logged": 1794592871.5640855,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794596332.1506674,
+  "symbol": "Nigghao"
  },
  "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": {
-  "market_logged": 1794592871.5640855,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794596332.1506674,
+  "market_reason": "liquidity_low"
  },
  "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
   "market_logged": 1794594234.8010347,
@@ -8757,5 +8759,9 @@
  "E2PuufuAHtCJd9RSrL7kn4mo9cUGceqBgcg7TRidpump": {
   "market_logged": 1794596032.6563191,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "FZn8EVhWY4vMdHRA1hkc5TvVtdWv32KjiebFTdmLoE6B": {
+  "market_logged": 1794596332.1506674,
+  "market_reason": "mcap_too_low"
  }
 }
