@@ -247,10 +247,6 @@
   "market_logged": 1793988212.543645,
   "market_reason": "mcap_too_low"
  },
- "4izrpFiuxGXv9vSGxX8RoWQUgXCFMwK5KmbaEhLspump": {
-  "market_logged": 1793987912.479821,
-  "market_reason": "mcap_too_low"
- },
  "5aDjvdypu3N88vfC6ZN85CwjeR49N2Bcp7gL7C5Epump": {
   "market_logged": 1793988764.0808103,
   "market_reason": "mcap_too_low"
@@ -262,10 +258,6 @@
  "J3icQvBVUiVTnmRuDVnyT9jad2hJB6R6gjkCoqkUpump": {
   "market_logged": 1793988764.0808103,
   "market_reason": "mcap_too_low"
- },
- "ANoKnrzuemscJtL8SPf3qHuQ52rnXPbab8nbw4cUpump": {
-  "market_logged": 1793987912.479821,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "Hzd8aipeiiB7txuG9yYnAw4SbDpn9dJbFX514WSrpump": {
   "market_logged": 1793988212.543645,
@@ -7688,8 +7680,8 @@
   "judged": 1794522247.810501
  },
  "4DYpQAiKQA872y9xuSGFLSguho8XZn9mQBmVcRQZpump": {
-  "market_logged": 1794592271.4624195,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794592871.5640855,
+  "market_reason": "too_old"
  },
  "2uBwYfuaU2juRuLG8dty56hzPpqcgejtQDwXqFBKQETg": {
   "market_logged": 1794519817.6264567,
@@ -8696,7 +8688,9 @@
  },
  "91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump": {
   "market_logged": 1794589722.7164774,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "DACAT",
+  "judged": 1794592871.5640855
  },
  "388Hmo7V4MZU15txe3vaanDp1UFG8KRpdn6SxtQVpump": {
   "market_logged": 1794589722.7164774,
@@ -8752,5 +8746,21 @@
  "KfBK6h368ZpV6GS9FSyE4s17kUBXmFBSPz2BU8apump": {
   "market_logged": 1794592571.075604,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump": {
+  "market_logged": 1794592871.5640855,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "FgGY3F2H38NzqcFHfHdrWXabMPN8yHaWEQ67dGoWpump": {
+  "market_logged": 1794592871.5640855,
+  "market_reason": "too_new"
+ },
+ "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump": {
+  "market_logged": 1794592871.5640855,
+  "market_reason": "too_new"
+ },
+ "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": {
+  "market_logged": 1794592871.5640855,
+  "market_reason": "mcap_too_low"
  }
 }
