@@ -273,14 +273,6 @@
   "judged": 1794009704.6150756,
   "symbol": "HATCH"
  },
- "226tNXTuT6i88qgWL1XpMaRV8tchwbaVkXSHL7Z4pump": {
-  "market_logged": 1794005813.0934968,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "EU6bvkgzxk6L4z6W1X6dDsNiVy5mbwUojhePD964pump": {
-  "market_logged": 1794005813.0934968,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC": {
   "market_logged": 1794422530.9431612,
   "market_reason": "mcap_too_low"
@@ -8836,11 +8828,15 @@
   "symbol": "KOSMIK"
  },
  "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump": {
-  "market_logged": 1794610510.5158472,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794610810.246751,
+  "market_reason": "liquidity_low"
  },
  "CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": {
   "market_logged": 1794610210.0760179,
+  "market_reason": "too_new"
+ },
+ "EHVpQJ76sEKqm7VvtZzW5UGg362q9B8HcpQBNps7pump": {
+  "market_logged": 1794610810.246751,
   "market_reason": "too_new"
  }
 }
