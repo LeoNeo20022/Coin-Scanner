@@ -6540,6 +6540,24 @@
    "age_hours": 12.75,
    "checks": {},
    "done": false
+  },
+  "EsrKGvMkC2w58rHLWQ32sthXer5RHaecYhLQ2iorpump": {
+   "mint": "EsrKGvMkC2w58rHLWQ32sthXer5RHaecYhLQ2iorpump",
+   "symbol": "LADIESMAN",
+   "pair": "GojvgQ9oZimSCuDV9Ygd18sKGvQXXYkVgVGD2MNRCoPS",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T07:00:27+00:00",
+   "rejected_ts": 1794553227,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-boosts",
+   "price_usd": 5.942e-05,
+   "mcap_usd": 57417,
+   "liquidity_usd": 16936.97,
+   "age_hours": 7.71,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7082,7 +7100,7 @@
    }
   },
   "2026-11-13": {
-   "total": 26,
+   "total": 27,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7110,7 +7128,9 @@
     "05|market:mcap_too_low": 1,
     "06": 2,
     "06|market:sells_ge_buys_h1": 1,
-    "06|market:liquidity_low": 1
+    "06|market:liquidity_low": 1,
+    "07": 1,
+    "07|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7121,7 +7141,7 @@
     "market:sells_ge_buys_h1": 2,
     "rugcheck:top10": 1,
     "rugcheck:danger": 1,
-    "market:liquidity_low": 1
+    "market:liquidity_low": 2
    }
   }
  }
