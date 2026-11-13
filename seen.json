@@ -237,10 +237,6 @@
   "judged": 1793986412.308167,
   "symbol": "FI"
  },
- "DhQ9394i8LJfGZn45UnzgUMvU9wEp5pkMkr1oV41pump": {
-  "market_logged": 1793982356.9746335,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "DiHxAwXMMm9F8QG4qxkGd57a4dVQYvs1iUyTn9VKpump": {
   "market_logged": 1793982657.9064372,
   "market_reason": "pumpfun_bonding_curve"
@@ -8719,7 +8715,9 @@
  },
  "9RZH5NbSW27KewwfAcbhQXixMRUaMc7zNppCRnfUpump": {
   "market_logged": 1794584417.608515,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "JENSLA",
+  "judged": 1794587418.57425
  },
  "FcMLcMMNpXVYVensguqpGSuc1yiJ2QJ3RbusYnU4hhJW": {
   "market_logged": 1794584417.608515,
@@ -8759,5 +8757,9 @@
  "4Y8hiUura5Vmq6xTE8BbUB5UEnjvvNfaBTcj295Ypump": {
   "market_logged": 1794587118.7536073,
   "market_reason": "liquidity_low"
+ },
+ "HuK6pCnAfahAPbHjS8fSPddCsmjLSV7mYahwpmZgpump": {
+  "market_logged": 1794587418.57425,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
