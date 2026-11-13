@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2tHh71KSPRWSAW3uQ9qQE8CG4EBqfKaM8SaYEATvpump": {
-   "mint": "2tHh71KSPRWSAW3uQ9qQE8CG4EBqfKaM8SaYEATvpump",
-   "symbol": "BTC",
-   "pair": "96ytgXufT68xJGrK4KpTnjrSEuPhZmStPXyN35DSh3p",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T12:40:16+00:00",
-   "rejected_ts": 1794141616,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.01e-05,
-   "mcap_usd": 50103,
-   "liquidity_usd": 16791.02,
-   "age_hours": 0.46,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T12:46:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T12:41:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": {
    "mint": "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump",
    "symbol": "MELT",
@@ -5772,7 +5741,14 @@
    "mcap_usd": 105496,
    "liquidity_usd": 24605.26,
    "age_hours": 16.63,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T13:40:34+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump": {
