@@ -5840,7 +5840,14 @@
    "mcap_usd": 162165,
    "liquidity_usd": 32998.28,
    "age_hours": 1.19,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T19:22:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump": {
@@ -6706,6 +6713,42 @@
    "age_hours": 1.06,
    "checks": {},
    "done": false
+  },
+  "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
+   "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+   "symbol": "BAWSAQ",
+   "pair": "JBiZCH1K3VCdQrN2NwCfDgJCdYg8Vi7FpCH46zDH1TBS",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T19:22:34+00:00",
+   "rejected_ts": 1794597754,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0001743,
+   "mcap_usd": 167983,
+   "liquidity_usd": 37744.03,
+   "age_hours": 1.33,
+   "checks": {},
+   "done": false
+  },
+  "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": {
+   "mint": "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump",
+   "symbol": "Sakura",
+   "pair": "6v9fAKdJaMVnJQRZezvzngMQSE2adbiQJfD5jAFLRRAz",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-13T19:22:36+00:00",
+   "rejected_ts": 1794597756,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 8.325e-05,
+   "mcap_usd": 79149,
+   "liquidity_usd": 20937.86,
+   "age_hours": 9.76,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7248,7 +7291,7 @@
    }
   },
   "2026-11-13": {
-   "total": 46,
+   "total": 48,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7299,11 +7342,11 @@
     "rugcheck:insiders": 6,
     "grok:skip": 6,
     "market:sells_ge_buys_h1": 3,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "rugcheck:danger": 2,
     "market:liquidity_low": 6,
     "market:volume_h1_low": 1,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 2
    }
   }
  }
