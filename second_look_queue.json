@@ -1,67 +1,5 @@
 {
  "entries": {
-  "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": {
-   "mint": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
-   "symbol": "HEREWEGO",
-   "pair": "67BwjNjSjbdPP3KPi6GDeevK25QGrprwFTTmQE4wSziR",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T03:05:18+00:00",
-   "rejected_ts": 1794107118,
-   "stage": "grok",
-   "reason": "Huge 23x in 6h with m5 already -3.8% and high holder correlation warn; momentum fading after spike.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.001108,
-   "mcap_usd": 1103809,
-   "liquidity_usd": 85347.69,
-   "age_hours": 1.36,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T03:10:12+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "insiders"
-    },
-    "48h": {
-     "time": "2026-11-10T03:09:43+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "6su7bnRHedae92kCE98uyuN7nqYHdCkMK6G9Z3uhpump": {
-   "mint": "6su7bnRHedae92kCE98uyuN7nqYHdCkMK6G9Z3uhpump",
-   "symbol": "FLOATCAT",
-   "pair": "GATADHMNcKko2VKCkSsz5W4jPdmRK81JRKXcwdLeyUzG",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-08T03:05:33+00:00",
-   "rejected_ts": 1794107133,
-   "stage": "grok",
-   "reason": "634% h6 gain + 74% h1 pump on 1h-old token shows classic blow-off momentum. Volume almost entirely in last hour with buys already slowing relative to peak.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0002971,
-   "mcap_usd": 294259,
-   "liquidity_usd": 42445.73,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-09T03:10:14+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-10T03:09:43+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "BD9zzaJEppfvXc3gbHyvHP9kztd1xZeQrnBQSrNepump": {
    "mint": "BD9zzaJEppfvXc3gbHyvHP9kztd1xZeQrnBQSrNepump",
    "symbol": "NEWSCUM",
@@ -5481,7 +5419,14 @@
    "mcap_usd": 22060,
    "liquidity_usd": 11788.8,
    "age_hours": 1.41,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T03:06:22+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9AsedYw9mCCCa7mFpQ97QDAcJ1sGtYxx9G9REcYupump": {
@@ -5499,7 +5444,14 @@
    "mcap_usd": null,
    "liquidity_usd": null,
    "age_hours": 10.34,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T03:06:22+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "pumpfun_bonding_curve"
+    }
+   },
    "done": false
   },
   "8uLNcrFKzBJYKg8ZU1E8drWnA5o2vV82m6BsgYw9pump": {
@@ -5517,7 +5469,14 @@
    "mcap_usd": 221357,
    "liquidity_usd": 35928.62,
    "age_hours": 0.9,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T03:06:22+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "AitksCRn29wLXgf6AGJbcszX9maZtVg62D1bV4expump": {
@@ -5535,7 +5494,14 @@
    "mcap_usd": 211447,
    "liquidity_usd": 34845.23,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-13T03:06:22+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "6mb1WzFveWXa9AeBwQ2mbyoxJhw8KCgmyQaDZziZBAGS": {
