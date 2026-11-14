@@ -267,10 +267,6 @@
   "symbol": "BTC",
   "judged": 1794020174.8244426
  },
- "D1d1ESMVZbf1tDrU9WRZ8h5nH5kXj9zpvsD9Qcpupump": {
-  "market_logged": 1794018039.837804,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "EyWezCsLhzE3GmjUB1pjWHKiGUVrMfko2sU2xMBpump": {
   "market_logged": 1794018639.642242,
   "market_reason": "pumpfun_bonding_curve"
@@ -8765,16 +8761,16 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump": {
-  "market_logged": 1794622618.968729,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794622919.7260857,
+  "market_reason": "mcap_too_low"
  },
  "9T9JyZtJQjYNfSYvhMB4uXkPJLUv6MTfVRBNRq5Spump": {
   "market_logged": 1794621527.698464,
   "market_reason": "mcap_too_low"
  },
  "EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": {
-  "market_logged": 1794622618.968729,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1794622919.7260857,
+  "market_reason": "liquidity_low"
  },
  "5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump": {
   "symbol": "Chunkee",
@@ -8783,5 +8779,9 @@
  "6H6MMLF5TwaJRGFuXKZUMZoeq3sQjSaV4qitoM6rpump": {
   "market_logged": 1794622618.968729,
   "market_reason": "mcap_too_low"
+ },
+ "5coEpE53g1rt3XzDA2DCkCHmE8RaHodrrs1bUAPZpump": {
+  "market_logged": 1794622919.7260857,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
