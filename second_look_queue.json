@@ -6607,6 +6607,24 @@
    "age_hours": 5.11,
    "checks": {},
    "done": false
+  },
+  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "symbol": "chudhaos",
+   "pair": "5UsJJXRJZyvZSa5mYS6MfeXmrFQmU5CzF9aeCmQs1m4y",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T03:23:36+00:00",
+   "rejected_ts": 1794626616,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-boosts",
+   "price_usd": 0.000379,
+   "mcap_usd": 366587,
+   "liquidity_usd": 44260,
+   "age_hours": 28.39,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7150,7 +7168,7 @@
    }
   },
   "2026-11-14": {
-   "total": 15,
+   "total": 16,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7175,7 +7193,8 @@
     "market:too_new": 3,
     "market:pumpfun_bonding_curve": 3,
     "grok:skip": 2,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "rugcheck:danger": 1
    }
   }
  }
