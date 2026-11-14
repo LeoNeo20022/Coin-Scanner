@@ -1,36 +1,5 @@
 {
  "entries": {
-  "JD1i2iDxqeMQZUUmwzrK5bi8PnjsmjNTKbh97oxFpump": {
-   "mint": "JD1i2iDxqeMQZUUmwzrK5bi8PnjsmjNTKbh97oxFpump",
-   "symbol": "LIMEKUMA",
-   "pair": "JAhYCk84fnMzZdyB3pZSVt5eAAioSpgNw98JVBVTpb4g",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T05:10:14+00:00",
-   "rejected_ts": 1794201014,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 7.257e-05,
-   "mcap_usd": 72573,
-   "liquidity_usd": 19633.09,
-   "age_hours": 0.53,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T05:13:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T05:11:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "CJ88vgZxFcaKwwTNktXK48wAi9fNHxrvKfwK1N9pump": {
    "mint": "CJ88vgZxFcaKwwTNktXK48wAi9fNHxrvKfwK1N9pump",
    "symbol": "HUNG",
@@ -4485,9 +4454,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "pumpfun_bonding_curve"
+    },
+    "48h": {
+     "time": "2026-11-14T05:27:06+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "pumpfun_bonding_curve"
     }
    },
-   "done": false
+   "done": true
   },
   "2PaS5mgzoUEmZL1UxycpdRK8aCrEtdURmNMjwpZbpump": {
    "mint": "2PaS5mgzoUEmZL1UxycpdRK8aCrEtdURmNMjwpZbpump",
@@ -4510,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T05:27:06+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "Dkp7yCs1CUbAUwWekUwQaqEhNiNsY15N76D1jdtEpump": {
    "mint": "Dkp7yCs1CUbAUwWekUwQaqEhNiNsY15N76D1jdtEpump",
@@ -4535,9 +4516,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T05:27:06+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": {
    "mint": "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump",
@@ -4560,9 +4547,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "sells_ge_buys_h1"
+    },
+    "48h": {
+     "time": "2026-11-14T05:27:06+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "9sRDQgAWDMjVLmtJfcF2dPC2YE3A3x597H8o4ketpump": {
    "mint": "9sRDQgAWDMjVLmtJfcF2dPC2YE3A3x597H8o4ketpump",
@@ -6652,6 +6645,24 @@
    "age_hours": 0.75,
    "checks": {},
    "done": false
+  },
+  "DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump": {
+   "mint": "DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump",
+   "symbol": "ASTRALIS",
+   "pair": "GjH7iggPymq4g2LUoRfykTFEkxzG6tim6eMQ5tJU355s",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T05:27:05+00:00",
+   "rejected_ts": 1794634025,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0002636,
+   "mcap_usd": 254553,
+   "liquidity_usd": 37362.82,
+   "age_hours": 1.86,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7195,7 +7206,7 @@
    }
   },
   "2026-11-14": {
-   "total": 22,
+   "total": 23,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7229,7 +7240,7 @@
     "market:pumpfun_bonding_curve": 5,
     "grok:skip": 2,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:danger": 1,
+    "rugcheck:danger": 2,
     "market:volume_h1_low": 1
    }
   }
