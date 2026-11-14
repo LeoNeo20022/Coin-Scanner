@@ -1,36 +1,5 @@
 {
  "entries": {
-  "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": {
-   "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
-   "symbol": "NVIDIH",
-   "pair": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T01:47:41+00:00",
-   "rejected_ts": 1794188861,
-   "stage": "grok",
-   "reason": "708% h6 and 81% h1 gains with only 1h age scream blow-off top; m5 already -7% while volume spikes fade.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0003523,
-   "mcap_usd": 349537,
-   "liquidity_usd": 46052.59,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T01:48:15+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T01:49:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8q8SwRVni2hRE3LiitdToMYLs1LpmX6YiYm7Y6QXW2DW": {
    "mint": "8q8SwRVni2hRE3LiitdToMYLs1LpmX6YiYm7Y6QXW2DW",
    "symbol": "Clarus",
@@ -4516,9 +4485,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T01:54:04+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok": {
    "mint": "9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok",
