@@ -5685,7 +5685,14 @@
    "mcap_usd": 362150,
    "liquidity_usd": 45205.07,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-14T12:26:33+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "HcsZdLqWXmL7BQBhvoBvi9BDRZyiBuMvymhNwrfKpump": {
@@ -6587,6 +6594,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk": {
+   "mint": "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk",
+   "symbol": "GTA6",
+   "pair": "8ZYFaK1ZoKurD5quoyptmWZZTX4osv9mYSSLJAo3JYAF",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T12:26:30+00:00",
+   "rejected_ts": 1794659190,
+   "stage": "grok",
+   "reason": "349% 6h and 105% 1h gains signal blow-off top; buying now means catching the exit. Buys exceed sells but momentum already extreme.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001055,
+   "mcap_usd": 102588,
+   "liquidity_usd": 23243.51,
+   "age_hours": 16.75,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7130,7 +7155,7 @@
    }
   },
   "2026-11-14": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7173,7 +7198,7 @@
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 1,
