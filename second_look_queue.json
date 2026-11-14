@@ -6684,6 +6684,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": {
+   "mint": "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump",
+   "symbol": "AMC",
+   "pair": "DxbQyPTjckQTSUWyUqJB11HpupPyLGJZ5x4z7ufHp3Gh",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T19:46:50+00:00",
+   "rejected_ts": 1794685610,
+   "stage": "grok",
+   "reason": "Massive -76% h6 and -57% h1 drops after 25h age point to fading pump with heavy exit selling; m5 recovery too small to reverse trend.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts/top",
+   "price_usd": 0.0008671,
+   "mcap_usd": 861955,
+   "liquidity_usd": 68629.02,
+   "age_hours": 25.11,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7227,7 +7245,7 @@
    }
   },
   "2026-11-14": {
-   "total": 43,
+   "total": 44,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7272,7 +7290,7 @@
     "market:mcap_too_low": 6,
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:lp_unlocked": 3,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 2,
