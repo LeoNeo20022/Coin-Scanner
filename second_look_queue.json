@@ -1,67 +1,5 @@
 {
  "entries": {
-  "HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": {
-   "mint": "HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump",
-   "symbol": "BANK",
-   "pair": "8FC6DftRnwcSzFMpzdHXBZwd5okXdgumBvtGeEyDL1Uf",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T12:46:25+00:00",
-   "rejected_ts": 1794228385,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001073,
-   "mcap_usd": 103380,
-   "liquidity_usd": 29148.55,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T12:51:21+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T12:47:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf": {
-   "mint": "AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf",
-   "symbol": "CURVD",
-   "pair": "5SS4TwF7Y3hkgDs3FyVYkPPDFZ3njPJ1FzncStTgfoXA",
-   "dex": "raydium",
-   "rejected_at": "2026-11-09T13:01:25+00:00",
-   "rejected_ts": 1794229285,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 5.472e-05,
-   "mcap_usd": 54727,
-   "liquidity_usd": 20753.95,
-   "age_hours": 2.29,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T13:06:21+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T13:02:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump": {
    "mint": "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump",
    "symbol": "GINGATO",
@@ -6636,6 +6574,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump": {
+   "mint": "97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump",
+   "symbol": "DYC",
+   "pair": "ARJuhYDEaHJHzPPisrWt1GMC4YG9oBkXRd6u2vFDfQTN",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T13:27:32+00:00",
+   "rejected_ts": 1794662852,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.000172,
+   "mcap_usd": 165086,
+   "liquidity_usd": 37799.93,
+   "age_hours": 1.48,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7179,7 +7135,7 @@
    }
   },
   "2026-11-14": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7226,7 +7182,7 @@
     "rugcheck:lp_unlocked": 3,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 1,
-    "rugcheck:top10": 1,
+    "rugcheck:top10": 2,
     "rugcheck:insiders": 2
    }
   }
