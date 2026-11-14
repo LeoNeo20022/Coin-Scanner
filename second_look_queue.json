@@ -1,36 +1,5 @@
 {
  "entries": {
-  "Ao6rgPZBa12yHaT6Eaa7W35qDq1Zx3xuvKiNXmppump": {
-   "mint": "Ao6rgPZBa12yHaT6Eaa7W35qDq1Zx3xuvKiNXmppump",
-   "symbol": "PTY",
-   "pair": "741pLqu2h287t5GtbocQ1igzTKW6UByRuFFLLXNFWxvw",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T11:02:28+00:00",
-   "rejected_ts": 1794222148,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles",
-   "price_usd": 8.523e-05,
-   "mcap_usd": 81634,
-   "liquidity_usd": 26800.02,
-   "age_hours": 12.36,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T11:08:59+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-11T11:03:42+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": {
    "mint": "HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump",
    "symbol": "BANK",
@@ -4485,9 +4454,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T11:06:44+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HboHtoVXPncFkfoSyiVSkYsLtKwoJD2nAEYaoNZ7pump": {
    "mint": "HboHtoVXPncFkfoSyiVSkYsLtKwoJD2nAEYaoNZ7pump",
