@@ -1,36 +1,5 @@
 {
  "entries": {
-  "4N1pRfEMnWAUE8rhyhqwnsWe6TNjuQFhgvNB3Nr9pump": {
-   "mint": "4N1pRfEMnWAUE8rhyhqwnsWe6TNjuQFhgvNB3Nr9pump",
-   "symbol": "HODL",
-   "pair": "byWjmXQhQ5nbCLL2QAVpwfz5R8khvEeQegFifpV5MLs",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T17:39:07+00:00",
-   "rejected_ts": 1794245947,
-   "stage": "rugcheck",
-   "reason": "danger:Top 10 holders high ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0002683,
-   "mcap_usd": 260958,
-   "liquidity_usd": 72880.73,
-   "age_hours": 1.28,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T17:39:56+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_high"
-    },
-    "48h": {
-     "time": "2026-11-11T17:41:32+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q": {
    "mint": "Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q",
    "symbol": "TJR",
@@ -4578,9 +4547,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T17:44:35+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump": {
    "mint": "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump",
