@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9w2NEtTt22o1LG3sSTQ9QB6T5AkszF5m177XYeJjpump": {
-   "mint": "9w2NEtTt22o1LG3sSTQ9QB6T5AkszF5m177XYeJjpump",
-   "symbol": "heng",
-   "pair": "8gjbLXrnfv3arQZvA2c9V96coiBJUNw35Twxkkh8w4gc",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T07:03:59+00:00",
-   "rejected_ts": 1794207839,
-   "stage": "market",
-   "reason": "mcap_too_low",
-   "reason_key": "market:mcap_too_low",
-   "sources": "token-profiles",
-   "price_usd": 5.312e-06,
-   "mcap_usd": 5307,
-   "liquidity_usd": 4168.38,
-   "age_hours": 0.13,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T07:39:30+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T07:05:52+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "FhXXfmMcLLCnyVEU91QJVeQMBKGmbQQ2Y3pM2XL7pump": {
    "mint": "FhXXfmMcLLCnyVEU91QJVeQMBKGmbQQ2Y3pM2XL7pump",
    "symbol": "GPU",
@@ -5747,7 +5716,14 @@
    "mcap_usd": 57417,
    "liquidity_usd": 16936.97,
    "age_hours": 7.71,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-14T07:15:22+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump": {
