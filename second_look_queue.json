@@ -1,98 +1,5 @@
 {
  "entries": {
-  "Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q": {
-   "mint": "Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q",
-   "symbol": "TJR",
-   "pair": "EG9xcjB8fp967SiMKRBRfXt1WqBgRpf7bnTk6n5T8jh9",
-   "dex": "raydium",
-   "rejected_at": "2026-11-09T20:16:53+00:00",
-   "rejected_ts": 1794255413,
-   "stage": "rugcheck",
-   "reason": "danger:Single holder ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001582,
-   "mcap_usd": 158294,
-   "liquidity_usd": 77774.12,
-   "age_hours": 1.25,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T20:20:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-11T21:06:06+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "BSwp4GjLnejXKqvmjueJmPXC7UZhNoF6RuMQJRpSmeta": {
-   "mint": "BSwp4GjLnejXKqvmjueJmPXC7UZhNoF6RuMQJRpSmeta",
-   "symbol": "SAT",
-   "pair": "A9fveG4YW2ZGwqkq6tDdcJcJsPwTziY4V3zxSNimL2ve",
-   "dex": "metadao",
-   "rejected_at": "2026-11-09T20:31:53+00:00",
-   "rejected_ts": 1794256313,
-   "stage": "rugcheck",
-   "reason": "authority_open",
-   "reason_key": "rugcheck:authority_open",
-   "sources": "token-profiles",
-   "price_usd": 0.008629,
-   "mcap_usd": 862949,
-   "liquidity_usd": 37158.01,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T20:35:23+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-11T21:06:06+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "6USthxiSZFoCJWhd5bUTcStagAJ2rFd8q8SiF2kupump": {
-   "mint": "6USthxiSZFoCJWhd5bUTcStagAJ2rFd8q8SiF2kupump",
-   "symbol": "ORBIT",
-   "pair": "9jXtNZwzuk3Z2ieQoexeL39MLCQn8FecDqcyGMGHW97o",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T20:32:12+00:00",
-   "rejected_ts": 1794256332,
-   "stage": "grok",
-   "reason": "688% h6 gain after only 1h age screams blow-off top; m5 already turning negative while volume spikes.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0004515,
-   "mcap_usd": 449264,
-   "liquidity_usd": 52545.29,
-   "age_hours": 1.05,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T20:35:23+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T21:06:06+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump": {
    "mint": "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump",
    "symbol": "MAYA",
@@ -5915,7 +5822,14 @@
    "mcap_usd": 833774,
    "liquidity_usd": 113696.08,
    "age_hours": 1.22,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-14T20:38:26+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "J4MsEuqfAnCFAE1E7zfN1MrK7X1msFHtGFTySXi2pump": {
