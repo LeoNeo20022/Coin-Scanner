@@ -4485,9 +4485,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T12:09:10+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": {
    "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
@@ -6563,6 +6569,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump": {
+   "mint": "22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump",
+   "symbol": "DCYC",
+   "pair": "3BxamfbAR9bZW4xqh3Y6zcmAMY7rEtijv5Y8wS96pa7g",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T12:09:08+00:00",
+   "rejected_ts": 1794658148,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 6.68e-05,
+   "mcap_usd": 63989,
+   "liquidity_usd": 22555,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7106,7 +7130,7 @@
    }
   },
   "2026-11-14": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7154,7 +7178,7 @@
     "rugcheck:danger": 2,
     "market:volume_h1_low": 1,
     "rugcheck:top10": 1,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 2
    }
   }
  }
