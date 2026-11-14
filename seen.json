@@ -110,8 +110,8 @@
   "market_reason": "mcap_too_low"
  },
  "B82PFKmT4aM38EUUqVoZs6sZdAfxDHHrB6DSXxCKpump": {
-  "market_logged": 1794585620.793355,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794670550.869833,
+  "market_reason": "liquidity_low"
  },
  "42qKoGmEPTRJsa5jWrYwpydL8RkBwMvg2ykYVoerpump": {
   "judged": 1793819666.5031168,
@@ -252,14 +252,6 @@
   "market_reason": "too_new",
   "judged": 1794068110.1302073,
   "symbol": "Elysion Pad"
- },
- "53JQhoktNWHCRwh5G9L3tQKKAizunzes8p1i5ijRpump": {
-  "market_logged": 1794065555.5940912,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": {
-  "symbol": "ANTS",
-  "judged": 1794065555.5940912
  },
  "75VDY6P9kJyAp7QGYRzq7o85oKBSXpR9XmaWVHcspump": {
   "market_logged": 1794065555.5940912,
@@ -8804,6 +8796,14 @@
  },
  "ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump": {
   "market_logged": 1794669950.934909,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "JBzKyqHsb4Lt4Sw3i1FHNAWqunMyeBZXo3vBZwf5pump": {
+  "market_logged": 1794670550.869833,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "8t9iCHpYottttogVssUpYAgwi3zXqvssiadrYKc3pump": {
+  "market_logged": 1794670550.869833,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
