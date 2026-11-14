@@ -6538,6 +6538,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "8HdzcabjCJQLQsnnoxEhC7HqEWnbkhmysNXzZbidpump": {
+   "mint": "8HdzcabjCJQLQsnnoxEhC7HqEWnbkhmysNXzZbidpump",
+   "symbol": "GTA$",
+   "pair": "EfHUWhFyQEF9L3DhDEPsb72WAPqWNDUkcUQozPvJgv6n",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T11:36:45+00:00",
+   "rejected_ts": 1794656205,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.000264,
+   "mcap_usd": 254239,
+   "liquidity_usd": 47355.91,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7081,7 +7099,7 @@
    }
   },
   "2026-11-14": {
-   "total": 32,
+   "total": 33,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7128,7 +7146,8 @@
     "rugcheck:lp_unlocked": 2,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "rugcheck:insiders": 1
    }
   }
  }
