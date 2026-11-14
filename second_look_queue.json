@@ -1,67 +1,5 @@
 {
  "entries": {
-  "5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump": {
-   "mint": "5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump",
-   "symbol": "Steve",
-   "pair": "8j1kh1iYRaTkbTvgdLhs6aNKnMhzFj7Ym6MveqpPAYZv",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T08:39:44+00:00",
-   "rejected_ts": 1794213584,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 6.183e-05,
-   "mcap_usd": 61749,
-   "liquidity_usd": 18202.19,
-   "age_hours": 0.24,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T08:39:58+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-11T08:44:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1": {
-   "mint": "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1",
-   "symbol": "BTC",
-   "pair": "6adQBVy6SXvnFS1CA9CAjpVSFq7ssvE9oJEoSpBaGmCB",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T08:44:46+00:00",
-   "rejected_ts": 1794213886,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.000157,
-   "mcap_usd": 151178,
-   "liquidity_usd": 33327.07,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T08:44:58+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-11T08:49:30+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "Ewhy4f2tPLfHuaBdvsAK1DWB7SbD2aGEDuhz7nc7pump": {
    "mint": "Ewhy4f2tPLfHuaBdvsAK1DWB7SbD2aGEDuhz7nc7pump",
    "symbol": "BRUNO",
@@ -4516,9 +4454,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T08:58:56+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump": {
    "mint": "2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump",
