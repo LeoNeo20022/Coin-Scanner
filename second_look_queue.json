@@ -6614,6 +6614,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "FBwLNTQwVwZK4jQak7aGVYiLe7WPg7JCsJfKSADKpump": {
+   "mint": "FBwLNTQwVwZK4jQak7aGVYiLe7WPg7JCsJfKSADKpump",
+   "symbol": "YoungBull",
+   "pair": "9YjzHjRfMgSknC4BVw55HZjhBRqM4QyJToCb7dcNkDnu",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T17:22:11+00:00",
+   "rejected_ts": 1794676931,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001351,
+   "mcap_usd": 130930,
+   "liquidity_usd": 27610.94,
+   "age_hours": 1.69,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7157,7 +7175,7 @@
    }
   },
   "2026-11-14": {
-   "total": 41,
+   "total": 42,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7206,7 +7224,7 @@
     "rugcheck:lp_unlocked": 3,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 2,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "rugcheck:insiders": 2
    }
   }
