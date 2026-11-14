@@ -6607,6 +6607,24 @@
    "age_hours": 0.35,
    "checks": {},
    "done": false
+  },
+  "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump": {
+   "mint": "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump",
+   "symbol": "SCRAP",
+   "pair": "5rtpSJVsv5Y7EK63jt7BHAwqE83FHwoBnfAdc3YvARrE",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T07:20:20+00:00",
+   "rejected_ts": 1794640820,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 6.01e-05,
+   "mcap_usd": 60106,
+   "liquidity_usd": 17476.67,
+   "age_hours": 0.26,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7150,7 +7168,7 @@
    }
   },
   "2026-11-14": {
-   "total": 26,
+   "total": 27,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7179,10 +7197,12 @@
     "06": 3,
     "06|market:mcap_too_low": 1,
     "06|market:too_new": 1,
-    "06|market:pumpfun_bonding_curve": 1
+    "06|market:pumpfun_bonding_curve": 1,
+    "07": 1,
+    "07|market:liquidity_low": 1
    },
    "reasons": {
-    "market:liquidity_low": 3,
+    "market:liquidity_low": 4,
     "market:mcap_too_low": 6,
     "market:too_new": 5,
     "market:pumpfun_bonding_curve": 6,
