@@ -6590,6 +6590,24 @@
    "age_hours": 1.09,
    "checks": {},
    "done": false
+  },
+  "4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": {
+   "mint": "4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump",
+   "symbol": "WOHAIHAO",
+   "pair": "9Xvu6Bt8nVKcEeJKx15cU6f5t8szWxyL1X13y6gLHQe8",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T02:37:10+00:00",
+   "rejected_ts": 1794623830,
+   "stage": "grok",
+   "reason": "Huge 261% h1 and 663% h6 gains signal blow-off top after rapid pump; volume and buys concentrated in short window already fading relative to price spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002435,
+   "mcap_usd": 233012,
+   "liquidity_usd": 35106.06,
+   "age_hours": 1.27,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7133,7 +7151,7 @@
    }
   },
   "2026-11-14": {
-   "total": 10,
+   "total": 11,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7153,7 +7171,7 @@
     "market:mcap_too_low": 3,
     "market:too_new": 2,
     "market:pumpfun_bonding_curve": 2,
-    "grok:skip": 1
+    "grok:skip": 2
    }
   }
  }
