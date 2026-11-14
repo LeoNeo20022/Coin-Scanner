@@ -110,8 +110,8 @@
   "market_reason": "mcap_too_low"
  },
  "B82PFKmT4aM38EUUqVoZs6sZdAfxDHHrB6DSXxCKpump": {
-  "market_logged": 1794675281.1281214,
-  "market_reason": "too_old"
+  "market_logged": 1794675726.5104537,
+  "market_reason": "liquidity_low"
  },
  "42qKoGmEPTRJsa5jWrYwpydL8RkBwMvg2ykYVoerpump": {
   "judged": 1793819666.5031168,
@@ -8787,5 +8787,9 @@
  "Bqi6MPNQYR1DchXBkxZT2RD3uY7DauXwFwtjB3Zbpump": {
   "market_logged": 1794675281.1281214,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
+  "market_logged": 1794675726.5104537,
+  "market_reason": "too_new"
  }
 }
