@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FhXXfmMcLLCnyVEU91QJVeQMBKGmbQQ2Y3pM2XL7pump": {
-   "mint": "FhXXfmMcLLCnyVEU91QJVeQMBKGmbQQ2Y3pM2XL7pump",
-   "symbol": "GPU",
-   "pair": "7zH9a3gvFWnuXTwE7HrdC2BDQCv9XzQiM7NPt4eYjuRW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T07:28:59+00:00",
-   "rejected_ts": 1794209339,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.545e-05,
-   "mcap_usd": 55454,
-   "liquidity_usd": 16972.86,
-   "age_hours": 0.21,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T07:39:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T07:55:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "5XGHbdLQQpr37aWxEqfpD3GL9VMjSBYRoYgEd6VVpump": {
    "mint": "5XGHbdLQQpr37aWxEqfpD3GL9VMjSBYRoYgEd6VVpump",
    "symbol": "FLACKO",
@@ -4547,9 +4516,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T07:45:22+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "7E9tPBRvCVJ4kn6DXvxMXuAMk4L9j1ZNcBSCAWuGpump": {
    "mint": "7E9tPBRvCVJ4kn6DXvxMXuAMk4L9j1ZNcBSCAWuGpump",
