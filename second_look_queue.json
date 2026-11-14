@@ -4485,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-14T13:49:59+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump": {
    "mint": "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump",
@@ -5654,7 +5660,14 @@
    "mcap_usd": 54786,
    "liquidity_usd": 21010.11,
    "age_hours": 1.58,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-14T13:49:59+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": {
