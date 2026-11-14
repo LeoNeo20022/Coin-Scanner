@@ -273,10 +273,6 @@
   "symbol": "PMURT",
   "judged": 1794092517.2353108
  },
- "FQ47SAH4xuRJArffifAbqZSX1kq3ewE3GxnLuGYypump": {
-  "market_logged": 1794089372.1882336,
-  "market_reason": "mcap_too_low"
- },
  "DzowfEtUHPqXnBhMsjGYUZMYGy4pyAzb76tBQjWCpump": {
   "market_logged": 1794089672.6214113,
   "market_reason": "pumpfun_bonding_curve"
@@ -8707,11 +8703,19 @@
   "market_reason": "missing:mcap_usd"
  },
  "3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump": {
-  "market_logged": 1794693862.2597978,
-  "market_reason": "pumpfun_bonding_curve"
+  "market_logged": 1794694461.5397654,
+  "market_reason": "too_new"
  },
  "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
   "market_logged": 1794694162.232279,
   "market_reason": "too_old"
+ },
+ "AjPoaVhU5WdZhZzR6jbxjHD3CUZMqic51BDiVmXHpump": {
+  "market_logged": 1794694461.5397654,
+  "market_reason": "mcap_too_low"
+ },
+ "FBAQACdDtHvc3m6YTSPTjQVJ6D7dzGj6XmtsWs2Ypump": {
+  "market_logged": 1794694461.5397654,
+  "market_reason": "mcap_too_low"
  }
 }
