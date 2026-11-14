@@ -1,36 +1,5 @@
 {
  "entries": {
-  "tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump": {
-   "mint": "tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump",
-   "symbol": "MYWAY",
-   "pair": "CV3MT2sZ4kfzc6GpBhw9esoz2dCfKkz5ZGS8uZP85p32",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T14:48:04+00:00",
-   "rejected_ts": 1794235684,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 0.000643,
-   "mcap_usd": 634743,
-   "liquidity_usd": 64055.24,
-   "age_hours": 24.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T14:51:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-11T14:50:04+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": {
    "mint": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
    "symbol": "ELYSION",
@@ -4423,9 +4392,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T14:59:11+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "liquidity_low"
     }
    },
-   "done": false
+   "done": true
   },
   "7rtrYEBfMhMPmPqCr4BZyY3zYRSLqUa7h6WR44Z7YWWF": {
    "mint": "7rtrYEBfMhMPmPqCr4BZyY3zYRSLqUa7h6WR44Z7YWWF",
@@ -6555,6 +6530,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": {
+   "mint": "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump",
+   "symbol": "VTC",
+   "pair": "LjcnCCYFHPW1fqxKy7sLbnREmEKNkep8aUobN8Vms3U",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T14:59:10+00:00",
+   "rejected_ts": 1794668350,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0007728,
+   "mcap_usd": 769310,
+   "liquidity_usd": 85870.7,
+   "age_hours": 18.48,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7098,7 +7091,7 @@
    }
   },
   "2026-11-14": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7147,7 +7140,7 @@
     "rugcheck:lp_unlocked": 3,
     "rugcheck:danger": 2,
     "market:volume_h1_low": 2,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "rugcheck:insiders": 2
    }
   }
