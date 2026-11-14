@@ -1,36 +1,5 @@
 {
  "entries": {
-  "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": {
-   "mint": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
-   "symbol": "ELYSION",
-   "pair": "HjxaEDvdje644vhUmE3VpjpteWLBmWgSsgvYhf6LVw2L",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T16:07:39+00:00",
-   "rejected_ts": 1794240459,
-   "stage": "grok",
-   "reason": "Price -90% in 6h and -18% in 1h despite heavy volume; classic post-pump dump.",
-   "reason_key": "grok:skip",
-   "sources": "token-boosts/top",
-   "price_usd": 0.0001237,
-   "mcap_usd": 123269,
-   "liquidity_usd": 28728.86,
-   "age_hours": 25.15,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T16:11:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T16:14:22+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "4N1pRfEMnWAUE8rhyhqwnsWe6TNjuQFhgvNB3Nr9pump": {
    "mint": "4N1pRfEMnWAUE8rhyhqwnsWe6TNjuQFhgvNB3Nr9pump",
    "symbol": "HODL",
@@ -5754,7 +5723,14 @@
    "mcap_usd": 238048,
    "liquidity_usd": 35681.4,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-14T16:17:11+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "CJ28UpzC21EkXDsZaTARLR3VGGQPoXb88u7LAmVJpump": {
