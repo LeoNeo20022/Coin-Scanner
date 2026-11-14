@@ -269,10 +269,6 @@
   "market_logged": 1794101843.6434417,
   "market_reason": "mcap_too_low"
  },
- "6MidA49VWEJaYoyDGTcDKxmFFxrq3ohyCYgZQWfbpump": {
-  "market_logged": 1794079337.891167,
-  "market_reason": "mcap_too_low"
- },
  "X39t6ZXvAJNyYG1AtPMCZcAeJTG8YAPLsb1Tn2Fpump": {
   "market_logged": 1794079938.089993,
   "market_reason": "pumpfun_bonding_curve"
@@ -7513,8 +7509,8 @@
   "symbol": "Nigghao"
  },
  "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": {
-  "market_logged": 1794596332.1506674,
-  "market_reason": "liquidity_low",
+  "market_logged": 1794684250.545341,
+  "market_reason": "mcap_too_low",
   "judged": 1794597749.7985241,
   "symbol": "Sakura"
  },
@@ -8743,6 +8739,10 @@
  },
  "6N84dFHMxK8BoRjAWTVqy4CMepYEb6rSjVchqUe3pump": {
   "market_logged": 1794683950.7271926,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "BcaSxPgaQZDnC5XgHS2vgVtF5NyeSkX1W65NoxWppump": {
+  "market_logged": 1794684250.545341,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
