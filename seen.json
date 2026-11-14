@@ -247,10 +247,6 @@
   "judged": 1794054392.563011,
   "symbol": "trauma"
  },
- "DphvrnuA1g7b9zRvSWdUxwfMj5sFS6Szy8C8rGuHr4VM": {
-  "market_logged": 1794053350.6544619,
-  "market_reason": "missing:liquidity_usd"
- },
  "C53oR3dJciYDQAt4SUv4UBzb4DgKJyr3ovwCZLPmpump": {
   "market_logged": 1794054992.2299163,
   "market_reason": "pumpfun_bonding_curve"
@@ -5546,8 +5542,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": {
-  "market_logged": 1794436334.3960993,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794658441.8725934,
+  "market_reason": "too_old"
  },
  "ErTBzXHZ1Gqss99KEq4QwaBqHrUZt7dHzgd89t7TwU7d": {
   "market_logged": 1794578429.1602466,
@@ -8815,6 +8811,10 @@
  },
  "BP1LxeNT9ds1cYsyZT6KsfgzPvQdk3QzXTSANukvpump": {
   "market_logged": 1794656641.0016992,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "ukWSz1Bx9ZPeQCU5UcFmP1nuVuDw1YRXNkxEphRmHj4": {
+  "market_logged": 1794658441.8725934,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
