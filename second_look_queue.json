@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump": {
-   "mint": "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump",
-   "symbol": "MAYA",
-   "pair": "DJV5DS8c4uqAaX36kRFA1L8hytJ89CD8zb5utjSo284Z",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T21:26:38+00:00",
-   "rejected_ts": 1794259598,
-   "stage": "grok",
-   "reason": "1300% h6 gain on 1h-old token screams blow-off top; m5 price already rolling over despite buy pressure.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0006092,
-   "mcap_usd": 604769,
-   "liquidity_usd": 60679.28,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T21:27:48+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T21:31:21+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": {
    "mint": "F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump",
    "symbol": "BORLY",
@@ -6659,6 +6628,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": {
+   "mint": "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump",
+   "symbol": "SIRIUS",
+   "pair": "8qaM7SPbHyBrs5YVmD6AiL3GjruGr9y3i51tPSNdKE39",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T21:32:26+00:00",
+   "rejected_ts": 1794691946,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 6.435e-05,
+   "mcap_usd": 61783,
+   "liquidity_usd": 20242.51,
+   "age_hours": 17.65,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7202,7 +7189,7 @@
    }
   },
   "2026-11-14": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7240,7 +7227,9 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "14": 1,
-    "14|market:volume_h1_low": 1
+    "14|market:volume_h1_low": 1,
+    "21": 1,
+    "21|market:volume_h1_low": 1
    },
    "reasons": {
     "market:liquidity_low": 6,
@@ -7250,7 +7239,7 @@
     "grok:skip": 4,
     "rugcheck:lp_unlocked": 4,
     "rugcheck:danger": 2,
-    "market:volume_h1_low": 2,
+    "market:volume_h1_low": 3,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 4
    }
