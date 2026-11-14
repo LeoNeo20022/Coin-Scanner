@@ -1,98 +1,5 @@
 {
  "entries": {
-  "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump": {
-   "mint": "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump",
-   "symbol": "GINGATO",
-   "pair": "6qrD6wq8LqD3D8rmZpMmR2nCb1KeTr6CbkWkgtyr1CcM",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T14:28:23+00:00",
-   "rejected_ts": 1794234503,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0003814,
-   "mcap_usd": 372990,
-   "liquidity_usd": 73316.87,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T14:36:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T14:35:07+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "7v8LoULtAhg3hT43YYQvKdF3LD3stdudBZAv5oTqpump": {
-   "mint": "7v8LoULtAhg3hT43YYQvKdF3LD3stdudBZAv5oTqpump",
-   "symbol": "MILES",
-   "pair": "WrQ9LCrjo4Zi8LodweMCsvsBcqBeyHLoVgYeUhZGS1w",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T14:33:24+00:00",
-   "rejected_ts": 1794234804,
-   "stage": "rugcheck",
-   "reason": "danger:Single holder ownership",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.000141,
-   "mcap_usd": 135881,
-   "liquidity_usd": 51336.29,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T14:36:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-11T14:35:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
-  "1RLp87BUsakyXMuWbDx5pd8iMHtypw1o58VDMmtpump": {
-   "mint": "1RLp87BUsakyXMuWbDx5pd8iMHtypw1o58VDMmtpump",
-   "symbol": "Elysium",
-   "pair": "DWx6iczPUjFCiV4X6bYdWpdS1dFn1rUPD2PbK5wpTjVr",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T14:33:26+00:00",
-   "rejected_ts": 1794234806,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 8.186e-05,
-   "mcap_usd": 80334,
-   "liquidity_usd": 21391.01,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T14:36:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T14:35:07+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump": {
    "mint": "tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump",
    "symbol": "MYWAY",
@@ -6605,6 +6512,24 @@
    "age_hours": 1.48,
    "checks": {},
    "done": false
+  },
+  "FvQHUAqNV4U8X559sFmjqSm6juzprVJLxgimNrKDaray": {
+   "mint": "FvQHUAqNV4U8X559sFmjqSm6juzprVJLxgimNrKDaray",
+   "symbol": "FLAG",
+   "pair": "FNBGzKB2pgRv3o9EftC2ZdRBh4rki8f2eUHtsZyCWCo2",
+   "dex": "raydium",
+   "rejected_at": "2026-11-14T14:34:11+00:00",
+   "rejected_ts": 1794666851,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 0.0004638,
+   "mcap_usd": 463892,
+   "liquidity_usd": 49286.09,
+   "age_hours": 1.62,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7148,7 +7073,7 @@
    }
   },
   "2026-11-14": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7184,7 +7109,9 @@
     "08|market:too_new": 1,
     "08|market:liquidity_low": 1,
     "09": 1,
-    "09|market:liquidity_low": 1
+    "09|market:liquidity_low": 1,
+    "14": 1,
+    "14|market:volume_h1_low": 1
    },
    "reasons": {
     "market:liquidity_low": 6,
@@ -7194,7 +7121,7 @@
     "grok:skip": 3,
     "rugcheck:lp_unlocked": 3,
     "rugcheck:danger": 2,
-    "market:volume_h1_low": 1,
+    "market:volume_h1_low": 2,
     "rugcheck:top10": 2,
     "rugcheck:insiders": 2
    }
