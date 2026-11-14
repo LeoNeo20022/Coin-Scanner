@@ -1,67 +1,5 @@
 {
  "entries": {
-  "Ewhy4f2tPLfHuaBdvsAK1DWB7SbD2aGEDuhz7nc7pump": {
-   "mint": "Ewhy4f2tPLfHuaBdvsAK1DWB7SbD2aGEDuhz7nc7pump",
-   "symbol": "BRUNO",
-   "pair": "9fopD34WkwwybtKtnWv8oKXiV8Vh1tMVdwRbtT95vYZu",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T10:16:25+00:00",
-   "rejected_ts": 1794219385,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.133e-05,
-   "mcap_usd": 51335,
-   "liquidity_usd": 16977.3,
-   "age_hours": 0.1,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T10:19:33+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T10:38:42+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "uvnuFUd7JB8turrwHFi7Dvki8R4epuRDDRE1cQ5pump": {
-   "mint": "uvnuFUd7JB8turrwHFi7Dvki8R4epuRDDRE1cQ5pump",
-   "symbol": "\u725b\u903c",
-   "pair": "d9DXHctcF6JiXsVhnQe5LsUE6Z9hmPHVkneSyL6Ujcm",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-09T10:21:27+00:00",
-   "rejected_ts": 1794219687,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 7.89e-05,
-   "mcap_usd": 77757,
-   "liquidity_usd": 20460.41,
-   "age_hours": 1.08,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T10:24:31+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T10:38:42+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump": {
    "mint": "8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump",
    "symbol": "HODLER",
@@ -4547,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-14T10:35:42+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump": {
    "mint": "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump",
