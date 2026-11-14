@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": {
-   "mint": "8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2",
-   "symbol": "BUIDL",
-   "pair": "5HofHb5Sn1TgoXwre7HC17dKpuzeXPFbMCEFL44nX5rV",
-   "dex": "raydium",
-   "rejected_at": "2026-11-09T06:16:04+00:00",
-   "rejected_ts": 1794204964,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0001299,
-   "mcap_usd": 129998,
-   "liquidity_usd": 32717.61,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-10T06:24:49+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-11T06:18:49+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9w2NEtTt22o1LG3sSTQ9QB6T5AkszF5m177XYeJjpump": {
    "mint": "9w2NEtTt22o1LG3sSTQ9QB6T5AkszF5m177XYeJjpump",
    "symbol": "heng",
@@ -4485,9 +4454,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T06:24:16+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3Tkm68nyJdiB8SejbhjufSWg1Kry4yG4xhvFD6W8pump": {
    "mint": "3Tkm68nyJdiB8SejbhjufSWg1Kry4yG4xhvFD6W8pump",
@@ -4510,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T06:24:16+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "Eh5zz6vrPK66MHzhBLrzEFHvATE7Z1SqoALzcNu4pump": {
    "mint": "Eh5zz6vrPK66MHzhBLrzEFHvATE7Z1SqoALzcNu4pump",
@@ -4535,9 +4516,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-14T06:24:16+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": {
    "mint": "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump",
