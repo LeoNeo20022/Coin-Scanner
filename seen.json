@@ -265,14 +265,6 @@
   "market_logged": 1794086383.3818252,
   "market_reason": "mcap_too_low"
  },
- "AxcMAGQXrS2zrGibXkGq5K38Au5FD9MsviHp4M76pump": {
-  "market_logged": 1794083237.3454833,
-  "market_reason": "mcap_too_low"
- },
- "76EABWAydCs13EcLDCjF9LBUiGaeKuEzoynrGA4fpump": {
-  "market_logged": 1794083237.3454833,
-  "market_reason": "mcap_too_low"
- },
  "AKrw6VbXiScJqZydENKhjJyJYXGsKJCVLmui95ngt1EK": {
   "market_logged": 1794432959.766117,
   "market_reason": "mcap_too_low"
@@ -6425,8 +6417,8 @@
   "market_reason": "mcap_too_low"
  },
  "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": {
-  "market_logged": 1794681418.1308527,
-  "market_reason": "sells_ge_buys_h1",
+  "market_logged": 1794688101.6466615,
+  "market_reason": "volume_h1_low",
   "judged": 1794526361.7784612,
   "symbol": "Christmax"
  },
@@ -8701,8 +8693,8 @@
   "market_reason": "mcap_too_low"
  },
  "BtB54BEhTsx8syvWFUcMEe6vxASyL9zP7feXY5d1pump": {
-  "market_logged": 1794687201.3989289,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794688101.6466615,
+  "market_reason": "mcap_too_low"
  },
  "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump": {
   "market_logged": 1794686499.1614203,
@@ -8736,6 +8728,10 @@
  },
  "7FzqM1GHu3ceB9AiZyUXPuTuM6HUQ912PBXp2YWDqWzK": {
   "market_logged": 1794687801.3733323,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "F82MdJHkpFYW9kbokK9wq2xXYnB4BTkCYaWEi3WTpump": {
+  "market_logged": 1794688101.6466615,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
