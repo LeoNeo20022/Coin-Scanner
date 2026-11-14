@@ -6709,6 +6709,24 @@
    "age_hours": 25.11,
    "checks": {},
    "done": false
+  },
+  "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump": {
+   "mint": "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump",
+   "symbol": "DOGCOIN",
+   "pair": "9t43NZubCLRNURAQWRY9mnYqxGte9pA4bDq6B7ebeMAr",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-14T20:13:26+00:00",
+   "rejected_ts": 1794687206,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 0.0001183,
+   "mcap_usd": 112700,
+   "liquidity_usd": 24594.98,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7252,7 +7270,7 @@
    }
   },
   "2026-11-14": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7302,7 +7320,7 @@
     "rugcheck:danger": 2,
     "market:volume_h1_low": 2,
     "rugcheck:top10": 6,
-    "rugcheck:insiders": 3
+    "rugcheck:insiders": 4
    }
   }
  }
