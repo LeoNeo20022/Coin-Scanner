@@ -211,10 +211,6 @@
   "symbol": "HEREWEGO",
   "judged": 1794193805.6889033
  },
- "3MBJfJ3AFU2vyXr9PaF4S1DaVeo4wW48y7E8q53DZbjU": {
-  "market_logged": 1794166133.3327537,
-  "market_reason": "mcap_too_low"
- },
  "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": {
   "market_logged": 1794252301.6396694,
   "market_reason": "mcap_too_low",
@@ -7761,8 +7757,8 @@
   "market_reason": "mcap_too_low"
  },
  "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": {
-  "market_logged": 1794769612.5285118,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794770957.406895,
+  "market_reason": "mcap_too_low"
  },
  "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump": {
   "market_logged": 1794697293.718296,
@@ -8383,8 +8379,8 @@
   "market_reason": "mcap_too_low"
  },
  "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": {
-  "market_logged": 1794767969.6425056,
-  "market_reason": "too_old"
+  "market_logged": 1794770957.406895,
+  "market_reason": "mcap_too_high"
  },
  "3Ev32Ns2fkfEppgYnskq6rDL5TfXfjhtEXWkPz2Vpump": {
   "market_logged": 1794747748.5612936,
@@ -8480,7 +8476,9 @@
  },
  "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
   "market_logged": 1794757095.736492,
-  "market_reason": "missing:mcap_usd"
+  "market_reason": "missing:mcap_usd",
+  "judged": 1794770957.406895,
+  "symbol": "BUTTHOLE"
  },
  "HwST1cGy2TjUzNvgz6dma3imLVAvPHezrFmfhTZkpump": {
   "market_logged": 1794755743.9116476,
@@ -8678,6 +8676,14 @@
  },
  "6wnMkKcJTsvFy2ksWeKopm9YMs2Xpy4jSHuQB12Mpump": {
   "market_logged": 1794770657.3589337,
+  "market_reason": "mcap_too_low"
+ },
+ "Bj6yoCzmZ1wSK9hR2wFNPfKp6QoG1TU74AgbfgQSpump": {
+  "market_logged": 1794770957.406895,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2anhKq7srLuvKDi63EyAPYyK71vSGeyTrVxTJRN4fc8N": {
+  "market_logged": 1794770957.406895,
   "market_reason": "mcap_too_low"
  }
 }
