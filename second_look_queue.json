@@ -6813,6 +6813,24 @@
    "age_hours": 4.0,
    "checks": {},
    "done": false
+  },
+  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "symbol": "rockstar",
+   "pair": "5PYNPPTNpdG5REsu3VqeJKqHePiJ1uwP5L7A2CcHMxdY",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T13:07:33+00:00",
+   "rejected_ts": 1794748053,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 9.444e-05,
+   "mcap_usd": 89851,
+   "liquidity_usd": 25893.27,
+   "age_hours": 2.12,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7353,7 +7371,7 @@
    }
   },
   "2026-11-15": {
-   "total": 37,
+   "total": 38,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7404,7 +7422,7 @@
     "rugcheck:danger": 1,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "market:volume_h1_low": 4
    }
   }
