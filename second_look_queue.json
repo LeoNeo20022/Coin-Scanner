@@ -6694,6 +6694,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": {
+   "mint": "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
+   "symbol": "DOJE",
+   "pair": "DzkV6xvkpPDDYHHUk2bCNt4yoXwF1wAvcLDyV4ifNKmr",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T00:28:06+00:00",
+   "rejected_ts": 1794702486,
+   "stage": "grok",
+   "reason": "319% h6 gain in 1h age followed by -9.8% m5 dip signals fading spike. Volume strong but concentrated in launch window.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001428,
+   "mcap_usd": 141029,
+   "liquidity_usd": 25796.32,
+   "age_hours": 1.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7234,7 +7252,7 @@
    }
   },
   "2026-11-15": {
-   "total": 5,
+   "total": 6,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7245,7 +7263,7 @@
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
     "market:mcap_too_low": 1,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "rugcheck:danger": 1
    }
   }
