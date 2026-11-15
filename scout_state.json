@@ -1,5 +1,9 @@
 {
  "watch": {
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "t": 1794736988,
+   "src": "gt:trending_pools"
+  },
   "BQrRccXpbZbkx635SYkB3MSYxsTG51bnuzB9UyxD1Qs3": {
    "t": 1794736690,
    "src": "gt:new_pools"
@@ -1395,10 +1399,6 @@
   "ErxEUaWeR2zBJ6Zcj5sDPGc6MEQmgzkU6YoV2Ljapump": {
    "t": 1794636122,
    "src": "scanner"
-  },
-  "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": {
-   "t": 1794635822,
-   "src": "scanner"
   }
  },
  "evals": {
@@ -1451,20 +1451,20 @@
   "3531MEu4B5n5RvTP3mWQQWJv9uNRD4Z5SYGcqYkppump": 1794702032,
   "BtB54BEhTsx8syvWFUcMEe6vxASyL9zP7feXY5d1pump": 1794733498,
   "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump": 1794692547,
-  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794733498,
+  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794736988,
   "27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump": 1794696697,
   "6vtfL1Zi8YQqQrsxwLqguFNFCvwmER5SnYSBYDTRpump": 1794702788,
   "AjPoaVhU5WdZhZzR6jbxjHD3CUZMqic51BDiVmXHpump": 1794694465,
   "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump": 1794736690,
   "3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump": 1794707154,
   "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794736228,
-  "FBAQACdDtHvc3m6YTSPTjQVJ6D7dzGj6XmtsWs2Ypump": 1794733198,
+  "FBAQACdDtHvc3m6YTSPTjQVJ6D7dzGj6XmtsWs2Ypump": 1794736988,
   "7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794736228,
   "Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794703377,
   "AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": 1794703978,
   "7rBatsxwXiMLcz2PJjh8G45wZfHNHd4dvtBUMwsepump": 1794700230,
   "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794706851,
-  "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794733198,
+  "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794736988,
   "2L9RzqPSwbRy7WaN7Qq1Dsq6ZjAU1t56bvFBafq8pump": 1794735928,
   "KUtvFkr8Ao6A3YT8V2oZAxs3WtvrmtqU9JAwuEtLb4r": 1794701730,
   "FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump": 1794735928,
@@ -1473,7 +1473,7 @@
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": 1794735928,
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794736690,
   "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": 1794736690,
-  "ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump": 1794733198,
+  "ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump": 1794736988,
   "ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump": 1794713444,
   "ErtyXjRNeCkcKsrJJ8NwGCVQAoYQoVPnzs6Fr2Jmpump": 1794707154,
   "Gv7RZhha9hqEVV5x9FsQiFuEEs8ffyUwJ8YfGF31pump": 1794707154,
@@ -1550,7 +1550,9 @@
   "pool|Acgs6mb4PC7tQbDm9T4EeTfNx3ZDh5fNSjHcHZQLpump": 1794751379,
   "pool|HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": 1794751379,
   "pool|4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1794751681,
-  "pool|85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794751980
+  "pool|85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794751980,
+  "pool|9TjNE2HmETBq4fAh9GZAy6LjPPadQBXuEFasCpMmsim": 1794758588,
+  "pool|Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP": 1794758588
  },
  "decimals": {
   "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 6,
@@ -1780,7 +1782,8 @@
   "FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump": 6,
   "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": 6,
   "FR4yp7buct5Rz8yfic4zwVVcfLySmrqw3tFp18UCpump": 6,
-  "5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump": 6
+  "5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump": 6,
+  "CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 6
  },
  "w3_seen": {
   "HHgNzGNwvS4MPWqDXp2zkwLEpsxASiWZGtW3MYbV1NhF": 1794148500.0,
@@ -2013,7 +2016,8 @@
    "FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump": 1794700863,
    "FR4yp7buct5Rz8yfic4zwVVcfLySmrqw3tFp18UCpump": 1794713801,
    "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794721742,
-   "5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump": 1794730440
+   "5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump": 1794730440,
+   "CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794737078
   },
   "wait3": {
    "J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump": 1793117299,
@@ -2188,13 +2192,14 @@
    ]
   },
   "2026-11-15": {
-   "pool": 4,
+   "pool": 5,
    "wait3": 0,
    "pool_slots": [
     "0",
     "1",
     "2",
-    "4"
+    "4",
+    "5"
    ]
   }
  }
