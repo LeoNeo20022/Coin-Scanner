@@ -1,36 +1,5 @@
 {
  "entries": {
-  "FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump": {
-   "mint": "FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump",
-   "symbol": "DERP404",
-   "pair": "3NR8XqfbjskxiJNsqGaVHV5sQj49ratGfqCUgZxM3Wk6",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T10:19:31+00:00",
-   "rejected_ts": 1794305971,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 0.0004438,
-   "mcap_usd": 434118,
-   "liquidity_usd": 128362.27,
-   "age_hours": 1.12,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T10:38:42+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T10:34:40+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": {
    "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
    "symbol": "GTA",
@@ -6785,6 +6754,24 @@
    "age_hours": 0.29,
    "checks": {},
    "done": false
+  },
+  "G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN": {
+   "mint": "G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN",
+   "symbol": "poorcat",
+   "pair": "HHvrYQ8odDpBhGxi1HVZtA5UBi3ZZ31HDFKYLcQqaAXM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T10:41:06+00:00",
+   "rejected_ts": 1794739266,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 8.051e-05,
+   "mcap_usd": 77403,
+   "liquidity_usd": 20796.47,
+   "age_hours": 18.72,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7325,7 +7312,7 @@
    }
   },
   "2026-11-15": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7374,7 +7361,7 @@
     "rugcheck:danger": 1,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
-    "rugcheck:top10": 2,
+    "rugcheck:top10": 3,
     "market:volume_h1_low": 3
    }
   }
