@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2uQw2gvnhYYQ5T5jJf3MvLPyUquQ54VFHbMHBTtCpump": {
-   "mint": "2uQw2gvnhYYQ5T5jJf3MvLPyUquQ54VFHbMHBTtCpump",
-   "symbol": "LEONIDA",
-   "pair": "FeBNtxMdn6iaSFQh9QX2Fbd7e1KqdSzJJMQFeYb9peP7",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T20:30:23+00:00",
-   "rejected_ts": 1794342623,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0009453,
-   "mcap_usd": 940964,
-   "liquidity_usd": 76079.83,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T21:06:06+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T20:34:24+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "6mwuYnY3fHdxed9GnrdY5BkXhJwMi1uz39MPsYUcpump": {
    "mint": "6mwuYnY3fHdxed9GnrdY5BkXhJwMi1uz39MPsYUcpump",
    "symbol": "BULLHARIS",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-15T20:34:13+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "J4MsEuqfAnCFAE1E7zfN1MrK7X1msFHtGFTySXi2pump": {
    "mint": "J4MsEuqfAnCFAE1E7zfN1MrK7X1msFHtGFTySXi2pump",
