@@ -1,20 +1,3 @@
-[2026-11-13T10:35:34+00:00] second_look: pass end {"queued": 242, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
-[2026-11-13T10:35:34+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-13T10:36:16+00:00] scout: paper: candles unavailable HsprHxBR (RuntimeError)
-[2026-11-13T10:36:26+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-11-13T10:36:26+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-13T10:36:26+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-13T10:37:26+00:00] scout: pass end {"watch": 340, "a_qualify": 30, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=112s
-[2026-11-13T10:40:22+00:00] run start (LOG ONLY)
-[2026-11-13T10:40:33+00:00] discovered=56 fresh=47 market_pass=0
-[2026-11-13T10:40:33+00:00] grok daily budget 5/40 used, 0 no-response, $0.0136 (2026-11-13 UTC)
-[2026-11-13T10:40:33+00:00] run end {"discovered": 56, "skipped_recent": 9, "no_pair": 0, "market": {"pumpfun_bonding_curve": 16, "mcap_too_low": 22, "missing:liquidity_usd": 1, "missing:mcap_usd": 1, "mcap_too_high": 2, "liquidity_low": 3, "too_old": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=11s
-[2026-11-13T10:40:33+00:00] second_look: pass end {"queued": 241, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-11-13T10:40:33+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-13T10:41:14+00:00] scout: paper: candles unavailable mBjWbrkG (RuntimeError)
-[2026-11-13T10:41:14+00:00] scout: paper: [wait3/wait3_24h] WRENCHP closed stop_loss -1.90 after fees
-[2026-11-13T10:41:14+00:00] scout: paper: [wait3/wait3_72h] WRENCHP closed stop_loss -1.90 after fees
-[2026-11-13T10:41:14+00:00] scout: paper: [wait3/hold] WRENCHP closed stop_loss -5.11 after fees
 [2026-11-13T10:41:14+00:00] scout: paper: [wait3/target5] WRENCHP closed stop_loss -5.11 after fees
 [2026-11-13T10:41:14+00:00] scout: paper: [wait3/scalp] WRENCHP closed stop_loss -1.20 after fees
 [2026-11-13T10:41:25+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
@@ -4998,3 +4981,20 @@
 [2026-11-15T03:04:15+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-11-15T03:04:15+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-15T03:05:09+00:00] scout: pass end {"watch": 336, "a_qualify": 0, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=118s
+[2026-11-15T03:15:30+00:00] run start (LOG ONLY)
+[2026-11-15T03:15:40+00:00] discovered=61 fresh=51 market_pass=0
+[2026-11-15T03:15:40+00:00] grok daily budget 4/40 used, 0 no-response, $0.0114 (2026-11-15 UTC)
+[2026-11-15T03:15:40+00:00] run end {"discovered": 61, "skipped_recent": 10, "no_pair": 0, "market": {"volume_h1_low": 3, "pumpfun_bonding_curve": 24, "mcap_too_low": 18, "too_old": 3, "mcap_too_high": 2, "liquidity_low": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-11-15T03:15:42+00:00] second_look: 24h FUCK CCiizqwK… (rejected market:mcap_too_low) -> fail: mcap_too_low [dead: price_-90%]
+[2026-11-15T03:15:42+00:00] second_look: 24h FEAR 8XnuZ2BZ… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve
+[2026-11-15T03:15:42+00:00] second_look: 24h SWJ 4HwfkLiQ… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
+[2026-11-15T03:15:42+00:00] second_look: 24h SWJ BDDdnX85… (rejected rugcheck:lp_unlocked) -> fail: volume_h1_low
+[2026-11-15T03:15:46+00:00] second_look: paper: [target5] Chunkee: closed (take_profit)
+[2026-11-15T03:15:46+00:00] second_look: paper: [scalp] Chunkee: closed (stop_loss)
+[2026-11-15T03:15:46+00:00] second_look: pass end {"queued": 252, "due": 4, "rechecked": 4, "pass": 0, "opened": 0} elapsed=6s
+[2026-11-15T03:15:46+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-15T03:16:27+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-15T03:16:27+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-15T03:16:27+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-11-15T03:16:27+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-15T03:17:29+00:00] scout: pass end {"watch": 336, "a_qualify": 0, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=103s
