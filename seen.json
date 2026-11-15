@@ -245,9 +245,6 @@
   "market_logged": 1794161990.156012,
   "market_reason": "mcap_too_low"
  },
- "CojdNrtfNnaE8swdtgNYC7mSbcQTrfUvk9y953n3divs": {
-  "market_logged": 1794161690.4515176
- },
  "C7R6UUik8qiaFF8fTz4cC2r5AxPMauMs9d2S8kKspump": {
   "market_logged": 1794162290.7674642,
   "market_reason": "mcap_too_low"
@@ -8179,8 +8176,8 @@
   "market_reason": "mcap_too_low"
  },
  "73YNnB2DJfWxwG8pMtvzog1B5RG4hXC7RoZHvYDCpump": {
-  "market_logged": 1794766469.026754,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794766769.7127273,
+  "market_reason": "liquidity_low"
  },
  "D1noy4QtZiWkH3A8QJGq31HGaAvfvA3bti4C6HLEpump": {
   "market_logged": 1794722579.9470043,
@@ -8707,5 +8704,9 @@
  "13EAww2eo8g1Xp9U7qrLNg1WoHFHKbs9xy2EQJjfpump": {
   "symbol": "SWJ",
   "judged": 1794766469.026754
+ },
+ "7koVHdFi4xTVsqTGoeRYMcseekwRpqsJCioJWnU9z72r": {
+  "market_logged": 1794766769.7127273,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
