@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": {
-   "mint": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
-   "symbol": "X",
-   "pair": "6MdmwvCsrMAbTqJC7GBBu5FBUFLbC6dJXGxm5VtnrDzQ",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T09:04:57+00:00",
-   "rejected_ts": 1794301497,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001279,
-   "mcap_usd": 127781,
-   "liquidity_usd": 27200.75,
-   "age_hours": 0.3,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T09:09:31+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-12T09:07:19+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump": {
    "mint": "FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump",
    "symbol": "DERP404",
@@ -4609,9 +4578,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-15T09:15:27+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "ErTBzXHZ1Gqss99KEq4QwaBqHrUZt7dHzgd89t7TwU7d": {
    "mint": "ErTBzXHZ1Gqss99KEq4QwaBqHrUZt7dHzgd89t7TwU7d",
@@ -5853,7 +5828,14 @@
    "mcap_usd": 74571,
    "liquidity_usd": 19718.39,
    "age_hours": 0.88,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T09:15:27+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "GPiHbgbvWbZHKQiVf1v8AupAuST3mqSv3zb2SBJULGND": {
