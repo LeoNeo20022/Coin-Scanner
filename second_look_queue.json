@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump": {
-   "mint": "DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump",
-   "symbol": "CHAINCHOMP131",
-   "pair": "EtPUikvqDKE9czxgDq1SvoN8f2cxRk15VufMkhisxV8S",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T13:16:21+00:00",
-   "rejected_ts": 1794316581,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "token-profiles",
-   "price_usd": 8.314e-05,
-   "mcap_usd": 79742,
-   "liquidity_usd": 21551,
-   "age_hours": 1.46,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T13:41:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T13:40:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "3yjyHCC4EzLb7J7cx3uczgTrqhpXDCBkfShK8Rf3pump": {
    "mint": "3yjyHCC4EzLb7J7cx3uczgTrqhpXDCBkfShK8Rf3pump",
    "symbol": "TRUMP",
@@ -5965,7 +5934,14 @@
    "mcap_usd": 165086,
    "liquidity_usd": 37799.93,
    "age_hours": 1.48,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T13:27:52+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "FvQHUAqNV4U8X559sFmjqSm6juzprVJLxgimNrKDaray": {
