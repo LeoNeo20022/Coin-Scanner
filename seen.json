@@ -239,10 +239,6 @@
   "judged": 1794169805.0468967,
   "symbol": "GROKIA"
  },
- "GrnWKAjRzzZj7kgaKFD3tArNJJHmTr2udVkcFiEopump": {
-  "market_logged": 1794167333.7901194,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "HMKBqmMXLe4Nt2mmFZEWdWY2dbgrcTuopBmi6xVfpump": {
   "market_logged": 1794171604.7097933,
   "market_reason": "mcap_too_low"
@@ -8606,7 +8602,9 @@
  },
  "mAWnfGt4EHpsicnZnynCuZbPcK7YmrN5dNjnVLipump": {
   "market_logged": 1794770356.9113467,
-  "market_reason": "mcap_too_low"
+  "market_reason": "mcap_too_low",
+  "judged": 1794772156.8543782,
+  "symbol": "ANSEM"
  },
  "DockQT38ifhagGx95wfPjvW8qWrqJjdWapUv4oFDchip": {
   "market_logged": 1794770212.9787917,
@@ -8638,7 +8636,9 @@
  },
  "BDPm9gPHCRyo2qjcRrYPsXexmbRwuuHQZo2qhhYXpump": {
   "market_logged": 1794769612.5285118,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "ANT",
+  "judged": 1794772156.8543782
  },
  "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": {
   "symbol": "Anthropig",
@@ -8670,6 +8670,10 @@
  },
  "Da5Gbwd8GCuKwd5fv4pk7bBh12UKjUg5iH3VthDWCity": {
   "market_logged": 1794771856.957334,
+  "market_reason": "mcap_too_low"
+ },
+ "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump": {
+  "market_logged": 1794772156.8543782,
   "market_reason": "mcap_too_low"
  }
 }

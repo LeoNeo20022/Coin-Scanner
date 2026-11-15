@@ -1,36 +1,5 @@
 {
  "entries": {
-  "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": {
-   "mint": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-   "symbol": "BIG",
-   "pair": "5TecgcpFLdBnJvBrpjvk32UAYABPRA1HgeFPEUjQQkYK",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T19:27:23+00:00",
-   "rejected_ts": 1794338843,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 0.001021,
-   "mcap_usd": 970428,
-   "liquidity_usd": 89709.18,
-   "age_hours": 51.26,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T19:41:29+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-12T19:30:29+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    }
-   },
-   "done": true
-  },
   "2uQw2gvnhYYQ5T5jJf3MvLPyUquQ54VFHbMHBTtCpump": {
    "mint": "2uQw2gvnhYYQ5T5jJf3MvLPyUquQ54VFHbMHBTtCpump",
    "symbol": "LEONIDA",
@@ -4733,9 +4702,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-15T19:49:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "MoR1whCWjcLiUqAan4GHLRcn8wK4Jktk2DyDryNmeta": {
    "mint": "MoR1whCWjcLiUqAan4GHLRcn8wK4Jktk2DyDryNmeta",
@@ -5852,7 +5827,14 @@
    "mcap_usd": 861955,
    "liquidity_usd": 68629.02,
    "age_hours": 25.11,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T19:49:38+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump": {
