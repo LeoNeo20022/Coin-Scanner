@@ -6671,6 +6671,24 @@
    "age_hours": 25.11,
    "checks": {},
    "done": false
+  },
+  "13EAww2eo8g1Xp9U7qrLNg1WoHFHKbs9xy2EQJjfpump": {
+   "mint": "13EAww2eo8g1Xp9U7qrLNg1WoHFHKbs9xy2EQJjfpump",
+   "symbol": "SWJ",
+   "pair": "9bQhnihe5okqCUTzeufqtpnAqjH5eGZAeJ4Maa9Ag2f8",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T18:14:47+00:00",
+   "rejected_ts": 1794766487,
+   "stage": "grok",
+   "reason": "674% gain in 6h signals blow-off top; recent buys strong but fading relative to the spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0007178,
+   "mcap_usd": 703573,
+   "liquidity_usd": 60441.83,
+   "age_hours": 5.88,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7211,7 +7229,7 @@
    }
   },
   "2026-11-15": {
-   "total": 42,
+   "total": 43,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7258,7 +7276,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "rugcheck:danger": 1,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
