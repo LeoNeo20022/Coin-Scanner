@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HzLVUNuPGfx8TFAxewquK6zE22WcJ4XwzLT2jPFupump": {
-   "mint": "HzLVUNuPGfx8TFAxewquK6zE22WcJ4XwzLT2jPFupump",
-   "symbol": "X",
-   "pair": "CTdca71AJTxtPwSxhiXHoofqjCzfPQc7N32kbA5hTp6G",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T15:40:09+00:00",
-   "rejected_ts": 1794325209,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001149,
-   "mcap_usd": 112589,
-   "liquidity_usd": 26050.62,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T15:41:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T15:44:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "8ucoTcPLLqcLB2ZgLPW3Rjv9wuj2E2qVfUPVjTFfpump": {
    "mint": "8ucoTcPLLqcLB2ZgLPW3Rjv9wuj2E2qVfUPVjTFfpump",
    "symbol": "ansem",
@@ -4702,9 +4671,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-15T16:08:19+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "2jj2M89bjusTbdu7CAPW4tWFgmF95dXDACzaPkcNpump": {
    "mint": "2jj2M89bjusTbdu7CAPW4tWFgmF95dXDACzaPkcNpump",
