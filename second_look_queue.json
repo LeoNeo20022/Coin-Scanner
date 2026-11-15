@@ -1,36 +1,5 @@
 {
  "entries": {
-  "C7JpvPbaQZTYuWnCsKyPtTCnRSmmESWgZwxZrmthpump": {
-   "mint": "C7JpvPbaQZTYuWnCsKyPtTCnRSmmESWgZwxZrmthpump",
-   "symbol": "Bunzo",
-   "pair": "AtSKt2TmCiHa4dtjMSvnyq5vdmQ6SKcp1EfY6t2oZwRU",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T15:25:24+00:00",
-   "rejected_ts": 1794324324,
-   "stage": "grok",
-   "reason": "371% h6 gain on 1h-old token screams blow-off top; buying the exit. Steady buys but price action already extreme.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001724,
-   "mcap_usd": 170237,
-   "liquidity_usd": 30984.08,
-   "age_hours": 1.08,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T15:26:18+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T15:29:29+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "HzLVUNuPGfx8TFAxewquK6zE22WcJ4XwzLT2jPFupump": {
    "mint": "HzLVUNuPGfx8TFAxewquK6zE22WcJ4XwzLT2jPFupump",
    "symbol": "X",
@@ -5946,7 +5915,14 @@
    "mcap_usd": 61390,
    "liquidity_usd": 21282.52,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T15:25:48+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "FBwLNTQwVwZK4jQak7aGVYiLe7WPg7JCsJfKSADKpump": {
