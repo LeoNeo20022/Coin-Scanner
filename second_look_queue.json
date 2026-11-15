@@ -6788,6 +6788,24 @@
    "age_hours": 18.72,
    "checks": {},
    "done": false
+  },
+  "J1sHNawTwQrRCga3w5uREEwTbrDZKT5j6WobLQKZSDEX": {
+   "mint": "J1sHNawTwQrRCga3w5uREEwTbrDZKT5j6WobLQKZSDEX",
+   "symbol": "SDEX",
+   "pair": "GXgciySr4BWvqeVHhdh4rgfGzfv65b6wze3AcecUbxBL",
+   "dex": "raydium",
+   "rejected_at": "2026-11-15T12:32:32+00:00",
+   "rejected_ts": 1794745952,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 0.001075,
+   "mcap_usd": 1075397,
+   "liquidity_usd": 21437.82,
+   "age_hours": 4.0,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7328,7 +7346,7 @@
    }
   },
   "2026-11-15": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7367,7 +7385,9 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "10": 1,
-    "10|market:liquidity_low": 1
+    "10|market:liquidity_low": 1,
+    "12": 1,
+    "12|market:volume_h1_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7378,7 +7398,7 @@
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
     "rugcheck:top10": 3,
-    "market:volume_h1_low": 3
+    "market:volume_h1_low": 4
    }
   }
  }
