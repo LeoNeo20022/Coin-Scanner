@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8VdrHbx444YZJZp1vNb9pXAv5aW4Kv7E7bk7Zwaapump": {
-   "mint": "8VdrHbx444YZJZp1vNb9pXAv5aW4Kv7E7bk7Zwaapump",
-   "symbol": "TURKEY",
-   "pair": "BjmqS73FiPFh1ChzNvvN36oBKN2UbMV6cvLCvWSYsafx",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T07:39:28+00:00",
-   "rejected_ts": 1794296368,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 5.163e-05,
-   "mcap_usd": 50042,
-   "liquidity_usd": 16634.79,
-   "age_hours": 175.73,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T07:55:32+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T07:43:58+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Gg36bR4gXvN1hqDu6eoFNynhpfxoYg8oe47a2teZpump": {
    "mint": "Gg36bR4gXvN1hqDu6eoFNynhpfxoYg8oe47a2teZpump",
    "symbol": "HAMWS",
@@ -5859,7 +5828,14 @@
    "mcap_usd": 60106,
    "liquidity_usd": 17476.67,
    "age_hours": 0.26,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T07:42:57+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Ep13piLgesAxM32dB4hVAsmhfWcsTJqVKmQHkYCKpump": {
