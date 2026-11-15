@@ -5928,7 +5928,14 @@
    "mcap_usd": 769310,
    "liquidity_usd": 85870.7,
    "age_hours": 18.48,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T15:01:07+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump": {
@@ -6758,6 +6765,24 @@
    "age_hours": 6.35,
    "checks": {},
    "done": false
+  },
+  "GUkwiQYxXzutiaF1io6i1j67BDd7UzJsgMinLRQ8pump": {
+   "mint": "GUkwiQYxXzutiaF1io6i1j67BDd7UzJsgMinLRQ8pump",
+   "symbol": "WANTED",
+   "pair": "ATme4n27S3Cs26uUFhJarywipNdJ8taP1GUnuurkLa35",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T15:01:03+00:00",
+   "rejected_ts": 1794754863,
+   "stage": "grok",
+   "reason": "337% h6 gain with accelerating m5/h1 pumps signals blow-off top. Volume almost entirely in last hour despite strong buy counts.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001575,
+   "mcap_usd": 155564,
+   "liquidity_usd": 27462.42,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7298,7 +7323,7 @@
    }
   },
   "2026-11-15": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7345,7 +7370,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:danger": 1,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
