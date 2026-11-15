@@ -4578,9 +4578,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-15T00:10:54+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": {
    "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
@@ -6652,6 +6658,24 @@
    "age_hours": 1.48,
    "checks": {},
    "done": false
+  },
+  "Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": {
+   "mint": "Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump",
+   "symbol": "SWIF",
+   "pair": "7L9KEtYJYiSKqaRtFpeXZRq7fwL9wStEcuVHoUyrjqPR",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T00:10:51+00:00",
+   "rejected_ts": 1794701451,
+   "stage": "grok",
+   "reason": "374% h6 gain with volume and buys already fading from h1 peak; m5 activity down sharply vs hourly rate.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001576,
+   "mcap_usd": 155688,
+   "liquidity_usd": 27206.48,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7192,7 +7216,7 @@
    }
   },
   "2026-11-15": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7202,7 +7226,8 @@
    "reasons": {
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
-    "market:mcap_too_low": 1
+    "market:mcap_too_low": 1,
+    "grok:skip": 1
    }
   }
  }
