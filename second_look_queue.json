@@ -6682,6 +6682,24 @@
    "age_hours": 15.17,
    "checks": {},
    "done": false
+  },
+  "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump": {
+   "mint": "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump",
+   "symbol": "NCAT",
+   "pair": "B5h5jqk28owRboHA2uGFeM3CKUh7iCaMNNeqjWs7x5Tz",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T20:49:14+00:00",
+   "rejected_ts": 1794775754,
+   "stage": "rugcheck",
+   "reason": "danger:Large Amount of LP Unlocked",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 7.009e-05,
+   "mcap_usd": 66126,
+   "liquidity_usd": 22166.61,
+   "age_hours": 1.23,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7222,7 +7240,7 @@
    }
   },
   "2026-11-15": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7272,7 +7290,7 @@
     "market:too_new": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 6,
-    "rugcheck:danger": 1,
+    "rugcheck:danger": 2,
     "rugcheck:insiders": 3,
     "market:liquidity_low": 6,
     "rugcheck:top10": 6,
