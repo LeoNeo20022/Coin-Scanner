@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": {
-   "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
-   "symbol": "GTA",
-   "pair": "F66UVPJ1bpQrknxE99BJTUQmG9SmiPnPrQiRUe96YcFg",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T11:28:58+00:00",
-   "rejected_ts": 1794310138,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 7.442e-05,
-   "mcap_usd": 71009,
-   "liquidity_usd": 20016.12,
-   "age_hours": 19.57,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T11:31:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-12T11:29:36+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump": {
    "mint": "DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump",
    "symbol": "CHAINCHOMP131",
@@ -5884,7 +5853,14 @@
    "mcap_usd": 254239,
    "liquidity_usd": 47355.91,
    "age_hours": 1.05,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T11:41:36+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump": {
