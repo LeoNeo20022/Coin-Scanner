@@ -1,67 +1,5 @@
 {
  "entries": {
-  "8ucoTcPLLqcLB2ZgLPW3Rjv9wuj2E2qVfUPVjTFfpump": {
-   "mint": "8ucoTcPLLqcLB2ZgLPW3Rjv9wuj2E2qVfUPVjTFfpump",
-   "symbol": "ansem",
-   "pair": "9fM6HMUvAgUCmiJdwE2ysXJMjfkjB1S2Jx7B4mQwVJPi",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T16:57:36+00:00",
-   "rejected_ts": 1794329856,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 0.0001286,
-   "mcap_usd": 127012,
-   "liquidity_usd": 26661.96,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T17:06:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T16:59:50+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "BTJTo1ESLNmWZ3RpiG1yhkBWxNnj2MypvbBu8v2Qpump": {
-   "mint": "BTJTo1ESLNmWZ3RpiG1yhkBWxNnj2MypvbBu8v2Qpump",
-   "symbol": "DAINU",
-   "pair": "7Nx8SoW2a4RvKTpjYQhCKcFcD6bS8DPZfpw18sg19DFV",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T17:12:47+00:00",
-   "rejected_ts": 1794330767,
-   "stage": "grok",
-   "reason": "751% h6 and 160% h1 gains with fading m5 momentum signal blow-off top. Buys/sells near parity in last 5m after massive volume spike.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0003472,
-   "mcap_usd": 343843,
-   "liquidity_usd": 44236.42,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T17:16:32+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T17:24:01+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump": {
    "mint": "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump",
    "symbol": "DacityCoin",
@@ -6739,6 +6677,24 @@
    "age_hours": 1.05,
    "checks": {},
    "done": false
+  },
+  "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": {
+   "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
+   "symbol": "Nyajira",
+   "pair": "vM9GA1q6LfbjpWx27u9dqZyRNYeyKzCfC86qLHMXfYa",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T17:18:19+00:00",
+   "rejected_ts": 1794763099,
+   "stage": "grok",
+   "reason": "251% h1 gain on 2.85h token looks like blow-off top. Volume and buys still elevated but momentum already extreme.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 9.226e-05,
+   "mcap_usd": 87914,
+   "liquidity_usd": 21320.15,
+   "age_hours": 2.85,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7279,7 +7235,7 @@
    }
   },
   "2026-11-15": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7326,7 +7282,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:danger": 1,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
