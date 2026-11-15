@@ -227,12 +227,6 @@
   "market_logged": 1794355752.4195316,
   "market_reason": "too_old"
  },
- "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump": {
-  "market_logged": 1794166733.8553874,
-  "market_reason": "too_new",
-  "judged": 1794169805.0468967,
-  "symbol": "GROKIA"
- },
  "HMKBqmMXLe4Nt2mmFZEWdWY2dbgrcTuopBmi6xVfpump": {
   "market_logged": 1794171604.7097933,
   "market_reason": "mcap_too_low"
@@ -247,10 +241,6 @@
  },
  "4jtJQ1PHj6w33tQZwFx8qCY2JbSuKWnGBnvWrDMjpump": {
   "market_logged": 1794170104.2541692,
-  "market_reason": "mcap_too_low"
- },
- "Ddcf7inwuqPL71JKP8iZGyd75ZCfxFakJ1jJM72Fpump": {
-  "market_logged": 1794169665.3050344,
   "market_reason": "mcap_too_low"
  },
  "m8nqgxVLv5yzutnHKdWbWBWQGGsvr2BRJzXKLW83otc": {
@@ -7702,8 +7692,8 @@
   "market_reason": "mcap_too_low"
  },
  "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": {
-  "market_logged": 1794771856.957334,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794774698.860418,
+  "market_reason": "mcap_too_low"
  },
  "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump": {
   "market_logged": 1794697293.718296,
@@ -8624,8 +8614,8 @@
   "market_reason": "mcap_too_low"
  },
  "6wnMkKcJTsvFy2ksWeKopm9YMs2Xpy4jSHuQB12Mpump": {
-  "market_logged": 1794770657.3589337,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794774698.860418,
+  "market_reason": "liquidity_low"
  },
  "Bj6yoCzmZ1wSK9hR2wFNPfKp6QoG1TU74AgbfgQSpump": {
   "market_logged": 1794770957.406895,
@@ -8681,5 +8671,13 @@
  "EwVUPKyysUxz1Ej2s6AczqqXjK8EwTNokCtvk38Xpump": {
   "market_logged": 1794774401.4841623,
   "market_reason": "too_new"
+ },
+ "ff5rD21oxjMznMZbmXoJWrrhcZtJVJQ2vgjeDYbpump": {
+  "market_logged": 1794774698.860418,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "CzuZYgmaTJF6MCM6vVwGYgVKzqPX2YiVSyNzzxMXpump": {
+  "market_logged": 1794774698.860418,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
