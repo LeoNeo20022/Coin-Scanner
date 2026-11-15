@@ -5852,7 +5852,14 @@
    "mcap_usd": 267503,
    "liquidity_usd": 52977.31,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T20:54:14+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "lp_unlocked"
+    }
+   },
    "done": false
   },
   "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": {
@@ -6700,6 +6707,24 @@
    "age_hours": 1.23,
    "checks": {},
    "done": false
+  },
+  "5yXxVaEA4mE9Xi5qJJwBqPNj192S2xaHrQBo3R3Xpump": {
+   "mint": "5yXxVaEA4mE9Xi5qJJwBqPNj192S2xaHrQBo3R3Xpump",
+   "symbol": "Emojis",
+   "pair": "4SSSzdSDjyWmy6D3YAUkKCf1D7i7hszinF9GJnfVDfrr",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T20:54:13+00:00",
+   "rejected_ts": 1794776053,
+   "stage": "rugcheck",
+   "reason": "danger:Single holder ownership",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0004165,
+   "mcap_usd": 404025,
+   "liquidity_usd": 63978.83,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7240,7 +7265,7 @@
    }
   },
   "2026-11-15": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7290,7 +7315,7 @@
     "market:too_new": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 6,
-    "rugcheck:danger": 2,
+    "rugcheck:danger": 3,
     "rugcheck:insiders": 3,
     "market:liquidity_low": 6,
     "rugcheck:top10": 6,
