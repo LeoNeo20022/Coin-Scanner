@@ -243,12 +243,6 @@
   "judged": 1794175793.6874044,
   "symbol": "NVIDIH"
  },
- "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
-  "market_logged": 1794172351.5734944,
-  "market_reason": "mcap_too_high",
-  "judged": 1794174893.9870534,
-  "symbol": "PUSSY"
- },
  "ARGGnM1zK12eYCzRYbULJECFsMh4DM7hKgxNk97Pearn": {
   "market_logged": 1794178366.7858355,
   "market_reason": "liquidity_low"
@@ -8686,5 +8680,21 @@
  "ANieheJhnqS9dazFvYkxQgpdKwakNt8J9rhfAFntpump": {
   "market_logged": 1794779357.9043405,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "5LGmxerWmb53hbyP5KYGyP8jXxVmVmBggvNtrHKxCafZ": {
+  "market_logged": 1794779955.7270179,
+  "market_reason": "missing:liquidity_usd"
+ },
+ "8oFRfFF9GPFvL8HdEXL6V2gs7jxzxWMpmcgpwr6pump": {
+  "market_logged": 1794779955.7270179,
+  "market_reason": "mcap_too_low"
+ },
+ "EBM6Qa4yJzpyS7xfJueYfMgELRJGWUeaqomWe47Jpump": {
+  "market_logged": 1794779955.7270179,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "6SAFNdumKYNWVsuM116C7XQSVaJaxkFRbmrxHrNipump": {
+  "market_logged": 1794779955.7270179,
+  "market_reason": "too_new"
  }
 }
