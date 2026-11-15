@@ -6676,6 +6676,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": {
+   "mint": "AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump",
+   "symbol": "Bear",
+   "pair": "BPDnqiCtTAYfiYiTB6Pgrwx6XVHPNsTdSgDhDoNds6X7",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T00:20:31+00:00",
+   "rejected_ts": 1794702031,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0001207,
+   "mcap_usd": 116198,
+   "liquidity_usd": 24444.93,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7216,7 +7234,7 @@
    }
   },
   "2026-11-15": {
-   "total": 4,
+   "total": 5,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7227,7 +7245,8 @@
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
     "market:mcap_too_low": 1,
-    "grok:skip": 1
+    "grok:skip": 1,
+    "rugcheck:danger": 1
    }
   }
  }
