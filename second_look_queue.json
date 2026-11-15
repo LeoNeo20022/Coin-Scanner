@@ -1,36 +1,5 @@
 {
  "entries": {
-  "3yjyHCC4EzLb7J7cx3uczgTrqhpXDCBkfShK8Rf3pump": {
-   "mint": "3yjyHCC4EzLb7J7cx3uczgTrqhpXDCBkfShK8Rf3pump",
-   "symbol": "TRUMP",
-   "pair": "DmoLzHQEtUPeoeo1XMY6CqJodT2TCkFQHPV4Y4AhvYRH",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T13:48:08+00:00",
-   "rejected_ts": 1794318488,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles",
-   "price_usd": 0.001296,
-   "mcap_usd": 1249970,
-   "liquidity_usd": 1135681.76,
-   "age_hours": 2.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T13:51:47+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T13:50:34+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "9S1DYY1wKRuETUfQ88pDtpxrKf5CsEJcYompw2CRApad": {
    "mint": "9S1DYY1wKRuETUfQ88pDtpxrKf5CsEJcYompw2CRApad",
    "symbol": "MEOW",
@@ -6813,6 +6782,24 @@
    "age_hours": 2.12,
    "checks": {},
    "done": false
+  },
+  "8UqE9m2rMoxUzrz4kBVWx5ia3PiA2aGD6kiZUoiUpump": {
+   "mint": "8UqE9m2rMoxUzrz4kBVWx5ia3PiA2aGD6kiZUoiUpump",
+   "symbol": "DOUG",
+   "pair": "GxGxBzzzFedDcrY8phiE3HJ2hUeDkDgRgCR5QttSRBPn",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T13:57:52+00:00",
+   "rejected_ts": 1794751072,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001069,
+   "mcap_usd": 102898,
+   "liquidity_usd": 27455.94,
+   "age_hours": 6.35,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7353,7 +7340,7 @@
    }
   },
   "2026-11-15": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7404,7 +7391,7 @@
     "rugcheck:danger": 1,
     "rugcheck:insiders": 2,
     "market:liquidity_low": 6,
-    "rugcheck:top10": 4,
+    "rugcheck:top10": 5,
     "market:volume_h1_low": 4
    }
   }
