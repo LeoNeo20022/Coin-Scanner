@@ -1,129 +1,5 @@
 {
  "entries": {
-  "2NFDhipSmrn3GaU7UK6jPvYxbveBUvNs6ec71r2ipump": {
-   "mint": "2NFDhipSmrn3GaU7UK6jPvYxbveBUvNs6ec71r2ipump",
-   "symbol": "DINGALINGLONG",
-   "pair": "ivqyz7o8HgCR8dCn62xtbggcKKZ2Wv6DRX14jx8M62y",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T05:03:32+00:00",
-   "rejected_ts": 1794287012,
-   "stage": "market",
-   "reason": "mcap_too_low",
-   "reason_key": "market:mcap_too_low",
-   "sources": "token-profiles",
-   "price_usd": 2.376e-05,
-   "mcap_usd": 23738,
-   "liquidity_usd": 10526.9,
-   "age_hours": 0.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T05:06:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T05:22:25+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "2EhvVKz6XNSSv8DC2j7eHeMK6doYDpLkyWHGvPcNpump": {
-   "mint": "2EhvVKz6XNSSv8DC2j7eHeMK6doYDpLkyWHGvPcNpump",
-   "symbol": "BootyCoin",
-   "pair": "J141idZZRFqvex8g2CU8Dq8PST6oxDrAjNUuLDNxH3y",
-   "dex": "pumpfun",
-   "rejected_at": "2026-11-10T05:03:32+00:00",
-   "rejected_ts": 1794287012,
-   "stage": "market",
-   "reason": "pumpfun_bonding_curve",
-   "reason_key": "market:pumpfun_bonding_curve",
-   "sources": "token-profiles",
-   "price_usd": 2.622e-06,
-   "mcap_usd": 2622.39,
-   "liquidity_usd": null,
-   "age_hours": 0.3,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T05:06:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "pumpfun_bonding_curve"
-    },
-    "48h": {
-     "time": "2026-11-12T05:22:25+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "6G6p82ieTBmdg6GAdUaWAQSMZLKDhorwC1M9Czntpump": {
-   "mint": "6G6p82ieTBmdg6GAdUaWAQSMZLKDhorwC1M9Czntpump",
-   "symbol": "Baibo",
-   "pair": "3JN5T15YZtgcWs5FzNUAiEfzx2zHGrWUk4JYRsMzyTeE",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T05:03:32+00:00",
-   "rejected_ts": 1794287012,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 7.344e-05,
-   "mcap_usd": 73376,
-   "liquidity_usd": 20019.79,
-   "age_hours": 0.59,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T05:06:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T05:22:25+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
-  "Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump": {
-   "mint": "Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump",
-   "symbol": "KAWAENE",
-   "pair": "Hn73kdSjtRQG19uy9znVNLCY9ovfXmFQADf7EMth1Bhg",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-10T05:03:59+00:00",
-   "rejected_ts": 1794287039,
-   "stage": "grok",
-   "reason": "396% h6 gain with 47% h1 still shows classic early pump; volume spike concentrated in last hour suggests fading momentum.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001857,
-   "mcap_usd": 183609,
-   "liquidity_usd": 32491.68,
-   "age_hours": 1.04,
-   "checks": {
-    "24h": {
-     "time": "2026-11-11T05:06:30+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-12T05:22:25+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd": {
    "mint": "52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd",
    "symbol": "BREW",
@@ -5989,7 +5865,14 @@
    "mcap_usd": 254553,
    "liquidity_usd": 37362.82,
    "age_hours": 1.86,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-15T05:27:11+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "ErxEUaWeR2zBJ6Zcj5sDPGc6MEQmgzkU6YoV2Ljapump": {
