@@ -6712,6 +6712,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": {
+   "mint": "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump",
+   "symbol": "RWA",
+   "pair": "9VrfMKz1QemdqSZ3656i2vCP2x4WT5WwJtfbgDhVKpWq",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-15T00:33:07+00:00",
+   "rejected_ts": 1794702787,
+   "stage": "grok",
+   "reason": "191% h6 pump followed by -45% m5 crash shows classic blow-off reversal despite buy count. Volume concentrated in first hour, activity already fading.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001002,
+   "mcap_usd": 99176,
+   "liquidity_usd": 21334.39,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7252,7 +7270,7 @@
    }
   },
   "2026-11-15": {
-   "total": 6,
+   "total": 7,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7263,7 +7281,7 @@
     "market:pumpfun_bonding_curve": 1,
     "market:too_new": 1,
     "market:mcap_too_low": 1,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:danger": 1
    }
   }
