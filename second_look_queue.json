@@ -4485,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-16T12:12:26+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk": {
    "mint": "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk",
@@ -6505,6 +6511,24 @@
    "age_hours": 1.3,
    "checks": {},
    "done": false
+  },
+  "DdpwR8QXfnS11HUrSdNmnNvXj3XDMcePoHsWGJrdpump": {
+   "mint": "DdpwR8QXfnS11HUrSdNmnNvXj3XDMcePoHsWGJrdpump",
+   "symbol": "ZLUSD",
+   "pair": "2eft8gFjKT8JJjiUH92wDyjeWKmxCFdAfeRybVrydcpG",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-16T12:12:24+00:00",
+   "rejected_ts": 1794831144,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 7.038e-05,
+   "mcap_usd": 70381,
+   "liquidity_usd": 18676.39,
+   "age_hours": 0.24,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7050,7 +7074,7 @@
    }
   },
   "2026-11-16": {
-   "total": 33,
+   "total": 34,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7085,7 +7109,9 @@
     "09": 1,
     "09|market:liquidity_low": 1,
     "10": 1,
-    "10|market:too_new": 1
+    "10|market:too_new": 1,
+    "12": 1,
+    "12|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7094,7 +7120,7 @@
     "grok:skip": 3,
     "rugcheck:top10": 2,
     "rugcheck:insiders": 3,
-    "market:liquidity_low": 5,
+    "market:liquidity_low": 6,
     "market:sells_ge_buys_h1": 1,
     "rugcheck:lp_unlocked": 1
    }

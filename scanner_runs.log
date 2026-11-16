@@ -1,18 +1,3 @@
-[2026-11-14T17:22:11+00:00] second_look: pass end {"queued": 244, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
-[2026-11-14T17:22:11+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-14T17:22:51+00:00] scout: paper: candles unavailable 5ZDiuBxC (RuntimeError)
-[2026-11-14T17:23:03+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-14T17:23:03+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-11-14T17:23:03+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-14T17:23:03+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-14T17:23:34+00:00] scout: pass end {"watch": 350, "a_qualify": 0, "a_open": 0, "b_eval": 3, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=83s
-[2026-11-14T17:27:00+00:00] run start (LOG ONLY)
-[2026-11-14T17:27:09+00:00] discovered=57 fresh=47 market_pass=0
-[2026-11-14T17:27:09+00:00] grok daily budget 5/40 used, 0 no-response, $0.0142 (2026-11-14 UTC)
-[2026-11-14T17:27:09+00:00] run end {"discovered": 57, "skipped_recent": 10, "no_pair": 1, "market": {"mcap_too_low": 13, "liquidity_low": 4, "pumpfun_bonding_curve": 19, "too_new": 2, "volume_h1_low": 1, "too_old": 6, "mcap_too_high": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
-[2026-11-14T17:27:11+00:00] second_look: 48h BALLS 5ZA32Fxz… (rejected grok:skip) -> fail: no_solana_pair [dead: no_pair]
-[2026-11-14T17:27:11+00:00] second_look: pass end {"queued": 244, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=2s
-[2026-11-14T17:27:11+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-11-14T17:27:51+00:00] scout: paper: candles unavailable 4B1mCGeS (RuntimeError)
 [2026-11-14T17:28:03+00:00] scout: feed error trending_pools?page=1: 429
 [2026-11-14T17:28:03+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
@@ -4998,3 +4983,18 @@
 [2026-11-16T12:08:33+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-16T12:08:33+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-16T12:09:32+00:00] scout: pass end {"watch": 347, "a_qualify": 6, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=124s
+[2026-11-16T12:12:13+00:00] run start (LOG ONLY)
+[2026-11-16T12:12:24+00:00] discovered=49 fresh=42 market_pass=0
+[2026-11-16T12:12:24+00:00] grok daily budget 6/40 used, 0 no-response, $0.0162 (2026-11-16 UTC)
+[2026-11-16T12:12:24+00:00] run end {"discovered": 49, "skipped_recent": 7, "no_pair": 0, "market": {"liquidity_low": 2, "pumpfun_bonding_curve": 17, "mcap_too_low": 15, "mcap_too_high": 4, "too_old": 4}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 1} elapsed=11s
+[2026-11-16T12:12:26+00:00] second_look: 48h DCYC 22hXYVLh… (rejected rugcheck:insiders) -> fail: mcap_too_low
+[2026-11-16T12:12:30+00:00] second_look: pass end {"queued": 239, "due": 1, "rechecked": 1, "pass": 0, "opened": 0} elapsed=6s
+[2026-11-16T12:12:30+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-16T12:13:15+00:00] scout: paper: candles unavailable 2NUaS6Gf (RuntimeError)
+[2026-11-16T12:13:15+00:00] scout: paper: [pool/target5] CYBERDACITY closed stop_loss -5.11 after fees
+[2026-11-16T12:13:15+00:00] scout: paper: [pool/hold] CYBERDACITY closed stop_loss -5.11 after fees
+[2026-11-16T12:13:27+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-16T12:13:27+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-16T12:13:27+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
+[2026-11-16T12:13:27+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-16T12:14:21+00:00] scout: pass end {"watch": 347, "a_qualify": 4, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=111s
