@@ -6517,6 +6517,24 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "FJbyUWahiRMtLnExTDJ1HzhKHjJzMTbZJL27S2NVpump": {
+   "mint": "FJbyUWahiRMtLnExTDJ1HzhKHjJzMTbZJL27S2NVpump",
+   "symbol": "ROCCO",
+   "pair": "2v6CUPcz1Ra8YxCgUX3GhW4gEnfMErek4CrzgmczZQ6E",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-16T21:10:05+00:00",
+   "rejected_ts": 1794863405,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.001426,
+   "mcap_usd": 1408264,
+   "liquidity_usd": 1240816.14,
+   "age_hours": 1.88,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7062,7 +7080,7 @@
    }
   },
   "2026-11-16": {
-   "total": 44,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7099,7 +7117,9 @@
     "10": 1,
     "10|market:too_new": 1,
     "12": 1,
-    "12|market:liquidity_low": 1
+    "12|market:liquidity_low": 1,
+    "21": 1,
+    "21|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:too_new": 6,
@@ -7109,7 +7129,7 @@
     "rugcheck:top10": 6,
     "rugcheck:insiders": 4,
     "market:liquidity_low": 6,
-    "market:sells_ge_buys_h1": 1,
+    "market:sells_ge_buys_h1": 2,
     "rugcheck:lp_unlocked": 3
    }
   }
