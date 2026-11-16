@@ -6559,6 +6559,24 @@
    "age_hours": 3.21,
    "checks": {},
    "done": false
+  },
+  "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": {
+   "mint": "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump",
+   "symbol": "BAWSAQ",
+   "pair": "DQnoiJies9KrPJUiuCLExiCWh8jCrofL3zzUhgdL55kR",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-16T22:40:07+00:00",
+   "rejected_ts": 1794868807,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0003223,
+   "mcap_usd": 311453,
+   "liquidity_usd": 43188.35,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7104,7 +7122,7 @@
    }
   },
   "2026-11-16": {
-   "total": 46,
+   "total": 47,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7154,7 +7172,7 @@
     "rugcheck:insiders": 5,
     "market:liquidity_low": 6,
     "market:sells_ge_buys_h1": 2,
-    "rugcheck:lp_unlocked": 3
+    "rugcheck:lp_unlocked": 4
    }
   }
  }
