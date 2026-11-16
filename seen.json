@@ -63,12 +63,6 @@
   "judged": 1793814860.0347974,
   "symbol": "Impeach"
  },
- "HjiBij1BcEwjcgPEb22K8y7imdgaf1kHGMHuEgcDpump": {
-  "judged": 1793756237.9614308,
-  "symbol": "AMD",
-  "market_logged": 1794246839.6688805,
-  "market_reason": "liquidity_low"
- },
  "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump": {
   "judged": 1793764139.2694576,
   "symbol": "BUSTED",
@@ -244,26 +238,6 @@
   "market_reason": "volume_h1_low",
   "judged": 1794396989.4425502,
   "symbol": "GTA"
- },
- "FyVLetA1Jt84CPYPZTvxb8noxMrwbKj178ZoqkdWeVjc": {
-  "market_logged": 1794248040.0147989,
-  "market_reason": "mcap_too_low"
- },
- "6GMjV5PHfeNMaXykCktvbdmXAx54TdKfRxSRaD5Spump": {
-  "market_logged": 1794247739.817386,
-  "market_reason": "mcap_too_low"
- },
- "2qM8iCfrYbcaCik9zmyWZ4n4ThEfZWgcv1vkn3QJpump": {
-  "market_logged": 1794247739.817386,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "3xQYoRyycadwD4ZJvFejabeHetva5xDAjggBhFW9pump": {
-  "market_logged": 1794247739.817386,
-  "market_reason": "too_new"
- },
- "FbcNvCYPRfuVcepP6kMUquQNQoDuE5WE1EutMepcpump": {
-  "market_logged": 1794248040.0147989,
-  "market_reason": "mcap_too_low"
  },
  "GhgGZiqphHoFDagvsvggu6AcR3G9mR9xLmYcpjzbh8qf": {
   "market_logged": 1794252301.6396694,
@@ -8452,8 +8426,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump": {
-  "market_logged": 1794851018.5325785,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794852879.9149487,
+  "market_reason": "mcap_too_low"
  },
  "mYEySCnWCTnoZ7YUJ8Tv4ensNoxwg4XDssnPRKCpump": {
   "market_logged": 1794845335.1609302,
@@ -8556,7 +8530,9 @@
  },
  "EsSzJa8xsyehSvVsNUy6t1KxMXgZYYaJKBAqyJxT3bid": {
   "market_logged": 1794850419.0270433,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794852879.9149487,
+  "symbol": "DSP"
  },
  "AM3QRB4uWsZb9E3NTo4bEqP6WwQKUoR24gHiho4Dpump": {
   "market_logged": 1794850719.000088,
@@ -8567,8 +8543,8 @@
   "market_reason": "too_new"
  },
  "2hg559PqkbnfaprUE3V5dSFAaDNjURnmvGs79kqepump": {
-  "market_logged": 1794851318.9274056,
-  "market_reason": "too_new"
+  "market_logged": 1794852879.9149487,
+  "market_reason": "mcap_too_low"
  },
  "5cWEsjkrgYAZaoJ5nDAHgzJC5SULGM2AQUeiTauxyYvq": {
   "market_logged": 1794851318.9274056
@@ -8582,8 +8558,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "GQjTPFGvSwJbLc3Qc5iW7aFbQhhxZicqWJWno46spump": {
-  "market_logged": 1794851618.4438508,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794852879.9149487,
+  "market_reason": "liquidity_low"
  },
  "27wf8Mh7PFdy4Vr1VqUCc5K6DCp23H3FyqsK3Ymjpump": {
   "market_logged": 1794851618.4438508,
@@ -8592,5 +8568,44 @@
  "BEivETeJfF2tLkuTc5dNMcpMH6vGGcwtZchw1J3vpump": {
   "market_logged": 1794851618.4438508,
   "market_reason": "too_new"
+ },
+ "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "too_new"
+ },
+ "23GBezAJzK8fJNZzgA5LWLyz2WxDNTBfMKtgTQNPpump": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "liquidity_low"
+ },
+ "FVugTPW5CG2gvGthnaeDhJyBdwdQqcuzgFEFEAfhpump": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "FhGHZixq2fGzd3XZjf8rvM3bjKmezZK38mcaDkvgwuay": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "missing:mcap_usd"
+ },
+ "9qKDd1im82WJgX45yYioesvfuQ8AVTPmqZcn2ewoRssL": {
+  "market_logged": 1794852879.9149487
+ },
+ "CRWzz3AVWhD4rAuJhbkFTbSVryjxaobeAmaxQtHspump": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "C14YbyFXqSvhhcj3NdFvgaqQGPo9W5YhWpWXynCQpump": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "mcap_too_low"
+ },
+ "41rcvc2JymJAuQWY1rfx5XStrLdN1EMfSL8k3qq4pump": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "3EDLvS4PMWXmN5oj7aGWwR16yC3zgZSdWL2BeVK8sent": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
+  "market_logged": 1794852879.9149487,
+  "market_reason": "mcap_too_high"
  }
 }
