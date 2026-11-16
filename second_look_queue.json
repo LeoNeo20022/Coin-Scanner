@@ -1,36 +1,5 @@
 {
  "entries": {
-  "74xFKmxYk33yFdnWHh6VbKECnBw2cEhEa1dBqnmDHPNX": {
-   "mint": "74xFKmxYk33yFdnWHh6VbKECnBw2cEhEa1dBqnmDHPNX",
-   "symbol": "GTA$",
-   "pair": "3fBYy8s1ZbqarqpXfeEAMXLNuEbuXJNK4gsqrGBQ3NKY",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-11T18:16:51+00:00",
-   "rejected_ts": 1794421011,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-profiles",
-   "price_usd": 5.591e-05,
-   "mcap_usd": 53274,
-   "liquidity_usd": 20439.95,
-   "age_hours": 1.6,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T18:21:49+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-13T18:23:59+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "Cy3bFG4L4ZjZydoV7Ak4QRihRR1PZCNBjsMqgs9upKQR": {
    "mint": "Cy3bFG4L4ZjZydoV7Ak4QRihRR1PZCNBjsMqgs9upKQR",
    "symbol": "POKE",
@@ -5629,7 +5598,14 @@
    "mcap_usd": 703573,
    "liquidity_usd": 60441.83,
    "age_hours": 5.88,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-16T18:19:44+00:00",
+     "would_pass": "1",
+     "dead": "0",
+     "result": "pass"
+    }
+   },
    "done": false
   },
   "7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump": {
