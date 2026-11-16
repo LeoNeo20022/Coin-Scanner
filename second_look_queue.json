@@ -1,36 +1,5 @@
 {
  "entries": {
-  "85gJ7HucRUpPjLZP9KVWEKyB85uBxtwMfqzm9ufNpump": {
-   "mint": "85gJ7HucRUpPjLZP9KVWEKyB85uBxtwMfqzm9ufNpump",
-   "symbol": "vibeshift",
-   "pair": "HLyTsBPTWKkj6gugfLrY11X9NBxkjFtfPWqXgZGq26We",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-11T00:46:52+00:00",
-   "rejected_ts": 1794358012,
-   "stage": "rugcheck",
-   "reason": "danger:Large Amount of LP Unlocked",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 8.271e-05,
-   "mcap_usd": 80477,
-   "liquidity_usd": 23849.31,
-   "age_hours": 1.07,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T00:49:12+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-13T01:07:43+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "7ynko9bycSr8czpCHteQQfS6yu7MWVjbQJbrBE8Rpump": {
    "mint": "7ynko9bycSr8czpCHteQQfS6yu7MWVjbQJbrBE8Rpump",
    "symbol": "ANAL",
@@ -5940,7 +5909,14 @@
    "mcap_usd": 63594,
    "liquidity_usd": 20750.7,
    "age_hours": 13.47,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-16T00:54:01+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Gv7RZhha9hqEVV5x9FsQiFuEEs8ffyUwJ8YfGF31pump": {
