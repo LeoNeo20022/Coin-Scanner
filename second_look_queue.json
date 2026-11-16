@@ -6413,6 +6413,24 @@
    "age_hours": 1.14,
    "checks": {},
    "done": false
+  },
+  "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": {
+   "mint": "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump",
+   "symbol": "GTA",
+   "pair": "7TiCdhJE5YHWgrAs8v1EXxxvAJy9eTbzVq97nFgqDhYt",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-16T19:34:50+00:00",
+   "rejected_ts": 1794857690,
+   "stage": "grok",
+   "reason": "1089% 6h and 125% 1h gains point to blow-off top; m5 buys/sells now flat after heavy earlier volume.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0003807,
+   "mcap_usd": 376923,
+   "liquidity_usd": 43489.98,
+   "age_hours": 1.63,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6958,7 +6976,7 @@
    }
   },
   "2026-11-16": {
-   "total": 40,
+   "total": 41,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7001,7 +7019,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 4,
     "market:liquidity_low": 6,
