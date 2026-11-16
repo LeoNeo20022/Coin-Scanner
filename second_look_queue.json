@@ -6363,6 +6363,24 @@
    "age_hours": 1.24,
    "checks": {},
    "done": false
+  },
+  "48UW5PSMpaN1x2YW3ArY4xEiKyP8bJTFfednCHMG3Jcx": {
+   "mint": "48UW5PSMpaN1x2YW3ArY4xEiKyP8bJTFfednCHMG3Jcx",
+   "symbol": "SNUT",
+   "pair": "J7xAvk1YFn3hsZzPeF5hQeR8t5Rc2Rxz76r1gAzoXgXZ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-16T18:49:44+00:00",
+   "rejected_ts": 1794854984,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001341,
+   "mcap_usd": 129814,
+   "liquidity_usd": 32729.15,
+   "age_hours": 3.81,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6908,7 +6926,7 @@
    }
   },
   "2026-11-16": {
-   "total": 38,
+   "total": 39,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6952,7 +6970,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 3,
-    "rugcheck:top10": 5,
+    "rugcheck:top10": 6,
     "rugcheck:insiders": 4,
     "market:liquidity_low": 6,
     "market:sells_ge_buys_h1": 1,
