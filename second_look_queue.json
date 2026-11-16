@@ -1,129 +1,5 @@
 {
  "entries": {
-  "6WrFRgPTkvA1U9vGX9mdbvTsne3AteJ9azvrGweUpump": {
-   "mint": "6WrFRgPTkvA1U9vGX9mdbvTsne3AteJ9azvrGweUpump",
-   "symbol": "reatherjak",
-   "pair": "9wHfr8hm7g9LrgQKKzfrqkVykmPMRumWGaoBCFVCpivB",
-   "dex": "pumpfun",
-   "rejected_at": "2026-11-11T03:10:55+00:00",
-   "rejected_ts": 1794366655,
-   "stage": "market",
-   "reason": "pumpfun_bonding_curve",
-   "reason_key": "market:pumpfun_bonding_curve",
-   "sources": "token-profiles",
-   "price_usd": 1.239e-05,
-   "mcap_usd": 12399.21,
-   "liquidity_usd": null,
-   "age_hours": 0.45,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T03:23:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-13T03:11:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "8tbfkL8LZYUN3ygzWMKfffqVd7tLRpWkuh2fowsepump": {
-   "mint": "8tbfkL8LZYUN3ygzWMKfffqVd7tLRpWkuh2fowsepump",
-   "symbol": "HAOBIBI",
-   "pair": "6KGi2cojtYRixh9JS2n5x3Yp7fssDCvYFDv8n6xX2Tug",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-11T03:10:55+00:00",
-   "rejected_ts": 1794366655,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 0.0001259,
-   "mcap_usd": 125889,
-   "liquidity_usd": 26047.35,
-   "age_hours": 0.49,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T03:23:07+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-13T03:11:22+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "5hrzoyv9yze7Kavp2qVh9V76PoMmgBB5tMFNheEspump": {
-   "mint": "5hrzoyv9yze7Kavp2qVh9V76PoMmgBB5tMFNheEspump",
-   "symbol": "Wong",
-   "pair": "AgdjttT1EK95dnZY8eioNLpRGab3gNh5gTW3ce9EFSMo",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-11T03:10:55+00:00",
-   "rejected_ts": 1794366655,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.37e-05,
-   "mcap_usd": 51359,
-   "liquidity_usd": 17119.27,
-   "age_hours": 2.14,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T03:23:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-13T03:11:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "9oD9pi7KfiXKGt3zq6w65HpwbCdax5KcpEZZQE5ipump": {
-   "mint": "9oD9pi7KfiXKGt3zq6w65HpwbCdax5KcpEZZQE5ipump",
-   "symbol": "MISU",
-   "pair": "Rnhd2wDeT2bik5Z7oCjjpEjsNGXaH7roDPpWv4isgzW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-11T03:20:57+00:00",
-   "rejected_ts": 1794367257,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "community-takeovers",
-   "price_usd": 7.86e-05,
-   "mcap_usd": 75247,
-   "liquidity_usd": 20183.27,
-   "age_hours": 3.48,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T03:23:07+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    },
-    "48h": {
-     "time": "2026-11-13T03:21:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": {
    "mint": "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump",
    "symbol": "VEYL",
@@ -4702,9 +4578,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-16T03:35:28+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
    "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
@@ -4727,9 +4609,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-16T03:35:28+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "danger:Large Amount of LP Unlocked"
     }
    },
-   "done": false
+   "done": true
   },
   "BACwpoY4zxjYe369gb8jbi53874QMy1j4VDtXV3rpump": {
    "mint": "BACwpoY4zxjYe369gb8jbi53874QMy1j4VDtXV3rpump",
