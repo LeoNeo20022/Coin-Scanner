@@ -1,67 +1,5 @@
 {
  "entries": {
-  "2ExUXedCdWQJNZmkuEuEBUcUggyaMJjxFPJM4a4dpump": {
-   "mint": "2ExUXedCdWQJNZmkuEuEBUcUggyaMJjxFPJM4a4dpump",
-   "symbol": "Lazarus",
-   "pair": "HAJ67wEr5hnGHYvm4xVuyae6q454hHfZWNB6RmwG3BoS",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-11T14:35:04+00:00",
-   "rejected_ts": 1794407704,
-   "stage": "rugcheck",
-   "reason": "danger:Low Liquidity",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.001677,
-   "mcap_usd": 1649636,
-   "liquidity_usd": 1609129.02,
-   "age_hours": 1.26,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T14:35:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-13T14:35:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": {
-   "mint": "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump",
-   "symbol": "NIHAO",
-   "pair": "4rsLuj8sBFFMwM4AK6p4R5RbZ7y2m9CGrefxVb29JbgN",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-11T14:35:06+00:00",
-   "rejected_ts": 1794407706,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-boosts/top",
-   "price_usd": 0.001543,
-   "mcap_usd": 1535026,
-   "liquidity_usd": 103066.38,
-   "age_hours": 14.6,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T14:35:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-13T14:35:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "Fkc9FKhK1K8FSPtKkcjfGkpeb4waa3DspRXHmwvvpump": {
    "mint": "Fkc9FKhK1K8FSPtKkcjfGkpeb4waa3DspRXHmwvvpump",
    "symbol": "ape hao",
@@ -4547,9 +4485,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-16T14:38:14+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump": {
    "mint": "8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump",
