@@ -4516,9 +4516,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "lp_unlocked"
+    },
+    "48h": {
+     "time": "2026-11-16T20:55:10+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": {
    "mint": "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump",
@@ -5710,7 +5716,14 @@
    "mcap_usd": 404025,
    "liquidity_usd": 63978.83,
    "age_hours": 1.04,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-16T20:55:10+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump": {
