@@ -253,10 +253,6 @@
   "judged": 1794234500.3744981,
   "symbol": "GINGATO"
  },
- "4aUfV4hf2o7U8AZYGqpMM3Uve6GAbB3uedATpwpApump": {
-  "market_logged": 1794233600.5235138,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "AmoPNK8bzo6Aj1U49bDBEjyrY59rGejuXHTmXbtGyfHx": {
   "market_logged": 1794322586.099281,
   "market_reason": "pumpfun_bonding_curve"
@@ -8591,7 +8587,9 @@
  },
  "83GtPpfNSau1mtDZZ7Vx6YCf8gA5eBxniWCoDsvK2avy": {
   "market_logged": 1794838090.3669946,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "judged": 1794838689.3303277,
+  "symbol": "Stumpy"
  },
  "EYtdEdimoHWL6jiA9MRbGwhce4jJtFeEXP18sFKCpump": {
   "market_logged": 1794838090.3669946,
@@ -8612,5 +8610,9 @@
  "CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": {
   "judged": 1794838090.3669946,
   "symbol": "DOUG"
+ },
+ "FV23gQJYmnqSZtEkVCzVAzwS5YmSQcp7UuYSLVepump": {
+  "market_logged": 1794838689.3303277,
+  "market_reason": "mcap_too_low"
  }
 }
