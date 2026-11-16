@@ -1,36 +1,5 @@
 {
  "entries": {
-  "DFNnZi7mLegSKFhipUa964Z1DdLRKmggTr1vUhtwH6Bi": {
-   "mint": "DFNnZi7mLegSKFhipUa964Z1DdLRKmggTr1vUhtwH6Bi",
-   "symbol": "STONKLANA",
-   "pair": "31M8q9PWTaFqE32kwLVfGTKR1nQrtyfEWJBL9jHXsqfW",
-   "dex": "raydium",
-   "rejected_at": "2026-11-11T09:04:29+00:00",
-   "rejected_ts": 1794387869,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "community-takeovers",
-   "price_usd": 5.259e-05,
-   "mcap_usd": 52600,
-   "liquidity_usd": 11074.4,
-   "age_hours": 1334.31,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T09:07:19+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-13T09:06:47+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "7cin51XTpSkesiZMLJvEGNXqd5DFFqSBixcvn7Ppump": {
    "mint": "7cin51XTpSkesiZMLJvEGNXqd5DFFqSBixcvn7Ppump",
    "symbol": "TI",
@@ -5754,7 +5723,14 @@
    "mcap_usd": 69473,
    "liquidity_usd": 17986.76,
    "age_hours": 1.33,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-16T09:08:04+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
@@ -6530,6 +6506,24 @@
    "age_hours": 0.3,
    "checks": {},
    "done": false
+  },
+  "G3aDdJLXfz1YEp6rv9FY9TC1XWZi6iGbxyAze3Ngpump": {
+   "mint": "G3aDdJLXfz1YEp6rv9FY9TC1XWZi6iGbxyAze3Ngpump",
+   "symbol": "DADDY",
+   "pair": "EqwvXKHSMHY97G8W6XxBfihupssb7uQGP3S8Wy9dQTXM",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-16T09:08:02+00:00",
+   "rejected_ts": 1794820082,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.847e-05,
+   "mcap_usd": 58378,
+   "liquidity_usd": 19574.93,
+   "age_hours": 0.42,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7075,7 +7069,7 @@
    }
   },
   "2026-11-16": {
-   "total": 30,
+   "total": 31,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7106,7 +7100,9 @@
     "06|market:too_new": 1,
     "06|market:liquidity_low": 1,
     "08": 1,
-    "08|market:liquidity_low": 1
+    "08|market:liquidity_low": 1,
+    "09": 1,
+    "09|market:liquidity_low": 1
    },
    "reasons": {
     "market:too_new": 5,
@@ -7115,7 +7111,7 @@
     "grok:skip": 3,
     "rugcheck:top10": 2,
     "rugcheck:insiders": 3,
-    "market:liquidity_low": 4,
+    "market:liquidity_low": 5,
     "market:sells_ge_buys_h1": 1
    }
   }
