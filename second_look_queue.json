@@ -6541,6 +6541,24 @@
    "age_hours": 1.88,
    "checks": {},
    "done": false
+  },
+  "3XiwhhcYJfyZPBT4tbDZ9hom8wwMTEM3d2YJwxLwAwYC": {
+   "mint": "3XiwhhcYJfyZPBT4tbDZ9hom8wwMTEM3d2YJwxLwAwYC",
+   "symbol": "MEOWL",
+   "pair": "68Tw3ryopJzwzdHxnjpf1vjgQw3pH6Fr2gvEgkjxymZC",
+   "dex": "raydium",
+   "rejected_at": "2026-11-16T22:30:12+00:00",
+   "rejected_ts": 1794868212,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-profiles",
+   "price_usd": 8.363e-05,
+   "mcap_usd": 83639,
+   "liquidity_usd": 20778.47,
+   "age_hours": 3.21,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7086,7 +7104,7 @@
    }
   },
   "2026-11-16": {
-   "total": 45,
+   "total": 46,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7133,7 +7151,7 @@
     "market:mcap_too_low": 6,
     "grok:skip": 6,
     "rugcheck:top10": 6,
-    "rugcheck:insiders": 4,
+    "rugcheck:insiders": 5,
     "market:liquidity_low": 6,
     "market:sells_ge_buys_h1": 2,
     "rugcheck:lp_unlocked": 3
