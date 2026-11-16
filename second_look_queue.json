@@ -1,36 +1,5 @@
 {
  "entries": {
-  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
-   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
-   "symbol": "LuckyCoin",
-   "pair": "7YXjoiRDtVkHVJTnFoCiZkH6Ro1BTURTEZSh2HEWU1jE",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-11T17:31:31+00:00",
-   "rejected_ts": 1794418291,
-   "stage": "market",
-   "reason": "sells_ge_buys_h1",
-   "reason_key": "market:sells_ge_buys_h1",
-   "sources": "token-profiles",
-   "price_usd": 0.0001547,
-   "mcap_usd": 151102,
-   "liquidity_usd": 28713.52,
-   "age_hours": 1.5,
-   "checks": {
-    "24h": {
-     "time": "2026-11-12T17:33:50+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "danger:Large Amount of LP Unlocked"
-    },
-    "48h": {
-     "time": "2026-11-13T17:36:18+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    }
-   },
-   "done": true
-  },
   "Z5ijNneoDubKBEhzTumUgfm18m6PjUDred4gp7Xpump": {
    "mint": "Z5ijNneoDubKBEhzTumUgfm18m6PjUDred4gp7Xpump",
    "symbol": "mihao",
@@ -4516,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "volume_h1_low"
+    },
+    "48h": {
+     "time": "2026-11-16T17:33:43+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": {
    "mint": "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump",
