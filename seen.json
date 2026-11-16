@@ -237,10 +237,6 @@
   "judged": 1794200111.360972,
   "symbol": "GPU"
  },
- "7aSQCD5ffizjFRBx8yWRtnu7s1yXeifLeGrKkUCDpump": {
-  "market_logged": 1794195605.8347073,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "9VGfxBj4mfX6Aps5jh6vj1Q526vQ7PfSPdGQUnppump": {
   "market_logged": 1794196726.2313297,
   "market_reason": "mcap_too_low"
@@ -7306,8 +7302,8 @@
   "market_reason": "mcap_too_low"
  },
  "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": {
-  "market_logged": 1794784448.933515,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794800421.2102387,
+  "market_reason": "liquidity_low"
  },
  "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump": {
   "market_logged": 1794697293.718296,
@@ -8640,6 +8636,10 @@
  },
  "27KBfpQHcbnJWduXF6pHqvw9dEtiMD1Pktcrqfmmpump": {
   "market_logged": 1794800121.565626,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "DvMUHy72G8JTExfYdv7K92B3cL4ULWWit7tzrhhFpump": {
+  "market_logged": 1794800421.2102387,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
