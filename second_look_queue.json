@@ -5840,7 +5840,14 @@
    "mcap_usd": 155688,
    "liquidity_usd": 27206.48,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-16T00:11:45+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": {
@@ -6670,6 +6677,24 @@
    "age_hours": 0.39,
    "checks": {},
    "done": false
+  },
+  "GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump": {
+   "mint": "GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump",
+   "symbol": "AI",
+   "pair": "96RoBEefW9fgNRfjbd7LnFnNGxmpvDh1wkpKhFbX4QwT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-16T00:11:42+00:00",
+   "rejected_ts": 1794787902,
+   "stage": "grok",
+   "reason": "342% gain in 1h with volume concentrated early signals blow-off top; buying the exit after parabolic move.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001451,
+   "mcap_usd": 143487,
+   "liquidity_usd": 26523.27,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7215,7 +7240,7 @@
    }
   },
   "2026-11-16": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -7225,7 +7250,8 @@
    "reasons": {
     "market:too_new": 1,
     "market:pumpfun_bonding_curve": 1,
-    "market:mcap_too_low": 1
+    "market:mcap_too_low": 1,
+    "grok:skip": 1
    }
   }
  }
