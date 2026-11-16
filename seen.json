@@ -239,12 +239,6 @@
   "market_logged": 1794490829.7530267,
   "market_reason": "mcap_too_low"
  },
- "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump": {
-  "market_logged": 1794256609.051265,
-  "market_reason": "too_new",
-  "symbol": "MAYA",
-  "judged": 1794259587.5484362
- },
  "F9DrbB5ATbAtLqt4PUbFGcVa5dAHqV3E9ucYvkEBLESS": {
   "market_logged": 1794257208.306351,
   "market_reason": "mcap_too_low",
@@ -257,10 +251,6 @@
  },
  "8qC2e7YxK2A4d8VLdZTo8jcMFDMQNDB9xdFdRZYMpump": {
   "market_logged": 1794261037.1721573,
-  "market_reason": "mcap_too_low"
- },
- "BMSFHPMiP4FVboz1oN7bcWP7U4yW3tqey3sDNGkWpump": {
-  "market_logged": 1794259886.9796395,
   "market_reason": "mcap_too_low"
  },
  "7tLZtt1TmFzhAzMGiwCsS8uYAUrPQ5SAWQH1cCB7pump": {
@@ -8263,8 +8253,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump": {
-  "market_logged": 1794864003.4200993,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794864672.9419916,
+  "market_reason": "liquidity_low"
  },
  "mYEySCnWCTnoZ7YUJ8Tv4ensNoxwg4XDssnPRKCpump": {
   "market_logged": 1794845335.1609302,
@@ -8613,7 +8603,9 @@
  },
  "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": {
   "market_logged": 1794861906.2708428,
-  "market_reason": "mcap_too_high"
+  "market_reason": "mcap_too_high",
+  "symbol": "BAWSAQ",
+  "judged": 1794864672.9419916
  },
  "4hMJnZ7u65V4V3AyTBAShwTGn3J5NYsy5SjLVShspump": {
   "market_logged": 1794861302.8634431,
@@ -8662,5 +8654,21 @@
  "DmJygG1Fnmv1PsKf3o1uFLdUzRZoT84BKzWSNaDTpump": {
   "market_logged": 1794864003.4200993,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "6UcvWd4hHYz6FUE8LqDrrXvz6uXbvNtsp9LudEmnpump": {
+  "market_logged": 1794864672.9419916,
+  "market_reason": "too_new"
+ },
+ "E4XUKh5vPSvkV6MyWYkjXqgzan5xj9CtprMwEEBhpump": {
+  "market_logged": 1794864672.9419916,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "6ErRss728CstWJD9wHNeVEdVmKncYMRpsWHKLbxopump": {
+  "market_logged": 1794864672.9419916,
+  "market_reason": "mcap_too_low"
+ },
+ "FsFqQGxCNd7dbFuimCW4hMiFRdvvM8PoLyp4WZrxAUnN": {
+  "judged": 1794864672.9419916,
+  "symbol": "Lemon"
  }
 }
