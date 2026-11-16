@@ -6381,6 +6381,24 @@
    "age_hours": 3.81,
    "checks": {},
    "done": false
+  },
+  "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump": {
+   "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+   "symbol": "ETF",
+   "pair": "F6mmrJcbtVcwSZrufYUiyJAKucYzGS6dJNUcxSF2caPa",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-16T19:09:54+00:00",
+   "rejected_ts": 1794856194,
+   "stage": "grok",
+   "reason": "694% h6 gain on 1h-old token with 53% h1 run-up looks like blow-off top; m5 already -4.3%.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0002466,
+   "mcap_usd": 244823,
+   "liquidity_usd": 35430.01,
+   "age_hours": 1.14,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6926,7 +6944,7 @@
    }
   },
   "2026-11-16": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:too_new": 1,
@@ -6969,7 +6987,7 @@
     "market:too_new": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "rugcheck:top10": 6,
     "rugcheck:insiders": 4,
     "market:liquidity_low": 6,
