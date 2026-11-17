@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump": {
-   "mint": "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump",
-   "symbol": "bro",
-   "pair": "5xgzaEH2xGWasfmm1S8PGzHgctGCAgCdCviKJiE9i1SS",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-12T14:55:16+00:00",
-   "rejected_ts": 1794495316,
-   "stage": "rugcheck",
-   "reason": "top10",
-   "reason_key": "rugcheck:top10",
-   "sources": "community-takeovers",
-   "price_usd": 8.504e-05,
-   "mcap_usd": 81784,
-   "liquidity_usd": 22045.34,
-   "age_hours": 25.74,
-   "checks": {
-    "24h": {
-     "time": "2026-11-13T15:00:03+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-14T14:59:11+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "liquidity_low"
-    }
-   },
-   "done": true
-  },
   "7rtrYEBfMhMPmPqCr4BZyY3zYRSLqUa7h6WR44Z7YWWF": {
    "mint": "7rtrYEBfMhMPmPqCr4BZyY3zYRSLqUa7h6WR44Z7YWWF",
    "symbol": "KRESS",
@@ -4609,9 +4578,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-17T15:01:06+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
     }
    },
-   "done": false
+   "done": true
   },
   "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": {
    "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
