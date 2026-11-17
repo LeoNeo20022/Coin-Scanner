@@ -1,36 +1,5 @@
 {
  "entries": {
-  "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
-   "mint": "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump",
-   "symbol": "MRPENIS",
-   "pair": "Bhmywz2bGds6RS1MF2y2H9TGDLWgQyNSJAtbZBTcg95F",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-12T10:34:39+00:00",
-   "rejected_ts": 1794479679,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.365e-05,
-   "mcap_usd": 51314,
-   "liquidity_usd": 18544.25,
-   "age_hours": 3.74,
-   "checks": {
-    "24h": {
-     "time": "2026-11-13T10:35:34+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    },
-    "48h": {
-     "time": "2026-11-14T10:35:42+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "volume_h1_low"
-    }
-   },
-   "done": true
-  },
   "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump": {
    "mint": "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump",
    "symbol": "SKUNK",
@@ -5709,7 +5678,14 @@
    "mcap_usd": 106890,
    "liquidity_usd": 22862.64,
    "age_hours": 0.5,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-17T10:38:28+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump": {
@@ -6521,6 +6497,24 @@
    "age_hours": 3.5,
    "checks": {},
    "done": false
+  },
+  "CMHDMepwM1pAuNr3YXFkMvyLT3J8GCq2RafufpKypump": {
+   "mint": "CMHDMepwM1pAuNr3YXFkMvyLT3J8GCq2RafufpKypump",
+   "symbol": "Millionaires",
+   "pair": "Atito4yBo7whSJkmqBtPPiUmtb9xjWs7QfZZFSpLfXxo",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-17T10:38:26+00:00",
+   "rejected_ts": 1794911906,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 7.584e-05,
+   "mcap_usd": 75739,
+   "liquidity_usd": 19077.06,
+   "age_hours": 0.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7059,7 +7053,7 @@
    }
   },
   "2026-11-17": {
-   "total": 29,
+   "total": 30,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7090,7 +7084,9 @@
     "06|market:too_new": 1,
     "08": 2,
     "08|market:liquidity_low": 1,
-    "08|market:volume_h1_low": 1
+    "08|market:volume_h1_low": 1,
+    "10": 1,
+    "10|market:liquidity_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
@@ -7099,7 +7095,7 @@
     "grok:skip": 4,
     "market:volume_h1_low": 3,
     "rugcheck:top10": 2,
-    "market:liquidity_low": 3,
+    "market:liquidity_low": 4,
     "rugcheck:insiders": 1
    }
   }
