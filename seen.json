@@ -6380,8 +6380,8 @@
   "market_reason": "mcap_too_low"
  },
  "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": {
-  "market_logged": 1794875807.692418,
-  "market_reason": "volume_h1_low"
+  "market_logged": 1794876405.4842734,
+  "market_reason": "liquidity_low"
  },
  "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump": {
   "market_logged": 1794697293.718296,
@@ -8655,8 +8655,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "Cza8qQwR659D6j9rHdxJvHmuwEJg81QZGMCQz43Kpump": {
-  "market_logged": 1794876105.408647,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794876405.4842734,
+  "market_reason": "mcap_too_low"
  },
  "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": {
   "market_logged": 1794870935.4056544,
@@ -8698,7 +8698,10 @@
  },
  "HgDyiDQ2hfcPiYoSgzfu7848Aw4iFyPt6sWpmXnSpump": {
   "market_logged": 1794876105.408647,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "symbol": "LUCIA",
+  "grok_fail": 1,
+  "grok_retry_at": 1794880005.4842734
  },
  "7Uyko7dmpxh95vVqeoXeGjasVRXV31JEAqcN2jEkpump": {
   "market_logged": 1794875807.692418,
@@ -8723,5 +8726,9 @@
  "Q9kYktMbrdEt7oXwC4AqK9Jqyqjqax2VE6j5wwjpump": {
   "market_logged": 1794876105.408647,
   "market_reason": "mcap_too_low"
+ },
+ "A27dLc33GGKULs5d8jz7iEkS6wKkCBdB1gnzkyxmPEQ7": {
+  "market_logged": 1794876405.4842734,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
