@@ -2515,7 +2515,7 @@
   "market_reason": "mcap_too_low"
  },
  "6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump": {
-  "market_logged": 1794494111.065388,
+  "market_logged": 1794943756.6862986,
   "market_reason": "mcap_too_low"
  },
  "87bBZX64eY21fNJRqGLurn53dEhZXKbAZURRA1Fepump": {
@@ -8843,7 +8843,9 @@
  },
  "4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu": {
   "market_logged": 1794943156.6588562,
-  "market_reason": "sells_ge_buys_h1"
+  "market_reason": "sells_ge_buys_h1",
+  "judged": 1794943756.6862986,
+  "symbol": "REFU"
  },
  "7LJaDVSg6BdHB7SBgH2JzLUs4rE5tP9zZHUQaNydpump": {
   "market_logged": 1794943156.6588562,
@@ -8860,5 +8862,9 @@
  "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": {
   "market_logged": 1794943456.852665,
   "market_reason": "too_new"
+ },
+ "GDrjvBB7GtFx6VjkWbtJ2mi8TZ3P5jMU77w3dDsopump": {
+  "market_logged": 1794943756.6862986,
+  "market_reason": "liquidity_low"
  }
 }
