@@ -87,10 +87,6 @@
   "judged": 1794089372.1882336,
   "symbol": "Leonida"
  },
- "12XbVdAszAGw6rviPP1P7q3rxhpbUJUcrnZNfP8Qfunz": {
-  "market_logged": 1794309534.831607,
-  "market_reason": "missing:liquidity_usd"
- },
  "GH37DfLYgT9wPNzzE1TSvBKH4cCRndJwT1M2pRrPpump": {
   "market_logged": 1794515063.5497081,
   "market_reason": "too_old"
@@ -218,22 +214,6 @@
  "zQkFUvtdDqsBMtc5pXAjeFfZSuymDg2dvJPXjLMpump": {
   "market_logged": 1794387266.0672648,
   "market_reason": "mcap_too_low"
- },
- "AsdFcM5a7CWLYVfLypktYYVNs1PB4dFRXGbHv28npump": {
-  "market_logged": 1794309234.5641701,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "DD3caEgZNKHNfvYZgGfPRVbvMa3Eu6ca52qbb7nvM3HY": {
-  "market_logged": 1794309234.5641701,
-  "market_reason": "mcap_too_low"
- },
- "4XX6qY2tXg1N7RqoRtLnsBPb8t7h3QzfVY94AMTcQU9k": {
-  "market_logged": 1794309534.831607,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "DmwWP9gazcH5Ea2iAWEaNkqmBbUq6evr8pMacKfpump": {
-  "market_logged": 1794309834.0008316,
-  "market_reason": "pumpfun_bonding_curve"
  },
  "8a7RiZx3NDxn3qUEVEkqMDYTWPAFRTohsJ5KfMBMpump": {
   "market_logged": 1794310134.8311734,
@@ -8711,8 +8691,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "D7ZkNHN3ESProTmshXRjAgiNjQU7SkUcXHpe13qCpump": {
-  "market_logged": 1794909605.473171,
-  "market_reason": "volume_h1_low"
+  "market_logged": 1794914737.85127,
+  "market_reason": "sells_ge_buys_h1"
  },
  "3Us5kPR1BL5XpiBR9QiXVtS2CgfLgahenzh9qKtNpump": {
   "market_logged": 1794903508.0609295,
@@ -8799,8 +8779,8 @@
   "market_reason": "mcap_too_low"
  },
  "CMHDMepwM1pAuNr3YXFkMvyLT3J8GCq2RafufpKypump": {
-  "market_logged": 1794912802.5542414,
-  "market_reason": "too_new"
+  "market_logged": 1794914737.85127,
+  "market_reason": "liquidity_low"
  },
  "4cXN5CMEd9einVMRKeSv8yz28LjP7459R9XBwx3ipump": {
   "market_logged": 1794911903.0738268,
@@ -8829,5 +8809,9 @@
  "2Qt3mhYF3PFiDooQgUKeNLw8dDRDjGBk3s7Abvq9pump": {
   "market_logged": 1794914003.28375,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "EmWKmZkT6GJ45LcBEVXRpkZCfTHUGxVYyHvN2mJ8n8gy": {
+  "market_logged": 1794914737.85127,
+  "market_reason": "missing:liquidity_usd"
  }
 }
