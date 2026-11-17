@@ -235,10 +235,6 @@
   "symbol": "MUBBO",
   "judged": 1794291872.5565364
  },
- "AoHVuFNKTAEUc5aiC8HLWUWytNC3nkJ4jcnjyFQaiCJg": {
-  "market_logged": 1794290115.7860403,
-  "market_reason": "liquidity_low"
- },
  "Cg1g9zBvydiuvCuqiLy5XrmR2LXyU54FGUHhzGVApump": {
   "market_logged": 1794291872.5565364,
   "market_reason": "missing:mcap_usd"
@@ -8783,7 +8779,11 @@
   "market_reason": "too_new"
  },
  "2mpYieemDDKgvjvYCWmQQqe25VQz3B36N5PZ9roppump": {
-  "market_logged": 1794894378.7643123,
+  "market_logged": 1794894979.094874,
+  "market_reason": "mcap_too_low"
+ },
+ "4HePbdXuZG7wLue1LAZnxCd3rS1yzXd91dhGmY59pump": {
+  "market_logged": 1794894979.094874,
   "market_reason": "pumpfun_bonding_curve"
  }
 }
