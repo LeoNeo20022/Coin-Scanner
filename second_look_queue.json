@@ -1,36 +1,5 @@
 {
  "entries": {
-  "5ba8HwNgio5t86aFdWJ81w5pNHjbqAKPKejTsVoDpump": {
-   "mint": "5ba8HwNgio5t86aFdWJ81w5pNHjbqAKPKejTsVoDpump",
-   "symbol": "MaxWif",
-   "pair": "AgXRYb1vnsKuU9GFrbyMiEjvJWZtKF38WDCBBcxgsJ4B",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-12T17:43:56+00:00",
-   "rejected_ts": 1794505436,
-   "stage": "grok",
-   "reason": "242% h1 pump after only 1h age looks like blow-off top; volume and buys strong but already fading relative to the spike.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0001659,
-   "mcap_usd": 161800,
-   "liquidity_usd": 29815.42,
-   "age_hours": 1.02,
-   "checks": {
-    "24h": {
-     "time": "2026-11-13T17:46:16+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-14T17:44:35+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump": {
    "mint": "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump",
    "symbol": "DOGGLE",
@@ -4454,9 +4423,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "top10"
+    },
+    "48h": {
+     "time": "2026-11-17T18:16:33+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "13EAww2eo8g1Xp9U7qrLNg1WoHFHKbs9xy2EQJjfpump": {
    "mint": "13EAww2eo8g1Xp9U7qrLNg1WoHFHKbs9xy2EQJjfpump",
@@ -4479,9 +4454,15 @@
      "would_pass": "1",
      "dead": "0",
      "result": "pass"
+    },
+    "48h": {
+     "time": "2026-11-17T18:16:33+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump": {
    "mint": "7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump",
@@ -5523,7 +5504,14 @@
    "mcap_usd": 1047980,
    "liquidity_usd": 63706.06,
    "age_hours": 1.24,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-17T18:16:33+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "48UW5PSMpaN1x2YW3ArY4xEiKyP8bJTFfednCHMG3Jcx": {
