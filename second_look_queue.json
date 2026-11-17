@@ -6561,6 +6561,24 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": {
+   "mint": "3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump",
+   "symbol": "MELNOK",
+   "pair": "CrnAPDEjaSsRxuwzg7Gte2ohyZvvRZf3rBkeAiHyzMRW",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-17T03:56:54+00:00",
+   "rejected_ts": 1794887814,
+   "stage": "grok",
+   "reason": "302% gain in 6h with 87% in last hour and nearly all volume concentrated recently; classic blow-off pattern.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001196,
+   "mcap_usd": 114997,
+   "liquidity_usd": 23833.82,
+   "age_hours": 1.13,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7099,7 +7117,7 @@
    }
   },
   "2026-11-17": {
-   "total": 15,
+   "total": 16,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7122,7 +7140,7 @@
     "market:pumpfun_bonding_curve": 4,
     "market:too_new": 2,
     "market:mcap_too_low": 4,
-    "grok:skip": 1,
+    "grok:skip": 2,
     "market:volume_h1_low": 1,
     "rugcheck:top10": 2,
     "market:liquidity_low": 1
