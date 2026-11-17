@@ -8845,11 +8845,13 @@
  },
  "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": {
   "market_logged": 1794943456.852665,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "JALU",
+  "judged": 1794944960.3078797
  },
  "GDrjvBB7GtFx6VjkWbtJ2mi8TZ3P5jMU77w3dDsopump": {
-  "market_logged": 1794944660.7658138,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794944960.3078797,
+  "market_reason": "too_new"
  },
  "4z7LXmQewWk5LLDTbTZEeGpeUhTFR1dHGvg7ckhbpump": {
   "market_logged": 1794944357.008345,
@@ -8858,5 +8860,9 @@
  "BSSkzYSfpYCiZt39CqkAYeTwWmuttdHCAg48V6GZpump": {
   "market_logged": 1794944660.7658138,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "ERiM8NiCanarGEnWMnURAoxTuTvUXZbtJsPTirnHpump": {
+  "market_logged": 1794944960.3078797,
+  "market_reason": "missing:mcap_usd"
  }
 }
