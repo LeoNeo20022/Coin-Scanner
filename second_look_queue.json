@@ -1,36 +1,5 @@
 {
  "entries": {
-  "2T56GBrvcyeWWyhUAzsTFW4AcFag1nr7xyzrtZn7pump": {
-   "mint": "2T56GBrvcyeWWyhUAzsTFW4AcFag1nr7xyzrtZn7pump",
-   "symbol": "AI",
-   "pair": "CRnK5Nh5kQjA4FqaYkqJ9y9KGfNh99U6HHyRtUjPNKAW",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-12T21:53:41+00:00",
-   "rejected_ts": 1794520421,
-   "stage": "rugcheck",
-   "reason": "lp_unlocked",
-   "reason_key": "rugcheck:lp_unlocked",
-   "sources": "token-profiles",
-   "price_usd": 0.0009542,
-   "mcap_usd": 929544,
-   "liquidity_usd": 93824.48,
-   "age_hours": 1.0,
-   "checks": {
-    "24h": {
-     "time": "2026-11-13T21:56:28+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "top10"
-    },
-    "48h": {
-     "time": "2026-11-14T21:57:28+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "GkhLc8oKxfGS22fzfq7aUP8RE9jzFjhcgBUDQV6epump": {
    "mint": "GkhLc8oKxfGS22fzfq7aUP8RE9jzFjhcgBUDQV6epump",
    "symbol": "BUX",
@@ -5635,7 +5604,14 @@
    "mcap_usd": 83639,
    "liquidity_usd": 20778.47,
    "age_hours": 3.21,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-17T22:33:40+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "insiders"
+    }
+   },
    "done": false
   },
   "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": {
