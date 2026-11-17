@@ -6633,6 +6633,60 @@
    "age_hours": 1.03,
    "checks": {},
    "done": false
+  },
+  "EykPg5B2c5Gd7VTsiGJRGtx3A3W44sD9ATmiGziDpump": {
+   "mint": "EykPg5B2c5Gd7VTsiGJRGtx3A3W44sD9ATmiGziDpump",
+   "symbol": "IFRUIT",
+   "pair": "J7TMJnn36sri3WQVmNYAk7Lar6JKR6rXXDhEHxBSbB35",
+   "dex": "pumpfun",
+   "rejected_at": "2026-11-17T01:01:46+00:00",
+   "rejected_ts": 1794877306,
+   "stage": "market",
+   "reason": "pumpfun_bonding_curve",
+   "reason_key": "market:pumpfun_bonding_curve",
+   "sources": "token-profiles",
+   "price_usd": 2.268e-05,
+   "mcap_usd": 22686.09,
+   "liquidity_usd": null,
+   "age_hours": 0.17,
+   "checks": {},
+   "done": false
+  },
+  "E7yuK8THvRMT9CDTQcqDLdWi92W4gpPseUBLTXFDKHhG": {
+   "mint": "E7yuK8THvRMT9CDTQcqDLdWi92W4gpPseUBLTXFDKHhG",
+   "symbol": "OPTIMJACK",
+   "pair": "CBj1cZdymJ8Ao6UaPKz7JNyz2iSUmmt3cRrDHpUtWDBt",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-17T01:01:46+00:00",
+   "rejected_ts": 1794877306,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 1.733e-05,
+   "mcap_usd": 17312,
+   "liquidity_usd": 8329.74,
+   "age_hours": 0.36,
+   "checks": {},
+   "done": false
+  },
+  "CUmQsPuWxK97tYYWV44qhHXEu69oM4nj3CpYBTw796ea": {
+   "mint": "CUmQsPuWxK97tYYWV44qhHXEu69oM4nj3CpYBTw796ea",
+   "symbol": "AGI",
+   "pair": "8QgwkW79vSP13SLzMrqZZbYB8nHFjxr8ZTcJBNF1P8uV",
+   "dex": "meteora",
+   "rejected_at": "2026-11-17T01:01:46+00:00",
+   "rejected_ts": 1794877306,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 8.245e-05,
+   "mcap_usd": 82459,
+   "liquidity_usd": 23616.9,
+   "age_hours": 0.7,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7171,17 +7225,21 @@
    }
   },
   "2026-11-17": {
-   "total": 4,
+   "total": 7,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
     "00|market:too_new": 1,
-    "00|market:mcap_too_low": 1
+    "00|market:mcap_too_low": 1,
+    "01": 3,
+    "01|market:pumpfun_bonding_curve": 1,
+    "01|market:mcap_too_low": 1,
+    "01|market:too_new": 1
    },
    "reasons": {
-    "market:pumpfun_bonding_curve": 1,
-    "market:too_new": 1,
-    "market:mcap_too_low": 1,
+    "market:pumpfun_bonding_curve": 2,
+    "market:too_new": 2,
+    "market:mcap_too_low": 2,
     "grok:skip": 1
    }
   }
