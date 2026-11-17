@@ -193,12 +193,6 @@
   "judged": 1794213881.2415707,
   "symbol": "BTC"
  },
- "8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump": {
-  "market_logged": 1794269451.6206176,
-  "market_reason": "volume_h1_low",
-  "judged": 1794271106.1779947,
-  "symbol": "HODLER"
- },
  "Ffy3EDzKqP9vrgvL2WGygM1DvvFnkMR8YzxLPPyRpump": {
   "market_logged": 1794402126.6396203,
   "market_reason": "pumpfun_bonding_curve"
@@ -234,12 +228,6 @@
  "5QLHv9382yxtsnxeKPLxjznH5aP78Lcf6XLutwYXB6Vb": {
   "market_logged": 1794723479.7994058,
   "market_reason": "mcap_too_low"
- },
- "F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": {
-  "market_logged": 1794268551.592447,
-  "market_reason": "too_new",
-  "symbol": "BORLY",
-  "judged": 1794271106.1779947
  },
  "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": {
   "market_logged": 1794269751.1862843,
@@ -8667,8 +8655,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "Cza8qQwR659D6j9rHdxJvHmuwEJg81QZGMCQz43Kpump": {
-  "market_logged": 1794875807.692418,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794876105.408647,
+  "market_reason": "liquidity_low"
  },
  "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": {
   "market_logged": 1794870935.4056544,
@@ -8709,8 +8697,8 @@
   "market_reason": "mcap_too_low"
  },
  "HgDyiDQ2hfcPiYoSgzfu7848Aw4iFyPt6sWpmXnSpump": {
-  "market_logged": 1794875507.0745335,
-  "market_reason": "too_new"
+  "market_logged": 1794876105.408647,
+  "market_reason": "liquidity_low"
  },
  "7Uyko7dmpxh95vVqeoXeGjasVRXV31JEAqcN2jEkpump": {
   "market_logged": 1794875807.692418,
@@ -8727,5 +8715,13 @@
  "6T1fVrYRAH5dBi6cPUp4K2cv1qY644h8jqmShvgbpump": {
   "market_logged": 1794875807.692418,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "A4tdsso9PYcgrnENgnbtF1LBGFTZ4LREfSCjn4Jbs6N3": {
+  "market_logged": 1794876105.408647,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "Q9kYktMbrdEt7oXwC4AqK9Jqyqjqax2VE6j5wwjpump": {
+  "market_logged": 1794876105.408647,
+  "market_reason": "mcap_too_low"
  }
 }
