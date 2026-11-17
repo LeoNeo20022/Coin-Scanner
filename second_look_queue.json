@@ -1,36 +1,5 @@
 {
  "entries": {
-  "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump": {
-   "mint": "BetzJU2X9UEgG2qdo8UKbJ6q1iiFGs23axh8vRqEpump",
-   "symbol": "SKUNK",
-   "pair": "AusWEfi1py2oxThRWyGh86QcUyNH9jButcqb6vSzbqaq",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-12T11:04:39+00:00",
-   "rejected_ts": 1794481479,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 5.895e-05,
-   "mcap_usd": 56787,
-   "liquidity_usd": 19334.08,
-   "age_hours": 13.93,
-   "checks": {
-    "24h": {
-     "time": "2026-11-13T11:05:35+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-14T11:06:44+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "HboHtoVXPncFkfoSyiVSkYsLtKwoJD2nAEYaoNZ7pump": {
    "mint": "HboHtoVXPncFkfoSyiVSkYsLtKwoJD2nAEYaoNZ7pump",
    "symbol": "MING",
@@ -6539,6 +6508,24 @@
    "age_hours": 0.01,
    "checks": {},
    "done": false
+  },
+  "6efK9juKa6x9sZEsB6iWJ5mTMhqrexeQRyp7DkDEpump": {
+   "mint": "6efK9juKa6x9sZEsB6iWJ5mTMhqrexeQRyp7DkDEpump",
+   "symbol": "SOYOUARE",
+   "pair": "4u2gqY81DT2bChgiFXdVqxRWbrK7P6rD5F8ACLgE8AzR",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-17T11:35:40+00:00",
+   "rejected_ts": 1794915340,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 8.781e-05,
+   "mcap_usd": 87702,
+   "liquidity_usd": 20503.44,
+   "age_hours": 0.11,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7077,7 +7064,7 @@
    }
   },
   "2026-11-17": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7111,11 +7098,13 @@
     "08|market:volume_h1_low": 1,
     "10": 2,
     "10|market:liquidity_low": 1,
-    "10|market:too_new": 1
+    "10|market:too_new": 1,
+    "11": 1,
+    "11|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
-    "market:too_new": 5,
+    "market:too_new": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 4,
     "market:volume_h1_low": 3,
