@@ -201,12 +201,6 @@
   "market_logged": 1794346362.6953037,
   "market_reason": "volume_h1_low"
  },
- "C7JpvPbaQZTYuWnCsKyPtTCnRSmmESWgZwxZrmthpump": {
-  "market_logged": 1794322286.7840087,
-  "market_reason": "too_new",
-  "symbol": "Bunzo",
-  "judged": 1794324306.6321127
- },
  "HzLVUNuPGfx8TFAxewquK6zE22WcJ4XwzLT2jPFupump": {
   "market_logged": 1794322286.7840087,
   "market_reason": "too_new",
@@ -8847,11 +8841,23 @@
   "market_reason": "mcap_too_low"
  },
  "4GGiCw2FkwjWdJyGzQLiwrrGAtaPtqwTmatnHfHkpump": {
-  "market_logged": 1794929023.8043032,
-  "market_reason": "liquidity_low"
+  "market_logged": 1794929323.5385723,
+  "market_reason": "too_new"
  },
  "GiWs11VTg65fXu3aTyNUNWuuxFDmGW9iDVSeoBY2pump": {
   "market_logged": 1794929023.8043032,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "GC4F2dAqRZyRM1zSFd4er6GAD7FHjmPgTvPQ4QNTpump": {
+  "market_logged": 1794929323.5385723,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GVS9Yf7zt3pKawdkNyhD2SGgYFYjRPeKYNd7QMY2KZKK": {
+  "market_logged": 1794929323.5385723,
+  "market_reason": "mcap_too_low"
+ },
+ "J7HcmMsExg5o6TB6sL3aTz8LUWKtXxqj82AkFzXFpump": {
+  "market_logged": 1794929323.5385723,
+  "market_reason": "mcap_too_low"
  }
 }
