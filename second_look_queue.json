@@ -6525,6 +6525,24 @@
    "age_hours": 1.22,
    "checks": {},
    "done": false
+  },
+  "HrVrPuiccywXYvXRGemHxztdeHQRgr2V8qA5BkquAy6o": {
+   "mint": "HrVrPuiccywXYvXRGemHxztdeHQRgr2V8qA5BkquAy6o",
+   "symbol": "VIBED",
+   "pair": "F7u8gdFU8Rr5gG7AUBwQSVV4449DvAgDJVggGVSvJBrj",
+   "dex": "meteora",
+   "rejected_at": "2026-11-17T16:25:12+00:00",
+   "rejected_ts": 1794932712,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-boosts/top",
+   "price_usd": 5.068e-05,
+   "mcap_usd": 50685,
+   "liquidity_usd": 24610.69,
+   "age_hours": 24.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7063,7 +7081,7 @@
    }
   },
   "2026-11-17": {
-   "total": 39,
+   "total": 40,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7104,14 +7122,16 @@
     "12|market:liquidity_low": 1,
     "12|market:volume_h1_low": 1,
     "14": 1,
-    "14|market:liquidity_low": 1
+    "14|market:liquidity_low": 1,
+    "16": 1,
+    "16|market:volume_h1_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 4,
-    "market:volume_h1_low": 4,
+    "market:volume_h1_low": 5,
     "rugcheck:top10": 4,
     "market:liquidity_low": 6,
     "rugcheck:insiders": 2,
