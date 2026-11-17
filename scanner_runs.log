@@ -1,12 +1,3 @@
-[2026-11-15T14:37:03+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-15T14:37:54+00:00] scout: pass end {"watch": 330, "a_qualify": 38, "a_open": 1, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=113s
-[2026-11-15T14:40:42+00:00] run start (LOG ONLY)
-[2026-11-15T14:40:55+00:00] discovered=54 fresh=46 market_pass=0
-[2026-11-15T14:40:55+00:00] grok daily budget 7/40 used, 0 no-response, $0.0196 (2026-11-15 UTC)
-[2026-11-15T14:40:55+00:00] run end {"discovered": 54, "skipped_recent": 8, "no_pair": 0, "market": {"liquidity_low": 4, "mcap_too_low": 16, "pumpfun_bonding_curve": 15, "too_old": 6, "volume_h1_low": 2, "missing:liquidity_usd": 1, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
-[2026-11-15T14:41:00+00:00] second_look: pass end {"queued": 248, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=5s
-[2026-11-15T14:41:00+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-15T14:41:54+00:00] scout: paper: candles unavailable D7MyAD7k (RuntimeError)
 [2026-11-15T14:42:02+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-11-15T14:42:02+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-15T14:42:55+00:00] scout: pass end {"watch": 331, "a_qualify": 36, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=115s
@@ -4998,3 +4989,12 @@
 [2026-11-17T17:55:15+00:00] scout: paper: candles unavailable 2NWgu4fq (RuntimeError)
 [2026-11-17T17:55:15+00:00] scout: paper: candles unavailable EwUVBpdM (RuntimeError)
 [2026-11-17T17:56:06+00:00] scout: pass end {"watch": 349, "a_qualify": 9, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=119s
+[2026-11-17T17:58:52+00:00] run start (LOG ONLY)
+[2026-11-17T17:59:02+00:00] discovered=65 fresh=50 market_pass=0
+[2026-11-17T17:59:02+00:00] grok daily budget 7/40 used, 1 no-response, $0.0192 (2026-11-17 UTC)
+[2026-11-17T17:59:02+00:00] run end {"discovered": 65, "skipped_recent": 15, "no_pair": 0, "market": {"mcap_too_low": 18, "missing:liquidity_usd": 1, "pumpfun_bonding_curve": 20, "too_new": 1, "too_old": 8, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-11-17T17:59:06+00:00] second_look: pass end {"queued": 239, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
+[2026-11-17T17:59:06+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-17T18:00:14+00:00] scout: paper: candles unavailable BARobVaV (RuntimeError)
+[2026-11-17T18:00:14+00:00] scout: paper: candles unavailable 3K8KgxKA (RuntimeError)
+[2026-11-17T18:01:11+00:00] scout: pass end {"watch": 349, "a_qualify": 10, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=125s
