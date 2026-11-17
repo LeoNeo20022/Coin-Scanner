@@ -211,12 +211,6 @@
   "symbol": "DACITY",
   "judged": 1794341417.9599922
  },
- "9Uz1XmRQGjD2NspWH1FYAtVromkt74s45FXEwXpmpump": {
-  "market_logged": 1794338840.5251865,
-  "market_reason": "too_new",
-  "symbol": "Catcity",
-  "judged": 1794340341.4020352
- },
  "2uQw2gvnhYYQ5T5jJf3MvLPyUquQ54VFHbMHBTtCpump": {
   "market_logged": 1794339741.28294,
   "market_reason": "too_new",
@@ -8850,8 +8844,8 @@
   "judged": 1794944960.3078797
  },
  "GDrjvBB7GtFx6VjkWbtJ2mi8TZ3P5jMU77w3dDsopump": {
-  "market_logged": 1794944960.3078797,
-  "market_reason": "too_new"
+  "market_logged": 1794945260.275968,
+  "market_reason": "mcap_too_low"
  },
  "4z7LXmQewWk5LLDTbTZEeGpeUhTFR1dHGvg7ckhbpump": {
   "market_logged": 1794944357.008345,
@@ -8864,5 +8858,13 @@
  "ERiM8NiCanarGEnWMnURAoxTuTvUXZbtJsPTirnHpump": {
   "market_logged": 1794944960.3078797,
   "market_reason": "missing:mcap_usd"
+ },
+ "GLzXQj2Gk4oUYUKwrJEyt333wYjKwjujNp9erxzCpump": {
+  "judged": 1794945260.275968,
+  "symbol": "WANTED"
+ },
+ "efo75jisqQsV8jghoXuseQRGwJyE5ee8AwY4z5opump": {
+  "market_logged": 1794945260.275968,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
