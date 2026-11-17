@@ -6521,6 +6521,24 @@
    "age_hours": 0.08,
    "checks": {},
    "done": false
+  },
+  "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": {
+   "mint": "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
+   "symbol": "GROKIA",
+   "pair": "6HG9W5yNMQBpeEv3iCXiPUPYJY1wy7V7ELzkiSCLWX5u",
+   "dex": "meteora",
+   "rejected_at": "2026-11-17T10:58:25+00:00",
+   "rejected_ts": 1794913105,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles,token-boosts",
+   "price_usd": 0.0001614,
+   "mcap_usd": 161437,
+   "liquidity_usd": 120926.52,
+   "age_hours": 0.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7059,7 +7077,7 @@
    }
   },
   "2026-11-17": {
-   "total": 30,
+   "total": 31,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7091,12 +7109,13 @@
     "08": 2,
     "08|market:liquidity_low": 1,
     "08|market:volume_h1_low": 1,
-    "10": 1,
-    "10|market:liquidity_low": 1
+    "10": 2,
+    "10|market:liquidity_low": 1,
+    "10|market:too_new": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
-    "market:too_new": 4,
+    "market:too_new": 5,
     "market:mcap_too_low": 6,
     "grok:skip": 4,
     "market:volume_h1_low": 3,
