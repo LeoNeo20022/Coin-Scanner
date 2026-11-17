@@ -6570,6 +6570,24 @@
    "age_hours": 0.96,
    "checks": {},
    "done": false
+  },
+  "D7ZkNHN3ESProTmshXRjAgiNjQU7SkUcXHpe13qCpump": {
+   "mint": "D7ZkNHN3ESProTmshXRjAgiNjQU7SkUcXHpe13qCpump",
+   "symbol": "GTAVI",
+   "pair": "HM6q9iDBMcsQkBFnxaZtGGjTiJo5ocQTiHGwqnnuTToB",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-17T08:18:31+00:00",
+   "rejected_ts": 1794903511,
+   "stage": "market",
+   "reason": "volume_h1_low",
+   "reason_key": "market:volume_h1_low",
+   "sources": "token-profiles",
+   "price_usd": 0.0001977,
+   "mcap_usd": 192532,
+   "liquidity_usd": 31957.28,
+   "age_hours": 3.5,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7108,7 +7126,7 @@
    }
   },
   "2026-11-17": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7137,15 +7155,16 @@
     "06": 2,
     "06|market:volume_h1_low": 1,
     "06|market:too_new": 1,
-    "08": 1,
-    "08|market:liquidity_low": 1
+    "08": 2,
+    "08|market:liquidity_low": 1,
+    "08|market:volume_h1_low": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 4,
     "market:mcap_too_low": 6,
     "grok:skip": 4,
-    "market:volume_h1_low": 2,
+    "market:volume_h1_low": 3,
     "rugcheck:top10": 2,
     "market:liquidity_low": 3,
     "rugcheck:insiders": 1
