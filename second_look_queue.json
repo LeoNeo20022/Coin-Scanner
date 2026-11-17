@@ -1,36 +1,5 @@
 {
  "entries": {
-  "J9t2LsAZLrNHocuvoyEKoiyS7RKXLJv2u9bnFJTCpump": {
-   "mint": "J9t2LsAZLrNHocuvoyEKoiyS7RKXLJv2u9bnFJTCpump",
-   "symbol": "HENSEN",
-   "pair": "JPAeJeme2NhCYucA1h8QZgJjZzqJksHKAEaxrXENK1D",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-12T19:00:31+00:00",
-   "rejected_ts": 1794510031,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 0.0001665,
-   "mcap_usd": 162165,
-   "liquidity_usd": 32998.28,
-   "age_hours": 1.19,
-   "checks": {
-    "24h": {
-     "time": "2026-11-13T19:22:38+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-14T19:04:15+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump": {
    "mint": "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump",
    "symbol": "jjaemu",
@@ -4454,9 +4423,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-17T19:19:33+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump": {
    "mint": "2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump",
@@ -5523,7 +5498,14 @@
    "mcap_usd": 244823,
    "liquidity_usd": 35430.01,
    "age_hours": 1.14,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-17T19:19:33+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": {
@@ -6443,6 +6425,42 @@
    "age_hours": 1.02,
    "checks": {},
    "done": false
+  },
+  "4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu": {
+   "mint": "4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu",
+   "symbol": "REFU",
+   "pair": "6S5Gz32QqcSzU9pDLFhrKodEfxeiBKmCmz57WF4CtBVC",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-17T19:19:19+00:00",
+   "rejected_ts": 1794943159,
+   "stage": "market",
+   "reason": "sells_ge_buys_h1",
+   "reason_key": "market:sells_ge_buys_h1",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0001984,
+   "mcap_usd": 196838,
+   "liquidity_usd": 32119.16,
+   "age_hours": 2.56,
+   "checks": {},
+   "done": false
+  },
+  "6MjDb45kzriv6cpW6oaDjZGw1rujmpA185dHcvZzpump": {
+   "mint": "6MjDb45kzriv6cpW6oaDjZGw1rujmpA185dHcvZzpump",
+   "symbol": "Rex",
+   "pair": "59hiLL7Vz8QZdNvDpoYsE6FSrUWKzcp8chLJ3EcTeh3L",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-17T19:19:30+00:00",
+   "rejected_ts": 1794943170,
+   "stage": "grok",
+   "reason": "1166% h6 and 173% h1 gains scream blow-off top; m5 price already -6.55% while volume stays elevated.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0005042,
+   "mcap_usd": 502013,
+   "liquidity_usd": 50832.13,
+   "age_hours": 1.17,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6981,7 +6999,7 @@
    }
   },
   "2026-11-17": {
-   "total": 43,
+   "total": 45,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7024,19 +7042,22 @@
     "14": 1,
     "14|market:liquidity_low": 1,
     "16": 1,
-    "16|market:volume_h1_low": 1
+    "16|market:volume_h1_low": 1,
+    "19": 1,
+    "19|market:sells_ge_buys_h1": 1
    },
    "reasons": {
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:volume_h1_low": 5,
     "rugcheck:top10": 5,
     "market:liquidity_low": 6,
     "rugcheck:insiders": 2,
     "rugcheck:lp_unlocked": 1,
-    "rugcheck:danger": 1
+    "rugcheck:danger": 1,
+    "market:sells_ge_buys_h1": 1
    }
   }
  }
