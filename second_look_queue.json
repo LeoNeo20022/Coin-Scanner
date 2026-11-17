@@ -1,36 +1,5 @@
 {
  "entries": {
-  "7E9tPBRvCVJ4kn6DXvxMXuAMk4L9j1ZNcBSCAWuGpump": {
-   "mint": "7E9tPBRvCVJ4kn6DXvxMXuAMk4L9j1ZNcBSCAWuGpump",
-   "symbol": "CLAUDE",
-   "pair": "AyVp8Hu6Xbkx3kM6QGyfkFVz8T5uMeSJWhWDsoDAwrGt",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-12T08:57:17+00:00",
-   "rejected_ts": 1794473837,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 9.942e-05,
-   "mcap_usd": 99360,
-   "liquidity_usd": 24276.81,
-   "age_hours": 0.28,
-   "checks": {
-    "24h": {
-     "time": "2026-11-13T09:01:47+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-14T08:58:56+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump": {
    "mint": "2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump",
    "symbol": "Shiqi",
@@ -4671,9 +4640,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-17T09:06:23+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
    "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
