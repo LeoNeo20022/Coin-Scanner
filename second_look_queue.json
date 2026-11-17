@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9j3EyQXC4ff2gZDgMWg2RUjujLUKaKkNFY5REgPFpump": {
-   "mint": "9j3EyQXC4ff2gZDgMWg2RUjujLUKaKkNFY5REgPFpump",
-   "symbol": "Madison",
-   "pair": "CayB2gpuTMoTXVuZCohWZLxZuX1sTdAvXY5KfjpA7zv8",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-12T07:43:54+00:00",
-   "rejected_ts": 1794469434,
-   "stage": "grok",
-   "reason": "609% h6 gain signals blow-off top already in progress; m5 buys/sells near parity with -2% price shows momentum fading.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0003455,
-   "mcap_usd": 344287,
-   "liquidity_usd": 45243.63,
-   "age_hours": 1.75,
-   "checks": {
-    "24h": {
-     "time": "2026-11-13T07:49:07+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-14T07:45:22+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "7E9tPBRvCVJ4kn6DXvxMXuAMk4L9j1ZNcBSCAWuGpump": {
    "mint": "7E9tPBRvCVJ4kn6DXvxMXuAMk4L9j1ZNcBSCAWuGpump",
    "symbol": "CLAUDE",
@@ -6553,6 +6522,24 @@
    "age_hours": 0.12,
    "checks": {},
    "done": false
+  },
+  "DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": {
+   "mint": "DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump",
+   "symbol": "cepump",
+   "pair": "CMMLckQdqCfhsohGaePuiWGTAN5hwhBY9AYLkRp9X9xA",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-17T07:58:43+00:00",
+   "rejected_ts": 1794902323,
+   "stage": "grok",
+   "reason": "Explosive 262-296% gains in 1h/6h with still-rising m5 momentum point to blow-off top. Very new token (1h) on extreme volume.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001193,
+   "mcap_usd": 114122,
+   "liquidity_usd": 23886.3,
+   "age_hours": 1.02,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7091,7 +7078,7 @@
    }
   },
   "2026-11-17": {
-   "total": 26,
+   "total": 27,
    "hours": {
     "00": 3,
     "00|market:pumpfun_bonding_curve": 1,
@@ -7125,7 +7112,7 @@
     "market:pumpfun_bonding_curve": 6,
     "market:too_new": 4,
     "market:mcap_too_low": 6,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "market:volume_h1_low": 2,
     "rugcheck:top10": 2,
     "market:liquidity_low": 2,
