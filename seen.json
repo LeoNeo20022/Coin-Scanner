@@ -201,10 +201,6 @@
   "judged": 1794423730.4486234,
   "symbol": "Looby"
  },
- "5yN3Q37FApEg6biqyNroRduAVCSiNuQMRaBVnrZPpump": {
-  "market_logged": 1794348163.3095405,
-  "market_reason": "mcap_too_low"
- },
  "DXiChMGpiokKzJys1mwaSvbX32pVyB4AAmL7qEC6pump": {
   "market_logged": 1794348671.8100233,
   "market_reason": "mcap_too_low"
@@ -8788,7 +8784,10 @@
  },
  "6eNZ6FScBYPakFiWZdCPBcWWZXmSBBaf8oEUimsGpump": {
   "market_logged": 1794949910.9675865,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "symbol": "KATIA",
+  "grok_fail": 1,
+  "grok_retry_at": 1794956616.035261
  },
  "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
   "market_logged": 1794949910.9675865,
@@ -8853,8 +8852,8 @@
   "market_reason": "too_new"
  },
  "8nUH7dwgagpMvtQnsRRMzRtUrHdv2sJiuQXABQpUpump": {
-  "market_logged": 1794952715.751261,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794953016.035261,
+  "market_reason": "liquidity_low"
  },
  "ERZgot7xNaewosPC3yqdLYXhMy9Lo5EbUGVU1FwJpump": {
   "market_logged": 1794952715.751261,
