@@ -223,12 +223,6 @@
   "market_logged": 1794480275.892032,
   "market_reason": "mcap_too_low"
  },
- "AmaENUv7SQowxEaWrZtT9gyR9HHJUBg9ULx6wce4pump": {
-  "market_logged": 1794288616.006743,
-  "market_reason": "mcap_too_low",
-  "judged": 1794290415.4895272,
-  "symbol": "DINGA"
- },
  "JBUe4NZu4rm4Ej5AsLZECZLHvnWpFRmhn9oPLXCVpump": {
   "market_logged": 1794289215.8592672,
   "market_reason": "too_new",
@@ -8775,8 +8769,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "7mThe7fpJPcs1NmTgGpupA3nRhTfVVBGuijapShftrd": {
-  "market_logged": 1794894378.7643123,
-  "market_reason": "too_new"
+  "market_logged": 1794896481.6479259,
+  "market_reason": "volume_h1_low"
  },
  "2mpYieemDDKgvjvYCWmQQqe25VQz3B36N5PZ9roppump": {
   "market_logged": 1794894979.094874,
@@ -8785,5 +8779,9 @@
  "4HePbdXuZG7wLue1LAZnxCd3rS1yzXd91dhGmY59pump": {
   "market_logged": 1794894979.094874,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump": {
+  "market_logged": 1794896481.6479259,
+  "market_reason": "too_old"
  }
 }
