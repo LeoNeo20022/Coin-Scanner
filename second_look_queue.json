@@ -1,36 +1,5 @@
 {
  "entries": {
-  "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": {
-   "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
-   "symbol": "SHARKBUX",
-   "pair": "GCApLjm8aviTumEXSYPCVMGK6Rer9KG7gUN4L9YKP394",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T00:36:41+00:00",
-   "rejected_ts": 1794530201,
-   "stage": "grok",
-   "reason": "434% h6 and 96% h1 gains signal blow-off top; buying now chases exit liquidity. m5 momentum already flattening after the spike.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles,token-boosts,token-boosts/top",
-   "price_usd": 0.0003926,
-   "mcap_usd": 389642,
-   "liquidity_usd": 48847.82,
-   "age_hours": 1.06,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T00:40:51+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "sells_ge_buys_h1"
-    },
-    "48h": {
-     "time": "2026-11-15T00:37:58+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "5KUnxHzWsuRf7R6nDyGe9Z4fBPz9jweetZBjVd3Rpump": {
    "mint": "5KUnxHzWsuRf7R6nDyGe9Z4fBPz9jweetZBjVd3Rpump",
    "symbol": "JOJO",
@@ -4516,9 +4485,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "liquidity_low"
+    },
+    "48h": {
+     "time": "2026-11-18T00:43:27+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
     }
    },
-   "done": false
+   "done": true
   },
   "FwVsiYsWBDCs4QifGcDRGGxQ3xh6CYLnWWFLUDiupump": {
    "mint": "FwVsiYsWBDCs4QifGcDRGGxQ3xh6CYLnWWFLUDiupump",
@@ -6479,6 +6454,24 @@
    "age_hours": 0.45,
    "checks": {},
    "done": false
+  },
+  "Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": {
+   "mint": "Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump",
+   "symbol": "SHIT",
+   "pair": "D1LXpkFpbQr1YwVgWYQsed93czdz8hA7s9g7yb8LMFfe",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T00:43:24+00:00",
+   "rejected_ts": 1794962604,
+   "stage": "grok",
+   "reason": "1578% h6 pump already reversing (m5 -9.8%, sells>buys). Recent momentum fading after extreme spike.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0006801,
+   "mcap_usd": 677992,
+   "liquidity_usd": 61144.72,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7019,7 +7012,7 @@
    }
   },
   "2026-11-18": {
-   "total": 3,
+   "total": 4,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7029,7 +7022,8 @@
    "reasons": {
     "market:liquidity_low": 1,
     "market:pumpfun_bonding_curve": 1,
-    "market:mcap_too_low": 1
+    "market:mcap_too_low": 1,
+    "grok:skip": 1
    }
   }
  }
