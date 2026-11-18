@@ -6490,6 +6490,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": {
+   "mint": "7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump",
+   "symbol": "GTA",
+   "pair": "GQHhvHAKQmRmZm8bHK9kscfn93Xa7CBMoWh4duPZs2a",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T03:46:01+00:00",
+   "rejected_ts": 1794973561,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.001581,
+   "mcap_usd": 1576687,
+   "liquidity_usd": 92200.21,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7030,7 +7048,7 @@
    }
   },
   "2026-11-18": {
-   "total": 15,
+   "total": 16,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7054,7 +7072,8 @@
     "market:pumpfun_bonding_curve": 3,
     "market:mcap_too_low": 4,
     "grok:skip": 3,
-    "market:too_new": 3
+    "market:too_new": 3,
+    "rugcheck:top10": 1
    }
   }
  }
