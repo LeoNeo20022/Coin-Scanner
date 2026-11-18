@@ -1,98 +1,5 @@
 {
  "entries": {
-  "BKn5Lbn8thpk4LKwBWFYfCQtDepGF1evjrro73oupump": {
-   "mint": "BKn5Lbn8thpk4LKwBWFYfCQtDepGF1evjrro73oupump",
-   "symbol": "Sakura",
-   "pair": "GXpARA4fiX9F1teFAonS6WoYPZT1N2jUFCpTiwDA9VNF",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T09:11:45+00:00",
-   "rejected_ts": 1794561105,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.274e-05,
-   "mcap_usd": 52749,
-   "liquidity_usd": 16206.21,
-   "age_hours": 0.17,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T09:13:56+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-15T09:15:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "ErTBzXHZ1Gqss99KEq4QwaBqHrUZt7dHzgd89t7TwU7d": {
-   "mint": "ErTBzXHZ1Gqss99KEq4QwaBqHrUZt7dHzgd89t7TwU7d",
-   "symbol": "JewForce",
-   "pair": "GLayrYM5kQ92EiPD9Es1uVsU68ipctv4XXiqnqf54SJq",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T09:52:25+00:00",
-   "rejected_ts": 1794563545,
-   "stage": "market",
-   "reason": "volume_h1_low",
-   "reason_key": "market:volume_h1_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 5.994e-05,
-   "mcap_usd": 57454,
-   "liquidity_usd": 20829.48,
-   "age_hours": 8.6,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T09:53:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-15T09:58:05+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
-  "Aov3BtQvrGXM5V9oiHu8PKJWeV8a2rFnr24fwWcNpump": {
-   "mint": "Aov3BtQvrGXM5V9oiHu8PKJWeV8a2rFnr24fwWcNpump",
-   "symbol": "HNET",
-   "pair": "HGLSAK3nVLzAZPBMiqrkV52cmZhNVrwVQuzpSnCSYAkw",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T10:07:25+00:00",
-   "rejected_ts": 1794564445,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 5.278e-05,
-   "mcap_usd": 50536,
-   "liquidity_usd": 16921.66,
-   "age_hours": 873.57,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T10:08:21+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-15T10:08:05+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "AtFG76LDeX52EGzDLqFpBGkVcXfbaktr8mUtUgNfpump": {
    "mint": "AtFG76LDeX52EGzDLqFpBGkVcXfbaktr8mUtUgNfpump",
    "symbol": "VICE",
@@ -4547,9 +4454,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-18T10:37:46+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump": {
    "mint": "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump",
