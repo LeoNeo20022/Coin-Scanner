@@ -235,14 +235,6 @@
   "market_logged": 1794800121.565626,
   "market_reason": "pumpfun_bonding_curve"
  },
- "D5R84PDCH3nv2WfeFDyck7gXNFD5bZQEtnd9ToN3pump": {
-  "market_logged": 1794377324.5014381,
-  "market_reason": "pumpfun_bonding_curve"
- },
- "3P3Bm55jVbFCyxn65wjqYWXLf7meiFxguaqaoPw5pump": {
-  "market_logged": 1794377924.7461467,
-  "market_reason": "pumpfun_bonding_curve"
- },
  "BXwgus8w5NPgxxWxTUUHiKUz3Jezn8RB6uqowcJxpump": {
   "market_logged": 1794379547.857784,
   "market_reason": "mcap_too_low"
@@ -3728,8 +3720,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "FZn8EVhWY4vMdHRA1hkc5TvVtdWv32KjiebFTdmLoE6B": {
-  "market_logged": 1794979942.1619241,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1794983671.5442147,
+  "market_reason": "missing:volume_h1_usd"
  },
  "7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump": {
   "market_logged": 1794600801.3651757,
@@ -8838,7 +8830,9 @@
  },
  "BM52Wwq9ikCqnmJUdUjMbUohyWsuDaHb1mKhw4yqpump": {
   "market_logged": 1794981441.827825,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1794983671.5442147,
+  "symbol": "Calypso"
  },
  "Fk3Sh33kQXvNiwsuWLZewj2Cua8828gD8PgEngicpump": {
   "market_logged": 1794979942.1619241,
@@ -8863,5 +8857,21 @@
  "6vRckjvzyTWaWfzf9UaMQYUmCe639wK6riYPHGvUpump": {
   "market_logged": 1794982041.736595,
   "market_reason": "pumpfun_bonding_curve"
+ },
+ "5e3dLUoPcodT9JdCqnhwzemeWnBNexL317BY7Rv4pump": {
+  "market_logged": 1794983671.5442147,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "2Zz9g3CG8sVhZ6ESaADqXwRAJTTybuzFp8P6PktWpump": {
+  "market_logged": 1794983671.5442147,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "GUG2jmyhVNjmJsKqwzHioJHFY9ozxP9CJvZX5cjrpump": {
+  "market_logged": 1794983671.5442147,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "EoC8TA2wiSgFzAXpYvczPQ7fwx8hHCdZwE4arHbupump": {
+  "market_logged": 1794983671.5442147,
+  "market_reason": "too_new"
  }
 }
