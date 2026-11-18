@@ -5393,7 +5393,14 @@
    "mcap_usd": 238973,
    "liquidity_usd": 35117.94,
    "age_hours": 1.62,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T20:57:21+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "missing:volume_h1_usd"
+    }
+   },
    "done": false
   },
   "9DH6sGTvTnwyXYQi5eY4Ls6mLPwyD9hKW2UC4oQTpump": {
@@ -5411,7 +5418,14 @@
    "mcap_usd": 93074,
    "liquidity_usd": 20898.27,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T20:57:21+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "7Evw4uxTxLGGEFEvXLUNYyc1J7PnFk9EYwTUFagARUX": {
@@ -5429,7 +5443,14 @@
    "mcap_usd": 101411,
    "liquidity_usd": 20633.69,
    "age_hours": 1.02,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T20:57:21+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "top10"
+    }
+   },
    "done": false
   },
   "4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu": {
@@ -5447,7 +5468,14 @@
    "mcap_usd": 196838,
    "liquidity_usd": 32119.16,
    "age_hours": 2.56,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T20:57:23+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "6MjDb45kzriv6cpW6oaDjZGw1rujmpA185dHcvZzpump": {
@@ -5465,7 +5493,14 @@
    "mcap_usd": 502013,
    "liquidity_usd": 50832.13,
    "age_hours": 1.17,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T20:57:23+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "GLzXQj2Gk4oUYUKwrJEyt333wYjKwjujNp9erxzCpump": {
@@ -5483,7 +5518,14 @@
    "mcap_usd": 82002,
    "liquidity_usd": 24236.37,
    "age_hours": 1.99,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T20:57:23+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "9Bg8sX2bnMM4KwaXAeEtqpYQAkv2vmqFD7wzJ6eopump": {
