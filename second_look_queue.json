@@ -1,36 +1,5 @@
 {
  "entries": {
-  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
-   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
-   "symbol": "Sakura",
-   "pair": "FbR7WmU8WAAzSLsgwthiqAivzifdsW381FW3p4Vkmiru",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T08:24:05+00:00",
-   "rejected_ts": 1794558245,
-   "stage": "market",
-   "reason": "too_new",
-   "reason_key": "market:too_new",
-   "sources": "token-profiles",
-   "price_usd": 7.281e-05,
-   "mcap_usd": 72737,
-   "liquidity_usd": 20589.84,
-   "age_hours": 0.22,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T08:28:54+00:00",
-     "would_pass": "1",
-     "dead": "0",
-     "result": "pass"
-    },
-    "48h": {
-     "time": "2026-11-15T08:29:56+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "BKn5Lbn8thpk4LKwBWFYfCQtDepGF1evjrro73oupump": {
    "mint": "BKn5Lbn8thpk4LKwBWFYfCQtDepGF1evjrro73oupump",
    "symbol": "Sakura",
@@ -6558,6 +6527,24 @@
    "age_hours": 1.58,
    "checks": {},
    "done": false
+  },
+  "8m6YmC1dDW5iF3Kc7rEsay2ZbKcZ133KSoyj3ASFpump": {
+   "mint": "8m6YmC1dDW5iF3Kc7rEsay2ZbKcZ133KSoyj3ASFpump",
+   "symbol": "Sharkcards",
+   "pair": "8yYS4RBb7toHtg1A8xCdMmfUdYw6F9aHHuGvuekfVT5U",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T08:26:30+00:00",
+   "rejected_ts": 1794990390,
+   "stage": "market",
+   "reason": "liquidity_low",
+   "reason_key": "market:liquidity_low",
+   "sources": "token-profiles",
+   "price_usd": 5.913e-05,
+   "mcap_usd": 59137,
+   "liquidity_usd": 16854.33,
+   "age_hours": 0.19,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7098,7 +7085,7 @@
    }
   },
   "2026-11-18": {
-   "total": 31,
+   "total": 32,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7128,11 +7115,12 @@
     "06|market:pumpfun_bonding_curve": 1,
     "06|market:too_new": 1,
     "06|market:liquidity_low": 1,
-    "08": 1,
-    "08|market:too_new": 1
+    "08": 2,
+    "08|market:too_new": 1,
+    "08|market:liquidity_low": 1
    },
    "reasons": {
-    "market:liquidity_low": 4,
+    "market:liquidity_low": 5,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 5,
