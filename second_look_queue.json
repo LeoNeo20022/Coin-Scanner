@@ -5672,7 +5672,14 @@
    "mcap_usd": 104101,
    "liquidity_usd": 23527.49,
    "age_hours": 2.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T04:32:11+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "Fwfi8QaJHGhMiR5gY2XVMrYqcsQpw2gTLn7EGwLppump": {
@@ -6484,6 +6491,24 @@
    "age_hours": 0.3,
    "checks": {},
    "done": false
+  },
+  "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump": {
+   "mint": "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump",
+   "symbol": "Brian",
+   "pair": "ruM5oJgmkozdLPdxjEzAsRQ6xg36LjnthTajDBwPqMw",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T04:32:05+00:00",
+   "rejected_ts": 1794976325,
+   "stage": "grok",
+   "reason": "buys_m5=0 while sells_m5=4 and h1 gains already +24% signal fading momentum. Volume and holder spread decent but not strong enough to override slowdown.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 9.31e-05,
+   "mcap_usd": 90096,
+   "liquidity_usd": 25661.07,
+   "age_hours": 58.77,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7024,7 +7049,7 @@
    }
   },
   "2026-11-18": {
-   "total": 19,
+   "total": 20,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7051,7 +7076,7 @@
     "market:liquidity_low": 2,
     "market:pumpfun_bonding_curve": 4,
     "market:mcap_too_low": 5,
-    "grok:skip": 3,
+    "grok:skip": 4,
     "market:too_new": 4,
     "rugcheck:top10": 1
    }
