@@ -1,36 +1,5 @@
 {
  "entries": {
-  "32Zz5kvbdbg4jNvnhJ5kJCqiDLnr8XVWH7Ye93uipump": {
-   "mint": "32Zz5kvbdbg4jNvnhJ5kJCqiDLnr8XVWH7Ye93uipump",
-   "symbol": "ZEPHYRON",
-   "pair": "8SvRSPBYozLEosckAmUDU3zKhw27D31UjMtVALJ7hCfa",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T04:45:07+00:00",
-   "rejected_ts": 1794545107,
-   "stage": "rugcheck",
-   "reason": "danger:Creator history of rugged tokens",
-   "reason_key": "rugcheck:danger",
-   "sources": "token-profiles",
-   "price_usd": 0.0001684,
-   "mcap_usd": 159622,
-   "liquidity_usd": 29874.86,
-   "age_hours": 1.01,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T04:46:59+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-15T04:57:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump": {
    "mint": "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
    "symbol": "dca",
@@ -6509,6 +6478,24 @@
    "age_hours": 58.77,
    "checks": {},
    "done": false
+  },
+  "EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": {
+   "mint": "EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump",
+   "symbol": "ANT",
+   "pair": "CtbK3gTAFki1BfKQRbEa35MQ5TShnLC3G5DTBPMnWU7R",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T04:51:59+00:00",
+   "rejected_ts": 1794977519,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 0.0001014,
+   "mcap_usd": 98604,
+   "liquidity_usd": 27111.71,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7049,7 +7036,7 @@
    }
   },
   "2026-11-18": {
-   "total": 20,
+   "total": 21,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7078,7 +7065,7 @@
     "market:mcap_too_low": 5,
     "grok:skip": 4,
     "market:too_new": 4,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 2
    }
   }
  }
