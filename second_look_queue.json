@@ -6515,6 +6515,42 @@
    "age_hours": 15.89,
    "checks": {},
    "done": false
+  },
+  "6xKfWEJ76r5PzXwMpMnd8jiV5gArjkRcTsVXU7ujpump": {
+   "mint": "6xKfWEJ76r5PzXwMpMnd8jiV5gArjkRcTsVXU7ujpump",
+   "symbol": "controller",
+   "pair": "GGX2u9LjcU2xF2CVXdjmDRCKEjYro5Ytxi36F2vbVdso",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T08:11:29+00:00",
+   "rejected_ts": 1794989489,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 9.407e-05,
+   "mcap_usd": 94080,
+   "liquidity_usd": 21743.19,
+   "age_hours": 0.27,
+   "checks": {},
+   "done": false
+  },
+  "DunXr5Kq12ZVRCPj8JX2YUJpbDy7B91ULXbEEUpxpump": {
+   "mint": "DunXr5Kq12ZVRCPj8JX2YUJpbDy7B91ULXbEEUpxpump",
+   "symbol": "GAMER",
+   "pair": "aU1k9Akxbww9NVmay9YUyZh2K4odvgJ1UBdQ8S4Qk7Z",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T08:11:31+00:00",
+   "rejected_ts": 1794989491,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 0.0001394,
+   "mcap_usd": 136768,
+   "liquidity_usd": 26802.06,
+   "age_hours": 1.58,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7055,7 +7091,7 @@
    }
   },
   "2026-11-18": {
-   "total": 29,
+   "total": 31,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7084,16 +7120,19 @@
     "06": 3,
     "06|market:pumpfun_bonding_curve": 1,
     "06|market:too_new": 1,
-    "06|market:liquidity_low": 1
+    "06|market:liquidity_low": 1,
+    "08": 1,
+    "08|market:too_new": 1
    },
    "reasons": {
     "market:liquidity_low": 4,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
     "grok:skip": 5,
-    "market:too_new": 5,
+    "market:too_new": 6,
     "rugcheck:top10": 2,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "rugcheck:danger": 1
    }
   }
  }
