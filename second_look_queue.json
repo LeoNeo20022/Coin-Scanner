@@ -1,36 +1,5 @@
 {
  "entries": {
-  "AtFG76LDeX52EGzDLqFpBGkVcXfbaktr8mUtUgNfpump": {
-   "mint": "AtFG76LDeX52EGzDLqFpBGkVcXfbaktr8mUtUgNfpump",
-   "symbol": "VICE",
-   "pair": "H3E4wnEQJU6zQBuzNciFaowxmtgfRd3eCW7c83kLBbtK",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T11:54:17+00:00",
-   "rejected_ts": 1794570857,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 6.64e-05,
-   "mcap_usd": 66340,
-   "liquidity_usd": 18876.05,
-   "age_hours": 0.24,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T11:59:06+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-15T11:55:11+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump": {
    "mint": "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
    "symbol": "FASTMOON",
@@ -6551,6 +6520,24 @@
    "age_hours": 11.7,
    "checks": {},
    "done": false
+  },
+  "GZUGmAtuSx9755C3W1CLDVtA7MZQ8QWF1XjhjEbjpump": {
+   "mint": "GZUGmAtuSx9755C3W1CLDVtA7MZQ8QWF1XjhjEbjpump",
+   "symbol": "DACT",
+   "pair": "Cs5T7HyVr9CYGfjkzeFjv45vpPVK61PnbG9REWV48KVT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T12:06:56+00:00",
+   "rejected_ts": 1795003616,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0002858,
+   "mcap_usd": 278923,
+   "liquidity_usd": 49949.58,
+   "age_hours": 1.08,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7091,7 +7078,7 @@
    }
   },
   "2026-11-18": {
-   "total": 35,
+   "total": 36,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7135,7 +7122,8 @@
     "market:too_new": 6,
     "rugcheck:top10": 3,
     "rugcheck:insiders": 1,
-    "rugcheck:danger": 1
+    "rugcheck:danger": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
