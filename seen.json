@@ -263,10 +263,6 @@
   "market_logged": 1794936838.649578,
   "market_reason": "too_old"
  },
- "8bTJDVTG1xPuP4GsaXVKCRrbG4mRehhn5AyFy9yapump": {
-  "judged": 1794431459.9917247,
-  "symbol": "BERNIE"
- },
  "JEGkcMuGqV2j8nwPbgALifAHzegFLVbwYMX1TbH3pump": {
   "market_logged": 1794432060.076161,
   "market_reason": "mcap_too_low"
@@ -8172,8 +8168,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "8ryYEFySsfXfQskxYmykyyA6pbNKjB4s9CfcffpQpump": {
-  "market_logged": 1795034837.2498398,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1795036336.374485,
+  "market_reason": "too_new"
  },
  "5qk1rdnWV5VufAHKp1a1sW96uw7gANnuaMN298BUpump": {
   "market_logged": 1795034837.2498398,
@@ -8320,11 +8316,15 @@
   "market_reason": "mcap_too_low"
  },
  "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": {
-  "market_logged": 1795036036.5595868,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1795036336.374485,
+  "market_reason": "too_new"
  },
  "8xEQe5NVYYH47Dti4ttShhnQiSAy7XVcPsYfcmqEpump": {
   "market_logged": 1795036036.5595868,
   "market_reason": "mcap_too_low"
+ },
+ "5dLZ6JTifSt9A1zNBXLgCcJkNZdaRVPbHcsSCvJqpump": {
+  "market_logged": 1795036336.374485,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
