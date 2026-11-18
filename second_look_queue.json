@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EsrKGvMkC2w58rHLWQ32sthXer5RHaecYhLQ2iorpump": {
-   "mint": "EsrKGvMkC2w58rHLWQ32sthXer5RHaecYhLQ2iorpump",
-   "symbol": "LADIESMAN",
-   "pair": "GojvgQ9oZimSCuDV9Ygd18sKGvQXXYkVgVGD2MNRCoPS",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T07:00:27+00:00",
-   "rejected_ts": 1794553227,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-boosts",
-   "price_usd": 5.942e-05,
-   "mcap_usd": 57417,
-   "liquidity_usd": 16936.97,
-   "age_hours": 7.71,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T07:15:22+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-15T07:00:50+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump": {
    "mint": "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump",
    "symbol": "WRENCHP",
@@ -6545,6 +6514,24 @@
    "age_hours": 3.21,
    "checks": {},
    "done": false
+  },
+  "AYfuRfhDGPP5DKeNNp2oVPDjrYZtZttS1FMKS3jpump": {
+   "mint": "AYfuRfhDGPP5DKeNNp2oVPDjrYZtZttS1FMKS3jpump",
+   "symbol": "GETAJOB",
+   "pair": "4RFiCiWRS89CMhKQSbumwvJyFgn3QEwECDY8XgWtzh6Y",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T07:09:45+00:00",
+   "rejected_ts": 1794985785,
+   "stage": "grok",
+   "reason": "298% h1 pump with m5 already -5.7% reversal signals blow-off top. Buys still lead but spike looks exhausted.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0005166,
+   "mcap_usd": 511517,
+   "liquidity_usd": 52504.33,
+   "age_hours": 15.89,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7085,7 +7072,7 @@
    }
   },
   "2026-11-18": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7120,7 +7107,7 @@
     "market:liquidity_low": 4,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 4,
+    "grok:skip": 5,
     "market:too_new": 5,
     "rugcheck:top10": 2,
     "rugcheck:insiders": 1
