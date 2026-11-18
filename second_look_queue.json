@@ -6527,6 +6527,24 @@
    "age_hours": 1.08,
    "checks": {},
    "done": false
+  },
+  "HricrxBN3QXC3SN5VLtNhaEzoGrYea5ZtaTxQDfKSTNK": {
+   "mint": "HricrxBN3QXC3SN5VLtNhaEzoGrYea5ZtaTxQDfKSTNK",
+   "symbol": "VI",
+   "pair": "Ghooj5bdSAuZQzUYq6BSn763Sp9dkUrHdbdrNyZTWQPN",
+   "dex": "raydium",
+   "rejected_at": "2026-11-18T13:01:26+00:00",
+   "rejected_ts": 1795006886,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles,token-boosts,token-boosts/top",
+   "price_usd": 0.0001465,
+   "mcap_usd": 146538,
+   "liquidity_usd": 28449.73,
+   "age_hours": 1.03,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7067,7 +7085,7 @@
    }
   },
   "2026-11-18": {
-   "total": 36,
+   "total": 37,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7109,7 +7127,7 @@
     "market:mcap_too_low": 6,
     "grok:skip": 6,
     "market:too_new": 6,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "rugcheck:insiders": 1,
     "rugcheck:danger": 1,
     "rugcheck:lp_unlocked": 1
