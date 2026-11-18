@@ -1,14 +1,3 @@
-[2026-11-15T20:21:35+00:00] paper: [scalp] ANT: closed (take_profit) at +20.0% [candles_1m]
-[2026-11-15T20:21:44+00:00] discovered=53 fresh=42 market_pass=1
-[2026-11-15T20:21:44+00:00] grok daily budget 14/40 used, 0 no-response, $0.0390 (2026-11-15 UTC)
-[2026-11-15T20:21:46+00:00] run end {"discovered": 53, "skipped_recent": 11, "no_pair": 1, "market": {"pumpfun_bonding_curve": 12, "mcap_too_low": 15, "too_new": 1, "liquidity_low": 2, "too_old": 6, "mcap_too_high": 3, "volume_h1_low": 1}, "rug": {"top10": 1}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=17s
-[2026-11-15T20:21:50+00:00] second_look: pass end {"queued": 245, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
-[2026-11-15T20:21:50+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-15T20:22:39+00:00] scout: paper: [pool/scalp] Anthropig closed stop_loss -1.20 after fees
-[2026-11-15T20:22:51+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-15T20:22:51+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-11-15T20:22:51+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-15T20:22:51+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-15T20:23:45+00:00] scout: pass end {"watch": 346, "a_qualify": 11, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=115s
 [2026-11-15T20:26:29+00:00] run start (LOG ONLY)
 [2026-11-15T20:26:35+00:00] paper: [target5] ANT: closed (take_profit) at +50.0% [candles_1m]
@@ -4998,3 +4987,14 @@
 [2026-11-18T02:16:43+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
 [2026-11-18T02:16:43+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-18T02:17:33+00:00] scout: pass end {"watch": 345, "a_qualify": 29, "a_open": 1, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=116s
+[2026-11-18T02:20:22+00:00] run start (LOG ONLY)
+[2026-11-18T02:20:31+00:00] discovered=71 fresh=57 market_pass=0
+[2026-11-18T02:20:31+00:00] grok daily budget 2/40 used, 0 no-response, $0.0053 (2026-11-18 UTC)
+[2026-11-18T02:20:31+00:00] run end {"discovered": 71, "skipped_recent": 14, "no_pair": 0, "market": {"mcap_too_low": 17, "too_new": 2, "pumpfun_bonding_curve": 19, "liquidity_low": 3, "missing:liquidity_usd": 1, "mcap_too_high": 2, "too_old": 8, "missing:volume_h1_usd": 5}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-11-18T02:20:38+00:00] second_look: pass end {"queued": 239, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=6s
+[2026-11-18T02:20:38+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-18T02:21:33+00:00] scout: paper: candles unavailable 13EAww2e (RuntimeError)
+[2026-11-18T02:21:43+00:00] scout: feed error trending_pools?page=1: 429
+[2026-11-18T02:21:43+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
+[2026-11-18T02:21:43+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-18T02:22:31+00:00] scout: pass end {"watch": 345, "a_qualify": 27, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=113s
