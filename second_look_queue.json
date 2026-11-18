@@ -6533,6 +6533,24 @@
    "age_hours": 74.1,
    "checks": {},
    "done": false
+  },
+  "6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": {
+   "mint": "6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump",
+   "symbol": "GTAVI",
+   "pair": "2YP3Bw83YQHdnd9H2TqX77ZW6zVFqUjta9CHbBsvRJAJ",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T11:52:07+00:00",
+   "rejected_ts": 1795002727,
+   "stage": "grok",
+   "reason": "Price steadily dumping (-26% h6, -11% h1, -9% m5) despite heavy buy counts; looks like fading spike or distribution.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.001989,
+   "mcap_usd": 1982814,
+   "liquidity_usd": 104519.89,
+   "age_hours": 11.7,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7073,7 +7091,7 @@
    }
   },
   "2026-11-18": {
-   "total": 34,
+   "total": 35,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7113,7 +7131,7 @@
     "market:liquidity_low": 6,
     "market:pumpfun_bonding_curve": 6,
     "market:mcap_too_low": 6,
-    "grok:skip": 5,
+    "grok:skip": 6,
     "market:too_new": 6,
     "rugcheck:top10": 3,
     "rugcheck:insiders": 1,
