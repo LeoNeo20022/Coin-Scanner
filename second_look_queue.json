@@ -1,36 +1,5 @@
 {
  "entries": {
-  "EZyMpc1477jpZfRh8c8HrRzVFhwq7uKXxBT54cpepump": {
-   "mint": "EZyMpc1477jpZfRh8c8HrRzVFhwq7uKXxBT54cpepump",
-   "symbol": "Humpback",
-   "pair": "FJ1Lj2z9TB3zL4BWFMconcbrHaGYNHvDXaruyhzr6N29",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T00:06:30+00:00",
-   "rejected_ts": 1794528390,
-   "stage": "rugcheck",
-   "reason": "insiders",
-   "reason_key": "rugcheck:insiders",
-   "sources": "token-profiles",
-   "price_usd": 9.328e-05,
-   "mcap_usd": 88790,
-   "liquidity_usd": 27804.04,
-   "age_hours": 1.03,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T00:08:33+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-15T00:10:54+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": {
    "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
    "symbol": "SHARKBUX",
@@ -5679,7 +5648,14 @@
    "mcap_usd": 1009200,
    "liquidity_usd": 72618.28,
    "age_hours": 1.03,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T00:09:16+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "EykPg5B2c5Gd7VTsiGJRGtx3A3W44sD9ATmiGziDpump": {
