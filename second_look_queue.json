@@ -1,36 +1,5 @@
 {
  "entries": {
-  "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump": {
-   "mint": "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump",
-   "symbol": "WRENCHP",
-   "pair": "DGehLceDwaa1Q7WRzSr5df9bUDpgt2CsPRXq144sdTtc",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-13T08:04:05+00:00",
-   "rejected_ts": 1794557045,
-   "stage": "market",
-   "reason": "liquidity_low",
-   "reason_key": "market:liquidity_low",
-   "sources": "token-profiles",
-   "price_usd": 5.695e-05,
-   "mcap_usd": 54879,
-   "liquidity_usd": 16678.16,
-   "age_hours": 0.84,
-   "checks": {
-    "24h": {
-     "time": "2026-11-14T08:13:54+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-15T08:07:57+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "no_solana_pair"
-    }
-   },
-   "done": true
-  },
   "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
    "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
    "symbol": "Sakura",
@@ -5691,7 +5660,14 @@
    "mcap_usd": 52899,
    "liquidity_usd": 15835.97,
    "age_hours": 0.96,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-18T08:06:31+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "missing:volume_h1_usd"
+    }
+   },
    "done": false
   },
   "D7ZkNHN3ESProTmshXRjAgiNjQU7SkUcXHpe13qCpump": {
