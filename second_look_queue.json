@@ -6472,6 +6472,24 @@
    "age_hours": 1.1,
    "checks": {},
    "done": false
+  },
+  "BYHRxthRZUWnug1QvehGeWLav6tPzoe71c7ZRTtCpump": {
+   "mint": "BYHRxthRZUWnug1QvehGeWLav6tPzoe71c7ZRTtCpump",
+   "symbol": "PENGYOUHAO",
+   "pair": "8BHGMB7U2dF8XYY2EEW8QPAwP4Jvt65hXNSi1iL3TNAi",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-18T03:31:12+00:00",
+   "rejected_ts": 1794972672,
+   "stage": "grok",
+   "reason": "300%+ h1/h6 gains with volume concentrated in first hour; m5 activity already slowing relative to peak.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001306,
+   "mcap_usd": 125224,
+   "liquidity_usd": 25283.19,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -7012,7 +7030,7 @@
    }
   },
   "2026-11-18": {
-   "total": 14,
+   "total": 15,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -7035,7 +7053,7 @@
     "market:liquidity_low": 2,
     "market:pumpfun_bonding_curve": 3,
     "market:mcap_too_low": 4,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "market:too_new": 3
    }
   }
