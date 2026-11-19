@@ -5968,6 +5968,24 @@
    "age_hours": 2.22,
    "checks": {},
    "done": false
+  },
+  "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC": {
+   "mint": "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC",
+   "symbol": "APCY",
+   "pair": "9ee4wKrbDAqbiVGTv3sjRffAUzeLLsT5BCKcF3tAr4rW",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-19T10:44:59+00:00",
+   "rejected_ts": 1795085099,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-boosts,token-boosts,token-boosts/top",
+   "price_usd": 6.376e-05,
+   "mcap_usd": 62077,
+   "liquidity_usd": 23138.84,
+   "age_hours": 18.19,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -6497,7 +6515,7 @@
    }
   },
   "2026-11-19": {
-   "total": 12,
+   "total": 13,
    "hours": {
     "02": 3,
     "02|market:mcap_too_low": 1,
@@ -6513,7 +6531,7 @@
     "market:pumpfun_bonding_curve": 2,
     "market:too_new": 2,
     "grok:skip": 3,
-    "rugcheck:insiders": 2,
+    "rugcheck:insiders": 3,
     "rugcheck:top10": 1
    }
   }
