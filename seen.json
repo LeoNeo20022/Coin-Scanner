@@ -189,10 +189,6 @@
   "market_logged": 1794564741.8462617,
   "market_reason": "mcap_too_low"
  },
- "1475N35qfXFhsE9H6zYpafU3y1DbDCnQXLfkaA2cpump": {
-  "market_logged": 1794532357.8823252,
-  "market_reason": "liquidity_low"
- },
  "Aerzt1UbAbJ5aTTHVvZkDpWVfwjb59WpuMynAEcwpump": {
   "market_logged": 1794528385.2442548,
   "market_reason": "mcap_too_low",
@@ -4549,8 +4545,8 @@
   "market_reason": "mcap_too_low"
  },
  "5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump": {
-  "market_logged": 1795136590.6668944,
-  "market_reason": "liquidity_low"
+  "market_logged": 1795137191.0171473,
+  "market_reason": "too_old"
  },
  "3jXeQDkmM1N7gAS3iubWwmZTaAS4hdMDJ5e5B2uswWaK": {
   "market_logged": 1794863703.2575781,
@@ -7169,8 +7165,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "72Uxzwsgv99kfMtXzmK9LnwQ4Y2P7A9XG926haKtpump": {
-  "market_logged": 1795136590.6668944,
-  "market_reason": "too_new"
+  "market_logged": 1795137191.0171473,
+  "market_reason": "mcap_too_low"
  },
  "B9bVAePSKrgvediH1tRVfwcjVQSNRcR7djb1MQVGpump": {
   "market_logged": 1795136590.6668944,
@@ -7181,8 +7177,8 @@
   "market_reason": "mcap_too_low"
  },
  "GiNDGcqc7xk9F88sgE9KF7Bo5migm4Bh8Y8CJVM7pump": {
-  "market_logged": 1795136891.0715272,
-  "market_reason": "too_new"
+  "market_logged": 1795137191.0171473,
+  "market_reason": "liquidity_low"
  },
  "8vZtXT76CekxVD3XsHqrD39McTLo8TZNqLTaABApump": {
   "market_logged": 1795136590.6668944,
@@ -7277,7 +7273,19 @@
   "market_reason": "too_old"
  },
  "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": {
-  "market_logged": 1795136891.0715272,
+  "market_logged": 1795137191.0171473,
+  "market_reason": "liquidity_low"
+ },
+ "3emn4AZwHpsH8K6rqjsMTeFHJTg4XqdPe9PBHpV3JANJ": {
+  "market_logged": 1795137191.0171473,
+  "market_reason": "mcap_too_low"
+ },
+ "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": {
+  "market_logged": 1795137191.0171473,
   "market_reason": "too_new"
+ },
+ "Eh2zcpFTKQkH2ivAzyMCg2CuVBW8mx4bkWKRDSmcEray": {
+  "market_logged": 1795137191.0171473,
+  "market_reason": "mcap_too_low"
  }
 }
