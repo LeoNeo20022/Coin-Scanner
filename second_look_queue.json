@@ -5109,6 +5109,24 @@
    "age_hours": 20.16,
    "checks": {},
    "done": false
+  },
+  "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump": {
+   "mint": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump",
+   "symbol": "HUSS",
+   "pair": "FfnWWs4z2rrf3vxCWMTbzC1AjYWoUTpSC7X4M68Ecfcx",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-20T17:13:14+00:00",
+   "rejected_ts": 1795194794,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0001128,
+   "mcap_usd": 108707,
+   "liquidity_usd": 23781.56,
+   "age_hours": 1.04,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5603,7 +5621,7 @@
    }
   },
   "2026-11-20": {
-   "total": 17,
+   "total": 18,
    "hours": {
     "01": 3,
     "01|market:mcap_too_low": 1,
@@ -5626,7 +5644,7 @@
     "rugcheck:top10": 1,
     "rugcheck:insiders": 4,
     "market:liquidity_low": 1,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 2
    }
   }
  }
