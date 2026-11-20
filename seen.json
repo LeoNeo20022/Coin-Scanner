@@ -217,10 +217,6 @@
   "symbol": "CSI",
   "judged": 1794613261.8954473
  },
- "EHVpQJ76sEKqm7VvtZzW5UGg362q9B8HcpQBNps7pump": {
-  "market_logged": 1794612061.6089706,
-  "market_reason": "mcap_too_low"
- },
  "Cf9C7D54ikZVyM9Qgj8VFa15tq4qoBcDjthKXCo5SAME": {
   "market_logged": 1794612361.2853312,
   "market_reason": "pumpfun_bonding_curve"
@@ -6356,8 +6352,8 @@
   "market_reason": "missing:mcap_usd"
  },
  "H8BevoVvtuhUJzwQBrJzWvBxcpKaJw19HXzvUh9upump": {
-  "market_logged": 1795215699.1754107,
-  "market_reason": "mcap_too_low"
+  "market_logged": 1795216898.1758113,
+  "market_reason": "missing:volume_h1_usd"
  },
  "7rdsiA4riA8Jb1Pr7TUxiYL8dRtSGEzxdWwdENwSpump": {
   "market_logged": 1795195989.3834448,
@@ -6400,8 +6396,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump": {
-  "market_logged": 1795215699.1754107,
-  "market_reason": "too_new"
+  "market_logged": 1795216898.1758113,
+  "market_reason": "mcap_too_low"
  },
  "C1obaxDFapS4QiLEdCvAjnhHACTj7NnS1ncDcLippump": {
   "market_logged": 1795215699.1754107,
@@ -6514,5 +6510,13 @@
  "HMs3u6rx8DSruPMhXL7N2N5hciXTXa49e9LCoj1Apump": {
   "market_logged": 1795216597.4613323,
   "market_reason": "too_new"
+ },
+ "3M5oAVgYEACK33irwebZohrmirNyac2nhvN1K6yd1hmz": {
+  "market_logged": 1795216898.1758113,
+  "market_reason": "pumpfun_bonding_curve"
+ },
+ "Euj4Mx9GemNfFb36fAXYMKBaA2S9qgnt5qptmo8CKbX6": {
+  "market_logged": 1795216898.1758113,
+  "market_reason": "mcap_too_low"
  }
 }
