@@ -1,36 +1,5 @@
 {
  "entries": {
-  "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": {
-   "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
-   "symbol": "Nyajira",
-   "pair": "vM9GA1q6LfbjpWx27u9dqZyRNYeyKzCfC86qLHMXfYa",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-15T17:18:19+00:00",
-   "rejected_ts": 1794763099,
-   "stage": "grok",
-   "reason": "251% h1 gain on 2.85h token looks like blow-off top. Volume and buys still elevated but momentum already extreme.",
-   "reason_key": "grok:skip",
-   "sources": "token-boosts,token-boosts/top",
-   "price_usd": 9.226e-05,
-   "mcap_usd": 87914,
-   "liquidity_usd": 21320.15,
-   "age_hours": 2.85,
-   "checks": {
-    "24h": {
-     "time": "2026-11-16T17:18:43+00:00",
-     "would_pass": "0",
-     "dead": "0",
-     "result": "mcap_too_low"
-    },
-    "48h": {
-     "time": "2026-11-17T17:24:06+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
    "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
    "symbol": "gtacoin",
@@ -5127,6 +5096,24 @@
    "age_hours": 1.04,
    "checks": {},
    "done": false
+  },
+  "J5zXjgnbwxnWSuT13aE5sRmGnbyoNafWHR52SDB9pump": {
+   "mint": "J5zXjgnbwxnWSuT13aE5sRmGnbyoNafWHR52SDB9pump",
+   "symbol": "H4CK",
+   "pair": "3urzU7w7PR6HgrWiA8xJMwZnXvhf7tDgCUdzBxDue7sU",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-20T17:28:24+00:00",
+   "rejected_ts": 1795195704,
+   "stage": "grok",
+   "reason": "135% h1 pump on 1h-old token with volume already concentrated early; m5 price barely moving while buys slow.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 0.0001077,
+   "mcap_usd": 104611,
+   "liquidity_usd": 21993.25,
+   "age_hours": 1.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5621,7 +5608,7 @@
    }
   },
   "2026-11-20": {
-   "total": 18,
+   "total": 19,
    "hours": {
     "01": 3,
     "01|market:mcap_too_low": 1,
@@ -5640,7 +5627,7 @@
     "market:mcap_too_low": 3,
     "market:too_new": 2,
     "market:pumpfun_bonding_curve": 3,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:top10": 1,
     "rugcheck:insiders": 4,
     "market:liquidity_low": 1,
