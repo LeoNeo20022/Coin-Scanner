@@ -5139,6 +5139,24 @@
    "age_hours": 58.98,
    "checks": {},
    "done": false
+  },
+  "2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx": {
+   "mint": "2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx",
+   "symbol": "BANDANA",
+   "pair": "Fi1SEETAL1cKYUfCHZDowLxZnjPBZ7sv7hboiUrWGUHt",
+   "dex": "raydium",
+   "rejected_at": "2026-11-20T23:31:43+00:00",
+   "rejected_ts": 1795217503,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0002521,
+   "mcap_usd": 252120,
+   "liquidity_usd": 39634.46,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5633,7 +5651,7 @@
    }
   },
   "2026-11-20": {
-   "total": 27,
+   "total": 28,
    "hours": {
     "01": 3,
     "01|market:mcap_too_low": 1,
@@ -5660,7 +5678,7 @@
     "rugcheck:top10": 3,
     "rugcheck:insiders": 5,
     "market:liquidity_low": 1,
-    "rugcheck:lp_unlocked": 2
+    "rugcheck:lp_unlocked": 3
    }
   }
  }
