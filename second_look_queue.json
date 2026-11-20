@@ -5157,6 +5157,24 @@
    "age_hours": 1.01,
    "checks": {},
    "done": false
+  },
+  "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump": {
+   "mint": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
+   "symbol": "Bust",
+   "pair": "DxuspRkbwT81ib46q2M5A9YUMo1J1Dnymu6tbMhvHjW9",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-20T23:36:43+00:00",
+   "rejected_ts": 1795217803,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 7.668e-05,
+   "mcap_usd": 72219,
+   "liquidity_usd": 23151.53,
+   "age_hours": 1.01,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -5651,7 +5669,7 @@
    }
   },
   "2026-11-20": {
-   "total": 28,
+   "total": 29,
    "hours": {
     "01": 3,
     "01|market:mcap_too_low": 1,
@@ -5675,7 +5693,7 @@
     "market:too_new": 3,
     "market:pumpfun_bonding_curve": 4,
     "grok:skip": 5,
-    "rugcheck:top10": 3,
+    "rugcheck:top10": 4,
     "rugcheck:insiders": 5,
     "market:liquidity_low": 1,
     "rugcheck:lp_unlocked": 3
