@@ -4619,7 +4619,14 @@
    "mcap_usd": 52053,
    "liquidity_usd": 15884.56,
    "age_hours": 66.54,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-20T23:06:44+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "5k8yMkEzcekeufWvTk5zvuZ8xnx2PqNdxs86E9P2bvQf": {
@@ -4637,7 +4644,14 @@
    "mcap_usd": 159321,
    "liquidity_usd": 81450.92,
    "age_hours": 1.01,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-20T23:06:44+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "4q1PmmvWDsrz8YrHTo116KX2J1tQQVMoanVSQwXUpump": {
@@ -5105,6 +5119,24 @@
    "mcap_usd": 122516,
    "liquidity_usd": 26554.61,
    "age_hours": 2.92,
+   "checks": {},
+   "done": false
+  },
+  "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": {
+   "mint": "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump",
+   "symbol": "HUGH",
+   "pair": "8NkmorMxYyJ9X2La7QVAK5q5NA1gTp2qyiscwLTj627q",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-20T23:06:42+00:00",
+   "rejected_ts": 1795216002,
+   "stage": "rugcheck",
+   "reason": "insiders",
+   "reason_key": "rugcheck:insiders",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.0001838,
+   "mcap_usd": 178906,
+   "liquidity_usd": 37896.58,
+   "age_hours": 58.98,
    "checks": {},
    "done": false
   }
@@ -5601,7 +5633,7 @@
    }
   },
   "2026-11-20": {
-   "total": 26,
+   "total": 27,
    "hours": {
     "01": 3,
     "01|market:mcap_too_low": 1,
@@ -5626,7 +5658,7 @@
     "market:pumpfun_bonding_curve": 4,
     "grok:skip": 5,
     "rugcheck:top10": 3,
-    "rugcheck:insiders": 4,
+    "rugcheck:insiders": 5,
     "market:liquidity_low": 1,
     "rugcheck:lp_unlocked": 2
    }
