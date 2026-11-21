@@ -1,11 +1,3 @@
-[2026-11-16T22:06:56+00:00] scout: paper: candles unavailable BARobVaV (RuntimeError)
-[2026-11-16T22:07:03+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-16T22:07:48+00:00] scout: wait3 candles error CY254o6V RuntimeError
-[2026-11-16T22:07:49+00:00] scout: pass end {"watch": 344, "a_qualify": 32, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=90s
-[2026-11-16T22:19:56+00:00] run start (LOG ONLY)
-[2026-11-16T22:20:06+00:00] discovered=63 fresh=59 market_pass=1
-[2026-11-16T22:20:06+00:00] grok daily budget 12/40 used, 0 no-response, $0.0321 (2026-11-16 UTC)
-[2026-11-16T22:20:16+00:00] grok call 7.8s model=grok-4.3 tokens=994+93 reasoning=568
 [2026-11-16T22:20:16+00:00] grok [rugcheck] VICE 6UcvWd4h… -> BUY (0.85) Strong sustained buys (7.7k h1, 427 m5) vs sells, top10 at 5%, risk score 1, LP locked, no warnings. H1 correction after 146% run but volume and buying remain broad. | risk: Extremely new (1.1h) with sharp post-pump volatility
 [2026-11-16T22:20:16+00:00] paper BUY $10 VICE @ 8.707e-05
 [2026-11-16T22:20:16+00:00] paper SHADOW BUY [target5] $10 VICE @ 8.707e-05
@@ -4998,3 +4990,11 @@
 [2026-11-21T23:40:20+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-11-21T23:41:04+00:00] scout: wait3 candles error 2Fm3qAJQ RuntimeError
 [2026-11-21T23:41:53+00:00] scout: pass end {"watch": 308, "a_qualify": 37, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=92s
+[2026-11-21T23:45:05+00:00] run start (LOG ONLY)
+[2026-11-21T23:45:15+00:00] discovered=56 fresh=49 market_pass=0
+[2026-11-21T23:45:15+00:00] grok daily budget 3/40 used, 0 no-response, $0.0082 (2026-11-21 UTC)
+[2026-11-21T23:45:15+00:00] run end {"discovered": 56, "skipped_recent": 7, "no_pair": 1, "market": {"pumpfun_bonding_curve": 17, "too_new": 1, "mcap_too_low": 14, "liquidity_low": 2, "missing:mcap_usd": 2, "too_old": 10, "mcap_too_high": 2}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-11-21T23:45:15+00:00] second_look: pass end {"queued": 158, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
+[2026-11-21T23:45:15+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-21T23:45:59+00:00] scout: wait3 candles error DEgAkPNx RuntimeError
+[2026-11-21T23:46:46+00:00] scout: pass end {"watch": 310, "a_qualify": 39, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=91s
