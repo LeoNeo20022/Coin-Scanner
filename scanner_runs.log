@@ -1,21 +1,3 @@
-[2026-11-16T21:01:02+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-16T21:01:02+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-16T21:02:04+00:00] scout: pass end {"watch": 347, "a_qualify": 28, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=110s
-[2026-11-16T21:04:57+00:00] run start (LOG ONLY)
-[2026-11-16T21:04:58+00:00] paper: VICEDORD: closed (stop_loss) at -99.4%
-[2026-11-16T21:05:00+00:00] paper: [target5] VICEDORD: closed (stop_loss) at -50.0% [candles_1m]
-[2026-11-16T21:05:00+00:00] paper: [scalp] VICEDORD: closed (stop_loss) at -10.0% [candles_1m]
-[2026-11-16T21:05:09+00:00] discovered=58 fresh=49 market_pass=0
-[2026-11-16T21:05:09+00:00] grok daily budget 11/40 used, 0 no-response, $0.0296 (2026-11-16 UTC)
-[2026-11-16T21:05:09+00:00] run end {"discovered": 58, "skipped_recent": 9, "no_pair": 0, "market": {"too_new": 1, "mcap_too_low": 17, "pumpfun_bonding_curve": 17, "mcap_too_high": 4, "too_old": 8, "liquidity_low": 1, "missing:liquidity_usd": 1}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=13s
-[2026-11-16T21:05:13+00:00] second_look: pass end {"queued": 238, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
-[2026-11-16T21:05:13+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-16T21:05:50+00:00] scout: paper: candles unavailable FYtY5KpM (RuntimeError)
-[2026-11-16T21:06:02+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-16T21:06:02+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-11-16T21:06:02+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
-[2026-11-16T21:06:02+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-16T21:07:03+00:00] scout: pass end {"watch": 347, "a_qualify": 28, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=109s
 [2026-11-16T21:09:56+00:00] run start (LOG ONLY)
 [2026-11-16T21:10:05+00:00] discovered=58 fresh=52 market_pass=0
 [2026-11-16T21:10:05+00:00] grok daily budget 11/40 used, 0 no-response, $0.0296 (2026-11-16 UTC)
@@ -4998,3 +4980,21 @@
 [2026-11-21T12:25:36+00:00] second_look: pass end {"queued": 163, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=0s
 [2026-11-21T12:25:36+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
 [2026-11-21T12:27:08+00:00] scout: pass end {"watch": 270, "a_qualify": 44, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=91s
+[2026-11-21T18:17:06+00:00] run start (LOG ONLY)
+[2026-11-21T18:17:15+00:00] discovered=56 fresh=52 market_pass=1
+[2026-11-21T18:17:15+00:00] grok daily budget 1/40 used, 0 no-response, $0.0028 (2026-11-21 UTC)
+[2026-11-21T18:17:24+00:00] grok call 7.3s model=grok-4.3 tokens=1003+71 reasoning=549
+[2026-11-21T18:17:24+00:00] grok [rugcheck] PUNANI 2TngN4B7… -> SKIP (0.85) Sharp -47% h6 and -39% h1 price drops despite high volume and buy counts signal fading spike or distribution. Liquidity thin at 6.6% of mcap. | risk: Continued heavy selling pressure on thin liquidity
+[2026-11-21T18:17:26+00:00] run end {"discovered": 56, "skipped_recent": 4, "no_pair": 1, "market": {"mcap_too_low": 18, "pumpfun_bonding_curve": 13, "volume_h1_low": 2, "missing:volume_h1_usd": 3, "mcap_too_high": 4, "too_old": 9, "missing:mcap_usd": 1}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 4} elapsed=20s
+[2026-11-21T18:17:31+00:00] second_look: 24h BITCAT b9JGFxnW… (rejected market:too_new) -> fail: missing:volume_h1_usd [dead: no_volume_24h]
+[2026-11-21T18:17:31+00:00] second_look: 24h afk 81GUiw6M… (rejected market:mcap_too_low) -> fail: missing:volume_h1_usd
+[2026-11-21T18:17:31+00:00] second_look: 24h ONE Do8QLpAD… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve
+[2026-11-21T18:17:31+00:00] second_look: 24h RUDY GRMRQSkB… (rejected rugcheck:insiders) -> fail: mcap_too_low
+[2026-11-21T18:17:31+00:00] second_look: 24h FIONA B34nXKzC… (rejected rugcheck:lp_unlocked) -> fail: sells_ge_buys_h1
+[2026-11-21T18:17:33+00:00] second_look: 24h HUSS 3umHFkiM… (rejected rugcheck:lp_unlocked) -> fail: top10
+[2026-11-21T18:17:33+00:00] second_look: 24h H4CK J5zXjgnb… (rejected grok:skip) -> fail: missing:volume_h1_usd [dead: no_volume_24h]
+[2026-11-21T18:17:33+00:00] second_look: pass end {"queued": 163, "due": 7, "rechecked": 7, "pass": 0, "opened": 0} elapsed=7s
+[2026-11-21T18:17:33+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-21T18:17:35+00:00] scout: paper: [pool/tp50_sl30] PUNANI closed stop_loss -3.16 after fees
+[2026-11-21T18:17:35+00:00] scout: paper: [pool/scalp] PUNANI closed stop_loss -1.20 after fees
+[2026-11-21T18:19:04+00:00] scout: pass end {"watch": 289, "a_qualify": 54, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=92s
