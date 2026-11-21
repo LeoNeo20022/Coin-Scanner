@@ -4424,6 +4424,24 @@
    "age_hours": 18.29,
    "checks": {},
    "done": false
+  },
+  "DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump": {
+   "mint": "DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump",
+   "symbol": "URANUS",
+   "pair": "HbLbkEKoW1wxgfrjdZpvAXhUphM4qYBhMLEzz8fMvXfP",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-21T23:55:17+00:00",
+   "rejected_ts": 1795305317,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "token-profiles",
+   "price_usd": 6.341e-05,
+   "mcap_usd": 61168,
+   "liquidity_usd": 21658.36,
+   "age_hours": 3.24,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4888,7 +4906,7 @@
    }
   },
   "2026-11-21": {
-   "total": 23,
+   "total": 24,
    "hours": {
     "03": 3,
     "03|market:pumpfun_bonding_curve": 1,
@@ -4922,7 +4940,8 @@
     "grok:skip": 3,
     "market:too_new": 1,
     "market:liquidity_low": 3,
-    "rugcheck:insiders": 2
+    "rugcheck:insiders": 2,
+    "rugcheck:top10": 1
    }
   }
  }
