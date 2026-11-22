@@ -1,15 +1,3 @@
-[2026-11-17T00:01:22+00:00] scout: wait3 candles error FsFqQGxC RuntimeError
-[2026-11-17T00:01:23+00:00] scout: pass end {"watch": 346, "a_qualify": 36, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=125s
-[2026-11-17T00:04:03+00:00] run start (LOG ONLY)
-[2026-11-17T00:04:14+00:00] discovered=68 fresh=61 market_pass=1
-[2026-11-17T00:04:14+00:00] grok daily budget 0/40 used, 0 no-response, $0.0000 (2026-11-17 UTC)
-[2026-11-17T00:04:27+00:00] grok call 10.9s model=grok-4.3 tokens=996+77 reasoning=564
-[2026-11-17T00:04:27+00:00] grok [rugcheck] LEOSTAR 2cMcMEX3… -> SKIP (0.85) 872% 1h / 3150% 6h gains after only 1h age scream blow-off top; m5 already turning negative while volume concentrated early. | risk: Parabolic move likely exhausted; thin liquidity relative to mcap will accelerate any reversal
-[2026-11-17T00:04:29+00:00] run end {"discovered": 68, "skipped_recent": 7, "no_pair": 2, "market": {"pumpfun_bonding_curve": 17, "too_new": 1, "mcap_too_low": 24, "missing:mcap_usd": 1, "missing:liquidity_usd": 2, "too_old": 8, "liquidity_low": 1, "mcap_too_high": 4}, "rug": {}, "grok": 1, "BUY": 0, "SKIP": 1, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 4} elapsed=26s
-[2026-11-17T00:04:30+00:00] second_look: 48h USDC Acgs6mb4… (rejected market:pumpfun_bonding_curve) -> fail: mcap_too_low
-[2026-11-17T00:04:30+00:00] second_look: 48h UM FL3LnVeZ… (rejected market:too_new) -> fail: mcap_too_low [dead: no_volume_24h]
-[2026-11-17T00:04:30+00:00] second_look: 48h Tampons 6N5NiqqE… (rejected market:mcap_too_low) -> fail: mcap_too_low
-[2026-11-17T00:04:30+00:00] second_look: 24h CYBERDACITY C5X8tVbt… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
 [2026-11-17T00:04:30+00:00] second_look: 24h VI 6cYLcSmu… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve
 [2026-11-17T00:04:30+00:00] second_look: 24h WANTED EPm7A2Ye… (rejected market:mcap_too_low) -> fail: mcap_too_low
 [2026-11-17T00:04:34+00:00] second_look: pass end {"queued": 242, "due": 6, "rechecked": 6, "pass": 0, "opened": 0} elapsed=6s
@@ -4998,3 +4986,15 @@
 [2026-11-22T18:38:55+00:00] scout: paper: [pool/scalp] NOHR closed stop_loss -1.20 after fees
 [2026-11-22T18:39:02+00:00] scout: feed error dexes/pumpswap/pools?page=1&sort=h24_volume_usd_desc: 429
 [2026-11-22T18:40:23+00:00] scout: pass end {"watch": 258, "a_qualify": 34, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=93s
+[2026-11-22T18:43:34+00:00] run start (LOG ONLY)
+[2026-11-22T18:43:43+00:00] discovered=45 fresh=41 market_pass=0
+[2026-11-22T18:43:43+00:00] grok daily budget 2/40 used, 0 no-response, $0.0054 (2026-11-22 UTC)
+[2026-11-22T18:43:43+00:00] run end {"discovered": 45, "skipped_recent": 4, "no_pair": 1, "market": {"pumpfun_bonding_curve": 10, "missing:liquidity_usd": 1, "mcap_too_low": 17, "mcap_too_high": 3, "too_old": 5, "volume_h1_low": 1, "liquidity_low": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=9s
+[2026-11-22T18:43:45+00:00] second_look: 24h UNI Fb4u75SC… (rejected market:mcap_too_low) -> fail: mcap_too_low [dead: price_-90%]
+[2026-11-22T18:43:45+00:00] second_look: 24h GYGES Gcrhut8f… (rejected market:pumpfun_bonding_curve) -> fail: pumpfun_bonding_curve [dead: no_price]
+[2026-11-22T18:43:45+00:00] second_look: 24h ROCKET 6C9r2gzu… (rejected market:volume_h1_low) -> fail: volume_h1_low
+[2026-11-22T18:43:45+00:00] second_look: 24h PUNANI 2TngN4B7… (rejected grok:skip) -> fail: missing:volume_h1_usd [dead: price_-90%]
+[2026-11-22T18:43:45+00:00] second_look: pass end {"queued": 135, "due": 4, "rechecked": 4, "pass": 0, "opened": 0} elapsed=2s
+[2026-11-22T18:43:45+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-22T18:43:55+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-22T18:45:10+00:00] scout: pass end {"watch": 264, "a_qualify": 35, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=85s
