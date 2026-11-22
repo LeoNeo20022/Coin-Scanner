@@ -4175,6 +4175,24 @@
    "age_hours": 2.52,
    "checks": {},
    "done": false
+  },
+  "6J3ApVu8dSLg1TJjBLWSTgmnvJXcH2YyF2iDC48Fpump": {
+   "mint": "6J3ApVu8dSLg1TJjBLWSTgmnvJXcH2YyF2iDC48Fpump",
+   "symbol": "RIZZMAS",
+   "pair": "A69VPN3evwnjepnfQceZ6Bzz5zN9RtieggzfVVfFifgT",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-22T03:39:04+00:00",
+   "rejected_ts": 1795318744,
+   "stage": "rugcheck",
+   "reason": "danger:Creator history of rugged tokens",
+   "reason_key": "rugcheck:danger",
+   "sources": "token-profiles",
+   "price_usd": 9.184e-05,
+   "mcap_usd": 89864,
+   "liquidity_usd": 21814.2,
+   "age_hours": 2.2,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -4619,7 +4637,7 @@
    }
   },
   "2026-11-22": {
-   "total": 8,
+   "total": 9,
    "hours": {
     "00": 3,
     "00|market:liquidity_low": 1,
@@ -4635,7 +4653,8 @@
     "market:mcap_too_low": 2,
     "market:pumpfun_bonding_curve": 2,
     "market:too_new": 1,
-    "grok:skip": 2
+    "grok:skip": 2,
+    "rugcheck:danger": 1
    }
   }
  }
