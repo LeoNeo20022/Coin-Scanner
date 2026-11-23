@@ -3540,6 +3540,24 @@
    "age_hours": 1.0,
    "checks": {},
    "done": false
+  },
+  "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": {
+   "mint": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
+   "symbol": "FSDV15",
+   "pair": "DXVpx5PnefCiLVMucmUxrX2x7MgSDMTggmQgiRA2zV6W",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-23T04:29:01+00:00",
+   "rejected_ts": 1795408141,
+   "stage": "grok",
+   "reason": "132% h6 pump followed by -29% h1 reversal with price still falling; buys remain high but volume and momentum clearly fading.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.001994,
+   "mcap_usd": 1987731,
+   "liquidity_usd": 103939.91,
+   "age_hours": 6.73,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3966,7 +3984,7 @@
    }
   },
   "2026-11-23": {
-   "total": 8,
+   "total": 9,
    "hours": {
     "00": 2,
     "00|market:mcap_too_low": 1,
@@ -3980,7 +3998,7 @@
     "market:mcap_too_low": 2,
     "market:pumpfun_bonding_curve": 2,
     "market:liquidity_low": 1,
-    "grok:skip": 2,
+    "grok:skip": 3,
     "rugcheck:lp_unlocked": 1
    }
   }
