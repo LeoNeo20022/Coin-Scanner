@@ -227,10 +227,6 @@
   "market_logged": 1794894678.7904327,
   "market_reason": "too_old"
  },
- "5jKpVabPGPFwhp1fm1ipRMuw4LBSE3YrJXA82kRKpump": {
-  "market_logged": 1794801919.750901,
-  "market_reason": "mcap_too_low"
- },
  "Ed87eQeDX8yFscuNRgNRSZf7TpEwgNjdRfMxhtGppump": {
   "market_logged": 1794839289.0337484,
   "market_reason": "mcap_too_low"
@@ -240,10 +236,6 @@
   "market_reason": "too_new",
   "judged": 1794805309.4668345,
   "symbol": "Marvin"
- },
- "9paKaZD2DFy4RCSsbQ7U7J5P3rtzhixcUDRqfP5T5eM1": {
-  "market_logged": 1794801919.750901,
-  "market_reason": "missing:liquidity_usd"
  },
  "9zBFZuvWpnwky5563c3qyMVD7sC6cSkuaXHHZiT1pump": {
   "market_logged": 1794802218.783921,
@@ -5371,7 +5363,9 @@
  },
  "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": {
   "market_logged": 1795406632.1665351,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1795406930.0586793,
+  "symbol": "Fly"
  },
  "61yuZf1JyTKqoCfS784SusFGVekA6YUsGTfDg3o6pump": {
   "symbol": "PEACH",
