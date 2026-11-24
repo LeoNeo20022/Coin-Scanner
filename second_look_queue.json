@@ -2284,9 +2284,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-24T12:09:26+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "missing:volume_h1_usd"
     }
    },
-   "done": false
+   "done": true
   },
   "9WB75GUzmTT1P3bvX9WYCHaGdKdZrKiWz7LDBujLpump": {
    "mint": "9WB75GUzmTT1P3bvX9WYCHaGdKdZrKiWz7LDBujLpump",
@@ -2309,9 +2315,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-24T12:09:26+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "GCZ2wKbAC9CwSvmSNnxCJjWu26PoGtaAit32QCUniSon": {
    "mint": "GCZ2wKbAC9CwSvmSNnxCJjWu26PoGtaAit32QCUniSon",
@@ -3229,6 +3241,24 @@
    "age_hours": 8.66,
    "checks": {},
    "done": false
+  },
+  "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": {
+   "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
+   "symbol": "DUVAL",
+   "pair": "CSvKMfrQ2TedEZEDpFSoHbGqxNb1A3w5o2vVM6Y5eoQ5",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-24T12:09:25+00:00",
+   "rejected_ts": 1795522165,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-profiles",
+   "price_usd": 0.0003155,
+   "mcap_usd": 298855,
+   "liquidity_usd": 41950.4,
+   "age_hours": 1.96,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3623,7 +3653,7 @@
    }
   },
   "2026-11-24": {
-   "total": 16,
+   "total": 17,
    "hours": {
     "01": 3,
     "01|market:too_new": 1,
@@ -3648,7 +3678,8 @@
     "grok:skip": 2,
     "market:mcap_too_low": 3,
     "rugcheck:top10": 2,
-    "rugcheck:danger": 1
+    "rugcheck:danger": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
