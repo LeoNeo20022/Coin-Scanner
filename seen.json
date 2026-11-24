@@ -2893,8 +2893,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump": {
-  "market_logged": 1795486264.9274225,
-  "market_reason": "liquidity_low",
+  "market_logged": 1795486564.87248,
+  "market_reason": "too_old",
   "judged": 1795194789.131753,
   "symbol": "HUSS"
  },
@@ -4565,8 +4565,8 @@
   "market_reason": "too_new"
  },
  "9vLdkMGZ9jbKAZZKrxVzShEBuafLkjB7UgHfNh3xpump": {
-  "market_logged": 1795486264.9274225,
-  "market_reason": "liquidity_low"
+  "market_logged": 1795486564.87248,
+  "market_reason": "too_new"
  },
  "3reEjCbDFht7LnNdKncQ3vohYDbAMJWXkbzWLSNhpump": {
   "market_logged": 1795484768.1344266,
@@ -4736,6 +4736,10 @@
  },
  "4R5rnh1KFL33ZnDoADAdLMXgQbKQm2X9R7rZT1Kcpump": {
   "market_logged": 1795485965.7542794,
+  "market_reason": "mcap_too_low"
+ },
+ "Bf9BsNw4NEQR4L28BApWnxvCy1gk9wPBnK8xy4Khpump": {
+  "market_logged": 1795486564.87248,
   "market_reason": "mcap_too_low"
  }
 }
