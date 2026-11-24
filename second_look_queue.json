@@ -2222,9 +2222,15 @@
      "would_pass": "0",
      "dead": "0",
      "result": "liquidity_low"
+    },
+    "48h": {
+     "time": "2026-11-24T11:44:25+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "liquidity_low"
     }
    },
-   "done": false
+   "done": true
   },
   "95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump": {
    "mint": "95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump",
@@ -2247,9 +2253,15 @@
      "would_pass": "0",
      "dead": "1",
      "result": "mcap_too_low"
+    },
+    "48h": {
+     "time": "2026-11-24T11:44:25+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
     }
    },
-   "done": false
+   "done": true
   },
   "3pGmCpDCr2B6cZFhFJFtLrcMCadMvjV4dB9UGJyNpump": {
    "mint": "3pGmCpDCr2B6cZFhFJFtLrcMCadMvjV4dB9UGJyNpump",
@@ -2716,7 +2728,14 @@
    "mcap_usd": 33490.71,
    "liquidity_usd": null,
    "age_hours": 0.19,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-24T11:44:25+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "missing:volume_h1_usd"
+    }
+   },
    "done": false
   },
   "D1cNYbwpkoTjB4fUrMkSoEzgQe2xH7hSkg3XJDpDpump": {
@@ -2734,7 +2753,14 @@
    "mcap_usd": 17668,
    "liquidity_usd": 8450.13,
    "age_hours": 0.96,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-24T11:44:25+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": {
@@ -2752,7 +2778,14 @@
    "mcap_usd": 74612,
    "liquidity_usd": 19065.76,
    "age_hours": 1.19,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-24T11:44:25+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "61yuZf1JyTKqoCfS784SusFGVekA6YUsGTfDg3o6pump": {
@@ -2770,7 +2803,14 @@
    "mcap_usd": 329702,
    "liquidity_usd": 40473.45,
    "age_hours": 1.18,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-24T11:44:25+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "no_solana_pair"
+    }
+   },
    "done": false
   },
   "J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump": {
@@ -2788,7 +2828,14 @@
    "mcap_usd": 272135,
    "liquidity_usd": 37371.45,
    "age_hours": 2.71,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-24T11:44:25+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "missing:volume_h1_usd"
+    }
+   },
    "done": false
   },
   "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": {
@@ -2806,7 +2853,14 @@
    "mcap_usd": 171777,
    "liquidity_usd": 31152.71,
    "age_hours": 1.0,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-24T11:44:25+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": {
