@@ -3175,6 +3175,24 @@
    "age_hours": 11.42,
    "checks": {},
    "done": false
+  },
+  "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6": {
+   "mint": "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6",
+   "symbol": "SHHFT",
+   "pair": "6v2UT2WPbNMRUaNcoGqhzC7uhQ3cTvRPWMvkGAMT6vK",
+   "dex": "raydium",
+   "rejected_at": "2026-11-24T11:54:23+00:00",
+   "rejected_ts": 1795521263,
+   "stage": "market",
+   "reason": "too_new",
+   "reason_key": "market:too_new",
+   "sources": "token-profiles",
+   "price_usd": 9.079e-05,
+   "mcap_usd": 90796,
+   "liquidity_usd": 22318.2,
+   "age_hours": 0.05,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3569,7 +3587,7 @@
    }
   },
   "2026-11-24": {
-   "total": 13,
+   "total": 14,
    "hours": {
     "01": 3,
     "01|market:too_new": 1,
@@ -3579,12 +3597,13 @@
     "02|market:mcap_too_low": 1,
     "02|market:liquidity_low": 1,
     "02|market:pumpfun_bonding_curve": 1,
-    "11": 2,
+    "11": 3,
     "11|market:mcap_too_low": 1,
-    "11|market:pumpfun_bonding_curve": 1
+    "11|market:pumpfun_bonding_curve": 1,
+    "11|market:too_new": 1
    },
    "reasons": {
-    "market:too_new": 1,
+    "market:too_new": 2,
     "market:pumpfun_bonding_curve": 3,
     "market:liquidity_low": 2,
     "grok:skip": 2,
