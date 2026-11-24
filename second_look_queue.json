@@ -3193,6 +3193,42 @@
    "age_hours": 0.05,
    "checks": {},
    "done": false
+  },
+  "6DWcuBamTcneuM3Eoy6iq2vXUF84xMSYNruzfc4Bpump": {
+   "mint": "6DWcuBamTcneuM3Eoy6iq2vXUF84xMSYNruzfc4Bpump",
+   "symbol": "KDA",
+   "pair": "dwr6B3Ah2W7BtWht4ZizQm5UVTw29bksdyi9VwaAec4",
+   "dex": "pumpfun",
+   "rejected_at": "2026-11-24T12:04:23+00:00",
+   "rejected_ts": 1795521863,
+   "stage": "market",
+   "reason": "pumpfun_bonding_curve",
+   "reason_key": "market:pumpfun_bonding_curve",
+   "sources": "token-profiles",
+   "price_usd": 2.512e-06,
+   "mcap_usd": 2512.64,
+   "liquidity_usd": null,
+   "age_hours": 0.18,
+   "checks": {},
+   "done": false
+  },
+  "65ksadfsLqqGt42imSTVSrmV578aksSFzgpGge3dpump": {
+   "mint": "65ksadfsLqqGt42imSTVSrmV578aksSFzgpGge3dpump",
+   "symbol": "AMBER",
+   "pair": "3PZ25CX177v4pb4VZGWnTACooi2rHBnYdsLVUK5JDFB5",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-24T12:04:23+00:00",
+   "rejected_ts": 1795521863,
+   "stage": "market",
+   "reason": "mcap_too_low",
+   "reason_key": "market:mcap_too_low",
+   "sources": "token-profiles",
+   "price_usd": 2.659e-05,
+   "mcap_usd": 25557,
+   "liquidity_usd": 10274.34,
+   "age_hours": 8.66,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3587,7 +3623,7 @@
    }
   },
   "2026-11-24": {
-   "total": 14,
+   "total": 16,
    "hours": {
     "01": 3,
     "01|market:too_new": 1,
@@ -3600,14 +3636,17 @@
     "11": 3,
     "11|market:mcap_too_low": 1,
     "11|market:pumpfun_bonding_curve": 1,
-    "11|market:too_new": 1
+    "11|market:too_new": 1,
+    "12": 2,
+    "12|market:pumpfun_bonding_curve": 1,
+    "12|market:mcap_too_low": 1
    },
    "reasons": {
     "market:too_new": 2,
-    "market:pumpfun_bonding_curve": 3,
+    "market:pumpfun_bonding_curve": 4,
     "market:liquidity_low": 2,
     "grok:skip": 2,
-    "market:mcap_too_low": 2,
+    "market:mcap_too_low": 3,
     "rugcheck:top10": 2,
     "rugcheck:danger": 1
    }

@@ -1,5 +1,21 @@
 {
  "watch": {
+  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
+   "t": 1795521867,
+   "src": "gt:trending_pools"
+  },
+  "H3iGq7KSqdzw7QG3xZo2mF4eaYsvihZqqoAkdXripump": {
+   "t": 1795521867,
+   "src": "gt:trending_pools"
+  },
+  "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": {
+   "t": 1795521867,
+   "src": "gt:trending_pools"
+  },
+  "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+   "t": 1795521867,
+   "src": "gt:trending_pools"
+  },
   "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6": {
    "t": 1795521267,
    "src": "scanner"
@@ -827,10 +843,6 @@
   "HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump": {
    "t": 1795372730,
    "src": "scanner"
-  },
-  "3pGmCpDCr2B6cZFhFJFtLrcMCadMvjV4dB9UGJyNpump": {
-   "t": 1795349066,
-   "src": "scanner"
   }
  },
  "evals": {
@@ -890,7 +902,9 @@
   "5JWeGmA9z6yHd5F9P6B23A8wthho8BpZuDmQv5DfLoat": 1795520374,
   "3oQ4NUo8Gk7dFgo4nZUT6tNTCf6aHG3b7LfdNzrEbkNZ": 1795520669,
   "9cDnmLRDWeJzcpyw8tSFAT7HS4Aunx6MmZWjMfrzpump": 1795520669,
-  "cZ9FE2JtR2XCmYu9hPpFpmxs6ciX6bpBmsVjMn2NUsb": 1795520968
+  "cZ9FE2JtR2XCmYu9hPpFpmxs6ciX6bpBmsVjMn2NUsb": 1795520968,
+  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795521867,
+  "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795521867
  },
  "cool": {
   "pool|NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv": 1795541974,
@@ -1183,7 +1197,8 @@
   "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 6,
   "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 6,
   "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 6,
-  "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 6
+  "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 6,
+  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 6
  },
  "w3_seen": {
   "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794919200.0,
@@ -1435,7 +1450,8 @@
    "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 1795444206,
    "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795485086,
    "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795485699,
-   "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795520985
+   "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795520985,
+   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795521884
   },
   "wait3": {
    "J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump": 1793117299,
@@ -1581,12 +1597,13 @@
    ]
   },
   "2026-11-24": {
-   "pool": 3,
+   "pool": 4,
    "wait3": 0,
    "pool_slots": [
     "0",
     "1",
-    "5"
+    "5",
+    "6"
    ]
   }
  }
