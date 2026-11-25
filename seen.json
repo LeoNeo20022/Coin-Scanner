@@ -1072,8 +1072,8 @@
  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
   "judged": 1795303512.1728168,
   "symbol": "FIONA",
-  "market_logged": 1795650164.3607128,
-  "market_reason": "too_old"
+  "market_logged": 1795650764.328346,
+  "market_reason": "mcap_too_high"
  },
  "3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump": {
   "market_logged": 1795195389.8414974,
@@ -3623,11 +3623,15 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "GRXSoGBqmTkS78Rrvm8QyBJH9XMe8562eZojzHj2pump": {
-  "market_logged": 1795650464.096855,
-  "market_reason": "too_new"
+  "market_logged": 1795650764.328346,
+  "market_reason": "mcap_too_low"
  },
  "2ndz2hhsxDFgU1sQHi8Qjro7KRrTPgen1NJdUtNDpump": {
   "market_logged": 1795650164.3607128,
   "market_reason": "too_new"
+ },
+ "DxyxM6zCgefa74SDQuh2k78pcb4mPfKPtrHNEmbtpump": {
+  "market_logged": 1795650764.328346,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
