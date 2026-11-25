@@ -3219,6 +3219,24 @@
    "age_hours": 1.53,
    "checks": {},
    "done": false
+  },
+  "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": {
+   "mint": "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi",
+   "symbol": "MCAT",
+   "pair": "9pqo6WVjKvYNnRgvPVaoTe1zZvnhtB248ChKnUmKfHH4",
+   "dex": "raydium",
+   "rejected_at": "2026-11-25T04:45:22+00:00",
+   "rejected_ts": 1795581922,
+   "stage": "rugcheck",
+   "reason": "top10",
+   "reason_key": "rugcheck:top10",
+   "sources": "community-takeovers",
+   "price_usd": 0.0001233,
+   "mcap_usd": 123342,
+   "liquidity_usd": 60423.02,
+   "age_hours": 59.47,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3592,7 +3610,7 @@
    }
   },
   "2026-11-25": {
-   "total": 5,
+   "total": 6,
    "hours": {
     "04": 3,
     "04|market:pumpfun_bonding_curve": 1,
@@ -3603,7 +3621,7 @@
     "market:pumpfun_bonding_curve": 1,
     "market:mcap_too_low": 1,
     "market:too_new": 1,
-    "rugcheck:top10": 1,
+    "rugcheck:top10": 2,
     "rugcheck:danger": 1
    }
   }
