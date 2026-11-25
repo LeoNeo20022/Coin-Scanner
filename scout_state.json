@@ -1,5 +1,9 @@
 {
  "watch": {
+  "GRXSoGBqmTkS78Rrvm8QyBJH9XMe8562eZojzHj2pump": {
+   "t": 1795649870,
+   "src": "scanner"
+  },
   "58QyXQ1UDgHh64EiTsCeevVM9cLPqBDNf3qZE6EdfUhZ": {
    "t": 1795649571,
    "src": "gt:trending_pools"
@@ -865,7 +869,7 @@
   "9cDnmLRDWeJzcpyw8tSFAT7HS4Aunx6MmZWjMfrzpump": 1795520669,
   "cZ9FE2JtR2XCmYu9hPpFpmxs6ciX6bpBmsVjMn2NUsb": 1795520968,
   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795618762,
-  "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795619050,
+  "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795649870,
   "6nQCcuXypcAjncXK7gzvJcdwvqitgJRdG3k1no4Jpump": 1795583124,
   "9qZfA8rQgLXRXThMU8MDUoQHykZeN6iQjrqrCtdHpump": 1795557606,
   "7CvW68FD9KjNYGByfykhaNps7VNPLN8dFwMRfmgQpump": 1795557606,
@@ -1203,7 +1207,8 @@
   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 6,
   "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 6,
   "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6": 6,
-  "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": 6
+  "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": 6,
+  "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 6
  },
  "w3_seen": {
   "5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump": 1795115100.0,
@@ -1454,7 +1459,8 @@
    "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795521884,
    "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795556724,
    "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6": 1795582845,
-   "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": 1795619066
+   "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": 1795619066,
+   "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795649886
   },
   "wait3": {
    "J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump": 1793117299,
@@ -1595,11 +1601,12 @@
    ]
   },
   "2026-11-25": {
-   "pool": 2,
+   "pool": 3,
    "wait3": 0,
    "pool_slots": [
     "2",
-    "7"
+    "7",
+    "11"
    ]
   }
  }
