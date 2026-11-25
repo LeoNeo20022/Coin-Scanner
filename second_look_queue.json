@@ -3344,6 +3344,24 @@
    "age_hours": 3.54,
    "checks": {},
    "done": false
+  },
+  "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": {
+   "mint": "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump",
+   "symbol": "Jimmies",
+   "pair": "BXrbrMuLSW1qaS4P3R7AUPR6YX2E56Re94WJedoxLiV5",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-25T14:59:18+00:00",
+   "rejected_ts": 1795618758,
+   "stage": "grok",
+   "reason": "Sharp -24.8% h1 drop with volume collapsing from h6 levels shows fading momentum. Buys still edge sells but not enough to offset sell pressure.",
+   "reason_key": "grok:skip",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.001094,
+   "mcap_usd": 1083084,
+   "liquidity_usd": 73537.78,
+   "age_hours": 15.7,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3717,7 +3735,7 @@
    }
   },
   "2026-11-25": {
-   "total": 13,
+   "total": 14,
    "hours": {
     "04": 3,
     "04|market:pumpfun_bonding_curve": 1,
@@ -3739,7 +3757,8 @@
     "rugcheck:top10": 2,
     "rugcheck:danger": 1,
     "market:liquidity_low": 1,
-    "rugcheck:lp_unlocked": 1
+    "rugcheck:lp_unlocked": 1,
+    "grok:skip": 1
    }
   }
  }
