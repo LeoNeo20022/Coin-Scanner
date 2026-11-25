@@ -3295,8 +3295,8 @@
   "market_reason": "mcap_too_low"
  },
  "GpCiqGaWm9Lk98r8iFr5W32dkFMVq8suBRDdkfqbpump": {
-  "market_logged": 1795582216.7625346,
-  "market_reason": "missing:volume_h1_usd"
+  "market_logged": 1795582817.7046287,
+  "market_reason": "mcap_too_low"
  },
  "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": {
   "symbol": "JENSEN",
@@ -3750,8 +3750,8 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "BWPv5jje9xipZ6V4q855fjiu5e7HiWGNvS5x8c1Mpump": {
-  "market_logged": 1795581018.0257082,
-  "market_reason": "volume_h1_low"
+  "market_logged": 1795582817.7046287,
+  "market_reason": "mcap_too_low"
  },
  "CFb9gspSW7LtfExqbJX13m6cT2WtbYT6Ftp2x8pWpump": {
   "market_logged": 1795581018.0257082,
@@ -3812,5 +3812,9 @@
  "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": {
   "market_logged": 1795582216.7625346,
   "market_reason": "too_new"
+ },
+ "4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump": {
+  "market_logged": 1795582817.7046287,
+  "market_reason": "pumpfun_bonding_curve"
  }
 }
