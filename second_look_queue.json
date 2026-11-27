@@ -2747,6 +2747,24 @@
    "age_hours": 3.27,
    "checks": {},
    "done": false
+  },
+  "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": {
+   "mint": "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump",
+   "symbol": "Snowball",
+   "pair": "AirCDeU4yL6hjuina65mtWAKzmex7STKZSiNMYZhzKt2",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-27T05:36:00+00:00",
+   "rejected_ts": 1795757760,
+   "stage": "rugcheck",
+   "reason": "lp_unlocked",
+   "reason_key": "rugcheck:lp_unlocked",
+   "sources": "token-boosts,token-boosts/top",
+   "price_usd": 0.0005709,
+   "mcap_usd": 570984,
+   "liquidity_usd": 60695.86,
+   "age_hours": 35.23,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3063,7 +3081,7 @@
    }
   },
   "2026-11-27": {
-   "total": 7,
+   "total": 8,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -3079,7 +3097,8 @@
     "market:too_new": 2,
     "market:sells_ge_buys_h1": 1,
     "market:pumpfun_bonding_curve": 1,
-    "rugcheck:top10": 1
+    "rugcheck:top10": 1,
+    "rugcheck:lp_unlocked": 1
    }
   }
  }
