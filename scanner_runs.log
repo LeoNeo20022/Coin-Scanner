@@ -1,22 +1,3 @@
-[2026-11-17T15:43:46+00:00] run end {"discovered": 60, "skipped_recent": 13, "no_pair": 0, "market": {"mcap_too_low": 18, "pumpfun_bonding_curve": 12, "too_new": 1, "missing:liquidity_usd": 2, "liquidity_low": 1, "too_old": 9, "volume_h1_low": 1, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-11-17T15:43:51+00:00] second_look: pass end {"queued": 240, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
-[2026-11-17T15:43:51+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-17T15:44:54+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-17T15:44:54+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-11-17T15:44:54+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-17T15:45:44+00:00] scout: pass end {"watch": 349, "a_qualify": 3, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=112s
-[2026-11-17T15:48:37+00:00] run start (LOG ONLY)
-[2026-11-17T15:48:46+00:00] discovered=60 fresh=47 market_pass=0
-[2026-11-17T15:48:46+00:00] grok daily budget 5/40 used, 1 no-response, $0.0139 (2026-11-17 UTC)
-[2026-11-17T15:48:46+00:00] run end {"discovered": 60, "skipped_recent": 13, "no_pair": 0, "market": {"pumpfun_bonding_curve": 12, "mcap_too_low": 17, "too_new": 1, "liquidity_low": 2, "missing:liquidity_usd": 2, "too_old": 9, "volume_h1_low": 1, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
-[2026-11-17T15:48:51+00:00] second_look: pass end {"queued": 240, "due": 0, "rechecked": 0, "pass": 0, "opened": 0} elapsed=4s
-[2026-11-17T15:48:51+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
-[2026-11-17T15:49:43+00:00] scout: paper: [pool/scalp] SUPERPLUMB closed take_profit +1.73 after fees
-[2026-11-17T15:49:54+00:00] scout: feed error trending_pools?page=1: 429
-[2026-11-17T15:49:54+00:00] scout: feed error trending_pools?page=1&duration=1h: 429
-[2026-11-17T15:49:54+00:00] scout: feed error new_pools?page=1: 429
-[2026-11-17T15:50:43+00:00] scout: pass end {"watch": 349, "a_qualify": 4, "a_open": 0, "b_eval": 4, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=112s
-[2026-11-17T15:53:37+00:00] run start (LOG ONLY)
 [2026-11-17T15:53:46+00:00] discovered=60 fresh=47 market_pass=0
 [2026-11-17T15:53:46+00:00] grok daily budget 5/40 used, 1 no-response, $0.0139 (2026-11-17 UTC)
 [2026-11-17T15:53:47+00:00] run end {"discovered": 60, "skipped_recent": 13, "no_pair": 0, "market": {"mcap_too_low": 19, "pumpfun_bonding_curve": 12, "too_new": 1, "missing:liquidity_usd": 2, "too_old": 9, "volume_h1_low": 1, "mcap_too_high": 3}, "rug": {}, "grok": 0, "BUY": 0, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 0} elapsed=10s
@@ -4998,3 +4979,22 @@
 [2026-11-27T16:00:30+00:00] scout: paper: [pool/scalp] KITT closed take_profit +1.73 after fees
 [2026-11-27T16:00:37+00:00] scout: feed error new_pools?page=1: 429
 [2026-11-27T16:01:59+00:00] scout: pass end {"watch": 217, "a_qualify": 16, "a_open": 0, "b_eval": 5, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=93s
+[2026-11-27T23:36:59+00:00] run start (LOG ONLY)
+[2026-11-27T23:37:08+00:00] discovered=53 fresh=51 market_pass=4
+[2026-11-27T23:37:08+00:00] grok daily budget 3/40 used, 0 no-response, $0.0086 (2026-11-27 UTC)
+[2026-11-27T23:37:21+00:00] grok call 7.2s model=grok-4.3 tokens=996+84 reasoning=495
+[2026-11-27T23:37:21+00:00] grok [rugcheck] Fireball B9wbjDJ4… -> BUY (0.82) Buys remain dominant and broad (2509/556 h1, 184/35 m5) with no fade; top-10 at 15% and zero warns/dangers. | risk: Ongoing price decline (-19% h1, -30% h6) could signal continued distribution
+[2026-11-27T23:37:21+00:00] paper BUY $10 Fireball @ 0.0006338
+[2026-11-27T23:37:21+00:00] paper SHADOW BUY [target5] $10 Fireball @ 0.0006338
+[2026-11-27T23:37:21+00:00] paper SHADOW BUY [scalp] $10 Fireball @ 0.0006338
+[2026-11-27T23:37:24+00:00] run end {"discovered": 53, "skipped_recent": 2, "no_pair": 1, "market": {"mcap_too_low": 12, "pumpfun_bonding_curve": 17, "missing:liquidity_usd": 2, "missing:mcap_usd": 1, "too_old": 7, "mcap_too_high": 2, "liquidity_low": 2, "missing:volume_h1_usd": 3}, "rug": {"insiders": 2, "lp_unlocked": 1}, "grok": 1, "BUY": 1, "SKIP": 0, "deferred": 0, "deferred_budget": 0, "fallback": 0, "second_look_queued": 6} elapsed=25s
+[2026-11-27T23:37:26+00:00] second_look: 48h River HJxaaQv6… (rejected market:pumpfun_bonding_curve) -> fail: missing:volume_h1_usd [dead: no_volume_24h]
+[2026-11-27T23:37:26+00:00] second_look: 48h PVE BQTG5qcy… (rejected market:too_new) -> fail: mcap_too_low [dead: price_-90%]
+[2026-11-27T23:37:26+00:00] second_look: 48h NAOMI 3r8aZCBK… (rejected market:mcap_too_low) -> fail: missing:volume_h1_usd [dead: no_volume_24h]
+[2026-11-27T23:37:26+00:00] second_look: 48h Grodia 6HS1aeSk… (rejected grok:skip) -> fail: missing:volume_h1_usd [dead: no_volume_24h]
+[2026-11-27T23:37:26+00:00] second_look: pass end {"queued": 102, "due": 4, "rechecked": 4, "pass": 0, "opened": 0} elapsed=2s
+[2026-11-27T23:37:26+00:00] launch: pass end {"inbox": 0, "eligible": 0, "market_fail": 0, "rugchecked": 0, "token_fail": 0, "opened": 0, "skipped_cap": 0} today buys 0/24 elapsed=0s
+[2026-11-27T23:37:29+00:00] scout: paper: [pool/hold] KITT closed stop_loss +2.22 after fees
+[2026-11-27T23:37:36+00:00] scout: feed error new_pools?page=1: 429
+[2026-11-27T23:38:14+00:00] scout: wait3 candles error HAP9FcXu RuntimeError
+[2026-11-27T23:38:58+00:00] scout: pass end {"watch": 215, "a_qualify": 40, "a_open": 0, "b_eval": 6, "b_signal": 0, "b_open": 0, "fail": {}} elapsed=92s
