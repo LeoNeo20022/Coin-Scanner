@@ -1,67 +1,5 @@
 {
  "entries": {
-  "ADs7gnpeYvkBLthYhqRcrVTeGSFQuqfYnv3PbS6Bpump": {
-   "mint": "ADs7gnpeYvkBLthYhqRcrVTeGSFQuqfYnv3PbS6Bpump",
-   "symbol": "XMAS",
-   "pair": "2YhArf6uVwnaLaMYLKhDmwe77sh6UaXitQSqeUY44oTf",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-22T23:47:57+00:00",
-   "rejected_ts": 1795391277,
-   "stage": "grok",
-   "reason": "190% h6 pump followed by -35% m5 crash shows classic blow-off top with fading spike. Buys remain high but price action indicates distribution, not organic conti",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.000101,
-   "mcap_usd": 99964,
-   "liquidity_usd": 21566.33,
-   "age_hours": 1.39,
-   "checks": {
-    "24h": {
-     "time": "2026-11-24T01:56:10+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "missing:volume_h1_usd"
-    },
-    "48h": {
-     "time": "2026-11-25T04:30:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "missing:volume_h1_usd"
-    }
-   },
-   "done": true
-  },
-  "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": {
-   "mint": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
-   "symbol": "COPIUM",
-   "pair": "8rJw3DbbzfzKYF5tiNEsjqPyJtEPZg8dZ7dNb2SEbuPP",
-   "dex": "pumpswap",
-   "rejected_at": "2026-11-22T23:48:21+00:00",
-   "rejected_ts": 1795391301,
-   "stage": "grok",
-   "reason": "1885% h6 gain after only 2h age screams blow-off top; recent m5 flat with declining momentum vs h1.",
-   "reason_key": "grok:skip",
-   "sources": "token-profiles",
-   "price_usd": 0.0006521,
-   "mcap_usd": 645532,
-   "liquidity_usd": 57234.01,
-   "age_hours": 2.09,
-   "checks": {
-    "24h": {
-     "time": "2026-11-24T01:56:10+00:00",
-     "would_pass": "1",
-     "dead": "0",
-     "result": "pass"
-    },
-    "48h": {
-     "time": "2026-11-25T04:30:27+00:00",
-     "would_pass": "0",
-     "dead": "1",
-     "result": "mcap_too_low"
-    }
-   },
-   "done": true
-  },
   "EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump": {
    "mint": "EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump",
    "symbol": "ZOL",
@@ -2224,7 +2162,14 @@
    "mcap_usd": 172342,
    "liquidity_usd": 28361.16,
    "age_hours": 0.48,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-27T23:52:13+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "missing:volume_h1_usd"
+    }
+   },
    "done": false
   },
   "FxWDDcxosMaRnFRzzDQisFjN4a5Gip5ECs7MtsQYFLoW": {
@@ -2242,7 +2187,14 @@
    "mcap_usd": 46166,
    "liquidity_usd": 14848.62,
    "age_hours": 0.3,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-27T23:52:13+00:00",
+     "would_pass": "0",
+     "dead": "1",
+     "result": "mcap_too_low"
+    }
+   },
    "done": false
   },
   "8m8bBvWiHi7VDP36bjQ8cdhMnnQUJTAhp3QxEYBApump": {
@@ -2260,7 +2212,14 @@
    "mcap_usd": 3314.35,
    "liquidity_usd": null,
    "age_hours": 7.05,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-27T23:52:13+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "pumpfun_bonding_curve"
+    }
+   },
    "done": false
   },
   "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": {
@@ -2278,7 +2237,14 @@
    "mcap_usd": 201324,
    "liquidity_usd": 38928.25,
    "age_hours": 1.41,
-   "checks": {},
+   "checks": {
+    "24h": {
+     "time": "2026-11-27T23:52:13+00:00",
+     "would_pass": "0",
+     "dead": "0",
+     "result": "volume_h1_low"
+    }
+   },
    "done": false
   },
   "B2JjjQfrDAiDM99haXM5jpFibxbQaPvdqX7aB9Tupump": {
