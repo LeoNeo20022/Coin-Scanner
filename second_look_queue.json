@@ -2774,6 +2774,24 @@
    "age_hours": 1.36,
    "checks": {},
    "done": false
+  },
+  "F5LxbqJxAMrvfxLbqPckErmqNyiPzDJMUXnX8vrhpump": {
+   "mint": "F5LxbqJxAMrvfxLbqPckErmqNyiPzDJMUXnX8vrhpump",
+   "symbol": "KITT",
+   "pair": "Cn4He1ujAoJ3SxTwy1wX9RGJJ1qQzGH5W34SfHo2ceDv",
+   "dex": "pumpswap",
+   "rejected_at": "2026-11-27T15:35:38+00:00",
+   "rejected_ts": 1795793738,
+   "stage": "grok",
+   "reason": "198% h6 and 79% h1 gains with strong but fading buy pressure point to blow-off top. Volume high yet price action already extreme for 1.76h age.",
+   "reason_key": "grok:skip",
+   "sources": "token-profiles",
+   "price_usd": 9.147e-05,
+   "mcap_usd": 91473,
+   "liquidity_usd": 20650.22,
+   "age_hours": 1.76,
+   "checks": {},
+   "done": false
   }
  },
  "days": {
@@ -3090,7 +3108,7 @@
    }
   },
   "2026-11-27": {
-   "total": 15,
+   "total": 16,
    "hours": {
     "00": 3,
     "00|market:mcap_too_low": 1,
@@ -3117,7 +3135,8 @@
     "rugcheck:top10": 1,
     "rugcheck:lp_unlocked": 1,
     "market:liquidity_low": 2,
-    "rugcheck:insiders": 1
+    "rugcheck:insiders": 1,
+    "grok:skip": 1
    }
   }
  }

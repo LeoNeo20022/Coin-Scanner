@@ -3438,8 +3438,8 @@
   "market_reason": "missing:liquidity_usd"
  },
  "54jKBorvDP4eB7vZnWy1HJfhm4X17pSJCE6o2Lshpump": {
-  "market_logged": 1795793423.3907497,
-  "market_reason": "too_new"
+  "market_logged": 1795793724.346501,
+  "market_reason": "liquidity_low"
  },
  "EVASJxNTfg5P8qrj3crg11pQNDva6fqzfHavZ9NLpump": {
   "market_logged": 1795793123.3535037,
@@ -3470,7 +3470,9 @@
  },
  "F5LxbqJxAMrvfxLbqPckErmqNyiPzDJMUXnX8vrhpump": {
   "market_logged": 1795793123.3535037,
-  "market_reason": "liquidity_low"
+  "market_reason": "liquidity_low",
+  "symbol": "KITT",
+  "judged": 1795793724.346501
  },
  "GXpQZkap4ExgQTTX4SXfETV7nt1YZKEZSakqos3hpump": {
   "market_logged": 1795793123.3535037,
@@ -3507,5 +3509,9 @@
  "Bwwc9n2mPn1k5rGv6UjAudiPPYmQpSzYevddjdmHpump": {
   "market_logged": 1795793423.3907497,
   "market_reason": "volume_h1_low"
+ },
+ "5rRxk9FC3ma11neg8BGLwTWxt4PokH19Y92sERwa2PJ3": {
+  "market_logged": 1795793724.346501,
+  "market_reason": "liquidity_low"
  }
 }
