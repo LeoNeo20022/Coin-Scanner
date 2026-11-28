@@ -1516,8 +1516,8 @@
   "market_reason": "mcap_too_low"
  },
  "7ACq9bgHPCT33TWC6yaxLX5CfNQBbFachy9xKD7Spump": {
-  "market_logged": 1795824429.5922155,
-  "market_reason": "liquidity_low"
+  "market_logged": 1795842694.344994,
+  "market_reason": "too_old"
  },
  "GpCiqGaWm9Lk98r8iFr5W32dkFMVq8suBRDdkfqbpump": {
   "market_logged": 1795582817.7046287,
@@ -3222,7 +3222,9 @@
  },
  "3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump": {
   "market_logged": 1795842393.8994067,
-  "market_reason": "too_new"
+  "market_reason": "too_new",
+  "judged": 1795842694.344994,
+  "symbol": "RICE"
  },
  "EUkFDTry511qdU6PDPKGXzDx157W9MCAS8sJoeWxpump": {
   "market_logged": 1795841794.7990305,
@@ -3313,7 +3315,7 @@
   "market_reason": "pumpfun_bonding_curve"
  },
  "ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": {
-  "market_logged": 1795842094.333172,
-  "market_reason": "too_new"
+  "market_logged": 1795842694.344994,
+  "market_reason": "mcap_too_high"
  }
 }
